@@ -1,6 +1,17 @@
 {
-  "get": {
+  "word": "boa", 
+  "line_num": 9, 
+  "file_name": "1.json", 
+  "wikipedia": {
     "file_name": "1.json", 
+    "word": "wikipedia", 
+    "line_index": 1, 
+    "line_num": 6
+  }, 
+  "line_index": 1, 
+  "boa": {
+    "file_name": "1.json", 
+    "word": "boa", 
     "line_index": 1, 
     "line_num": 9
   }
