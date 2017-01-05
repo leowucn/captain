@@ -4,21 +4,36 @@ import re
 import requests
 import bs4
 import json
+import collections
+import os
+import codecs
 
-json_words_meaning = './json_words_meaning'
+words_index = './words_index.json'
 
-meaning_type = ('basic', 'phrase', 'synonyms', 'rel_word_tab', 'discriminate', 'collins')
+# key of xxx.json item
+meaning_type = ('word', 'basic', 'phrase', 'synonyms', 'rel_word_tab', 'discriminate', 'collins')
 
-class Word:
+# index introduction
+# tmp = dict()
+# t = dict()
+# t['line_index'] = 1
+# t['line_num'] = 1   # the line num in which the content takes
+# t['file_name'] = 1.json
+# tmp['word'] = t
+
+class TackleWord:
 	def __init__(self):
-		pass
+		self.index_dict = dict()
+		self.load_index_file()
 
-	def query_word_meaning(self, word):
+	def get_word_meaning(self, word):
 		url = 'http://dict.youdao.com/w/eng/' + word
 		res = requests.get(url)
 		soup = bs4.BeautifulSoup(res.content, 'lxml')
-		word_meaning_dict = dict()
+		word_meaning_dict = collections.OrderedDict()
 
+		# ----------------------word-----------------------
+		word_meaning_dict['word'] = word
 		# ----------------------basic-----------------------
 		pronunciation = soup.find('div', attrs={'class': 'baav'})
 		pronunciation_str = ''
@@ -122,16 +137,88 @@ class Word:
 			collins_str = collins_str[collins_str.find('*'):]
 			word_meaning_dict['collins'] = collins_str
 
-		for key, value in word_meaning_dict.items():
-			print(value.encode('utf-8'))
-			print('-------------')
+		#for key, value in word_meaning_dict.items():
+		#	print(value.encode('utf-8'))
+		#	print('-------------')
 		return word_meaning_dict
 
+	def query_word(self, word):
+		meaning = ''
+		if word in self.index_dict:
+			with open(self.index_dict[word]['file_name']) as f:
+				i = 0
+				tmp_file_name = './tmp.json'
+				fp = file(tmp_file_name, 'wb')
+				for line_content in f:
+					i += 1
+					if self.index_dict[word]['line_index'] <= i <= self.index_dict[word]['line_index'] + self.index_dict[word]['line_num']:
+						fp.write(line_content)
 
-	def write(self, word_meaning):
-		f = open(json_words_meaning, 'w+')
-		json.dump(word_meaning, f)
+				with codecs.open(tmp_file_name, 'r', encoding='utf-8') as data_file:
+					meaning = json.loads(data_file.read())
+				#with open(tmp_file_name) as data_file:
+				#	meaning = json.load(data_file)
+				# try:
+				# 	os.remove(tmp_file_name)
+				# except OSError:
+				# 	pass
+		else:
+			meaning = self.get_word_meaning(word)
+			self.update(meaning)
+		return meaning
 
+	def get_latest_file_digit_name(self):
+		files = [f for f in os.listdir('.') if os.path.isfile(f)]
+
+		max_num = 1
+		for filename in files:
+			name = os.path.splitext(filename)[0]
+			if not name.isdigit():
+				continue
+			num = int(name)
+			if num > max_num:
+				max_num = num
+		return max_num
+
+	def update(self, data):
+		digit_name = self.get_latest_file_digit_name()
+		file_name = str(digit_name) + '.json'
+		print(file_name)
+
+		num_lines = sum(1 for line in open(file_name, 'w+'))
+		if num_lines >= 5000:   # restraint file size, if not, the speed may descend
+			file_name = str(digit_name + 1) + '.json'
+
+		num_lines_before = sum(1 for line in open(file_name))
+		self.write_to_json_file(file_name, data)
+		num_lines_after = sum(1 for line in open(file_name))
+
+		index_info = dict()
+		index_info['line_index'] = num_lines_before + 1
+		index_info['file_name'] = file_name
+		index_info['line_num'] = num_lines_after
+		self.index_dict[data['word']] = index_info
+		self.write_to_json_file(words_index, self.index_dict)
+
+	def write_to_json_file(self, file_name, data):
+		if not os.path.isfile(file_name):
+			with open(file_name, mode='w') as f:
+				f.write(json.dumps(data, indent=2))
+		else:
+			num_lines = sum(1 for line in open(file_name))
+			feeds = collections.OrderedDict()
+			if num_lines > 0:
+				with codecs.open(file_name, 'r', encoding='gbk') as feedsjson:
+					feeds = json.load(feedsjson)
+
+			feeds.update(data)
+			with codecs.open(file_name, 'w+', encoding='gbk') as f:
+				f.write(json.dumps(feeds, indent=2))
+
+	def load_index_file(self):
+		if os.path.isfile(words_index):
+			with open(words_index, 'r') as fp:
+				self.index_dict = json.load(fp)
 
 def is_alpha_and_x(src_str, x):
 	has_alpha = False
@@ -173,6 +260,11 @@ def whether_only_alpha(src_str):
 	return True
 
 
+word = TackleWord()
+#word.get_word_meaning('get')
+m = word.query_word('get')
+print(m)
+#word_meaning_dict = word.get_word_meaning('get')
+#word.write_to_json_file('1.json', word_meaning_dict)
 
-word = Word()
-t = word.query_word_meaning('get')
+#word.generate_new_filename()
