@@ -3,25 +3,35 @@ import re
 import requests
 import bs4
 import json
-import collections
 import os
+from time import gmtime, strftime
 
-words_index = './words_index.json'   # index file
-#meaning_type = ('word', 'basic', 'phrase', 'synonyms', 'rel_word_tab', 'discriminate', 'collins')
+dict_dir = './dict'
+words_dir = './words'
+words_index_file = './words_index.json'   # index file
+
+# all types that might appear in querying result.
+# 'basic'       ------>基本释义
+# 'phrase'      ------>词组短语
+# 'synonyms'    ------>同近义词
+# 'rel_word_tab'------>同根词
+# 'discriminate'------>词语辨析
+# 'collins'     ------>柯林斯
+# 'date'        ------>单词录入时间
 
 
-class TackleWord:
+class TackleWords:
 	def __init__(self):
-		self.index_dict = collections.OrderedDict()
-		if self.get_file_line_count(words_index):
-			with open(words_index, 'r') as fp:
+		self.index_dict = dict()
+		if self.get_file_line_count(words_index_file):
+			with open(words_index_file, 'r') as fp:
 				self.index_dict = json.load(fp)
 
 	def get_word_meaning(self, word):
 		url = 'http://dict.youdao.com/w/eng/' + word
 		res = requests.get(url)
 		soup = bs4.BeautifulSoup(res.content, 'lxml')
-		word_meaning_dict = collections.OrderedDict()
+		word_meaning_dict = dict()
 
 		# ----------------------basic-----------------------
 		pronunciation = soup.find('div', attrs={'class': 'baav'})
@@ -130,6 +140,9 @@ class TackleWord:
 			collins_str = collins_str[collins_str.find('*'):]
 			word_meaning_dict['collins'] = collins_str
 
+		# ---------------------date---------------------
+		word_meaning_dict['date'] = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+
 		result = dict()
 		result[word] = word_meaning_dict
 		return result
@@ -138,7 +151,7 @@ class TackleWord:
 		meaning = dict()
 		if word in self.index_dict:
 			file_name = self.index_dict[word]['file_name']
-			with open('./' + file_name) as f:
+			with open(os.path.join(dict_dir, file_name)) as f:
 				i = 0
 				for line_content in f:
 					i += 1
@@ -157,8 +170,17 @@ class TackleWord:
 			self.update(meaning)
 		return meaning
 
+	def import_word_build_list(self):
+		files = [f for f in os.listdir(words_dir) if os.path.isfile(os.path.join(words_dir, f))]
+		for filename in files:
+			extend_formt = os.path.splitext(filename)[1]
+			#print('filename = ' + filename + ', extend_format = ' + extend_formt)
+			if extend_formt != '.txt':
+				pass
+
+
 	def get_latest_file_digit_name(self):
-		files = [f for f in os.listdir('.') if os.path.isfile(f)]
+		files = [f for f in os.listdir(dict_dir) if os.path.isfile(os.path.join(dict_dir, f))]
 
 		max_num = 1
 		for filename in files:
@@ -172,13 +194,13 @@ class TackleWord:
 
 	def get_all_dict_file_list(self):
 		lst = []
-		files = [f for f in os.listdir('.') if os.path.isfile(f)]
+		files = [f for f in os.listdir(dict_dir) if os.path.isfile(os.path.join(dict_dir, f))]
 
 		for filename in files:
 			name = os.path.splitext(filename)[0]
 			if not name.isdigit():
 				continue
-			lst.append(name + '.json')
+			lst.append(os.path.join(dict_dir, filename))
 		return lst
 
 	def update(self, data):
@@ -188,11 +210,11 @@ class TackleWord:
 		num_lines = self.get_file_line_count(file_name)
 		if num_lines >= 5000:   # restraint file size, if not, the dict file may be too huge.
 			file_name = str(digit_name + 1) + '.json'
-		self.write_to_json_file(file_name, data)
+		self.write_to_json_file(os.path.join(dict_dir, file_name), data)
 		self.update_index_dict()
 
 	def write_to_json_file(self, file_name, data):
-		feeds = collections.OrderedDict()
+		feeds = dict()
 		if not os.path.isfile(file_name):
 			with open(file_name, mode='w') as f:
 				for key, value in data.iteritems():
@@ -200,7 +222,7 @@ class TackleWord:
 				f.write(json.dumps(feeds, indent=2))
 		else:
 			num_lines = self.get_file_line_count(file_name)
-			feeds = collections.OrderedDict()
+			feeds = dict()
 			if num_lines > 0:
 				with open(file_name) as feedsjson:
 					feeds = json.load(feedsjson)
@@ -211,11 +233,12 @@ class TackleWord:
 				f.write(json.dumps(feeds, indent=2))
 
 	def update_index_dict(self):
-		dict_index_dict = collections.OrderedDict()
+		dict_index_dict = dict()
 		dict_file_lst = self.get_all_dict_file_list()
 
+		print(dict_file_lst)
 		for file_name in dict_file_lst:
-			with open('./' + file_name) as f:
+			with open(file_name) as f:
 				i = 0
 				for line in f:
 					i += 1
@@ -223,15 +246,15 @@ class TackleWord:
 						continue
 					if line.strip('\n').endswith('{'):
 						word = re.sub(r'\W+', '', line)
-						word_index_info = collections.OrderedDict()
+						word_index_info = dict()
 						word_index_info['line_index'] = i
 						word_index_info['file_name'] = file_name
 						dict_index_dict[word] = word_index_info
 		try:
-			os.remove(words_index)
+			os.remove(words_index_file)
 		except OSError:
 			pass
-		self.write_to_json_file(words_index, dict_index_dict)
+		self.write_to_json_file(words_index_file, dict_index_dict)
 		self.index_dict = dict_index_dict
 
 		# extract content exactly from quotation mark
@@ -314,12 +337,12 @@ def test(fname):
 		print('---------')
 
 
-tackle_word = TackleWord()
-#m = word.get_word_meaning('get')
-#m = word.query_word('get')
-#m = word.query_word('boa')
-m = tackle_word.query_word('love')
-#m = word.query_word('wikipedia')
+tackle_words = TackleWords()
+#m = tackle_words.get_word_meaning('get')
+#m = tackle_words.query_word('get')
+m = tackle_words.query_word('boa')
+#m = tackle_words.query_word('love')
+#m = tackle_words.query_word('wikipedia')
 #print(m)
-#word_word_meaning_dict = word.get_word_meaning('get')
-#word.write_to_json_file('1.json', word_word_meaning_dict)
+
+tackle_words.import_word_build_list()

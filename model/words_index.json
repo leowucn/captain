@@ -1,10 +1,6 @@
 {
   "boa": {
-    "line_index": 2, 
-    "file_name": "1.json"
-  }, 
-  "love": {
-    "line_index": 8, 
-    "file_name": "1.json"
+    "file_name": "./dict/1.json", 
+    "line_index": 2
   }
 }
