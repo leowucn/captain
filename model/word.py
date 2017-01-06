@@ -314,11 +314,11 @@ def test(fname):
 		print('---------')
 
 
-word = TackleWord()
+tackle_word = TackleWord()
 #m = word.get_word_meaning('get')
 #m = word.query_word('get')
 #m = word.query_word('boa')
-m = word.query_word('love')
+m = tackle_word.query_word('love')
 #m = word.query_word('wikipedia')
 #print(m)
 #word_word_meaning_dict = word.get_word_meaning('get')
