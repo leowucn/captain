@@ -1,41 +1,28 @@
 # -*- coding: utf-8 -*-
-from __future__ import print_function, unicode_literals
 import re
 import requests
 import bs4
 import json
 import collections
 import os
-import simplejson
-import sys
 
-words_index = './words_index.json'
+words_index = './words_index.json'   # index file
+#meaning_type = ('word', 'basic', 'phrase', 'synonyms', 'rel_word_tab', 'discriminate', 'collins')
 
-# key of xxx.json item
-meaning_type = ('word', 'basic', 'phrase', 'synonyms', 'rel_word_tab', 'discriminate', 'collins')
-
-# index introduction
-# tmp = dict()
-# t = dict()
-# t['line_index'] = 1
-# t['line_num'] = 1   # the line num in which the content takes
-# t['file_name'] = 1.json
-# tmp['word'] = t
 
 class TackleWord:
 	def __init__(self):
-		self.index_dict = dict()
-		self.load_index_file()
+		self.index_dict = collections.OrderedDict()
+		if self.get_file_line_count(words_index):
+			with open(words_index, 'r') as fp:
+				self.index_dict = json.load(fp)
 
 	def get_word_meaning(self, word):
 		url = 'http://dict.youdao.com/w/eng/' + word
 		res = requests.get(url)
 		soup = bs4.BeautifulSoup(res.content, 'lxml')
-		#word_word_meaning_dict = collections.OrderedDict()
 		word_meaning_dict = collections.OrderedDict()
 
-		# ----------------------word-----------------------
-		word_meaning_dict['word'] = word
 		# ----------------------basic-----------------------
 		pronunciation = soup.find('div', attrs={'class': 'baav'})
 		pronunciation_str = ''
@@ -86,7 +73,7 @@ class TackleWord:
 
 				is_found = False
 				for i, s in enumerate(rel_word_tab.stripped_strings):
-					if s == '词根：':
+					if s == u'词根：':
 						rel_word_tab_str += s + ' ' + list(rel_word_tab.stripped_strings)[i+1] + '\n'
 						is_found = True
 						continue
@@ -115,18 +102,18 @@ class TackleWord:
 					if is_found:
 						is_found = False
 						continue
-					if is_alpha_and_x(s, ','):
+					if self.is_alpha_and_x(s, ','):
 						discriminate_str += '\n' + s + '\n'
 						attach = list(discriminate.stripped_strings)[i+1] + '\n'
 						is_found = True
-						if whether_start_with_alpha(attach):
+						if self.whether_start_with_alpha(attach):
 							continue
 						else:
 							discriminate_str += attach
 						continue
-					if whether_only_alpha(s):
+					if self.whether_only_alpha(s):
 						discriminate_str += s + '   '
-					if whether_has_non_alpha_symbol(s) and s != '以上来源于' and s != '网络':
+					if self.whether_has_non_alpha_symbol(s) and s != u'以上来源于' and s != u'网络':
 						discriminate_str += s + '\n'
 				word_meaning_dict['discriminate'] = discriminate_str.strip('\n')
 
@@ -143,34 +130,31 @@ class TackleWord:
 			collins_str = collins_str[collins_str.find('*'):]
 			word_meaning_dict['collins'] = collins_str
 
-		return word_meaning_dict
+		result = dict()
+		result[word] = word_meaning_dict
+		return result
 
 	def query_word(self, word):
-		meaning = self.get_word_meaning(word)
-		self.update(meaning, word)
-		return
+		meaning = dict()
 		if word in self.index_dict:
 			file_name = self.index_dict[word]['file_name']
-			with open(file_name) as f:
+			with open('./' + file_name) as f:
 				i = 0
-				tmp_file_name = './tmp.json'
-				fp = file(tmp_file_name, 'wb')
 				for line_content in f:
 					i += 1
-					if self.index_dict[word]['line_index'] <= i <= self.index_dict[word]['line_index'] + self.index_dict[word]['line_num']:
-						fp.write(line_content)
-
-				with open(file_name, 'r') as data_file:
-					meaning = json.loads(data_file.read())
-				#with open(tmp_file_name) as data_file:
-				#	meaning = json.load(data_file)
-				# try:
-				# 	os.remove(tmp_file_name)
-				# except OSError:
-				# 	pass
+					if self.index_dict[word]['line_index'] > i:
+						continue
+					if line_content.strip() != u'}' and line_content.strip() != u'},':
+						res = self.extract_content(line_content)
+						if len(res) != 2:
+							continue
+						meaning[res[0]] = res[1]
+					else:
+						meaning[word] = meaning
+						break
 		else:
 			meaning = self.get_word_meaning(word)
-			self.update(meaning, word)
+			self.update(meaning)
 		return meaning
 
 	def get_latest_file_digit_name(self):
@@ -186,111 +170,155 @@ class TackleWord:
 				max_num = num
 		return max_num
 
-	def update(self, data, word):
+	def get_all_dict_file_list(self):
+		lst = []
+		files = [f for f in os.listdir('.') if os.path.isfile(f)]
+
+		for filename in files:
+			name = os.path.splitext(filename)[0]
+			if not name.isdigit():
+				continue
+			lst.append(name + '.json')
+		return lst
+
+	def update(self, data):
 		digit_name = self.get_latest_file_digit_name()
 		file_name = str(digit_name) + '.json'
 
-		num_lines = get_file_line_count(file_name)
-		if num_lines >= 5000:   # restraint file size, if not, the speed may descend
+		num_lines = self.get_file_line_count(file_name)
+		if num_lines >= 5000:   # restraint file size, if not, the dict file may be too huge.
 			file_name = str(digit_name + 1) + '.json'
-		num_lines_before = get_file_line_count(file_name)
-		test(file_name)
 		self.write_to_json_file(file_name, data)
-		num_lines_after = get_file_line_count(file_name)
-
-		# index_info = dict()
-		# index_info['line_index'] = num_lines_before + 1
-		# index_info['file_name'] = file_name
-		# index_info['line_num'] = num_lines_after
-		# index_info['word'] = word
-		# #self.index_dict[index_info['word']] = index_info
-		# #self.write_to_json_file(words_index, self.index_dict)
-		# self.write_to_json_file(words_index, index_info)
+		self.update_index_dict()
 
 	def write_to_json_file(self, file_name, data):
+		feeds = collections.OrderedDict()
 		if not os.path.isfile(file_name):
 			with open(file_name, mode='w') as f:
-				f.write(json.dumps(data, indent=2))
-				print('11')
+				for key, value in data.iteritems():
+					feeds[key] = value
+				f.write(json.dumps(feeds, indent=2))
 		else:
-			num_lines = get_file_line_count(file_name)
-			# feeds = collections.OrderedDict()
-			print(file_name)
-			feeds = dict()
-			print('22')
+			num_lines = self.get_file_line_count(file_name)
+			feeds = collections.OrderedDict()
 			if num_lines > 0:
-				print('33')
 				with open(file_name) as feedsjson:
-					print('44')
 					feeds = json.load(feedsjson)
-					print('======')
-					print(feeds)
-					print('======')
-			print('55')
-			feeds[data['word']] = data
+
+			for key, value in data.iteritems():
+				feeds[key] = value
 			with open(file_name, mode='w') as f:
 				f.write(json.dumps(feeds, indent=2))
 
-	def load_index_file(self):
-		if os.path.isfile(words_index):
-			with open(words_index, 'r') as fp:
-				self.index_dict = json.load(fp)
+	def update_index_dict(self):
+		dict_index_dict = collections.OrderedDict()
+		dict_file_lst = self.get_all_dict_file_list()
 
-def is_alpha_and_x(src_str, x):
-	has_alpha = False
-	has_x = False
+		for file_name in dict_file_lst:
+			with open('./' + file_name) as f:
+				i = 0
+				for line in f:
+					i += 1
+					if i == 1:
+						continue
+					if line.strip('\n').endswith('{'):
+						word = re.sub(r'\W+', '', line)
+						word_index_info = collections.OrderedDict()
+						word_index_info['line_index'] = i
+						word_index_info['file_name'] = file_name
+						dict_index_dict[word] = word_index_info
+		try:
+			os.remove(words_index)
+		except OSError:
+			pass
+		self.write_to_json_file(words_index, dict_index_dict)
+		self.index_dict = dict_index_dict
 
-	for s in src_str.encode('utf-8'):
-		if s.isalpha():
-			has_alpha = True
-			continue
-		elif s == str(x):
-			has_x = True
-			continue
-		elif s == str(' '):
-			continue
-		else:
-			return False
-	if has_alpha and has_x:
+		# extract content exactly from quotation mark
+	def extract_content(self, string):
+		lst = []
+		src = string.strip()
+		i_next_pos = 0
+		for i, c in enumerate(src):
+			if i < i_next_pos:
+				continue
+			if c == '\"':
+				j_next_pos = 0
+				j_begin = i + 1
+				for j, d in enumerate(src[j_begin:]):
+					if j < j_next_pos:
+						continue
+					if d == '\"':
+						lst.append(src[j_begin: j_begin+j])
+						i_next_pos = j_begin + j + 1
+						if i_next_pos >= len(src):
+							return lst
+						break
+					elif d == '\\':
+						j_next_pos = j + 2
+			elif c == '\\':
+					i_next_pos = i + 2
+		return lst
+
+
+	def is_alpha_and_x(self, src_str, x):
+		has_alpha = False
+		has_x = False
+
+		for s in src_str.encode('utf-8'):
+			if s.isalpha():
+				has_alpha = True
+				continue
+			elif s == str(x):
+				has_x = True
+				continue
+			elif s == str(' '):
+				continue
+			else:
+				return False
+		if has_alpha and has_x:
+			return True
+		return False
+
+	def whether_start_with_alpha(self, src_str):
+		for s in src_str.encode('utf-8'):
+			if s.isalpha():
+				return True
+		return False
+
+	def whether_has_non_alpha_symbol(self, src_str):
+		for s in src_str.encode('utf-8'):
+			if not s.isalpha():
+				return True
+		return False
+
+	def whether_only_alpha(self, src_str):
+		for s in src_str.encode('utf-8'):
+			if not s.isalpha():
+				return False
 		return True
-	return False
 
-
-def whether_start_with_alpha(src_str):
-	for s in src_str.encode('utf-8'):
-		if s.isalpha():
-			return True
-	return False
-
-
-def whether_has_non_alpha_symbol(src_str):
-	for s in src_str.encode('utf-8'):
-		if not s.isalpha():
-			return True
-	return False
-
-def whether_only_alpha(src_str):
-	for s in src_str.encode('utf-8'):
-		if not s.isalpha():
-			return False
-	return True
-
-def get_file_line_count(file_name):
-	f = open(file_name, 'r')
-	num_lines = sum(1 for line in f)
-	f.close()
-	return num_lines
+	def get_file_line_count(self, file_name):
+		if not os.path.isfile(file_name):
+			return 0
+		f = open(file_name, 'r')
+		num_lines = sum(1 for line in f)
+		f.close()
+		return num_lines
 
 def test(fname):
+	if not os.path.isfile(fname):
+		return ''
 	with open(fname, 'r') as fin:
 		print(fin.read())
 		print('---------')
 
 
 word = TackleWord()
-#word.get_word_meaning('get')
+#m = word.get_word_meaning('get')
+#m = word.query_word('get')
 #m = word.query_word('boa')
-m = word.query_word('zoo')
+m = word.query_word('love')
 #m = word.query_word('wikipedia')
 #print(m)
 #word_word_meaning_dict = word.get_word_meaning('get')
