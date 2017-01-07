@@ -1,6 +1,38 @@
 {
-  "boa": {
+  "cereal": {
     "file_name": "./dict/1.json", 
     "line_index": 2
+  }, 
+  "plain": {
+    "file_name": "./dict/1.json", 
+    "line_index": 10
+  }, 
+  "sparkling": {
+    "file_name": "./dict/1.json", 
+    "line_index": 20
+  }, 
+  "enrage": {
+    "file_name": "./dict/1.json", 
+    "line_index": 29
+  }, 
+  "maid": {
+    "file_name": "./dict/1.json", 
+    "line_index": 37
+  }, 
+  "tawny": {
+    "file_name": "./dict/1.json", 
+    "line_index": 47
+  }, 
+  "flatter": {
+    "file_name": "./dict/1.json", 
+    "line_index": 55
+  }, 
+  "downright": {
+    "file_name": "./dict/1.json", 
+    "line_index": 64
+  }, 
+  "grin": {
+    "file_name": "./dict/1.json", 
+    "line_index": 72
   }
 }

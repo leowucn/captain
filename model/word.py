@@ -5,6 +5,8 @@ import bs4
 import json
 import os
 from time import gmtime, strftime
+from dateutil.parser import parse
+import subprocess
 
 dict_dir = './dict'
 words_dir = './words'
@@ -17,6 +19,7 @@ words_index_file = './words_index.json'   # index file
 # 'rel_word_tab'------>同根词
 # 'discriminate'------>词语辨析
 # 'collins'     ------>柯林斯
+# 'sentence'    ------>出现的语句
 # 'date'        ------>单词录入时间
 
 
@@ -50,9 +53,14 @@ class TackleWords:
 			phrase = result.find('div', id='wordGroup')
 			if phrase is not None:
 				phrase_str = ''
+				# for i, s in enumerate(phrase.stripped_strings):
+				# 	print('------------')
+				# 	print(s)
 				for i, s in enumerate(phrase.stripped_strings):
 					r = s.replace('\n', '')
 					if r.find(word) >= 0:
+						if i+1 >= len(list(phrase.stripped_strings)):
+							break
 						phrase_str += r + '     ' + re.sub('\s*', '', list(phrase.stripped_strings)[i+1]) + '\n'
 				word_meaning_dict['phrase'] = phrase_str.strip('\n')
 
@@ -147,11 +155,11 @@ class TackleWords:
 		result[word] = word_meaning_dict
 		return result
 
-	def query_word(self, word):
+	def query_word(self, word, sentence, date):
 		meaning = dict()
 		if word in self.index_dict:
 			file_name = self.index_dict[word]['file_name']
-			with open(os.path.join(dict_dir, file_name)) as f:
+			with open(file_name, 'w+') as f:
 				i = 0
 				for line_content in f:
 					i += 1
@@ -167,17 +175,47 @@ class TackleWords:
 						break
 		else:
 			meaning = self.get_word_meaning(word)
+			if sentence is not None:
+				meaning[word]['sentence'] = sentence
+			if date is not None:
+				meaning[word]['date'] = date
+			print('-------------------------')
+			print(date)
+			print('file_name = ' + date + ', word = ' + word)
 			self.update(meaning)
 		return meaning
 
 	def import_word_build_list(self):
-		files = [f for f in os.listdir(words_dir) if os.path.isfile(os.path.join(words_dir, f))]
-		for filename in files:
-			extend_formt = os.path.splitext(filename)[1]
-			#print('filename = ' + filename + ', extend_format = ' + extend_formt)
-			if extend_formt != '.txt':
-				pass
+		#subprocess.call(['./conv_encoding.sh'])  # convert file encoding first, if not reading from file may be incorrect.
 
+		files = [f for f in os.listdir(words_dir) if os.path.isfile(os.path.join(words_dir, f))]
+		for file_name in files:
+			extend_formt = os.path.splitext(file_name)[1]
+			if extend_formt != '.txt':
+				continue
+
+			pure_file_name = os.path.splitext(file_name)[0]
+			word = ''
+			with open(os.path.join(words_dir, file_name)) as f:
+				for line in f:
+					stripped_line = line.strip()
+					if len(stripped_line) == 0:
+						continue
+
+					if stripped_line[0].isdigit() and stripped_line[1] == '.':
+						word = line[line.find("(") + 1:line.find(")")]
+					else:
+						if self.is_date(pure_file_name):
+							self.query_word(word, stripped_line, pure_file_name)
+							continue
+						self.query_word(word, stripped_line, None)
+
+	def is_date(self, string):
+		try:
+			parse(string)
+			return True
+		except ValueError:
+			return False
 
 	def get_latest_file_digit_name(self):
 		files = [f for f in os.listdir(dict_dir) if os.path.isfile(os.path.join(dict_dir, f))]
@@ -215,28 +253,20 @@ class TackleWords:
 
 	def write_to_json_file(self, file_name, data):
 		feeds = dict()
-		if not os.path.isfile(file_name):
-			with open(file_name, mode='w') as f:
-				for key, value in data.iteritems():
-					feeds[key] = value
-				f.write(json.dumps(feeds, indent=2))
-		else:
-			num_lines = self.get_file_line_count(file_name)
-			feeds = dict()
-			if num_lines > 0:
-				with open(file_name) as feedsjson:
-					feeds = json.load(feedsjson)
+		num_lines = self.get_file_line_count(file_name)
+		if num_lines > 0:
+			with open(file_name) as feedsjson:
+				feeds = json.load(feedsjson)
+		for key, value in data.iteritems():
+			feeds[key] = value
+		with open(file_name, mode='w+') as f:
+			f.write(json.dumps(feeds, indent=2))
 
-			for key, value in data.iteritems():
-				feeds[key] = value
-			with open(file_name, mode='w') as f:
-				f.write(json.dumps(feeds, indent=2))
 
 	def update_index_dict(self):
 		dict_index_dict = dict()
 		dict_file_lst = self.get_all_dict_file_list()
 
-		print(dict_file_lst)
 		for file_name in dict_file_lst:
 			with open(file_name) as f:
 				i = 0
@@ -250,10 +280,6 @@ class TackleWords:
 						word_index_info['line_index'] = i
 						word_index_info['file_name'] = file_name
 						dict_index_dict[word] = word_index_info
-		try:
-			os.remove(words_index_file)
-		except OSError:
-			pass
 		self.write_to_json_file(words_index_file, dict_index_dict)
 		self.index_dict = dict_index_dict
 
@@ -329,6 +355,7 @@ class TackleWords:
 		f.close()
 		return num_lines
 
+
 def test(fname):
 	if not os.path.isfile(fname):
 		return ''
@@ -340,7 +367,7 @@ def test(fname):
 tackle_words = TackleWords()
 #m = tackle_words.get_word_meaning('get')
 #m = tackle_words.query_word('get')
-m = tackle_words.query_word('boa')
+#m = tackle_words.query_word('boa')
 #m = tackle_words.query_word('love')
 #m = tackle_words.query_word('wikipedia')
 #print(m)
