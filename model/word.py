@@ -6,7 +6,7 @@ import json
 import os
 from time import gmtime, strftime
 from dateutil.parser import parse
-import subprocess
+import urllib
 
 dict_dir = './dict'
 words_dir = './words'
@@ -183,8 +183,6 @@ class TackleWords:
 		return meaning
 
 	def import_word_build_list(self):
-		#subprocess.call(['./conv_encoding.sh'])  # convert file encoding first, if not reading from file may be incorrect.
-
 		files = [f for f in os.listdir(words_dir) if os.path.isfile(os.path.join(words_dir, f))]
 		for file_name in files:
 			extend_formt = os.path.splitext(file_name)[1]
