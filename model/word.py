@@ -159,7 +159,7 @@ class TackleWords:
 		meaning = dict()
 		if word in self.index_dict:
 			file_name = self.index_dict[word]['file_name']
-			with open(file_name, 'w+') as f:
+			with open(file_name) as f:
 				i = 0
 				for line_content in f:
 					i += 1
@@ -179,9 +179,6 @@ class TackleWords:
 				meaning[word]['sentence'] = sentence
 			if date is not None:
 				meaning[word]['date'] = date
-			print('-------------------------')
-			print(date)
-			print('file_name = ' + date + ', word = ' + word)
 			self.update(meaning)
 		return meaning
 
@@ -202,7 +199,7 @@ class TackleWords:
 					if len(stripped_line) == 0:
 						continue
 
-					if stripped_line[0].isdigit() and stripped_line[1] == '.':
+					if self.is_word_line(stripped_line):
 						word = line[line.find("(") + 1:line.find(")")]
 					else:
 						if self.is_date(pure_file_name):
@@ -216,6 +213,17 @@ class TackleWords:
 			return True
 		except ValueError:
 			return False
+
+	def is_word_line(self, line):
+		is_number = False
+		for i, c in enumerate(line):
+			if c.isdigit():
+				is_number = True
+			elif is_number and c == '.':
+				return True
+			else:
+				return False
+
 
 	def get_latest_file_digit_name(self):
 		files = [f for f in os.listdir(dict_dir) if os.path.isfile(os.path.join(dict_dir, f))]
