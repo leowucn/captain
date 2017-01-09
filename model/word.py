@@ -155,7 +155,7 @@ class TackleWords:
 		result[word] = word_meaning_dict
 		return result
 
-	def query_word(self, word, sentence, date):
+	def query(self, word, sentence, date):
 		meaning = dict()
 		if word in self.index_dict:
 			file_name = self.index_dict[word]['file_name']
@@ -182,7 +182,7 @@ class TackleWords:
 			self.update(meaning)
 		return meaning
 
-	def import_word_build_list(self):
+	def import_list(self):
 		files = [f for f in os.listdir(words_dir) if os.path.isfile(os.path.join(words_dir, f))]
 		for file_name in files:
 			extend_formt = os.path.splitext(file_name)[1]
@@ -201,9 +201,9 @@ class TackleWords:
 						word = line[line.find("(") + 1:line.find(")")]
 					else:
 						if self.is_date(pure_file_name):
-							self.query_word(word, stripped_line, pure_file_name)
+							self.query(word, stripped_line, pure_file_name)
 							continue
-						self.query_word(word, stripped_line, None)
+						self.query(word, stripped_line, None)
 
 	def is_date(self, string):
 		try:
@@ -372,10 +372,10 @@ def test(fname):
 
 tackle_words = TackleWords()
 #m = tackle_words.get_word_meaning('get')
-#m = tackle_words.query_word('get')
-#m = tackle_words.query_word('boa')
-#m = tackle_words.query_word('love')
-#m = tackle_words.query_word('wikipedia')
+#m = tackle_words.query('get')
+#m = tackle_words.query('boa')
+#m = tackle_words.query('love')
+#m = tackle_words.query('wikipedia')
 #print(m)
 
-tackle_words.import_word_build_list()
+tackle_words.import_list()
