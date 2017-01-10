@@ -6,13 +6,14 @@ import json
 import os
 from time import gmtime, strftime
 from dateutil.parser import parse
-import urllib
 
 dict_dir = './dict'
 words_dir = './words'
 words_index_file = './words_index.json'   # index file
 
-# all types that might appear in querying result.
+max_line = 5000  # restraint single file line, if not, the dict file may be too huge.
+
+# all types might reside in querying result.
 # 'basic'       ------>基本释义
 # 'phrase'      ------>词组短语
 # 'synonyms'    ------>同近义词
@@ -37,15 +38,19 @@ class TackleWords:
 		word_meaning_dict = dict()
 
 		# ----------------------basic-----------------------
-		pronunciation = soup.find('div', attrs={'class': 'baav'})
-		pronunciation_str = ''
-		if pronunciation is not None:
-			pronunciation_str += ' '.join(list(pronunciation.stripped_strings)) + '\n'
+		basic = soup.find('div', attrs={'class': 'baav'})
+		basic_str = ''
+		if basic is not None:
+			basic_str += ' '.join(list(basic.stripped_strings)) + '\n'
 		basic = soup.find("div", id="phrsListTab")
 		if basic is not None:
 			result = basic.find('div', attrs={'class': 'trans-container'})
-			pronunciation_str += result.ul.get_text().strip('\n')
-		word_meaning_dict['basic'] = pronunciation_str
+			basic_str += result.ul.get_text().strip('\n')
+
+		# if basic_str of word is '', we can make sure that this does not exist.
+		if basic_str == '':
+			return None
+		word_meaning_dict['basic'] = basic_str
 
 		# -------------------词组短语---------------------
 		result = soup.find('div', id='transformToggle')
@@ -155,10 +160,12 @@ class TackleWords:
 		result[word] = word_meaning_dict
 		return result
 
-	def query(self, word, sentence, date):
+	def query(self, word, sentence=None, date=None):
+		result = dict()
 		meaning = dict()
 		if word in self.index_dict:
 			file_name = self.index_dict[word]['file_name']
+			is_ok = False
 			with open(file_name) as f:
 				i = 0
 				for line_content in f:
@@ -171,16 +178,26 @@ class TackleWords:
 							continue
 						meaning[res[0]] = res[1]
 					else:
-						meaning[word] = meaning
+						result[word] = meaning
+						is_ok = True
 						break
+			if is_ok:
+				if sentence is not None:
+					result[word]['sentence'] += '||' + sentence
+				if date is not None:
+					result[word]['date'] = date
+				self.update(result)
 		else:
-			meaning = self.get_word_meaning(word)
+			result = self.get_word_meaning(word)
+			if result is None:
+				return None
+
 			if sentence is not None:
-				meaning[word]['sentence'] = sentence
+				result[word]['sentence'] = sentence
 			if date is not None:
-				meaning[word]['date'] = date
-			self.update(meaning)
-		return meaning
+				result[word]['date'] = date
+			self.insert(result)
+		return result
 
 	def import_list(self):
 		files = [f for f in os.listdir(words_dir) if os.path.isfile(os.path.join(words_dir, f))]
@@ -247,15 +264,21 @@ class TackleWords:
 			lst.append(os.path.join(dict_dir, filename))
 		return lst
 
-	def update(self, data):
+	def insert(self, data):
 		digit_name = self.get_latest_file_digit_name()
 		file_name = str(digit_name) + '.json'
 
 		num_lines = self.get_file_line_count(file_name)
-		if num_lines >= 5000:   # restraint file size, if not, the dict file may be too huge.
+		if num_lines >= max_line:
 			file_name = str(digit_name + 1) + '.json'
 		self.write_to_json_file(os.path.join(dict_dir, file_name), data)
 		self.update_index_dict()
+
+	def update(self, data):
+		for key, value in data.iteritems():
+			file_name = self.index_dict[key]['file_name']
+			self.write_to_json_file(file_name, data)
+			self.update_index_dict()
 
 	def write_to_json_file(self, file_name, data):
 		feeds = dict()
@@ -371,11 +394,11 @@ def test(fname):
 
 
 tackle_words = TackleWords()
-#m = tackle_words.get_word_meaning('get')
+m = tackle_words.get_word_meaning('gettt')
 #m = tackle_words.query('get')
 #m = tackle_words.query('boa')
 #m = tackle_words.query('love')
 #m = tackle_words.query('wikipedia')
-#print(m)
+print(m)
 
 tackle_words.import_list()
