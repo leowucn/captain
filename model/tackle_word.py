@@ -31,8 +31,11 @@ class TackleWords:
 			with open(words_index_file, 'r') as fp:
 				self.index_dict = json.load(fp)
 
-	def get_word_meaning(self, word):
-		url = 'http://dict.youdao.com/w/eng/' + word
+	def get_word_meaning(self, raw_string):         # raw_string may be a word or phrase
+		word_list = re.compile('\w+').findall(raw_string)
+		post_fix = '%20'.join(word_list)
+
+		url = 'http://dict.youdao.com/w/eng/' + post_fix
 		res = requests.get(url)
 		soup = bs4.BeautifulSoup(res.content, 'lxml')
 		word_meaning_dict = dict()
@@ -63,7 +66,7 @@ class TackleWords:
 				# 	print(s)
 				for i, s in enumerate(phrase.stripped_strings):
 					r = s.replace('\n', '')
-					if r.find(word) >= 0:
+					if r.find(raw_string) >= 0:
 						if i+1 >= len(list(phrase.stripped_strings)):
 							break
 						phrase_str += r + '     ' + re.sub('\s*', '', list(phrase.stripped_strings)[i+1]) + '\n'
@@ -157,7 +160,7 @@ class TackleWords:
 		word_meaning_dict['date'] = strftime("%Y-%m-%d %H:%M:%S", gmtime())
 
 		result = dict()
-		result[word] = word_meaning_dict
+		result[raw_string] = word_meaning_dict
 		return result
 
 	def query(self, word, sentence=None, date=None):
@@ -394,7 +397,7 @@ def test(fname):
 
 
 tackle_words = TackleWords()
-m = tackle_words.get_word_meaning('gettt')
+m = tackle_words.get_word_meaning('in addition to')
 #m = tackle_words.query('get')
 #m = tackle_words.query('boa')
 #m = tackle_words.query('love')

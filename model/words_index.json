@@ -1,6 +1,818 @@
 {
-  "boa": {
+  "wrestle": {
     "file_name": "./dict/1.json", 
     "line_index": 2
+  }, 
+  "lace": {
+    "file_name": "./dict/1.json", 
+    "line_index": 11
+  }, 
+  "scratch": {
+    "file_name": "./dict/1.json", 
+    "line_index": 20
+  }, 
+  "flicker": {
+    "file_name": "./dict/1.json", 
+    "line_index": 30
+  }, 
+  "rumbling": {
+    "file_name": "./dict/1.json", 
+    "line_index": 39
+  }, 
+  "glum": {
+    "file_name": "./dict/1.json", 
+    "line_index": 47
+  }, 
+  "gang": {
+    "file_name": "./dict/1.json", 
+    "line_index": 55
+  }, 
+  "irritable": {
+    "file_name": "./dict/1.json", 
+    "line_index": 64
+  }, 
+  "gossip": {
+    "file_name": "./dict/1.json", 
+    "line_index": 72
+  }, 
+  "doughnut": {
+    "file_name": "./dict/1.json", 
+    "line_index": 81
+  }, 
+  "shoo": {
+    "file_name": "./dict/1.json", 
+    "line_index": 87
+  }, 
+  "earmuffs": {
+    "file_name": "./dict/1.json", 
+    "line_index": 94
+  }, 
+  "tyke": {
+    "file_name": "./dict/1.json", 
+    "line_index": 101
+  }, 
+  "sparkling": {
+    "file_name": "./dict/1.json", 
+    "line_index": 108
+  }, 
+  "shudder": {
+    "file_name": "./dict/1.json", 
+    "line_index": 117
+  }, 
+  "maid": {
+    "file_name": "./dict/1.json", 
+    "line_index": 126
+  }, 
+  "shout": {
+    "file_name": "./dict/1.json", 
+    "line_index": 136
+  }, 
+  "jam": {
+    "file_name": "./dict/1.json", 
+    "line_index": 146
+  }, 
+  "knuckle": {
+    "file_name": "./dict/1.json", 
+    "line_index": 155
+  }, 
+  "chimney": {
+    "file_name": "./dict/1.json", 
+    "line_index": 164
+  }, 
+  "tawny": {
+    "file_name": "./dict/1.json", 
+    "line_index": 172
+  }, 
+  "snap": {
+    "file_name": "./dict/1.json", 
+    "line_index": 180
+  }, 
+  "robe": {
+    "file_name": "./dict/1.json", 
+    "line_index": 190
+  }, 
+  "scrawny": {
+    "file_name": "./dict/1.json", 
+    "line_index": 199
+  }, 
+  "grip": {
+    "file_name": "./dict/1.json", 
+    "line_index": 206
+  }, 
+  "parcel": {
+    "file_name": "./dict/1.json", 
+    "line_index": 216
+  }, 
+  "jerk": {
+    "file_name": "./dict/1.json", 
+    "line_index": 226
+  }, 
+  "fling": {
+    "file_name": "./dict/1.json", 
+    "line_index": 236
+  }, 
+  "knobbly": {
+    "file_name": "./dict/1.json", 
+    "line_index": 245
+  }, 
+  "bear": {
+    "file_name": "./dict/1.json", 
+    "line_index": 253
+  }, 
+  "nation": {
+    "file_name": "./dict/1.json", 
+    "line_index": 263
+  }, 
+  "spoon": {
+    "file_name": "./dict/1.json", 
+    "line_index": 273
+  }, 
+  "snarl": {
+    "file_name": "./dict/1.json", 
+    "line_index": 281
+  }, 
+  "hid": {
+    "file_name": "./dict/1.json", 
+    "line_index": 289
+  }, 
+  "distinctly": {
+    "file_name": "./dict/1.json", 
+    "line_index": 297
+  }, 
+  "report": {
+    "file_name": "./dict/1.json", 
+    "line_index": 305
+  }, 
+  "subterranean": {
+    "file_name": "./dict/1.json", 
+    "line_index": 315
+  }, 
+  "downright": {
+    "file_name": "./dict/1.json", 
+    "line_index": 324
+  }, 
+  "hall": {
+    "file_name": "./dict/1.json", 
+    "line_index": 332
+  }, 
+  "bushy": {
+    "file_name": "./dict/1.json", 
+    "line_index": 340
+  }, 
+  "huddle": {
+    "file_name": "./dict/1.json", 
+    "line_index": 348
+  }, 
+  "sleeve": {
+    "file_name": "./dict/1.json", 
+    "line_index": 355
+  }, 
+  "stiff": {
+    "file_name": "./dict/1.json", 
+    "line_index": 364
+  }, 
+  "beady": {
+    "file_name": "./dict/1.json", 
+    "line_index": 373
+  }, 
+  "reasonably": {
+    "file_name": "./dict/1.json", 
+    "line_index": 381
+  }, 
+  "tabby": {
+    "file_name": "./dict/1.json", 
+    "line_index": 389
+  }, 
+  "glove": {
+    "file_name": "./dict/1.json", 
+    "line_index": 397
+  }, 
+  "pavement": {
+    "file_name": "./dict/1.json", 
+    "line_index": 407
+  }, 
+  "plain": {
+    "file_name": "./dict/1.json", 
+    "line_index": 416
+  }, 
+  "howl": {
+    "file_name": "./dict/1.json", 
+    "line_index": 426
+  }, 
+  "secretary": {
+    "file_name": "./dict/1.json", 
+    "line_index": 435
+  }, 
+  "drop": {
+    "file_name": "./dict/1.json", 
+    "line_index": 444
+  }, 
+  "noble": {
+    "file_name": "./dict/1.json", 
+    "line_index": 454
+  }, 
+  "flatter": {
+    "file_name": "./dict/1.json", 
+    "line_index": 464
+  }, 
+  "exasperated": {
+    "file_name": "./dict/1.json", 
+    "line_index": 473
+  }, 
+  "orphan": {
+    "file_name": "./dict/1.json", 
+    "line_index": 481
+  }, 
+  "straighten": {
+    "file_name": "./dict/1.json", 
+    "line_index": 487
+  }, 
+  "daylight": {
+    "file_name": "./dict/1.json", 
+    "line_index": 496
+  }, 
+  "coil": {
+    "file_name": "./dict/1.json", 
+    "line_index": 505
+  }, 
+  "sight": {
+    "file_name": "./dict/1.json", 
+    "line_index": 513
+  }, 
+  "violet": {
+    "file_name": "./dict/1.json", 
+    "line_index": 523
+  }, 
+  "flock": {
+    "file_name": "./dict/1.json", 
+    "line_index": 531
+  }, 
+  "odd": {
+    "file_name": "./dict/1.json", 
+    "line_index": 540
+  }, 
+  "thick": {
+    "file_name": "./dict/1.json", 
+    "line_index": 550
+  }, 
+  "creep": {
+    "file_name": "./dict/1.json", 
+    "line_index": 559
+  }, 
+  "barn": {
+    "file_name": "./dict/1.json", 
+    "line_index": 569
+  }, 
+  "planet": {
+    "file_name": "./dict/1.json", 
+    "line_index": 577
+  }, 
+  "decree": {
+    "file_name": "./dict/1.json", 
+    "line_index": 586
+  }, 
+  "twinkle": {
+    "file_name": "./dict/1.json", 
+    "line_index": 594
+  }, 
+  "crooked": {
+    "file_name": "./dict/1.json", 
+    "line_index": 603
+  }, 
+  "mumble": {
+    "file_name": "./dict/1.json", 
+    "line_index": 612
+  }, 
+  "revolting": {
+    "file_name": "./dict/1.json", 
+    "line_index": 618
+  }, 
+  "ever": {
+    "file_name": "./dict/1.json", 
+    "line_index": 627
+  }, 
+  "berserk": {
+    "file_name": "./dict/1.json", 
+    "line_index": 636
+  }, 
+  "ruffle": {
+    "file_name": "./dict/1.json", 
+    "line_index": 645
+  }, 
+  "dwarf": {
+    "file_name": "./dict/1.json", 
+    "line_index": 653
+  }, 
+  "breastplate": {
+    "file_name": "./dict/1.json", 
+    "line_index": 662
+  }, 
+  "wail": {
+    "file_name": "./dict/1.json", 
+    "line_index": 669
+  }, 
+  "sideways": {
+    "file_name": "./dict/1.json", 
+    "line_index": 677
+  }, 
+  "surely": {
+    "file_name": "./dict/1.json", 
+    "line_index": 685
+  }, 
+  "bolt": {
+    "file_name": "./dict/1.json", 
+    "line_index": 695
+  }, 
+  "spoil": {
+    "file_name": "./dict/1.json", 
+    "line_index": 703
+  }, 
+  "slug": {
+    "file_name": "./dict/1.json", 
+    "line_index": 713
+  }, 
+  "newscaster": {
+    "file_name": "./dict/1.json", 
+    "line_index": 722
+  }, 
+  "swell": {
+    "file_name": "./dict/1.json", 
+    "line_index": 728
+  }, 
+  "tantrum": {
+    "file_name": "./dict/1.json", 
+    "line_index": 737
+  }, 
+  "drum": {
+    "file_name": "./dict/1.json", 
+    "line_index": 745
+  }, 
+  "sniff": {
+    "file_name": "./dict/1.json", 
+    "line_index": 754
+  }, 
+  "maniac": {
+    "file_name": "./dict/1.json", 
+    "line_index": 763
+  }, 
+  "chortle": {
+    "file_name": "./dict/1.json", 
+    "line_index": 771
+  }, 
+  "screech": {
+    "file_name": "./dict/1.json", 
+    "line_index": 777
+  }, 
+  "jelly": {
+    "file_name": "./dict/1.json", 
+    "line_index": 785
+  }, 
+  "weirdo": {
+    "file_name": "./dict/1.json", 
+    "line_index": 794
+  }, 
+  "swallow": {
+    "file_name": "./dict/1.json", 
+    "line_index": 802
+  }, 
+  "blush": {
+    "file_name": "./dict/1.json", 
+    "line_index": 811
+  }, 
+  "sweater": {
+    "file_name": "./dict/1.json", 
+    "line_index": 821
+  }, 
+  "owl": {
+    "file_name": "./dict/1.json", 
+    "line_index": 829
+  }, 
+  "reptile": {
+    "file_name": "./dict/1.json", 
+    "line_index": 838
+  }, 
+  "sob": {
+    "file_name": "./dict/1.json", 
+    "line_index": 846
+  }, 
+  "shuffle": {
+    "file_name": "./dict/1.json", 
+    "line_index": 856
+  }, 
+  "afterwards": {
+    "file_name": "./dict/1.json", 
+    "line_index": 865
+  }, 
+  "dab": {
+    "file_name": "./dict/1.json", 
+    "line_index": 872
+  }, 
+  "bound": {
+    "file_name": "./dict/1.json", 
+    "line_index": 880
+  }, 
+  "hollow": {
+    "file_name": "./dict/1.json", 
+    "line_index": 890
+  }, 
+  "stern": {
+    "file_name": "./dict/1.json", 
+    "line_index": 900
+  }, 
+  "blonde": {
+    "file_name": "./dict/1.json", 
+    "line_index": 909
+  }, 
+  "tangle": {
+    "file_name": "./dict/1.json", 
+    "line_index": 916
+  }, 
+  "scent": {
+    "file_name": "./dict/1.json", 
+    "line_index": 925
+  }, 
+  "stumble": {
+    "file_name": "./dict/1.json", 
+    "line_index": 935
+  }, 
+  "belt": {
+    "file_name": "./dict/1.json", 
+    "line_index": 944
+  }, 
+  "blink": {
+    "file_name": "./dict/1.json", 
+    "line_index": 954
+  }, 
+  "sensible": {
+    "file_name": "./dict/1.json", 
+    "line_index": 963
+  }, 
+  "glisten": {
+    "file_name": "./dict/1.json", 
+    "line_index": 973
+  }, 
+  "buckle": {
+    "file_name": "./dict/1.json", 
+    "line_index": 980
+  }, 
+  "faint": {
+    "file_name": "./dict/1.json", 
+    "line_index": 988
+  }, 
+  "shooting": {
+    "file_name": "./dict/1.json", 
+    "line_index": 998
+  }, 
+  "legend": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1007
+  }, 
+  "immense": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1016
+  }, 
+  "beet": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1025
+  }, 
+  "carousel": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1033
+  }, 
+  "whisper": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1040
+  }, 
+  "mysterious": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1050
+  }, 
+  "tape": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1058
+  }, 
+  "fry": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1067
+  }, 
+  "swoop": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1076
+  }, 
+  "firm": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1084
+  }, 
+  "rummage": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1094
+  }, 
+  "groan": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1101
+  }, 
+  "grudging": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1109
+  }, 
+  "bacon": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1117
+  }, 
+  "tidy": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1125
+  }, 
+  "mutter": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1135
+  }, 
+  "mantelpiece": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1144
+  }, 
+  "falter": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1151
+  }, 
+  "bun": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1159
+  }, 
+  "boredom": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1167
+  }, 
+  "cereal": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1175
+  }, 
+  "slither": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1183
+  }, 
+  "grunt": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1191
+  }, 
+  "Scotch": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1199
+  }, 
+  "dull": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1207
+  }, 
+  "squeaky": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1216
+  }, 
+  "glory": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1222
+  }, 
+  "shrill": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1232
+  }, 
+  "outlaw": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1240
+  }, 
+  "tuck": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1248
+  }, 
+  "recruit": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1257
+  }, 
+  "pinprick": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1265
+  }, 
+  "shower": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1272
+  }, 
+  "crystal": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1281
+  }, 
+  "slam": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1290
+  }, 
+  "wild": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1299
+  }, 
+  "grin": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1309
+  }, 
+  "moan": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1318
+  }, 
+  "rump": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1327
+  }, 
+  "troublesome": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1334
+  }, 
+  "rap": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1342
+  }, 
+  "handkerchief": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1352
+  }, 
+  "rattle": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1359
+  }, 
+  "whine": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1368
+  }, 
+  "flung": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1377
+  }, 
+  "purse": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1383
+  }, 
+  "muscular": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1393
+  }, 
+  "piercing": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1402
+  }, 
+  "dash": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1411
+  }, 
+  "stroke": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1421
+  }, 
+  "hoodlum": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1430
+  }, 
+  "council": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1437
+  }, 
+  "spectacle": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1447
+  }, 
+  "petunia": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1456
+  }, 
+  "tremble": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1462
+  }, 
+  "thud": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1471
+  }, 
+  "pat": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1478
+  }, 
+  "downpour": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1488
+  }, 
+  "tuft": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1495
+  }, 
+  "suggest": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1503
+  }, 
+  "comfort": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1513
+  }, 
+  "wound": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1522
+  }, 
+  "gingerly": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1532
+  }, 
+  "lit": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1539
+  }, 
+  "flood": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1547
+  }, 
+  "tin": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1556
+  }, 
+  "chuckle": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1565
+  }, 
+  "hum": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1573
+  }, 
+  "pan": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1582
+  }, 
+  "powdered": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1591
+  }, 
+  "jab": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1600
+  }, 
+  "slink": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1608
+  }, 
+  "drift": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1615
+  }, 
+  "delicate": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1625
+  }, 
+  "gasp": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1635
+  }, 
+  "scratchy": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1644
+  }, 
+  "flutter": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1652
+  }, 
+  "notch": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1661
+  }, 
+  "amuse": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1670
+  }, 
+  "astounding": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1680
+  }, 
+  "flinch": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1688
+  }, 
+  "enrage": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1696
+  }, 
+  "gorilla": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1704
+  }, 
+  "crept": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1710
+  }, 
+  "oft": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1717
+  }, 
+  "furious": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1725
+  }, 
+  "mean": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1733
+  }, 
+  "mustache": {
+    "file_name": "./dict/1.json", 
+    "line_index": 1743
   }
 }
