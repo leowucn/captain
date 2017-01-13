@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+   <body>
+      <table border = 1>
+           <form action = "http://localhost:5000/week_list" method = "post">
+                {% for year in year_list %}
+                    <input type="submit" name={{ year }} value={{ year }}>
+                {% endfor %}
+           </form>
+      </table>
+   </body>
+</html>

@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+</head>
+   <body>
+      <table border = 1>
+          {% for word, meaning in result.iteritems() %}
+            <tr><th> {{ word}} </th></tr>
+                {#basic#}
+                {% if 'basic' in meaning%}
+                    <tr><td> {{ 'basic' }}: <p>{{ meaning['basic'] }} </p></td></tr>
+                {% endif %}
+
+                {#phrase#}
+                {% if 'phrase' in meaning%}
+                <tr><td> {{ 'phrase'}}: <p>{{ meaning['phrase']}} </p></td></tr>
+                {% endif %}
+
+                {#synonyms#}
+                {% if 'synonyms' in meaning%}
+                <tr><td> {{ 'synonyms'}}: <p>{{ meaning['synonyms']}} </p></td></tr>
+                {% endif %}
+
+                {#rel_word_tab#}
+                {% if 'rel_word_tab' in meaning%}
+                <tr><td> {{ 'rel_word_tab'}}: <p>{{ meaning['rel_word_tab']}} </p></td></tr>
+                {% endif %}
+
+                {#discriminate#}
+                {% if 'discriminate' in meaning%}
+                <tr><td> {{ 'discriminate'}}: <p>{{ meaning['discriminate']}} </p></td></tr>
+                {% endif %}
+
+                {#sentence#}
+                {% if 'sentence' in meaning%}
+                <tr><td> {{ 'sentence'}}: <p>{{ meaning['sentence']}} </p></td></tr>
+                {% endif %}
+
+                {#collins#}
+                {% if 'collins' in meaning%}
+                <tr><td> {{ 'collins'}}: <p>{{ meaning['collins']}} </p></td></tr>
+                {% endif %}
+
+                {#date#}
+                {% if 'date' in meaning%}
+                <tr><td> {{ 'date'}}: <p>{{ meaning['date']}} </p></td></tr>
+                {% endif %}
+          {% endfor %}
+      </table>
+   </body>
+</html>
