@@ -3,7 +3,12 @@
 <head>
 </head>
    <body>
-      <table border = 1>
+      {% for i in range(button_num) %}
+        <form action = "http://localhost:5000/login" method = "post">
+            <input type="submit" name= {{ i }} value={{ y }}-{{ w }}-{{ i }}>
+        </form>
+        {% endfor %}
+        <table border = 1>
           {% for word, meaning in result.iteritems() %}
             <tr><th> {{ word}} </th></tr>
                 {#basic#}
@@ -45,7 +50,7 @@
                 {% if 'date' in meaning%}
                 <tr><td> {{ 'date'}}: <p>{{ meaning['date']}} </p></td></tr>
                 {% endif %}
-          {% endfor %}
+            {% endfor %}
       </table>
    </body>
 </html>

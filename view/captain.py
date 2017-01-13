@@ -6,7 +6,7 @@ sys.setdefaultencoding('utf-8')
 sys.path.append('/Users/leo/work/captain/model')
 import tackle_word
 
-
+each_page_words_num = 10
 app = Flask(__name__)
 
 
@@ -40,7 +40,19 @@ def show_words_list():
 		classified_words_dict = tackle.get_classified_dict()
 		year = request.form.keys()[0].split('-')[0]
 		week = request.form.keys()[0].split('-')[1]
-		return render_template('word_verbose_info.html', result=classified_words_dict[year][week])
+
+		num = len(classified_words_dict[year][week])/each_page_words_num + 1
+		return render_template('word_verbose_info.html', y=year, w=week, result=classified_words_dict[year][week], button_num=num)
+	return
+
+
+@app.route('/specified_page/<y>/<w>/<page_index>', methods=['GET', 'POST'])
+def show_specified_page_words():
+	if request.method == 'POST':
+		tackle = tackle_word.TackleWords()
+		classified_words_dict = tackle.get_classified_dict()
+
+
 	return
 
 if __name__ == '__main__':
