@@ -9,10 +9,10 @@ from dateutil.parser import parse
 import datetime
 import collections
 
-absolute_prefix = '/Users/leo/work/captain/model'
-dict_dir = '/Users/leo/work/captain/model/dict'
-words_dir = '/Users/leo/work/captain/model/words'
-words_index_file = '/Users/leo/work/captain/model/words_index.json'   # index file
+absolute_prefix = '/Users/leo/work/captain/word'
+dict_dir = '/Users/leo/work/captain/word/dict'
+words_dir = '/Users/leo/work/captain/word/words'
+words_index_file = '/Users/leo/work/captain/word/words_index.json'   # index file
 
 max_line = 5000  # restraint single file line, if not, the dict file may be too huge.
 

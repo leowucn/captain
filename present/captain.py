@@ -4,7 +4,7 @@ import collections
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
-sys.path.append('/Users/leo/work/captain/model')
+sys.path.append('/Users/leo/work/captain/word')
 import tackle_word
 
 each_page_words_num = 10
