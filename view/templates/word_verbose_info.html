@@ -1,10 +1,16 @@
 <!doctype html>
 <html>
 <head>
+    <style type="text/css">
+    p {
+        white-space: pre-wrap;
+    }
+    </style>
 </head>
    <body>
+    <p> page index: {{ page_index }}</p>
       {% for i in range(button_num) %}
-        <form action = "http://localhost:5000/login" method = "post">
+        <form action = "http://localhost:5000/specified_page" method = "post">
             <input type="submit" name= {{ i }} value={{ y }}-{{ w }}-{{ i }}>
         </form>
         {% endfor %}
@@ -52,5 +58,11 @@
                 {% endif %}
             {% endfor %}
       </table>
+      <p> page index: {{ page_index }}</p>
+      {% for i in range(button_num) %}
+        <form action = "http://localhost:5000/specified_page" method = "post">
+            <input type="submit" name= {{ i }} value={{ y }}-{{ w }}-{{ i }}>
+        </form>
+        {% endfor %}
    </body>
 </html>

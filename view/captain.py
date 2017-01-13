@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 from flask import Flask, render_template, request, redirect, url_for
+import collections
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -41,18 +42,47 @@ def show_words_list():
 		year = request.form.keys()[0].split('-')[0]
 		week = request.form.keys()[0].split('-')[1]
 
+		result_dict = collections.OrderedDict()
+		last_index = 1 * each_page_words_num
+		i = 0
+		if last_index < len(classified_words_dict[year][week]):
+			for word, meaning in sorted(classified_words_dict[year][week].items()):
+				result_dict[word] = meaning
+				if i > last_index:
+					break
+				i += 1
+		else:
+			result_dict = classified_words_dict[year][week]
+
 		num = len(classified_words_dict[year][week])/each_page_words_num + 1
-		return render_template('word_verbose_info.html', y=year, w=week, result=classified_words_dict[year][week], button_num=num)
+		return render_template('word_verbose_info.html', y=year, w=week, result=result_dict, button_num=num, page_index=0)
 	return
 
 
-@app.route('/specified_page/<y>/<w>/<page_index>', methods=['GET', 'POST'])
+@app.route('/specified_page', methods=['GET', 'POST'])
 def show_specified_page_words():
 	if request.method == 'POST':
 		tackle = tackle_word.TackleWords()
 		classified_words_dict = tackle.get_classified_dict()
+		year = request.form.values()[0].split('-')[0]
+		week = request.form.values()[0].split('-')[1]
+		index = int(request.form.values()[0].split('-')[2])
 
+		start_index = index * each_page_words_num - 1
+		if start_index < 0:
+			start_index = 0
+		last_index = (index + 1) * each_page_words_num - 1
+		i = 0
+		result_dict = collections.OrderedDict()
+		for word, meaning in sorted(classified_words_dict[year][week].items()):
+			if start_index <= i < last_index:
+				result_dict[word] = meaning
+			if i >= last_index:
+				break
+			i += 1
 
+		num = len(classified_words_dict[year][week])/each_page_words_num + 1
+		return render_template('word_verbose_info.html', y=year, w=week, result=result_dict, button_num=num, page_index=index)
 	return
 
 if __name__ == '__main__':

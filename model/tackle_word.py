@@ -16,6 +16,8 @@ words_index_file = '/Users/leo/work/captain/model/words_index.json'   # index fi
 
 max_line = 5000  # restraint single file line, if not, the dict file may be too huge.
 
+word_type = ('n.', 'v.', 'pron.', 'adj.', 'adv.', 'num.', 'art.', 'prep.', 'conj.', 'int.', 'vi.', 'vt.', 'aux.', 'aux.v')
+
 # all types might reside in querying result.
 # 'basic'       ------>基本释义
 # 'phrase'      ------>词组短语
@@ -85,13 +87,28 @@ class TackleWords:
 				lst = []
 				for s in synonyms.stripped_strings:
 					lst.append(s)
-				tmp = []
+
+				i_next_index = 0
 				for i, s in enumerate(lst):
-					if s.isalpha() or s == ',':
-						tmp.append(s)
-					else:
-						synonyms_str += ' '.join(tmp) + '\n' + s + '\n'
-						tmp[:] = []
+					if i < i_next_index:
+						continue
+
+					if self.is_start_word_type(s):
+						synonyms_str += s + '\n'
+
+						j_next_index = 0
+						j_begin = i + 1
+						for j, d in enumerate(lst[j_begin:]):
+							if j < j_next_index:
+								continue
+							if self.is_start_word_type(d):
+								i_next_index = j_begin + j
+								synonyms_str += '\n'
+								break
+							if d == ',':
+								synonyms_str += ', '
+							else:
+								synonyms_str += d
 				word_meaning_dict['synonyms'] = synonyms_str.strip('\n')
 
 		# -------------------同根词---------------------
@@ -167,6 +184,12 @@ class TackleWords:
 		result[raw_string] = word_meaning_dict
 		return result
 
+	def is_start_word_type(self, src):
+		for w_type in word_type:
+			if src.strip().startswith(w_type):
+				return True
+		return False
+
 	def query(self, word, sentence=None, date=None):
 		result = collections.OrderedDict()
 		meaning = collections.OrderedDict()
@@ -174,7 +197,6 @@ class TackleWords:
 			file_name = self.index_dict[word]['file_name']
 			is_ok = False
 			with open(os.path.join(absolute_prefix, file_name)) as f:
-				print(os.path.join(absolute_prefix, file_name.strip('./')))
 				i = 0
 				for line_content in f:
 					i += 1
@@ -434,7 +456,7 @@ def test(fname):
 
 if __name__ == "__main__":
 	tackle_words = TackleWords()
-	#m = tackle_words.get_word_meaning('get')
+	m = tackle_words.get_word_meaning('blink')
 	#m = tackle_words.query('get')
 	#m = tackle_words.query('boa')
 	#m = tackle_words.query('love')
