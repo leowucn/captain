@@ -39,15 +39,15 @@ def test_network():
 	return True
 
 
-if __name__ == "__main__":
-	try_times = 0
-	while True:
-		ok = test_network()
-		if ok:
-			clip = ClipboardWatcher()
-			clip.watcher()
-		time.sleep(60)
-		try_times += 1
-		if try_times == 10:
-			break
+#if __name__ == "__main__":
+try_times = 0
+while True:
+	ok = test_network()
+	if ok:
+		clip = ClipboardWatcher()
+		clip.watcher()
+	time.sleep(60)
+	try_times += 1
+	if try_times == 10:
+		break
 

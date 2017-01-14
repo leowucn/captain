@@ -9,6 +9,10 @@ from dateutil.parser import parse
 import datetime
 import collections
 
+import sys
+reload(sys)
+sys.setdefaultencoding('utf8')
+
 absolute_prefix = '/Users/leo/work/captain/word'
 dict_dir = '/Users/leo/work/captain/word/dict'
 words_dir = '/Users/leo/work/captain/word/words'
@@ -213,7 +217,8 @@ class TackleWords:
 						break
 			if is_ok:
 				if sentence is not None:
-					result[word]['sentence'] += '||' + sentence
+					if 'sentence' in result[word]:
+						result[word]['sentence'] += '\n* ' + sentence
 				if date is not None:
 					result[word]['date'] = date
 				self.update(result)
@@ -223,7 +228,7 @@ class TackleWords:
 				return None
 
 			if sentence is not None:
-				result[word]['sentence'] = sentence
+				result[word]['sentence'] = '* ' + sentence
 			if date is not None:
 				result[word]['date'] = date
 			self.insert(result)
@@ -305,10 +310,19 @@ class TackleWords:
 		self.update_index_dict()
 
 	def update(self, data):
-		for key, value in data.iteritems():
-			file_name = self.index_dict[key]['file_name']
-			self.write_to_json_file(file_name, data)
-			self.update_index_dict()
+		file_name = self.index_dict[data.keys()[0]]['file_name']
+		self.write_to_json_file(file_name, data)
+		self.update_index_dict()
+
+		# This is a compromised solution for tackling a nasty encoding problem. it works just fine, but it should be optimized in some time.
+		filedata = None
+		with open(file_name, 'r') as file:
+			filedata = file.read()
+		# Replace the target string
+		filedata = filedata.replace('\\\\', '\\')
+		# Write the file out again
+		with open(file_name, 'w') as file:
+			file.write(filedata)
 
 	def write_to_json_file(self, file_name, data):
 		feeds = collections.OrderedDict()
@@ -316,13 +330,8 @@ class TackleWords:
 		if num_lines > 0:
 			with open(file_name) as feedsjson:
 				feeds = json.load(feedsjson)
-		for key, value in data.iteritems():
-			feeds[key] = value
-		i = 1
-		for key, value in feeds.iteritems():
-			value['index'] = str(i)
-			i += 1
-			feeds[key] = value
+		for word, verbose_info in data.iteritems():
+			feeds[word] = verbose_info
 		with open(os.path.join(absolute_prefix, file_name), mode='w+') as f:
 			f.write(json.dumps(feeds, indent=2))
 

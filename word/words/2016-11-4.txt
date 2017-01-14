@@ -85,3 +85,5 @@ The shouts and splashes soon drew others: Palla the kennel girl, Cayn’s boy Ca
 29. dwarf (dwarf)
 Will you never learn, dwarf
 
+30. wound (wound)
+This is a wound test.
