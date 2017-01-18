@@ -318,19 +318,10 @@ class TackleWords:
 		feeds = collections.OrderedDict()
 		num_lines = self.get_file_line_count(file_name)
 		if num_lines > 0:
-			# # This is a compromised solution for solving a nasty encoding problem. it works just fine, but it should be optimized in some time.
-			# filedata = None
-			# with open(file_name, 'r') as file:
-			# 	filedata = file.read()
-			# # Replace the target string
-			# filedata = filedata.replace('(?<!\\)(?>\\\\)*', '\\')
-			# filedata = filedata.replace('\\\\', '\\')
-			# # Write the file out again
-			# with open(file_name, 'w') as file:
-			# 	file.write(filedata)
 
 			filedata = None
 			with open(file_name) as feedsjson:
+				# # This is a compromised solution for solving a nasty encoding problem. it works just fine, but it should be optimized in some time.
 				filedata = feedsjson.read()
 				filedata = filedata.replace('\\\\\\\"', '\\\"')
 				filedata = filedata.replace('\\\\', '\\')

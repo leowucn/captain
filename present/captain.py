@@ -30,7 +30,7 @@ def show_week_list():
 		year = request.form.keys()[0]
 		for key, value in classified_words_dict[year].iteritems():
 			week_list.append(key)
-		return render_template('week_list.html', year=year, week_list=week_list)
+		return render_template('week_list.html', year=year, week_list=sorted(week_list))
 	return
 
 
