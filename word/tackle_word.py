@@ -314,22 +314,29 @@ class TackleWords:
 		self.write_to_json_file(file_name, data)
 		self.update_index_dict()
 
-		# This is a compromised solution for tackling a nasty encoding problem. it works just fine, but it should be optimized in some time.
-		filedata = None
-		with open(file_name, 'r') as file:
-			filedata = file.read()
-		# Replace the target string
-		filedata = filedata.replace('\\\\', '\\')
-		# Write the file out again
-		with open(file_name, 'w') as file:
-			file.write(filedata)
-
 	def write_to_json_file(self, file_name, data):
 		feeds = collections.OrderedDict()
 		num_lines = self.get_file_line_count(file_name)
 		if num_lines > 0:
+			# # This is a compromised solution for solving a nasty encoding problem. it works just fine, but it should be optimized in some time.
+			# filedata = None
+			# with open(file_name, 'r') as file:
+			# 	filedata = file.read()
+			# # Replace the target string
+			# filedata = filedata.replace('(?<!\\)(?>\\\\)*', '\\')
+			# filedata = filedata.replace('\\\\', '\\')
+			# # Write the file out again
+			# with open(file_name, 'w') as file:
+			# 	file.write(filedata)
+
+			filedata = None
 			with open(file_name) as feedsjson:
-				feeds = json.load(feedsjson)
+				filedata = feedsjson.read()
+				filedata = filedata.replace('\\\\\\\"', '\\\"')
+				filedata = filedata.replace('\\\\', '\\')
+				filedata = filedata.replace('\\\\\"', '\\\"')
+				raw_data_file = RawDataFile(filedata)
+				feeds = json.load(raw_data_file)
 		for word, verbose_info in data.iteritems():
 			feeds[word] = verbose_info
 		with open(os.path.join(absolute_prefix, file_name), mode='w+') as f:
@@ -453,6 +460,14 @@ class TackleWords:
 						tmp[t] = meaning.encode('utf-8')
 					classified_dict[year][week][word] = tmp
 		return classified_dict
+
+
+class RawDataFile:
+	def __init__(self, string):
+		self.string = string
+
+	def read(self):
+		return self.string
 
 
 def test(fname):
