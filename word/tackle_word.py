@@ -435,7 +435,8 @@ class TackleWords:
 			with open(file_name) as feedsjson:
 				feeds = json.load(feedsjson)
 				for word, verbose_info in feeds.iteritems():
-					date_list = verbose_info[u'date'].split('-')
+					#date_list = verbose_info[u'date'].split('-')
+					date_list = re.split('-| ', verbose_info[u'date'])
 					year = date_list[0]
 					week = str(datetime.date(int(date_list[0]), int(date_list[1]), int(date_list[2])).isocalendar()[1])
 
