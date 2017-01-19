@@ -318,16 +318,9 @@ class TackleWords:
 		feeds = collections.OrderedDict()
 		num_lines = self.get_file_line_count(file_name)
 		if num_lines > 0:
-
 			filedata = None
 			with open(file_name) as feedsjson:
-				# # This is a compromised solution for solving a nasty encoding problem. it works just fine, but it should be optimized in some time.
-				filedata = feedsjson.read()
-				filedata = filedata.replace('\\\\\\\"', '\\\"')
-				filedata = filedata.replace('\\\\', '\\')
-				filedata = filedata.replace('\\\\\"', '\\\"')
-				raw_data_file = RawDataFile(filedata)
-				feeds = json.load(raw_data_file)
+				feeds = json.load(feedsjson)
 		for word, verbose_info in data.iteritems():
 			feeds[word] = verbose_info
 		with open(os.path.join(absolute_prefix, file_name), mode='w+') as f:
@@ -449,7 +442,11 @@ class TackleWords:
 
 					tmp = collections.OrderedDict()
 					for t, meaning in verbose_info.iteritems():
-						tmp[t] = meaning.encode('utf-8')
+						if meaning.count('\\') > 0:
+							tmp[t] = meaning.decode('unicode-escape').encode('utf-8')
+						else:
+							tmp[t] = meaning.encode('utf-8')
+						#print(repr(m3))   #print unicode of string
 					classified_dict[year][week][word] = tmp
 		return classified_dict
 
