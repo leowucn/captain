@@ -16,6 +16,7 @@ sys.setdefaultencoding('utf8')
 absolute_prefix = '/Users/leo/work/captain/word'
 dict_dir = '/Users/leo/work/captain/word/dict'
 words_dir = '/Users/leo/work/captain/word/words'
+clipboard_dir = '/Users/leo/work/captain/word/clipboard'
 words_index_file = '/Users/leo/work/captain/word/words_index.json'   # index file
 
 max_line = 5000  # restraint single file line, if not, the dict file may be too huge.
@@ -469,12 +470,12 @@ def test(fname):
 
 if __name__ == "__main__":
 	tackle_words = TackleWords()
-	m = tackle_words.get_word_meaning('blink')
-	#m = tackle_words.query('get')
-	#m = tackle_words.query('boa')
-	#m = tackle_words.query('love')
-	#m = tackle_words.query('wikipedia')
-	#print(m)
+	# m = tackle_words.get_word_meaning('blink')
+	# m = tackle_words.query('get')
+	# m = tackle_words.query('boa')
+	# m = tackle_words.query('love')
+	# m = tackle_words.query('wikipedia')
+	# print(m)
 	tackle_words.import_list()
-	#tackle_words.get_classified_dict()
+	# tackle_words.get_classified_dict()
 

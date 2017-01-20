@@ -91,3 +91,4 @@ ENV/
 *.pyc
 tmp
 .DS_Store
+*.out
