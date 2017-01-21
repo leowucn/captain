@@ -7,7 +7,6 @@ import os
 from time import gmtime, strftime
 from dateutil.parser import parse
 import datetime
-import collections
 
 import sys
 reload(sys)
@@ -24,20 +23,21 @@ max_line = 5000  # restraint single file line, if not, the dict file may be too 
 word_type = ('n.', 'v.', 'pron.', 'adj.', 'adv.', 'num.', 'art.', 'prep.', 'conj.', 'int.', 'vi.', 'vt.', 'aux.', 'aux.v')
 
 # all types might reside in querying result.
-# 'basic'       ------>基本释义
-# 'phrase'      ------>词组短语
-# 'synonyms'    ------>同近义词
-# 'rel_word_tab'------>同根词
-# 'discriminate'------>词语辨析
-# 'collins'     ------>柯林斯
-# 'sentence'    ------>出现的语句
-# 'date'        ------>单词录入时间
-# 'index'       ------>index
+# 'basic'           ------>基本释义
+# 'phrase'          ------>词组短语
+# 'synonyms'        ------>同近义词
+# 'rel_word_tab'    ------>同根词
+# 'discriminate'    ------>词语辨析
+# 'collins'         ------>柯林斯
+# 'sentence'        ------>出现的语句
+# 'date'            ------>单词录入时间
+# 'index'           ------>index
+# 'from_clipboard'  ------> where come from
 
 
 class TackleWords:
 	def __init__(self):
-		self.index_dict = collections.OrderedDict()
+		self.index_dict = dict()
 		if self.get_file_line_count(words_index_file):
 			with open(words_index_file, 'r') as fp:
 				self.index_dict = json.load(fp)
@@ -49,7 +49,7 @@ class TackleWords:
 		url = 'http://dict.youdao.com/w/eng/' + post_fix
 		res = requests.get(url)
 		soup = bs4.BeautifulSoup(res.content, 'lxml')
-		word_meaning_dict = collections.OrderedDict()
+		word_meaning_dict = dict()
 
 		# ----------------------basic-----------------------
 		basic = soup.find('div', attrs={'class': 'baav'})
@@ -185,7 +185,7 @@ class TackleWords:
 		# ---------------------date---------------------
 		word_meaning_dict['date'] = strftime("%Y-%m-%d %H:%M:%S", gmtime())
 
-		result = collections.OrderedDict()
+		result = dict()
 		result[raw_string] = word_meaning_dict
 		return result
 
@@ -195,12 +195,16 @@ class TackleWords:
 				return True
 		return False
 
-	def query(self, word, sentence=None, date=None):
-		result = collections.OrderedDict()
-		meaning = collections.OrderedDict()
+	def fix_encoding_issue(self, src_string):
+		if src_string.count('\\') > 0:
+			return src_string.decode('unicode-escape').encode('utf-8')
+		return src_string
+
+	def query(self, word, from_clipboard=False, sentence=None, date=None):
+		result = dict()
+		meaning = dict()
 		if word in self.index_dict:
 			file_name = self.index_dict[word]['file_name']
-			is_ok = False
 			with open(os.path.join(absolute_prefix, file_name)) as f:
 				i = 0
 				for line_content in f:
@@ -211,17 +215,27 @@ class TackleWords:
 						res = self.extract_content(line_content)
 						if len(res) != 2:
 							continue
-						meaning[res[0]] = res[1]
+						# This is essential, without fix encoding issue, the exported dict file encoding wound have problem.
+						meaning[res[0]] = self.fix_encoding_issue(res[1])
 					else:
 						result[word] = meaning
-						is_ok = True
 						break
-			if is_ok:
+
+				if result[word]['sentence'].find(sentence) >= 0:
+					return
 				if sentence is not None:
 					if 'sentence' in result[word]:
-						result[word]['sentence'] += '\n* ' + sentence
-				if date is not None:
-					result[word]['date'] = date
+						all_sentence = self.fix_encoding_issue(result[word]['sentence'])
+						if all_sentence.find(sentence) >= 0:
+							return
+						else:
+							all_sentence += '\n* ' + sentence
+						result[word]['sentence'] = all_sentence
+					else:
+						result[word]['sentence'] = '\n* ' + sentence
+					if date is not None:
+						result[word]['date'] = date
+				result[word]['from_clipboard'] = from_clipboard
 				self.update(result)
 		else:
 			result = self.get_word_meaning(word)
@@ -232,10 +246,17 @@ class TackleWords:
 				result[word]['sentence'] = '* ' + sentence
 			if date is not None:
 				result[word]['date'] = date
+			result[word]['from_clipboard'] = from_clipboard
 			self.insert(result)
+			if from_clipboard:
+				self.store_clipboard(word, sentence)
 		return result
 
-	def import_list(self):
+	def import_all_dir(self):
+		self.import_word_builder()
+		self.import_clipboard_words()
+
+	def import_word_builder(self):
 		files = [f for f in os.listdir(words_dir) if os.path.isfile(os.path.join(words_dir, f))]
 		for file_name in files:
 			extend_formt = os.path.splitext(file_name)[1]
@@ -251,12 +272,36 @@ class TackleWords:
 						continue
 
 					if self.is_word_line(stripped_line):
-						word = line[line.find("(") + 1:line.find(")")]
+						word = line[line.find("(") + 1: line.find(")")]
 					else:
 						if self.is_date(pure_file_name):
-							self.query(word, stripped_line, pure_file_name)
+							self.query(word, False, stripped_line, pure_file_name)
 							continue
-						self.query(word, stripped_line, None)
+						self.query(word, False, stripped_line, None)
+
+	def import_clipboard_words(self):
+		files = [f for f in os.listdir(clipboard_dir) if os.path.isfile(os.path.join(clipboard_dir, f))]
+		for file_name in files:
+			extend_formt = os.path.splitext(file_name)[1]
+			if extend_formt != '.txt':
+				continue
+
+			pure_file_name = os.path.splitext(file_name)[0]
+			word = ''
+			sentence = ''
+			with open(os.path.join(clipboard_dir, file_name)) as f:
+				lines = (line.rstrip() for line in f)  # All lines including the blank ones
+				lines = (line for line in lines if line)  # Non-blank lines
+				for line in lines:
+					if line[0].isdigit():
+						word = line[line.find('.') + 1:].strip()
+					if line.find('sentence') == 0:
+						sentence = line[line.find(':') + 1:].strip()
+					if line.find('date') == 0:
+						date = line[line.find(':') + 1:].strip()
+						self.query(word, True, sentence, date)
+						word = ''
+						sentence = ''
 
 	def is_date(self, string):
 		try:
@@ -276,10 +321,10 @@ class TackleWords:
 				return False
 
 
-	def get_latest_file_digit_name(self):
-		files = [f for f in os.listdir(dict_dir) if os.path.isfile(os.path.join(dict_dir, f))]
-
+	def get_latest_file_digit_name(self, src_dir):
+		files = [f for f in os.listdir(src_dir) if os.path.isfile(os.path.join(src_dir, f))]
 		max_num = 1
+
 		for filename in files:
 			name = os.path.splitext(filename)[0]
 			if not name.isdigit():
@@ -301,7 +346,7 @@ class TackleWords:
 		return lst
 
 	def insert(self, data):
-		digit_name = self.get_latest_file_digit_name()
+		digit_name = self.get_latest_file_digit_name(dict_dir)
 		file_name = str(digit_name) + '.json'
 
 		num_lines = self.get_file_line_count(file_name)
@@ -315,8 +360,34 @@ class TackleWords:
 		self.write_to_json_file(file_name, data)
 		self.update_index_dict()
 
+	def store_clipboard(self, word, sentence):
+		digit_name = self.get_latest_file_digit_name(clipboard_dir)
+		file_name = str(digit_name) + '.txt'
+
+		num_lines = self.get_file_line_count(file_name)
+		if num_lines >= max_line:
+			file_name = str(digit_name + 1) + '.txt'
+
+		file_path = os.path.join(clipboard_dir, file_name)
+		max_index = -1
+		if os.path.exists(file_path):
+			with open(file_path) as f:
+				lines = (line.rstrip() for line in f)  # All lines including the blank ones
+				lines = (line for line in lines if line)  # Non-blank lines
+				for line in lines:
+					if line.strip()[0].isdigit():
+						res = re.findall(r'\d+', line)
+						if len(res) > 0:
+							if res[0] > max_index:
+								max_index = int(res[0])
+		with open(file_path, mode='a') as f:
+			f.write(str(max_index + 1) + '. ' + word + '\n')
+			f.write('sentence: ' + sentence + '\n')
+			f.write('date: ' + strftime("%Y-%m-%d %H:%M:%S", gmtime()) + '\n')
+			f.write('\n')
+
 	def write_to_json_file(self, file_name, data):
-		feeds = collections.OrderedDict()
+		feeds = dict()
 		num_lines = self.get_file_line_count(file_name)
 		if num_lines > 0:
 			filedata = None
@@ -324,12 +395,11 @@ class TackleWords:
 				feeds = json.load(feedsjson)
 		for word, verbose_info in data.iteritems():
 			feeds[word] = verbose_info
-		with open(os.path.join(absolute_prefix, file_name), mode='w+') as f:
+		with open(os.path.join(absolute_prefix, file_name), mode='w') as f:
 			f.write(json.dumps(feeds, indent=2))
 
-
 	def update_index_dict(self):
-		dict_index_dict = collections.OrderedDict()
+		dict_index_dict = dict()
 		dict_file_lst = self.get_all_dict_file_list()
 
 		for file_name in dict_file_lst:
@@ -341,7 +411,7 @@ class TackleWords:
 						continue
 					if line.strip('\n').endswith('{'):
 						word = re.sub(r'\W+', '', line)
-						word_index_info = collections.OrderedDict()
+						word_index_info = dict()
 						word_index_info['line_index'] = i
 						word_index_info['file_name'] = file_name
 						dict_index_dict[word] = word_index_info
@@ -420,36 +490,69 @@ class TackleWords:
 		f.close()
 		return num_lines
 
-	# return value: dict() -------- key: year->week->word  value: word_verbose_info
-	def get_classified_dict(self):
-		classified_dict = collections.OrderedDict()
+	# lst(key: year->week->word  value: word_verbose_info)
+	def get_classified_lst(self):
+		result = []
 		dict_file_lst = self.get_all_dict_file_list()
+
+		from_word_builder_dict = dict()
+		from_clipboard_dict = dict()
 
 		for file_name in dict_file_lst:
 			with open(file_name) as feedsjson:
 				feeds = json.load(feedsjson)
 				for word, verbose_info in feeds.iteritems():
-					#date_list = verbose_info[u'date'].split('-')
-					date_list = re.split('-| ', verbose_info[u'date'])
-					year = date_list[0]
-					week = str(datetime.date(int(date_list[0]), int(date_list[1]), int(date_list[2])).isocalendar()[1])
+					if verbose_info[u'from_clipboard']:
+						res = self.get_year_and_week_by_date(verbose_info[u'date'])
+						year = res[0]
+						week = res[1]
 
-					if year in classified_dict:
-						if week not in classified_dict[year]:
-							classified_dict[year][week] = collections.OrderedDict()
-					else:
-						classified_dict[year] = collections.OrderedDict()
-						classified_dict[year][week] = collections.OrderedDict()
-
-					tmp = collections.OrderedDict()
-					for t, meaning in verbose_info.iteritems():
-						if meaning.count('\\') > 0:
-							tmp[t] = meaning.decode('unicode-escape').encode('utf-8')
+						if year in from_clipboard_dict:
+							if week not in from_clipboard_dict[year]:
+								from_clipboard_dict[year][week] = dict()
 						else:
-							tmp[t] = meaning.encode('utf-8')
-						#print(repr(m3))   #print unicode of string
-					classified_dict[year][week][word] = tmp
-		return classified_dict
+							from_clipboard_dict[year] = dict()
+							from_clipboard_dict[year][week] = dict()
+
+						tmp = dict()
+						for t, meaning in verbose_info.iteritems():
+							if str(meaning).count('\\') > 0:
+								tmp[t] = meaning.decode('unicode-escape').encode('utf-8')
+							else:
+								tmp[t] = str(meaning).encode('utf-8')
+							#print(repr(m3))   #print unicode of string
+						from_clipboard_dict[year][week][word] = tmp
+					else:
+						res = self.get_year_and_week_by_date(verbose_info[u'date'])
+						year = res[0]
+						week = res[1]
+
+						if year in from_word_builder_dict:
+							if week not in from_word_builder_dict[year]:
+								from_word_builder_dict[year][week] = dict()
+						else:
+							from_word_builder_dict[year] = dict()
+							from_word_builder_dict[year][week] = dict()
+
+						tmp = dict()
+						for t, meaning in verbose_info.iteritems():
+							if str(meaning).count('\\') > 0:
+								tmp[t] = meaning.decode('unicode-escape').encode('utf-8')
+							else:
+								tmp[t] = str(meaning).encode('utf-8')
+							#print(repr(m3))   #print unicode of string
+						from_word_builder_dict[year][week][word] = tmp
+		result.append(from_word_builder_dict)
+		if len(from_clipboard_dict) > 0:
+			result.append(from_clipboard_dict)
+		return result
+
+	def get_year_and_week_by_date(self, date):
+		res = []
+		lst = re.split('-| ', date)
+		res.append(str(lst[0]))
+		res.append(str(datetime.date(int(lst[0]), int(lst[1]), int(lst[2])).isocalendar()[1]))
+		return res
 
 
 class RawDataFile:
@@ -476,6 +579,7 @@ if __name__ == "__main__":
 	# m = tackle_words.query('love')
 	# m = tackle_words.query('wikipedia')
 	# print(m)
-	tackle_words.import_list()
+	tackle_words.import_all_dir()
+	# tackle_words.import_clipboard_words()
 	# tackle_words.get_classified_dict()
 

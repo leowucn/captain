@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 from flask import Flask, render_template, request, redirect, url_for
-import collections
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -14,23 +13,35 @@ app = Flask(__name__)
 @app.route('/')
 def show_year_list():
 	tackle = tackle_word.TackleWords()
-	classified_words_dict = tackle.get_classified_dict()
-	year_list = []
-	for key, value in classified_words_dict.iteritems():
-		year_list.append(key)
-	return render_template('year_list.html', year_list=year_list)
+	res = tackle.get_classified_lst()
+
+	year_dict = dict()
+	for year, value in res[0].iteritems():
+		year_dict[year] = 0
+	if len(res) > 1:
+		for year, value in res[1].iteritems():
+			year_dict[year] = 0
+	return render_template('year_list.html', year_lst=sorted(year_dict))
 
 
 @app.route('/week_list', methods=['GET', 'POST'])
 def show_week_list():
 	if request.method == 'POST':
 		tackle = tackle_word.TackleWords()
-		classified_words_dict = tackle.get_classified_dict()
-		week_list = []
-		year = request.form.keys()[0]
-		for key, value in classified_words_dict[year].iteritems():
-			week_list.append(key)
-		return render_template('week_list.html', year=year, week_list=sorted(week_list))
+		res = tackle.get_classified_lst()
+
+		week_list_from_word_builder = []
+		week_list_from_clipboard = []
+		year = request.form.keys()[0].split('-')[0]
+
+		if year in res[0]:
+			for week, words_dict in res[0][year].iteritems():
+				week_list_from_word_builder.append(week)
+		if len(res) > 1:
+			if year in res[1]:
+				for week, words_dict in res[1][year].iteritems():
+					week_list_from_clipboard.append(week)
+		return render_template('week_list.html', year=year, week_list_from_word_builder=sorted(week_list_from_word_builder), week_list_from_clipboard = sorted(week_list_from_clipboard))
 	return
 
 
@@ -38,24 +49,35 @@ def show_week_list():
 def show_words_list():
 	if request.method == 'POST':
 		tackle = tackle_word.TackleWords()
-		classified_words_dict = tackle.get_classified_dict()
-		year = request.form.keys()[0].split('-')[0]
-		week = request.form.keys()[0].split('-')[1]
+		res = tackle.get_classified_lst()
 
-		result_dict = collections.OrderedDict()
+		lst = request.form.keys()[0].split('-')
+		come_from = lst[0]
+		year = lst[1]
+		week = lst[2]
+
+		src_dict = dict()
+		if come_from == '0':    # from word builder
+			src_dict = res[0][year][week]
+		elif come_from == '1':  # from clipboard
+			src_dict = res[1][year][week]
+		else:
+			return
+
+		result_dict = dict()
 		last_index = 1 * each_page_words_num
 		i = 0
-		if last_index < len(classified_words_dict[year][week]):
-			for word, meaning in sorted(classified_words_dict[year][week].items()):
+		if last_index < len(src_dict):
+			for word, meaning in sorted(src_dict.items()):
 				result_dict[word] = meaning
 				if i > last_index:
 					break
 				i += 1
 		else:
-			result_dict = classified_words_dict[year][week]
+			result_dict = src_dict
 
-		num = len(classified_words_dict[year][week])/each_page_words_num + 1
-		return render_template('word_verbose_info.html', y=year, w=week, result=result_dict, button_num=num, page_index=0)
+		num = len(src_dict)/each_page_words_num + 1
+		return render_template('word_verbose_info.html', come_from=come_from, y=year, w=week, result=result_dict, button_num=num, page_index=0)
 	return
 
 
@@ -63,26 +85,38 @@ def show_words_list():
 def show_specified_page_words():
 	if request.method == 'POST':
 		tackle = tackle_word.TackleWords()
-		classified_words_dict = tackle.get_classified_dict()
-		year = request.form.values()[0].split('-')[0]
-		week = request.form.values()[0].split('-')[1]
-		index = int(request.form.values()[0].split('-')[2])
+		res = tackle.get_classified_lst()
 
-		start_index = index * each_page_words_num - 1
+		lst = request.form.keys()[0].split('-')
+		come_from = lst[0]
+		year = lst[1]
+		week = lst[2]
+		index = lst[3]
+
+		start_index = int(index) * each_page_words_num - 1
 		if start_index < 0:
 			start_index = 0
-		last_index = (index + 1) * each_page_words_num - 1
+		last_index = (int(index) + 1) * each_page_words_num - 1
 		i = 0
-		result_dict = collections.OrderedDict()
-		for word, meaning in sorted(classified_words_dict[year][week].items()):
+		result_dict = dict()
+
+		src_dict = dict()
+		if come_from == '0':  # from word builder
+			src_dict = res[0][year][week]
+		elif come_from == '1':  # from clipboard
+			src_dict = res[1][year][week]
+		else:
+			return
+
+		for word, meaning in sorted(src_dict.items()):
 			if start_index <= i < last_index:
 				result_dict[word] = meaning
 			if i >= last_index:
 				break
 			i += 1
 
-		num = len(classified_words_dict[year][week])/each_page_words_num + 1
-		return render_template('word_verbose_info.html', y=year, w=week, result=result_dict, button_num=num, page_index=index)
+		num = len(src_dict)/each_page_words_num + 1
+		return render_template('word_verbose_info.html', come_from=come_from, y=year, w=week, result=result_dict, button_num=num, page_index=index)
 	return
 
 if __name__ == '__main__':

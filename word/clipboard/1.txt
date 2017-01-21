@@ -1,0 +1,32 @@
+0. library
+sentence: Python's string library has isdigit() method
+date: 2017-01-21 04:28:11
+
+1. because
+sentence: I agree that this is ugly because of the repetition of tokens
+date: 2017-01-21 04:40:46
+
+2. repetition
+sentence: I agree that this is ugly because of the repetition of tokens
+date: 2017-01-21 04:41:08
+
+3. generator
+sentence: if you want a generator and in Python 3
+date: 2017-01-21 04:41:23
+
+4. library
+sentence: Python's string library has isdigit() method
+date: 2017-01-21 05:04:44
+
+5. because
+sentence: I agree that this is ugly because of the repetition of tokens
+date: 2017-01-21 05:04:44
+
+6. repetition
+sentence: I agree that this is ugly because of the repetition of tokens
+date: 2017-01-21 05:04:45
+
+7. generator
+sentence: if you want a generator and in Python 3
+date: 2017-01-21 05:04:45
+

@@ -1,12 +1,21 @@
 <!doctype html>
 <html>
    <body>
+   <p>✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌from word builder✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌✌</p>
       <table border = 1>
            <form action = "http://localhost:5000/words_list" method = "post">
-                {% for week in week_list %}
-                    <input type="submit" name={{ year }}-{{ week }} value={{ year }}-{{ week }}>
+                {% for week in week_list_from_word_builder %}
+                    <input type="submit" name=0-{{ year }}-{{ week }} value={{ year }}-{{ week }}>
                 {% endfor %}
            </form>
       </table>
+   <p>⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺from clipboard⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺⛺</p>
+       <table border = 1>
+               <form action = "http://localhost:5000/words_list" method = "post">
+                    {% for week in week_list_from_clipboard %}
+                        <input type="submit" name=1-{{ year }}-{{ week }} value={{ year }}-{{ week }}>
+                    {% endfor %}
+               </form>
+       </table>
    </body>
 </html>
