@@ -35,6 +35,8 @@ word_type = ('n.', 'v.', 'pron.', 'adj.', 'adv.', 'num.', 'art.', 'prep.', 'conj
 
 # word-0            word from word builder
 # word-1            word from clipboard
+# come_from: '0' which represent word from word builder
+# come_from: '1' which represent word from clipboard
 
 
 class TackleWords:
@@ -294,7 +296,7 @@ class TackleWords:
 				lines = (line.rstrip() for line in f)  # All lines including the blank ones
 				lines = (line for line in lines if line)  # Non-blank lines
 				for line in lines:
-					if line[0].isdigit():
+					if self.is_word_line(line):
 						word = line[line.find('.') + 1:].strip()
 					if line.find('sentence') == 0:
 						sentence = line[line.find(':') + 1:].strip()
@@ -353,14 +355,129 @@ class TackleWords:
 		num_lines = self.get_file_line_count(file_name)
 		if num_lines >= max_line:
 			file_name = str(digit_name + 1) + '.json'
-		self.write_to_json_file(os.path.join(dict_dir, file_name), data)
+		self.write_to_dict_file(os.path.join(dict_dir, file_name), data)
 		self.update_index_dict()
 
-	#def delete(self, word):
+	def delete(self, from_where, d_word):
+		if from_where != '0' and from_where != '1':
+			return
+
+		wrapped_word = d_word + '-' + from_where
+		# ----------------delete from dict----------------------
+		try:
+			file_name = self.index_dict[wrapped_word]['file_name']
+			line_index = self.index_dict[wrapped_word]['line_index']
+		except KeyError:
+			return
+
+		lines_lst = []
+		last_inex = 0
+		with open(file_name) as f:
+			i = 0
+			for line in f:
+				i += 1
+				if i < line_index:
+					continue
+				stripped_line = line.strip('\n| ')
+				if stripped_line == '},':
+					last_inex = i
+					break
+		with open(file_name) as f:
+			i = 0
+			for line in f:
+				i += 1
+				if line_index <= i <= last_inex:
+					continue
+				lines_lst.append(line)
+		f = open(file_name, "w")
+		for line in lines_lst:
+			f.write(line)
+		f.close()
+		self.update_index_dict()
+
+		# ----------------delete from word builder----------------------
+		if from_where == '0':
+			for file_name in os.listdir(words_dir):
+				if file_name.endswith(".txt"):
+					file_path = os.path.join(words_dir, file_name)
+					if '(' + d_word + ')' in open(file_path).read():
+						valid_lines_lst = []
+						with open(file_path) as f:
+							lines = (line.rstrip() for line in f)  # All lines including the blank ones
+							lines = (line for line in lines if line)  # Non-blank lines
+							is_ok = False
+							is_found = False
+							for line in lines:
+								if is_ok:
+									is_ok = False
+									continue
+								if self.is_word_line(line):
+									word = line[line.find("(") + 1: line.find(")")]
+									if word == d_word:
+										is_ok = True
+										is_found = True
+										continue
+									if is_found:
+										word_index = int(line[: line.find('.')])
+										valid_lines_lst.append(str(word_index - 1) + line[line.find('.'):])
+									elif not is_found:
+										valid_lines_lst.append(line)
+								else:
+									valid_lines_lst.append(line)
+						i = 1
+						with open(file_path, "w") as f:
+							for line in valid_lines_lst:
+								f.write(line)
+								f.write('\n')
+								if i % 2 == 0:
+									f.write('\n')
+								i += 1
+
+		# ----------------delete from clipboard----------------------
+		else:
+			for file_name in os.listdir(clipboard_dir):
+				if file_name.endswith(".txt"):
+					file_path = os.path.join(clipboard_dir, file_name)
+					if d_word in open(file_path).read():
+						valid_lines_lst = []
+						with open(file_path) as f:
+							lines = (line.rstrip() for line in f)  # All lines including the blank ones
+							lines = (line for line in lines if line)  # Non-blank lines
+							cross_line = 0
+							is_found = False
+							for line in lines:
+								if cross_line > 0:
+									cross_line -= 1
+									continue
+								if self.is_word_line(line):
+									word = line[line.find('.') + 1:].strip()
+									if word == d_word:
+										# word from clipboard associate with three lines
+										cross_line = 2
+										is_found = True
+										continue
+									if is_found:
+										word_index = int(line[: line.find('.')])
+										valid_lines_lst.append(str(word_index - 1) + line[line.find('.'):])
+									elif not is_found:
+										valid_lines_lst.append(line)
+								else:
+									valid_lines_lst.append(line)
+						# for line in valid_lines_lst:
+						# 	print(line)
+						i = 1
+						with open(file_path, "w") as f:
+							for line in valid_lines_lst:
+								f.write(line)
+								f.write('\n')
+								if i % 3 == 0:
+									f.write('\n')
+								i += 1
+		return
 
 	def update(self, data):
 		file_name = self.index_dict[data.keys()[0]]['file_name']
-		self.write_to_json_file(file_name, data)
+		self.write_to_dict_file(file_name, data)
 		self.update_index_dict()
 
 	def store_clipboard(self, word, sentence):
@@ -389,7 +506,7 @@ class TackleWords:
 			f.write('date: ' + strftime("%Y-%m-%d", gmtime()) + '\n')
 			f.write('\n')
 
-	def write_to_json_file(self, file_name, data):
+	def write_to_dict_file(self, file_name, data):
 		feeds = dict()
 		num_lines = self.get_file_line_count(file_name)
 		if num_lines > 0:
@@ -400,6 +517,11 @@ class TackleWords:
 			feeds[word] = verbose_info
 		with open(os.path.join(absolute_prefix, file_name), mode='w') as f:
 			f.write(json.dumps(feeds, indent=2))
+
+	def write_to_index_file(self, data):
+		f = open(words_index_file, "w")
+		f.write(data)
+		f.close()
 
 	def update_index_dict(self):
 		dict_index_dict = dict()
@@ -420,8 +542,8 @@ class TackleWords:
 						word_index_info['line_index'] = i
 						word_index_info['file_name'] = file_name
 						dict_index_dict[word] = word_index_info
-		self.write_to_json_file(words_index_file, dict_index_dict)
 		self.index_dict = dict_index_dict
+		self.write_to_index_file(json.dumps(dict_index_dict, indent=2))
 
 		# extract content exactly from quotation mark
 	def extract_content(self, string):
@@ -526,7 +648,7 @@ class TackleWords:
 								tmp[t] = meaning.decode('unicode-escape').encode('utf-8')
 							else:
 								tmp[t] = str(meaning).encode('utf-8')
-							#print(repr(m3))   #print unicode of string
+							# print(repr(m3))   #print unicode of string
 						from_clipboard_dict[year][week][word[:-2]] = tmp
 					else:
 						res = self.get_year_and_week_by_date(verbose_info[u'date'])
@@ -551,7 +673,6 @@ class TackleWords:
 		result.append(from_word_builder_dict)
 		if len(from_clipboard_dict) > 0:
 			result.append(from_clipboard_dict)
-
 		return result
 
 	def get_year_and_week_by_date(self, date):
@@ -587,6 +708,8 @@ if __name__ == "__main__":
 	# m = tackle_words.query('wikipedia')
 	# print(m)
 	tackle_words.import_all_dir()
+	# tackle_words.delete('0', 'wild')
+	# tackle_words.update_index_dict()
 	# tackle_words.import_clipboard_words()
 	# tackle_words.get_classified_dict()
 

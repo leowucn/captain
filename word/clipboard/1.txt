@@ -1,4 +1,20 @@
 0. spawn
 sentence: To spawn another thread, you need to call following method available in thread module
-date: 2017-01-21 07:19:43
+date: 2017-01-21
+
+1. expression
+sentence: expression statements and the print() function
+date: 2017-01-21
+
+2. formatting
+sentence: Often you’ll want more control over the formatting of your output than simply printing space-separated values
+date: 2017-01-21
+
+3. discussed
+sentence: these will be discussed shortly.
+date: 2017-01-21
+
+4. expression
+sentence: expression statements and the print() function
+date: 2017-01-21
 

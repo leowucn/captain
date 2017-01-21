@@ -119,5 +119,48 @@ def show_specified_page_words():
 		return render_template('word_verbose_info.html', come_from=come_from, y=year, w=week, result=result_dict, button_num=num, page_index=index)
 	return
 
+
+@app.route('/delete', methods=['GET', 'POST'])
+def delete_word():
+	if request.method == 'POST':
+		lst = request.form.keys()[0].split('-')
+		come_from = lst[0]
+		year = lst[1]
+		week = lst[2]
+		index = lst[3]
+		word = lst[4]
+
+		tackle = tackle_word.TackleWords()
+		print(come_from)
+		print(word)
+		tackle.delete(come_from, word)
+		res = tackle.get_classified_lst()
+
+		start_index = int(index) * each_page_words_num - 1
+		if start_index < 0:
+			start_index = 0
+		last_index = (int(index) + 1) * each_page_words_num - 1
+		i = 0
+		result_dict = dict()
+
+		src_dict = dict()
+		if come_from == '0':  # from word builder
+			src_dict = res[0][year][week]
+		elif come_from == '1':  # from clipboard
+			src_dict = res[1][year][week]
+		else:
+			return
+
+		for word, meaning in sorted(src_dict.items()):
+			if start_index <= i < last_index:
+				result_dict[word] = meaning
+			if i >= last_index:
+				break
+			i += 1
+
+		num = len(src_dict)/each_page_words_num + 1
+		return render_template('word_verbose_info.html', come_from=come_from, y=year, w=week, result=result_dict, button_num=num, page_index=index)
+	return
+
 if __name__ == '__main__':
 	app.run(debug=True)

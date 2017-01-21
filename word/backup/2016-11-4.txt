@@ -70,21 +70,23 @@ Would you want some outlaw to take you captive and sell you to the Lannisters?
 24. immense (immense)
 The bald one opened his mouth and hissed like some immense white lizard
 
-25. troublesome (troublesome)
+25. wild (wild)
+1) “There’s wild men down from the Mountains of the Moon, try telling them you take no part. 2) One wild cart ride later they stood blinking in the sunlight outside Gringotts
+
+26. troublesome (troublesome)
 His turban, he told them, had been given to him by an African prince as a thank-you for getting rid of a troublesome zombie, but they weren’t sure they believed this story
 
-26. rump (rump)
+27. rump (rump)
 Yoren slapped the rump of the officer’s horse with the flat of his sword and sent him reeling off down the kingsroad
 
-27. shouts (shout)
+28. shouts (shout)
 The shouts and splashes soon drew others: Palla the kennel girl, Cayn’s boy Calon, Tom Too whose father Fat Tom had died with Bran’s father at King’s Landing
 
-28. dwarf (dwarf)
+29. dwarf (dwarf)
 Will you never learn, dwarf
 
-29. wound (wound)
+30. wound (wound)
 This is a wound test.
 
-30. wound (wound)
+31. wound (wound)
 hello wound
-
