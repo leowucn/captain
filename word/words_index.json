@@ -1,22 +1,14 @@
 {
-  "because": {
+  "are-1": {
     "file_name": "/Users/leo/work/captain/word/dict/1.json", 
     "line_index": 2
   }, 
-  "repetition": {
+  "wound-1": {
     "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 12
+    "line_index": 10
   }, 
-  "wound": {
+  "wound-0": {
     "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 22
-  }, 
-  "generator": {
-    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 33
-  }, 
-  "library": {
-    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 43
+    "line_index": 20
   }
 }

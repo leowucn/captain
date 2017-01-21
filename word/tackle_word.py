@@ -32,7 +32,9 @@ word_type = ('n.', 'v.', 'pron.', 'adj.', 'adv.', 'num.', 'art.', 'prep.', 'conj
 # 'sentence'        ------>出现的语句
 # 'date'            ------>单词录入时间
 # 'index'           ------>index
-# 'from_clipboard'  ------> where come from
+
+# word-0            word from word builder
+# word-1            word from clipboard
 
 
 class TackleWords:
@@ -43,7 +45,8 @@ class TackleWords:
 				self.index_dict = json.load(fp)
 
 	def get_word_meaning(self, raw_string):         # raw_string may be a word or phrase
-		word_list = re.compile('\w+').findall(raw_string)
+		word = raw_string[:-2]
+		word_list = re.compile('\w+').findall(word)
 		post_fix = '%20'.join(word_list)
 
 		url = 'http://dict.youdao.com/w/eng/' + post_fix
@@ -200,7 +203,7 @@ class TackleWords:
 			return src_string.decode('unicode-escape').encode('utf-8')
 		return src_string
 
-	def query(self, word, from_clipboard=False, sentence=None, date=None):
+	def query(self, word, sentence=None, date=None):
 		result = dict()
 		meaning = dict()
 		if word in self.index_dict:
@@ -235,7 +238,6 @@ class TackleWords:
 						result[word]['sentence'] = '\n* ' + sentence
 					if date is not None:
 						result[word]['date'] = date
-				result[word]['from_clipboard'] = from_clipboard
 				self.update(result)
 		else:
 			result = self.get_word_meaning(word)
@@ -243,13 +245,12 @@ class TackleWords:
 				return None
 
 			if sentence is not None:
-				result[word]['sentence'] = '* ' + sentence
+				result[word]['sentence'] = '* ' + str(sentence)
 			if date is not None:
 				result[word]['date'] = date
-			result[word]['from_clipboard'] = from_clipboard
 			self.insert(result)
-			if from_clipboard:
-				self.store_clipboard(word, sentence)
+			if word.split('-')[1] == '1':
+				self.store_clipboard(word[:-2], sentence)
 		return result
 
 	def import_all_dir(self):
@@ -275,9 +276,9 @@ class TackleWords:
 						word = line[line.find("(") + 1: line.find(")")]
 					else:
 						if self.is_date(pure_file_name):
-							self.query(word, False, stripped_line, pure_file_name)
+							self.query(word + '-0', stripped_line, pure_file_name)
 							continue
-						self.query(word, False, stripped_line, None)
+						self.query(word + '-0', stripped_line, None)
 
 	def import_clipboard_words(self):
 		files = [f for f in os.listdir(clipboard_dir) if os.path.isfile(os.path.join(clipboard_dir, f))]
@@ -299,7 +300,7 @@ class TackleWords:
 						sentence = line[line.find(':') + 1:].strip()
 					if line.find('date') == 0:
 						date = line[line.find(':') + 1:].strip()
-						self.query(word, True, sentence, date)
+						self.query(word + '-1', sentence, date)
 						word = ''
 						sentence = ''
 
@@ -355,6 +356,8 @@ class TackleWords:
 		self.write_to_json_file(os.path.join(dict_dir, file_name), data)
 		self.update_index_dict()
 
+	#def delete(self, word):
+
 	def update(self, data):
 		file_name = self.index_dict[data.keys()[0]]['file_name']
 		self.write_to_json_file(file_name, data)
@@ -409,8 +412,10 @@ class TackleWords:
 					i += 1
 					if i == 1:
 						continue
-					if line.strip('\n').endswith('{'):
-						word = re.sub(r'\W+', '', line)
+					stripped_line = line.strip('\n| ')
+					if stripped_line.endswith('{'):
+						lst = [m.start() for m in re.finditer('"', stripped_line)]
+						word = stripped_line[lst[0]+1: lst[1]]
 						word_index_info = dict()
 						word_index_info['line_index'] = i
 						word_index_info['file_name'] = file_name
@@ -502,7 +507,8 @@ class TackleWords:
 			with open(file_name) as feedsjson:
 				feeds = json.load(feedsjson)
 				for word, verbose_info in feeds.iteritems():
-					if verbose_info[u'from_clipboard']:
+					word_label = word.split('-')[1]
+					if word_label == '1':
 						res = self.get_year_and_week_by_date(verbose_info[u'date'])
 						year = res[0]
 						week = res[1]
@@ -545,6 +551,7 @@ class TackleWords:
 		result.append(from_word_builder_dict)
 		if len(from_clipboard_dict) > 0:
 			result.append(from_clipboard_dict)
+
 		return result
 
 	def get_year_and_week_by_date(self, date):

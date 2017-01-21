@@ -4,7 +4,7 @@ import pyperclip
 import re
 import tackle_word
 import urllib
-
+from time import gmtime, strftime
 
 class ClipboardWatcher:
 	def __init__(self, pause=3):
@@ -14,14 +14,13 @@ class ClipboardWatcher:
 		last_result = ''
 		while True:
 			result = pyperclip.paste().strip()
-			print(result)
 			word_list = re.compile('\w+').findall(result)
 			if len(word_list) > 0:
 				if last_result != '' and result.find(last_result) >= 0 and len(result) > len(last_result):
 					# in this case, result might be a sentence containing the corresponding last-result which was supposed to be a word or phrase.
 					# legal sentence
 					tackle = tackle_word.TackleWords()
-					tackle.query(last_result, True, result)
+					tackle.query(last_result + '-1', result, strftime("%Y-%m-%d %H:%M:%S", gmtime()))
 					last_result = ''
 				else:
 					if len(word_list) < 4:  # this may be a word or regular phrase

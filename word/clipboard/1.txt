@@ -1,32 +1,39 @@
-0. library
-sentence: Python's string library has isdigit() method
-date: 2017-01-21 04:28:11
+0. wound
+sentence: A wound is a type of injury which happens relatively quickly in which skin is torn, cut, or punctured (an open wound), or where blunt force trauma causes a contusion (a closed wound)
+date: 2017-01-21 05:53:46
+1. wound
+sentence: A wound is a type of injury which happens relatively quickly in which skin is torn, cut, or punctured (an open wound), or where blunt force trauma causes a contusion (a closed wound)
+date: 2017-01-21 06:31:15
 
-1. because
-sentence: I agree that this is ugly because of the repetition of tokens
-date: 2017-01-21 04:40:46
+2. are
+sentence: made under sterile conditions where there are no organisms present
+date: 2017-01-21 06:33:22
 
-2. repetition
-sentence: I agree that this is ugly because of the repetition of tokens
-date: 2017-01-21 04:41:08
+3. are
+sentence: there are pathogenic organisms and foreign bodies in the wound.
+date: 2017-01-21 06:33:47
 
-3. generator
-sentence: if you want a generator and in Python 3
-date: 2017-01-21 04:41:23
+4. wound
+sentence: A wound is a type of injury which happens relatively quickly in which skin is torn, cut, or punctured (an open wound), or where blunt force trauma causes a contusion (a closed wound)
+date: 2017-01-21 06:36:03
 
-4. library
-sentence: Python's string library has isdigit() method
-date: 2017-01-21 05:04:44
+5. wound
+sentence: A wound is a type of injury which happens relatively quickly in which skin is torn, cut, or punctured (an open wound), or where blunt force trauma causes a contusion (a closed wound)
+date: 2017-01-21 06:36:04
 
-5. because
-sentence: I agree that this is ugly because of the repetition of tokens
-date: 2017-01-21 05:04:44
+6. are
+sentence: made under sterile conditions where there are no organisms present
+date: 2017-01-21 06:36:05
 
-6. repetition
-sentence: I agree that this is ugly because of the repetition of tokens
-date: 2017-01-21 05:04:45
+7. are
+sentence: there are pathogenic organisms and foreign bodies in the wound.
+date: 2017-01-21 06:36:05
 
-7. generator
-sentence: if you want a generator and in Python 3
-date: 2017-01-21 05:04:45
+8. wound
+sentence: A wound is a type of injury which happens relatively quickly in which skin is torn, cut, or punctured (an open wound), or where blunt force trauma causes a contusion (a closed wound)
+date: 2017-01-21 06:36:25
+
+9. are
+sentence: made under sterile conditions where there are no organisms present
+date: 2017-01-21 06:36:25
 
