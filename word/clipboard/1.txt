@@ -1,39 +1,4 @@
-0. wound
-sentence: A wound is a type of injury which happens relatively quickly in which skin is torn, cut, or punctured (an open wound), or where blunt force trauma causes a contusion (a closed wound)
-date: 2017-01-21 05:53:46
-1. wound
-sentence: A wound is a type of injury which happens relatively quickly in which skin is torn, cut, or punctured (an open wound), or where blunt force trauma causes a contusion (a closed wound)
-date: 2017-01-21 06:31:15
-
-2. are
-sentence: made under sterile conditions where there are no organisms present
-date: 2017-01-21 06:33:22
-
-3. are
-sentence: there are pathogenic organisms and foreign bodies in the wound.
-date: 2017-01-21 06:33:47
-
-4. wound
-sentence: A wound is a type of injury which happens relatively quickly in which skin is torn, cut, or punctured (an open wound), or where blunt force trauma causes a contusion (a closed wound)
-date: 2017-01-21 06:36:03
-
-5. wound
-sentence: A wound is a type of injury which happens relatively quickly in which skin is torn, cut, or punctured (an open wound), or where blunt force trauma causes a contusion (a closed wound)
-date: 2017-01-21 06:36:04
-
-6. are
-sentence: made under sterile conditions where there are no organisms present
-date: 2017-01-21 06:36:05
-
-7. are
-sentence: there are pathogenic organisms and foreign bodies in the wound.
-date: 2017-01-21 06:36:05
-
-8. wound
-sentence: A wound is a type of injury which happens relatively quickly in which skin is torn, cut, or punctured (an open wound), or where blunt force trauma causes a contusion (a closed wound)
-date: 2017-01-21 06:36:25
-
-9. are
-sentence: made under sterile conditions where there are no organisms present
-date: 2017-01-21 06:36:25
+0. spawn
+sentence: To spawn another thread, you need to call following method available in thread module
+date: 2017-01-21 07:19:43
 

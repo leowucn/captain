@@ -20,7 +20,7 @@ class ClipboardWatcher:
 					# in this case, result might be a sentence containing the corresponding last-result which was supposed to be a word or phrase.
 					# legal sentence
 					tackle = tackle_word.TackleWords()
-					tackle.query(last_result + '-1', result, strftime("%Y-%m-%d %H:%M:%S", gmtime()))
+					tackle.query(last_result + '-1', result, strftime("%Y-%m-%d", gmtime()))
 					last_result = ''
 				else:
 					if len(word_list) < 4:  # this may be a word or regular phrase

@@ -186,7 +186,7 @@ class TackleWords:
 			word_meaning_dict['collins'] = collins_str.encode('utf-8')
 
 		# ---------------------date---------------------
-		word_meaning_dict['date'] = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+		word_meaning_dict['date'] = strftime("%Y-%m-%d", gmtime())
 
 		result = dict()
 		result[raw_string] = word_meaning_dict
@@ -386,7 +386,7 @@ class TackleWords:
 		with open(file_path, mode='a') as f:
 			f.write(str(max_index + 1) + '. ' + word + '\n')
 			f.write('sentence: ' + sentence + '\n')
-			f.write('date: ' + strftime("%Y-%m-%d %H:%M:%S", gmtime()) + '\n')
+			f.write('date: ' + strftime("%Y-%m-%d", gmtime()) + '\n')
 			f.write('\n')
 
 	def write_to_json_file(self, file_name, data):
@@ -527,7 +527,7 @@ class TackleWords:
 							else:
 								tmp[t] = str(meaning).encode('utf-8')
 							#print(repr(m3))   #print unicode of string
-						from_clipboard_dict[year][week][word] = tmp
+						from_clipboard_dict[year][week][word[:-2]] = tmp
 					else:
 						res = self.get_year_and_week_by_date(verbose_info[u'date'])
 						year = res[0]
@@ -547,7 +547,7 @@ class TackleWords:
 							else:
 								tmp[t] = str(meaning).encode('utf-8')
 							#print(repr(m3))   #print unicode of string
-						from_word_builder_dict[year][week][word] = tmp
+						from_word_builder_dict[year][week][word[:-2]] = tmp
 		result.append(from_word_builder_dict)
 		if len(from_clipboard_dict) > 0:
 			result.append(from_clipboard_dict)
