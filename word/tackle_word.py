@@ -29,7 +29,7 @@ word_type = ('n.', 'v.', 'pron.', 'adj.', 'adv.', 'num.', 'art.', 'prep.', 'conj
 # 'rel_word_tab'    ------>同根词
 # 'discriminate'    ------>词语辨析
 # 'collins'         ------>柯林斯
-# 'sentence'        ------>出现的语句
+# 'usage'           ------>出现的语句
 # 'date'            ------>单词录入时间
 # 'index'           ------>index
 
@@ -86,7 +86,8 @@ class TackleWords:
 						if i+1 >= len(list(phrase.stripped_strings)):
 							break
 						phrase_str += r + '     ' + re.sub('\s*', '', list(phrase.stripped_strings)[i+1]) + '\n'
-				word_meaning_dict['phrase'] = phrase_str.strip('\n')
+				if len(phrase_str) != 0:
+					word_meaning_dict['phrase'] = phrase_str.strip('\n')
 
 		# -------------------同近义词---------------------
 		result = soup.find('div', id='transformToggle')
@@ -205,7 +206,7 @@ class TackleWords:
 			return src_string.decode('unicode-escape').encode('utf-8')
 		return src_string
 
-	def query(self, word, sentence=None, date=None):
+	def query(self, word, usage=None, date=None, book=None):
 		result = dict()
 		meaning = dict()
 		if word in self.index_dict:
@@ -226,33 +227,35 @@ class TackleWords:
 						result[word] = meaning
 						break
 
-				if result[word]['sentence'].find(sentence) >= 0:
-					return
-				if sentence is not None:
-					if 'sentence' in result[word]:
-						all_sentence = self.fix_encoding_issue(result[word]['sentence'])
-						if all_sentence.find(sentence) >= 0:
+				if date is not None:
+					result[word]['date'] = date
+				if result[word]['usage'].find(usage) < 0 and usage is not None:
+					if 'usage' in result[word]:
+						all_usage = self.fix_encoding_issue(result[word]['usage'])
+						if all_usage.find(usage) >= 0:
 							return
 						else:
-							all_sentence += '\n* ' + sentence
-						result[word]['sentence'] = all_sentence
+							all_usage += '\n* ' + usage
+						result[word]['usage'] = all_usage
 					else:
-						result[word]['sentence'] = '\n* ' + sentence
-					if date is not None:
-						result[word]['date'] = date
+						result[word]['usage'] = '\n* ' + usage
+				if book is not None:
+					result[word]['book'] += book + '\n'
 				self.update(result)
 		else:
 			result = self.get_word_meaning(word)
 			if result is None:
 				return None
 
-			if sentence is not None:
-				result[word]['sentence'] = '* ' + str(sentence)
+			if usage is not None:
+				result[word]['usage'] = '* ' + str(usage)
 			if date is not None:
 				result[word]['date'] = date
+			if book is not None:
+				result[word]['book'] = book + '\n'
 			self.insert(result)
 			if word.split('-')[1] == '1':
-				self.store_clipboard(word[:-2], sentence)
+				self.store_clipboard(word[:-2], usage)
 		return result
 
 	def import_all_dir(self):
@@ -262,49 +265,41 @@ class TackleWords:
 	def import_word_builder(self):
 		files = [f for f in os.listdir(words_dir) if os.path.isfile(os.path.join(words_dir, f))]
 		for file_name in files:
-			extend_formt = os.path.splitext(file_name)[1]
-			if extend_formt != '.txt':
+			if os.path.splitext(file_name)[1] != '.txt':
 				continue
-
-			pure_file_name = os.path.splitext(file_name)[0]
-			word = ''
-			with open(os.path.join(words_dir, file_name)) as f:
-				for line in f:
-					stripped_line = line.strip()
-					if len(stripped_line) == 0:
-						continue
-
-					if self.is_word_line(stripped_line):
-						word = line[line.find("(") + 1: line.find(")")]
-					else:
-						if self.is_date(pure_file_name):
-							self.query(word + '-0', stripped_line, pure_file_name)
-							continue
-						self.query(word + '-0', stripped_line, None)
+			file_path = os.path.join(words_dir, file_name)
+			with open(file_path) as f:
+				lines = (line.rstrip() for line in f)  # All lines including the blank ones
+				lines = list(line for line in lines if line)  # Non-blank lines
+				for index, line in enumerate(lines):
+					if line[0].isdigit():
+						word = line[line.find('.') + 2:]
+						usage = lines[index + 1][lines[index + 1].find(':') + 1:]
+						book = lines[index + 2][lines[index + 2].find(':') + 2:]
+						date = lines[index + 3][lines[index + 3].find(':') + 1:]
+						self.query(word + '-0', usage, date, book)
 
 	def import_clipboard_words(self):
 		files = [f for f in os.listdir(clipboard_dir) if os.path.isfile(os.path.join(clipboard_dir, f))]
 		for file_name in files:
-			extend_formt = os.path.splitext(file_name)[1]
-			if extend_formt != '.txt':
+			if os.path.splitext(file_name)[1] != '.txt':
 				continue
 
-			pure_file_name = os.path.splitext(file_name)[0]
 			word = ''
-			sentence = ''
+			usage = ''
 			with open(os.path.join(clipboard_dir, file_name)) as f:
 				lines = (line.rstrip() for line in f)  # All lines including the blank ones
 				lines = (line for line in lines if line)  # Non-blank lines
 				for line in lines:
 					if self.is_word_line(line):
-						word = line[line.find('.') + 1:].strip()
-					if line.find('sentence') == 0:
-						sentence = line[line.find(':') + 1:].strip()
+						word = line[line.find('.') + 1:]
+					if line.find('usage') == 0:
+						usage = line[line.find(':') + 1:]
 					if line.find('date') == 0:
-						date = line[line.find(':') + 1:].strip()
-						self.query(word + '-1', sentence, date)
+						date = line[line.find(':') + 1:]
+						self.query(word + '-1', usage, date)
 						word = ''
-						sentence = ''
+						usage = ''
 
 	def is_date(self, string):
 		try:
@@ -322,7 +317,6 @@ class TackleWords:
 				return True
 			else:
 				return False
-
 
 	def get_latest_file_digit_name(self, src_dir):
 		files = [f for f in os.listdir(src_dir) if os.path.isfile(os.path.join(src_dir, f))]
@@ -358,11 +352,11 @@ class TackleWords:
 		self.write_to_dict_file(os.path.join(dict_dir, file_name), data)
 		self.update_index_dict()
 
-	def delete(self, from_where, d_word):
+	def delete(self, from_where, delete_word):
 		if from_where != '0' and from_where != '1':
 			return
 
-		wrapped_word = d_word + '-' + from_where
+		wrapped_word = delete_word + '-' + from_where
 		# ----------------delete from dict----------------------
 		try:
 			file_name = self.index_dict[wrapped_word]['file_name']
@@ -400,79 +394,47 @@ class TackleWords:
 			for file_name in os.listdir(words_dir):
 				if file_name.endswith(".txt"):
 					file_path = os.path.join(words_dir, file_name)
-					if '(' + d_word + ')' in open(file_path).read():
+					if '. ' + delete_word in open(file_path).read():
 						valid_lines_lst = []
 						with open(file_path) as f:
 							lines = (line.rstrip() for line in f)  # All lines including the blank ones
-							lines = (line for line in lines if line)  # Non-blank lines
-							is_ok = False
-							is_found = False
-							for line in lines:
-								if is_ok:
-									is_ok = False
-									continue
-								if self.is_word_line(line):
-									word = line[line.find("(") + 1: line.find(")")]
-									if word == d_word:
-										is_ok = True
-										is_found = True
+							lines = list(line for line in lines if line)  # Non-blank lines
+							for index, line in enumerate(lines):
+								if line[0].isdigit():
+									word = line[line.find('.') + 2:].strip()
+									if word == delete_word:
 										continue
-									if is_found:
-										word_index = int(line[: line.find('.')])
-										valid_lines_lst.append(str(word_index - 1) + line[line.find('.'):])
-									elif not is_found:
-										valid_lines_lst.append(line)
-								else:
-									valid_lines_lst.append(line)
-						i = 1
+									valid_lines_lst.append(line + '\n')
+									valid_lines_lst.append(lines[index + 1] + '\n')
+									valid_lines_lst.append(lines[index + 2] + '\n')
+									valid_lines_lst.append(lines[index + 3] + '\n')
+									valid_lines_lst.append('\n')
 						with open(file_path, "w") as f:
 							for line in valid_lines_lst:
 								f.write(line)
-								f.write('\n')
-								if i % 2 == 0:
-									f.write('\n')
-								i += 1
 
 		# ----------------delete from clipboard----------------------
 		else:
 			for file_name in os.listdir(clipboard_dir):
 				if file_name.endswith(".txt"):
 					file_path = os.path.join(clipboard_dir, file_name)
-					if d_word in open(file_path).read():
+					if '. ' + delete_word in open(file_path).read():
 						valid_lines_lst = []
 						with open(file_path) as f:
 							lines = (line.rstrip() for line in f)  # All lines including the blank ones
-							lines = (line for line in lines if line)  # Non-blank lines
-							cross_line = 0
-							is_found = False
-							for line in lines:
-								if cross_line > 0:
-									cross_line -= 1
-									continue
-								if self.is_word_line(line):
-									word = line[line.find('.') + 1:].strip()
-									if word == d_word:
-										# word from clipboard associate with three lines
-										cross_line = 2
-										is_found = True
+							lines = list(line for line in lines if line)  # Non-blank lines
+							for index, line in enumerate(lines):
+								if line[0].isdigit():
+									word = line[line.find('.') + 2:].strip()
+									if word == delete_word:
 										continue
-									if is_found:
-										word_index = int(line[: line.find('.')])
-										valid_lines_lst.append(str(word_index - 1) + line[line.find('.'):])
-									elif not is_found:
-										valid_lines_lst.append(line)
-								else:
-									valid_lines_lst.append(line)
-						# for line in valid_lines_lst:
-						# 	print(line)
-						i = 1
+									valid_lines_lst.append(line + '\n')
+									valid_lines_lst.append(lines[index + 1] + '\n')
+									valid_lines_lst.append(lines[index + 2] + '\n')
+									valid_lines_lst.append('\n')
 						with open(file_path, "w") as f:
 							for line in valid_lines_lst:
 								f.write(line)
-								f.write('\n')
-								if i % 3 == 0:
-									f.write('\n')
-								i += 1
 		return
 
 	def update(self, data):
@@ -480,7 +442,7 @@ class TackleWords:
 		self.write_to_dict_file(file_name, data)
 		self.update_index_dict()
 
-	def store_clipboard(self, word, sentence):
+	def store_clipboard(self, word, usage):
 		digit_name = self.get_latest_file_digit_name(clipboard_dir)
 		file_name = str(digit_name) + '.txt'
 
@@ -502,7 +464,7 @@ class TackleWords:
 								max_index = int(res[0])
 		with open(file_path, mode='a') as f:
 			f.write(str(max_index + 1) + '. ' + word + '\n')
-			f.write('sentence: ' + sentence + '\n')
+			f.write('usage: ' + usage + '\n')
 			f.write('date: ' + strftime("%Y-%m-%d", gmtime()) + '\n')
 			f.write('\n')
 
@@ -707,8 +669,8 @@ if __name__ == "__main__":
 	# m = tackle_words.query('love')
 	# m = tackle_words.query('wikipedia')
 	# print(m)
-	tackle_words.import_all_dir()
-	# tackle_words.delete('0', 'wild')
+	# tackle_words.import_all_dir()
+	tackle_words.delete('1', 'expression')
 	# tackle_words.update_index_dict()
 	# tackle_words.import_clipboard_words()
 	# tackle_words.get_classified_dict()

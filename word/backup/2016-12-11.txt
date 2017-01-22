@@ -1,47 +1,80 @@
-1. tawny (tawny)
-None of them noticed a large, tawny owl flutter past the window
+1. tawny
+usage: None of them noticed a large, tawny owl flutter past the window
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-11
 
-2. Maid (maid)
-THE LOST LORD It should not have taken this long, Griff told himself as he paced the deck of the Shy Maid
+2. maid
+usage: THE LOST LORD It should not have taken this long, Griff told himself as he paced the deck of the Shy Maid
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-11
 
-3. grin (grin)
-The newscaster allowed himself a grin
+3. grin
+usage: The newscaster allowed himself a grin
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-11
 
-4. sparkling (sparkling)
-1) Perched atop a high mountain on the other side, its windows sparkling in the starry sky, was a vast castle with many turrets and towers. 2) His blue eyes were light, bright, and sparkling behind half-moon spectacles and his nose was very long and crooked, as though it had been broken at least twice
+4. sparkling
+usage: 1) Perched atop a high mountain on the other side, its windows sparkling in the starry sky, was a vast castle with many turrets and towers. 2) His blue eyes were light, bright, and sparkling behind half-moon spectacles and his nose was very long and crooked, as though it had been broken at least twice
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-11
 
-5. plain (plain)
-It was plain that whatever “everyone” was saying, she was not going to believe it until Dumbledore told her it was true
+5. plain
+usage: It was plain that whatever “everyone” was saying, she was not going to believe it until Dumbledore told her it was true
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-11
 
-6. downright (downright)
-People are being downright careless, out on the streets in broad daylight, not even dressed in Muggle clothes, swapping rumors.
+6. downright
+usage: People are being downright careless, out on the streets in broad daylight, not even dressed in Muggle clothes, swapping rumors.
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-11
 
-7. enraged (enrage)
-Dursley was enraged to see that a couple of them weren’t young at all; why, that man had to be older than he was, and wearing an emerald-green cloak
+7. enrage
+usage: Dursley was enraged to see that a couple of them weren’t young at all; why, that man had to be older than he was, and wearing an emerald-green cloak
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-11
 
-8. cereal (cereal)
-Dursley on the cheek, and tried to kiss Dudley good-bye but missed, because Dudley was now having a tantrum and throwing his cereal at the walls
+8. cereal
+usage: Dursley on the cheek, and tried to kiss Dudley good-bye but missed, because Dudley was now having a tantrum and throwing his cereal at the walls
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-11
 
-9. flatter (flatter)
-“You flatter me,” said Dumbledore calmly
+9. flatter
+usage: “You flatter me,” said Dumbledore calmly
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-11
 
-10. odd (odd)
-It was a very odd watch
+10. odd
+usage: It was a very odd watch
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-11
 
-11. bun (bun)
-1) He was in a very good mood until lunchtime, when he thought he’d stretch his legs and walk across the road to buy himself a bun from the bakery. 2) Her black hair was drawn into a tight bun
+11. bun
+usage: 1) He was in a very good mood until lunchtime, when he thought he’d stretch his legs and walk across the road to buy himself a bun from the bakery. 2) Her black hair was drawn into a tight bun
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-11
 
-12. irritably (irritable)
-1) “Like this,” he said irritably. 2) “I know that,” said Professor McGonagall irritably
+12. irritable
+usage: 1) “Like this,” he said irritably. 2) “I know that,” said Professor McGonagall irritably
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-11
 
-13. newscaster (newscaster)
-The newscaster allowed himself a grin
+13. newscaster
+usage: The newscaster allowed himself a grin
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-11
 
-14. faintly (faint)
-repeated Professor McGonagall faintly, sitting back down on the wall
+14. faint
+usage: repeated Professor McGonagall faintly, sitting back down on the wall
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-11
 
-15. Hollow (hollow)
-“What they’re saying,” she pressed on, “is that last night Voldemort turned up in Godric’s Hollow
+15. hollow
+usage: “What they’re saying,” she pressed on, “is that last night Voldemort turned up in Godric’s Hollow
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-11
 
-16. firm (firm)
-Dursley was the director of a firm called Grunnings, which made drills
+16. firm
+usage: Dursley was the director of a firm called Grunnings, which made drills
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-11
+

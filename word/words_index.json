@@ -1,198 +1,78 @@
 {
+  "reasonably-0": {
+    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
+    "line_index": 116
+  }, 
   "barn-0": {
     "file_name": "/Users/leo/work/captain/word/dict/1.json", 
     "line_index": 2
+  }, 
+  "oft-0": {
+    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
+    "line_index": 47
+  }, 
+  "subterranean-0": {
+    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
+    "line_index": 143
+  }, 
+  "thud-0": {
+    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
+    "line_index": 56
+  }, 
+  "jelly-0": {
+    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
+    "line_index": 89
+  }, 
+  "spoil-0": {
+    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
+    "line_index": 20
+  }, 
+  "spoon-0": {
+    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
+    "line_index": 30
+  }, 
+  "berserk-0": {
+    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
+    "line_index": 125
+  }, 
+  "delicate-0": {
+    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
+    "line_index": 106
+  }, 
+  "notch-0": {
+    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
+    "line_index": 134
   }, 
   "creep-0": {
     "file_name": "/Users/leo/work/captain/word/dict/1.json", 
     "line_index": 10
   }, 
-  "newscaster-0": {
-    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 20
-  }, 
-  "spoil-0": {
-    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 26
-  }, 
-  "faint-0": {
-    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 36
-  }, 
-  "spoon-0": {
-    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 46
-  }, 
-  "spawn-1": {
-    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 54
-  }, 
   "crystal-0": {
     "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 62
-  }, 
-  "enrage-0": {
-    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 71
-  }, 
-  "cereal-0": {
-    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 334
-  }, 
-  "irritable-0": {
-    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 89
-  }, 
-  "grin-0": {
-    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 97
-  }, 
-  "oft-0": {
-    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 106
-  }, 
-  "odd-0": {
-    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 114
-  }, 
-  "thud-0": {
-    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 124
-  }, 
-  "formatting-1": {
-    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 131
-  }, 
-  "dwarf-0": {
-    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 139
-  }, 
-  "glove-0": {
-    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 148
-  }, 
-  "straighten-0": {
-    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 158
+    "line_index": 38
   }, 
   "decree-0": {
     "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 167
-  }, 
-  "rump-0": {
-    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 175
-  }, 
-  "recruit-0": {
-    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 182
-  }, 
-  "outlaw-0": {
-    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 190
-  }, 
-  "jelly-0": {
-    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 198
-  }, 
-  "plain-0": {
-    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 207
-  }, 
-  "powdered-0": {
-    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 217
-  }, 
-  "bun-0": {
-    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 226
+    "line_index": 80
   }, 
   "breastplate-0": {
     "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 234
+    "line_index": 98
   }, 
-  "delicate-0": {
+  "straighten-0": {
     "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 241
+    "line_index": 71
   }, 
-  "firm-0": {
+  "formatting-1": {
     "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 251
-  }, 
-  "hollow-0": {
-    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 261
-  }, 
-  "reasonably-0": {
-    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 271
-  }, 
-  "troublesome-0": {
-    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 279
-  }, 
-  "maid-0": {
-    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 287
-  }, 
-  "orphan-0": {
-    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 297
-  }, 
-  "flung-0": {
-    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 303
-  }, 
-  "downright-0": {
-    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 309
-  }, 
-  "tawny-0": {
-    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 317
-  }, 
-  "flatter-0": {
-    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 325
-  }, 
-  "shout-0": {
-    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 79
-  }, 
-  "berserk-0": {
-    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 342
-  }, 
-  "notch-0": {
-    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 351
-  }, 
-  "subterranean-0": {
-    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 360
-  }, 
-  "wound-0": {
-    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 369
-  }, 
-  "immense-0": {
-    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 379
-  }, 
-  "expression-1": {
-    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 388
-  }, 
-  "sparkling-0": {
-    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 397
-  }, 
-  "discussed-1": {
-    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 406
+    "line_index": 64
   }, 
   "wild-0": {
     "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 414
+    "line_index": 162
+  }, 
+  "wound-0": {
+    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
+    "line_index": 152
   }
 }

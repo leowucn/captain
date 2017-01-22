@@ -1,92 +1,155 @@
-1. breastplates (breastplate)
-Smiths straightened swords, knocked dents from breastplates, and shoed destriers and pack mules alike
+1. breastplate
+usage: Smiths straightened swords, knocked dents from breastplates, and shoed destriers and pack mules alike
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-11-4
 
-2. spoonfuls (spoon)
-Arya sipped at her tankard cautiously, between spoonfuls of pie still warm from the oven
+2. spoon
+usage: Arya sipped at her tankard cautiously, between spoonfuls of pie still warm from the oven
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-11-4
 
-3. subterranean (subterranean)
-1) The vault opened onto one of the tunnels the brothers called the wormwalks, winding subterranean passages that linked the keeps and towers of Castle Black under the earth. 2) The vault opened onto one of the tunnels the brothers called the wormwalks, winding subterranean passages that linked the keeps and towers of Castle Black under the earth
+3. subterranean
+usage: 1) The vault opened onto one of the tunnels the brothers called the wormwalks, winding subterranean passages that linked the keeps and towers of Castle Black under the earth. 2) The vault opened onto one of the tunnels the brothers called the wormwalks, winding subterranean passages that linked the keeps and towers of Castle Black under the earth
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-11-4
 
-4. crystal (crystal)
-A crystal had been set in the soft earth, and Lommy wanted to take it until the Bull told him he’d better leave the dead alone
+4. crystal
+usage: A crystal had been set in the soft earth, and Lommy wanted to take it until the Bull told him he’d better leave the dead alone
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-11-4
 
-5. reasonably (reasonably)
-“You don’t know that you’ll make a fool of yourself,” said Ron reasonably
+5. reasonably
+usage: “You don’t know that you’ll make a fool of yourself,” said Ron reasonably
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-11-4
 
-6. creep (creep)
-I don’t expect you will really understand the beauty of the softly simmering cauldron with its shimmering fumes, the delicate power of liquids that creep through human veins, bewitching the mind, ensnaring the senses
+6. creep
+usage: I don’t expect you will really understand the beauty of the softly simmering cauldron with its shimmering fumes, the delicate power of liquids that creep through human veins, bewitching the mind, ensnaring the senses
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-11-4
 
-7. straightened (straighten)
-Smiths straightened swords, knocked dents from breastplates, and shoed destriers and pack mules alike
+7. straighten
+usage: Smiths straightened swords, knocked dents from breastplates, and shoed destriers and pack mules alike
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-11-4
 
-8. delicately (delicate)
-1) Ever so delicately, he turned pages with a finger. 2) “I’ve never asked,” said Nearly Headless Nick delicately
+8. delicate
+usage: 1) Ever so delicately, he turned pages with a finger. 2) “I’ve never asked,” said Nearly Headless Nick delicately
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-11-4
 
-9. barn (barn)
-A barn owl brought Neville a small package from his grandmother
+9. barn
+usage: A barn owl brought Neville a small package from his grandmother
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-11-4
 
-10. berserk (berserk)
-It was said that the ironmen of old had oft been blood-drunk in battle, so berserk that they felt no pain and feared no foe, but this was a common ale-drunk
+10. berserk
+usage: It was said that the ironmen of old had oft been blood-drunk in battle, so berserk that they felt no pain and feared no foe, but this was a common ale-drunk
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-11-4
 
-11. spoiled (spoil)
-He drew on the hand that clutched the drinking horn, figuring to give them a shot to talk about, but Todric spoiled it by lurching to one side just as he loosed
+11. spoil
+usage: He drew on the hand that clutched the drinking horn, figuring to give them a shot to talk about, but Todric spoiled it by lurching to one side just as he loosed
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-11-4
 
-12. decreed (decree)
-1) Ser Rodrik decreed that they would share Jon Snow’s old bedchamber, since Jon was in the Night’s Watch and never coming back. 2) The Walders had decreed that Bran should be the judge and decide whether or not people had said “Mayhaps,” but as soon as they started playing they forgot all about him
+12. decree
+usage: 1) Ser Rodrik decreed that they would share Jon Snow’s old bedchamber, since Jon was in the Night’s Watch and never coming back. 2) The Walders had decreed that Bran should be the judge and decide whether or not people had said “Mayhaps,” but as soon as they started playing they forgot all about him
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-11-4
 
-13. oft (oft)
-It was said that the ironmen of old had oft been blood-drunk in battle, so berserk that they felt no pain and feared no foe, but this was a common ale-drunk
+13. oft
+usage: It was said that the ironmen of old had oft been blood-drunk in battle, so berserk that they felt no pain and feared no foe, but this was a common ale-drunk
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-11-4
 
-14. thud (thud)
-Harry saw his scared white face look down at the ground falling away, saw him gasp, slip sideways off the broom and — WHAM — a thud and a nasty crack and Neville lay facedown on the grass in a heap
+14. thud
+usage: Harry saw his scared white face look down at the ground falling away, saw him gasp, slip sideways off the broom and — WHAM — a thud and a nasty crack and Neville lay facedown on the grass in a heap
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-11-4
 
-15. powdered (powdered)
-“What would I get if I added powdered root of asphodel to an infusion of wormwood?
+15. powdered
+usage: “What would I get if I added powdered root of asphodel to an infusion of wormwood?
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-11-4
 
-16. notches (notch)
-Theon bent the bow and slipped the string into its notches as Todric knocked down the Botley boy and flung ale into his eyes
+16. notch
+usage: Theon bent the bow and slipped the string into its notches as Todric knocked down the Botley boy and flung ale into his eyes
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-11-4
 
-17. recruits (recruit)
-Outside the armory, Ser Endrew Tarth was working with some raw recruits
+17. recruit
+usage: Outside the armory, Ser Endrew Tarth was working with some raw recruits
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-11-4
 
-18. jelly (jelly)
-The crows will eat the jelly of your eyes.
+18. jelly
+usage: The crows will eat the jelly of your eyes.
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-11-4
 
-19. wound (wound)
-Gail for all the meat and mead we've shared PROLOGUE The comet’s tail spread across the dawn, a red slash that bled above the crags of Dragonstone like a wound in the pink and purple sky
+19. wound
+usage: Gail for all the meat and mead we've shared PROLOGUE The comet’s tail spread across the dawn, a red slash that bled above the crags of Dragonstone like a wound in the pink and purple sky
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-11-4
 
-20. gloves (glove)
-Black moleskin gloves covered his hands; the right because it was burned, the left because a man felt half a fool wearing only one glove
+20. glove
+usage: Black moleskin gloves covered his hands; the right because it was burned, the left because a man felt half a fool wearing only one glove
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-11-4
 
-21. flung (flung)
-Theon bent the bow and slipped the string into its notches as Todric knocked down the Botley boy and flung ale into his eyes
+21. flung
+usage: Theon bent the bow and slipped the string into its notches as Todric knocked down the Botley boy and flung ale into his eyes
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-11-4
 
-22. orphans (orphan)
-“A brigand, a barber, a beggar, two orphans, and a boy whore
+22. orphan
+usage: “A brigand, a barber, a beggar, two orphans, and a boy whore
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-11-4
 
-23. outlaw (outlaw)
-Would you want some outlaw to take you captive and sell you to the Lannisters?
+23. outlaw
+usage: Would you want some outlaw to take you captive and sell you to the Lannisters?
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-11-4
 
-24. immense (immense)
-The bald one opened his mouth and hissed like some immense white lizard
+24. immense
+usage: The bald one opened his mouth and hissed like some immense white lizard
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-11-4
 
-25. wild (wild)
-1) “There’s wild men down from the Mountains of the Moon, try telling them you take no part. 2) One wild cart ride later they stood blinking in the sunlight outside Gringotts
+25. wild
+usage: 1) “There’s wild men down from the Mountains of the Moon, try telling them you take no part. 2) One wild cart ride later they stood blinking in the sunlight outside Gringotts
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-11-4
 
-26. troublesome (troublesome)
-His turban, he told them, had been given to him by an African prince as a thank-you for getting rid of a troublesome zombie, but they weren’t sure they believed this story
+26. troublesome
+usage: His turban, he told them, had been given to him by an African prince as a thank-you for getting rid of a troublesome zombie, but they weren’t sure they believed this story
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-11-4
 
-27. rump (rump)
-Yoren slapped the rump of the officer’s horse with the flat of his sword and sent him reeling off down the kingsroad
+27. rump
+usage: Yoren slapped the rump of the officer’s horse with the flat of his sword and sent him reeling off down the kingsroad
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-11-4
 
-28. shouts (shout)
-The shouts and splashes soon drew others: Palla the kennel girl, Cayn’s boy Calon, Tom Too whose father Fat Tom had died with Bran’s father at King’s Landing
+28. shout
+usage: The shouts and splashes soon drew others: Palla the kennel girl, Cayn’s boy Calon, Tom Too whose father Fat Tom had died with Bran’s father at King’s Landing
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-11-4
 
-29. dwarf (dwarf)
-Will you never learn, dwarf
+29. dwarf
+usage: Will you never learn, dwarf
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-11-4
 
-30. wound (wound)
-This is a wound test.
+30. wound
+usage: This is a wound test.
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-11-4
 
-31. wound (wound)
-hello wound
+31. wound
+usage: hello wound
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-11-4
+
