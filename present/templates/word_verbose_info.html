@@ -35,6 +35,11 @@
                     <tr><td> {{ 'basic' }}: <p>{{ meaning['basic'] }} </p></td></tr>
                 {% endif %}
 
+                {#usage#}
+                {% if 'usage' in meaning%}
+                <tr><td> {{ 'usage'}}: <p>{{ meaning['usage']}} </p></td></tr>
+                {% endif %}
+
                 {#phrase#}
                 {% if 'phrase' in meaning%}
                 <tr><td> {{ 'phrase'}}: <p>{{ meaning['phrase']}} </p></td></tr>
@@ -53,11 +58,6 @@
                 {#discriminate#}
                 {% if 'discriminate' in meaning%}
                 <tr><td> {{ 'discriminate'}}: <p>{{ meaning['discriminate']}} </p></td></tr>
-                {% endif %}
-
-                {#usage#}
-                {% if 'usage' in meaning%}
-                <tr><td> {{ 'usage'}}: <p>{{ meaning['usage']}} </p></td></tr>
                 {% endif %}
 
                 {#collins#}

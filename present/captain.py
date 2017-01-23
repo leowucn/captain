@@ -14,6 +14,8 @@ app = Flask(__name__)
 def show_year_list():
 	tackle = tackle_word.TackleWords()
 	res = tackle.get_classified_lst()
+	if len(res) == 0:
+		return render_template('congratulation.html')
 
 	year_dict = dict()
 	for year, value in res[0].iteritems():
@@ -42,7 +44,7 @@ def show_week_list():
 				for week, words_dict in res[1][year].iteritems():
 					week_list_from_clipboard.append(week)
 		return render_template('week_list.html', year=year, week_list_from_word_builder=sorted(week_list_from_word_builder), week_list_from_clipboard = sorted(week_list_from_clipboard))
-	return
+	return render_template('nothing.html')
 
 
 @app.route('/words_list', methods=['GET', 'POST'])
@@ -62,7 +64,7 @@ def show_words_list():
 		elif come_from == '1':  # from clipboard
 			src_dict = res[1][year][week]
 		else:
-			return
+			return render_template('nothing.html')
 
 		result_dict = dict()
 		last_index = 1 * each_page_words_num
@@ -78,7 +80,7 @@ def show_words_list():
 
 		num = len(src_dict)/each_page_words_num + 1
 		return render_template('word_verbose_info.html', come_from=come_from, y=year, w=week, result=result_dict, button_num=num, page_index=0)
-	return
+	return render_template('nothing.html')
 
 
 @app.route('/specified_page', methods=['GET', 'POST'])
@@ -106,7 +108,7 @@ def show_specified_page_words():
 		elif come_from == '1':  # from clipboard
 			src_dict = res[1][year][week]
 		else:
-			return
+			return render_template('nothing.html')
 
 		for word, meaning in sorted(src_dict.items()):
 			if start_index <= i < last_index:
@@ -117,7 +119,7 @@ def show_specified_page_words():
 
 		num = len(src_dict)/each_page_words_num + 1
 		return render_template('word_verbose_info.html', come_from=come_from, y=year, w=week, result=result_dict, button_num=num, page_index=index)
-	return
+	return render_template('nothing.html')
 
 
 @app.route('/delete', methods=['GET', 'POST'])
@@ -131,10 +133,10 @@ def delete_word():
 		word = lst[4]
 
 		tackle = tackle_word.TackleWords()
-		print(come_from)
-		print(word)
 		tackle.delete(come_from, word)
 		res = tackle.get_classified_lst()
+		if len(res) == 0:
+			return render_template('congratulation.html')
 
 		start_index = int(index) * each_page_words_num - 1
 		if start_index < 0:
@@ -145,11 +147,15 @@ def delete_word():
 
 		src_dict = dict()
 		if come_from == '0':  # from word builder
+			if len(res[0]) == 0:
+				return render_template('congratulation.html')
 			src_dict = res[0][year][week]
 		elif come_from == '1':  # from clipboard
+			if len(res) <= 1 or len(res[1]) == 0:
+				return render_template('congratulation.html')
 			src_dict = res[1][year][week]
 		else:
-			return
+			return render_template('nothing.html')
 
 		for word, meaning in sorted(src_dict.items()):
 			if start_index <= i < last_index:
@@ -160,7 +166,8 @@ def delete_word():
 
 		num = len(src_dict)/each_page_words_num + 1
 		return render_template('word_verbose_info.html', come_from=come_from, y=year, w=week, result=result_dict, button_num=num, page_index=index)
-	return
+	return render_template('nothing.html')
+
 
 if __name__ == '__main__':
 	app.run(debug=True)

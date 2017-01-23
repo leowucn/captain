@@ -292,11 +292,11 @@ class TackleWords:
 				lines = (line for line in lines if line)  # Non-blank lines
 				for line in lines:
 					if self.is_word_line(line):
-						word = line[line.find('.') + 1:]
+						word = line[line.find('.') + 1:].strip()
 					if line.find('usage') == 0:
-						usage = line[line.find(':') + 1:]
+						usage = line[line.find(':') + 1:].strip()
 					if line.find('date') == 0:
-						date = line[line.find(':') + 1:]
+						date = line[line.find(':') + 1:].strip()
 						self.query(word + '-1', usage, date)
 						word = ''
 						usage = ''
@@ -356,7 +356,9 @@ class TackleWords:
 		if from_where != '0' and from_where != '1':
 			return
 
+		print('delete_word = ' + delete_word)
 		wrapped_word = delete_word + '-' + from_where
+		print('wrapped_word = ' + wrapped_word)
 		# ----------------delete from dict----------------------
 		try:
 			file_name = self.index_dict[wrapped_word]['file_name']
@@ -373,15 +375,20 @@ class TackleWords:
 				if i < line_index:
 					continue
 				stripped_line = line.strip('\n| ')
-				if stripped_line == '},':
+				if stripped_line == '},' or stripped_line == '}':
 					last_inex = i
 					break
 		with open(file_name) as f:
 			i = 0
 			for line in f:
 				i += 1
-				if line_index <= i <= last_inex:
+				if line_index - 1 <= i <= last_inex:
 					continue
+				if last_inex + 1 == i:
+					if line.strip() == '}':
+						lines_lst.append('}\n')
+					else:
+						lines_lst.append('},\n')
 				lines_lst.append(line)
 		f = open(file_name, "w")
 		for line in lines_lst:
@@ -471,7 +478,7 @@ class TackleWords:
 	def write_to_dict_file(self, file_name, data):
 		feeds = dict()
 		num_lines = self.get_file_line_count(file_name)
-		if num_lines > 0:
+		if num_lines > 2:
 			filedata = None
 			with open(file_name) as feedsjson:
 				feeds = json.load(feedsjson)
@@ -589,7 +596,10 @@ class TackleWords:
 
 		for file_name in dict_file_lst:
 			with open(file_name) as feedsjson:
-				feeds = json.load(feedsjson)
+				try:
+					feeds = json.load(feedsjson)
+				except ValueError:
+					return result
 				for word, verbose_info in feeds.iteritems():
 					word_label = word.split('-')[1]
 					if word_label == '1':
@@ -639,7 +649,7 @@ class TackleWords:
 
 	def get_year_and_week_by_date(self, date):
 		res = []
-		lst = re.split('-| ', date)
+		lst = re.split('-| ', date.strip())
 		res.append(str(lst[0]))
 		res.append(str(datetime.date(int(lst[0]), int(lst[1]), int(lst[2])).isocalendar()[1]))
 		return res
@@ -669,8 +679,8 @@ if __name__ == "__main__":
 	# m = tackle_words.query('love')
 	# m = tackle_words.query('wikipedia')
 	# print(m)
-	# tackle_words.import_all_dir()
-	tackle_words.delete('1', 'expression')
+	tackle_words.import_all_dir()
+	# tackle_words.delete('1', 'expression')
 	# tackle_words.update_index_dict()
 	# tackle_words.import_clipboard_words()
 	# tackle_words.get_classified_dict()

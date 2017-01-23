@@ -78,72 +78,77 @@ usage: Theon bent the bow and slipped the string into its notches as Todric knoc
 book: Harry_Potter_and_the_Sorcerer
 date: 2016-11-4
 
-17. jelly
+17. recruit
+usage: Outside the armory, Ser Endrew Tarth was working with some raw recruits
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-11-4
+
+18. jelly
 usage: The crows will eat the jelly of your eyes.
 book: Harry_Potter_and_the_Sorcerer
 date: 2016-11-4
 
-18. wound
+19. wound
 usage: Gail for all the meat and mead we've shared PROLOGUE The comet’s tail spread across the dawn, a red slash that bled above the crags of Dragonstone like a wound in the pink and purple sky
 book: Harry_Potter_and_the_Sorcerer
 date: 2016-11-4
 
-19. glove
+20. glove
 usage: Black moleskin gloves covered his hands; the right because it was burned, the left because a man felt half a fool wearing only one glove
 book: Harry_Potter_and_the_Sorcerer
 date: 2016-11-4
 
-20. flung
+21. flung
 usage: Theon bent the bow and slipped the string into its notches as Todric knocked down the Botley boy and flung ale into his eyes
 book: Harry_Potter_and_the_Sorcerer
 date: 2016-11-4
 
-21. orphan
+22. orphan
 usage: “A brigand, a barber, a beggar, two orphans, and a boy whore
 book: Harry_Potter_and_the_Sorcerer
 date: 2016-11-4
 
-22. outlaw
+23. outlaw
 usage: Would you want some outlaw to take you captive and sell you to the Lannisters?
 book: Harry_Potter_and_the_Sorcerer
 date: 2016-11-4
 
-23. immense
+24. immense
 usage: The bald one opened his mouth and hissed like some immense white lizard
 book: Harry_Potter_and_the_Sorcerer
 date: 2016-11-4
 
-24. wild
+25. wild
 usage: 1) “There’s wild men down from the Mountains of the Moon, try telling them you take no part. 2) One wild cart ride later they stood blinking in the sunlight outside Gringotts
 book: Harry_Potter_and_the_Sorcerer
 date: 2016-11-4
 
-25. troublesome
+26. troublesome
 usage: His turban, he told them, had been given to him by an African prince as a thank-you for getting rid of a troublesome zombie, but they weren’t sure they believed this story
 book: Harry_Potter_and_the_Sorcerer
 date: 2016-11-4
 
-26. rump
+27. rump
 usage: Yoren slapped the rump of the officer’s horse with the flat of his sword and sent him reeling off down the kingsroad
 book: Harry_Potter_and_the_Sorcerer
 date: 2016-11-4
 
-27. shout
+28. shout
 usage: The shouts and splashes soon drew others: Palla the kennel girl, Cayn’s boy Calon, Tom Too whose father Fat Tom had died with Bran’s father at King’s Landing
 book: Harry_Potter_and_the_Sorcerer
 date: 2016-11-4
 
-28. dwarf
+29. dwarf
 usage: Will you never learn, dwarf
 book: Harry_Potter_and_the_Sorcerer
 date: 2016-11-4
 
-29. wound
+30. wound
 usage: This is a wound test.
 book: Harry_Potter_and_the_Sorcerer
 date: 2016-11-4
 
-30. wound
+31. wound
 usage: hello wound
 book: Harry_Potter_and_the_Sorcerer
 date: 2016-11-4
