@@ -47,8 +47,8 @@ class TackleWords:
 				self.index_dict = json.load(fp)
 
 	def get_word_meaning(self, raw_string):         # raw_string may be a word or phrase
-		word = raw_string[:-2]
-		word_list = re.compile('\w+').findall(word)
+		valid_string = raw_string[:-2].strip()
+		word_list = re.compile('\w+').findall(valid_string)
 		post_fix = '%20'.join(word_list)
 
 		url = 'http://dict.youdao.com/w/eng/' + post_fix
@@ -64,9 +64,10 @@ class TackleWords:
 		basic = soup.find("div", id="phrsListTab")
 		if basic is not None:
 			result = basic.find('div', attrs={'class': 'trans-container'})
-			basic_str += result.ul.get_text().strip('\n')
+			if result is not None:
+				basic_str += result.ul.get_text().strip('\n')
 
-		# if basic_str of word is '', we can make sure that this does not exist.
+		# if basic_str of word is '', we can make sure that this word or phrase does not exist.
 		if basic_str == '':
 			return None
 		word_meaning_dict['basic'] = basic_str
@@ -82,7 +83,8 @@ class TackleWords:
 				# 	print(s)
 				for i, s in enumerate(phrase.stripped_strings):
 					r = s.replace('\n', '')
-					if r.find(raw_string) >= 0:
+
+					if r.find(valid_string) >= 0:
 						if i+1 >= len(list(phrase.stripped_strings)):
 							break
 						phrase_str += r + '     ' + re.sub('\s*', '', list(phrase.stripped_strings)[i+1]) + '\n'
@@ -356,9 +358,7 @@ class TackleWords:
 		if from_where != '0' and from_where != '1':
 			return
 
-		print('delete_word = ' + delete_word)
 		wrapped_word = delete_word + '-' + from_where
-		print('wrapped_word = ' + wrapped_word)
 		# ----------------delete from dict----------------------
 		try:
 			file_name = self.index_dict[wrapped_word]['file_name']
@@ -673,8 +673,8 @@ def test(fname):
 
 if __name__ == "__main__":
 	tackle_words = TackleWords()
-	# m = tackle_words.get_word_meaning('blink')
-	# m = tackle_words.query('get')
+	# m = tackle_words.get_word_meaning('get-0')
+	# m = tackle_words.query('get-0')
 	# m = tackle_words.query('boa')
 	# m = tackle_words.query('love')
 	# m = tackle_words.query('wikipedia')

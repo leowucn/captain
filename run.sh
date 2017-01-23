@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
-nohup python kindle/retrieve.py &
-nohup python word/tackle_word.py &
+cd kindle
+python retrieve.py
+cd ..
+
+cd word
+python tackle_word.py
+cd ..
+
 nohup python word/clipboard.py &
 nohup python present/captain.py &

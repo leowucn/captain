@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <style type="text/css">
-    p {
-        white-space: pre-wrap;
-    }
+        p {
+            white-space: pre-wrap;
+        }
     </style>
 </head>
    <body>
@@ -30,7 +30,7 @@
                 <input type="submit" name= {{ come_from }}-{{ y }}-{{ w }}-{{ page_index }}-{{ word }} value=delete>
                 </form>
             </th></tr>
-                {#basic#}
+            {#basic#}
                 {% if 'basic' in meaning%}
                     <tr><td> {{ 'basic' }}: <p>{{ meaning['basic'] }} </p></td></tr>
                 {% endif %}
