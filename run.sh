@@ -3,9 +3,6 @@ cd kindle
 python retrieve.py
 cd ..
 
-cd word
-python tackle_word.py
-cd ..
-
+nohup python word/tackle_word.py &
 nohup python word/clipboard.py &
 nohup python present/captain.py &

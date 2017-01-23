@@ -18,25 +18,23 @@ words_dir = '/Users/leo/work/captain/word/words'
 clipboard_dir = '/Users/leo/work/captain/word/clipboard'
 words_index_file = '/Users/leo/work/captain/word/words_index.json'   # index file
 
-max_line = 5000  # restraint single file line, if not, the dict file may be too huge.
+max_line = 5000  # restraint line amount of single file, if not, the dict file may be too huge.
 
 word_type = ('n.', 'v.', 'pron.', 'adj.', 'adv.', 'num.', 'art.', 'prep.', 'conj.', 'int.', 'vi.', 'vt.', 'aux.', 'aux.v')
 
 # all types might reside in querying result.
 # 'basic'           ------>基本释义
+# 'usage'           ------>出现的语句
 # 'phrase'          ------>词组短语
 # 'synonyms'        ------>同近义词
 # 'rel_word_tab'    ------>同根词
 # 'discriminate'    ------>词语辨析
 # 'collins'         ------>柯林斯
-# 'usage'           ------>出现的语句
 # 'date'            ------>单词录入时间
 # 'index'           ------>index
 
-# word-0            word from word builder
-# word-1            word from clipboard
-# come_from: '0' which represent word from word builder
-# come_from: '1' which represent word from clipboard
+# word-0         represent word from word builder
+# word-1         represent word from clipboard
 
 
 class TackleWords:
@@ -211,6 +209,8 @@ class TackleWords:
 	def query(self, word, usage=None, date=None, book=None):
 		result = dict()
 		meaning = dict()
+		if word.split('-')[1] == '1':
+			self.store_clipboard(word[:-2], usage)
 		if word in self.index_dict:
 			file_name = self.index_dict[word]['file_name']
 			with open(os.path.join(absolute_prefix, file_name)) as f:
@@ -256,8 +256,6 @@ class TackleWords:
 			if book is not None:
 				result[word]['book'] = book + '\n'
 			self.insert(result)
-			if word.split('-')[1] == '1':
-				self.store_clipboard(word[:-2], usage)
 		return result
 
 	def import_all_dir(self):
@@ -653,14 +651,6 @@ class TackleWords:
 		res.append(str(lst[0]))
 		res.append(str(datetime.date(int(lst[0]), int(lst[1]), int(lst[2])).isocalendar()[1]))
 		return res
-
-
-class RawDataFile:
-	def __init__(self, string):
-		self.string = string
-
-	def read(self):
-		return self.string
 
 
 def test(fname):
