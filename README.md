@@ -34,7 +34,7 @@ Once you have done the above steps. You can use now.
 
 For recording the vocabulary and the sentence where you stuck, first you should copy the word and then the sentence in which the word reside. That's all you need to do. Now the word has been stored properly associated with its definition, you can access and review at http://localhost:5000/
 
-For exporting the vocabulary which in category 'mastered' on Kindle, you just need to plug in you Kindle and issue the command `sh run.sh` or if you have executed that command, you should issue the  `sh rerun.sh` instead.
+For exporting the vocabulary which in category 'mastered' on Kindle, you just need to plug in you Kindle and issue the command `sh run.sh` or if you have executed that command, you should issue `sh rerun.sh` instead.
 
 ### Feedback
 
