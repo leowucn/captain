@@ -1,4 +1,4 @@
-## Awesome Tool for Leaning English
+## Awesome Tool for Learning English
 
 ### What it is
 
