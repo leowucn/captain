@@ -8,11 +8,11 @@ Captain is a smart clipboard recorder, a dictionary and a vocabulary builder whi
 
 #### Smart Clipboard Recorder
 
-It is very essential to record the vocabulary and the sentence in which you stuck and can't recognize the word when you read English articles ro English novels. If you can learn words from a vivid or meaningful sentence in which you stuck other than a trivial example from dictionary, you would gain much efficiency.
+It is very essential to record the vocabulary and the sentence in which you stuck and can't recognize the word when you read English articles ro English novels. If you can learn words from a vivid or meaningful sentence in which you stuck other than a trivial example from dictionary, you would gain much efficiency when leaning English.
 
 #### Dictionary
 
-Captain of cource can look up words. As a matter of fact, Captain requests and get word meaning from website http://dict.youdao.com/, then it will record that in local dicionary file.
+Captain of cource can look up words. As a matter of fact, Captain requests and gets word meaning from website http://dict.youdao.com/, then it will record that in local dicionary file.
 
 #### Vocabulary Builder
 
