@@ -28,9 +28,28 @@ For convenience, Captain can automatically export the words in 'mastered' catego
 
 ### Install requirements
 
+##### Install third-party library for python.
+
 ```
 pip install -r requirements.txt
 ```
+
+##### Install mpg123 for words pronunciation via third-party packaging tool.
+
+[**Homebrew** ](http://brew.sh/)
+
+```
+brew install mpg123
+```
+
+[**apt-get**](https://linux.die.net/man/8/apt-get)
+
+```
+sudo apt-get update
+sudo apt-get install mpg123
+```
+
+Almost all the *inux system has the corresponding packaging tool. You can install mpg123 via that.
 
 ### Running the app
 
