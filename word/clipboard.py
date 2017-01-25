@@ -11,26 +11,20 @@ interval = 2
 
 
 def watcher():
-	last_result = ''
+	word = ''
 	try:
 		while True:
 			result = pyperclip.paste().strip()
 			word_list = re.compile('\w+').findall(result)
-			if len(word_list) > 0:
-				if last_result != '' and result.find(last_result) >= 0 and len(result) > len(last_result):
-					# in this case, result might be a usage containing the
-					# corresponding last-result which was supposed to be a word or phrase.
-					# legal usage
-					tackle = tackle_word.TackleWords()
-					tackle.query(last_result + '-1', result, strftime("%Y-%m-%d", gmtime()))
-					last_result = ''
-				else:
-					if len(word_list) < 4:  # this may be a word or regular phrase
-						last_result = result
-					else:
-						last_result = ''
+			if word != '' and result.find(word) >= 0 and len(result) > len(word):
+				# in this case, result should be a usage containing the
+				# corresponding result which was supposed to be a word or phrase.
+				tackle = tackle_word.TackleWords()
+				tackle.query(word + '-1', result, strftime("%Y-%m-%d", gmtime()))
+				word = ''
 			else:
-				last_result = ''
+				if len(word_list) < 4:  # this may be a word or regular phrase
+					word = result
 			time.sleep(interval)
 	except:
 		show_notification('Some error may happened! Please check error message!')
