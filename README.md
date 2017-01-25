@@ -26,6 +26,12 @@ Captain is originally designed as an assistant partner of Kindle E-reader.Frankl
 
 For convenience, Captain can automatically export the words in 'mastered' category on Kindle vocabulary builder, it will delete those them on Kindle and synchronise to Kindle. But currently, you need manually reboot Kindle after exporting to make synchronisation valid.
 
+### Install requirements
+
+```
+pip install -r requirements.txt
+```
+
 ### Running the app
 
     sh run.sh

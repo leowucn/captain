@@ -276,10 +276,13 @@ class TackleWords:
 				for index, line in enumerate(lines):
 					if line[0].isdigit():
 						word = line[line.find('.') + 2:]
+						wrapped_word = word + '-0'
+						if wrapped_word in self.index_dict:
+							continue
 						usage = lines[index + 1][lines[index + 1].find(':') + 1:]
 						book = lines[index + 2][lines[index + 2].find(':') + 2:]
 						date = lines[index + 3][lines[index + 3].find(':') + 1:]
-						self.query(word + '-0', usage, date, book)
+						self.query(wrapped_word, usage, date, book)
 
 	def import_clipboard_words(self):
 		files = [f for f in os.listdir(clipboard_dir) if os.path.isfile(os.path.join(clipboard_dir, f))]
@@ -299,7 +302,10 @@ class TackleWords:
 						usage = line[line.find(':') + 1:].strip()
 					if line.find('date') == 0:
 						date = line[line.find(':') + 1:].strip()
-						self.query(word + '-1', usage, date)
+						wrapped_word = word + '-1'
+						if wrapped_word in self.index_dict:
+							continue
+						self.query(wrapped_word, usage, date)
 						word = ''
 						usage = ''
 
