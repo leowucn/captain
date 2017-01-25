@@ -7,6 +7,7 @@ import os
 from time import gmtime, strftime
 from dateutil.parser import parse
 import datetime
+import platform
 
 import sys
 reload(sys)
@@ -655,8 +656,10 @@ class TackleWords:
 
 
 def show_notification(msg):
-	command = "osascript -e \'tell app \"System Events\" to display notification \"" + msg.encode('utf-8') + "\" with title \"Captain Info\"\'"
-	os.system(command)
+	if platform.system() == 'Darwin':
+		command = "osascript -e \'tell app \"System Events\" to display notification \"" + msg.encode('utf-8') + "\" with title \"Captain Info\"\'"
+		os.system(command)
+	return
 
 
 def test(fname):

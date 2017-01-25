@@ -92,3 +92,5 @@ ENV/
 tmp
 .DS_Store
 *.out
+word/pronunciation
+word/clipboard

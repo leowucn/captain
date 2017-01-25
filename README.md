@@ -10,6 +10,10 @@ Captain is a smart clipboard recorder, a dictionary and a vocabulary builder whi
 
 It is essential to record the vocabulary and the sentence in which you stuck and can't recognise the word when you read English articles or English novels. If you can learn words from a vivid or meaningful sentence in which you stuck other than a trivial example from a dictionary, you would gain much efficiency when learning English.
 
+#### Automatic pronunciation
+
+Want to listen to word pronunciation but too lazy to open other app and click pronunciation button? Or less you have to open a web browser and search the certain word? How can you bear the so much low efficiency? Now,  Captain would release you from the annoying dilemma. The only thing you need to do is to copy the word! Programming should make life easier. That's it.ʘ‿ʘ.
+
 #### Dictionary
 
 Captain, of course, can look up words. As a matter of fact, Captain requests and gets word definition from website http://dict.youdao.com/, then it will record that in a local dictionary file.
@@ -36,9 +40,11 @@ For recording the vocabulary and the sentence where you stuck, first you should 
 
 For exporting the vocabulary which in category 'mastered' on Kindle, you just need to plug in you Kindle and issue the command `sh run.sh` or if you have executed that command, you should issue `sh rerun.sh` instead.
 
+For listening to word pronunciation, copy the word outright. Then the pronunciation would continually ring out, to prevent this, just copy arbitrary content but can't be a complete word. 
+
 ### Feedback
 
-You are welcome so much for rendering some improvements to make this project more useful and more powerful. Thanks.
+You are welcome so much for rendering some improvements advice to make this project more useful and more powerful. Thanks.
 
 ### Contributing
 

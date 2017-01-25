@@ -4,5 +4,9 @@ python retrieve.py
 cd ..
 
 nohup python word/tackle_word.py &
-nohup python word/clipboard.py &
+
+cd word
+nohup python clipboard.py &
+cd ..
+
 nohup python present/captain.py &
