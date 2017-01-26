@@ -103,9 +103,11 @@ def get_pronunciation(word, dst_dir):
 
 
 def show_literal_pronunciation(word):
+	stripped_word = word.strip()
+	if stripped_word == '':
+		return
 	global pronunciation_dict
 	load_literal_pronunciation()
-	stripped_word = word.strip()
 
 	literal = ''
 	if stripped_word in pronunciation_dict:

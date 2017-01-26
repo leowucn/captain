@@ -65,7 +65,7 @@ For recording the vocabulary and the sentence where you stuck, first you should 
 
 For exporting the vocabulary which in category 'mastered' on Kindle, you just need to plug in you Kindle and issue the command `sh run.sh` or if you have executed that command, you should issue `sh rerun.sh` instead.
 
-For listening to word pronunciation, copy the word outright. Then the pronunciation would continually ring out, to prevent this, just copy arbitrary content but can't be a complete word. 
+For listening to word pronunciation, copy the word outright. Then the pronunciation would continually ring out for three times.
 
 ### Feedback
 
