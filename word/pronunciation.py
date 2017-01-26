@@ -148,5 +148,5 @@ def write_pronunciation_file():
 		f.write(json.dumps(pronunciation_dict, indent=2))
 
 
-launch_pronunciation('British')
+# launch_pronunciation('British')
 # show_literal_pronunciation('dilemma')
