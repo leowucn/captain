@@ -11,7 +11,23 @@ app = Flask(__name__)
 
 
 @app.route('/')
-def show_year_list():
+def show_year_list_v1():
+	tackle = tackle_word.TackleWords()
+	res = tackle.get_classified_lst()
+	if len(res) == 0:
+		return render_template('congratulation.html')
+
+	year_dict = dict()
+	for year, value in res[0].iteritems():
+		year_dict[year] = 0
+	if len(res) > 1:
+		for year, value in res[1].iteritems():
+			year_dict[year] = 0
+	return render_template('year_list.html', year_lst=sorted(year_dict))
+
+
+@app.route('/year_list', methods=['GET', 'POST'])
+def show_year_list_v2():
 	tackle = tackle_word.TackleWords()
 	res = tackle.get_classified_lst()
 	if len(res) == 0:

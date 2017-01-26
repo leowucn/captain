@@ -16,6 +16,13 @@
     {% if come_from == '1' %}
     <p> ⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱from clipboard ⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱</p>
     {% endif %}
+
+    <form action = "http://localhost:5000/year_list" method = "post">
+        <input type="submit" name='' value="year list">
+    </form>
+    <form action = "http://localhost:5000/week_list" method = "post">
+        <input type="submit" name={{ y }} value="week list">
+    </form>
     <p> page index: {{ page_index }}</p>
       {% for i in range(button_num) %}
         <form action = "http://localhost:5000/specified_page" method = "post">
@@ -71,12 +78,20 @@
                 {% endif %}
             {% endfor %}
       </table>
-      <p> page index: {{ page_index }}</p>
       {% for i in range(button_num) %}
         <form action = "http://localhost:5000/specified_page" method = "post">
             <input type="submit" name= {{ come_from }}-{{ y }}-{{ w }}-{{ i }} value={{ y }}-{{ w }}-{{ i }}>
         </form>
       {% endfor %}
+
+      <p> page index: {{ page_index }}</p>
+
+        <form action = "http://localhost:5000/year_list" method = "post">
+            <input type="submit" name='' value="year list">
+        </form>
+        <form action = "http://localhost:5000/week_list" method = "post">
+            <input type="submit" name={{ y }} value="week list">
+        </form>
 
       {% if come_from == '0' %}
       <p> ☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘from word builder☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘</p>
@@ -85,5 +100,6 @@
       {% if come_from == '1' %}
       <p> ⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱from clipboard ⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱</p>
       {% endif %}
+
    </body>
 </html>
