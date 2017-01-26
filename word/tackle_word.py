@@ -8,6 +8,7 @@ from time import gmtime, strftime
 from dateutil.parser import parse
 import datetime
 import platform
+import utility
 
 import sys
 reload(sys)
@@ -262,7 +263,7 @@ class TackleWords:
 	def import_all_dir(self):
 		self.import_word_builder()
 		self.import_clipboard_words()
-		show_notification('Importing words completely finished!')
+		utility.show_notification('Captain Info', 'Importing words completely finished!')
 
 	def import_word_builder(self):
 		files = [f for f in os.listdir(words_dir) if os.path.isfile(os.path.join(words_dir, f))]
@@ -659,13 +660,6 @@ class TackleWords:
 		res.append(str(lst[0]))
 		res.append(str(datetime.date(int(lst[0]), int(lst[1]), int(lst[2])).isocalendar()[1]))
 		return res
-
-
-def show_notification(msg):
-	if platform.system() == 'Darwin':
-		command = "osascript -e \'tell app \"System Events\" to display notification \"" + msg.encode('utf-8') + "\" with title \"Captain Info\"\'"
-		os.system(command)
-	return
 
 
 def test(fname):
