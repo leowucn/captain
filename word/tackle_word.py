@@ -188,7 +188,8 @@ class TackleWords:
 			collins_str = re.sub('例：', '\n例：', line)
 			collins_str = re.sub("\d+\.", "\n*", collins_str)
 			collins_str = collins_str[collins_str.find('*'):]
-			word_meaning_dict['collins'] = collins_str.encode('utf-8')
+			if len(collins_str.strip()) > 1:
+				word_meaning_dict['collins'] = collins_str.encode('utf-8')
 
 		# ---------------------date---------------------
 		word_meaning_dict['date'] = strftime("%Y-%m-%d", gmtime())

@@ -13,8 +13,8 @@ import utility
 # the interval time of British pronunciation and American pronunciation
 pronunciation_interval = 0.7
 
-pronunciation_dict_file = './pronunciation/literal_pronunciation.json'
-pronunciation_dict = dict()
+basic_dict_file = './pronunciation/basic.json'
+basic_dict = dict()
 
 def launch_pronunciation(word):
 	stripped_word = word.strip().lower()
@@ -108,50 +108,65 @@ def get_pronunciation(word, dst_dir):
 
 def show_literal_pronunciation(word):
 	stripped_word = word.strip()
-	if stripped_word == '':
+	if not stripped_word.isalpha():
 		return
-	global pronunciation_dict
-	load_literal_pronunciation()
+	global basic_dict
+	load_basic_dict()
 
-	literal = ''
-	if stripped_word in pronunciation_dict:
-		literal = pronunciation_dict[stripped_word]
+	basic = dict()
+	if stripped_word in basic_dict:
+		basic = basic_dict[stripped_word]
 	else:
-		literal = dl_pronunciation(stripped_word)
-		pronunciation_dict[stripped_word] = literal
-		write_pronunciation_file()
+		result = dl_pronunciation(stripped_word)
+		if len(result) == 0:
+			return
+		basic['pronun'] = result['pronun']
+		basic['basic'] = result['basic']
+		basic_dict[stripped_word] = basic
+		write_basic_dict()
 
-	if literal == '':
-		return
-	literal = literal.replace("'", ".")
+	literal = basic['pronun'].replace("'", ".")
 	literal = literal.replace("ˈ", ".")
-	utility.show_notification(word, literal.encode('utf-8'))
+	utility.show_notification(literal.encode('utf-8'), basic['basic'].encode('utf-8'))
 	return
 
 
 def dl_pronunciation(word):
+	basic = dict()
 	url = 'http://dict.youdao.com/w/eng/' + word.strip()
 	res = requests.get(url)
 	soup = bs4.BeautifulSoup(res.content, 'lxml')
-	basic = soup.find('div', attrs={'class': 'baav'})
-	basic_str = ''
-	if basic is not None:
-		basic_str += ' '.join(list(basic.stripped_strings))
-	return basic_str
+	pronunciation = soup.find('div', attrs={'class': 'baav'})
+	if pronunciation is not None:
+		basic['pronun'] = ' '.join(list(pronunciation.stripped_strings))
+	else:
+		basic['pronun'] = ''
+
+	# ----------------------basic definition-----------------------
+	basic_soup = soup.find("div", id="phrsListTab")
+	if basic_soup is not None:
+		result = basic_soup.find('div', attrs={'class': 'trans-container'})
+		if result is not None:
+			basic['basic'] = result.ul.get_text().strip('\n')
+		else:
+			basic['basic'] = ''
+	else:
+		basic['basic'] = ''
+	return basic
 
 
-def load_literal_pronunciation():
-	if not os.path.isfile(pronunciation_dict_file):
+def load_basic_dict():
+	if not os.path.isfile(basic_dict_file):
 		return
-	global pronunciation_dict
-	with open(pronunciation_dict_file, 'r') as fp:
-		pronunciation_dict = json.load(fp)
+	global basic_dict
+	with open(basic_dict_file, 'r') as fp:
+		basic_dict = json.load(fp)
 
 
-def write_pronunciation_file():
-	global pronunciation_dict
-	with open(pronunciation_dict_file, mode='w') as f:
-		f.write(json.dumps(pronunciation_dict, indent=2))
+def write_basic_dict():
+	global basic_dict
+	with open(basic_dict_file, mode='w') as f:
+		f.write(json.dumps(basic_dict, indent=2))
 
 
 # launch_pronunciation('congregate')
