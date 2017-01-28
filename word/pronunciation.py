@@ -49,6 +49,10 @@ def launch_pronunciation(word):
 def get_pronunciation(word, dst_dir):
 	url = 'http://dictionary.cambridge.org/'
 	browser = Browser()
+	browser.addheaders = [('User-Agent', 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.1) Gecko/2008071615 Fedora/3.0.1-1.fc9 Firefox/3.0.1')]
+	browser.set_handle_equiv(True)
+	browser.set_handle_redirect(True)
+	browser.set_handle_referer(True)
 	browser.set_handle_robots(False)
 	browser.open(url)
 	browser.select_form(nr=0)
@@ -150,5 +154,5 @@ def write_pronunciation_file():
 		f.write(json.dumps(pronunciation_dict, indent=2))
 
 
-# launch_pronunciation('British')
+# launch_pronunciation('congregate')
 # show_literal_pronunciation('dilemma')

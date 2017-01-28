@@ -9,7 +9,7 @@ import os
 import utility
 
 interval = 2    # interval seconds for scanning clipboard
-times = 3   # the times of repeating word pronunciation
+times = 2   # the times of repeating word pronunciation
 max_length = 400    # the maximum length of word usage.
 
 
@@ -21,24 +21,26 @@ def watcher():
 		if len(result) >= max_length:
 			continue
 		word_list = re.compile('\w+').findall(result)
+		if len(word_list) <= 4:
+			word = result
 		if word != '' and result.find(word) >= 0 and len(word_list) > len(word):
 			# in this case, result should be a usage containing the
 			# corresponding result which was supposed to be a word or phrase.
 			tackle = tackle_word.TackleWords()
 			tackle.query(word + '-1', result, strftime("%Y-%m-%d", gmtime()))
 			word = ''
-		else:
-			if len(word_list) < 4:  # this may be a word or regular phrase
-				word = result
+
 		if word != '':
 			if i >= times:
 				word = ''
 				os.system("echo '' | pbcopy")
+				i = 0
+				continue
+			i += 1
 			pronunciation.show_literal_pronunciation(word)
 			pronunciation.launch_pronunciation(word)
-			i += 1
 		time.sleep(interval)
-	utility.show_notification('Captain Info', 'Some error may happened! Please check error message!')
+	utility.show_notification('Captain Info', 'Sorry, some error may happened! Please check the error message!')
 
 
 watcher()
