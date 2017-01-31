@@ -5,8 +5,7 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-working_dir = os.getcwd()
-sys.path.append(os.path.join(working_dir, 'word'))
+sys.path.append(os.path.join(os.getcwd(), 'word'))
 import tackle_word
 
 each_page_words_num = 10

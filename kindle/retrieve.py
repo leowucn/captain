@@ -3,12 +3,14 @@ import sqlite3
 import os
 from time import gmtime, strftime
 import datetime
+import sys
 
 sqlite_file = '/Volumes/Kindle/system/vocabulary/vocab.db'  # on mac os
 # sqlite_file = './vocab.db'  # for test
 words_table_name = 'WORDS'
 lookups_table_name = 'LOOKUPS'
-words_dir = '../word/words'
+
+words_dir = os.path.join(os.getcwd(), 'word/words')
 
 
 def get_table_data(conn, table_name):
