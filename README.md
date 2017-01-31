@@ -1,32 +1,32 @@
-## Awesome Tool for Learning English
+# Awesome Tool for Learning English
 
-### What it is
+## What it is
 
-Captain is a smart clipboard recorder, a dictionary and a vocabulary builder which was built for learning English.
+Captain is a smart clipboard recorder, a dictionary and a vocabulary builder which was created for learning English.
 
-### Features
+## Features
 
-#### Smart Clipboard Recorder
+### Smart Clipboard Recorder
 
 It is essential to record the vocabulary and the sentence in which you stuck and can't recognise the word when you read English articles or English novels. If you can learn words from a vivid or meaningful sentence in which you stuck other than a trivial example from a dictionary, you would gain much efficiency when learning English.
 
-#### Automatic pronunciation
+### Automatic pronunciation
 
 Want to listen to word pronunciation but too lazy to open other app and click pronunciation button? Or less you have to open a web browser and search the certain word? How can you bear the so much low efficiency? Now,  Captain would release you from the annoying dilemma. The only thing you need to do is to copy the word! Programming should make life easier. That's it.ʘ‿ʘ.
 
-#### Dictionary
+### Dictionary
 
-Captain, of course, can look up words. As a matter of fact, Captain requests and gets word definition from website http://dict.youdao.com/, then it will record that in a local dictionary file.
+Captain, of course, can look up words. As a matter of fact, Captain requests and gets word definition from website http://dict.youdao.com/, then it will record the definition in a local dictionary file.
 
-#### Vocabulary Builder
+### Vocabulary Builder
 
 Captain is originally designed as an assistant partner of Kindle E-reader.Frankly, I think Kindle is awesome to learning English. When we look up words on Kindle, they are automatically added to the Vocabulary Builder on the device. With Vocabulary Builder, we can use flashcards to learn the definitions and usage of words. But as a long term user, I think Kindle has a serious shortcoming which is a lack of excellent management functionary of vocabulary builder, and this is why I created this project originally.
 
-#### Kindle Exporter
+### Kindle Exporter
 
 For convenience, Captain can automatically export the words in 'mastered' category on Kindle vocabulary builder, it will delete those them on Kindle and synchronise to Kindle. But currently, you need manually reboot Kindle after exporting to make synchronisation valid.
 
-### Install requirements
+## Install requirements
 
 ##### Install third-party library for python.
 
@@ -51,13 +51,17 @@ sudo apt-get install mpg123
 
 Almost all the *inux system has the corresponding packaging tool. You can install mpg123 via that.
 
-### Running the app
+## Requirements
+
+OS: OSX
+
+## Running the app
 
     sh run.sh
 
 Open your browser, enter the url http://localhost:5000/. 
 
-### How to use
+## How to use
 
 Once you have done the above steps. You can use now.
 
@@ -67,15 +71,15 @@ For exporting the vocabulary which in category 'mastered' on Kindle, you just ne
 
 For listening to word pronunciation, copy the word outright. Then the pronunciation would continually ring out for three times.
 
-### Feedback
+## Feedback
 
 You are welcome so much for rendering some improvements advice to make this project more useful and more powerful. Thanks.
 
-### Contributing
+## Contributing
 
 Contributions are welcome!
 
-### License
+## License
 
 Copyright 2017 leowucom
 

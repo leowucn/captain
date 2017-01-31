@@ -87,9 +87,10 @@ def store(words_data):
 			index += 1
 
 
-if os.path.isfile(sqlite_file):
-	# Connecting to the database file
-	sql_conn = sqlite3.connect(sqlite_file)
-	tackle_kindle(sql_conn)
-	# Closing the connection to the database file
-	sql_conn.close()
+if __name__ == "__main__":
+	if os.path.isfile(sqlite_file):
+		# Connecting to the database file
+		sql_conn = sqlite3.connect(sqlite_file)
+		tackle_kindle(sql_conn)
+		# Closing the connection to the database file
+		sql_conn.close()

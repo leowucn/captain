@@ -60,4 +60,5 @@ def show(word):
 	pronunciation.launch_pronunciation(word)
 
 
-watcher()
+if __name__ == "__main__":
+	watcher()

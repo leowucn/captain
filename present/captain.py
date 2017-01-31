@@ -6,7 +6,6 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 working_dir = os.getcwd()
-# sys.path.append('../../captain/word')
 sys.path.append(os.path.join(working_dir, 'word'))
 import tackle_word
 
