@@ -1,9 +1,13 @@
 # -*- coding: utf-8 -*-
 from flask import Flask, render_template, request
+import os
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
-sys.path.append('../../captain/word')
+
+working_dir = os.getcwd()
+# sys.path.append('../../captain/word')
+sys.path.append(os.path.join(working_dir, 'word'))
 import tackle_word
 
 each_page_words_num = 10
