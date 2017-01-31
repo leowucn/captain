@@ -6,10 +6,12 @@ from time import gmtime, strftime
 import pronunciation
 import os
 import utility
+import multiprocessing
 
 interval = 2.5    # interval seconds for scanning clipboard
 times = 3   # the times of repeating word pronunciation
 max_length = 400    # the maximum length of word usage.
+timeout = 5     # wait no more than four seconds for show pronunciation.
 
 
 def watcher():
@@ -37,10 +39,25 @@ def watcher():
 				word = ''
 				continue
 			i += 1
-			pronunciation.show_literal_pronunciation(word)
-			pronunciation.launch_pronunciation(word)
+
+			p = multiprocessing.Process(target=show, args=(word,))
+			p.start()
+			# Wait timeout seconds or until process finishes
+			p.join(timeout)
+			# If thread is still active
+			if p.is_alive():
+				print "running... let's kill it..."
+				# Terminate
+				p.terminate()
+				p.join()
+
 		time.sleep(interval)
 	utility.show_notification('Captain Info', 'Sorry, some error may happened! Please check the error message!')
+
+
+def show(word):
+	pronunciation.show_literal_pronunciation(word)
+	pronunciation.launch_pronunciation(word)
 
 
 watcher()
