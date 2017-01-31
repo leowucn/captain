@@ -7,18 +7,19 @@ import os
 from time import gmtime, strftime
 from dateutil.parser import parse
 import datetime
-import platform
 import utility
-
 import sys
+
 reload(sys)
 sys.setdefaultencoding('utf8')
 
-absolute_prefix = '/Users/leo/work/captain/word'
-dict_dir = '/Users/leo/work/captain/word/dict'
-words_dir = '/Users/leo/work/captain/word/words'
-clipboard_dir = '/Users/leo/work/captain/word/clipboard'
-words_index_file = '/Users/leo/work/captain/word/words_index.json'   # index file
+current_dir = os.path.dirname(os.path.abspath(__file__))
+working_dir = os.getcwd()
+absolute_prefix = os.path.join(working_dir, 'word')
+dict_dir = os.path.join(current_dir, 'dict')
+words_dir = os.path.join(current_dir, 'words')
+clipboard_dir = os.path.join(current_dir, 'clipboard')
+words_index_file = os.path.join(current_dir, 'words_index.json')   # index file
 
 max_line = 5000  # restraint line amount of single file, if not, the dict file may be too huge.
 
@@ -213,7 +214,7 @@ class TackleWords:
 		result = dict()
 		meaning = dict()
 		if word.split('-')[1] == '1':
-			self.store_clipboard(word[:-2], usage)
+			self.store_clipboard(word[:-2], usage.strip())
 		if word in self.index_dict:
 			file_name = self.index_dict[word]['file_name']
 			with open(os.path.join(absolute_prefix, file_name)) as f:
@@ -233,19 +234,24 @@ class TackleWords:
 						break
 
 				if date is not None:
-					result[word]['date'] = date
-				if result[word]['usage'].find(usage) < 0 and usage is not None:
+					result[word]['date'] = date.strip()
+				if usage is not None:
+					stripped_usage = usage.strip()
 					if 'usage' in result[word]:
-						all_usage = self.fix_encoding_issue(result[word]['usage'])
-						if all_usage.find(usage) >= 0:
-							return
-						else:
-							all_usage += '\n* ' + usage
-						result[word]['usage'] = all_usage
+						if result[word]['usage'].find(stripped_usage) < 0:
+							all_usage = self.fix_encoding_issue(result[word]['usage'])
+							if all_usage.find(stripped_usage) < 0:
+								all_usage += '\n* ' + stripped_usage
+								result[word]['usage'] = all_usage
 					else:
-						result[word]['usage'] = '\n* ' + usage
+						result[word]['usage'] = stripped_usage
 				if book is not None:
-					result[word]['book'] += book + '\n'
+					stripped_book = book.strip()
+					if 'book' in result[word]:
+						if result[word]['book'].find(stripped_book) < 0:
+							result[word]['book'] += '\n*' + stripped_book
+					else:
+						result[word]['book'] = stripped_book
 				self.update(result)
 		else:
 			result = self.get_word_meaning(word)
@@ -253,11 +259,11 @@ class TackleWords:
 				return None
 
 			if usage is not None:
-				result[word]['usage'] = '* ' + str(usage)
+				result[word]['usage'] = '* ' + usage.strip()
 			if date is not None:
-				result[word]['date'] = date
+				result[word]['date'] = date.strip()
 			if book is not None:
-				result[word]['book'] = book + '\n'
+				result[word]['book'] = book.strip()
 			self.insert(result)
 		return result
 
@@ -282,7 +288,7 @@ class TackleWords:
 						if wrapped_word in self.index_dict:
 							continue
 						usage = lines[index + 1][lines[index + 1].find(':') + 1:]
-						book = lines[index + 2][lines[index + 2].find(':') + 2:]
+						book = lines[index + 2][lines[index + 2].find(':') + 1:]
 						date = lines[index + 3][lines[index + 3].find(':') + 1:]
 						self.query(wrapped_word, usage, date, book)
 

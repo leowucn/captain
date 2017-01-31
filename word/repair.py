@@ -1,6 +1,6 @@
 import os
 
-words_dir = '/Users/leo/work/captain/word/words'
+words_dir = './words'
 def repair():
 	files = [f for f in os.listdir(words_dir) if os.path.isfile(os.path.join(words_dir, f))]
 	for file_name in files:

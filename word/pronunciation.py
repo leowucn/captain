@@ -13,8 +13,9 @@ import utility
 # the interval time of British pronunciation and American pronunciation
 pronunciation_interval = 0.7
 
-basic_dict_file = './pronunciation/basic.json'
+basic_dict_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'pronunciation/basic.json')
 basic_dict = dict()
+
 
 def launch_pronunciation(word):
 	stripped_word = word.strip().lower()
@@ -133,7 +134,8 @@ def show_literal_pronunciation(word):
 
 def dl_pronunciation(word):
 	basic = dict()
-	url = 'http://dict.youdao.com/w/eng/' + word.strip()
+	url = 'http://dict.youdao.com/w/eng/' + word.lower().strip()
+	print(url)
 	res = requests.get(url)
 	soup = bs4.BeautifulSoup(res.content, 'lxml')
 	pronunciation = soup.find('div', attrs={'class': 'baav'})

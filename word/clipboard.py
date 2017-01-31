@@ -1,7 +1,6 @@
 # -*- coding:utf-8 -*-
 import time
 import pyperclip
-import re
 import tackle_word
 from time import gmtime, strftime
 import pronunciation
@@ -20,12 +19,11 @@ def watcher():
 		result = pyperclip.paste().strip()
 		if len(result) >= max_length:
 			continue
-		word_list = re.compile('\w+').findall(result)
-		if len(word_list) == 1 and len(result) != 0 and word != result:
+		if result.isalpha() and len(result) != 0 and word != result:
 			word = result
 			i = 0
-		# print('word = ' + word + ', result = ' + result + ', i = ' + str(i))
-		if word != '' and result.find(word) >= 0 and len(word_list) > len(word):
+		print('word = ' + word + ', result = ' + result + ', i = ' + str(i))
+		if word != '' and len(result) > len(word) and result.find(word) >= 0:
 			# in this case, result should be a usage containing the
 			# corresponding result which was supposed to be a word or phrase.
 			tackle = tackle_word.TackleWords()
