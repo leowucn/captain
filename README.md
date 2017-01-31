@@ -42,15 +42,6 @@ pip install -r requirements.txt
 brew install mpg123
 ```
 
-[**apt-get**](https://linux.die.net/man/8/apt-get)
-
-```
-sudo apt-get update
-sudo apt-get install mpg123
-```
-
-Almost all the *inux system has the corresponding packaging tool. You can install mpg123 via that.
-
 ## Requirements
 
 OS: OSX
