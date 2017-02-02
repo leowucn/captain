@@ -13,7 +13,8 @@ import utility
 # the interval time of British pronunciation and American pronunciation
 pronunciation_interval = 0.7
 
-basic_dict_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'pronunciation/basic.json')
+basic_dict_file = os.path.join(os.getcwd(), 'word/pronunciation/basic.json')
+pronunciation_dir_pre = os.path.join(os.getcwd(), 'word/pronunciation')
 basic_dict = dict()
 
 
@@ -21,7 +22,7 @@ def launch_pronunciation(word):
 	stripped_word = word.strip().lower()
 	if len(stripped_word) == 0:
 		return
-	dst_dir = os.path.join('pronunciation', stripped_word[0])
+	dst_dir = os.path.join(pronunciation_dir_pre, stripped_word[0])
 	if not os.path.exists(dst_dir):
 		os.makedirs(dst_dir)
 		get_pronunciation(stripped_word, dst_dir)

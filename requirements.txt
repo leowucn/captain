@@ -1,4 +1,3 @@
-sqlite3
 flask
 pyperclip
 urllib
@@ -6,3 +5,4 @@ mechanize
 bs4
 requests
 dateutil
+pytz

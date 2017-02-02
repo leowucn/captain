@@ -3,15 +3,18 @@ import sqlite3
 import os
 from time import gmtime, strftime
 import datetime
-import sys
+import pytz
+import re
 
 sqlite_file = '/Volumes/Kindle/system/vocabulary/vocab.db'  # on mac os
-# sqlite_file = './vocab.db'  # for test
+# sqlite_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'vocab.db')  # for test
 words_table_name = 'WORDS'
 lookups_table_name = 'LOOKUPS'
 
 words_dir = os.path.join(os.getcwd(), 'word/words')
 
+def backup_sqlite_file():
+	os.system('cp /Volumes/Kindle/system/vocabulary/vocab.db /Volumes/Kindle/system/vocabulary/.vocab.db.bak')
 
 def get_table_data(conn, table_name):
 	c = conn.cursor()
@@ -75,22 +78,32 @@ def store(words_data):
 	file_name = strftime("%Y-%m-%d", gmtime()) + '.txt'
 	file_path = os.path.join(words_dir, file_name)
 
-	index = 1
-	with open(file_path, mode='w') as f:
+	new_index = 1
+	if os.path.isfile(file_path):
+		with open(file_path) as f:
+			for line in f:
+				if len(line) > 0 and line[0].isdigit():
+					res = re.findall(r'\d+', line)
+					if len(res) != 0:
+						if res[0] > new_index:
+							new_index = int(res[0]) + 1
+	with open(file_path, mode='a') as f:
 		for word_key, word_info in words_data.iteritems():
 			if len(word_info) != 4:
 				continue
-			f.write(str(index) + '. ' + word_info['word'] + '\n')
+			f.write(str(new_index) + '. ' + word_info['word'] + '\n')
 			f.write('usage: ' + word_info['usage'].encode('utf-8') + '\n')
 			f.write('book: ' + word_info['book_key'][:word_info['book_key'].find("'")] + '\n')
-			date = datetime.datetime.fromtimestamp(word_info['timestamp']/1000).strftime('%Y-%m-%d %H:%M:%S')
+			tz = pytz.timezone('Asia/Shanghai')
+			date = datetime.datetime.fromtimestamp(word_info['timestamp']/1000, tz).strftime('%Y-%m-%d %H:%M:%S')
 			f.write('date: ' + date + '\n')
 			f.write('\n')
-			index += 1
+			new_index += 1
 
 
 if __name__ == "__main__":
 	if os.path.isfile(sqlite_file):
+		backup_sqlite_file()
 		# Connecting to the database file
 		sql_conn = sqlite3.connect(sqlite_file)
 		tackle_kindle(sql_conn)
