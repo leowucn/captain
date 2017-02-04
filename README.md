@@ -16,7 +16,7 @@ Want to listen to word pronunciation but too lazy to open other app and click pr
 
 ### Automatic notification
 
-Just like automatic pronunciation, when you finished the step of copying a word, after a short time, the word definition would pop up with the form of notification.![Screen Shot 2017-02-04 at 10.47.19](/Users/leo/Desktop/Screen Shot 2017-02-04 at 10.47.19.png)
+Just like automatic pronunciation, when you finished the step of copying a word, after a short time, the word definition would pop up with the form of notification.![](images/ScreenShot.png)
 
 ### Dictionary
 
