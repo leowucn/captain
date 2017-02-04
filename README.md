@@ -14,6 +14,10 @@ It is essential to record the vocabulary and the sentence in which you stuck and
 
 Want to listen to word pronunciation but too lazy to open other app and click pronunciation button? Or less you have to open a web browser and search the certain word? How can you bear the so much low efficiency? Now,  Captain would release you from the annoying dilemma. The only thing you need to do is to copy the word! Programming should make life easier. That's it.ʘ‿ʘ.
 
+### Automatic notification
+
+Just like automatic pronunciation, when you finished the step of copying a word, after a short time, the word definition would pop up with the form of notification.![Screen Shot 2017-02-04 at 10.47.19](/Users/leo/Desktop/Screen Shot 2017-02-04 at 10.47.19.png)
+
 ### Dictionary
 
 Captain, of course, can look up words. As a matter of fact, Captain requests and gets word definition from website http://dict.youdao.com/, then it will record the definition in a local dictionary file.
