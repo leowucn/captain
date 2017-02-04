@@ -24,7 +24,7 @@ def watcher():
 		if result.isalpha() and len(result) != 0 and word != result:
 			word = result
 			i = 0
-		print('word = ' + word + ', result = ' + result + ', i = ' + str(i))
+		# print('word = ' + word + ', result = ' + result + ', i = ' + str(i))
 		if word != '' and len(result) > len(word) and result.find(word) >= 0:
 			# in this case, result should be a usage containing the
 			# corresponding result which was supposed to be a word or phrase.

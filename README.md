@@ -68,7 +68,7 @@ For listening to word pronunciation, copy the word outright. Then the pronunciat
 
 ## Feedback
 
-You are welcome so much for rendering some improvements advice to make this project more useful and more powerful. Thanks.
+This is an early project and there will be breaking changes. However, discussions and contributions are welcome. Please feel free to experiment and come back with suggestions/issues to make this project more useful and more powerful. Thanks.
 
 ## Contributing
 
