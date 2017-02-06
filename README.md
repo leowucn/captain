@@ -8,7 +8,7 @@ Captain is a smart clipboard recorder, a dictionary and a vocabulary builder whi
 
 ### Smart Clipboard Recorder
 
-Captain monitor the clipboard and extract the vocabulary and the sentence wisely. It is essential to record the vocabulary and the sentence in which you stuck and can't recognise the word when you read English articles or English novels. If you can learn words from a vivid or meaningful sentence in which you stuck other than a trivial example from a dictionary, you would gain much efficiency when learning English.
+Captain monitor the clipboard and extract the vocabulary and the sentence wisely. Why? Because it is essential to record the vocabulary and the sentence in which you stuck and can't recognise the word when you read English articles or English novels. If you can learn words from a vivid or meaningful sentence in which you stuck other than a trivial example from a dictionary, you would gain much efficiency when learning English.
 
 ### Automatic pronunciation
 
