@@ -11,7 +11,7 @@ import multiprocessing
 interval = 2.5    # interval seconds for scanning clipboard
 times = 3   # the times of repeating word pronunciation
 max_length = 400    # the maximum length of word usage.
-timeout = 5     # wait no more than four seconds for show pronunciation.
+timeout = 6     # wait no more than four seconds for show pronunciation.
 
 
 def watcher():
