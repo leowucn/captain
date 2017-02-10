@@ -10,7 +10,7 @@ import multiprocessing
 
 interval = 2.5    # interval seconds for scanning clipboard
 times = 3   # the times of repeating word pronunciation
-max_length = 400    # the maximum length of word usage.
+max_length = 600    # the maximum length of word usage.
 timeout = 6     # wait no more than four seconds for show pronunciation.
 
 
@@ -18,7 +18,7 @@ def watcher():
 	word = ''
 	i = 0
 	while True:
-		result = pyperclip.paste().strip()
+		result = pyperclip.paste().strip().lower()
 		if len(result) >= max_length:
 			continue
 		if result.isalpha() and len(result) != 0 and word != result:

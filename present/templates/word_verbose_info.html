@@ -32,9 +32,9 @@
         <table border = 1>
           {% for word, meaning in result.iteritems() %}
             <tr><th>
-                {{ word }}
                 <form action = "http://localhost:5000/delete" method = "post">
-                <input type="submit" name= {{ come_from }}-{{ y }}-{{ w }}-{{ page_index }}-{{ word }} value=delete>
+                    {{ word }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="submit" name= {{ come_from }}-{{ y }}-{{ w }}-{{ page_index }}-{{ word }} value="delete">
                 </form>
             </th></tr>
             {#basic#}
