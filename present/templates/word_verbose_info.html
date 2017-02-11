@@ -13,6 +13,11 @@
         h3 {
             text-align: center;
         }
+
+        .one_line input{
+            float:left;
+        }
+
     </style>
 </head>
    <body>
@@ -24,28 +29,33 @@
     <p> ⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱from clipboard ⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱</p>
     {% endif %}
 
-    <form action = "http://localhost:5000/year_list" method = "post">
-        <input type="submit" name='' value="year list">
-    </form>
-    <form action = "http://localhost:5000/week_list" method = "post">
-        <input type="submit" name={{ y }} value="week list">
-    </form>
+    <div class="one_line">
+        <form action = "http://localhost:5000/year_list" method = "post">
+            <input type="submit" name='' value="year list">
+        </form>
+        <form action = "http://localhost:5000/week_list" method = "post">
+            <input type="submit" name={{ y }} value="week list">
+        </form>
+        <br>
+    </div>
 
-    <h3>-----------------------------------------------------------------------------------------------------------------------------------------------------------------</h3>
     <h2>Vocabulary List of Current Page</h2>
     <h3>
     {% for word, meaning in result.iteritems() %}
         {{word}}
     {% endfor %}
     </h3>
-    <h3>-----------------------------------------------------------------------------------------------------------------------------------------------------------------</h3>
 
     <p> page index: {{ page_index }}</p>
-      {% for i in range(button_num) %}
-        <form action = "http://localhost:5000/specified_page" method = "post">
-            <input type="submit" name= {{ come_from }}-{{ y }}-{{ w }}-{{ i }} value={{ y }}-{{ w }}-{{ i }}>
-        </form>
+
+    <div class="one_line">
+        {% for i in range(button_num) %}
+            <form action = "http://localhost:5000/specified_page" method = "post">
+                <input type="submit" name= {{ come_from }}-{{ y }}-{{ w }}-{{ i }} value={{ y }}-{{ w }}-{{ i }}>
+            </form>
         {% endfor %}
+        <br><br>
+    </div>
         <table border = 1>
           {% for word, meaning in result.iteritems() %}
             <tr><th>
@@ -100,20 +110,26 @@
                 {% endif %}
             {% endfor %}
       </table>
-      {% for i in range(button_num) %}
-        <form action = "http://localhost:5000/specified_page" method = "post">
-            <input type="submit" name= {{ come_from }}-{{ y }}-{{ w }}-{{ i }} value={{ y }}-{{ w }}-{{ i }}>
-        </form>
-      {% endfor %}
+    <div class="one_line">
+        <br>
+        {% for i in range(button_num) %}
+            <form action = "http://localhost:5000/specified_page" method = "post">
+                <input type="submit" name= {{ come_from }}-{{ y }}-{{ w }}-{{ i }} value={{ y }}-{{ w }}-{{ i }}>
+            </form>
+        {% endfor %}
+        <br>
+    </div>
+    <p> page index: {{ page_index }}</p>
 
-      <p> page index: {{ page_index }}</p>
-
-        <form action = "http://localhost:5000/year_list" method = "post">
-            <input type="submit" name='' value="year list">
-        </form>
-        <form action = "http://localhost:5000/week_list" method = "post">
-            <input type="submit" name={{ y }} value="week list">
-        </form>
+    <div class="one_line">
+    <form action = "http://localhost:5000/year_list" method = "post">
+        <input type="submit" name='' value="year list">
+    </form>
+    <form action = "http://localhost:5000/week_list" method = "post">
+        <input type="submit" name={{ y }} value="week list">
+    </form>
+    <br>
+    </div>
 
       {% if come_from == '0' %}
       <p> ☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘from vocabulary builder☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘</p>

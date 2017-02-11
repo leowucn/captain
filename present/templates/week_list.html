@@ -10,20 +10,16 @@
 </head>
    <body>
    <p> ☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘from vocabulary builder☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘</p>
-      <table border = 1>
-           <form action = "http://localhost:5000/words_list" method = "post">
-                {% for week in week_list_from_word_builder %}
-                    <input type="submit" name=0-{{ year }}-{{ week }} value={{ year }}-{{ week }}>
-                {% endfor %}
-           </form>
-      </table>
+   <form action = "http://localhost:5000/words_list" method = "post">
+        {% for week in week_list_from_word_builder %}
+            <input type="submit" name=0-{{ year }}-{{ week }} value={{ year }}-{{ week }}>
+        {% endfor %}
+   </form>
    <p> ☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘from clipboard☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘</p>
-       <table border = 1>
-               <form action = "http://localhost:5000/words_list" method = "post">
-                    {% for week in week_list_from_clipboard %}
-                        <input type="submit" name=1-{{ year }}-{{ week }} value={{ year }}-{{ week }}>
-                    {% endfor %}
-               </form>
-       </table>
+   <form action = "http://localhost:5000/words_list" method = "post">
+        {% for week in week_list_from_clipboard %}
+            <input type="submit" name=1-{{ year }}-{{ week }} value={{ year }}-{{ week }}>
+        {% endfor %}
+   </form>
    </body>
 </html>
