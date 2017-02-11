@@ -6,6 +6,13 @@
         p {
             white-space: pre-wrap;
         }
+
+        h2 {
+            text-align: center;
+        }
+        h3 {
+            text-align: center;
+        }
     </style>
 </head>
    <body>
@@ -23,6 +30,16 @@
     <form action = "http://localhost:5000/week_list" method = "post">
         <input type="submit" name={{ y }} value="week list">
     </form>
+
+    <h3>-----------------------------------------------------------------------------------------------------------------------------------------------------------------</h3>
+    <h2>Vocabulary List of Current Page</h2>
+    <h3>
+    {% for word, meaning in result.iteritems() %}
+        {{word}}
+    {% endfor %}
+    </h3>
+    <h3>-----------------------------------------------------------------------------------------------------------------------------------------------------------------</h3>
+
     <p> page index: {{ page_index }}</p>
       {% for i in range(button_num) %}
         <form action = "http://localhost:5000/specified_page" method = "post">
