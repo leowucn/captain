@@ -3428,14 +3428,7 @@
     "basic": "\u82f1 [\u0283r\u026al] \u7f8e [\u0283r\u026al]\nadj. \u5c16\u9510\u7684\uff1b\u523a\u8033\u7684\nadv. \u5c16\u9510\u5730\nvi. \u5c16\u58f0\u558a\u53eb\nvt. \u5c16\u58f0\u558a\u51fa\nn. \u5c16\u53eb\u58f0", 
     "date": "2016-12-29", 
     "collins": "* ADJ A shrill sound is high-pitched and unpleasant. (\u58f0\u97f3) \u523a\u8033\u7684 \u4f8b\uff1a Shrill cries and startled oaths flew up around us as pandemonium broke out. \u9a9a\u4e71\u7206\u53d1\u65f6\uff0c\u6211\u4eec\u5468\u56f4\u5145\u65a5\u7740\u5c16\u5389\u7684\u54ed\u558a\u58f0\u548c\u96be\u542c\u7684\u5492\u9a82\u58f0\u3002 \u4f8b\uff1a ...the shrill whistle of the engine. \u2026\u90a3\u53d1\u52a8\u673a\u7684\u5c16\u5578\u58f0\u3002"
-  }, 
-  "anomalies-1": {
-    "date": "2017-02-11", 
-    "collins": "* N-COUNT If something is an anomaly , it is different from what is usual or expected. \u53cd\u5e38\u7684\u4e8b\u7269 [\u6b63\u5f0f] \u4f8b\uff1a The space shuttle had stopped transmitting data, a very serious anomaly for the mission. \u8fd9\u67b6\u822a\u5929\u98de\u673a\u5df2\u7ecf\u505c\u6b62\u4e86\u4f20\u8f93\u6570\u636e\uff0c\u8fd9\u662f\u8fd9\u6b21\u4efb\u52a1\u4e2d\u4e00\u4e2a\u5341\u5206\u4e25\u91cd\u7684\u53cd\u5e38\u73b0\u8c61\u3002", 
-    "synonyms": "n. \u5f02\u5e38\u73b0\u8c61\uff0c\u53cd\u5e38\u73b0\u8c61\uff08anomaly \u590d\u6570\u5f62\u5f0f\uff09\nabnormal phenomena", 
-    "usage": "* The way in which a packet gets \"lost\" in a network is usually the result of routing anomalies.\n* the way in which a packet gets \"lost\" in a network is usually the result of routing anomalies.", 
-    "basic": "\u82f1 \u7f8e\nn. \u5f02\u5e38\u73b0\u8c61\uff0c\u53cd\u5e38\u73b0\u8c61\uff08anomaly \u590d\u6570\u5f62\u5f0f\uff09"
-  }, 
+},
   "sideways-0": {
     "rel_word_tab": "\u8bcd\u6839\uff1a sideway\nadj.\nsideway   \u65c1\u8fb9\u7684\uff1b\u5411\u4fa7\u9762\u7684\uff08\u7b49\u4e8esideways\uff09\nsidewards   \u6a2a\u5411\u79fb\u52a8\u7684\uff1b\u5411\u4e00\u4fa7\u7684\nsidewise   \u6a2a\u659c\u7684\uff1b\u5411\u4e00\u8fb9\u7684\nadv.\nsideway   \u659c\u5730\u91cc\nsidewards   \u6a2a\u5411\u79fb\u52a8\uff1b\u6a2a\u5411\nn.\nsideway   \u4eba\u884c\u9053\uff1b\u5c0f\u5df7\nsiding   \u4fa7\u7ebf\uff1b\u65c1\u8f68\uff0c\u8fb9\u5bbd\nv.\nsiding   \u652f\u6301\uff08side\u7684\u73b0\u5728\u5206\u8bcd\uff09\uff1b\u7ed9\u2026\u88c5\u4e0a\u4fa7\u9762\uff1b\u6536\u62fe\uff0c\u6574\u7406", 
     "date": "2016-12-12", 

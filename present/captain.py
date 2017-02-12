@@ -9,7 +9,9 @@ sys.path.append(os.path.join(os.getcwd(), 'word'))
 import tackle_word
 
 each_page_words_num = 10
+current_dir = os.path.dirname(os.path.abspath(__file__))
 app = Flask(__name__)
+# app = Flask(__name__, static_folder=current_dir)
 
 
 @app.route('/')

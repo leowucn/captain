@@ -561,7 +561,7 @@
   }, 
   "sight-0": {
     "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 3479
+    "line_index": 3472
   }, 
   "household-1": {
     "file_name": "/Users/leo/work/captain/word/dict/1.json", 
@@ -1511,25 +1511,21 @@
     "file_name": "/Users/leo/work/captain/word/dict/1.json", 
     "line_index": 3423
   }, 
-  "anomalies-1": {
+  "sideways-0": {
     "file_name": "/Users/leo/work/captain/word/dict/1.json", 
     "line_index": 3432
   }, 
-  "sideways-0": {
-    "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 3439
-  }, 
   "glove-0": {
     "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 3448
+    "line_index": 3441
   }, 
   "analogy-1": {
     "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 3459
+    "line_index": 3452
   }, 
   "advertise-1": {
     "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 3469
+    "line_index": 3462
   }, 
   "gorgeous-1": {
     "file_name": "/Users/leo/work/captain/word/dict/1.json", 
@@ -1537,34 +1533,34 @@
   }, 
   "maniac-0": {
     "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 3490
+    "line_index": 3483
   }, 
   "parcel-0": {
     "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 3499
+    "line_index": 3492
   }, 
   "postal-1": {
     "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 3510
+    "line_index": 3503
   }, 
   "chortle-0": {
     "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 3519
+    "line_index": 3512
   }, 
   "endowed-1": {
     "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 3526
+    "line_index": 3519
   }, 
   "snarl-0": {
     "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 3534
+    "line_index": 3527
   }, 
   "pat-0": {
     "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 3543
+    "line_index": 3536
   }, 
   "shaggy-0": {
     "file_name": "/Users/leo/work/captain/word/dict/1.json", 
-    "line_index": 3554
+    "line_index": 3547
   }
 }
