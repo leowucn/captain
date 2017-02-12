@@ -40,7 +40,7 @@ def watcher():
 				continue
 			i += 1
 
-			p = multiprocessing.Process(target=show, args=(word,))
+			p = multiprocessing.Process(target=pronunciation.show, args=(word,))
 			p.start()
 			# Wait timeout seconds or until process finishes
 			p.join(timeout)
@@ -53,11 +53,6 @@ def watcher():
 
 		time.sleep(interval)
 	utility.show_notification('Captain Info', 'Sorry, some error may happened! Please check the error message!')
-
-
-def show(word):
-	pronunciation.show_literal_pronunciation(word)
-	pronunciation.launch_pronunciation(word)
 
 
 if __name__ == "__main__":

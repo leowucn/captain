@@ -18,6 +18,11 @@ pronunciation_dir_pre = os.path.join(os.getcwd(), 'word/pronunciation')
 basic_dict = dict()
 
 
+def show(word):
+	show_literal_pronunciation(word)
+	launch_pronunciation(word)
+
+
 def launch_pronunciation(word):
 	stripped_word = word.strip().lower()
 	if len(stripped_word) == 0:
@@ -129,7 +134,7 @@ def show_literal_pronunciation(word):
 
 	literal = basic['pronun'].replace("'", ".")
 	literal = literal.replace("ˈ", ".")
-	utility.show_notification(literal.encode('utf-8'), basic['basic'].encode('utf-8'))
+	utility.show_notification(word + ' ☞ ' + literal.encode('utf-8'), basic['basic'].encode('utf-8'))
 	return
 
 

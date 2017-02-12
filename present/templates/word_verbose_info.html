@@ -46,6 +46,9 @@
     {% endfor %}
     </h3>
 
+    <form action = "http://localhost:5000/quickly_review" method = "post">
+        <input type="submit" name= {{ come_from }}-{{ y }}-{{ w }}-{{ page_index }} value="quickly review">
+    </form>
     <p> page index: {{ page_index }}</p>
 
     <div class="one_line">
