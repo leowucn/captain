@@ -9,7 +9,10 @@ sys.setdefaultencoding('utf-8')
 
 def show_notification(title, msg):
 	if platform.system() == 'Darwin':
-		command = "osascript -e \'tell app \"System Events\" to display notification \"" + msg.encode('utf-8') + "\" with title \"" + title.encode('utf-8') + "\"\'"
+		strippend_msg = msg.strip()
+		if strippend_msg == "":
+			return
+		command = "osascript -e \'tell app \"System Events\" to display notification \"" + strippend_msg.encode('utf-8') + "\" with title \"" + title.encode('utf-8') + "\"\'"
 		os.system(command)
 	return
 

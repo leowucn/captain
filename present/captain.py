@@ -15,7 +15,7 @@ each_page_words_num = 10
 current_dir = os.path.dirname(os.path.abspath(__file__))
 app = Flask(__name__)
 
-p = multiprocessing.Process
+stop = False    # stop quickly review
 
 
 @app.route('/')
@@ -111,7 +111,6 @@ def show_page(cf, y, w, i):
 	start_index = int(index) * each_page_words_num
 	last_index = (int(index) + 1) * each_page_words_num - 1
 	i = 0
-	result_dict = dict()
 
 	tackle = tackle_word.TackleWords()
 	res = tackle.get_classified_lst()
@@ -123,15 +122,17 @@ def show_page(cf, y, w, i):
 	else:
 		return render_template('nothing.html')
 
-	for word, meaning in sorted(src_dict.items()):
+	result_lst = []
+	src_lst = [(k, v) for k, v in src_dict.iteritems()]
+	for item in sorted(src_lst):
 		if start_index <= i <= last_index:
-			result_dict[word] = meaning
+			result_lst.append(item)
 		if i > last_index:
 			break
 		i += 1
 
 	num = len(src_dict)/each_page_words_num + 1
-	return render_template('word_verbose_info.html', come_from=come_from, y=year, w=week, result=result_dict, button_num=num, page_index=index)
+	return render_template('word_verbose_info.html', come_from=come_from, y=year, w=week, result=result_lst, button_num=num, page_index=index)
 
 
 
@@ -156,7 +157,6 @@ def delete_word():
 			start_index = 0
 		last_index = (int(index) + 1) * each_page_words_num - 1
 		i = 0
-		result_dict = dict()
 
 		src_dict = dict()
 		if come_from == '0':  # from word builder
@@ -170,15 +170,17 @@ def delete_word():
 		else:
 			return render_template('nothing.html')
 
-		for word, meaning in sorted(src_dict.items()):
-			if start_index <= i < last_index:
-				result_dict[word] = meaning
-			if i >= last_index:
+		result_lst = []
+		src_lst = [(k, v) for k, v in src_dict.iteritems()]
+		for item in sorted(src_lst):
+			if start_index <= i <= last_index:
+				result_lst.append(item)
+			if i > last_index:
 				break
 			i += 1
 
 		num = len(src_dict)/each_page_words_num + 1
-		return render_template('word_verbose_info.html', come_from=come_from, y=year, w=week, result=result_dict, button_num=num, page_index=index)
+		return render_template('word_verbose_info.html', come_from=come_from, y=year, w=week, result=result_lst, button_num=num, page_index=index)
 	return render_template('nothing.html')
 
 
@@ -199,7 +201,6 @@ def quickly_review():
 			start_index = 0
 		last_index = (int(index) + 1) * each_page_words_num - 1
 		i = 0
-		result_dict = dict()
 
 		src_dict = dict()
 		if come_from == '0':  # from word builder
@@ -209,22 +210,48 @@ def quickly_review():
 		else:
 			return render_template('nothing.html')
 
-		for word, meaning in sorted(src_dict.items()):
-			if start_index <= i < last_index:
-				result_dict[word] = meaning
-			if i >= last_index:
+		result_lst = []
+		src_lst = [(k, v) for k, v in src_dict.iteritems()]
+		for item in sorted(src_lst):
+			if start_index <= i <= last_index:
+				result_lst.append(item)
+			if i > last_index:
 				break
 			i += 1
 
 		num = len(src_dict)/each_page_words_num + 1
 
-		for word, verbose_info in result_dict.iteritems():
+		global stop
+		stop = False
+		for word, verbose_info in result_lst:
+			if stop:
+				break
 			time.sleep(1.5)
 			pronunciation.show(word)
 			time.sleep(1)
 			pronunciation.show(word)
-		return render_template('word_verbose_info.html', come_from=come_from, y=year, w=week, result=result_dict, button_num=num, page_index=index)
+		return render_template('word_verbose_info.html', come_from=come_from, y=year, w=week, result=result_lst, button_num=num, page_index=index)
 	return render_template('nothing.html')
 
+
+@app.route('/stop_quickly_review', methods=['GET', 'POST'])
+def stop_quickly_review():
+	if request.method == 'POST':
+		global stop
+		stop = True
+
+		tackle = tackle_word.TackleWords()
+		res = tackle.get_classified_lst()
+
+		lst = request.form.keys()[0].split('-')
+		come_from = lst[0]
+		year = lst[1]
+		week = lst[2]
+		index = lst[3]
+
+		return show_page(come_from, year, week, index)
+	return render_template('nothing.html')
+
+
 if __name__ == '__main__':
-	app.run(debug=True)
+	app.run(debug=True, threaded=True)

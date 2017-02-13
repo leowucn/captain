@@ -41,14 +41,21 @@
 
     <h2>Vocabulary List of Current Page</h2>
     <h3>
-    {% for word, meaning in result.iteritems() %}
+    {% for word, meaning in result %}
         {{word}}
     {% endfor %}
     </h3>
 
-    <form action = "http://localhost:5000/quickly_review" method = "post">
-        <input type="submit" name= {{ come_from }}-{{ y }}-{{ w }}-{{ page_index }} value="quickly review">
-    </form>
+    <div class="one_line">
+        <form action = "http://localhost:5000/quickly_review" method = "post">
+            <input type="submit" name= {{ come_from }}-{{ y }}-{{ w }}-{{ page_index }} value="quickly review">
+        </form>
+        <form action = "http://localhost:5000/stop_quickly_review" method = "post">
+            <input type="submit" name= {{ come_from }}-{{ y }}-{{ w }}-{{ page_index }} value="stop">
+        </form>
+        <br>
+    </div>
+
     <p> page index: {{ page_index }}</p>
 
     <div class="one_line">
@@ -60,7 +67,7 @@
         <br><br>
     </div>
         <table border = 1>
-          {% for word, meaning in result.iteritems() %}
+          {% for word, meaning in result %}
             <tr><th>
                 <form action = "http://localhost:5000/delete" method = "post">
                     {{ word }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
