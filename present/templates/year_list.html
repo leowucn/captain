@@ -1,10 +1,34 @@
 <!doctype html>
 <html>
 <head>
-    <meta charset="UTF-8">
+    <!-- Standard Meta -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <!-- Site Properties -->
+  <title>Bootstrap - Semantic</title>
+  <link rel="stylesheet" type="text/css" href="/static/semantic/dist/semantic.css">
+
+  <script src="/static/semantic/examples/assets/library/jquery.min.js"></script>
+  <script src="/static/semantic/dist/semantic.js"></script>
+
+  <script>
+  $(document)
+    .ready(function() {
+      $('.ui.selection.dropdown').dropdown();
+      $('.ui.menu .ui.dropdown').dropdown({
+        on: 'hover'
+      });
+    })
+  ;
+  </script>
     <style type="text/css">
-        html {
+        body {
             text-align: center;
+        }
+        .one_line input{
+            float:left;
         }
     </style>
 </head>
@@ -14,11 +38,15 @@
           &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;—from House Stark</h2>
 
       <p> ☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘</p>
-       <form action = "http://localhost:5000/week_list" method = "post">
+      <div class="ui divider"></div>
+      <div class="one_line" style="margin: 0 auto; width: 180px; text-align: center;">
+        <form class="ui form" action = "http://localhost:5000/week_list" method = "post">
             {% for year in year_lst %}
-                <input type="submit" name={{ year }} value={{ year }}>
+                <div class="ui action">
+                    <input class="ui primary button" type="submit" name={{year}} value={{year}}>
+                </div>
             {% endfor %}
-       </form>
-      <p> ☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘</p>
+        </form>
+      </div>
    </body>
 </html>

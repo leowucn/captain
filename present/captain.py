@@ -59,6 +59,8 @@ def show_week_list():
 		week_list_from_word_builder = []
 		week_list_from_clipboard = []
 		year = request.form.keys()[0].split('-')[0]
+		print('-------------')
+		print(year)
 
 		if year in res[0]:
 			for week, words_dict in res[0][year].iteritems():
