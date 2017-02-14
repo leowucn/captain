@@ -7,6 +7,7 @@ import pronunciation
 import os
 import utility
 import multiprocessing
+import re
 
 interval = 2.5    # interval seconds for scanning clipboard
 times = 3   # the times of repeating word pronunciation
@@ -26,10 +27,12 @@ def watcher():
 			i = 0
 		# print('word = ' + word + ', result = ' + result + ', i = ' + str(i))
 		if word != '' and len(result) > len(word) and result.find(word) >= 0:
-			# in this case, result should be a usage containing the
-			# corresponding result which was supposed to be a word or phrase.
-			tackle = tackle_word.TackleWords()
-			tackle.query(word + '-1', result, strftime("%Y-%m-%d", gmtime()))
+			alpha_lst = " ".join(re.findall("[a-zA-Z]+", result))
+			if len(alpha_lst) - len(word) > 5:
+				# in this case, result should be a usage containing the
+				# corresponding result which was supposed to be a word or phrase.
+				tackle = tackle_word.TackleWords()
+				tackle.query(word + '-1', result, strftime("%Y-%m-%d", gmtime()))
 			os.system("echo '' | pbcopy")
 		if word != '':
 			if i >= times:

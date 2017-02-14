@@ -106,64 +106,102 @@
         {% endfor %}
         <br><br>
     </div>
-        <table border = 1>
-          {% for word, meaning in result %}
-            <tr><th>
-                <div class="buttonHolder">
-                    <form class="ui form" action = "http://localhost:5000/delete" method = "post">
-                        <div class="ui action">
-                         {{ word }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <input class="ui compact red mini button" type="submit" name= {{ come_from }}-{{ y }}-{{ w }}-{{ page_index }}-{{ word }} value="delete">
-                        </div>
-                    </form>
+    <div class="ui divider"></div>
+
+    {% for word, meaning in result %}
+    <br>
+    <div class="row">
+    <div class="column">
+        <div class="buttonHolder">
+            <form class="ui form" action = "http://localhost:5000/delete" method = "post">
+                <div class="ui action">
+                    <p class="ui header">{{word}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="ui compact red mini button" type="submit" name= {{ come_from }}-{{ y }}-{{ w }}-{{ page_index }}-{{ word }} value="delete">
+                    </p>
                 </div>
-            </th></tr>
-            {#basic#}
-                {% if 'basic' in meaning%}
-                    <tr><td> {{ 'basic' }}: <p>{{ meaning['basic'] }} </p></td></tr>
-                {% endif %}
+            </form>
+        </div>
+      <div class="ui two column grid">
+          <div class="column">
+              <div id='container' style='width:1500px;'>
+          <table class="ui table">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Verbose Info</th>
+              </tr>
+            </thead>
+            <tbody>
+                    {% if 'basic' in meaning%}
+                        <tr>
+                            <td>{{ 'basic' }}</td>
+                            <td><p>{{ meaning['basic'] }}</p></td>
+                        </tr>
+                    {% endif %}
 
-                {#book#}
-                {% if 'book' in meaning%}
-                <tr><td> {{ 'book'}}: <p>{{ meaning['book']}} </p></td></tr>
-                {% endif %}
+                    {% if 'book' in meaning%}
+                        <tr>
+                            <td>{{ 'book' }}</td>
+                            <td><p>{{ meaning['book'] }}</p></td>
+                        </tr>
+                    {% endif %}
 
-                {#usage#}
-                {% if 'usage' in meaning%}
-                <tr><td> {{ 'usage'}}: <p>{{ meaning['usage']}} </p></td></tr>
-                {% endif %}
+                    {% if 'date' in meaning%}
+                    <tr>
+                        <td>{{ 'date' }}</td>
+                        <td><p>{{ meaning['date'] }}</p></td>
+                    </tr>
+                    {% endif %}
 
-                {#phrase#}
-                {% if 'phrase' in meaning%}
-                <tr><td> {{ 'phrase'}}: <p>{{ meaning['phrase']}} </p></td></tr>
-                {% endif %}
+                    {% if 'usage' in meaning%}
+                        <tr>
+                            <td>{{ 'usage' }}</td>
+                            <td><p>{{ meaning['usage'] }}</p></td>
+                        </tr>
+                    {% endif %}
 
-                {#synonyms#}
-                {% if 'synonyms' in meaning%}
-                <tr><td> {{ 'synonyms'}}: <p>{{ meaning['synonyms']}} </p></td></tr>
-                {% endif %}
+                    {% if 'phrase' in meaning%}
+                        <tr>
+                            <td>{{ 'phrase' }}</td>
+                            <td><p>{{ meaning['phrase'] }}</p></td>
+                        </tr>
+                    {% endif %}
 
-                {#rel_word_tab#}
-                {% if 'rel_word_tab' in meaning%}
-                <tr><td> {{ 'rel_word_tab'}}: <p>{{ meaning['rel_word_tab']}} </p></td></tr>
-                {% endif %}
+                    {% if 'synonyms' in meaning%}
+                        <tr>
+                            <td>{{ 'synonyms' }}</td>
+                            <td><p>{{ meaning['synonyms'] }}</p></td>
+                        </tr>
+                    {% endif %}
 
-                {#discriminate#}
-                {% if 'discriminate' in meaning%}
-                <tr><td> {{ 'discriminate'}}: <p>{{ meaning['discriminate']}} </p></td></tr>
-                {% endif %}
+                    {% if 'rel_word_tab' in meaning%}
+                        <tr>
+                            <td>{{ 'rel_word_tab' }}</td>
+                            <td><p>{{ meaning['rel_word_tab'] }}</p></td>
+                        </tr>
+                    {% endif %}
 
-                {#collins#}
-                {% if 'collins' in meaning%}
-                <tr><td> {{ 'collins'}}: <p>{{ meaning['collins']}} </p></td></tr>
-                {% endif %}
+                    {% if 'discriminate' in meaning%}
+                        <tr>
+                            <td>{{ 'discriminate' }}</td>
+                            <td><p>{{ meaning['discriminate'] }}</p></td>
+                        </tr>
+                    {% endif %}
 
-                {#date#}
-                {% if 'date' in meaning%}
-                <tr><td> {{ 'date'}}: <p>{{ meaning['date']}} </p></td></tr>
-                {% endif %}
-            {% endfor %}
-      </table>
+                    {% if 'collins' in meaning%}
+                        <tr>
+                            <td>{{ 'collins' }}</td>
+                            <td><p>{{ meaning['collins'] }}</p></td>
+                        </tr>
+                    {% endif %}
+            </tbody>
+          </table>
+        </div>
+          </div>
+      </div>
+    </div>
+  </div>
+    {% endfor %}
+
     <br>
     <div class="one_line">
         {% for i in range(button_num) %}

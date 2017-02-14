@@ -19,23 +19,12 @@ stop = False    # stop quickly review
 
 
 @app.route('/')
-def show_year_list_v1():
-	tackle = tackle_word.TackleWords()
-	res = tackle.get_classified_lst()
-	if len(res) == 0:
-		return render_template('congratulation.html')
-
-	year_dict = dict()
-	for year, value in res[0].iteritems():
-		year_dict[year] = 0
-	if len(res) > 1:
-		for year, value in res[1].iteritems():
-			year_dict[year] = 0
-	return render_template('year_list.html', year_lst=sorted(year_dict))
+def homepage():
+	return render_template('homepage.html')
 
 
 @app.route('/year_list', methods=['GET', 'POST'])
-def show_year_list_v2():
+def show_year_list():
 	tackle = tackle_word.TackleWords()
 	res = tackle.get_classified_lst()
 	if len(res) == 0:
@@ -59,8 +48,6 @@ def show_week_list():
 		week_list_from_word_builder = []
 		week_list_from_clipboard = []
 		year = request.form.keys()[0].split('-')[0]
-		print('-------------')
-		print(year)
 
 		if year in res[0]:
 			for week, words_dict in res[0][year].iteritems():
