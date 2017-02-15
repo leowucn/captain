@@ -10,6 +10,7 @@ sys.setdefaultencoding('utf-8')
 sys.path.append(os.path.join(os.getcwd(), 'word'))
 import tackle_word
 import pronunciation
+import motto
 
 each_page_words_num = 10
 current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -121,7 +122,7 @@ def show_page(cf, y, w, i):
 		i += 1
 
 	num = len(src_dict)/each_page_words_num + 1
-	return render_template('word_verbose_info.html', come_from=come_from, y=year, w=week, result=result_lst, button_num=num, page_index=index)
+	return render_template('word_verbose_info.html', come_from=come_from, y=year, w=week, result=result_lst, button_num=num, page_index=index, motto=motto.get_random_motto())
 
 
 
@@ -169,7 +170,7 @@ def delete_word():
 			i += 1
 
 		num = len(src_dict)/each_page_words_num + 1
-		return render_template('word_verbose_info.html', come_from=come_from, y=year, w=week, result=result_lst, button_num=num, page_index=index)
+		return render_template('word_verbose_info.html', come_from=come_from, y=year, w=week, result=result_lst, button_num=num, page_index=index, motto=motto.get_random_motto())
 	return render_template('nothing.html')
 
 
@@ -219,7 +220,7 @@ def quickly_review():
 			pronunciation.show(word)
 			time.sleep(1)
 			pronunciation.show(word)
-		return render_template('word_verbose_info.html', come_from=come_from, y=year, w=week, result=result_lst, button_num=num, page_index=index)
+		return render_template('word_verbose_info.html', come_from=come_from, y=year, w=week, result=result_lst, button_num=num, page_index=index, motto=motto.get_random_motto())
 	return render_template('nothing.html')
 
 
