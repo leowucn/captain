@@ -1,13 +1,12 @@
 # -*- coding: utf-8 -*-
 from flask import Flask, render_template, request
 import os
-import multiprocessing
 import time
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-sys.path.append(os.path.join(os.getcwd(), 'word'))
+sys.path.append(os.path.join(os.getcwd(), 'core'))
 import tackle_word
 import pronunciation
 import motto

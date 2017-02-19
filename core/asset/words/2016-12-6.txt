@@ -1,0 +1,105 @@
+1. pat
+usage: 1) The ghost patted his arm, giving Harry the sudden, horrible feeling he’d just plunged it into a bucket of ice-cold water. 2) “Lily and James … I can’t believe it … I didn’t want to believe it … Oh, Albus …” Dumbledore reached out and patted her on the shoulder
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-6
+
+2. surely
+usage: “As I say, even if You-Know-Who has gone —” “My dear Professor, surely a sensible person like yourself can call him by his name
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-6
+
+3. flood
+usage: Fear flooded him
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-6
+
+4. ruffle
+usage: She looked distinctly ruffled
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-6
+
+5. firm
+usage: “It’s the best place for him,” said Dumbledore firmly
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-6
+
+6. nation
+usage: When Dudley had been put to bed, he went into the living room in time to catch the last report on the evening news: “And finally, bird-watchers everywhere have reported that the nation’s owls have been behaving very unusually today
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-6
+
+7. stiff
+usage: 1) “I would prefer you to call me Sir Nicholas de Mimsy —” the ghost began stiffly, but sandy-haired Seamus Finnigan interrupted. 2) Dursley stiffly
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-6
+
+8. squeaky
+usage: On the contrary, his face split into a wide smile and he said in a squeaky voice that made passersby stare, “Don’t be sorry, my dear sir, for nothing could upset me today
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-6
+
+9. stumble
+usage: “Sorry,” he grunted, as the tiny old man stumbled and almost fell
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-6
+
+10. rummage
+usage: He was busy rummaging in his cloak, looking for something
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-6
+
+11. flock
+usage: Flocks of owls … shooting stars
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-6
+
+12. sniff
+usage: 1) Neville, the boy who kept losing his toad, sniffed once or twice. 2) Professor McGonagall sniffed angrily
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-6
+
+13. swoop
+usage: 1) He lay on his bed reading late into the night, Hedwig swooping in and out of the open window as she pleased. 2) He didn’t see the owls swooping past in broad daylight, though people down in the street did; they pointed and gazed open-mouthed as owl after owl sped overhead
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-6
+
+14. mumble
+usage: 1) “Right,” mumbled Ron. 2) Dursley mumbled
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-6
+
+15. violet
+usage: Dursley realized that the man was wearing a violet cloak
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-6
+
+16. flutter
+usage: 1) “Always wanted to shake your hand — I’m all of a flutter.” 2) None of them noticed a large, tawny owl flutter past the window
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-6
+
+17. amuse
+usage: For some reason, the sight of the cat seemed to amuse him
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-6
+
+18. dab
+usage: Professor McGonagall pulled out a lace handkerchief and dabbed at her eyes beneath her spectacles
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-6
+
+19. owl
+usage: 1) entin Trimble OTHER EQUIPMENT 1 wand 1 cauldron (pewter, standard size 2) 1 set glass or crystal phials 1 telescope 1 set brass scales Students may also bring an owl OR a cat OR a toad PARENTS ARE REMINDED THAT FIRST YEARS ARE NOT ALLOWED THEIR OWN BROOMSTICKS “Can we buy all this in London?” 2) None of them noticed a large, tawny owl flutter past the window
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-6
+
+20. slam
+usage: It didn’t so much as quiver when a car door slammed on the next street, nor when two owls swooped overhead
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-6
+
+21. mysterious
+usage: They were the last people you’d expect to be involved in anything strange or mysterious, because they just didn’t hold with such nonsense
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-6
+

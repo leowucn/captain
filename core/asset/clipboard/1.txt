@@ -1,0 +1,1076 @@
+0. fractal
+usage: Two weeks before I could draw a fractal on the screen in C (with an assembly BIOS call for each pixel). Another two weeks to do the same thing in assembly.
+date: 2017-01-29
+
+1. suspicious
+usage: I was deeply suspicious of function calls and so stuck everything into main().
+date: 2017-01-29
+
+2. grocery
+usage: We were walking through a grocery store and we hear another mother one aisle over is continually squawking and nagging her kid loudly.
+date: 2017-01-29
+
+3. grocery
+usage: We were walking through a grocery store and we hear another mother one aisle over is continually squawking and nagging her kid loudly.
+date: 2017-01-29
+
+4. fractal
+usage: Two weeks before I could draw a fractal on the screen in C (with an assembly BIOS call for each pixel). Another two weeks to do the same thing in assembly.
+date: 2017-01-31
+
+5. suspicious
+usage: I was deeply suspicious of function calls and so stuck everything into main().
+date: 2017-01-31
+
+6. grocery
+usage: We were walking through a grocery store and we hear another mother one aisle over is continually squawking and nagging her kid loudly.
+date: 2017-01-31
+
+7. breathtaking
+usage: This breathtaking image gives me the feeling of floating in a deep sea - exciting and scary at the same time. The unknown, the new, not knowing what is coming next.
+date: 2017-01-31
+
+8. retain
+usage: Will I be able to finally retain how to do conversions? When? Someone please help me. I will forever be indebted to you.
+date: 2017-01-31
+
+9. indebted
+usage: Will I be able to finally retain how to do conversions? When? Someone please help me. I will forever be indebted to you.
+date: 2017-01-31
+
+10. gorgeous
+usage: I often go through the many categories of gorgeous images and surrender myself to wonder - even awe.
+date: 2017-01-31
+
+11. ignorant
+usage: Who was the most ignorant person you have ever met in America?
+date: 2017-01-31
+
+12. farewell
+usage: U.S. President Barack Obama wrapped up his eight-year presidency by looking back on his legacy and looking forward to the future of America in his farewell address in Chicago.
+date: 2017-01-31
+
+13. Inauguration
+usage: Scenes From Donald Trump's Inauguration
+date: 2017-01-31
+
+14. fellow
+usage: It’s good to be home.  My fellow Americans
+date: 2017-01-31
+
+15. touched
+usage: My fellow Americans, Michelle and I have been so touched by all the well-wishes we’ve received over the past few weeks.
+date: 2017-01-31
+
+16. outposts
+usage: Whether we’ve seen eye-to-eye or rarely agreed at all, my conversations with you, the American people – in living rooms and schools; at farms and on factory floors; at diners and on distant outposts – are what have kept me honest, kept me inspired, and kept me going.
+date: 2017-01-31
+
+17. dignity
+usage: It was on these streets where I witnessed the power of faith, and the quiet dignity of working people in the face of struggle and loss.
+date: 2017-01-31
+
+18. conviction
+usage: It’s the conviction that we are all created equal, endowed by our Creator with certain unalienable rights, among them life, liberty, and the pursuit of happiness.
+date: 2017-01-31
+
+19. endowed
+usage: It’s the conviction that we are all created equal, endowed by our Creator with certain unalienable rights, among them life, liberty, and the pursuit of happiness.
+date: 2017-01-31
+
+20. endowed
+usage: It’s the conviction that we are all created equal, endowed by our Creator with certain unalienable rights, among them life, liberty, and the pursuit of happiness.
+date: 2017-01-31
+
+21. liberty
+usage: It’s the conviction that we are all created equal, endowed by our Creator with certain unalienable rights, among them life, liberty, and the pursuit of happiness.
+date: 2017-01-31
+
+22. sweat
+usage: The freedom to chase our individual dreams through our sweat, toil, and imagination – and the imperative to strive together as well, to achieve a greater good.
+date: 2017-01-31
+
+23. toil
+usage: The freedom to chase our individual dreams through our sweat, toil, and imagination – and the imperative to strive together as well, to achieve a greater good.
+date: 2017-01-31
+
+24. imperative
+usage: The freedom to chase our individual dreams through our sweat, toil, and imagination – and the imperative to strive together as well, to achieve a greater good.
+date: 2017-01-31
+
+25. strive
+usage: The freedom to chase our individual dreams through our sweat, toil, and imagination – and the imperative to strive together as well, to achieve a greater good.
+date: 2017-01-31
+
+26. purpose
+usage: For 240 years, our nation’s call to citizenship has given work and purpose to each new generation.
+date: 2017-01-31
+
+27. mechanisms
+usage: A short but deep dive into the core mechanisms of Go and how it makes use of it to bring clarity and performances to developers.
+date: 2017-01-31
+
+28. lift
+usage: The Go language uses advanced programming techniques from the low-level world to lift that weight from the developer’s shoulders.
+date: 2017-01-31
+
+29. defied
+usage: Fired: Trump dumps top lawyer who defied immigration order
+date: 2017-01-31
+
+30. immigration
+usage: Fired: Trump dumps top lawyer who defied immigration order
+date: 2017-01-31
+
+31. federal
+usage: U.S. President Donald Trump fired top federal government lawyer Sally Yates on Monday after she took the extraordinarily rare step of defying the White House and refused to defend new travel restrictions targeting seven Muslim-majority nations.
+date: 2017-01-31
+
+32. Muslim
+usage: U.S. President Donald Trump fired top federal government lawyer Sally Yates on Monday after she took the extraordinarily rare step of defying the White House and refused to defend new travel restrictions targeting seven Muslim-majority nations.
+date: 2017-01-31
+
+33. strategic
+usage: Three years ago we at JetBrains made a strategic decision to contribute to go-lang-idea-plugin, the open-source initiative aimed at building an IntellIJ plugin for Go.
+date: 2017-01-31
+
+34. initiative
+usage: Three years ago we at JetBrains made a strategic decision to contribute to go-lang-idea-plugin, the open-source initiative aimed at building an IntellIJ plugin for Go.
+date: 2017-01-31
+
+35. Orchestral
+usage: We Don't Talk Anymore - Piano Orchestral 60 Minutes Version (With Relaxing Nature Sounds)
+date: 2017-01-31
+
+36. duplicate
+usage: If you've found a bug, which is not a duplicate, report it.
+date: 2017-01-31
+
+37. refactor
+usage: Best Plugin available for Go. Full support for refactoring now.
+date: 2017-01-31
+
+38. unresponsive
+usage: If a program is unresponsive, while other memory-hungry programs aren't, the program is likely a CPU hog.
+date: 2017-01-31
+
+39. refresher
+usage: Because reflection builds on the type system, let's start with a refresher about types in Go.
+date: 2017-01-31
+
+40. Postpone
+usage: Postpone code for later execution in python
+date: 2017-01-31
+
+41. Premium
+usage: Experience the Full Power of Grammarly
+Upgrade to Premium
+
+42. spawning
+usage: multiprocessing is a package that supports spawning processes using an API similar to the threading module.
+date: 2017-01-31
+
+43. spawning
+usage: multiprocessing is a package that supports spawning processes using an API similar to the threading module.
+date: 2017-01-31
+
+44. moderators
+usage: If you asked the first question instead of the second, of course the moderators of Quora wouldn’t have deleted it.
+date: 2017-01-31
+
+45. fractal
+usage: Two weeks before I could draw a fractal on the screen in C (with an assembly BIOS call for each pixel). Another two weeks to do the same thing in assembly.
+date: 2017-02-02
+
+46. suspicious
+usage: I was deeply suspicious of function calls and so stuck everything into main().
+date: 2017-02-02
+
+47. grocery
+usage: We were walking through a grocery store and we hear another mother one aisle over is continually squawking and nagging her kid loudly.
+date: 2017-02-02
+
+48. breathtaking
+usage: This breathtaking image gives me the feeling of floating in a deep sea - exciting and scary at the same time. The unknown, the new, not knowing what is coming next.
+date: 2017-02-02
+
+49. retain
+usage: Will I be able to finally retain how to do conversions? When? Someone please help me. I will forever be indebted to you.
+date: 2017-02-02
+
+50. indebted
+usage: Will I be able to finally retain how to do conversions? When? Someone please help me. I will forever be indebted to you.
+date: 2017-02-02
+
+51. gorgeous
+usage: I often go through the many categories of gorgeous images and surrender myself to wonder - even awe.
+date: 2017-02-02
+
+52. ignorant
+usage: Who was the most ignorant person you have ever met in America?
+date: 2017-02-02
+
+53. farewell
+usage: U.S. President Barack Obama wrapped up his eight-year presidency by looking back on his legacy and looking forward to the future of America in his farewell address in Chicago.
+date: 2017-02-02
+
+54. Inauguration
+usage: Scenes From Donald Trump's Inauguration
+date: 2017-02-02
+
+55. fellow
+usage: It’s good to be home.  My fellow Americans
+date: 2017-02-02
+
+56. touched
+usage: My fellow Americans, Michelle and I have been so touched by all the well-wishes we’ve received over the past few weeks.
+date: 2017-02-02
+
+57. outposts
+usage: Whether we’ve seen eye-to-eye or rarely agreed at all, my conversations with you, the American people – in living rooms and schools; at farms and on factory floors; at diners and on distant outposts – are what have kept me honest, kept me inspired, and kept me going.
+date: 2017-02-02
+
+58. dignity
+usage: It was on these streets where I witnessed the power of faith, and the quiet dignity of working people in the face of struggle and loss.
+date: 2017-02-02
+
+59. conviction
+usage: It’s the conviction that we are all created equal, endowed by our Creator with certain unalienable rights, among them life, liberty, and the pursuit of happiness.
+date: 2017-02-02
+
+60. endowed
+usage: It’s the conviction that we are all created equal, endowed by our Creator with certain unalienable rights, among them life, liberty, and the pursuit of happiness.
+date: 2017-02-02
+
+61. liberty
+usage: It’s the conviction that we are all created equal, endowed by our Creator with certain unalienable rights, among them life, liberty, and the pursuit of happiness.
+date: 2017-02-02
+
+62. sweat
+usage: The freedom to chase our individual dreams through our sweat, toil, and imagination – and the imperative to strive together as well, to achieve a greater good.
+date: 2017-02-02
+
+63. toil
+usage: The freedom to chase our individual dreams through our sweat, toil, and imagination – and the imperative to strive together as well, to achieve a greater good.
+date: 2017-02-02
+
+64. imperative
+usage: The freedom to chase our individual dreams through our sweat, toil, and imagination – and the imperative to strive together as well, to achieve a greater good.
+date: 2017-02-02
+
+65. strive
+usage: The freedom to chase our individual dreams through our sweat, toil, and imagination – and the imperative to strive together as well, to achieve a greater good.
+date: 2017-02-02
+
+66. purpose
+usage: For 240 years, our nation’s call to citizenship has given work and purpose to each new generation.
+date: 2017-02-02
+
+67. mechanisms
+usage: A short but deep dive into the core mechanisms of Go and how it makes use of it to bring clarity and performances to developers.
+date: 2017-02-02
+
+68. lift
+usage: The Go language uses advanced programming techniques from the low-level world to lift that weight from the developer’s shoulders.
+date: 2017-02-02
+
+69. defied
+usage: Fired: Trump dumps top lawyer who defied immigration order
+date: 2017-02-02
+
+70. immigration
+usage: Fired: Trump dumps top lawyer who defied immigration order
+date: 2017-02-02
+
+71. federal
+usage: U.S. President Donald Trump fired top federal government lawyer Sally Yates on Monday after she took the extraordinarily rare step of defying the White House and refused to defend new travel restrictions targeting seven Muslim-majority nations.
+date: 2017-02-02
+
+72. Muslim
+usage: U.S. President Donald Trump fired top federal government lawyer Sally Yates on Monday after she took the extraordinarily rare step of defying the White House and refused to defend new travel restrictions targeting seven Muslim-majority nations.
+date: 2017-02-02
+
+73. strategic
+usage: Three years ago we at JetBrains made a strategic decision to contribute to go-lang-idea-plugin, the open-source initiative aimed at building an IntellIJ plugin for Go.
+date: 2017-02-02
+
+74. initiative
+usage: Three years ago we at JetBrains made a strategic decision to contribute to go-lang-idea-plugin, the open-source initiative aimed at building an IntellIJ plugin for Go.
+date: 2017-02-02
+
+75. Orchestral
+usage: We Don't Talk Anymore - Piano Orchestral 60 Minutes Version (With Relaxing Nature Sounds)
+date: 2017-02-02
+
+76. duplicate
+usage: If you've found a bug, which is not a duplicate, report it.
+date: 2017-02-02
+
+77. refactor
+usage: Best Plugin available for Go. Full support for refactoring now.
+date: 2017-02-02
+
+78. unresponsive
+usage: If a program is unresponsive, while other memory-hungry programs aren't, the program is likely a CPU hog.
+date: 2017-02-02
+
+79. refresher
+usage: Because reflection builds on the type system, let's start with a refresher about types in Go.
+date: 2017-02-02
+
+80. Postpone
+usage: Postpone code for later execution in python
+date: 2017-02-02
+
+81. Premium
+usage: Experience the Full Power of Grammarly
+date: 2017-02-02
+
+82. spawning
+usage: multiprocessing is a package that supports spawning processes using an API similar to the threading module.
+date: 2017-02-02
+
+83. moderators
+usage: If you asked the first question instead of the second, of course the moderators of Quora wouldn’t have deleted it.
+date: 2017-02-02
+
+84. fractal
+usage: Two weeks before I could draw a fractal on the screen in C (with an assembly BIOS call for each pixel). Another two weeks to do the same thing in assembly.
+date: 2017-02-02
+
+85. suspicious
+usage: I was deeply suspicious of function calls and so stuck everything into main().
+date: 2017-02-02
+
+86. grocery
+usage: We were walking through a grocery store and we hear another mother one aisle over is continually squawking and nagging her kid loudly.
+date: 2017-02-02
+
+87. breathtaking
+usage: This breathtaking image gives me the feeling of floating in a deep sea - exciting and scary at the same time. The unknown, the new, not knowing what is coming next.
+date: 2017-02-02
+
+88. retain
+usage: Will I be able to finally retain how to do conversions? When? Someone please help me. I will forever be indebted to you.
+date: 2017-02-02
+
+89. indebted
+usage: Will I be able to finally retain how to do conversions? When? Someone please help me. I will forever be indebted to you.
+date: 2017-02-02
+
+90. gorgeous
+usage: I often go through the many categories of gorgeous images and surrender myself to wonder - even awe.
+date: 2017-02-02
+
+91. ignorant
+usage: Who was the most ignorant person you have ever met in America?
+date: 2017-02-02
+
+92. farewell
+usage: U.S. President Barack Obama wrapped up his eight-year presidency by looking back on his legacy and looking forward to the future of America in his farewell address in Chicago.
+date: 2017-02-02
+
+93. Inauguration
+usage: Scenes From Donald Trump's Inauguration
+date: 2017-02-02
+
+94. fellow
+usage: It’s good to be home.  My fellow Americans
+date: 2017-02-02
+
+95. touched
+usage: My fellow Americans, Michelle and I have been so touched by all the well-wishes we’ve received over the past few weeks.
+date: 2017-02-02
+
+96. outposts
+usage: Whether we’ve seen eye-to-eye or rarely agreed at all, my conversations with you, the American people – in living rooms and schools; at farms and on factory floors; at diners and on distant outposts – are what have kept me honest, kept me inspired, and kept me going.
+date: 2017-02-02
+
+97. dignity
+usage: It was on these streets where I witnessed the power of faith, and the quiet dignity of working people in the face of struggle and loss.
+date: 2017-02-02
+
+98. conviction
+usage: It’s the conviction that we are all created equal, endowed by our Creator with certain unalienable rights, among them life, liberty, and the pursuit of happiness.
+date: 2017-02-02
+
+99. endowed
+usage: It’s the conviction that we are all created equal, endowed by our Creator with certain unalienable rights, among them life, liberty, and the pursuit of happiness.
+date: 2017-02-02
+
+100. liberty
+usage: It’s the conviction that we are all created equal, endowed by our Creator with certain unalienable rights, among them life, liberty, and the pursuit of happiness.
+date: 2017-02-02
+
+101. sweat
+usage: The freedom to chase our individual dreams through our sweat, toil, and imagination – and the imperative to strive together as well, to achieve a greater good.
+date: 2017-02-02
+
+102. toil
+usage: The freedom to chase our individual dreams through our sweat, toil, and imagination – and the imperative to strive together as well, to achieve a greater good.
+date: 2017-02-02
+
+103. imperative
+usage: The freedom to chase our individual dreams through our sweat, toil, and imagination – and the imperative to strive together as well, to achieve a greater good.
+date: 2017-02-02
+
+104. strive
+usage: The freedom to chase our individual dreams through our sweat, toil, and imagination – and the imperative to strive together as well, to achieve a greater good.
+date: 2017-02-02
+
+105. purpose
+usage: For 240 years, our nation’s call to citizenship has given work and purpose to each new generation.
+date: 2017-02-02
+
+106. mechanisms
+usage: A short but deep dive into the core mechanisms of Go and how it makes use of it to bring clarity and performances to developers.
+date: 2017-02-02
+
+107. lift
+usage: The Go language uses advanced programming techniques from the low-level world to lift that weight from the developer’s shoulders.
+date: 2017-02-02
+
+108. defied
+usage: Fired: Trump dumps top lawyer who defied immigration order
+date: 2017-02-02
+
+109. immigration
+usage: Fired: Trump dumps top lawyer who defied immigration order
+date: 2017-02-02
+
+110. federal
+usage: U.S. President Donald Trump fired top federal government lawyer Sally Yates on Monday after she took the extraordinarily rare step of defying the White House and refused to defend new travel restrictions targeting seven Muslim-majority nations.
+date: 2017-02-02
+
+111. Muslim
+usage: U.S. President Donald Trump fired top federal government lawyer Sally Yates on Monday after she took the extraordinarily rare step of defying the White House and refused to defend new travel restrictions targeting seven Muslim-majority nations.
+date: 2017-02-02
+
+112. strategic
+usage: Three years ago we at JetBrains made a strategic decision to contribute to go-lang-idea-plugin, the open-source initiative aimed at building an IntellIJ plugin for Go.
+date: 2017-02-02
+
+113. initiative
+usage: Three years ago we at JetBrains made a strategic decision to contribute to go-lang-idea-plugin, the open-source initiative aimed at building an IntellIJ plugin for Go.
+date: 2017-02-02
+
+114. Orchestral
+usage: We Don't Talk Anymore - Piano Orchestral 60 Minutes Version (With Relaxing Nature Sounds)
+date: 2017-02-02
+
+115. duplicate
+usage: If you've found a bug, which is not a duplicate, report it.
+date: 2017-02-02
+
+116. refactor
+usage: Best Plugin available for Go. Full support for refactoring now.
+date: 2017-02-02
+
+117. unresponsive
+usage: If a program is unresponsive, while other memory-hungry programs aren't, the program is likely a CPU hog.
+date: 2017-02-02
+
+118. refresher
+usage: Because reflection builds on the type system, let's start with a refresher about types in Go.
+date: 2017-02-02
+
+119. Postpone
+usage: Postpone code for later execution in python
+date: 2017-02-02
+
+120. Premium
+usage: Experience the Full Power of Grammarly
+date: 2017-02-02
+
+121. spawning
+usage: multiprocessing is a package that supports spawning processes using an API similar to the threading module.
+date: 2017-02-02
+
+122. moderators
+usage: If you asked the first question instead of the second, of course the moderators of Quora wouldn’t have deleted it.
+date: 2017-02-02
+
+123. fractal
+usage: Two weeks before I could draw a fractal on the screen in C (with an assembly BIOS call for each pixel). Another two weeks to do the same thing in assembly.
+date: 2017-02-02
+
+124. suspicious
+usage: I was deeply suspicious of function calls and so stuck everything into main().
+date: 2017-02-02
+
+125. grocery
+usage: We were walking through a grocery store and we hear another mother one aisle over is continually squawking and nagging her kid loudly.
+date: 2017-02-02
+
+126. breathtaking
+usage: This breathtaking image gives me the feeling of floating in a deep sea - exciting and scary at the same time. The unknown, the new, not knowing what is coming next.
+date: 2017-02-02
+
+127. retain
+usage: Will I be able to finally retain how to do conversions? When? Someone please help me. I will forever be indebted to you.
+date: 2017-02-02
+
+128. indebted
+usage: Will I be able to finally retain how to do conversions? When? Someone please help me. I will forever be indebted to you.
+date: 2017-02-02
+
+129. gorgeous
+usage: I often go through the many categories of gorgeous images and surrender myself to wonder - even awe.
+date: 2017-02-02
+
+130. ignorant
+usage: Who was the most ignorant person you have ever met in America?
+date: 2017-02-02
+
+131. farewell
+usage: U.S. President Barack Obama wrapped up his eight-year presidency by looking back on his legacy and looking forward to the future of America in his farewell address in Chicago.
+date: 2017-02-02
+
+132. Inauguration
+usage: Scenes From Donald Trump's Inauguration
+date: 2017-02-02
+
+133. fellow
+usage: It’s good to be home.  My fellow Americans
+date: 2017-02-02
+
+134. touched
+usage: My fellow Americans, Michelle and I have been so touched by all the well-wishes we’ve received over the past few weeks.
+date: 2017-02-02
+
+135. outposts
+usage: Whether we’ve seen eye-to-eye or rarely agreed at all, my conversations with you, the American people – in living rooms and schools; at farms and on factory floors; at diners and on distant outposts – are what have kept me honest, kept me inspired, and kept me going.
+date: 2017-02-02
+
+136. dignity
+usage: It was on these streets where I witnessed the power of faith, and the quiet dignity of working people in the face of struggle and loss.
+date: 2017-02-02
+
+137. conviction
+usage: It’s the conviction that we are all created equal, endowed by our Creator with certain unalienable rights, among them life, liberty, and the pursuit of happiness.
+date: 2017-02-02
+
+138. endowed
+usage: It’s the conviction that we are all created equal, endowed by our Creator with certain unalienable rights, among them life, liberty, and the pursuit of happiness.
+date: 2017-02-02
+
+139. liberty
+usage: It’s the conviction that we are all created equal, endowed by our Creator with certain unalienable rights, among them life, liberty, and the pursuit of happiness.
+date: 2017-02-02
+
+140. sweat
+usage: The freedom to chase our individual dreams through our sweat, toil, and imagination – and the imperative to strive together as well, to achieve a greater good.
+date: 2017-02-02
+
+141. toil
+usage: The freedom to chase our individual dreams through our sweat, toil, and imagination – and the imperative to strive together as well, to achieve a greater good.
+date: 2017-02-02
+
+142. imperative
+usage: The freedom to chase our individual dreams through our sweat, toil, and imagination – and the imperative to strive together as well, to achieve a greater good.
+date: 2017-02-02
+
+143. strive
+usage: The freedom to chase our individual dreams through our sweat, toil, and imagination – and the imperative to strive together as well, to achieve a greater good.
+date: 2017-02-02
+
+144. purpose
+usage: For 240 years, our nation’s call to citizenship has given work and purpose to each new generation.
+date: 2017-02-02
+
+145. mechanisms
+usage: A short but deep dive into the core mechanisms of Go and how it makes use of it to bring clarity and performances to developers.
+date: 2017-02-02
+
+146. lift
+usage: The Go language uses advanced programming techniques from the low-level world to lift that weight from the developer’s shoulders.
+date: 2017-02-02
+
+147. defied
+usage: Fired: Trump dumps top lawyer who defied immigration order
+date: 2017-02-02
+
+148. immigration
+usage: Fired: Trump dumps top lawyer who defied immigration order
+date: 2017-02-02
+
+149. federal
+usage: U.S. President Donald Trump fired top federal government lawyer Sally Yates on Monday after she took the extraordinarily rare step of defying the White House and refused to defend new travel restrictions targeting seven Muslim-majority nations.
+date: 2017-02-02
+
+150. Muslim
+usage: U.S. President Donald Trump fired top federal government lawyer Sally Yates on Monday after she took the extraordinarily rare step of defying the White House and refused to defend new travel restrictions targeting seven Muslim-majority nations.
+date: 2017-02-02
+
+151. strategic
+usage: Three years ago we at JetBrains made a strategic decision to contribute to go-lang-idea-plugin, the open-source initiative aimed at building an IntellIJ plugin for Go.
+date: 2017-02-02
+
+152. initiative
+usage: Three years ago we at JetBrains made a strategic decision to contribute to go-lang-idea-plugin, the open-source initiative aimed at building an IntellIJ plugin for Go.
+date: 2017-02-02
+
+153. Orchestral
+usage: We Don't Talk Anymore - Piano Orchestral 60 Minutes Version (With Relaxing Nature Sounds)
+date: 2017-02-02
+
+154. duplicate
+usage: If you've found a bug, which is not a duplicate, report it.
+date: 2017-02-02
+
+155. refactor
+usage: Best Plugin available for Go. Full support for refactoring now.
+date: 2017-02-02
+
+156. unresponsive
+usage: If a program is unresponsive, while other memory-hungry programs aren't, the program is likely a CPU hog.
+date: 2017-02-02
+
+157. refresher
+usage: Because reflection builds on the type system, let's start with a refresher about types in Go.
+date: 2017-02-02
+
+158. Postpone
+usage: Postpone code for later execution in python
+date: 2017-02-02
+
+159. Premium
+usage: Experience the Full Power of Grammarly
+date: 2017-02-02
+
+160. spawning
+usage: multiprocessing is a package that supports spawning processes using an API similar to the threading module.
+date: 2017-02-02
+
+161. moderators
+usage: If you asked the first question instead of the second, of course the moderators of Quora wouldn’t have deleted it.
+date: 2017-02-02
+
+162. tone
+usage: I like the tone in blogs where the author doesn’t know something, then works through it in the blog until both they and the reader knows it.
+date: 2017-02-02
+
+163. punches
+usage: In this case I know something, and I’ve realised not everyone does, particularly if they’ve come to Go from Python or Ruby, where this kind of stuff barely matters, rather than from C, where it constantly punches you in the face.
+date: 2017-02-02
+
+164. dull
+usage: Hopefully I’ll succeed, otherwise reading this will be very dull and confusing.
+date: 2017-02-02
+
+165. misleading
+usage: Some people say that Go's interfaces are dynamically typed, but that is misleading.
+date: 2017-02-02
+
+167. recovers
+usage: The reflect.ValueOf function, of course, recovers the value (from here on we'll elide the boilerplate and focus just on the executable code):
+date: 2017-02-02
+
+168. elide
+usage: from here on we'll elide the boilerplate and focus just on the executable code
+date: 2017-02-02
+
+169. boilerplate
+usage: from here on we'll elide the boilerplate and focus just on the executable code
+date: 2017-02-02
+
+170. tone
+usage: I like the tone in blogs where the author doesn’t know something, then works through it in the blog until both they and the reader knows it.
+date: 2017-02-04
+
+171. punches
+usage: In this case I know something, and I’ve realised not everyone does, particularly if they’ve come to Go from Python or Ruby, where this kind of stuff barely matters, rather than from C, where it constantly punches you in the face.
+date: 2017-02-04
+
+172. dull
+usage: Hopefully I’ll succeed, otherwise reading this will be very dull and confusing.
+date: 2017-02-04
+
+173. misleading
+usage: Some people say that Go's interfaces are dynamically typed, but that is misleading.
+date: 2017-02-04
+
+175. recovers
+usage: The reflect.ValueOf function, of course, recovers the value (from here on we'll elide the boilerplate and focus just on the executable code):
+date: 2017-02-04
+
+176. elide
+usage: from here on we'll elide the boilerplate and focus just on the executable code
+date: 2017-02-04
+
+177. boilerplate
+usage: from here on we'll elide the boilerplate and focus just on the executable code
+date: 2017-02-04
+
+178. discriminate
+usage: In other words, the Kind cannot discriminate an int from a MyInt even though the Type can.
+date: 2017-02-04
+
+179. quantitative
+usage: The differences between threads and goroutines are essentially quantitative, not qualitative, and will be described in Section 9.8.
+date: 2017-02-04
+
+180. conduit
+usage: Each channel is a conduit for values of a particular type, called the channel’s element type.
+date: 2017-02-04
+
+181. Stylistically
+usage: Stylistically, Go programmers use ‘‘camel case’’ when forming names by combining words; that is, interior capital letters are preferred over interior underscores.
+date: 2017-02-04
+
+182. passive
+usage: This is normally done by calling socket, bind, and listen and is called a passive open.
+date: 2017-02-08
+
+183. analogy
+usage: An everyday analogy for establishing a TCP connection is the telephone system
+date: 2017-02-08
+
+185. negotiated
+usage: Since it is a newer option, it is negotiated similarly to the window scale option.
+date: 2017-02-08
+
+186. receipt
+usage: The receipt of the FIN is also passed to the application as an end-of-file
+date: 2017-02-08
+
+187. dictate
+usage: There are 11 different states defined for a connection and the rules of TCP dictate the transitions from one state to another, based on the current state and the segment received in that state.
+date: 2017-02-08
+
+188. bounded
+usage: We know this time is bounded because every datagram contains an 8-bit hop limit (the IPv4 TTL field in Figure A.1 and the IPv6 hop limit field in Figure A.2) with a maximum value of 255
+date: 2017-02-08
+
+190. stabilize
+usage: A router crashes or a link between two routers goes down and it takes the routing protocols seconds or minutes to stabilize and find an alternate path.
+date: 2017-02-08
+
+191. incarnation
+usage: This latter connection is called an incarnation of the previous connection since the IP addresses and ports are the same.
+date: 2017-02-08
+
+192. enforcing
+usage: By enforcing this rule, we are guaranteed that when we successfully establish a TCP connection, all old duplicates from previous incarnations of the connection have expired in the network.
+date: 2017-02-08
+
+196. issues
+usage: The client issues an active open by calling connect.
+date: 2017-02-09
+
+197. dissect
+usage: Let us dissect the process of TCP three-way handshake, using a real world example.
+date: 2017-02-09
+
+198. Topology
+usage: Topology and IP addresses for TCP Three-way handshake study are shown below.
+date: 2017-02-09
+
+199. numbering
+usage: Sequence number: 32 Bit number used for byte level numbering of TCP segments.
+date: 2017-02-09
+
+200. govern
+usage: Control Bits govern the entire process of connection establishment, data transmissions and connection termination.
+date: 2017-02-09
+
+202. coordinating
+usage: coordinating all these problems are so complex and not easy to manage. t
+date: 2017-02-09
+
+203. circuits
+usage: physical circuits are created on the physical layer of open systems interconnection (osi) model.
+date: 2017-02-09
+
+204. optical
+usage: physical layers describe the electrical or optical signals used for communication.
+date: 2017-02-09
+
+205. voltage
+usage: physical layer of the open systems interconnection (osi) model is only concerned with the physical characteristics of electrical or optical signaling techniques which includes the voltage of the electrical current used to transport the signal, the media type (twisted pair, coaxial cable, optical fiber etc), impedance characteristics, physical shape of the connector, synchronization etc.
+date: 2017-02-09
+
+206. connector
+usage: physical layer of the open systems interconnection (osi) model is only concerned with the physical characteristics of electrical or optical signaling techniques which includes the voltage of the electrical current used to transport the signal, the media type (twisted pair, coaxial cable, optical fiber etc), impedance characteristics, physical shape of the connector, synchronization etc.
+date: 2017-02-09
+
+207. validity
+usage: datalink layer is responsible for providing end-to-end validity of the data being transmitted.
+date: 2017-02-09
+
+208. media
+usage: the media access control (mac) sublayer and the logical link control (llc) sublayer.
+date: 2017-02-09
+
+209. constitute
+usage: mac addresses are burned into the network cards and constitute the low-level address used to determine the source and destination of network traffic.
+date: 2017-02-09
+
+210. direct
+usage: . routers, which are special computers used to build the network, direct the data packet generated by network layer using information stored in a table known as routing table.
+date: 2017-02-09
+
+211. manufacturer
+usage: to determine the device's manufacturer (first half of the address) and serial number (second half of the address), such as for warranty service
+date: 2017-02-09
+
+212. masquerade
+usage: to masquerade (spoof) the identity of a different device.
+date: 2017-02-09
+
+213. sequencing
+usage: another function of the transport layer is tcp segment sequencing. sequencing is a connection-oriented service that takes tcp segments that are received out of order and place them in the right order.
+date: 2017-02-09
+
+214. coordinating
+usage: coordinating all these problems are so complex and not easy to manage. t
+date: 2017-02-09
+
+215. simultaneously
+usage: many network applications can run on a computer simultaneously and there should be some mechanism to identify which application should receive the incoming data.
+date: 2017-02-09
+
+216. phase
+usage: in the connection establishment phase, the service and the rules (who transmits and when, how much data can be sent at a time etc.) for communication between the two devices are proposed.
+date: 2017-02-09
+
+217. pedagogic
+usage: the pedagogic approach we take in this chapter is to alternate between discussions of transport-layer principles and discussions of how these principles are imple- mented in existing protocols;
+date: 2017-02-10
+
+218. notion
+usage: figure 3.1 illustrates the notion of logical communication.
+date: 2017-02-10
+
+219. encapsulated
+usage: the segment is encapsulated within a network-layer packet
+date: 2017-02-10
+
+220. household
+usage: let’s exam- ine this distinction with the aid of a household analogy.
+date: 2017-02-10
+
+221. coast
+usage: consider two houses, one on the east coast and the other on the west coast, with each house being home to a dozen kids
+date: 2017-02-10
+
+222. postal
+usage: each kid writes each cousin every week, with each letter deliv- ered by the traditional postal service in a separate envelope.
+date: 2017-02-10
+
+223. saga
+usage: continuing with our family saga, suppose now that when ann and bill go on vacation, another cousin pair—say
+date: 2017-02-10
+
+224. intruders
+usage: a transport protocol can use encryption to guarantee that application messages are not read by intruders, even when the network layer cannot guarantee the confidentiality of transport-layer segments.
+date: 2017-02-10
+
+226. glimpse
+usage: having taken a glimpse at the ip service model, let’s now summarize the serv- ice models provided by udp and tcp.
+date: 2017-02-10
+
+227. intact
+usage: in particular, like ip, udp is an unreliable service—it does not guarantee that data sent by one process will arrive intact (or at all!) to the destination process.
+date: 2017-02-10
+
+228. congestion
+usage: tcp also provides congestion control. congestion control is not so much a service provided to the invoking application as it is a service for the internet as a whole, a service for the general good.
+date: 2017-02-10
+
+229. swamping
+usage: loosely speaking, tcp congestion control prevents any one tcp con- nection from swamping the links and routers between communicating hosts with an excessive amount of traffic.
+date: 2017-02-10
+
+230. swamp
+usage: loosely speaking, tcp congestion control prevents any one tcp con- nection from swamping the links and routers between communicating hosts with an excessive amount of traffic.
+date: 2017-02-10
+
+231. excessive
+usage: loosely speaking, tcp congestion control prevents any one tcp con- nection from swamping the links and routers between communicating hosts with an excessive amount of traffic.
+date: 2017-02-10
+
+232. regulating
+usage: this is done by regulating the rate at which the sending sides of tcp connections can send traffic into the network.
+date: 2017-02-10
+
+233. investigated
+usage: these topics are investigated in sections 3.4 through 3.8.
+date: 2017-02-10
+
+234. intermediary
+usage: the transport layer in the receiving host does not actually deliver data directly to a process, but instead to an intermediary socket
+date: 2017-02-10
+
+235. subsequent
+usage: as discussed in the subsequent sections of this chapter.
+date: 2017-02-10
+
+236. sequentially
+usage: for tcp, nmap sequentially scans ports, looking for ports that are accepting tcp connections.
+date: 2017-02-10
+
+237. instructive
+usage: before closing this discussion, it’s instructive to say a few additional words about web servers and how they use port numbers
+date: 2017-02-10
+
+238. spawn
+usage: a web server that spawns a new process for each connection.
+date: 2017-02-10
+
+239. severely
+usage: this frequent creating and closing of sockets can severely impact the performance of a busy web server (although a number of operating system tricks can be used to mitigate the problem).
+date: 2017-02-10
+
+240. surround
+usage: readers interested in the operating system issues surrounding per- sistent and non-persistent http are encouraged to see [nielsen 1997; nahum 2002].
+date: 2017-02-10
+
+241. vacuous
+usage: how might you go about doing this? you might first consider using a vacuous transport protocol.
+date: 2017-02-10
+
+242. throttle
+usage: tcp, on the other hand, has a congestion-control mechanism that throttles the transport-layer tcp sender when one or more links between the source and des- tination hosts become excessively congested.
+date: 2017-02-10
+
+243. tolerate
+usage: since real-time applications often require a minimum sending rate, do not want to overly delay segment transmission, and can tolerate some data loss, tcp’s service model is not partic- ularly well matched to these applications’ needs.
+date: 2017-02-10
+
+244. blast
+usage: udp just blasts away without any formal pre- liminaries.
+date: 2017-02-10
+
+245. periodically
+usage: since rip updates are sent periodically (typi- cally every five minutes), lost updates will be replaced by more recent updates, thus making the lost, out-of-date update useless. udp is also used to carry network manage- ment (snmp; see chapter 9) data.
+date: 2017-02-10
+
+246. oblivious
+usage: in fact, the intermediate routers are completely oblivious to tcp connections;
+date: 2017-02-10
+
+247. impose
+usage: thus, the third segment arrived out of order. the subtle issue is: what does a host do when it receives out-of-order segments in a tcp con- nection? interestingly, the tcp rfcs do not impose any rules here and leave the decision up to the people programming a tcp implementation.
+date: 2017-02-10
+
+248. compliant
+usage: on posix-compliant platforms, sighup ("signal hang up") is a signal sent to a process when its controlling terminal is closed
+date: 2017-02-10
+
+249. intercept
+usage: the hangup (hup) signal, which is normally sent to a process to inform it that the user has logged off (or "hung up"), is intercepted by nohup, allowing the process to continue running.
+date: 2017-02-10
+
+250. reclaim
+usage: if the client does not send an ack to complete the third step of this 3-way handshake, eventually (often after a minute or more) the server will terminate the half- open connection and reclaim the allocated resources.
+date: 2017-02-10
+
+251. deluge
+usage: with this deluge of syn segments, the server’s connection resources become exhausted as they are allocated (but never used!) for half-open connections
+date: 2017-02-10
+
+252. alleviate
+usage: caching and other sharing methods will not alleviate it
+date: 2017-02-10
+
+253. scalability
+usage: if you have enough socket's in time_wait then your ability to create new socket connections may be affected and this can affect the scalability of your client server system.
+date: 2017-02-10
+
+254. workshop
+usage: when we conduct a technical workshop, a common query from the participants relates to the maximum transmission unit (mtu) size manipulation on a router interface and its relationship with the tcp maximum segment size (mss).
+date: 2017-02-11
+
+255. transit
+usage: now in a likely case where a router in transit is carrying out additional encapsulation, that is, mpls label swapping, this will add an additional label header as below:
+date: 2017-02-11
+
+257. stabilize
+usage: a router crashes or a link between two routers goes down and it takes the routing protocols seconds or minutes to stabilize and find an alternate path.
+date: 2017-02-11
+
+258. alternate
+usage: a router crashes or a link between two routers goes down and it takes the routing protocols seconds or minutes to stabilize and find an alternate path.
+date: 2017-02-11
+
+259. analysis
+usage: traffic analysis of an ssl/tls session
+date: 2017-02-11
+
+260. bidirectional
+usage: https is http-within-ssl/tls. ssl (tls) establishes a secured, bidirectional tunnel for arbitrary binary data between two hosts.
+date: 2017-02-11
+
+261. institution
+usage: sslv3 being edited by a different institution (netscape), it makes it a bit more difficult so spot the differences.
+date: 2017-02-11
+
+262. migrate
+usage: my parents and i migrated to america from uganda when i was 4 years old to have a better life.
+date: 2017-02-11
+
+263. motorist
+usage: then when i was 6 years old he was shot and killed by a motorist because he was african and spoke with an accent.
+date: 2017-02-11
+
+264. jail
+usage: his killer only serves 3 years in jail before he was released.
+date: 2017-02-11
+
+265. overdose
+usage: my mother couldn't recover from the loss and turned to drugs as a coping mechanism leaving me and my brother alone for long periods of time so she could get “high” when i was 11 she died from a overdose and we were sent to live with an aunt and uncle in florida.
+date: 2017-02-11
+
+266. sexually
+usage: my uncle sexually assaulted me until i reached the age of 16 years old.
+date: 2017-02-11
+
+267. assault
+usage: my uncle sexually assaulted me until i reached the age of 16 years old.
+date: 2017-02-11
+
+268. dentistry
+usage: i am now a doctor in dentistry and have 2 wonderful children of my own.
+date: 2017-02-11
+
+269. depicts
+usage: following diagram shows a very basic architecture of a web application and depicts where http sits:
+date: 2017-02-12
+
+270. porn
+usage: i started doing porn.
+date: 2017-02-13
+
+271. porch
+usage: zoey popped her gum and leaned back against the porch swing
+date: 2017-02-13
+
+272. render
+usage: render animations
+date: 2017-02-14
+
+273. animations
+usage: tablet and phone apps render animations in the user interface while simultaneously performing computation and network requests in the back- ground.
+date: 2017-02-14
+
+274. animations
+usage: tablet and phone apps render animations in the user interface while simultaneously performing computation and network requests in the back- ground.
+date: 2017-02-14
+
+275. dedicate
+usage: i purchased this book because it is the only reference book i could find that is dedicated to nginx.
+date: 2017-02-14
+
+276. religious
+usage: res_lst.append('religious')
+date: 2017-02-16
+
+277. extract
+usage: captain monitor the clipboard and extract the vocabulary and the sentence wisely.
+date: 2017-02-16
+
+278. extract
+usage: captain monitor the clipboard and extract the vocabulary and the sentence wisely.
+date: 2017-02-17
+
