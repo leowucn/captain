@@ -1074,3 +1074,27 @@ date: 2017-02-16
 usage: captain monitor the clipboard and extract the vocabulary and the sentence wisely.
 date: 2017-02-17
 
+279. animation
+usage: after several seconds of animation, the fib(45) call returns and the main function prints its result
+date: 2017-02-19
+
+280. abruptly
+usage: the main function then returns. when this happens, all goroutines are abruptly terminated and the program exits.
+date: 2017-02-19
+
+281. conduit
+usage: each channel is a conduit for values of a particular type, called the channel’s element type. the type of a channel whose elements have type int is written chan int.
+date: 2017-02-21
+
+282. callee
+usage: when we copy a channel or pass one as an argument to a function, we are copying a reference, so caller and callee refer to the same data structure.
+date: 2017-02-21
+
+283. redundant
+usage: no resources are wasted by running redundant software or simulating virtual hardware.
+date: 2017-03-06
+
+284. drastically
+usage: it’s surprising how drastically installation processes vary today.
+date: 2017-03-06
+
