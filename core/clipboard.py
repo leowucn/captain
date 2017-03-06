@@ -26,7 +26,7 @@ def watcher():
 			word = result
 			i = 0
 		# print('word = ' + word + ', result = ' + result + ', i = ' + str(i))
-		if word != '' and len(result) > len(word) and result.find(word) >= 0:
+		if word != '' and len(result) > len(word) and result.find(word) >= 0 and is_valid_string(result):
 			alpha_lst = " ".join(re.findall("[a-zA-Z]+", result))
 			if len(alpha_lst) - len(word) > 5:
 				# in this case, result should be a usage containing the
@@ -56,6 +56,15 @@ def watcher():
 
 		time.sleep(interval)
 	utility.show_notification('Captain Info', 'Sorry, some error may happened! Please check the error message!')
+
+
+# whether the src is valid string, the code or the Chinese should be exclusive.
+def is_valid_string(src):
+	invalid_characters = {'[': True, ']': True, "==": True, "===": True, '\\': True, '/': True}
+	for ch in src:
+		if ch in invalid_characters:
+			return False
+	return True
 
 
 if __name__ == "__main__":
