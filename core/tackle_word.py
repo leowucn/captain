@@ -48,6 +48,9 @@ class TackleWords:
 				self.index_dict = json.load(fp)
 
 	def get_word_meaning(self, raw_string):         # raw_string may be a word or phrase
+		if not utility.test_network():
+			return None
+
 		valid_string = raw_string[:-2].strip()
 		word_list = re.compile('\w+').findall(valid_string)
 		post_fix = '%20'.join(word_list)
@@ -270,6 +273,7 @@ class TackleWords:
 	def import_all_dir(self):
 		self.import_word_builder()
 		self.import_clipboard_words()
+		print("22")
 		utility.show_notification('Captain Info', 'Importing words completely finished!')
 
 	def import_word_builder(self):
@@ -472,6 +476,15 @@ class TackleWords:
 			file_name = str(digit_name + 1) + '.txt'
 
 		file_path = os.path.join(clipboard_dir, file_name)
+
+		# check if the word and usage exist.
+		portion = os.popen("tail -4 " + file_path).readlines()
+		print(portion)
+		last_word = portion[0].split('.')[1].strip()
+		last_usage = portion[1].split(':')[1].strip()
+		if word == last_word and usage == last_word:
+			return
+
 		max_index = -1
 		if os.path.exists(file_path):
 			with open(file_path) as f:
@@ -485,7 +498,7 @@ class TackleWords:
 								max_index = int(res[0])
 		with open(file_path, mode='a') as f:
 			f.write(str(max_index + 1) + '. ' + word + '\n')
-			f.write('usage: ' + usage + '\n')
+			f.write('usage: ' + usage.strip() + '\n')
 			f.write('date: ' + strftime("%Y-%m-%d", gmtime()) + '\n')
 			f.write('\n')
 

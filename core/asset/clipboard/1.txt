@@ -1098,3 +1098,75 @@ date: 2017-03-06
 usage: it’s surprising how drastically installation processes vary today.
 date: 2017-03-06
 
+285. ludicrously
+usage: you can leverage and access all of your data at ludicrously awesome speeds
+date: 2017-03-07
+
+286. histograms
+usage: kibana core ships with the classics: histograms, line graphs, pie charts, sunbursts, and more. they leverage the full aggregation capabilities of elasticsearch.
+date: 2017-03-07
+
+287. siloed
+usage: data is often scattered or siloed across many systems in many formats
+date: 2017-03-07
+
+288. expounds
+usage: this chapter expounds on these searching and data features, and you’ll learn how to use them throughout this book.
+date: 2017-03-07
+
+289. confront
+usage: first, let’s take a closer look at the challenges search engines are typically confronted with and elasticsearch’s approach to solving them.
+date: 2017-03-07
+
+290. typos
+usage: those features include detecting typos, providing sugges- tions, and breaking down results into categories.
+date: 2017-03-07
+
+291. tolerant
+usage: you can configure elasticsearch to be tolerant of variations instead of looking for only exact matches.
+date: 2017-03-07
+
+292. tolerant
+usage: you can configure elasticsearch to be tolerant of variations instead of looking for only exact matches.
+date: 2017-03-07
+
+293. crunch
+usage: you may be reading this book because you already have a system that’s crunching data and you want to add search. we’ll look at a couple of overall designs on how that might be done.
+date: 2017-03-07
+
+294. retail
+usage: for example, suppose you have an online retail store with product information stored in an sql database.
+date: 2017-03-07
+
+295. mandatory
+usage: some criteria would be mandatory and some would be optional.
+date: 2017-03-07
+
+296. vague
+usage: at this point you might want to know more about what’s in that “indexed data” box shown in figure 1.5 because it sounds quite vague.
+date: 2017-03-07
+
+297. narrow
+usage: this helped me narrow it down to javascript and python.
+date: 2017-03-07
+
+299. puberty
+usage: how hard has puberty hit you
+date: 2017-03-09
+
+300. drastically
+usage: i was never the one who had a crazy growth spurt or the body shape changing drastically.
+date: 2017-03-09
+
+301. fridges
+usage: we had a club with tv’s and a pool table and ping pong table - and free food and drinks - there were 2 fridges with everything you wanted… a full deli… and almost any drinks - including sodas and fresh oj.
+date: 2017-03-10
+
+302. couches
+usage: we even had couches in the club that people slept there over night… didn’t even leave home.
+date: 2017-03-10
+
+303. glossed
+usage: however, in doing so, we glossed over a number of important and subtle issues that programmers must bear in mind when writing concurrent code.
+date: 2017-03-11
+

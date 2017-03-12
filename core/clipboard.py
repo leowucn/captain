@@ -60,7 +60,7 @@ def watcher():
 
 # whether the src is valid string, the code or the Chinese should be exclusive.
 def is_valid_string(src):
-	invalid_characters = {'[': True, ']': True, "==": True, "===": True, '\\': True, '/': True}
+	invalid_characters = {'[': True, ']': True, '@': True, '#': True, '^': True, '&': True, '&&': True, '||': True, '*': True, "==": True, "===": True, '\\': True, '/': True, '`': True}
 	for ch in src:
 		if ch in invalid_characters:
 			return False
