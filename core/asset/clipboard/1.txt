@@ -1170,3 +1170,11 @@ date: 2017-03-10
 usage: however, in doing so, we glossed over a number of important and subtle issues that programmers must bear in mind when writing concurrent code.
 date: 2017-03-11
 
+304. deviate
+usage: if you deviate from this, be sure to document it.
+date: 2017-03-12
+
+305. marginally
+usage: a defer is marginally more expen- sive than an explicit call to unlock, but not enough to justify less clear code.
+date: 2017-03-12
+

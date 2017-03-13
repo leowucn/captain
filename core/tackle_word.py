@@ -293,8 +293,9 @@ class TackleWords:
 							continue
 						usage = lines[index + 1][lines[index + 1].find(':') + 1:]
 						book = lines[index + 2][lines[index + 2].find(':') + 1:]
-						date = lines[index + 3][lines[index + 3].find(':') + 1:]
-						self.query(wrapped_word, usage, date, book)
+						# date = lines[index + 3][lines[index + 3].find(':') + 1:]
+						# self.query(wrapped_word, usage, date, book)
+						self.query(wrapped_word, usage, None, book)
 
 	def import_clipboard_words(self):
 		files = [f for f in os.listdir(clipboard_dir) if os.path.isfile(os.path.join(clipboard_dir, f))]
