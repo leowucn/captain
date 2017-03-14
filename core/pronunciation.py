@@ -20,13 +20,13 @@ basic_dict = dict()
 
 
 def show(word):
-	if not word[0].startswith(tuple(string.ascii_letters)):
-		return
 	show_literal_pronunciation(word)
 	launch_pronunciation(word)
 
 
 def launch_pronunciation(word):
+	if not word[0].startswith(tuple(string.ascii_letters)):
+		return
 	stripped_word = word.strip().lower()
 	if len(stripped_word) == 0:
 		return
@@ -117,6 +117,8 @@ def get_pronunciation(word, dst_dir):
 
 
 def show_literal_pronunciation(word):
+	if not word[0].startswith(tuple(string.ascii_letters)):
+		return
 	stripped_word = word.strip()
 	if not stripped_word.isalpha():
 		return
@@ -144,7 +146,6 @@ def show_literal_pronunciation(word):
 def dl_pronunciation(word):
 	basic = dict()
 	url = 'http://dict.youdao.com/w/eng/' + word.lower().strip()
-	print(url)
 	res = requests.get(url)
 	soup = bs4.BeautifulSoup(res.content, 'lxml')
 	pronunciation = soup.find('div', attrs={'class': 'baav'})

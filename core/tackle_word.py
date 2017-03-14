@@ -273,7 +273,6 @@ class TackleWords:
 	def import_all_dir(self):
 		self.import_word_builder()
 		self.import_clipboard_words()
-		print("22")
 		utility.show_notification('Captain Info', 'Importing words completely finished!')
 
 	def import_word_builder(self):
@@ -480,7 +479,6 @@ class TackleWords:
 
 		# check if the word and usage exist.
 		portion = os.popen("tail -4 " + file_path).readlines()
-		print(portion)
 		last_word = portion[0].split('.')[1].strip()
 		last_usage = portion[1].split(':')[1].strip()
 		if word == last_word and usage == last_word:

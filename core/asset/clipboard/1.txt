@@ -1178,3 +1178,15 @@ date: 2017-03-12
 usage: a defer is marginally more expen- sive than an explicit call to unlock, but not enough to justify less clear code.
 date: 2017-03-12
 
+306. rowboat
+usage: a toothless old man came ambling up to them, pointing, with a rather wicked grin, at an old rowboat bobbing in the iron-gray water below them.
+date: 2017-03-13
+
+307. sewing
+usage: some of my students have reported that hobbies such as sewing, glassblowing, model building, and so on all help to teach patience
+date: 2017-03-13
+
+308. tame
+usage: there is no "best path" but if you tend to be impatient, you should try to tame that.
+date: 2017-03-13
+
