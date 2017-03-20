@@ -55,7 +55,7 @@ class TackleWords:
 		word_list = re.compile('\w+').findall(valid_string)
 		post_fix = '%20'.join(word_list)
 
-		url = 'http://dict.youdao.com/w/eng/' + post_fix
+		url = 'http://www.youdao.com/w/eng/' + post_fix
 		res = requests.get(url)
 		soup = bs4.BeautifulSoup(res.content, 'lxml')
 		word_meaning_dict = dict()

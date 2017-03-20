@@ -18,7 +18,7 @@ def show_notification(title, msg):
 
 
 def test_network():
-	code = urllib.urlopen("http://dict.youdao.com/").getcode()
+	code = urllib.urlopen("http://www.youdao.com").getcode()
 	if code != 200:
 		return False
 	return True

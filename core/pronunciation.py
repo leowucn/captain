@@ -145,7 +145,7 @@ def show_literal_pronunciation(word):
 
 def dl_pronunciation(word):
 	basic = dict()
-	url = 'http://dict.youdao.com/w/eng/' + word.lower().strip()
+	url = 'http://www.youdao.com/w/eng/' + word.lower().strip()
 	res = requests.get(url)
 	soup = bs4.BeautifulSoup(res.content, 'lxml')
 	pronunciation = soup.find('div', attrs={'class': 'baav'})

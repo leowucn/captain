@@ -23,7 +23,7 @@ def watcher():
 			result = pyperclip.paste().strip().lower()
 			if len(result) >= max_length:
 				continue
-			if result.isalpha() and len(result) != 0 and word != result:
+			if result.isalpha() and len(result) >= 1 and word != result:
 				word = result
 				i = 0
 			# print('word = ' + word + ', result = ' + result + ', i = ' + str(i))
