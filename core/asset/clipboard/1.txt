@@ -1190,3 +1190,19 @@ date: 2017-03-13
 usage: there is no "best path" but if you tend to be impatient, you should try to tame that.
 date: 2017-03-13
 
+309. companies
+usage: result = companies
+date: 2017-04-10
+
+310. consecutive
+usage: fields splits the string s around each instance of one or more consecutive white space characters,
+date: 2017-04-11
+
+311. term
+usage: term signal
+date: 2017-04-12
+
+312. experiment
+usage: russian sleep experiment
+date: 2017-04-14
+

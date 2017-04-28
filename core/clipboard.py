@@ -75,6 +75,5 @@ def is_valid_string(src):
 			return False
 	return True
 
-
 if __name__ == "__main__":
 	watcher()

@@ -139,7 +139,11 @@ def show_literal_pronunciation(word):
 
 	literal = basic['pronun'].replace("'", ".")
 	literal = literal.replace("ˈ", ".")
-	utility.show_notification(word + ' ☞ ' + literal.encode('utf-8'), basic['basic'].encode('utf-8'))
+
+	# printable = set(string.printable)
+	# word = filter(lambda x: x in printable, word)
+
+	utility.show_notification(word + '☞' + literal.encode('utf-8'), basic['basic'].encode('utf-8'))
 	return
 
 
