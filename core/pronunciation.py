@@ -127,8 +127,10 @@ def show_literal_pronunciation(word):
     if stripped_word in basic_dict:
         basic = basic_dict[stripped_word]
     else:
-        result = dl_pronunciation(stripped_word)
+        result = get_text_pronunciation(stripped_word)
         if len(result) == 0:
+            return
+        if result['pronun'] == "" or result['basic'] == "":
             return
         basic['pronun'] = result['pronun']
         basic['basic'] = result['basic']
@@ -141,11 +143,11 @@ def show_literal_pronunciation(word):
     # printable = set(string.printable)
     # word = filter(lambda x: x in printable, word)
 
-    utility.show_notification(word + '☞' + literal.encode('utf-8'), basic['basic'].encode('utf-8'))
+    utility.show_notification(word + ' -> ' + literal.encode('utf-8'), basic['basic'].encode('utf-8'))
     return
 
 
-def dl_pronunciation(word):
+def get_text_pronunciation(word):
     basic = dict()
     url = 'http://www.youdao.com/w/eng/' + word.lower().strip()
     res = requests.get(url)

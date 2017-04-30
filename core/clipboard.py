@@ -27,7 +27,7 @@ def watcher():
                 word = result
                 i = 0
             if word != '' and len(result) > len(word) and result.find(word) >= 0 and is_valid_string(result):
-                print('word = ' + word + ', result = ' + result + ', i = ' + str(i))
+                # print('word = ' + word + ', result = ' + result + ', i = ' + str(i))
                 alpha_lst = " ".join(re.findall("[a-zA-Z]+", result))
                 if len(alpha_lst) - len(word) > 5:
                     # in this case, result should be a usage containing the
