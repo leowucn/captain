@@ -1,8 +1,7 @@
 flask
 pyperclip
-urllib
 mechanize
 bs4
 requests
-dateutil
+python-dateutil 
 pytz

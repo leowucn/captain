@@ -39,7 +39,7 @@
           <form class="ui form" action = "http://localhost:5000/words_list" method = "post">
               {% for week in week_list_from_word_builder %}
                     <div class="ui action">
-                        <input class="ui primary button" type="submit" name=0-{{ year }}-{{ week }} value={{ year }}-{{ week }}>
+                        <input class="ui primary button" type="submit" name=0*{{ year }}*{{ week }} value={{ year }}*{{ week }}>
                     </div>
               {% endfor %}
           </form>
@@ -53,7 +53,7 @@
            <form class="ui form" action = "http://localhost:5000/words_list" method = "post">
                {% for week in week_list_from_clipboard %}
                     <div class="ui action">
-                        <input class="ui primary button" type="submit" name=1-{{ year }}-{{ week }} value={{ year }}-{{ week }}>
+                        <input class="ui primary button" type="submit" name=1*{{ year }}*{{ week }} value={{ year }}*{{ week }}>
                     </div>
                {% endfor %}
             </form>
