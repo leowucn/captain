@@ -3158,7 +3158,7 @@ date: 2017-04-30
 usage: term signal
 date: 2017-04-30
 
-801. experiment
-usage: russian sleep experiment
+801. extent
+usage: computer science programs vary in the extent to which they cover algorithms. you can cover a few algorithms in great detail, or provide snapshots of a large number of algorithms. so depending on the question, your education will either help you or let you down.
 date: 2017-04-30
 
