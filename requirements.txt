@@ -5,3 +5,4 @@ bs4
 requests
 python-dateutil 
 pytz
+"requests[security]"
