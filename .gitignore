@@ -94,3 +94,4 @@ tmp
 *.out
 core/asset/pronunciation
 .idea
+nohup.out

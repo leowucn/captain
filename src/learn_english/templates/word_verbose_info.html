@@ -1,0 +1,250 @@
+<!doctype html>
+<html>
+<head>
+      <!-- Standard Meta -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <!-- Site Properties -->
+  <title>Captain</title>
+  <link rel="stylesheet" type="text/css" href="/learn_english/static/semantic/dist/semantic.css">
+
+  <script src="/learn_english/static/semantic/examples/assets/library/jquery.min.js"></script>
+  <script src="/learn_english/static/semantic/dist/semantic.js"></script>
+
+  <script>
+  $(document)
+    .ready(function() {
+      $('.ui.selection.dropdown').dropdown();
+      $('.ui.menu .ui.dropdown').dropdown({
+        on: 'hover'
+      });
+    })
+  ;
+  </script>
+    <style type="text/css">
+        p {
+            white-space: pre-wrap;
+        }
+
+        h2 {
+            text-align: center;
+        }
+        h3 {
+            text-align: center;
+        }
+
+        .one_line input{
+            float:left;
+        }
+        .buttonHolder{
+            text-align: center;
+        }
+
+    </style>
+</head>
+   <body>
+    {% if come_from == '0' %}
+    <p> ☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘from vocabulary builder☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘</p>
+    {% endif %}
+
+    {% if come_from == '1' %}
+    <p> ⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱from clipboard ⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱</p>
+    {% endif %}
+
+    <h2>Motto for {{motto['type'].title()}}</h2>
+    <h3>{{motto['motto']}}&emsp;—{{motto['author']}}</h3>
+    <div class="ui divider"></div>
+    <div class="one_line">
+        <form class="ui form" action = "http://localhost:8080/learn_english/year_list" method = "post">
+            <div class="ui action">
+                <input class="ui compact orange tiny button" type="submit" name='' value="year list">
+            </div>
+        </form>
+        <form class="ui form" action = "http://localhost:8080/learn_english/week_list" method = "post">
+            <div class="ui action">
+                <input class="ui compact orange tiny button" type="submit" name={{ y }} value="week list">
+            </div>
+        </form>
+        <br>
+    </div>
+    <div class="ui divider"></div>
+
+    <h2>Vocabulary List of Current Page</h2>
+    <h3>
+    {% for word, meaning in result %}
+        {{word}}
+    {% endfor %}
+    </h3>
+    <div class="ui divider"></div>
+
+    <div class="one_line">
+        <form class="ui form" action = "http://localhost:8080/learn_english/quickly_review" method = "post">
+            <div class="ui action">
+                <input class="ui compact purple tiny button" type="submit" name= {{ come_from }}*{{ y }}*{{ w }}*{{ page_index }} value="quickly review">
+            </div>
+        </form>
+        <form class="ui form" action = "http://localhost:8080/learn_english/stop_quickly_review" method = "post">
+            <div class="ui action">
+                <input class="ui compact purple tiny button" type="submit" name= {{ come_from }}*{{ y }}*{{ w }}*{{ page_index }} value="stop">
+            </div>
+        </form>
+    </div>
+    <br>
+    <div class="ui divider"></div>
+
+    <div class="ui item">
+          Page Index:  <span class="ui label">{{ page_index }}</span>
+    </div>
+    <div class="ui divider"></div>
+
+    <div class="one_line">
+        {% for i in range(button_num) %}
+            <form class="ui form" action = "http://localhost:8080/learn_english/specified_page" method = "post">
+                <div class="ui action">
+                    <input class="ui compact green tiny button" type="submit" name= {{ come_from }}*{{ y }}*{{ w }}*{{ i }} value={{ y }}*{{ w }}*{{ i }}>
+                </div>
+            </form>
+        {% endfor %}
+    </div>
+    <br>
+    <div class="ui divider"></div>
+
+    {% for word, meaning in result %}
+    <br>
+    <div class="row">
+    <div class="column">
+        <div class="buttonHolder">
+            <form class="ui form" action = "http://localhost:8080/learn_english/delete" method = "post">
+                <div class="ui action">
+                    <p class="ui header"><span class="ui huge label">{{ word }}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="ui compact red mini button" type="submit" name= {{ come_from }}*{{ y }}*{{ w }}*{{ page_index }}*{{ word }} value="delete">
+                    </p>
+                </div>
+            </form>
+        </div>
+      <div class="ui two column grid">
+          <div class="column">
+              <div id='container' style='width:1290px;'>
+          <table class="ui table">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Verbose Info</th>
+              </tr>
+            </thead>
+            <tbody>
+                    {% if 'basic' in meaning%}
+                        <tr>
+                            <td>{{ 'basic' }}</td>
+                            <td><p>{{ meaning['basic'] }}</p></td>
+                        </tr>
+                    {% endif %}
+
+                    {% if 'book' in meaning%}
+                        <tr>
+                            <td>{{ 'book' }}</td>
+                            <td><p>{{ meaning['book'] }}</p></td>
+                        </tr>
+                    {% endif %}
+
+                    {% if 'date' in meaning%}
+                    <tr>
+                        <td>{{ 'date' }}</td>
+                        <td><p>{{ meaning['date'] }}</p></td>
+                    </tr>
+                    {% endif %}
+
+                    {% if 'usage' in meaning%}
+                        <tr>
+                            <td>{{ 'usage' }}</td>
+                            <td><p>{{ meaning['usage'] }}</p></td>
+                        </tr>
+                    {% endif %}
+
+                    {% if 'phrase' in meaning%}
+                        <tr>
+                            <td>{{ 'phrase' }}</td>
+                            <td><p>{{ meaning['phrase'] }}</p></td>
+                        </tr>
+                    {% endif %}
+
+                    {% if 'synonyms' in meaning%}
+                        <tr>
+                            <td>{{ 'synonyms' }}</td>
+                            <td><p>{{ meaning['synonyms'] }}</p></td>
+                        </tr>
+                    {% endif %}
+
+                    {% if 'rel_word_tab' in meaning%}
+                        <tr>
+                            <td>{{ 'rel_word_tab' }}</td>
+                            <td><p>{{ meaning['rel_word_tab'] }}</p></td>
+                        </tr>
+                    {% endif %}
+
+                    {% if 'discriminate' in meaning%}
+                        <tr>
+                            <td>{{ 'discriminate' }}</td>
+                            <td><p>{{ meaning['discriminate'] }}</p></td>
+                        </tr>
+                    {% endif %}
+
+                    {% if 'collins' in meaning%}
+                        <tr>
+                            <td>{{ 'collins' }}</td>
+                            <td><p>{{ meaning['collins'] }}</p></td>
+                        </tr>
+                    {% endif %}
+            </tbody>
+          </table>
+        </div>
+          </div>
+      </div>
+    </div>
+  </div>
+    {% endfor %}
+
+    <br>
+    <div class="one_line">
+        {% for i in range(button_num) %}
+            <form class="ui form" action = "http://localhost:8080/learn_english/specified_page" method = "post">
+                <div class="ui action">
+                    <input class="ui compact green tiny button" type="submit" name= {{ come_from }}*{{ y }}*{{ w }}*{{ i }} value={{ y }}*{{ w }}*{{ i }}>
+                </div>
+            </form>
+        {% endfor %}
+        <br><br>
+    </div>
+
+    <div class="ui divider"></div>
+    <div class="ui item">
+        Page Index:  <span class="ui label">{{ page_index }}</span>
+    </div>
+
+    <div class="ui divider"></div>
+    <div class="one_line">
+        <form class="ui form" action = "http://localhost:8080/learn_english/year_list" method = "post">
+            <div class="ui action">
+                <input class="ui compact orange tiny button" type="submit" name='' value="year list">
+            </div>
+        </form>
+        <form class="ui form" action = "http://localhost:8080/learn_english/week_list" method = "post">
+            <div class="ui action">
+                <input class="ui compact orange tiny button" type="submit" name={{ y }} value="week list">
+            </div>
+        </form>
+    </div>
+    <br>
+    <br>
+
+      {% if come_from == '0' %}
+      <p> ☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘from vocabulary builder☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘☘</p>
+      {% endif %}
+
+      {% if come_from == '1' %}
+      <p> ⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱from clipboard ⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱⛱</p>
+      {% endif %}
+
+   </body>
+</html>
