@@ -3191,3 +3191,15 @@ usage: for example, if you use an apostrophe within single quotes, you’ll prod
 date: 2017-05-08
 
 
+809. more
+usage: more pages
+date: 2017-06-13
+
+810. r
+usage: runtime.gomaxprocs(runtime.numcpu())
+date: 2017-06-19
+
+811. r
+usage: runtime.gomaxprocs(runtime.numcpu())
+date: 2017-06-19
+

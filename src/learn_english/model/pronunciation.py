@@ -15,8 +15,8 @@ import string
 # the interval seconds between British pronunciation and American pronunciation
 pronunciation_interval = 0.7
 
-basic_dict_file = os.path.join(os.getcwd(), 'learn_english/asset/pronunciation/basic.json')
-pronunciation_dir_pre = os.path.join(os.getcwd(), 'learn_english/asset/pronunciation')
+basic_dict_file = os.path.join(os.getcwd(), 'src/learn_english/asset/pronunciation/basic.json')
+pronunciation_dir_pre = os.path.join(os.getcwd(), 'src/learn_english/asset/pronunciation')
 basic_dict = dict()
 
 
