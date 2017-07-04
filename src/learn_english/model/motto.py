@@ -11,7 +11,7 @@ reload(sys)
 sys.setdefaultencoding('utf8')
 
 print(os.getcwd())
-motto_path = os.path.join(os.getcwd(), 'learn_english/asset/motto/motto.json')
+motto_path = os.path.join(os.getcwd(), 'src/learn_english/asset/motto/motto.json')
 motto_type = ('business', 'family', 'famous', 'funny', 'leadership',
               'life', 'love', 'movie', 'politic', 'religious', 'team')
 

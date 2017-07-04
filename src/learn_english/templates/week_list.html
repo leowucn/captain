@@ -36,7 +36,7 @@
     <div class="column">
       <h1 class="ui header">Vocabulary Builder</h1>
         <div class="one_line">
-          <form class="ui form" action = "http://localhost:8080/learn_english/words_list" method = "post">
+          <form class="ui form" action = "http://localhost:9527/learn_english/words_list" method = "post">
               {% for week in week_list_from_word_builder %}
                     <div class="ui action">
                         <input class="ui primary button" type="submit" name=0*{{ year }}*{{ week }} value={{ year }}*{{ week }}>
@@ -50,7 +50,7 @@
        <div class="ui divider"></div>
        <h1 class="ui header">Clipboard</h1>
         <div class="one_line">
-           <form class="ui form" action = "http://localhost:8080/learn_english/words_list" method = "post">
+           <form class="ui form" action = "http://localhost:9527/learn_english/words_list" method = "post">
                {% for week in week_list_from_clipboard %}
                     <div class="ui action">
                         <input class="ui primary button" type="submit" name=1*{{ year }}*{{ week }} value={{ year }}*{{ week }}>
