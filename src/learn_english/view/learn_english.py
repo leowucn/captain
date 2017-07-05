@@ -18,12 +18,7 @@ stop = False    # stop quickly review
 learn_english_app = Blueprint("learn_english", __name__, static_folder='../static', template_folder='../templates')
 
 
-@learn_english_app.route('/')
-def homepage():
-    return render_template('homepage.html')
-
-
-@learn_english_app.route('/year_list', methods=['GET', 'POST'])
+@learn_english_app.route('/', methods=['GET', 'POST'])
 def show_year_list():
     tackle = tackle_word.TackleWords()
     res = tackle.get_classified_lst()
