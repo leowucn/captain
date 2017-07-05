@@ -25,7 +25,7 @@
   }, 
   "assault-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 10
+    "line_index": 16
   }, 
   "frog-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -49,7 +49,7 @@
   }, 
   "sanity-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 37
+    "line_index": 45
   }, 
   "quail-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -57,7 +57,7 @@
   }, 
   "scalability-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 77
+    "line_index": 890
   }, 
   "budge-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -65,7 +65,7 @@
   }, 
   "more-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 91
+    "line_index": 102
   }, 
   "rib-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -77,7 +77,7 @@
   }, 
   "sewing-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 100
+    "line_index": 111
   }, 
   "reckon-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -95,6 +95,10 @@
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
     "line_index": 172
   }, 
+  "tug-0": {
+    "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
+    "line_index": 906
+  }, 
   "scruff-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
     "line_index": 182
@@ -109,7 +113,7 @@
   }, 
   "pound-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 192
+    "line_index": 209
   }, 
   "inky-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -125,19 +129,19 @@
   }, 
   "debt-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 173
+    "line_index": 942
   }, 
   "fridges-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 235
+    "line_index": 251
   }, 
   "splutter-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 241
+    "line_index": 336
   }, 
   "marginally-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 249
+    "line_index": 266
   }, 
   "berserk-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -177,7 +181,7 @@
   }, 
   "confiscate-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 386
+    "line_index": 402
   }, 
   "scandal-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -185,7 +189,7 @@
   }, 
   "jot-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 404
+    "line_index": 420
   }, 
   "twinkle-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -197,7 +201,7 @@
   }, 
   "horrify-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 454
+    "line_index": 470
   }, 
   "blimey-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -229,7 +233,7 @@
   }, 
   "impose-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 525
+    "line_index": 550
   }, 
   "jelly-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -305,7 +309,7 @@
   }, 
   "fang-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 1000
+    "line_index": 1024
   }, 
   "wound-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -313,11 +317,11 @@
   }, 
   "retail-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 595
+    "line_index": 620
   }, 
   "migrate-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 604
+    "line_index": 629
   }, 
   "tuck-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -325,7 +329,7 @@
   }, 
   "render-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 613
+    "line_index": 638
   }, 
   "faint-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -353,7 +357,7 @@
   }, 
   "workshop-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 116
+    "line_index": 127
   }, 
   "knitting-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -369,11 +373,11 @@
   }, 
   "callee-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 745
+    "line_index": 770
   }, 
   "abysmal-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 133
+    "line_index": 144
   }, 
   "bald-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -385,11 +389,11 @@
   }, 
   "little-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 874
+    "line_index": 896
   }, 
   "jail-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 623
+    "line_index": 648
   }, 
   "investigated-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -401,7 +405,7 @@
   }, 
   "rocker-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 515
+    "line_index": 540
   }, 
   "badger-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -413,7 +417,7 @@
   }, 
   "bypass-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 826
+    "line_index": 851
   }, 
   "noble-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -429,19 +433,19 @@
   }, 
   "couches-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 859
+    "line_index": 884
   }, 
   "fruitcake-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
     "line_index": 764
   }, 
-  "tug-0": {
+  "enduring-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 884
+    "line_index": 153
   }, 
   "din-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 895
+    "line_index": 917
   }, 
   "suspension-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -461,7 +465,7 @@
   }, 
   "banner-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 980
+    "line_index": 1004
   }, 
   "scuttle-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -477,7 +481,7 @@
   }, 
   "dreamy-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 568
+    "line_index": 593
   }, 
   "heartstrings-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -485,7 +489,7 @@
   }, 
   "companies-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 957
+    "line_index": 981
   }, 
   "discriminate-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -497,7 +501,7 @@
   }, 
   "alas-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 972
+    "line_index": 996
   }, 
   "balloon-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -557,7 +561,7 @@
   }, 
   "expounds-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 1122
+    "line_index": 1144
   }, 
   "strategic-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -565,7 +569,7 @@
   }, 
   "narrow-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 1128
+    "line_index": 1150
   }, 
   "ignorant-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -589,7 +593,7 @@
   }, 
   "drastically-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 1170
+    "line_index": 1192
   }, 
   "whisper-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -617,7 +621,7 @@
   }, 
   "slippery-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 444
+    "line_index": 460
   }, 
   "teacup-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -653,7 +657,7 @@
   }, 
   "hanging-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 1074
+    "line_index": 1096
   }, 
   "intact-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -669,11 +673,11 @@
   }, 
   "porn-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 62
+    "line_index": 70
   }, 
   "bathrobe-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 69
+    "line_index": 77
   }, 
   "cobbled-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -681,7 +685,7 @@
   }, 
   "apostrophe-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 83
+    "line_index": 94
   }, 
   "moan-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -693,11 +697,11 @@
   }, 
   "nails-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 142
+    "line_index": 161
   }, 
   "porch-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 150
+    "line_index": 169
   }, 
   "screw-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -705,7 +709,7 @@
   }, 
   "drool-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 157
+    "line_index": 176
   }, 
   "orange-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -725,7 +729,7 @@
   }, 
   "chuck-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 183
+    "line_index": 200
   }, 
   "foghorn-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -761,7 +765,7 @@
   }, 
   "ripples-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 301
+    "line_index": 318
   }, 
   "huddle-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -785,7 +789,7 @@
   }, 
   "alleviate-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 328
+    "line_index": 344
   }, 
   "optical-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -801,7 +805,7 @@
   }, 
   "extent-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 377
+    "line_index": 393
   }, 
   "tangle-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -809,7 +813,7 @@
   }, 
   "applause-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 1103
+    "line_index": 1125
   }, 
   "spear-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -833,11 +837,11 @@
   }, 
   "gallop-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 274
+    "line_index": 291
   }, 
   "f-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 478
+    "line_index": 494
   }, 
   "dictate-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -845,7 +849,7 @@
   }, 
   "serpent-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 284
+    "line_index": 501
   }, 
   "crackpot-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -853,7 +857,7 @@
   }, 
   "d-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 267
+    "line_index": 284
   }, 
   "goodness-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -885,11 +889,11 @@
   }, 
   "linen-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 712
+    "line_index": 737
   }, 
   "dentistry-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 551
+    "line_index": 576
   }, 
   "flat-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -913,7 +917,7 @@
   }, 
   "wardrobe-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 577
+    "line_index": 602
   }, 
   "cereal-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -925,7 +929,7 @@
   }, 
   "blast-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 1137
+    "line_index": 1159
   }, 
   "slither-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -981,7 +985,7 @@
   }, 
   "ludicrously-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 680
+    "line_index": 705
   }, 
   "household-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -989,7 +993,7 @@
   }, 
   "jargon-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 687
+    "line_index": 712
   }, 
   "sequentially-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -1029,7 +1033,7 @@
   }, 
   "vague-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 395
+    "line_index": 411
   }, 
   "toad-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -1041,7 +1045,7 @@
   }, 
   "scarlet-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 759
+    "line_index": 784
   }, 
   "fling-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -1053,7 +1057,7 @@
   }, 
   "return-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 783
+    "line_index": 808
   }, 
   "whip-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -1077,23 +1081,23 @@
   }, 
   "petrified-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 816
+    "line_index": 841
   }, 
   "siloed-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 768
+    "line_index": 793
   }, 
   "agony-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 346
+    "line_index": 362
   }, 
   "wizened-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 1146
+    "line_index": 1168
   }, 
   "animations-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 844
+    "line_index": 869
   }, 
   "delicate-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -1109,7 +1113,7 @@
   }, 
   "sunburn-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 850
+    "line_index": 875
   }, 
   "lend-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -1149,7 +1153,7 @@
   }, 
   "deviate-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 933
+    "line_index": 957
   }, 
   "tyke-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -1197,11 +1201,11 @@
   }, 
   "term-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 1054
+    "line_index": 1078
   }, 
   "deck-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 1026
+    "line_index": 1050
   }, 
   "slight-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -1229,7 +1233,7 @@
   }, 
   "hygienic-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 1112
+    "line_index": 439
   }, 
   "mantelpiece-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -1273,7 +1277,7 @@
   }, 
   "dedicate-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 1206
+    "line_index": 1228
   }, 
   "shrill-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -1313,7 +1317,7 @@
   }, 
   "sniffy-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 2
+    "line_index": 8
   }, 
   "wrinkled-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -1397,7 +1401,7 @@
   }, 
   "sidle-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 905
+    "line_index": 927
   }, 
   "touched-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -1417,7 +1421,7 @@
   }, 
   "analysis-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 722
+    "line_index": 747
   }, 
   "wail-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -1449,7 +1453,7 @@
   }, 
   "experiment-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 257
+    "line_index": 274
   }, 
   "quiz-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -1457,7 +1461,7 @@
   }, 
   "intercept-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 28
+    "line_index": 36
   }, 
   "sensible-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -1493,7 +1497,7 @@
   }, 
   "histograms-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 46
+    "line_index": 54
   }, 
   "thunder-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -1509,7 +1513,7 @@
   }, 
   "nerve-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 366
+    "line_index": 382
   }, 
   "drift-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -1525,11 +1529,11 @@
   }, 
   "erupt-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 52
+    "line_index": 60
   }, 
   "bellow-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 414
+    "line_index": 430
   }, 
   "dash-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -1573,7 +1577,7 @@
   }, 
   "manner-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 504
+    "line_index": 529
   }, 
   "stole-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -1585,7 +1589,7 @@
   }, 
   "tapestry-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 774
+    "line_index": 799
   }, 
   "coordinating-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -1593,7 +1597,7 @@
   }, 
   "consecutive-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 535
+    "line_index": 560
   }, 
   "dodge-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -1645,7 +1649,7 @@
   }, 
   "institution-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 585
+    "line_index": 610
   }, 
   "sob-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -1677,7 +1681,7 @@
   }, 
   "extract-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 654
+    "line_index": 679
   }, 
   "crinkle-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -1709,11 +1713,11 @@
   }, 
   "alternate-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 694
+    "line_index": 719
   }, 
   "nudge-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 703
+    "line_index": 728
   }, 
   "hanger-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -1741,11 +1745,11 @@
   }, 
   "sexually-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 731
+    "line_index": 756
   }, 
   "pokey-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 738
+    "line_index": 763
   }, 
   "coast-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -1765,7 +1769,7 @@
   }, 
   "steamroller-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 793
+    "line_index": 818
   }, 
   "snap-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -1781,7 +1785,7 @@
   }, 
   "hatred-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 1196
+    "line_index": 1218
   }, 
   "legend-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -1805,7 +1809,7 @@
   }, 
   "waffle-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 865
+    "line_index": 85
   }, 
   "pedagogic-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -1821,7 +1825,7 @@
   }, 
   "fudge-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 221
+    "line_index": 934
   }, 
   "trunk-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -1849,7 +1853,7 @@
   }, 
   "typos-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 928
+    "line_index": 952
   }, 
   "swamping-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -1865,7 +1869,7 @@
   }, 
   "r-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 965
+    "line_index": 989
   }, 
   "silvery-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -1893,7 +1897,7 @@
   }, 
   "doorknob-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 1009
+    "line_index": 1033
   }, 
   "wrestle-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -1933,7 +1937,7 @@
   }, 
   "periodically-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 912
+    "line_index": 238
   }, 
   "simultaneously-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -1945,11 +1949,15 @@
   }, 
   "glossed-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 1084
+    "line_index": 1106
   }, 
   "redundant-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 1095
+    "line_index": 1117
+  }, 
+  "pervades-1": {
+    "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
+    "line_index": 2
   }, 
   "rap-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -1969,7 +1977,7 @@
   }, 
   "religious-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 202
+    "line_index": 219
   }, 
   "slam-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -2001,7 +2009,7 @@
   }, 
   "deluge-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 1154
+    "line_index": 1176
   }, 
   "liquid-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -2009,11 +2017,11 @@
   }, 
   "overdose-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 1162
+    "line_index": 1184
   }, 
   "remorse-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 1177
+    "line_index": 1199
   }, 
   "revolting-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -2021,7 +2029,7 @@
   }, 
   "yellow-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 1186
+    "line_index": 1208
   }, 
   "rattle-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -2051,9 +2059,9 @@
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
     "line_index": 3909
   }, 
-  "very-0": {
+  "moustache-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 1064
+    "line_index": 1088
   }, 
   "shriek-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -2077,7 +2085,7 @@
   }, 
   "oblivious-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 470
+    "line_index": 486
   }, 
   "fellow-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -2085,19 +2093,19 @@
   }, 
   "crunch-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 357
+    "line_index": 373
   }, 
   "compliant-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 109
+    "line_index": 120
   }, 
   "hoarse-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 211
+    "line_index": 228
   }, 
   "puberty-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 124
+    "line_index": 135
   }, 
   "glove-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -2113,7 +2121,7 @@
   }, 
   "extraneous-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 165
+    "line_index": 184
   }, 
   "alien-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -2122,6 +2130,10 @@
   "tabby-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
     "line_index": 3832
+  }, 
+  "deprecate-1": {
+    "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
+    "line_index": 192
   }, 
   "beady-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -2153,7 +2165,7 @@
   }, 
   "detest-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 664
+    "line_index": 689
   }, 
   "issues-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -2213,7 +2225,7 @@
   }, 
   "radish-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 292
+    "line_index": 309
   }, 
   "howl-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -2221,7 +2233,7 @@
   }, 
   "fleet-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 308
+    "line_index": 325
   }, 
   "wild-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -2249,7 +2261,7 @@
   }, 
   "deafening-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 337
+    "line_index": 353
   }, 
   "Scotch-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -2277,7 +2289,7 @@
   }, 
   "rope-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 433
+    "line_index": 449
   }, 
   "bob-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -2289,7 +2301,7 @@
   }, 
   "reclaim-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 461
+    "line_index": 477
   }, 
   "lizard-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -2309,7 +2321,7 @@
   }, 
   "tame-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 485
+    "line_index": 301
   }, 
   "imperative-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -2329,11 +2341,11 @@
   }, 
   "surprise-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 493
+    "line_index": 518
   }, 
   "pagination-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 809
+    "line_index": 834
   }, 
   "bushy-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -2349,7 +2361,7 @@
   }, 
   "depicts-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 545
+    "line_index": 570
   }, 
   "amuse-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -2365,11 +2377,11 @@
   }, 
   "amazement-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 319
+    "line_index": 257
   }, 
   "mandatory-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 559
+    "line_index": 584
   }, 
   "knot-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -2417,11 +2429,11 @@
   }, 
   "windowsill-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 640
+    "line_index": 665
   }, 
   "bidirectional-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 648
+    "line_index": 673
   }, 
   "measured-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -2457,7 +2469,7 @@
   }, 
   "tolerant-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 750
+    "line_index": 775
   }, 
   "smile-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -2485,7 +2497,7 @@
   }, 
   "git-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 673
+    "line_index": 698
   }, 
   "jerk-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -2493,11 +2505,11 @@
   }, 
   "rowboat-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 229
+    "line_index": 245
   }, 
   "confront-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 834
+    "line_index": 859
   }, 
   "Topology-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -2521,7 +2533,7 @@
   }, 
   "transit-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 919
+    "line_index": 509
   }, 
   "surely-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -2533,11 +2545,11 @@
   }, 
   "animation-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 942
+    "line_index": 966
   }, 
   "motorist-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 951
+    "line_index": 975
   }, 
   "lay-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -2569,7 +2581,7 @@
   }, 
   "saliva-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 800
+    "line_index": 825
   }, 
   "bowl-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -2589,7 +2601,7 @@
   }, 
   "sail-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 990
+    "line_index": 1014
   }, 
   "mustache-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -2605,7 +2617,7 @@
   }, 
   "monstrous-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 1017
+    "line_index": 1041
   }, 
   "grin-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -2625,7 +2637,7 @@
   }, 
   "dream-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 1036
+    "line_index": 1060
   }, 
   "dignity-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -2641,11 +2653,11 @@
   }, 
   "sickening-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 1045
+    "line_index": 1069
   }, 
-  "moustache-0": {
+  "very-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 20
+    "line_index": 26
   }, 
   "sideways-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -2669,7 +2681,7 @@
   }, 
   "counterintuitive-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 1090
+    "line_index": 1112
   }, 
   "analogy-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -2677,7 +2689,7 @@
   }, 
   "hush-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 423
+    "line_index": 1134
   }, 
   "sight-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 
@@ -2717,7 +2729,7 @@
   }, 
   "abruptly-1": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/2.json", 
-    "line_index": 633
+    "line_index": 658
   }, 
   "rip-0": {
     "file_name": "/Users/leo/work/captain/src/learn_english/asset/dict/1.json", 

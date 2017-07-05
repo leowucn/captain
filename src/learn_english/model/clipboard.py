@@ -9,6 +9,7 @@ import utility
 import multiprocessing
 import re
 import extract
+import original_form
 
 interval = 2.5    # interval seconds for scanning clipboard
 times = 3   # the times of repeating word pronunciation
@@ -17,6 +18,7 @@ timeout = 10     # wait no more than four seconds for show pronunciation.
 
 
 tackle = tackle_word.TackleWords()
+en_verbs_dic = original_form.generate_dic()
 
 
 def watcher():
@@ -36,9 +38,12 @@ def watcher():
                 if len(alpha_lst) - len(word) > 5:
                     # in this case, result should be a usage containing the
                     # corresponding result which was supposed to be a word or phrase.
+                    ori_form = word
+                    if word in en_verbs_dic:
+                        ori_form = en_verbs_dic[word]
                     sentences = extract.extract(word, result)
                     for sentence in sentences:
-                        tackle.query(word + '-1', sentence, strftime("%Y-%m-%d", gmtime()))
+                        tackle.query(ori_form + '-1', sentence, strftime("%Y-%m-%d", gmtime()))
                 os.system("echo '' | pbcopy")
             if word != '':
                 if i >= times:

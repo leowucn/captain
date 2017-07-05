@@ -3210,3 +3210,19 @@ date: 2017-07-05
 usage: how can space be a physical thing that ripples and bends, and what does that mean?
 date: 2017-07-05
 
+814. enduring
+usage: Our aim is to explain the enduring concepts underlying all computer systems,
+date: 2017-07-05
+
+815. pervades
+usage: This theme pervades the entire book.
+date: 2017-07-05
+
+816. deprecate
+usage: once it's deprecated, don't use it anymore.
+date: 2017-07-05
+
+817. deprecate
+usage: deprecated applies to all new code.
+date: 2017-07-05
+
