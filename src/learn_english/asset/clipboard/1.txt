@@ -3190,7 +3190,6 @@ date: 2017-05-08
 usage: for example, if you use an apostrophe within single quotes, you’ll produce an error.
 date: 2017-05-08
 
-
 809. more
 usage: more pages
 date: 2017-06-13
@@ -3202,4 +3201,12 @@ date: 2017-06-19
 811. r
 usage: runtime.gomaxprocs(runtime.numcpu())
 date: 2017-06-19
+
+812. counterintuitive
+usage: that is a pretty weird and counterintuitive way of thinking about space, especially given that we have never experienced the concept of non-space.
+date: 2017-07-05
+
+813. ripples
+usage: how can space be a physical thing that ripples and bends, and what does that mean?
+date: 2017-07-05
 

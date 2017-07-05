@@ -8,6 +8,7 @@ import os
 import utility
 import multiprocessing
 import re
+import extract
 
 interval = 2.5    # interval seconds for scanning clipboard
 times = 3   # the times of repeating word pronunciation
@@ -15,12 +16,15 @@ max_length = 600    # the maximum length of word usage.
 timeout = 10     # wait no more than four seconds for show pronunciation.
 
 
+tackle = tackle_word.TackleWords()
+
+
 def watcher():
     try:
         word = ''
         i = 0
         while True:
-            result = pyperclip.paste().strip().lower()
+            result = pyperclip.paste().strip()
             if len(result) >= max_length:
                 continue
             if result.isalpha() and len(result) >= 1 and word != result:
@@ -32,8 +36,9 @@ def watcher():
                 if len(alpha_lst) - len(word) > 5:
                     # in this case, result should be a usage containing the
                     # corresponding result which was supposed to be a word or phrase.
-                    tackle = tackle_word.TackleWords()
-                    tackle.query(word + '-1', result, strftime("%Y-%m-%d", gmtime()))
+                    sentences = extract.extract(word, result)
+                    for sentence in sentences:
+                        tackle.query(word + '-1', sentence, strftime("%Y-%m-%d", gmtime()))
                 os.system("echo '' | pbcopy")
             if word != '':
                 if i >= times:
@@ -69,7 +74,15 @@ def watcher():
 
 # whether the src is valid string, the code or the Chinese should be exclusive.
 def is_valid_string(src):
-    invalid_characters = {'[': True, ']': True, '@': True, '#': True, '^': True, '&': True, '&&': True, '||': True, '*': True, "==": True, "===": True, '\\': True, '/': True, '`': True, '=': True}
+    invalid_characters = {'[': True, ']': True,
+                          '@': True, '#': True,
+                          '^': True, '&': True,
+                          '&&': True, '||': True,
+                          '*': True, "==": True,
+                          "===": True, '\\': True,
+                          '/': True, '`': True,
+                          '=': True
+                          }
     for ch in src:
         if ch in invalid_characters:
             return False
