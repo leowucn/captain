@@ -4,6 +4,9 @@ import re
 
 
 def extract(word, paragraph):
+    # If the paragraph which contains word is not too long, then return it.
+    if len(paragraph) <= 160:
+        return [paragraph]
     sentences = []
     indices = [m.start() for m in re.finditer(word, paragraph)]
     for index in indices:
