@@ -24,6 +24,7 @@ word_type = ('n.', 'v.', 'pron.', 'adj.', 'adv.', 'num.', 'art.', 'prep.', 'conj
 '''
 all types might reside in querying result.
 'basic'           ------>基本释义
+'eng_basic'       ------>从vocabulary.com提取的基本释义
 'usage'           ------>出现的语句
 'phrase'          ------>词组短语
 'synonyms'        ------>同近义词
@@ -54,7 +55,9 @@ class TackleWords:
         post_fix = '%20'.join(word_list)
 
         url = 'http://www.youdao.com/w/eng/' + post_fix
-        res = requests.get(url)
+        s = requests.session()
+        s.keep_alive = False
+        res = s.get(url)
         soup = bs4.BeautifulSoup(res.content, 'lxml')
         word_meaning_dict = dict()
 
@@ -80,9 +83,6 @@ class TackleWords:
             phrase = result.find('div', id='wordGroup')
             if phrase is not None:
                 phrase_str = ''
-                # for i, s in enumerate(phrase.stripped_strings):
-                # 	print('------------')
-                # 	print(s)
                 for i, s in enumerate(phrase.stripped_strings):
                     r = s.replace('\n', '')
 
@@ -193,8 +193,17 @@ class TackleWords:
             if len(collins_str.strip()) > 1:
                 word_meaning_dict['collins'] = collins_str.encode('utf-8')
 
-        # # ---------------------date---------------------
-        # word_meaning_dict['date'] = strftime("%Y-%m-%d", gmtime())
+        # -------------------从vocabulary.com提取的基本释义-----------------
+        url = 'https://www.vocabulary.com/dictionary/' + valid_string
+        s = requests.session()
+        s.keep_alive = False
+        res = s.get(url)
+        soup = bs4.BeautifulSoup(res.content, 'lxml')
+        basic1 = soup.find('div', attrs={'class': 'section blurb'})
+        basic1_str = ''
+        if basic1 is not None:
+            basic1_str += ' '.join(list(basic1.stripped_strings))
+            word_meaning_dict['eng_basic'] = basic1_str.encode('utf-8')
 
         result = dict()
         result[raw_string] = word_meaning_dict
@@ -374,6 +383,9 @@ class TackleWords:
         if from_where != '0' and from_where != '1':
             return
 
+        # p(from_where)
+        # p(delete_word)
+        # p('\n')
         wrapped_word = delete_word + '-' + from_where
         # ----------------delete from dict----------------------
         try:
@@ -458,6 +470,11 @@ class TackleWords:
                         with open(file_path, "w") as f:
                             for line in valid_lines_lst:
                                 f.write(line)
+
+        if self.get_file_line_count(words_index_file):
+            with open(words_index_file, 'r') as fp:
+                self.index_dict = {}
+                self.index_dict = json.load(fp)
         return
 
     def update(self, data):
@@ -644,7 +661,6 @@ class TackleWords:
                                 tmp[t] = meaning.decode('unicode-escape').encode('utf-8')
                             else:
                                 tmp[t] = str(meaning).encode('utf-8')
-                            #print(repr(m3))   #print unicode of string
                         from_word_builder_dict[year][week][word[:-2]] = tmp
                     else:
                         res = self.get_year_and_week_by_date(verbose_info[u'date'])
@@ -664,7 +680,6 @@ class TackleWords:
                                 tmp[t] = meaning.decode('unicode-escape').encode('utf-8')
                             else:
                                 tmp[t] = str(meaning).encode('utf-8')
-                            # print(repr(m3))   #print unicode of string
                         from_clipboard_dict[year][week][word[:-2]] = tmp
 
         result.append(from_word_builder_dict)
@@ -700,5 +715,6 @@ if __name__ == "__main__":
     # tackle_words.delete('1', 'expression')
     # tackle_words.update_index_dict()
     # tackle_words.import_clipboard_words()
-    # tackle_words.get_classified_dict()
+    # result = tackle_words.get_classified_lst()
+    # p(result)
 

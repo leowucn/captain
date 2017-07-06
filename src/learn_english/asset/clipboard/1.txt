@@ -3194,18 +3194,6 @@ date: 2017-05-08
 usage: more pages
 date: 2017-06-13
 
-810. r
-usage: runtime.gomaxprocs(runtime.numcpu())
-date: 2017-06-19
-
-811. r
-usage: runtime.gomaxprocs(runtime.numcpu())
-date: 2017-06-19
-
-812. counterintuitive
-usage: that is a pretty weird and counterintuitive way of thinking about space, especially given that we have never experienced the concept of non-space.
-date: 2017-07-05
-
 813. ripples
 usage: how can space be a physical thing that ripples and bends, and what does that mean?
 date: 2017-07-05
@@ -3214,15 +3202,707 @@ date: 2017-07-05
 usage: Our aim is to explain the enduring concepts underlying all computer systems,
 date: 2017-07-05
 
-815. pervades
-usage: This theme pervades the entire book.
-date: 2017-07-05
+815. fractal
+usage: Two weeks before I could draw a fractal on the screen in C (with an assembly BIOS call for each pixel). Another two weeks to do the same thing in assembly.
+date: 2017-07-06
 
-816. deprecate
-usage: once it's deprecated, don't use it anymore.
-date: 2017-07-05
+816. suspicious
+usage: I was deeply suspicious of function calls and so stuck everything into main().
+date: 2017-07-06
 
-817. deprecate
-usage: deprecated applies to all new code.
-date: 2017-07-05
+817. grocery
+usage: We were walking through a grocery store and we hear another mother one aisle over is continually squawking and nagging her kid loudly.
+date: 2017-07-06
+
+818. breathtaking
+usage: This breathtaking image gives me the feeling of floating in a deep sea - exciting and scary at the same time. The unknown, the new, not knowing what is coming next.
+date: 2017-07-06
+
+819. retain
+usage: Will I be able to finally retain how to do conversions? When? Someone please help me. I will forever be indebted to you.
+date: 2017-07-06
+
+820. indebted
+usage: Will I be able to finally retain how to do conversions? When? Someone please help me. I will forever be indebted to you.
+date: 2017-07-06
+
+821. gorgeous
+usage: I often go through the many categories of gorgeous images and surrender myself to wonder - even awe.
+date: 2017-07-06
+
+822. ignorant
+usage: Who was the most ignorant person you have ever met in America?
+date: 2017-07-06
+
+823. farewell
+usage: U.S. President Barack Obama wrapped up his eight-year presidency by looking back on his legacy and looking forward to the future of America in his farewell address in Chicago.
+date: 2017-07-06
+
+824. Inauguration
+usage: Scenes From Donald Trump's Inauguration
+date: 2017-07-06
+
+825. fellow
+usage: It’s good to be home.  My fellow Americans
+date: 2017-07-06
+
+826. touched
+usage: My fellow Americans, Michelle and I have been so touched by all the well-wishes we’ve received over the past few weeks.
+date: 2017-07-06
+
+827. outposts
+usage: Whether we’ve seen eye-to-eye or rarely agreed at all, my conversations with you, the American people – in living rooms and schools; at farms and on factory floors; at diners and on distant outposts – are what have kept me honest, kept me inspired, and kept me going.
+date: 2017-07-06
+
+828. dignity
+usage: It was on these streets where I witnessed the power of faith, and the quiet dignity of working people in the face of struggle and loss.
+date: 2017-07-06
+
+829. conviction
+usage: It’s the conviction that we are all created equal, endowed by our Creator with certain unalienable rights, among them life, liberty, and the pursuit of happiness.
+date: 2017-07-06
+
+830. endowed
+usage: It’s the conviction that we are all created equal, endowed by our Creator with certain unalienable rights, among them life, liberty, and the pursuit of happiness.
+date: 2017-07-06
+
+831. liberty
+usage: It’s the conviction that we are all created equal, endowed by our Creator with certain unalienable rights, among them life, liberty, and the pursuit of happiness.
+date: 2017-07-06
+
+832. sweat
+usage: The freedom to chase our individual dreams through our sweat, toil, and imagination – and the imperative to strive together as well, to achieve a greater good.
+date: 2017-07-06
+
+833. toil
+usage: The freedom to chase our individual dreams through our sweat, toil, and imagination – and the imperative to strive together as well, to achieve a greater good.
+date: 2017-07-06
+
+834. imperative
+usage: The freedom to chase our individual dreams through our sweat, toil, and imagination – and the imperative to strive together as well, to achieve a greater good.
+date: 2017-07-06
+
+835. strive
+usage: The freedom to chase our individual dreams through our sweat, toil, and imagination – and the imperative to strive together as well, to achieve a greater good.
+date: 2017-07-06
+
+836. purpose
+usage: For 240 years, our nation’s call to citizenship has given work and purpose to each new generation.
+date: 2017-07-06
+
+837. mechanisms
+usage: A short but deep dive into the core mechanisms of Go and how it makes use of it to bring clarity and performances to developers.
+date: 2017-07-06
+
+838. lift
+usage: The Go language uses advanced programming techniques from the low-level world to lift that weight from the developer’s shoulders.
+date: 2017-07-06
+
+839. defied
+usage: Fired: Trump dumps top lawyer who defied immigration order
+date: 2017-07-06
+
+840. immigration
+usage: Fired: Trump dumps top lawyer who defied immigration order
+date: 2017-07-06
+
+841. federal
+usage: U.S. President Donald Trump fired top federal government lawyer Sally Yates on Monday after she took the extraordinarily rare step of defying the White House and refused to defend new travel restrictions targeting seven Muslim-majority nations.
+date: 2017-07-06
+
+842. Muslim
+usage: U.S. President Donald Trump fired top federal government lawyer Sally Yates on Monday after she took the extraordinarily rare step of defying the White House and refused to defend new travel restrictions targeting seven Muslim-majority nations.
+date: 2017-07-06
+
+843. strategic
+usage: Three years ago we at JetBrains made a strategic decision to contribute to go-lang-idea-plugin, the open-source initiative aimed at building an IntellIJ plugin for Go.
+date: 2017-07-06
+
+844. initiative
+usage: Three years ago we at JetBrains made a strategic decision to contribute to go-lang-idea-plugin, the open-source initiative aimed at building an IntellIJ plugin for Go.
+date: 2017-07-06
+
+845. Orchestral
+usage: We Don't Talk Anymore - Piano Orchestral 60 Minutes Version (With Relaxing Nature Sounds)
+date: 2017-07-06
+
+846. duplicate
+usage: If you've found a bug, which is not a duplicate, report it.
+date: 2017-07-06
+
+847. refactor
+usage: Best Plugin available for Go. Full support for refactoring now.
+date: 2017-07-06
+
+848. unresponsive
+usage: If a program is unresponsive, while other memory-hungry programs aren't, the program is likely a CPU hog.
+date: 2017-07-06
+
+849. refresher
+usage: Because reflection builds on the type system, let's start with a refresher about types in Go.
+date: 2017-07-06
+
+850. Postpone
+usage: Postpone code for later execution in python
+date: 2017-07-06
+
+851. spawning
+usage: multiprocessing is a package that supports spawning processes using an API similar to the threading module.
+date: 2017-07-06
+
+852. moderators
+usage: If you asked the first question instead of the second, of course the moderators of Quora wouldn’t have deleted it.
+date: 2017-07-06
+
+853. Premium
+usage: Experience the Full Power of Grammarly
+date: 2017-07-06
+
+854. tone
+usage: I like the tone in blogs where the author doesn’t know something, then works through it in the blog until both they and the reader knows it.
+date: 2017-07-06
+
+855. punches
+usage: In this case I know something, and I’ve realised not everyone does, particularly if they’ve come to Go from Python or Ruby, where this kind of stuff barely matters, rather than from C, where it constantly punches you in the face.
+date: 2017-07-06
+
+856. dull
+usage: Hopefully I’ll succeed, otherwise reading this will be very dull and confusing.
+date: 2017-07-06
+
+857. misleading
+usage: Some people say that Go's interfaces are dynamically typed, but that is misleading.
+date: 2017-07-06
+
+858. recovers
+usage: The reflect.ValueOf function, of course, recovers the value (from here on we'll elide the boilerplate and focus just on the executable code):
+date: 2017-07-06
+
+859. elide
+usage: from here on we'll elide the boilerplate and focus just on the executable code
+date: 2017-07-06
+
+860. boilerplate
+usage: from here on we'll elide the boilerplate and focus just on the executable code
+date: 2017-07-06
+
+861. discriminate
+usage: In other words, the Kind cannot discriminate an int from a MyInt even though the Type can.
+date: 2017-07-06
+
+862. quantitative
+usage: The differences between threads and goroutines are essentially quantitative, not qualitative, and will be described in Section 9.8.
+date: 2017-07-06
+
+863. conduit
+usage: Each channel is a conduit for values of a particular type, called the channel’s element type.
+date: 2017-07-06
+
+864. Stylistically
+usage: Stylistically, Go programmers use ‘‘camel case’’ when forming names by combining words; that is, interior capital letters are preferred over interior underscores.
+date: 2017-07-06
+
+865. passive
+usage: This is normally done by calling socket, bind, and listen and is called a passive open.
+date: 2017-07-06
+
+866. analogy
+usage: An everyday analogy for establishing a TCP connection is the telephone system
+date: 2017-07-06
+
+867. negotiated
+usage: Since it is a newer option, it is negotiated similarly to the window scale option.
+date: 2017-07-06
+
+868. receipt
+usage: The receipt of the FIN is also passed to the application as an end-of-file
+date: 2017-07-06
+
+869. dictate
+usage: There are 11 different states defined for a connection and the rules of TCP dictate the transitions from one state to another, based on the current state and the segment received in that state.
+date: 2017-07-06
+
+870. bounded
+usage: We know this time is bounded because every datagram contains an 8-bit hop limit (the IPv4 TTL field in Figure A.1 and the IPv6 hop limit field in Figure A.2) with a maximum value of 255
+date: 2017-07-06
+
+871. stabilize
+usage: A router crashes or a link between two routers goes down and it takes the routing protocols seconds or minutes to stabilize and find an alternate path.
+date: 2017-07-06
+
+872. incarnation
+usage: This latter connection is called an incarnation of the previous connection since the IP addresses and ports are the same.
+date: 2017-07-06
+
+873. enforcing
+usage: By enforcing this rule, we are guaranteed that when we successfully establish a TCP connection, all old duplicates from previous incarnations of the connection have expired in the network.
+date: 2017-07-06
+
+874. issues
+usage: The client issues an active open by calling connect.
+date: 2017-07-06
+
+875. dissect
+usage: Let us dissect the process of TCP three-way handshake, using a real world example.
+date: 2017-07-06
+
+876. Topology
+usage: Topology and IP addresses for TCP Three-way handshake study are shown below.
+date: 2017-07-06
+
+877. numbering
+usage: Sequence number: 32 Bit number used for byte level numbering of TCP segments.
+date: 2017-07-06
+
+878. govern
+usage: Control Bits govern the entire process of connection establishment, data transmissions and connection termination.
+date: 2017-07-06
+
+879. coordinating
+usage: coordinating all these problems are so complex and not easy to manage. t
+date: 2017-07-06
+
+880. circuits
+usage: physical circuits are created on the physical layer of open systems interconnection (osi) model.
+date: 2017-07-06
+
+881. optical
+usage: physical layers describe the electrical or optical signals used for communication.
+date: 2017-07-06
+
+882. voltage
+usage: physical layer of the open systems interconnection (osi) model is only concerned with the physical characteristics of electrical or optical signaling techniques which includes the voltage of the electrical current used to transport the signal, the media type (twisted pair, coaxial cable, optical fiber etc), impedance characteristics, physical shape of the connector, synchronization etc.
+date: 2017-07-06
+
+883. connector
+usage: physical layer of the open systems interconnection (osi) model is only concerned with the physical characteristics of electrical or optical signaling techniques which includes the voltage of the electrical current used to transport the signal, the media type (twisted pair, coaxial cable, optical fiber etc), impedance characteristics, physical shape of the connector, synchronization etc.
+date: 2017-07-06
+
+884. validity
+usage: datalink layer is responsible for providing end-to-end validity of the data being transmitted.
+date: 2017-07-06
+
+885. media
+usage: the media access control (mac) sublayer and the logical link control (llc) sublayer.
+date: 2017-07-06
+
+886. constitute
+usage: mac addresses are burned into the network cards and constitute the low-level address used to determine the source and destination of network traffic.
+date: 2017-07-06
+
+887. direct
+usage: . routers, which are special computers used to build the network, direct the data packet generated by network layer using information stored in a table known as routing table.
+date: 2017-07-06
+
+888. manufacturer
+usage: to determine the device's manufacturer (first half of the address) and serial number (second half of the address), such as for warranty service
+date: 2017-07-06
+
+889. masquerade
+usage: to masquerade (spoof) the identity of a different device.
+date: 2017-07-06
+
+890. sequencing
+usage: another function of the transport layer is tcp segment sequencing. sequencing is a connection-oriented service that takes tcp segments that are received out of order and place them in the right order.
+date: 2017-07-06
+
+891. simultaneously
+usage: many network applications can run on a computer simultaneously and there should be some mechanism to identify which application should receive the incoming data.
+date: 2017-07-06
+
+892. phase
+usage: in the connection establishment phase, the service and the rules (who transmits and when, how much data can be sent at a time etc.) for communication between the two devices are proposed.
+date: 2017-07-06
+
+893. pedagogic
+usage: the pedagogic approach we take in this chapter is to alternate between discussions of transport-layer principles and discussions of how these principles are imple- mented in existing protocols;
+date: 2017-07-06
+
+894. notion
+usage: figure 3.1 illustrates the notion of logical communication.
+date: 2017-07-06
+
+895. encapsulated
+usage: the segment is encapsulated within a network-layer packet
+date: 2017-07-06
+
+896. household
+usage: let’s exam- ine this distinction with the aid of a household analogy.
+date: 2017-07-06
+
+897. coast
+usage: consider two houses, one on the east coast and the other on the west coast, with each house being home to a dozen kids
+date: 2017-07-06
+
+898. postal
+usage: each kid writes each cousin every week, with each letter deliv- ered by the traditional postal service in a separate envelope.
+date: 2017-07-06
+
+899. saga
+usage: continuing with our family saga, suppose now that when ann and bill go on vacation, another cousin pair—say
+date: 2017-07-06
+
+900. intruders
+usage: a transport protocol can use encryption to guarantee that application messages are not read by intruders, even when the network layer cannot guarantee the confidentiality of transport-layer segments.
+date: 2017-07-06
+
+901. glimpse
+usage: having taken a glimpse at the ip service model, let’s now summarize the serv- ice models provided by udp and tcp.
+date: 2017-07-06
+
+902. intact
+usage: in particular, like ip, udp is an unreliable service—it does not guarantee that data sent by one process will arrive intact (or at all!) to the destination process.
+date: 2017-07-06
+
+903. congestion
+usage: tcp also provides congestion control. congestion control is not so much a service provided to the invoking application as it is a service for the internet as a whole, a service for the general good.
+date: 2017-07-06
+
+904. swamping
+usage: loosely speaking, tcp congestion control prevents any one tcp con- nection from swamping the links and routers between communicating hosts with an excessive amount of traffic.
+date: 2017-07-06
+
+905. swamp
+usage: loosely speaking, tcp congestion control prevents any one tcp con- nection from swamping the links and routers between communicating hosts with an excessive amount of traffic.
+date: 2017-07-06
+
+906. excessive
+usage: loosely speaking, tcp congestion control prevents any one tcp con- nection from swamping the links and routers between communicating hosts with an excessive amount of traffic.
+date: 2017-07-06
+
+907. regulating
+usage: this is done by regulating the rate at which the sending sides of tcp connections can send traffic into the network.
+date: 2017-07-06
+
+908. investigated
+usage: these topics are investigated in sections 3.4 through 3.8.
+date: 2017-07-06
+
+909. intermediary
+usage: the transport layer in the receiving host does not actually deliver data directly to a process, but instead to an intermediary socket
+date: 2017-07-06
+
+910. subsequent
+usage: as discussed in the subsequent sections of this chapter.
+date: 2017-07-06
+
+911. sequentially
+usage: for tcp, nmap sequentially scans ports, looking for ports that are accepting tcp connections.
+date: 2017-07-06
+
+912. instructive
+usage: before closing this discussion, it’s instructive to say a few additional words about web servers and how they use port numbers
+date: 2017-07-06
+
+913. spawn
+usage: a web server that spawns a new process for each connection.
+date: 2017-07-06
+
+914. severely
+usage: this frequent creating and closing of sockets can severely impact the performance of a busy web server (although a number of operating system tricks can be used to mitigate the problem).
+date: 2017-07-06
+
+915. surround
+usage: readers interested in the operating system issues surrounding per- sistent and non-persistent http are encouraged to see [nielsen 1997; nahum 2002].
+date: 2017-07-06
+
+916. vacuous
+usage: how might you go about doing this? you might first consider using a vacuous transport protocol.
+date: 2017-07-06
+
+917. throttle
+usage: tcp, on the other hand, has a congestion-control mechanism that throttles the transport-layer tcp sender when one or more links between the source and des- tination hosts become excessively congested.
+date: 2017-07-06
+
+918. tolerate
+usage: since real-time applications often require a minimum sending rate, do not want to overly delay segment transmission, and can tolerate some data loss, tcp’s service model is not partic- ularly well matched to these applications’ needs.
+date: 2017-07-06
+
+919. blast
+usage: udp just blasts away without any formal pre- liminaries.
+date: 2017-07-06
+
+920. periodically
+usage: since rip updates are sent periodically (typi- cally every five minutes), lost updates will be replaced by more recent updates, thus making the lost, out-of-date update useless. udp is also used to carry network manage- ment (snmp; see chapter 9) data.
+date: 2017-07-06
+
+921. oblivious
+usage: in fact, the intermediate routers are completely oblivious to tcp connections;
+date: 2017-07-06
+
+922. impose
+usage: thus, the third segment arrived out of order. the subtle issue is: what does a host do when it receives out-of-order segments in a tcp con- nection? interestingly, the tcp rfcs do not impose any rules here and leave the decision up to the people programming a tcp implementation.
+date: 2017-07-06
+
+923. compliant
+usage: on posix-compliant platforms, sighup ("signal hang up") is a signal sent to a process when its controlling terminal is closed
+date: 2017-07-06
+
+924. intercept
+usage: the hangup (hup) signal, which is normally sent to a process to inform it that the user has logged off (or "hung up"), is intercepted by nohup, allowing the process to continue running.
+date: 2017-07-06
+
+925. reclaim
+usage: if the client does not send an ack to complete the third step of this 3-way handshake, eventually (often after a minute or more) the server will terminate the half- open connection and reclaim the allocated resources.
+date: 2017-07-06
+
+926. deluge
+usage: with this deluge of syn segments, the server’s connection resources become exhausted as they are allocated (but never used!) for half-open connections
+date: 2017-07-06
+
+927. alleviate
+usage: caching and other sharing methods will not alleviate it
+date: 2017-07-06
+
+928. scalability
+usage: if you have enough socket's in time_wait then your ability to create new socket connections may be affected and this can affect the scalability of your client server system.
+date: 2017-07-06
+
+929. workshop
+usage: when we conduct a technical workshop, a common query from the participants relates to the maximum transmission unit (mtu) size manipulation on a router interface and its relationship with the tcp maximum segment size (mss).
+date: 2017-07-06
+
+930. transit
+usage: now in a likely case where a router in transit is carrying out additional encapsulation, that is, mpls label swapping, this will add an additional label header as below:
+date: 2017-07-06
+
+931. alternate
+usage: a router crashes or a link between two routers goes down and it takes the routing protocols seconds or minutes to stabilize and find an alternate path.
+date: 2017-07-06
+
+932. analysis
+usage: traffic analysis of an ssl/tls session
+date: 2017-07-06
+
+933. bidirectional
+usage: https is http-within-ssl/tls. ssl (tls) establishes a secured, bidirectional tunnel for arbitrary binary data between two hosts.
+date: 2017-07-06
+
+934. institution
+usage: sslv3 being edited by a different institution (netscape), it makes it a bit more difficult so spot the differences.
+date: 2017-07-06
+
+935. migrate
+usage: my parents and i migrated to america from uganda when i was 4 years old to have a better life.
+date: 2017-07-06
+
+936. motorist
+usage: then when i was 6 years old he was shot and killed by a motorist because he was african and spoke with an accent.
+date: 2017-07-06
+
+937. jail
+usage: his killer only serves 3 years in jail before he was released.
+date: 2017-07-06
+
+938. overdose
+usage: my mother couldn't recover from the loss and turned to drugs as a coping mechanism leaving me and my brother alone for long periods of time so she could get “high” when i was 11 she died from a overdose and we were sent to live with an aunt and uncle in florida.
+date: 2017-07-06
+
+939. sexually
+usage: my uncle sexually assaulted me until i reached the age of 16 years old.
+date: 2017-07-06
+
+940. assault
+usage: my uncle sexually assaulted me until i reached the age of 16 years old.
+date: 2017-07-06
+
+941. dentistry
+usage: i am now a doctor in dentistry and have 2 wonderful children of my own.
+date: 2017-07-06
+
+942. depicts
+usage: following diagram shows a very basic architecture of a web application and depicts where http sits:
+date: 2017-07-06
+
+943. porn
+usage: i started doing porn.
+date: 2017-07-06
+
+944. porch
+usage: zoey popped her gum and leaned back against the porch swing
+date: 2017-07-06
+
+945. render
+usage: render animations
+date: 2017-07-06
+
+946. animations
+usage: tablet and phone apps render animations in the user interface while simultaneously performing computation and network requests in the back- ground.
+date: 2017-07-06
+
+947. dedicate
+usage: i purchased this book because it is the only reference book i could find that is dedicated to nginx.
+date: 2017-07-06
+
+948. religious
+usage: res_lst.append('religious')
+date: 2017-07-06
+
+949. extract
+usage: captain monitor the clipboard and extract the vocabulary and the sentence wisely.
+date: 2017-07-06
+
+950. animation
+usage: after several seconds of animation, the fib(45) call returns and the main function prints its result
+date: 2017-07-06
+
+951. abruptly
+usage: the main function then returns. when this happens, all goroutines are abruptly terminated and the program exits.
+date: 2017-07-06
+
+952. callee
+usage: when we copy a channel or pass one as an argument to a function, we are copying a reference, so caller and callee refer to the same data structure.
+date: 2017-07-06
+
+953. redundant
+usage: no resources are wasted by running redundant software or simulating virtual hardware.
+date: 2017-07-06
+
+954. drastically
+usage: it’s surprising how drastically installation processes vary today.
+date: 2017-07-06
+
+955. ludicrously
+usage: you can leverage and access all of your data at ludicrously awesome speeds
+date: 2017-07-06
+
+956. histograms
+usage: kibana core ships with the classics: histograms, line graphs, pie charts, sunbursts, and more. they leverage the full aggregation capabilities of elasticsearch.
+date: 2017-07-06
+
+957. siloed
+usage: data is often scattered or siloed across many systems in many formats
+date: 2017-07-06
+
+958. expounds
+usage: this chapter expounds on these searching and data features, and you’ll learn how to use them throughout this book.
+date: 2017-07-06
+
+959. confront
+usage: first, let’s take a closer look at the challenges search engines are typically confronted with and elasticsearch’s approach to solving them.
+date: 2017-07-06
+
+960. typos
+usage: those features include detecting typos, providing sugges- tions, and breaking down results into categories.
+date: 2017-07-06
+
+961. tolerant
+usage: you can configure elasticsearch to be tolerant of variations instead of looking for only exact matches.
+date: 2017-07-06
+
+962. crunch
+usage: you may be reading this book because you already have a system that’s crunching data and you want to add search. we’ll look at a couple of overall designs on how that might be done.
+date: 2017-07-06
+
+963. retail
+usage: for example, suppose you have an online retail store with product information stored in an sql database.
+date: 2017-07-06
+
+964. mandatory
+usage: some criteria would be mandatory and some would be optional.
+date: 2017-07-06
+
+965. vague
+usage: at this point you might want to know more about what’s in that “indexed data” box shown in figure 1.5 because it sounds quite vague.
+date: 2017-07-06
+
+966. narrow
+usage: this helped me narrow it down to javascript and python.
+date: 2017-07-06
+
+967. puberty
+usage: how hard has puberty hit you
+date: 2017-07-06
+
+968. fridges
+usage: we had a club with tv’s and a pool table and ping pong table - and free food and drinks - there were 2 fridges with everything you wanted… a full deli… and almost any drinks - including sodas and fresh oj.
+date: 2017-07-06
+
+969. couches
+usage: we even had couches in the club that people slept there over night… didn’t even leave home.
+date: 2017-07-06
+
+970. glossed
+usage: however, in doing so, we glossed over a number of important and subtle issues that programmers must bear in mind when writing concurrent code.
+date: 2017-07-06
+
+971. deviate
+usage: if you deviate from this, be sure to document it.
+date: 2017-07-06
+
+972. marginally
+usage: a defer is marginally more expen- sive than an explicit call to unlock, but not enough to justify less clear code.
+date: 2017-07-06
+
+973. rowboat
+usage: a toothless old man came ambling up to them, pointing, with a rather wicked grin, at an old rowboat bobbing in the iron-gray water below them.
+date: 2017-07-06
+
+974. sewing
+usage: some of my students have reported that hobbies such as sewing, glassblowing, model building, and so on all help to teach patience
+date: 2017-07-06
+
+975. tame
+usage: there is no "best path" but if you tend to be impatient, you should try to tame that.
+date: 2017-07-06
+
+976. companies
+usage: result = companies
+date: 2017-07-06
+
+977. consecutive
+usage: fields splits the string s around each instance of one or more consecutive white space characters,
+date: 2017-07-06
+
+978. term
+usage: term signal
+date: 2017-07-06
+
+979. experiment
+usage: russian sleep experiment
+date: 2017-07-06
+
+980. extent
+usage: computer science programs vary in the extent to which they cover algorithms. you can cover a few algorithms in great detail, or provide snapshots of a large number of algorithms. so depending on the question, your education will either help you or let you down.
+date: 2017-07-06
+
+981. bypass
+usage: in case you would like to bypass this limit, which is discouraged,
+date: 2017-07-06
+
+982. pagination
+usage: together with size, from is used to do pagination
+date: 2017-07-06
+
+983. jargon
+usage: speaking of which, readers will need to have at least some previous programming experience to make sense of this book, since it relies heavily on jargon that complete beginners are unlikely to understand.
+date: 2017-07-06
+
+984. nails
+usage: charles duhigg, in his amazing book the power of habit, nails the importance of creating a keystone habit that practically guarantees success.
+date: 2017-07-06
+
+985. dream
+usage: la la land - audition (the fools who dream) suite
+date: 2017-07-06
+
+986. extraneous
+usage: fortunately, python makes it easy to eliminate extraneous whitespace from data that people enter.
+date: 2017-07-06
+
+987. apostrophe
+usage: for example, if you use an apostrophe within single quotes, you’ll produce an error.
+date: 2017-07-06
+
+988. more
+usage: more pages
+date: 2017-07-06
+
+989. ripples
+usage: how can space be a physical thing that ripples and bends, and what does that mean?
+date: 2017-07-06
+
+990. enduring
+usage: Our aim is to explain the enduring concepts underlying all computer systems,
+date: 2017-07-06
 

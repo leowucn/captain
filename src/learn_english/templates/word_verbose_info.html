@@ -141,6 +141,13 @@
                         </tr>
                     {% endif %}
 
+                    {% if 'eng_basic' in meaning%}
+                        <tr>
+                            <td>{{ 'eng_basic' }}</td>
+                            <td><p>{{ meaning['eng_basic'] }}</p></td>
+                        </tr>
+                    {% endif %}
+
                     {% if 'book' in meaning%}
                         <tr>
                             <td>{{ 'book' }}</td>
