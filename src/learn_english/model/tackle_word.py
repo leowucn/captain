@@ -42,11 +42,12 @@ word-1         represent word from clipboard
 class TackleWords:
     def __init__(self):
         self.index_dict = dict()
-        if self.get_file_line_count(words_index_file):
-            with open(words_index_file, 'r') as fp:
-                self.index_dict = json.load(fp)
+        self.set_initial_date()
 
-    def get_word_meaning(self, raw_string):         # raw_string may be a word or phrase
+    def set_initial_date(self):
+        self.index_dict = utility.load_json_file(words_index_file)
+
+    def get_word_meaning(self, raw_string):
         if not utility.test_network():
             return None
 
@@ -209,13 +210,15 @@ class TackleWords:
         result[raw_string] = word_meaning_dict
         return result
 
-    def is_start_word_type(self, src):
+    @staticmethod
+    def is_start_word_type(src):
         for w_type in word_type:
             if src.strip().startswith(w_type):
                 return True
         return False
 
-    def fix_encoding_issue(self, src_string):
+    @staticmethod
+    def fix_encoding_issue(src_string):
         if src_string.count('\\') > 0:
             return src_string.decode('unicode-escape').encode('utf-8')
         return src_string
@@ -280,7 +283,7 @@ class TackleWords:
     def import_all_dir(self):
         self.import_word_builder()
         self.import_clipboard_words()
-        utility.show_notification('Captain Info', 'Importing words completely finished!')
+        utility.show_notification('Captain Import Info', 'Importing words completely finished!')
 
     def import_word_builder(self):
         files = [f for f in os.listdir(words_dir) if os.path.isfile(os.path.join(words_dir, f))]
@@ -328,14 +331,16 @@ class TackleWords:
                         word = ''
                         usage = ''
 
-    def is_date(self, string):
+    @staticmethod
+    def is_date(string):
         try:
             parse(string)
             return True
         except ValueError:
             return False
 
-    def is_word_line(self, line):
+    @staticmethod
+    def is_word_line(line):
         is_number = False
         for i, c in enumerate(line):
             if c.isdigit():
@@ -345,7 +350,8 @@ class TackleWords:
             else:
                 return False
 
-    def get_latest_file_digit_name(self, src_dir):
+    @staticmethod
+    def get_latest_file_digit_name(src_dir):
         files = [f for f in os.listdir(src_dir) if os.path.isfile(os.path.join(src_dir, f))]
         max_num = 1
 
@@ -358,7 +364,8 @@ class TackleWords:
                 max_num = num
         return max_num
 
-    def get_all_dict_file_list(self):
+    @staticmethod
+    def get_all_dict_file_list():
         lst = []
         files = [f for f in os.listdir(dict_dir) if os.path.isfile(os.path.join(dict_dir, f))]
 
@@ -376,26 +383,25 @@ class TackleWords:
         num_lines = self.get_file_line_count(os.path.join(dict_dir, file_name))
         if num_lines >= max_line:
             file_name = str(digit_name + 1) + '.json'
-        self.write_to_dict_file(os.path.join(dict_dir, file_name), data)
+        utility.write_to_json_file(os.path.join(dict_dir, file_name), data)
         self.update_index_dict()
 
     def delete(self, from_where, delete_word):
         if from_where != '0' and from_where != '1':
             return
 
-        # p(from_where)
-        # p(delete_word)
-        # p('\n')
         wrapped_word = delete_word + '-' + from_where
         # ----------------delete from dict----------------------
+        p(self.index_dict)
         try:
             file_name = self.index_dict[wrapped_word]['file_name']
             line_index = self.index_dict[wrapped_word]['line_index']
         except KeyError:
+            p(111)
             return
 
         lines_lst = []
-        last_inex = 0
+        last_index = 0
         with open(file_name) as f:
             i = 0
             for line in f:
@@ -404,15 +410,15 @@ class TackleWords:
                     continue
                 stripped_line = line.strip('\n| ')
                 if stripped_line == '},' or stripped_line == '}':
-                    last_inex = i
+                    last_index = i
                     break
         with open(file_name) as f:
             i = 0
             for line in f:
                 i += 1
-                if line_index - 1 <= i <= last_inex:
+                if line_index - 1 <= i <= last_index:
                     continue
-                if last_inex + 1 == i:
+                if last_index + 1 == i:
                     if line.strip() == '}':
                         lines_lst.append('}\n')
                     else:
@@ -471,15 +477,12 @@ class TackleWords:
                             for line in valid_lines_lst:
                                 f.write(line)
 
-        if self.get_file_line_count(words_index_file):
-            with open(words_index_file, 'r') as fp:
-                self.index_dict = {}
-                self.index_dict = json.load(fp)
+        self.set_initial_date()
         return
 
     def update(self, data):
         file_name = self.index_dict[data.keys()[0]]['file_name']
-        self.write_to_dict_file(file_name, data)
+        utility.write_to_json_file(file_name, data)
         self.update_index_dict()
 
     def store_clipboard(self, word, usage):
@@ -495,7 +498,6 @@ class TackleWords:
         # check if the word and usage exist.
         portion = os.popen("tail -4 " + file_path).readlines()
         last_word = portion[0].split('.')[1].strip()
-        last_usage = portion[1].split(':')[1].strip()
         if word == last_word and usage == last_word:
             return
 
@@ -515,23 +517,6 @@ class TackleWords:
             f.write('usage: ' + usage.strip() + '\n')
             f.write('date: ' + strftime("%Y-%m-%d", gmtime()) + '\n')
             f.write('\n')
-
-    def write_to_dict_file(self, file_name, data):
-        feeds = dict()
-        num_lines = self.get_file_line_count(file_name)
-        if num_lines > 2:
-            filedata = None
-            with open(file_name) as feedsjson:
-                feeds = json.load(feedsjson)
-        for word, verbose_info in data.iteritems():
-            feeds[word] = verbose_info
-        with open(os.path.join(absolute_prefix, file_name), mode='w') as f:
-            f.write(json.dumps(feeds, indent=2))
-
-    def write_to_index_file(self, data):
-        f = open(words_index_file, "w")
-        f.write(data)
-        f.close()
 
     def update_index_dict(self):
         dict_index_dict = dict()
@@ -553,10 +538,13 @@ class TackleWords:
                         word_index_info['file_name'] = file_name
                         dict_index_dict[word] = word_index_info
         self.index_dict = dict_index_dict
-        self.write_to_index_file(json.dumps(dict_index_dict, indent=2))
+        # update words_index.json
+        with open(words_index_file, 'w') as f:
+            f.write(json.dumps(dict_index_dict, indent=2))
 
-        # extract content exactly from quotation mark
-    def extract_content(self, string):
+    # extract content exactly from quotation mark
+    @staticmethod
+    def extract_content(string):
         lst = []
         src = string.strip()
         i_next_pos = 0
@@ -581,8 +569,8 @@ class TackleWords:
                     i_next_pos = i + 2
         return lst
 
-
-    def is_alpha_and_x(self, src_str, x):
+    @staticmethod
+    def is_alpha_and_x(src_str, x):
         has_alpha = False
         has_x = False
 
@@ -601,25 +589,29 @@ class TackleWords:
             return True
         return False
 
-    def whether_start_with_alpha(self, src_str):
+    @staticmethod
+    def whether_start_with_alpha(src_str):
         for s in src_str.encode('utf-8'):
             if s.isalpha():
                 return True
         return False
 
-    def whether_has_non_alpha_symbol(self, src_str):
+    @staticmethod
+    def whether_has_non_alpha_symbol(src_str):
         for s in src_str.encode('utf-8'):
             if not s.isalpha():
                 return True
         return False
 
-    def whether_only_alpha(self, src_str):
+    @staticmethod
+    def whether_only_alpha(src_str):
         for s in src_str.encode('utf-8'):
             if not s.isalpha():
                 return False
         return True
 
-    def get_file_line_count(self, file_name):
+    @staticmethod
+    def get_file_line_count(file_name):
         if not os.path.isfile(file_name):
             return 0
         f = open(file_name, 'r')
@@ -687,7 +679,8 @@ class TackleWords:
             result.append(from_clipboard_dict)
         return result
 
-    def get_year_and_week_by_date(self, date):
+    @staticmethod
+    def get_year_and_week_by_date(date):
         res = []
         lst = re.split('-| ', date.strip())
         res.append(str(lst[0]))
@@ -701,6 +694,11 @@ def test(fname):
     with open(fname, 'r') as fin:
         print(fin.read())
         print('---------')
+
+
+def p(c):
+    print('-----------------')
+    print(c)
 
 
 if __name__ == "__main__":
@@ -717,4 +715,5 @@ if __name__ == "__main__":
     # tackle_words.import_clipboard_words()
     # result = tackle_words.get_classified_lst()
     # p(result)
+    # tackle_words.delete('1', 'font')
 

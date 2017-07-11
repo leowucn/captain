@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns:vcom xmlns:fb>
+<head>
+    <!-- Standard Meta -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <!-- Site Properties -->
+  <title>Captain</title>
+  <link rel="stylesheet" type="text/css" href="/learn_english/static/semantic/dist/semantic.css">
+
+  <script src="/learn_english/static/semantic/examples/assets/library/jquery.min.js"></script>
+  <script src="/learn_english/static/semantic/dist/semantic.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+  <script>
+  $(document)
+    .ready(function() {
+      $('.ui.selection.dropdown').dropdown();
+      $('.ui.menu .ui.dropdown').dropdown({
+        on: 'hover'
+      });
+    })
+  ;
+  </script>
+    <style type="text/css">
+    </style>
+</head>
+   <body style='margin-top:0.5cm;margin-left:2cm;margin-right:2cm;'>
+       <div style="text-align: center;fontgfamily:Open Sans; font-size: 45px;">
+           <p style="font-size: 20px;">Vocabulary Lists</p>
+           <p style="font-size: 45px;">{{ category_name_for_show }}</p>
+       </div>
+       <div class="ui divider"></div>
+
+       {% for list_name, list_info in list_data.iteritems() %}
+            <a style="font-family:Avenir; font-size: 25px;" href="http://{{ ip_addr }}:9527/learn_english/vocabulary/{{ category_name }}/{{ list_name }}"><strong>{{list_name}}</strong></a>
+
+            <div style="font-size: 16px;">
+                {{ list_info['list_detailed_description'] }}
+            </div>
+            <a href="http://{{ ip_addr }}:9527/learn_english/vocabulary/{{ category_name }}/{{ list_name }}"><strong>{{ list_info['list_num'] }}<span class="glyphicon glyphicon-chevron-right"></span></strong></a>
+            <div class="ui divider"></div>
+       {% endfor %}
+   </body>
+</html>

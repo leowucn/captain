@@ -83,7 +83,8 @@ def is_valid_string(src):
                           '*': True, "==": True,
                           "===": True, '\\': True,
                           '/': True, '`': True,
-                          '=': True
+                          '=': True, '{': True,
+                          '}': True
                           }
     for ch in src:
         if ch in invalid_characters:

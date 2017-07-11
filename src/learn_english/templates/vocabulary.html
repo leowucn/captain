@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html xmlns:vcom xmlns:fb>
+<head>
+    <!-- Standard Meta -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <!-- Site Properties -->
+  <title>Captain</title>
+  <link rel="stylesheet" type="text/css" href="/learn_english/static/semantic/dist/semantic.css">
+
+  <script src="/learn_english/static/semantic/examples/assets/library/jquery.min.js"></script>
+  <script src="/learn_english/static/semantic/dist/semantic.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+  <script>
+  $(document)
+    .ready(function() {
+      $('.ui.selection.dropdown').dropdown();
+      $('.ui.menu .ui.dropdown').dropdown({
+        on: 'hover'
+      });
+    })
+  ;
+  </script>
+    <style type="text/css">
+        /*body {*d
+            /*text-align: center;*/
+        /*}*/
+        .one_line input{
+            float:left;
+        }
+
+       .wordlist.shortlisting {
+	        font-size: .9em;
+        }
+        .wordlist.shortlisting .title {
+ 	        font-size: 1.1em;
+         }
+        .small-article-container {
+            margin-top: 1em;
+         }
+       .small-article {
+            /*  padding: 0;
+            */  margin-bottom: 1em;
+            padding-right: 0.5em;
+            padding-left: 0.5em;
+            /*  float: right;*/
+        }
+
+    </style>
+</head>
+   <body style='margin-top:0.5cm;margin-left:2cm;margin-right:2cm;'>
+
+   <p>VOCABULARY LISTS : {{ category_name.replace("'", "") }}</p>
+   <div style=margin-right:8cm;'>
+       <p style="font-family:Open Sans; font-size: 45px;">{{ list_name }} </p>
+       <p style="font-size: 16px;"> {{ list_detailed_description }} </p>
+   </div>
+
+    <span class="label label-info" >{{ list_num }}</span>
+   <div class="ui divider"></div>
+
+   {% for list_name, words_info in list_detailed_info.iteritems() %}
+      <p style="font-family:Avenir; font-size: 50px;">{{ list_name }}</p>
+
+      <span class="label label-info">definition</span>
+        <div style="font-size: 16px;">
+            {{ words_info['word_definition'] }}
+        </div>
+
+      <div class="row">
+          <div class="col-md-12 small-article-container"><!-- Small articles container -->
+           {% if 'word_example' in words_info %}
+            <div class="wordlist shortlistikg " style="font-size: 16px;">
+                <div class="col-md-5 small-article"><!-- Start small article -->
+                    <span class="label label-info">example</span>
+                    <div class="rescription">
+                        {{ words_info['word_example'] }}
+                    </div>
+                </div>
+            </div>
+           {% endif %}
+
+              <span class="label label-info">description</span>
+          {% if 'word_description' in words_info %}
+            <div class="wordlist shortlisting" style="font-size: 16px;">
+                <div class="col-md-5 small-article"><!-- Start small article -->
+                    <div class="rescription">
+                        {{ words_info['word_description'] }}
+                    </div>
+                </div>
+            </div>
+           {% endif %}
+          </div>
+          <br><br><br><br>
+      </div>
+    <div class="ui divider"></div>
+   {% endfor %}
+
+   </body>
+</html>
