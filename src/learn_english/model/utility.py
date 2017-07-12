@@ -3,7 +3,10 @@ import socket
 import platform
 import os
 import urllib
+import traceback
 import json
+import requests
+import bs4
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -49,15 +52,47 @@ def get_ip():
         return '0.0.0.0'
 
 
-def test_network():
-    code = urllib.urlopen("http://www.youdao.com").getcode()
+def get_raw_content(url, mark):
+    if not test_network("https://www.vocabulary.com/"):
+        return ''
+    s = requests.session()
+    s.keep_alive = False
+    try:
+        res = s.get(url)
+    except:
+        print_stack(55)
+    soup = bs4.BeautifulSoup(res.content, 'lxml')
+    return str(soup.find('div', attrs={'class': mark}))
+
+
+def extract_info_from_raw(raw_content, mark):
+    """
+    :param raw_content:
+    :param mark: extract content against mark
+    :return:
+    """
+    try:
+        point_one_index = raw_content.index(mark)
+    except:
+        return ''
+    left_bracket_index = raw_content[point_one_index:].index('>') + point_one_index
+    right_bracket_index = raw_content[point_one_index:].index('<') + point_one_index
+    res = raw_content[left_bracket_index + 1:right_bracket_index]
+    res = res.replace('&amp;', '&')
+    return res
+
+
+def test_network(url):
+    code = urllib.urlopen(url).getcode()
     if code != 200:
         return False
     return True
 
 
-def p(c):
+def print_stack(c):
+    print_stack('---------------------')
     print(c)
+    traceback.print_exc()
 
 
 ip_addr = get_ip()

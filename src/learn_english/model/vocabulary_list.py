@@ -30,10 +30,12 @@ category_dict = {
 
 
 def update_all_lists():
-    raw_content = get_raw_content(urlparse.urljoin(home_url, 'lists'), 'col9 listcats pad2x ')
+    raw_content = utility.get_raw_content(urlparse.urljoin(home_url, 'lists'), 'col9 listcats pad2x ')
+    if raw_content == '':
+        return
     category_raw_content_list = str(raw_content).split('section class')
     for category_raw_content in category_raw_content_list:
-        name = extract_info_from_raw(category_raw_content, 'sectionHeader').strip()
+        name = utility.extract_info_from_raw(category_raw_content, 'sectionHeader').strip()
         if name == '':
             continue
         if name == 'Featured Lists':
@@ -150,14 +152,14 @@ def update_list(category_raw_content, category_name):
 
     item_raw_content_list = category_raw_content.split('wordlist shortlisting')
     for item_raw_content in item_raw_content_list[1:]:
-        list_name = extract_info_from_raw(item_raw_content.replace('#', ''), 'href')
+        list_name = utility.extract_info_from_raw(item_raw_content.replace('#', ''), 'href')
         if list_name in category_lists_dict:
             continue
 
-        list_brief_description = extract_info_from_raw(item_raw_content, 'description')
+        list_brief_description = utility.extract_info_from_raw(item_raw_content, 'description')
         if len(list_brief_description) > 160:
             list_brief_description = list_brief_description[:160] + '...'
-        list_words_num = extract_info_from_raw(item_raw_content, 'readMore')
+        list_words_num = utility.extract_info_from_raw(item_raw_content, 'readMore')
         list_href = extract_detailed_address(item_raw_content)
         if list_name == '' or list_href == '':
             continue
@@ -171,26 +173,26 @@ def update_list(category_raw_content, category_name):
         # ------------------------------------------
         # detailed_description of list
         entire_list_url = urlparse.urljoin(home_url, list_href)
-        raw_words_list_description = get_raw_content(entire_list_url, 'description')
+        raw_words_list_description = utility.get_raw_content(entire_list_url, 'description')
         if raw_words_list_description is not None:
-            words_list_description = extract_info_from_raw(raw_words_list_description, 'description')
+            words_list_description = utility.extract_info_from_raw(raw_words_list_description, 'description')
             category_lists_dict[list_name]['list_detailed_description'] = words_list_description
-        raw_words_list_content_list = get_raw_content(entire_list_url, 'centeredContent').split('entry learnable')
+        raw_words_list_content_list = utility.get_raw_content(entire_list_url, 'centeredContent').split('entry learnable')
         for raw_words_list_content in raw_words_list_content_list:
             raw_words_list_content = raw_words_list_content.replace('<em>', '')
             raw_words_list_content = raw_words_list_content.replace('</em>', '')
             raw_words_list_content = raw_words_list_content.replace('<strong>', '')
             raw_words_list_content = raw_words_list_content.replace('</strong>', '')
             raw_words_list_content = raw_words_list_content.replace('<br>', '')
-            name = extract_info_from_raw(raw_words_list_content, 'href')
+            name = utility.extract_info_from_raw(raw_words_list_content, 'href')
             raw_words_list_content = raw_words_list_content.replace('\n', ' ')
             raw_words_list_content = raw_words_list_content.strip('\n')
             if name == "definitions & notes":
                 continue
 
-            definition = extract_info_from_raw(raw_words_list_content, '"definition"')
-            example = extract_info_from_raw(raw_words_list_content, '"example"')
-            description = extract_info_from_raw(raw_words_list_content, '"description"')
+            definition = utility.extract_info_from_raw(raw_words_list_content, '"definition"')
+            example = utility.extract_info_from_raw(raw_words_list_content, '"example"')
+            description = utility.extract_info_from_raw(raw_words_list_content, '"description"')
 
             list_detailed_info_dict = dict()
 
@@ -202,32 +204,6 @@ def update_list(category_raw_content, category_name):
             category_lists_dict[list_name]['list_detailed_info'][name] = list_detailed_info_dict
 
     write_lists_by_category_and_data(category_name, category_lists_dict)
-
-
-def get_raw_content(url, mark):
-    s = requests.session()
-    s.keep_alive = False
-    res = s.get(url)
-    soup = bs4.BeautifulSoup(res.content, 'lxml')
-    return str(soup.find('div', attrs={'class': mark}))
-
-
-# -------------------------------------------------
-def extract_info_from_raw(raw_content, mark):
-    """
-    :param raw_content:
-    :param mark: extract content against mark
-    :return:
-    """
-    try:
-        point_one_index = raw_content.index(mark)
-    except:
-        return ''
-    left_bracket_index = raw_content[point_one_index:].index('>') + point_one_index
-    right_bracket_index = raw_content[point_one_index:].index('<') + point_one_index
-    res = raw_content[left_bracket_index + 1:right_bracket_index]
-    res = res.replace('&amp;', '&')
-    return res
 
 
 def extract_detailed_address(raw_content):

@@ -10,6 +10,7 @@ import multiprocessing
 import re
 import extract
 import original_form
+import traceback
 
 interval = 2.5    # interval seconds for scanning clipboard
 times = 3   # the times of repeating word pronunciation
@@ -70,7 +71,10 @@ def watcher():
                     p2.terminate()
                 p2.join()
             time.sleep(interval)
-    except:
+    except BaseException as e:
+        print('--------------')
+        print(str(e))
+        traceback.print_exc()
         utility.show_notification('Captain Info', 'Sorry, some error may happened! Please check the error message!')
 
 

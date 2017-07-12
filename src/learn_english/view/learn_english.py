@@ -8,7 +8,7 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(os.path.realpath
 import tackle_word
 import pronunciation
 import motto
-import fetch_list
+import vocabulary_list
 import utility
 
 
@@ -35,7 +35,7 @@ def show_year_list():
         for year, value in res[1].iteritems():
             year_dict[year] = 0
 
-    all_vocabulary_lists = fetch_list.get_all_vocabulary_lists()
+    all_vocabulary_lists = vocabulary_list.get_all_vocabulary_lists()
     result = dict()
     for category_name, category_lists in all_vocabulary_lists.iteritems():
         i = 0
@@ -117,7 +117,11 @@ def show_page(cf, y, w1, i):
         src_dict = res[0][year][week]
     if len(come_from) > 0:
         if come_from == '1':  # from clipboard
-            src_dict = res[1][year][week]
+            week = week.encode('utf-8')
+            if week in res[1][year]:
+                src_dict = res[1][year][week]
+            else:
+                return render_template('nothing.html')
     else:
         return render_template('nothing.html')
 
@@ -227,11 +231,11 @@ def stop_quickly_review():
 
 
 @learn_english_app.route('/vocabulary_list/<category_name>', methods=['GET', 'POST'])
-def vocabulary_list(category_name):
-    list_data = fetch_list.get_lists_by_category(category_name.encode('utf-8'))
+def show_vocabulary_list(category_name):
+    list_data = vocabulary_list.get_lists_by_category(category_name.encode('utf-8'))
     return render_template('vocabulary_list.html',
                            category_name=category_name,
-                           category_name_for_show=fetch_list.category_dict[category_name],
+                           category_name_for_show=vocabulary_list.category_dict[category_name],
                            list_data=list_data,
                            ip_addr=utility.ip_addr
                            )
@@ -241,7 +245,7 @@ def vocabulary_list(category_name):
 def vocabulary(category_name, list_name):
     category_name = category_name.encode('utf-8')
     list_name = list_name.encode('utf-8')
-    list_data = fetch_list.get_list_data(category_name, list_name)
+    list_data = vocabulary_list.get_list_data(category_name, list_name)
 
     if list_data == None:
         return render_template('nothing.html')

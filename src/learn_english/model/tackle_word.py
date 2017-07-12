@@ -48,7 +48,7 @@ class TackleWords:
         self.index_dict = utility.load_json_file(words_index_file)
 
     def get_word_meaning(self, raw_string):
-        if not utility.test_network():
+        if not utility.test_network('http://www.youdao.com'):
             return None
 
         valid_string = raw_string[:-2].strip()
@@ -198,7 +198,10 @@ class TackleWords:
         url = 'https://www.vocabulary.com/dictionary/' + valid_string
         s = requests.session()
         s.keep_alive = False
-        res = s.get(url)
+        try:
+            res = s.get(url)
+        except:
+            utility.print_stack(44)
         soup = bs4.BeautifulSoup(res.content, 'lxml')
         basic1 = soup.find('div', attrs={'class': 'section blurb'})
         basic1_str = ''
@@ -392,12 +395,10 @@ class TackleWords:
 
         wrapped_word = delete_word + '-' + from_where
         # ----------------delete from dict----------------------
-        p(self.index_dict)
         try:
             file_name = self.index_dict[wrapped_word]['file_name']
             line_index = self.index_dict[wrapped_word]['line_index']
         except KeyError:
-            p(111)
             return
 
         lines_lst = []
