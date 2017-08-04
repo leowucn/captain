@@ -193,6 +193,7 @@ def quickly_review():
         global stop
         stop = False
         for word, verbose_info in result_lst:
+            p(stop)
             if stop:
                 break
             time.sleep(1.5)

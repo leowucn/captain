@@ -52,8 +52,11 @@ def watcher():
                     continue
                 i += 1
 
-                p1 = multiprocessing.Process(target=pronunciation.show_literal_pronunciation, args=(word,))
-                p2 = multiprocessing.Process(target=pronunciation.launch_pronunciation, args=(word,))
+                query_word = word
+                if word in en_verbs_dic:
+                    query_word = en_verbs_dic[word]
+                p1 = multiprocessing.Process(target=pronunciation.show_literal_pronunciation, args=(query_word,))
+                p2 = multiprocessing.Process(target=pronunciation.launch_pronunciation, args=(query_word,))
                 p1.start()
                 p2.start()
                 # Wait timeout seconds or until process finishes

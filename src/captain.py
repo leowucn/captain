@@ -13,7 +13,7 @@ app.register_blueprint(learn_english_app, url_prefix='/learn_english')
 os.system("sh src/learn_english/run.sh")
 
 
-# app.run(host='0.0.0.0', port=9527, threaded=True, debug=True)
-
-http_server = WSGIServer(('0.0.0.0', 9527), app)
-http_server.serve_forever()
+app.run(host='0.0.0.0', port=9527, threaded=True, debug=True)
+#
+# http_server = WSGIServer(('0.0.0.0', 9527), app)
+# http_server.serve_forever()
