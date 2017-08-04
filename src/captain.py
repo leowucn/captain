@@ -3,7 +3,6 @@
 from flask import Flask
 from learn_english.view.learn_english import learn_english_app
 import os
-from gevent.wsgi import WSGIServer
 
 
 app = Flask(__name__)
@@ -14,6 +13,3 @@ os.system("sh src/learn_english/run.sh")
 
 
 app.run(host='0.0.0.0', port=9527, threaded=True, debug=True)
-#
-# http_server = WSGIServer(('0.0.0.0', 9527), app)
-# http_server.serve_forever()

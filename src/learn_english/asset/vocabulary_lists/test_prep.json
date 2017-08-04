@@ -1657,10 +1657,10 @@
         "word_name": "appease", 
         "word_example": ""
       }, 
-      "intransigence": {
-        "word_definition": "stubborn refusal to compromise or change", 
+      "magnanimity": {
+        "word_definition": "liberality in bestowing gifts", 
         "word_description": "", 
-        "word_name": "intransigence", 
+        "word_name": "magnanimity", 
         "word_example": ""
       }, 
       "coda": {
@@ -1759,10 +1759,10 @@
         "word_name": "irresolute", 
         "word_example": ""
       }, 
-      "magnanimity": {
-        "word_definition": "liberality in bestowing gifts", 
+      "intransigence": {
+        "word_definition": "stubborn refusal to compromise or change", 
         "word_description": "", 
-        "word_name": "magnanimity", 
+        "word_name": "intransigence", 
         "word_example": ""
       }, 
       "distend": {
@@ -2287,12 +2287,6 @@
         "word_name": "diverge", 
         "word_example": ""
       }, 
-      "emulate": {
-        "word_definition": "strive to equal or match, especially by imitating", 
-        "word_description": "", 
-        "word_name": "emulate", 
-        "word_example": ""
-      }, 
       "invective": {
         "word_definition": "abusive language used to express blame or censure", 
         "word_description": "", 
@@ -2389,12 +2383,6 @@
         "word_name": "platitude", 
         "word_example": ""
       }, 
-      "chicanery": {
-        "word_definition": "the use of tricks to deceive someone", 
-        "word_description": "", 
-        "word_name": "chicanery", 
-        "word_example": ""
-      }, 
       "misanthrope": {
         "word_definition": "someone who dislikes people in general", 
         "word_description": "", 
@@ -2471,6 +2459,12 @@
         "word_definition": "make impure by adding a foreign or inferior substance", 
         "word_description": "", 
         "word_name": "adulterate", 
+        "word_example": ""
+      }, 
+      "garrulous": {
+        "word_definition": "full of trivial conversation", 
+        "word_description": "", 
+        "word_name": "garrulous", 
         "word_example": ""
       }, 
       "dormant": {
@@ -2617,12 +2611,6 @@
         "word_name": "implode", 
         "word_example": ""
       }, 
-      "qualified": {
-        "word_definition": "meeting the proper standards and requirements for a task", 
-        "word_description": "", 
-        "word_name": "qualified", 
-        "word_example": ""
-      }, 
       "paragon": {
         "word_definition": "a perfect embodiment of a concept", 
         "word_description": "", 
@@ -2677,10 +2665,10 @@
         "word_name": "negate", 
         "word_example": ""
       }, 
-      "lucid": {
-        "word_definition": "transparently clear; easily understandable", 
+      "ambivalence": {
+        "word_definition": "mixed feelings or emotions", 
         "word_description": "", 
-        "word_name": "lucid", 
+        "word_name": "ambivalence", 
         "word_example": ""
       }, 
       "precursor": {
@@ -2953,10 +2941,10 @@
         "word_name": "confound", 
         "word_example": ""
       }, 
-      "cacophonous": {
-        "word_definition": "having an unpleasant sound", 
+      "chicanery": {
+        "word_definition": "the use of tricks to deceive someone", 
         "word_description": "", 
-        "word_name": "cacophonous", 
+        "word_name": "chicanery", 
         "word_example": ""
       }, 
       "disingenuous": {
@@ -3037,12 +3025,6 @@
         "word_name": "aesthetic", 
         "word_example": ""
       }, 
-      "irascible": {
-        "word_definition": "quickly aroused to anger", 
-        "word_description": "", 
-        "word_name": "irascible", 
-        "word_example": ""
-      }, 
       "autonomous": {
         "word_definition": "existing as an independent entity", 
         "word_description": "", 
@@ -3109,10 +3091,16 @@
         "word_name": "phlegmatic", 
         "word_example": ""
       }, 
-      "garrulous": {
-        "word_definition": "full of trivial conversation", 
+      "cacophonous": {
+        "word_definition": "having an unpleasant sound", 
         "word_description": "", 
-        "word_name": "garrulous", 
+        "word_name": "cacophonous", 
+        "word_example": ""
+      }, 
+      "lucid": {
+        "word_definition": "transparently clear; easily understandable", 
+        "word_description": "", 
+        "word_name": "lucid", 
         "word_example": ""
       }, 
       "spectrum": {
@@ -3175,16 +3163,22 @@
         "word_name": "stigma", 
         "word_example": ""
       }, 
+      "stint": {
+        "word_definition": "supply sparingly and with restricted quantities", 
+        "word_description": "", 
+        "word_name": "stint", 
+        "word_example": ""
+      }, 
       "enervate": {
         "word_definition": "weaken mentally or morally", 
         "word_description": "", 
         "word_name": "enervate", 
         "word_example": ""
       }, 
-      "stint": {
-        "word_definition": "supply sparingly and with restricted quantities", 
+      "stolid": {
+        "word_definition": "having or revealing little emotion or sensibility", 
         "word_description": "", 
-        "word_name": "stint", 
+        "word_name": "stolid", 
         "word_example": ""
       }, 
       "impervious": {
@@ -3283,6 +3277,12 @@
         "word_name": "discredit", 
         "word_example": ""
       }, 
+      "extrapolation": {
+        "word_definition": "an inference about the future based on known facts", 
+        "word_description": "", 
+        "word_name": "extrapolation", 
+        "word_example": ""
+      }, 
       "apprise": {
         "word_definition": "inform somebody of something", 
         "word_description": "", 
@@ -3325,10 +3325,10 @@
         "word_name": "insularity", 
         "word_example": ""
       }, 
-      "ambivalence": {
-        "word_definition": "mixed feelings or emotions", 
+      "irascible": {
+        "word_definition": "quickly aroused to anger", 
         "word_description": "", 
-        "word_name": "ambivalence", 
+        "word_name": "irascible", 
         "word_example": ""
       }, 
       "occlude": {
@@ -3385,10 +3385,10 @@
         "word_name": "reverent", 
         "word_example": ""
       }, 
-      "stolid": {
-        "word_definition": "having or revealing little emotion or sensibility", 
+      "emulate": {
+        "word_definition": "strive to equal or match, especially by imitating", 
         "word_description": "", 
-        "word_name": "stolid", 
+        "word_name": "emulate", 
         "word_example": ""
       }, 
       "discerning": {
@@ -3577,10 +3577,10 @@
         "word_name": "approbation", 
         "word_example": ""
       }, 
-      "extrapolation": {
-        "word_definition": "an inference about the future based on known facts", 
+      "qualified": {
+        "word_definition": "meeting the proper standards and requirements for a task", 
         "word_description": "", 
-        "word_name": "extrapolation", 
+        "word_name": "qualified", 
         "word_example": ""
       }, 
       "subpoena": {
@@ -4771,6 +4771,12 @@
         "word_name": "identify", 
         "word_example": "They could  identify all 12 individuals as well as the monkeys' relationships to each other."
       }, 
+      "response": {
+        "word_definition": "a statement that is made to reply to a question or request", 
+        "word_description": "", 
+        "word_name": "response", 
+        "word_example": "The sin of racism is a societal one and it demands a collective  response."
+      }, 
       "superlative": {
         "word_definition": "the form of an adjective or adverb ending in \"-est\"", 
         "word_description": "The given definition is for \"superlative\" as a noun. The definition for the word as an adjective shows the reason for adding \"-est\": highest in quality or degree. Here are the comparative forms of the adjectives that are shown in their superlative forms in the example sentence: longer, larger, faster-growing.", 
@@ -4926,12 +4932,6 @@
         "word_description": "", 
         "word_name": "simile", 
         "word_example": "Mr. Baker sinks  similes as if they were high, arcing three-point shots."
-      }, 
-      "antonym": {
-        "word_definition": "a word that expresses an opposite meaning", 
-        "word_description": "The prefix \"anti\" means \"opposite\" and the Greek word \"onoma\" means \"name\" (any thing can have a name that is expressed by a word). Using the prefix clues in the parentheses, figure out the meanings of the following words:  ", 
-        "word_name": "antonym", 
-        "word_example": "The direct  antonym of cause is effect, while that of antecedent is consequent."
       }, 
       "dictionary": {
         "word_definition": "a reference book containing an alphabetical list of words", 
@@ -5905,11 +5905,11 @@
         "word_name": "data", 
         "word_example": "But with big  data if most of your findings are false you find out sooner rather than later."
       }, 
-      "response": {
-        "word_definition": "a statement that is made to reply to a question or request", 
-        "word_description": "", 
-        "word_name": "response", 
-        "word_example": "The sin of racism is a societal one and it demands a collective  response."
+      "antonym": {
+        "word_definition": "a word that expresses an opposite meaning", 
+        "word_description": "The prefix \"anti\" means \"opposite\" and the Greek word \"onoma\" means \"name\" (any thing can have a name that is expressed by a word). Using the prefix clues in the parentheses, figure out the meanings of the following words:  ", 
+        "word_name": "antonym", 
+        "word_example": "The direct  antonym of cause is effect, while that of antecedent is consequent."
       }, 
       "inconsistency": {
         "word_definition": "the quality of lacking a harmonious uniformity among parts", 
@@ -6068,12 +6068,6 @@
         "word_description": "The example sentence tells the reader to focus (\"direct one's attention on something\") on the personal qualities of Lipnitskaya that helped Russia win Olympic gold. Although the event was a team competition, all the attention has focused (\"converge on a central point\") on Lipnitskaya.", 
         "word_name": "focus", 
         "word_example": "Her talent, her  focus and her youthful exuberance spurred Russia to win the inaugural Olympic team title in Sochi."
-      }, 
-      "produce": {
-        "word_definition": "bring forth or yield", 
-        "word_description": "\"Produce\" also means 1) come to have or undergo a change of; 2) cultivate by growing; 3) cause to happen, occur, or exist; 4) create or manufacture a man-made product--all five definitions can mostly fit here because scientists sliced DNA strands, injected them into fertilized eggs, and encouraged the growth of embryos with the intent of implanting them into females to produce macaque monkey babies with genetic profiles similar to sick humans (for use in future experiments).", 
-        "word_name": "produce", 
-        "word_example": "The manipulation  produced 15 normally developing embryos\u2014of which all but one showed evidence of the desired genetic changes."
       }, 
       "feature": {
         "word_definition": "a prominent attribute or aspect of something", 
@@ -6789,12 +6783,6 @@
         "word_name": "derive", 
         "word_example": "Euclid begins with 23 definitions, 5 axioms, and 5 postulates and  derives all sorts of theorems from them."
       }, 
-      "variation": {
-        "word_definition": "something a little different from others of the same type", 
-        "word_description": "", 
-        "word_name": "variation", 
-        "word_example": "Though the mountains may look like one massive granite blob, sharp boundaries mark chemical  variations within the range."
-      }, 
       "address": {
         "word_definition": "direct one's efforts towards something, such as a question", 
         "word_description": "As a verb, \"address\" also means \"deliver a formal spoken communication to an audience\"--this could describe how Obama addresses the leaders as he addresses the issues.", 
@@ -7017,6 +7005,12 @@
         "word_name": "synthesize", 
         "word_example": "Digital animators did motion studies, copying the movement of these animals frame by frame until they could  synthesize a convincing idea of dinosaur movement."
       }, 
+      "model": {
+        "word_definition": "a representation of something, often on a smaller scale", 
+        "word_description": "If an Art teacher asks you to model, you could \"assume a posture\" or form something out of clay, wax, etc. If an English teacher hands you a model essay, you should examine it to see what is \"worthy of imitation\" and then \"plan or create according to the example.\"", 
+        "word_name": "model", 
+        "word_example": "A working computer  model of living cells, even if it were somewhat sketchy and not quite accurate, would be a fantastically useful tool."
+      }, 
       "determine": {
         "word_definition": "establish after a calculation, investigation, or experiment", 
         "word_description": "", 
@@ -7077,12 +7071,6 @@
         "word_name": "equivalent", 
         "word_example": "To me, Flappy Bird is the game  equivalent of eating hot chiles\u2014the pain makes you sweat and captures your attention."
       }, 
-      "authentic": {
-        "word_definition": "conforming to fact and therefore worthy of belief", 
-        "word_description": "", 
-        "word_name": "authentic", 
-        "word_example": "\u201cWe wanted to make it look  authentic, like your Lego play set was truly coming to life.\u201d"
-      }, 
       "support": {
         "word_definition": "provide with evidence or authority or make more certain", 
         "word_description": "The Latin \"sub\" means \"from below\" and \"portare\" means \"to carry\"--this idea can be seen more clearly in other definitions of \"support\": 1) carry the weight of; 2) argue or speak in defense of; 3) give moral or psychological aid or courage to.", 
@@ -7137,11 +7125,23 @@
         "word_name": "draft", 
         "word_example": "He wrote his first  draft of the script, based on a short story by the Danish-born writer Isak Dinesen, in 1973."
       }, 
+      "chart": {
+        "word_definition": "a visual display of information", 
+        "word_description": "The example sentence uses \"chart\" as a noun, but it could also be a verb: as a meteorologist, Mr. Bateman was asked to chart (\"represent by means of a graph\") every possible weather pattern at specific times in New York and New Jersey, so that the National Football League could chart (\"plan in detail\") the first Superbowl held outdoors in a cold winter environment.", 
+        "word_name": "chart", 
+        "word_example": "Mr. Bateman said he was told to prepare \u201cwhiz bang\u201d  charts that detail everything from wind speeds to temperature trends."
+      }, 
       "analyze": {
         "word_definition": "make a mathematical, chemical, or grammatical study of", 
         "word_description": "", 
         "word_name": "analyze", 
         "word_example": "The babies in the study wore vests equipped with devices that record and  analyze the conversations and background noises near the baby over 16 hours."
+      }, 
+      "compare": {
+        "word_definition": "examine and note the similarities or differences of", 
+        "word_description": "", 
+        "word_name": "compare", 
+        "word_example": "Many  compared the halfpipe to the one used for the 2010 Vancouver Games, which was similarly criticized in the days before the competition."
       }, 
       "cite": {
         "word_definition": "refer to for illustration or proof", 
@@ -7286,12 +7286,6 @@
         "word_description": "", 
         "word_name": "plagiarism", 
         "word_example": "Brush up on the definition of  plagiarism and the reason we give others credit for their work."
-      }, 
-      "correlate": {
-        "word_definition": "to bear a reciprocal or mutual relation", 
-        "word_description": "", 
-        "word_name": "correlate", 
-        "word_example": "He lays the blame squarely on weather and bee management practices, which  correlate more closely with bee survival rates than does the use of neonics."
       }, 
       "consist": {
         "word_definition": "have its essential character", 
@@ -7467,6 +7461,12 @@
         "word_name": "argument", 
         "word_example": "An oft-quoted  argument for investing in emerging markets is their superior economic growth."
       }, 
+      "cumulative": {
+        "word_definition": "increasing by successive addition", 
+        "word_description": "", 
+        "word_name": "cumulative", 
+        "word_example": "Mr. Levinson recommended that Medicare officials \u201cestablish a  cumulative payment threshold\u201d and closely examine claims filed by any doctor whose total exceeded that amount."
+      }, 
       "general": {
         "word_definition": "of worldwide scope or applicability", 
         "word_description": "\"General\" also means \"affecting the entire body\" and \"somewhat indefinite\"--these definitions are suggested by the word \"nutrition\" which connects to the body and covers a wide range of foods and ways of preparation and eating.", 
@@ -7496,6 +7496,12 @@
         "word_description": "", 
         "word_name": "narrator", 
         "word_example": "Using the \"stream of consciousness\" technique, her book begins with its  narrator speaking from inside her mother's womb."
+      }, 
+      "presume": {
+        "word_definition": "take to be the case or to be true", 
+        "word_description": "Compare with \"assume\"--the chosen example sentences and definitions show the verbs to be synonymous. Both come from the Latin verb \"sumere\" which means \"to take\" but their different prefixes are clues to other definitions: \"ad\" means \"to\" so \"assume\" can mean to take to oneself a form, power, or garment; \"prae\" means \"before\" so \"presume\" can mean to take an action before asking for permission.", 
+        "word_name": "presume", 
+        "word_example": "Though we never see her there, I  presume she takes classes and participates in extracurriculars and goes to college parties."
       }, 
       "prose": {
         "word_definition": "ordinary writing as distinguished from verse", 
@@ -7641,12 +7647,6 @@
         "word_name": "paraphrase", 
         "word_example": "He  paraphrased a quotation attributed to Albert Einstein: \u201cIf an idea is not absurd, there is no hope for it.\u201d"
       }, 
-      "require": {
-        "word_definition": "need as useful, just, or proper", 
-        "word_description": "", 
-        "word_name": "require", 
-        "word_example": "It is messy work that  requires bronze brushes, cork with sandpaper, scrapers, waxing irons and surgical masks."
-      }, 
       "infer": {
         "word_definition": "reason by deduction; establish by deduction", 
         "word_description": "Compare with \"deduce\"--the example sentences and chosen definitions show the verbs as synonymous. But they can also be antonymous, since \"deduce\" means \"reason from the general to the particular\" while \"infer\" means \"draw from specific cases for more general cases\"--this makes a deduction seem more credible than an inference, especially since \"infer\" can also mean \"solve by guessing.\"", 
@@ -7719,17 +7719,17 @@
         "word_name": "narrative", 
         "word_example": "There are fiery chases and hectic brawls, and a crowd of famous voices simultaneously enacting and lampooning the standard cartoon-quest  narrative of heroic self-discovery."
       }, 
-      "effect": {
-        "word_definition": "a phenomenon that is caused by some previous phenomenon", 
-        "word_description": "Compare with \"consequence\"--in the example sentences shown in this list, the two nouns are synonymous. Compare with \"affect\"--aside from the similar spellings, another reason the two words are often confused is that an effect can be both a result and the power to achieve a result.", 
-        "word_name": "effect", 
-        "word_example": "Scientists analysed health improvements from riding the bikes with the potentially harmful  effects of physical injury and inhaling traffic fumes."
-      }, 
-      "compare": {
-        "word_definition": "examine and note the similarities or differences of", 
+      "require": {
+        "word_definition": "need as useful, just, or proper", 
         "word_description": "", 
-        "word_name": "compare", 
-        "word_example": "Many  compared the halfpipe to the one used for the 2010 Vancouver Games, which was similarly criticized in the days before the competition."
+        "word_name": "require", 
+        "word_example": "It is messy work that  requires bronze brushes, cork with sandpaper, scrapers, waxing irons and surgical masks."
+      }, 
+      "variation": {
+        "word_definition": "something a little different from others of the same type", 
+        "word_description": "", 
+        "word_name": "variation", 
+        "word_example": "Though the mountains may look like one massive granite blob, sharp boundaries mark chemical  variations within the range."
       }, 
       "reflect": {
         "word_definition": "give evidence of", 
@@ -7737,11 +7737,11 @@
         "word_name": "reflect", 
         "word_example": "In part, the decrease in cases  reflects reforms in Florida\u2019s juvenile system, which is sending fewer children to court."
       }, 
-      "cumulative": {
-        "word_definition": "increasing by successive addition", 
-        "word_description": "", 
-        "word_name": "cumulative", 
-        "word_example": "Mr. Levinson recommended that Medicare officials \u201cestablish a  cumulative payment threshold\u201d and closely examine claims filed by any doctor whose total exceeded that amount."
+      "produce": {
+        "word_definition": "bring forth or yield", 
+        "word_description": "\"Produce\" also means 1) come to have or undergo a change of; 2) cultivate by growing; 3) cause to happen, occur, or exist; 4) create or manufacture a man-made product--all five definitions can mostly fit here because scientists sliced DNA strands, injected them into fertilized eggs, and encouraged the growth of embryos with the intent of implanting them into females to produce macaque monkey babies with genetic profiles similar to sick humans (for use in future experiments).", 
+        "word_name": "produce", 
+        "word_example": "The manipulation  produced 15 normally developing embryos\u2014of which all but one showed evidence of the desired genetic changes."
       }, 
       "intent": {
         "word_definition": "the intended meaning of a communication", 
@@ -7785,11 +7785,11 @@
         "word_name": "clue", 
         "word_example": "It may also give us  clues to a second antimatter mystery: Why is there more matter than antimatter in the universe?"
       }, 
-      "chart": {
-        "word_definition": "a visual display of information", 
-        "word_description": "The example sentence uses \"chart\" as a noun, but it could also be a verb: as a meteorologist, Mr. Bateman was asked to chart (\"represent by means of a graph\") every possible weather pattern at specific times in New York and New Jersey, so that the National Football League could chart (\"plan in detail\") the first Superbowl held outdoors in a cold winter environment.", 
-        "word_name": "chart", 
-        "word_example": "Mr. Bateman said he was told to prepare \u201cwhiz bang\u201d  charts that detail everything from wind speeds to temperature trends."
+      "authentic": {
+        "word_definition": "conforming to fact and therefore worthy of belief", 
+        "word_description": "", 
+        "word_name": "authentic", 
+        "word_example": "\u201cWe wanted to make it look  authentic, like your Lego play set was truly coming to life.\u201d"
       }, 
       "result": {
         "word_definition": "a phenomenon that is caused by some previous phenomenon", 
@@ -7833,11 +7833,11 @@
         "word_name": "outline", 
         "word_example": "In his speech, Mr Obama  outlined his priority topics for the year, including healthcare, minimum wage and the pullout from Afghanistan."
       }, 
-      "imply": {
-        "word_definition": "suggest as a logically necessary consequence", 
-        "word_description": "\"Imply\" also means \"express or state indirectly\" or \"suggest that someone is guilty\"--neither of these definitions fits the example sentence since it directly states that a focus on sharing can lead to less consumption, and this would not be a situation that would require a suggestion of guilt.", 
-        "word_name": "imply", 
-        "word_example": "In a consumer-oriented economy, where the idea is for people to consume, changing the paradigm to sharing would seem to  imply a lot less consumption.\u00a0"
+      "correlate": {
+        "word_definition": "to bear a reciprocal or mutual relation", 
+        "word_description": "", 
+        "word_name": "correlate", 
+        "word_example": "He lays the blame squarely on weather and bee management practices, which  correlate more closely with bee survival rates than does the use of neonics."
       }, 
       "intermittent": {
         "word_definition": "stopping and starting at irregular intervals", 
@@ -7929,17 +7929,17 @@
         "word_name": "preview", 
         "word_example": "Instead of trying to surprise viewers, many sponsors are filling social-media platforms with  previews, teasers and coming attractions in hopes of stimulating additional interest."
       }, 
-      "model": {
-        "word_definition": "a representation of something, often on a smaller scale", 
-        "word_description": "If an Art teacher asks you to model, you could \"assume a posture\" or form something out of clay, wax, etc. If an English teacher hands you a model essay, you should examine it to see what is \"worthy of imitation\" and then \"plan or create according to the example.\"", 
-        "word_name": "model", 
-        "word_example": "A working computer  model of living cells, even if it were somewhat sketchy and not quite accurate, would be a fantastically useful tool."
+      "effect": {
+        "word_definition": "a phenomenon that is caused by some previous phenomenon", 
+        "word_description": "Compare with \"consequence\"--in the example sentences shown in this list, the two nouns are synonymous. Compare with \"affect\"--aside from the similar spellings, another reason the two words are often confused is that an effect can be both a result and the power to achieve a result.", 
+        "word_name": "effect", 
+        "word_example": "Scientists analysed health improvements from riding the bikes with the potentially harmful  effects of physical injury and inhaling traffic fumes."
       }, 
-      "presume": {
-        "word_definition": "take to be the case or to be true", 
-        "word_description": "Compare with \"assume\"--the chosen example sentences and definitions show the verbs to be synonymous. Both come from the Latin verb \"sumere\" which means \"to take\" but their different prefixes are clues to other definitions: \"ad\" means \"to\" so \"assume\" can mean to take to oneself a form, power, or garment; \"prae\" means \"before\" so \"presume\" can mean to take an action before asking for permission.", 
-        "word_name": "presume", 
-        "word_example": "Though we never see her there, I  presume she takes classes and participates in extracurriculars and goes to college parties."
+      "imply": {
+        "word_definition": "suggest as a logically necessary consequence", 
+        "word_description": "\"Imply\" also means \"express or state indirectly\" or \"suggest that someone is guilty\"--neither of these definitions fits the example sentence since it directly states that a focus on sharing can lead to less consumption, and this would not be a situation that would require a suggestion of guilt.", 
+        "word_name": "imply", 
+        "word_example": "In a consumer-oriented economy, where the idea is for people to consume, changing the paradigm to sharing would seem to  imply a lot less consumption.\u00a0"
       }, 
       "defend": {
         "word_definition": "argue or speak in justification of", 
@@ -8213,12 +8213,6 @@
         "word_name": "simultaneous", 
         "word_example": "Attendees also will be connected to  simultaneous conferences taking place in other parts of the world using technology from Skype."
       }, 
-      "structure": {
-        "word_definition": "a complex entity made of many parts", 
-        "word_description": "", 
-        "word_name": "structure", 
-        "word_example": "During this time we go from a fertilised egg to a  structure called a blastocyst, containing 200-300 cells."
-      }, 
       "evaluate": {
         "word_definition": "estimate the nature, quality, ability or significance of", 
         "word_description": "", 
@@ -8255,6 +8249,12 @@
         "word_name": "hypothesis", 
         "word_example": "While the data has yet to be formally analyzed, early observations back the  hypothesis that the sharks like being around one another."
       }, 
+      "pertinent": {
+        "word_definition": "having precise or logical relevance to the matter at hand", 
+        "word_description": "", 
+        "word_name": "pertinent", 
+        "word_example": "You can also share images, videos and files that are  pertinent to your business as well as plain text messages."
+      }, 
       "entity": {
         "word_definition": "that which is perceived to have its own distinct existence ", 
         "word_description": "", 
@@ -8273,11 +8273,11 @@
         "word_name": "tradition", 
         "word_example": "Our  traditions and values form the bedrock on which future generations stand."
       }, 
-      "specify": {
-        "word_definition": "define clearly", 
+      "structure": {
+        "word_definition": "a complex entity made of many parts", 
         "word_description": "", 
-        "word_name": "specify", 
-        "word_example": "Authorities said they had recovered some money but did not  specify how much."
+        "word_name": "structure", 
+        "word_example": "During this time we go from a fertilised egg to a  structure called a blastocyst, containing 200-300 cells."
       }, 
       "convert": {
         "word_definition": "change the nature, purpose, or function of something", 
@@ -8285,11 +8285,11 @@
         "word_name": "convert", 
         "word_example": "A metal that poses health risks, mercury can be  converted into a gas during industrial activities as well as such natural events as volcanic eruptions."
       }, 
-      "pertinent": {
-        "word_definition": "having precise or logical relevance to the matter at hand", 
+      "specify": {
+        "word_definition": "define clearly", 
         "word_description": "", 
-        "word_name": "pertinent", 
-        "word_example": "You can also share images, videos and files that are  pertinent to your business as well as plain text messages."
+        "word_name": "specify", 
+        "word_example": "Authorities said they had recovered some money but did not  specify how much."
       }, 
       "evident": {
         "word_definition": "clearly revealed to the mind or the senses or judgment", 
@@ -10367,6 +10367,12 @@
         "word_name": "reflect", 
         "word_example": "Which statement from the passage from The Autobiography of an Ex-Colored Man best  reflects the answer to Part A?"
       }, 
+      "analytical": {
+        "word_definition": "using or skilled in using reasoning", 
+        "word_description": "", 
+        "word_name": "analytical", 
+        "word_example": "As you read these texts, you will gather information and answer "
+      }, 
       "meaning": {
         "word_definition": "the message that is intended or expressed or signified", 
         "word_description": "", 
@@ -10420,12 +10426,6 @@
         "word_description": "", 
         "word_name": "novel", 
         "word_example": "Today you will read and analyze passages from two  novels."
-      }, 
-      "context": {
-        "word_definition": "the set of facts or circumstances that surround a situation", 
-        "word_description": "", 
-        "word_name": "context", 
-        "word_example": "What suggestion in paragraphs 5 and 6 provides  context for understanding the answer to Part A?"
       }, 
       "document": {
         "word_definition": "a representation of a person's thinking with symbolic marks", 
@@ -10487,11 +10487,11 @@
         "word_name": "source", 
         "word_example": "As you study these  sources, pay particular attention to the rhetorical "
       }, 
-      "suggestion": {
-        "word_definition": "an idea that is proposed", 
+      "context": {
+        "word_definition": "the set of facts or circumstances that surround a situation", 
         "word_description": "", 
-        "word_name": "suggestion", 
-        "word_example": "What  suggestion in paragraphs 5 and 6 provides context for understanding the answer to Part A?"
+        "word_name": "context", 
+        "word_example": "What suggestion in paragraphs 5 and 6 provides  context for understanding the answer to Part A?"
       }, 
       "contain": {
         "word_definition": "hold or have within", 
@@ -10499,11 +10499,11 @@
         "word_name": "contain", 
         "word_example": "Paragraph 4 of the transcript  contains the claim that the discovery \u201creveals an important shift in the Founders\u2019 thinking: that the people\u2019s allegiance was to one another.\u201d"
       }, 
-      "analytical": {
-        "word_definition": "using or skilled in using reasoning", 
+      "suggestion": {
+        "word_definition": "an idea that is proposed", 
         "word_description": "", 
-        "word_name": "analytical", 
-        "word_example": "As you read these texts, you will gather information and answer "
+        "word_name": "suggestion", 
+        "word_example": "What  suggestion in paragraphs 5 and 6 provides context for understanding the answer to Part A?"
       }, 
       "highlight": {
         "word_definition": "move into the foreground to make more visible or prominent", 
@@ -10841,6 +10841,12 @@
         "word_name": "corroborate", 
         "word_example": ""
       }, 
+      "fastidious": {
+        "word_definition": "giving careful attention to detail", 
+        "word_description": "", 
+        "word_name": "fastidious", 
+        "word_example": ""
+      }, 
       "garrulous": {
         "word_definition": "full of trivial conversation", 
         "word_description": "", 
@@ -10967,10 +10973,10 @@
         "word_name": "eclectic", 
         "word_example": ""
       }, 
-      "premonition": {
-        "word_definition": "an early warning about a future event", 
+      "derivative": {
+        "word_definition": "a compound obtained from another compound", 
         "word_description": "", 
-        "word_name": "premonition", 
+        "word_name": "derivative", 
         "word_example": ""
       }, 
       "gluttonous": {
@@ -11039,12 +11045,6 @@
         "word_name": "outmoded", 
         "word_example": ""
       }, 
-      "meek": {
-        "word_definition": "humble in spirit or manner", 
-        "word_description": "", 
-        "word_name": "meek", 
-        "word_example": ""
-      }, 
       "mutability": {
         "word_definition": "the quality of being capable of mutation", 
         "word_description": "", 
@@ -11069,10 +11069,10 @@
         "word_name": "decorous", 
         "word_example": ""
       }, 
-      "fastidious": {
-        "word_definition": "giving careful attention to detail", 
+      "amenable": {
+        "word_definition": "disposed or willing to comply", 
         "word_description": "", 
-        "word_name": "fastidious", 
+        "word_name": "amenable", 
         "word_example": ""
       }, 
       "taciturn": {
@@ -11123,10 +11123,10 @@
         "word_name": "premise", 
         "word_example": ""
       }, 
-      "temperament": {
-        "word_definition": "your usual mood", 
+      "premonition": {
+        "word_definition": "an early warning about a future event", 
         "word_description": "", 
-        "word_name": "temperament", 
+        "word_name": "premonition", 
         "word_example": ""
       }, 
       "docile": {
@@ -11135,10 +11135,10 @@
         "word_name": "docile", 
         "word_example": ""
       }, 
-      "derivative": {
-        "word_definition": "a compound obtained from another compound", 
+      "turbulence": {
+        "word_definition": "instability in the atmosphere", 
         "word_description": "", 
-        "word_name": "derivative", 
+        "word_name": "turbulence", 
         "word_example": ""
       }, 
       "prudent": {
@@ -11165,10 +11165,10 @@
         "word_name": "caricature", 
         "word_example": ""
       }, 
-      "amenable": {
-        "word_definition": "disposed or willing to comply", 
+      "temperament": {
+        "word_definition": "your usual mood", 
         "word_description": "", 
-        "word_name": "amenable", 
+        "word_name": "temperament", 
         "word_example": ""
       }, 
       "subdued": {
@@ -11189,10 +11189,10 @@
         "word_name": "nonchalance", 
         "word_example": ""
       }, 
-      "turbulence": {
-        "word_definition": "instability in the atmosphere", 
+      "meek": {
+        "word_definition": "humble in spirit or manner", 
         "word_description": "", 
-        "word_name": "turbulence", 
+        "word_name": "meek", 
         "word_example": ""
       }, 
       "hackneyed": {

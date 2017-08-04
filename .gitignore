@@ -95,3 +95,4 @@ tmp
 core/asset/pronunciation
 .idea
 nohup.out
+./myenv

@@ -1093,6 +1093,12 @@
     "list_brief_description": "\n", 
     "list_num": "18 Words", 
     "list_detailed_info": {
+      "uncanny": {
+        "word_definition": "surpassing the ordinary or normal", 
+        "word_description": "", 
+        "word_name": "uncanny", 
+        "word_example": ""
+      }, 
       "dreadful": {
         "word_definition": "exceptionally bad or displeasing", 
         "word_description": "", 
@@ -1117,12 +1123,6 @@
         "word_name": "eerie", 
         "word_example": ""
       }, 
-      "horrendous": {
-        "word_definition": "causing fear or dread or terror", 
-        "word_description": "", 
-        "word_name": "horrendous", 
-        "word_example": ""
-      }, 
       "haunt": {
         "word_definition": "follow stealthily or pursue like a ghost", 
         "word_description": "", 
@@ -1141,16 +1141,16 @@
         "word_name": "strange", 
         "word_example": ""
       }, 
-      "dread": {
-        "word_definition": "fearful expectation or anticipation", 
+      "pall": {
+        "word_definition": "burial garment in which a corpse is wrapped", 
         "word_description": "", 
-        "word_name": "dread", 
+        "word_name": "pall", 
         "word_example": ""
       }, 
-      "uncanny": {
-        "word_definition": "surpassing the ordinary or normal", 
+      "horrendous": {
+        "word_definition": "causing fear or dread or terror", 
         "word_description": "", 
-        "word_name": "uncanny", 
+        "word_name": "horrendous", 
         "word_example": ""
       }, 
       "terror": {
@@ -1189,10 +1189,10 @@
         "word_name": "bizarre", 
         "word_example": ""
       }, 
-      "pall": {
-        "word_definition": "burial garment in which a corpse is wrapped", 
+      "dread": {
+        "word_definition": "fearful expectation or anticipation", 
         "word_description": "", 
-        "word_name": "pall", 
+        "word_name": "dread", 
         "word_example": ""
       }
     }, 

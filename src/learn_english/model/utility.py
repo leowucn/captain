@@ -60,7 +60,7 @@ def get_raw_content(url, mark):
     try:
         res = s.get(url)
     except:
-        print_stack(55)
+        return
     soup = bs4.BeautifulSoup(res.content, 'lxml')
     return str(soup.find('div', attrs={'class': mark}))
 
@@ -90,7 +90,7 @@ def test_network(url):
 
 
 def print_stack(c):
-    print_stack('---------------------')
+    print('---------------------')
     print(c)
     traceback.print_exc()
 

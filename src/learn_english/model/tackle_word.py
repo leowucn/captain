@@ -201,7 +201,7 @@ class TackleWords:
         try:
             res = s.get(url)
         except:
-            utility.print_stack(44)
+            return
         soup = bs4.BeautifulSoup(res.content, 'lxml')
         basic1 = soup.find('div', attrs={'class': 'section blurb'})
         basic1_str = ''

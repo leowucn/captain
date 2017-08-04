@@ -149,12 +149,6 @@
         "word_name": "vagabond", 
         "word_example": "Leave your stepping stones behind, something calls for you "
       }, 
-      "demagogue": {
-        "word_definition": "a leader who seeks support by appealing to popular passions", 
-        "word_description": "", 
-        "word_name": "demagogue", 
-        "word_example": "I'm going where the Southern crosses the Yellow Dog "
-      }, 
       "martyr": {
         "word_definition": "one who suffers for the sake of principle", 
         "word_description": "", 
@@ -401,11 +395,11 @@
         "word_name": "radiant", 
         "word_example": "He knows the music intimately and led a  radiant, stirring, if sometimes uneven performance."
       }, 
-      "vacant": {
-        "word_definition": "void of thought or knowledge", 
+      "demagogue": {
+        "word_definition": "a leader who seeks support by appealing to popular passions", 
         "word_description": "", 
-        "word_name": "vacant", 
-        "word_example": "I was born here and I\u2019ll die here against my will "
+        "word_name": "demagogue", 
+        "word_example": "I'm going where the Southern crosses the Yellow Dog "
       }, 
       "chastise": {
         "word_definition": "censure severely", 
@@ -485,6 +479,12 @@
         "word_name": "reprobate", 
         "word_example": "Uttering idle words from a  reprobate mind "
       }, 
+      "bog": {
+        "word_definition": "cause to slow down or get stuck", 
+        "word_description": "", 
+        "word_name": "bog", 
+        "word_example": "Well, the last thing I remember before I stripped and kneeled "
+      }, 
       "salvation": {
         "word_definition": "a means of preserving from harm or unpleasantness", 
         "word_description": "", 
@@ -503,11 +503,11 @@
         "word_name": "sublime", 
         "word_example": "All my powers of expression and thoughts so  sublime "
       }, 
-      "bog": {
-        "word_definition": "cause to slow down or get stuck", 
+      "vacant": {
+        "word_definition": "void of thought or knowledge", 
         "word_description": "", 
-        "word_name": "bog", 
-        "word_example": "Well, the last thing I remember before I stripped and kneeled "
+        "word_name": "vacant", 
+        "word_example": "I was born here and I\u2019ll die here against my will "
       }
     }, 
     "list_href": "/lists/1041604", 
@@ -1317,17 +1317,17 @@
         "word_name": "antithetical", 
         "word_example": "And I hate political correctness because it\u2019s  antithetical to the founding principles of this country and the secular progressives use it to make people sit down and shut up while they change everything. "
       }, 
+      "beholden": {
+        "word_definition": "under a moral obligation to someone", 
+        "word_description": "", 
+        "word_name": "beholden", 
+        "word_example": "Rather than being energy independent, our country will be forced to remain  beholden to her buddies in the Middle East. "
+      }, 
       "egregious": {
         "word_definition": "conspicuously and outrageously bad or reprehensible", 
         "word_description": "", 
         "word_name": "egregious", 
         "word_example": "In fact, her single greatest accomplishment may be committing such an  egregious crime and getting away with it \u2013 especially when others have paid so dearly. When that same Secretary of State rakes in millions of dollars trading access and favors to special interests and foreign powers I know the time for action has come. "
-      }, 
-      "mentor": {
-        "word_definition": "a wise and trusted guide and advisor", 
-        "word_description": "", 
-        "word_name": "mentor", 
-        "word_example": "That president can only be my  mentor, my best friend, my father, Donald . "
       }, 
       "ineptitude": {
         "word_definition": "unskillfulness resulting from a lack of training", 
@@ -1371,11 +1371,11 @@
         "word_name": "dereliction", 
         "word_example": "Her  dereliction of duty and failure to keep her people safe played a major role in the horrific Islamic terrorist murders on September 11-12, 2012 in Benghazi which claimed the lives of four brave Americans; "
       }, 
-      "meritocracy": {
-        "word_definition": "a social system in which power goes to superior intellects", 
+      "mentor": {
+        "word_definition": "a wise and trusted guide and advisor", 
         "word_description": "", 
-        "word_name": "meritocracy", 
-        "word_example": "When run properly, construction sites are true  meritocracies. "
+        "word_name": "mentor", 
+        "word_example": "That president can only be my  mentor, my best friend, my father, Donald . "
       }, 
       "malign": {
         "word_definition": "speak unfavorably about", 
@@ -1407,11 +1407,11 @@
         "word_name": "discerning", 
         "word_example": "That we are, as we have always been, one nation under God, indivisible, with liberty and justice for all. Should I have the awesome privilege to serve as your vice president, I promise to keep faith with that conviction, to pray daily for a wise and  discerning heart, for who is able to govern this great people without it? "
       }, 
-      "beholden": {
-        "word_definition": "under a moral obligation to someone", 
+      "meritocracy": {
+        "word_definition": "a social system in which power goes to superior intellects", 
         "word_description": "", 
-        "word_name": "beholden", 
-        "word_example": "Rather than being energy independent, our country will be forced to remain  beholden to her buddies in the Middle East. "
+        "word_name": "meritocracy", 
+        "word_example": "When run properly, construction sites are true  meritocracies. "
       }
     }, 
     "list_href": "/lists/1142552", 
@@ -2429,12 +2429,6 @@
     "list_brief_description": "The third and final presidential debate of this election took place on October 19, 2016 at the University of Nevada-Las Vegas. Considering the large amount of i...", 
     "list_num": "20 Words", 
     "list_detailed_info": {
-      "stagnant": {
-        "word_definition": "not growing or changing; without force or vitality", 
-        "word_description": "", 
-        "word_name": "stagnant", 
-        "word_example": "Look, our country is  stagnant. We've lost our jobs. We've lost our businesses.We're not making things anymore, relatively speaking, our product is pouring in from China, pouring in from Vietnam, pouring in from all over the world.  "
-      }, 
       "proponent": {
         "word_definition": "a person who pleads for a cause or propounds an idea", 
         "word_description": "", 
@@ -2447,17 +2441,23 @@
         "word_name": "stringent", 
         "word_example": "And in this case it's not only about Roe v. Wade. It is about what's happening right now in America so many states are putting very  stringent regulations on women that block them from exercising that choice to the extent that they are defunding Planned Parenthood, which, of course, provides all kinds of cancer screenings and other benefits for women in our country. "
       }, 
-      "replica": {
-        "word_definition": "copy that is not the original", 
+      "racketeer": {
+        "word_definition": "someone who commits crimes for profit", 
         "word_description": "", 
-        "word_name": "replica", 
-        "word_example": "I believe if my opponent should win this race, which I truly don't think will happen, we will have a second amendment which will be a very, very small  replica of what it is right now.  "
+        "word_name": "racketeer", 
+        "word_example": "He went after a federal judge, born in Indiana but who Donald said couldn't be trusted to try the fraud and  racketeering case against Trump University because his parents were Mexican. "
       }, 
       "rhetoric": {
         "word_definition": "loud and confused and empty talk", 
         "word_description": "", 
         "word_name": "rhetoric", 
         "word_example": "Well, that is not what happens in these cases [of late-term abortions] And using that kind of scare  rhetoric is just terribly unfortunate. You should meet with some of the women that I've met with.Women I've known over the course of my life.  "
+      }, 
+      "repeal": {
+        "word_definition": "cancel officially", 
+        "word_description": "", 
+        "word_name": "repeal", 
+        "word_example": "And one thing we have to do,  repeal and replace the disaster known as Obamacare. "
       }, 
       "anemic": {
         "word_definition": "lacking vigor or energy", 
@@ -2477,11 +2477,11 @@
         "word_name": "debunk", 
         "word_example": "Well, first of all, what he just said about the state department is not only untrue, it's been...  debunked numerous times. "
       }, 
-      "racketeer": {
-        "word_definition": "someone who commits crimes for profit", 
+      "replica": {
+        "word_definition": "copy that is not the original", 
         "word_description": "", 
-        "word_name": "racketeer", 
-        "word_example": "He went after a federal judge, born in Indiana but who Donald said couldn't be trusted to try the fraud and  racketeering case against Trump University because his parents were Mexican. "
+        "word_name": "replica", 
+        "word_example": "I believe if my opponent should win this race, which I truly don't think will happen, we will have a second amendment which will be a very, very small  replica of what it is right now.  "
       }, 
       "imperative": {
         "word_definition": "some duty that is essential and urgent", 
@@ -2513,11 +2513,11 @@
         "word_name": "amnesty", 
         "word_example": "First of all, she wants to give  amnesty,[ to illegal immigrants already in the United States] which is a disaster and very unfair to all the people who are waiting in line [ for legal citizenship] for many years. "
       }, 
-      "repeal": {
-        "word_definition": "cancel officially", 
+      "stagnant": {
+        "word_definition": "not growing or changing; without force or vitality", 
         "word_description": "", 
-        "word_name": "repeal", 
-        "word_example": "And one thing we have to do,  repeal and replace the disaster known as Obamacare. "
+        "word_name": "stagnant", 
+        "word_example": "Look, our country is  stagnant. We've lost our jobs. We've lost our businesses.We're not making things anymore, relatively speaking, our product is pouring in from China, pouring in from Vietnam, pouring in from all over the world.  "
       }, 
       "gold standard": {
         "word_definition": "a paragon of excellence", 

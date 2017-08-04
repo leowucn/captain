@@ -6,4 +6,4 @@ requests
 python-dateutil 
 pytz
 lxml
-gevent
+html5lib==1.0b8
