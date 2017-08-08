@@ -34,7 +34,8 @@ def write_to_json_file(file_name, data):
     feeds = dict()
     if os.path.exists(file_name):
         with open(file_name) as feeds_json:
-            feeds = json.load(feeds_json)
+            if feeds_json is not None:
+                feeds = json.load(feeds_json)
     for word, verbose_info in data.iteritems():
         feeds[word] = verbose_info
     with open(file_name, mode='w') as f:
@@ -53,8 +54,6 @@ def get_ip():
 
 
 def get_raw_content(url, mark):
-    if not test_network("https://www.vocabulary.com/"):
-        return ''
     s = requests.session()
     s.keep_alive = False
     try:
@@ -80,13 +79,6 @@ def extract_info_from_raw(raw_content, mark):
     res = raw_content[left_bracket_index + 1:right_bracket_index]
     res = res.replace('&amp;', '&')
     return res
-
-
-def test_network(url):
-    code = urllib.urlopen(url).getcode()
-    if code != 200:
-        return False
-    return True
 
 
 def print_stack(c):

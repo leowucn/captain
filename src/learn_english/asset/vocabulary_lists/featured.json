@@ -3,1322 +3,1458 @@
     "list_brief_description": "The clear and present danger to 1970s American way of life was the energy crisis. In response to...\r\n\r\n", 
     "list_num": "35 Words", 
     "list_detailed_info": {
-      "patriotism": {
-        "word_definition": "love of country and willingness to sacrifice for it", 
-        "word_description": "", 
-        "word_name": "patriotism", 
-        "word_example": "Every act of energy conservation like this is more than just common sense\u2014I tell you it is an act of  patriotism."
-      }, 
-      "energy": {
-        "word_definition": "any source of usable power", 
-        "word_description": "", 
-        "word_name": "energy", 
-        "word_example": "So, the solution of our  energy crisis can also help us to conquer the crisis of the spirit in our country."
-      }, 
-      "innovative": {
-        "word_definition": "being like nothing done or experienced or created before", 
-        "word_description": "", 
-        "word_name": "innovative", 
-        "word_example": "We have the most skilled work force, with  innovative genius, and I firmly believe that we have the national will to win this war."
-      }, 
       "excessive": {
-        "word_definition": "beyond normal limits", 
         "word_description": "", 
         "word_name": "excessive", 
-        "word_example": "Our  excessive dependence on OPEC has already taken a tremendous toll on our economy and our people."
+        "word_example": "Our  excessive dependence on OPEC has already taken a tremendous toll on our economy and our people.", 
+        "word_definition": "beyond normal limits"
+      }, 
+      "energy": {
+        "word_description": "", 
+        "word_name": "energy", 
+        "word_example": "So, the solution of our  energy crisis can also help us to conquer the crisis of the spirit in our country.", 
+        "word_definition": "any source of usable power"
+      }, 
+      "innovative": {
+        "word_description": "", 
+        "word_name": "innovative", 
+        "word_example": "We have the most skilled work force, with  innovative genius, and I firmly believe that we have the national will to win this war.", 
+        "word_definition": "being like nothing done or experienced or created before"
+      }, 
+      "patriotism": {
+        "word_description": "", 
+        "word_name": "patriotism", 
+        "word_example": "Every act of energy conservation like this is more than just common sense\u2014I tell you it is an act of  patriotism.", 
+        "word_definition": "love of country and willingness to sacrifice for it"
       }, 
       "alternative": {
-        "word_definition": "serving or used in place of another", 
         "word_description": "", 
         "word_name": "alternative", 
-        "word_example": "To give us energy security, I am asking for the most massive peacetime commitment of funds and resources in our nation's history to develop America's own  alternative sources of fuel\u2014from coal, from oil shale, from plant products for gasohol, from unconventional gas, from the sun."
+        "word_example": "To give us energy security, I am asking for the most massive peacetime commitment of funds and resources in our nation's history to develop America's own  alternative sources of fuel\u2014from coal, from oil shale, from plant products for gasohol, from unconventional gas, from the sun.", 
+        "word_definition": "serving or used in place of another"
       }, 
       "technology": {
-        "word_definition": "the practical application of science to commerce or industry", 
         "word_description": "", 
         "word_name": "technology", 
-        "word_example": "We have the world's highest level of  technology."
+        "word_example": "We have the world's highest level of  technology.", 
+        "word_definition": "the practical application of science to commerce or industry"
       }, 
       "crisis": {
-        "word_definition": "an unstable situation of extreme danger or difficulty", 
         "word_description": "", 
         "word_name": "crisis", 
-        "word_example": "\"Mr. President, we are confronted with a moral and a spiritual  crisis.\""
+        "word_example": "\"Mr. President, we are confronted with a moral and a spiritual  crisis.\"", 
+        "word_definition": "an unstable situation of extreme danger or difficulty"
       }, 
       "confidence": {
-        "word_definition": "a state of hopefulness that events will be favorable", 
         "word_description": "", 
         "word_name": "confidence", 
-        "word_example": "It is a crisis of  confidence. It is a crisis that strikes at the very heart and soul and spirit of our national will."
+        "word_example": "It is a crisis of  confidence. It is a crisis that strikes at the very heart and soul and spirit of our national will.", 
+        "word_definition": "a state of hopefulness that events will be favorable"
       }, 
       "strength": {
-        "word_definition": "the property of being physically or mentally powerful", 
         "word_description": "", 
         "word_name": "strength", 
-        "word_example": "We know the  strength of America. We are strong. We can regain our unity. We can regain our confidence. We are the heirs of generations who survived threats much more powerful and awesome than those that challenge us now. Our fathers and mothers were strong men and women who shaped a new society during the Great Depression, who fought world wars, and who carved out a new charter of peace for the world."
+        "word_example": "We know the  strength of America. We are strong. We can regain our unity. We can regain our confidence. We are the heirs of generations who survived threats much more powerful and awesome than those that challenge us now. Our fathers and mothers were strong men and women who shaped a new society during the Great Depression, who fought world wars, and who carved out a new charter of peace for the world.", 
+        "word_definition": "the property of being physically or mentally powerful"
       }, 
       "productivity": {
-        "word_definition": "the quality of yielding positive results", 
         "word_description": "", 
         "word_name": "productivity", 
-        "word_example": "The  productivity of American workers is actually dropping, and the willingness of Americans to save for the future has fallen below that of all other people in the Western world."
+        "word_example": "The  productivity of American workers is actually dropping, and the willingness of Americans to save for the future has fallen below that of all other people in the Western world.", 
+        "word_definition": "the quality of yielding positive results"
       }, 
       "destiny": {
-        "word_definition": "a course of events that will inevitably happen in the future", 
         "word_description": "", 
         "word_name": "destiny", 
-        "word_example": "On the battlefield of energy we can win for our nation a new confidence, and we can seize control again of our common  destiny."
+        "word_example": "On the battlefield of energy we can win for our nation a new confidence, and we can seize control again of our common  destiny.", 
+        "word_definition": "a course of events that will inevitably happen in the future"
       }, 
       "consumption": {
-        "word_definition": " the utilization of economic goods to satisfy needs", 
         "word_description": "", 
         "word_name": "consumption", 
-        "word_example": "In a nation that was proud of hard work, strong families, close-knit communities, and our faith in God, too many of us now tend to worship self-indulgence and  consumption."
+        "word_example": "In a nation that was proud of hard work, strong families, close-knit communities, and our faith in God, too many of us now tend to worship self-indulgence and  consumption.", 
+        "word_definition": " the utilization of economic goods to satisfy needs"
       }, 
       "inexhaustible": {
-        "word_definition": "incapable of being entirely consumed or used up", 
         "word_description": "", 
         "word_name": "inexhaustible", 
-        "word_example": "I have seen the strength of America in the  inexhaustible resources of our people."
+        "word_example": "I have seen the strength of America in the  inexhaustible resources of our people.", 
+        "word_definition": "incapable of being entirely consumed or used up"
       }, 
       "isolated": {
-        "word_definition": "remote and separate physically or socially", 
         "word_description": "", 
         "word_name": "isolated", 
-        "word_example": "Looking for a way out of this crisis, our people have turned to the Federal government and found it  isolated from the mainstream of our nation's life."
+        "word_example": "Looking for a way out of this crisis, our people have turned to the Federal government and found it  isolated from the mainstream of our nation's life.", 
+        "word_definition": "remote and separate physically or socially"
       }, 
       "unity": {
-        "word_definition": "the quality of being fused into one", 
         "word_description": "", 
         "word_name": "unity", 
-        "word_example": "And we are the generation that will win the war on the energy problem and in that process rebuild the  unity and confidence of America."
+        "word_example": "And we are the generation that will win the war on the energy problem and in that process rebuild the  unity and confidence of America.", 
+        "word_definition": "the quality of being fused into one"
       }, 
       "conservation": {
-        "word_definition": "careful management of the environment and natural resources", 
         "word_description": "", 
         "word_name": "conservation", 
-        "word_example": "From now on, every new addition to our demand for energy will be met from our own production and our own  conservation."
+        "word_example": "From now on, every new addition to our demand for energy will be met from our own production and our own  conservation.", 
+        "word_definition": "careful management of the environment and natural resources"
       }, 
       "fuel": {
-        "word_definition": "a substance that can be consumed to produce energy", 
         "word_description": "", 
         "word_name": "fuel", 
-        "word_example": "And I'm asking you for your good and for your nation's security to take no unnecessary trips, to use carpools or public transportation whenever you can, to park your car one extra day per week, to obey the speed limit, and to set your thermostats to save  fuel."
+        "word_example": "And I'm asking you for your good and for your nation's security to take no unnecessary trips, to use carpools or public transportation whenever you can, to park your car one extra day per week, to obey the speed limit, and to set your thermostats to save  fuel.", 
+        "word_definition": "a substance that can be consumed to produce energy"
       }, 
       "progress": {
-        "word_definition": "gradual improvement or growth or development", 
         "word_description": "", 
         "word_name": "progress", 
-        "word_example": "We've always believed in something called  progress. We've always had a faith that the days of our children would be better than our own."
+        "word_example": "We've always believed in something called  progress. We've always had a faith that the days of our children would be better than our own.", 
+        "word_definition": "gradual improvement or growth or development"
       }, 
       "erosion": {
-        "word_definition": "a gradual decline of something", 
         "word_description": "", 
         "word_name": "erosion", 
-        "word_example": "The  erosion of our confidence in the future is threatening to destroy the social and the political fabric of America."
-      }, 
-      "awareness": {
-        "word_definition": "having knowledge of", 
-        "word_description": "", 
-        "word_name": "awareness", 
-        "word_example": "Just as the search for solutions to our energy shortages has now led us to a new  awareness of our Nation's deeper problems, so our willingness to work for those solutions in energy can strengthen us to attack those deeper problems."
-      }, 
-      "common": {
-        "word_definition": "belonging to or participated in by the people as a whole", 
-        "word_description": "", 
-        "word_name": "common", 
-        "word_example": "All the traditions of our past, all the lessons of our heritage, all the promises of our future point to another path, the path of  common purpose and the restoration of American values."
-      }, 
-      "stagnation": {
-        "word_definition": "a state of inactivity", 
-        "word_description": "", 
-        "word_name": "stagnation", 
-        "word_example": "Often you see paralysis and  stagnation and drift."
-      }, 
-      "faith": {
-        "word_definition": "complete confidence in a person or plan, etc.", 
-        "word_description": "", 
-        "word_name": "faith", 
-        "word_example": "Our people are losing that  faith, not only in government itself but in the ability as citizens to serve as the ultimate rulers and shapers of our democracy."
-      }, 
-      "doubt": {
-        "word_definition": "the state of being unsure of something", 
-        "word_description": "", 
-        "word_name": "doubt", 
-        "word_example": "We can see this crisis in the growing  doubt about the meaning of our own lives and in the loss of a unity of purpose for our nation."
-      }, 
-      "effort": {
-        "word_definition": "use of physical or mental energy; hard work", 
-        "word_description": "", 
-        "word_name": "effort", 
-        "word_example": "I do not promise a quick way out of our nation's problems, when the truth is that the only way out is an all-out  effort."
-      }, 
-      "tragedy": {
-        "word_definition": "an event resulting in great loss and misfortune", 
-        "word_description": "", 
-        "word_name": "tragedy", 
-        "word_example": "These changes did not happen overnight. They've come upon us gradually over the last generation, years that were filled with shocks and  tragedy."
-      }, 
-      "rebirth": {
-        "word_definition": "a spiritual enlightenment causing personal change", 
-        "word_description": "", 
-        "word_name": "rebirth", 
-        "word_example": "Let us commit ourselves together to a  rebirth of the American spirit."
-      }, 
-      "fragmentation": {
-        "word_definition": "the disintegration of social norms governing behavior", 
-        "word_description": "", 
-        "word_name": "fragmentation", 
-        "word_example": "One is a path I've warned about tonight, the path that leads to  fragmentation and self-interest."
-      }, 
-      "resource": {
-        "word_definition": "a new or reserve supply that can be drawn upon when needed", 
-        "word_description": "", 
-        "word_name": "resource", 
-        "word_example": "We have the natural  resources. We have more oil in our shale alone than several Saudi Arabias. We have more coal than any nation on Earth."
-      }, 
-      "dependence": {
-        "word_definition": "the state of relying on someone or something else", 
-        "word_description": "", 
-        "word_name": "dependence", 
-        "word_example": "We believed that our nation's resources were limitless until 1973, when we had to face a growing  dependence on foreign oil."
+        "word_example": "The  erosion of our confidence in the future is threatening to destroy the social and the political fabric of America.", 
+        "word_definition": "a gradual decline of something"
       }, 
       "critical": {
-        "word_definition": "urgently needed; absolutely necessary", 
         "word_description": "", 
         "word_name": "critical", 
-        "word_example": "We will protect our environment. But when this nation critically needs a refinery or a pipeline, we will build it."
+        "word_example": "We will protect our environment. But when this nation critically needs a refinery or a pipeline, we will build it.", 
+        "word_definition": "urgently needed; absolutely necessary"
+      }, 
+      "awareness": {
+        "word_description": "", 
+        "word_name": "awareness", 
+        "word_example": "Just as the search for solutions to our energy shortages has now led us to a new  awareness of our Nation's deeper problems, so our willingness to work for those solutions in energy can strengthen us to attack those deeper problems.", 
+        "word_definition": "having knowledge of"
+      }, 
+      "stagnation": {
+        "word_description": "", 
+        "word_name": "stagnation", 
+        "word_example": "Often you see paralysis and  stagnation and drift.", 
+        "word_definition": "a state of inactivity"
+      }, 
+      "rebirth": {
+        "word_description": "", 
+        "word_name": "rebirth", 
+        "word_example": "Let us commit ourselves together to a  rebirth of the American spirit.", 
+        "word_definition": "a spiritual enlightenment causing personal change"
+      }, 
+      "doubt": {
+        "word_description": "", 
+        "word_name": "doubt", 
+        "word_example": "We can see this crisis in the growing  doubt about the meaning of our own lives and in the loss of a unity of purpose for our nation.", 
+        "word_definition": "the state of being unsure of something"
+      }, 
+      "effort": {
+        "word_description": "", 
+        "word_name": "effort", 
+        "word_example": "I do not promise a quick way out of our nation's problems, when the truth is that the only way out is an all-out  effort.", 
+        "word_definition": "use of physical or mental energy; hard work"
+      }, 
+      "tragedy": {
+        "word_description": "", 
+        "word_name": "tragedy", 
+        "word_example": "These changes did not happen overnight. They've come upon us gradually over the last generation, years that were filled with shocks and  tragedy.", 
+        "word_definition": "an event resulting in great loss and misfortune"
+      }, 
+      "faith": {
+        "word_description": "", 
+        "word_name": "faith", 
+        "word_example": "Our people are losing that  faith, not only in government itself but in the ability as citizens to serve as the ultimate rulers and shapers of our democracy.", 
+        "word_definition": "complete confidence in a person or plan, etc."
+      }, 
+      "fragmentation": {
+        "word_description": "", 
+        "word_name": "fragmentation", 
+        "word_example": "One is a path I've warned about tonight, the path that leads to  fragmentation and self-interest.", 
+        "word_definition": "the disintegration of social norms governing behavior"
+      }, 
+      "resource": {
+        "word_description": "", 
+        "word_name": "resource", 
+        "word_example": "We have the natural  resources. We have more oil in our shale alone than several Saudi Arabias. We have more coal than any nation on Earth.", 
+        "word_definition": "a new or reserve supply that can be drawn upon when needed"
+      }, 
+      "dependence": {
+        "word_description": "", 
+        "word_name": "dependence", 
+        "word_example": "We believed that our nation's resources were limitless until 1973, when we had to face a growing  dependence on foreign oil.", 
+        "word_definition": "the state of relying on someone or something else"
+      }, 
+      "common": {
+        "word_description": "", 
+        "word_name": "common", 
+        "word_example": "All the traditions of our past, all the lessons of our heritage, all the promises of our future point to another path, the path of  common purpose and the restoration of American values.", 
+        "word_definition": "belonging to or participated in by the people as a whole"
       }, 
       "threat": {
-        "word_definition": "something that is a source of danger", 
         "word_description": "", 
         "word_name": "threat", 
-        "word_example": "I want to talk to you right now about a fundamental  threat to American democracy."
+        "word_example": "I want to talk to you right now about a fundamental  threat to American democracy.", 
+        "word_definition": "something that is a source of danger"
       }, 
       "shortage": {
-        "word_definition": "an acute insufficiency", 
         "word_description": "", 
         "word_name": "shortage", 
-        "word_example": "It's clear that the true problems of our Nation are much deeper\u2014deeper than gasoline lines or energy  shortages, deeper even than inflation or recession."
+        "word_example": "It's clear that the true problems of our Nation are much deeper\u2014deeper than gasoline lines or energy  shortages, deeper even than inflation or recession.", 
+        "word_definition": "an acute insufficiency"
       }, 
       "mobilize": {
-        "word_definition": "make ready for action or use", 
         "word_description": "", 
         "word_name": "mobilize", 
-        "word_example": "Just as a similar synthetic rubber corporation helped us win World War II, so will we  mobilize American determination and ability to win the energy war."
+        "word_example": "Just as a similar synthetic rubber corporation helped us win World War II, so will we  mobilize American determination and ability to win the energy war.", 
+        "word_definition": "make ready for action or use"
       }, 
       "intolerable": {
-        "word_definition": "incapable of being put up with", 
         "word_description": "", 
         "word_name": "intolerable", 
-        "word_example": "This  intolerable dependence on foreign oil threatens our economic independence and the very security of our nation. The energy crisis is real. It is worldwide. It is a clear and present danger to our nation."
+        "word_example": "This  intolerable dependence on foreign oil threatens our economic independence and the very security of our nation. The energy crisis is real. It is worldwide. It is a clear and present danger to our nation.", 
+        "word_definition": "incapable of being put up with"
       }
     }, 
-    "list_href": "/lists/1620099", 
-    "list_detailed_description": "The clear and present danger to 1970s American way of life was the energy crisis. In response to OPEC reducing its global oil supply, President Carter outlined a conservation plan that included regulating public utilities, installing solar hot water panels on the White House, and requesting that Christmas be celebrated without decorative lights. After years of deprivation, no one seemed willing to listen anymore. Here are some words from the July 15, 1979 speech that aimed to shake the nation out of its malaise."
+    "list_detailed_description": "The clear and present danger to 1970s American way of life was the energy crisis. In response to OPEC reducing its global oil supply, President Carter outlined a conservation plan that included regulating public utilities, installing solar hot water panels on the White House, and requesting that Christmas be celebrated without decorative lights. After years of deprivation, no one seemed willing to listen anymore. Here are some words from the July 15, 1979 speech that aimed to shake the nation out of its malaise.", 
+    "list_href": "/lists/1620099"
   }, 
   "This Week in Words: July 22-29, 2017": {
     "list_brief_description": "No time to scour the headlines or watch the news? No problem! We\u2019ve rounded up the top ten words...\r\n\r\n", 
     "list_num": "10 Words", 
     "list_detailed_info": {
       "levy": {
+        "word_definition": "impose and collect", 
         "word_description": "Typically when new sanctions against countries like Russia, Iran and North Korea are proposed, it makes the news but doesn't dominate it. However, when the president's team is being investigated for possibly colluding with Russia, such a  ", 
         "word_name": "levy", 
-        "word_example": "By a 419-3 vote, the House approved a bill to that would  levy new sanctions on Russia, Iran and North Korea.", 
-        "word_definition": "impose and collect"
+        "word_example": "By a 419-3 vote, the House approved a bill to that would  levy new sanctions on Russia, Iran and North Korea."
       }, 
       "ridicule": {
+        "word_definition": "the act of deriding or treating with contempt", 
         "word_description": "Presidential advisor and son-in-law Jared Kushner testified before Congress this week about meetings he attended with Russian officials. His testimony was held behind closed doors, but this quote comes from a brief public statement he made afterwards. Kushner  ", 
         "word_name": "ridicule", 
-        "word_example": "President Trump won the election because he had a better message and ran a smarter campaign...not because he had help from Russia. \u201cSuggesting otherwise  ridicules those who voted for him,\u201d Mr. Kushner said... ", 
-        "word_definition": "the act of deriding or treating with contempt"
+        "word_example": "President Trump won the election because he had a better message and ran a smarter campaign...not because he had help from Russia. \u201cSuggesting otherwise  ridicules those who voted for him,\u201d Mr. Kushner said... "
       }, 
       "dismantle": {
+        "word_definition": "take apart into its constituent pieces", 
         "word_description": "In a dramatic late-night 49-51 vote, the Senate defeated the latest proposal to repeal parts of the Affordable Care Act, a.k.a. Obamacare. Republican Senator John McCain, just returning from brain surgery after his cancer diagnosis, cast the deciding vote.", 
         "word_name": "dismantle", 
-        "word_example": "The Senate in the early hours of Friday morning rejected a new, scaled-down Republican plan to repeal parts of the ACA, derailing the Republicans\u2019 seven-year campaign to  dismantle President Barack Obama\u2019s signature health care law. ", 
-        "word_definition": "take apart into its constituent pieces"
+        "word_example": "The Senate in the early hours of Friday morning rejected a new, scaled-down Republican plan to repeal parts of the ACA, derailing the Republicans\u2019 seven-year campaign to  dismantle President Barack Obama\u2019s signature health care law. "
       }, 
       "vehemently": {
+        "word_definition": "in a fierce manner", 
         "word_description": "Sean Spicer resigned this week, to be replaced by Sarah Huckabee Sanders as White House press secretary, with Anthony Scaramucci coming on board as new Communications Director. Spicer's term was tumultuous, and he weathered criticism on all fronts including a Saturday Night Live parody. The Trump administration hopes for clearer messaging and fewer leaks moving forward with a new team.", 
         "word_name": "vehemently", 
-        "word_example": "Sean Spicer, the White House press secretary, resigned after telling President Trump he  vehemently disagreed with his appointment of Anthony Scaramucci...as his new communications director. ", 
-        "word_definition": "in a fierce manner"
+        "word_example": "Sean Spicer, the White House press secretary, resigned after telling President Trump he  vehemently disagreed with his appointment of Anthony Scaramucci...as his new communications director. "
       }, 
       "halting": {
+        "word_definition": "limping; disabled in the feet or legs", 
         "word_description": "Our feel-good story of the week comes from the world of Olympic sports. Just 15 months after an injury left him partially paralyzed, high jumper Jamie Nieto was able to walk down the aisle with his wife after their wedding ceremony.  ", 
         "word_name": "halting", 
-        "word_example": "Step by  halting step, former Olympic high jumper Jamie Nieto made good on his vow to walk wife Shevon down the aisle after their wedding and out the door to a waiting limousine.  ", 
-        "word_definition": "limping; disabled in the feet or legs"
+        "word_example": "Step by  halting step, former Olympic high jumper Jamie Nieto made good on his vow to walk wife Shevon down the aisle after their wedding and out the door to a waiting limousine.  "
       }, 
       "exhume": {
+        "word_definition": "dig up for reburial or for medical investigation", 
         "word_description": "A woman claiming to be Salvador Dali's child sued to  ", 
         "word_name": "exhume", 
-        "word_example": "Dal\u00ed's body was  exhumed from a crypt in a museum dedicated to his life and work on Thursday evening.", 
-        "word_definition": "dig up for reburial or for medical investigation"
+        "word_example": "Dal\u00ed's body was  exhumed from a crypt in a museum dedicated to his life and work on Thursday evening."
       }, 
       "jaunt": {
+        "word_definition": "a journey taken for pleasure", 
         "word_description": "Justin Bieber cancelled the remainder of his world tour this week, and maybe we should give the guy a break. He has been touring for over a year and must be exhausted. Plus, it's hard to grow up in the spotlight, or so I hear. Inevitably, in a wacky world where a CEO gets $95 million for quitting and Lana Del Rey gets perky, the Biebs will be back with a tune so catchy and a tour so massive that no one will be able to ignore him. Maybe we don't need to feel too bad for the guy.", 
         "word_name": "jaunt", 
-        "word_example": "the extended  jaunt kicked off on March 9, 2016 in Seattle and took Bieber all over North America, Asia, Europe, Africa, and Latin America  ", 
-        "word_definition": "a journey taken for pleasure"
+        "word_example": "the extended  jaunt kicked off on March 9, 2016 in Seattle and took Bieber all over North America, Asia, Europe, Africa, and Latin America  "
       }, 
       "lucrative": {
+        "word_definition": "producing a sizeable profit", 
         "word_description": "Jeffrey Bewkes, the CEO of Time Warner, gets $95 million dollars if the merger with AT&T succeeds and he exits the company. Where can I get a job like that? I've been at parties and other social functions where people are obviously desperate for me to leave, but no one's actually  ", 
         "word_name": "lucrative", 
-        "word_example": "It would all make for a smooth, perhaps even glamorous exit for Mr. Bewkes, and certainly a  lucrative one, given that he stands to earn as much as $95 million if the merger is completed and he leaves the company. ", 
-        "word_definition": "producing a sizeable profit"
+        "word_example": "It would all make for a smooth, perhaps even glamorous exit for Mr. Bewkes, and certainly a  lucrative one, given that he stands to earn as much as $95 million if the merger is completed and he leaves the company. "
       }, 
       "beckon": {
+        "word_definition": "summon with a wave, nod, or some other gesture", 
         "word_description": "Lana del Rey released her new album this week, and apparently she is changing her image by cheering up a bit. As a fan of her unhappy music, this disappoints me. I had my whole summer planned out \u2014 I was looking forward to sitting inside and brooding to the sounds of her new release. If Lana Is happy now, does this mean I too should actually go outside and try to enjoy myself? Let's not go that far...", 
         "word_name": "beckon", 
-        "word_example": "...the thousand-yard stare that previously  beckoned listeners to join in jadedness has been replaced by an engaging and possibly unnerving grin. The idea of a Lana Del Rey who\u2019s\u2026 warm? It\u2019s a prospect that could give some give fans the shivers.  ", 
-        "word_definition": "summon with a wave, nod, or some other gesture"
+        "word_example": "...the thousand-yard stare that previously  beckoned listeners to join in jadedness has been replaced by an engaging and possibly unnerving grin. The idea of a Lana Del Rey who\u2019s\u2026 warm? It\u2019s a prospect that could give some give fans the shivers.  "
       }, 
       "salvage": {
+        "word_definition": "save from ruin, destruction, or harm", 
         "word_description": "Jordan Spieth conquered his worst enemy, himself, to come from behind and win golf's British Open this week. After some early blunders, Spieth roared back and played brilliantly on the later holes, the very definition of \"salvaging your round.\" With this victory, Spieth became only the second man to win three major tournaments before his twenty-fourth birthday, the other being the great Jack Nicklaus.", 
         "word_name": "salvage", 
-        "word_example": "He was tied with Kuchar with nine holes to play, but  salvaged a remarkable bogey on the 13th after a wild slice off the tee went 100 yards to the right... ", 
-        "word_definition": "save from ruin, destruction, or harm"
+        "word_example": "He was tied with Kuchar with nine holes to play, but  salvaged a remarkable bogey on the 13th after a wild slice off the tee went 100 yards to the right... "
       }
     }, 
-    "list_detailed_description": "No time to scour the headlines or watch the news? No problem! We\u2019ve rounded up the top ten words heard, read, debated, and discussed this week. Chapters were opened and closed this week. Jordan Spieth \n", 
-    "list_href": "/lists/1779552"
+    "list_href": "/lists/1779552", 
+    "list_detailed_description": "No time to scour the headlines or watch the news? No problem! We\u2019ve rounded up the top ten words heard, read, debated, and discussed this week. Chapters were opened and closed this week. Jordan Spieth \n"
   }, 
   "This Week in Words: July 9-15, 2017": {
     "list_brief_description": "No time to scour the headlines or watch the news? No problem! We\u2019ve rounded up the top ten words...\r\n\r\n", 
     "list_num": "10 Words", 
     "list_detailed_info": {
       "whimsical": {
+        "word_definition": "indulging in or influenced by the imagination", 
         "word_description": "Yankee Aaron Judge won the Home Run Derby this week, part of Major League Baseball's All-Star Week. Judge hit 47 home runs during the Derby. Although   whimsical is not a word usually associated with baseball, the Marlins have a ", 
         "word_name": "whimsical", 
-        "word_example": "In the final round, Judge\u2019s drives visited an array of ballpark destinations \u2014 a staircase, bushes, the seats above left, center and right field, and, twice, the garishly  whimsical home run sculpture that towers above left-center field.  ", 
-        "word_definition": "indulging in or influenced by the imagination"
+        "word_example": "In the final round, Judge\u2019s drives visited an array of ballpark destinations \u2014 a staircase, bushes, the seats above left, center and right field, and, twice, the garishly  whimsical home run sculpture that towers above left-center field.  "
       }, 
       "intractable": {
+        "word_definition": "difficult to manage or mold", 
         "word_description": "This quote is from Secretary of State Rex Tillerson, and refers to a disagreement between President Trump and Vladimir Putin, who can't agree about Russian meddling in the presidential election. Putin refused to confirm the conclusions several U.S. intelligence agencies have reached. The President just wants to move on. I neglected to put the cap back on the toothpaste last week and we're still stuck on that in my house, so good luck moving on from an \"alleged international incident.\"", 
         "word_name": "intractable", 
-        "word_example": "\u201cThe Presidents rightly focused on how do we move forward from what may simply be an  intractable disagreement at this point.\u201d", 
-        "word_definition": "difficult to manage or mold"
-      }, 
-      "libretto": {
-        "word_description": "This year's Tony winner for Best Musical,  Dear Evan Hansen, is releasing a book all about the show. The book will include the complete lyrics, or   libretto of the musical.   Libretto comes from Italian for \"little book\" but with all its popularity, there will probably be nothing little about the Dear Evan Hansen book. Look for it to be very successful as a must-have souvenir.", 
-        "word_name": "libretto", 
-        "word_example": "The new book is billed as a \u201cbehind-the-scenes\u201d account of the making of the Tony-winning musical, written by the creative team of Steven Levenson, Benj Pasek, and Justin Paul, and will include personal memories, photographs, unreleased lyrics, and the Dear Evan Hansen  libretto. ", 
-        "word_definition": "the words of an opera or musical play"
-      }, 
-      "doppelganger": {
-        "word_description": "It was revealed this week that Kermit the Frog is getting a new voice. The previous voice has decided to step down and has been replaced by a Muppeteer named Matt Vogel. This is a much easier transition than the previous one, when Jim Henson's untimely death forced someone to take the reins of The Muppets' signature character. Voices may come and go, but we can only hope that Kermit lasts forever.", 
-        "word_name": "doppelganger", 
-        "word_example": "Vogel previously voiced Constantine, Kermit\u2019s evil  doppelg\u00e4nger, in the 2014 movie Muppets Most Wanted. Elsewhere, he tackled classic characters like Floyd, The Count, and Lew Zealand.  ", 
-        "word_definition": "a ghostly double that haunts its living counterpart"
-      }, 
-      "agitprop": {
-        "word_description": "From the Russian words for \"agitation\" and \"propaganda,\"  agitprop is usually associated with posters and other pieces of artwork. In this case, however, the campaign of misinformation was carried out via Twitter. Twitter always has the potential to be a minefield of exaggeration and falsehood, but when you add in the president's tweets and international intrigue, it truly becomes a circus-like spectacle.", 
-        "word_name": "agitprop", 
-        "word_example": "In January, the intelligence community found that Putin had ordered an elaborate effort to propel Trump to the presidency, which was partly accomplished by employing professional trolls to flood social media with pro-Trump  agitprop, and disseminating \"fake news\" aimed at undermining then-candidate Hillary Clinton and boosting Trump. ", 
-        "word_definition": "political propaganda communicated via art and literature"
-      }, 
-      "collusion": {
-        "word_description": " Collusion involves two or more parties getting together in secret to accomplish something underhanded and, well, wrong. You can't   collude  with your brother to buy your mom a birthday gift, or with your friends to raise money for charity. The goals of   collusion have to be more nefarious than that. The Trump campaign is accused of   colluding with the Russian government to swing the election Trump's way, which, if true, would be nefarious indeed.", 
-        "word_name": "collusion", 
-        "word_example": "The Trump team is under investigation over alleged Russian  collusion during last year's presidential campaign.", 
-        "word_definition": "agreement on a secret plot"
-      }, 
-      "incriminate": {
-        "word_description": "Donald Trump has been suggesting Hillary Clinton's guilt, or seeking to   incriminate her since he first entered the presidential race. This week saw the revelation that Donald Trump, Jr. met with a Russian lawyer who promised to provide   incriminating information on Mrs. Clinton. No one knows what effect this will have on the Trump-Russia investigation, but we're under The Big Top, and it should be interesting.", 
-        "word_name": "incriminate", 
-        "word_example": "The Crown prosecutor of Russia met with his father Aras this morning,\u201d Goldstone writes, \u201cand in their meeting offered to provide the Trump campaign with some official documents and information that would  incriminate Hillary and her dealings with Russia and would be very useful to your father.\u201d ", 
-        "word_definition": "suggest that someone is guilty"
+        "word_example": "\u201cThe Presidents rightly focused on how do we move forward from what may simply be an  intractable disagreement at this point.\u201d"
       }, 
       "liberated": {
+        "word_definition": "free from traditional social restraints", 
         "word_description": "It was reported this week that the Islamic State was defeated in Mosul, a major loss for the terrorist group ISIS and a victory for the countries waging the military battle against it. It is too soon to tell what this victory will mean in the long term, because other groups could seize control, but in the short term this event is something to celebrate.", 
         "word_name": "liberated", 
-        "word_example": "The government\u2019s record in other  liberated cities is at best patchy.", 
-        "word_definition": "free from traditional social restraints"
+        "word_example": "The government\u2019s record in other  liberated cities is at best patchy."
+      }, 
+      "doppelganger": {
+        "word_definition": "a ghostly double that haunts its living counterpart", 
+        "word_description": "It was revealed this week that Kermit the Frog is getting a new voice. The previous voice has decided to step down and has been replaced by a Muppeteer named Matt Vogel. This is a much easier transition than the previous one, when Jim Henson's untimely death forced someone to take the reins of The Muppets' signature character. Voices may come and go, but we can only hope that Kermit lasts forever.", 
+        "word_name": "doppelganger", 
+        "word_example": "Vogel previously voiced Constantine, Kermit\u2019s evil  doppelg\u00e4nger, in the 2014 movie Muppets Most Wanted. Elsewhere, he tackled classic characters like Floyd, The Count, and Lew Zealand.  "
+      }, 
+      "agitprop": {
+        "word_definition": "political propaganda communicated via art and literature", 
+        "word_description": "From the Russian words for \"agitation\" and \"propaganda,\"  agitprop is usually associated with posters and other pieces of artwork. In this case, however, the campaign of misinformation was carried out via Twitter. Twitter always has the potential to be a minefield of exaggeration and falsehood, but when you add in the president's tweets and international intrigue, it truly becomes a circus-like spectacle.", 
+        "word_name": "agitprop", 
+        "word_example": "In January, the intelligence community found that Putin had ordered an elaborate effort to propel Trump to the presidency, which was partly accomplished by employing professional trolls to flood social media with pro-Trump  agitprop, and disseminating \"fake news\" aimed at undermining then-candidate Hillary Clinton and boosting Trump. "
+      }, 
+      "collusion": {
+        "word_definition": "agreement on a secret plot", 
+        "word_description": " Collusion involves two or more parties getting together in secret to accomplish something underhanded and, well, wrong. You can't   collude  with your brother to buy your mom a birthday gift, or with your friends to raise money for charity. The goals of   collusion have to be more nefarious than that. The Trump campaign is accused of   colluding with the Russian government to swing the election Trump's way, which, if true, would be nefarious indeed.", 
+        "word_name": "collusion", 
+        "word_example": "The Trump team is under investigation over alleged Russian  collusion during last year's presidential campaign."
+      }, 
+      "incriminate": {
+        "word_definition": "suggest that someone is guilty", 
+        "word_description": "Donald Trump has been suggesting Hillary Clinton's guilt, or seeking to   incriminate her since he first entered the presidential race. This week saw the revelation that Donald Trump, Jr. met with a Russian lawyer who promised to provide   incriminating information on Mrs. Clinton. No one knows what effect this will have on the Trump-Russia investigation, but we're under The Big Top, and it should be interesting.", 
+        "word_name": "incriminate", 
+        "word_example": "The Crown prosecutor of Russia met with his father Aras this morning,\u201d Goldstone writes, \u201cand in their meeting offered to provide the Trump campaign with some official documents and information that would  incriminate Hillary and her dealings with Russia and would be very useful to your father.\u201d "
+      }, 
+      "libretto": {
+        "word_definition": "the words of an opera or musical play", 
+        "word_description": "This year's Tony winner for Best Musical,  Dear Evan Hansen, is releasing a book all about the show. The book will include the complete lyrics, or   libretto of the musical.   Libretto comes from Italian for \"little book\" but with all its popularity, there will probably be nothing little about the Dear Evan Hansen book. Look for it to be very successful as a must-have souvenir.", 
+        "word_name": "libretto", 
+        "word_example": "The new book is billed as a \u201cbehind-the-scenes\u201d account of the making of the Tony-winning musical, written by the creative team of Steven Levenson, Benj Pasek, and Justin Paul, and will include personal memories, photographs, unreleased lyrics, and the Dear Evan Hansen  libretto. "
       }, 
       "proxy": {
+        "word_definition": "a person authorized to act for another", 
         "word_description": "Donald Trump, Jr. was drawn into the controversy surrounding the Trump campaign's possible   collusion with Russia when it was revealed that he took a meeting with a lawyer who had connections to, and was a   proxy for, the Russian government.", 
         "word_name": "proxy", 
-        "word_example": "In a statement on Sunday, Mr. Trump acknowledged that he was interested in receiving damaging information about Mrs. Clinton, but gave no indication that he thought the lawyer might have been a Kremlin  proxy.\u2014 ", 
-        "word_definition": "a person authorized to act for another"
+        "word_example": "In a statement on Sunday, Mr. Trump acknowledged that he was interested in receiving damaging information about Mrs. Clinton, but gave no indication that he thought the lawyer might have been a Kremlin  proxy.\u2014 "
       }, 
       "humane": {
+        "word_definition": "marked by concern with the alleviation of suffering", 
         "word_description": "Donna the Hippopotamus was 62 years old and a mainstay at The Manila Zoo. The average hippo life span is between 40 and 50 years old, so Donna defied the odds. To put this in perspective, the human life expectancy in North America is 77, so you'd have to live to be 89 to match Donna's longevity. She will be missed.", 
         "word_name": "humane", 
-        "word_example": "It is with great sadness for us to announce that Donna, the world's oldest living Nile hippopotamus in captivity, was humanely euthanised this morning due to her declining quality of life caused by her debilitating severe arthritis,\" Amos Morris, the zoo's director, said in a statement on Wednesday. ", 
-        "word_definition": "marked by concern with the alleviation of suffering"
+        "word_example": "It is with great sadness for us to announce that Donna, the world's oldest living Nile hippopotamus in captivity, was humanely euthanised this morning due to her declining quality of life caused by her debilitating severe arthritis,\" Amos Morris, the zoo's director, said in a statement on Wednesday. "
       }
     }, 
-    "list_detailed_description": "No time to scour the headlines or watch the news? No problem! We\u2019ve rounded up the top ten words heard, read, debated, and discussed this week. The news this week is best compared to a three-ring political circus, or perhaps a zoo. In addition to the media spectacle that was the meeting between President Donald Trump and Vladimir Putin and their \n", 
-    "list_href": "/lists/1765942"
+    "list_href": "/lists/1765942", 
+    "list_detailed_description": "No time to scour the headlines or watch the news? No problem! We\u2019ve rounded up the top ten words heard, read, debated, and discussed this week. The news this week is best compared to a three-ring political circus, or perhaps a zoo. In addition to the media spectacle that was the meeting between President Donald Trump and Vladimir Putin and their \n"
   }, 
   "Spider-Man's Word Web": {
     "list_brief_description": "Even if a new Spider-Man movie keeps coming more often than Leap Year, the lingo of Spider-Man is...\r\n\r\n", 
     "list_num": "12 Words", 
     "list_detailed_info": {
       "radioactive": {
+        "word_definition": "exhibiting or caused by emissions in nuclear decay", 
         "word_description": "Spider-Man\u2019s origin involved getting bit by a radioactive spider: in other words, a spider that had become  irradiated with  radiation. Radiation is a specific sort of intense energy consisting of electromagnetic particles. If only radiation worked like it does in Marvel Comics, where cosmic radiation created the Fantastic Four, gamma rays created the Hulk, and radiation in general created mutants like the X-Men. In real life, too much radiation is anything but super.", 
         "word_name": "radioactive", 
-        "word_example": "Peter Parker was a simple high school geek before a bite from a  radioactive spider transformed him into Spider-Man.", 
-        "word_definition": "exhibiting or caused by emissions in nuclear decay"
+        "word_example": "Peter Parker was a simple high school geek before a bite from a  radioactive spider transformed him into Spider-Man."
       }, 
       "adolescent": {
+        "word_definition": "a juvenile between the onset of puberty and maturity", 
         "word_description": "Does the word  teen sound too casual or cutesy to you? Then there's always  adolescent, which means the same. You can also refer to the teen years as adolescence. Since teens are sometimes stereotyped as being moody and self-centered, this word is also used as an insult for older people. An adult who's rude, sulky, or otherwise immature can be called adolescent. Before his Uncle Ben died, Peter was an adolescent literally and figuratively. He had a lot of growing up to do.", 
         "word_name": "adolescent", 
-        "word_example": "Anna May Dutton started skateboarding to channel her  adolescent energy.", 
-        "word_definition": "a juvenile between the onset of puberty and maturity"
+        "word_example": "Anna May Dutton started skateboarding to channel her  adolescent energy."
       }, 
       "reptilian": {
+        "word_definition": "of or relating to cold-blooded vertebrates with scaly skin", 
         "word_description": "Many of Spider-Man's enemies have pseudo-scientific origins\u2014such as Dr. Curtis Connors, the Lizard. Lizards are reptiles that are closely related to snakes, consisting of over 4000 species that are mostly long, green, and scaly. Many can regenerate limbs, which is what interested Connors. He was trying to regrow his own missing arm but ended up turning into a freaky lizard man instead, with many reptilian qualities. This is why comic-book science is not recommended by doctors.", 
         "word_name": "reptilian", 
-        "word_example": "At least a dozen mortal guards stood on the balcony, plus two monsters\u2014 reptilian women with doublesnake trunks instead of legs.", 
-        "word_definition": "of or relating to cold-blooded vertebrates with scaly skin"
+        "word_example": "At least a dozen mortal guards stood on the balcony, plus two monsters\u2014 reptilian women with doublesnake trunks instead of legs."
       }, 
       "orphan": {
+        "word_definition": "a child who has lost both parents", 
         "word_description": "Peter Parker, when first introduced in the comics and movies, lives with his Aunt May and Uncle Ben. That's because his parents died: Peter was adopted by his aunt and uncle. When someone doesn't have any parents, they're an orphan. For some reason, being an orphan is strongly correlated with being a superhero. Batman's parents were murdered. Superman's parents died on Krypton. Captain America's parents died young. Even James Bond is an orphan. No wonder villainous fiends are so anti-orphanage.", 
         "word_name": "orphan", 
-        "word_example": "Then the wife died, the husband was sent to a nursing home and Louie became an  orphan.", 
-        "word_definition": "a child who has lost both parents"
+        "word_example": "Then the wife died, the husband was sent to a nursing home and Louie became an  orphan."
       }, 
       "fluid": {
+        "word_definition": "continuous amorphous matter that tends to flow", 
         "word_description": "Peter Parker is a whiz at science, which is why he was interested in the particle accelerator that irradiated that pesky spider. This scientific interest also allowed Peter to invent his own web fluid. This web fluid shoots out in liquid form, then hardens in exactly the way he wants it to, whether to create a line for swinging or a giant net. Hey, if you're looking for realism, Spider-Man stories aren't the place.", 
         "word_name": "fluid", 
-        "word_example": "\u201cIt\u2019s like slime,\u201d she said, referring to another type of non-Newtonian  fluid.", 
-        "word_definition": "continuous amorphous matter that tends to flow"
+        "word_example": "\u201cIt\u2019s like slime,\u201d she said, referring to another type of non-Newtonian  fluid."
       }, 
       "responsibility": {
+        "word_definition": "the social force that binds you to a course of action", 
         "word_description": "Spider-Man\u2019s motto is: \u201cWith great power comes great responsibility.\u201d Peter learns this lesson the hard way during his famous origin, when he is so consumed with a chance to make money as a wrestler that he fails to stop a bad guy who had just committed a robbery. That bad guy\u2014who Peter could have easily grabbed or tripped\u2014ends up murdering Peter\u2019s Uncle Ben. That\u2019s when Peter decides he might need to do more with his powers than use them for his own gain.", 
         "word_name": "responsibility", 
-        "word_example": "", 
-        "word_definition": "the social force that binds you to a course of action"
+        "word_example": ""
       }, 
       "remorse": {
+        "word_definition": "a feeling of deep regret, usually for some misdeed", 
         "word_description": "Because Spider-Man feels at fault for the death of his Uncle Ben, he is consumed by remorse\u2014an emotion made up of regret and sadness. When you feel remorseful, you blame yourself for something. Despite his wisecracks, remorsefulness is the defining trait of Spider-Man, who always feels like he has to make up for the past. Subsequent events in the comics\u2014such as the death of his girlfriend Gwen Stacy\u2014add to his guilt. It's not easy being Spidey.", 
         "word_name": "remorse", 
-        "word_example": "Filled with  remorse, he sat on the ground and cried.", 
-        "word_definition": "a feeling of deep regret, usually for some misdeed"
+        "word_example": "Filled with  remorse, he sat on the ground and cried."
       }, 
       "nerd": {
+        "word_definition": "an intelligent but single-minded expert in a technical field", 
         "word_description": "This word has a positive and negative meaning: a nerd can be an insult for someone considered uncool or a compliment for someone consumed by something, like a computer nerd or a comic book nerd.", 
         "word_name": "nerd", 
-        "word_example": "May 6 is the great, geek holiday Free Comic Book Day, an annual celebration of reading, art and  nerd fellowship.", 
-        "word_definition": "an intelligent but single-minded expert in a technical field"
+        "word_example": "May 6 is the great, geek holiday Free Comic Book Day, an annual celebration of reading, art and  nerd fellowship."
       }
     }, 
-    "list_detailed_description": "Even if a new Spider-Man movie keeps coming more often than Leap Year, the lingo of Spider-Man is eternal and unique. Enjoy these words inspired by the \"web-headed menace.\"\n", 
-    "list_href": "/lists/1761440"
+    "list_href": "/lists/1761440", 
+    "list_detailed_description": "Even if a new Spider-Man movie keeps coming more often than Leap Year, the lingo of Spider-Man is eternal and unique. Enjoy these words inspired by the \"web-headed menace.\"\n"
+  }, 
+  "Book Words for Book Worms": {
+    "list_brief_description": "There's more to books than just reading them. Books have a whole vocabulary associated with them...\r\n\r\n", 
+    "list_num": "11 Words", 
+    "list_detailed_info": {
+      "author": {
+        "word_definition": "a person who writes professionally", 
+        "word_description": "", 
+        "word_name": "author", 
+        "word_example": "Although such frantic commercial output led to uneven quality, Cooper sketched career blueprints for ambitious American  authors who followed him."
+      }, 
+      "epilogue": {
+        "word_definition": "a short passage added at the end of a literary work", 
+        "word_description": "Many long stories have  ", 
+        "word_name": "epilogue", 
+        "word_example": "From there the novel veers into an  epilogue set many years in the future, following the collapse of Gilead.\u00a0"
+      }, 
+      "amanuensis": {
+        "word_definition": "someone skilled in the transcription of speech", 
+        "word_description": "In the days before dictation software, in fact before software of any kind at all, there was the amanuensis. An amanuensis is someone who writes down everything that is said. Often it is easier for someone not used to being a writer to speak their thoughts aloud. The amanuensis captures this free-flowing speech on the page, so it can then be organized and edited into a finished work.", 
+        "word_name": "amanuensis", 
+        "word_example": "My  amanuensis sits at the table, and I sit near him, or lie on the sofa, and dictate the stories which I publish.\u201d"
+      }, 
+      "volume": {
+        "word_definition": "a collection of written or printed sheets bound together", 
+        "word_description": "", 
+        "word_name": "volume", 
+        "word_example": "At the time of his death in 1851, at age 62, he was envisioning a  volume about the past and future of New York City."
+      }, 
+      "devour": {
+        "word_definition": "enjoy avidly", 
+        "word_description": "", 
+        "word_name": "devour", 
+        "word_example": "A third, set largely in the Louvre, is a breathless thriller readers will  devour on a long flight."
+      }, 
+      "prologue": {
+        "word_definition": "an introduction to a play", 
+        "word_description": "", 
+        "word_name": "prologue", 
+        "word_example": "In the  prologue to \u201cRomeo and Juliet,\u201d the chorus tells the audience that the tale will unfold within \u201cthe two hours\u2019 traffic of our stage.\u201d"
+      }, 
+      "bibliophile": {
+        "word_definition": "someone who loves and usually collects books", 
+        "word_description": "A  ", 
+        "word_name": "bibliophile", 
+        "word_example": "She ends up at Scroll, a company whose mission is \u201cto reinvent reading the way Starbucks reinvented coffee\u201d by creating lounges for  bibliophiles."
+      }, 
+      "enchant": {
+        "word_definition": "cast a spell over someone or something", 
+        "word_description": "", 
+        "word_name": "enchant", 
+        "word_example": "Religion aside, Wittenberg\u2019s picture-perfect backdrop and upbeat, Renaissance spirit is enough to  enchant those without the slightest interest in the Reformer ."
+      }, 
+      "tome": {
+        "word_definition": "a large and scholarly book", 
+        "word_description": "To call a book a  ", 
+        "word_name": "tome", 
+        "word_example": "Some readers will be aghast that chapters end with bullet-point summaries and questions, evoking the worst of unctuous business  tomes."
+      }, 
+      "inspiration": {
+        "word_definition": "arousal of the mind to unusual activity or creativity", 
+        "word_description": "Over the years a  ", 
+        "word_name": "inspiration", 
+        "word_example": "He was very clear about the  inspiration for the house of his eponymous novel \u2013 Rooks Nest, his childhood home."
+      }
+    }, 
+    "list_href": "/lists/1785207", 
+    "list_detailed_description": "There's more to \n"
   }, 
   "This Week in Words: July 16-21, 2017": {
     "list_brief_description": "No time to scour the headlines or watch the news? No problem! We\u2019ve rounded up the top ten words...\r\n\r\n", 
     "list_num": "10 Words", 
     "list_detailed_info": {
       "excoriate": {
-        "word_definition": "express strong disapproval of", 
         "word_description": "Pundit Ann Coulter paid for a specific seat on a flight and claims she was moved from that seat. She took to social media to vehementyl complain about the airline. The latest outraged-passenger issue aside,   excoriate is a terrific word to characterize anger. There is no apologizing after you really  excoriate  someone\u2014you reveal all the secret hatred you have for them in a bile-filled rant, salting the earth of your friendship so nothing will ever grow there again.", 
         "word_name": "excoriate", 
-        "word_example": "Ms. Coulter  excoriated the airline in social media posts after she was removed from a seat that she said she had specifically booked.  "
+        "word_example": "Ms. Coulter  excoriated the airline in social media posts after she was removed from a seat that she said she had specifically booked.  ", 
+        "word_definition": "express strong disapproval of"
       }, 
       "regeneration": {
-        "word_definition": "forming again; renewing and reconstituting", 
         "word_description": "Sci-fi fans received a historic surprise this week when it was revealed that the thirteenth person to play the classic British character Dr. Who would be a woman. Actress Jodie Whittaker has been chosen to portray The Doctor in a move that has been largely applauded in the sci-fi community. Whenever a new actor takes over the role, The Doctor   regenerates and assumes a different outer form. This time, the outer form will be very different, indeed.", 
         "word_name": "regeneration", 
-        "word_example": "The actor told Radio Times that his  regeneration as the Time Lord would be \u201cmore complicated than recent ones\u201d."
+        "word_example": "The actor told Radio Times that his  regeneration as the Time Lord would be \u201cmore complicated than recent ones\u201d.", 
+        "word_definition": "forming again; renewing and reconstituting"
       }, 
       "flout": {
-        "word_definition": "treat with contemptuous disregard", 
         "word_description": "The Director of the Office of Government Ethics resigned this week, and he did not go quietly. He, and many of President Trump's political opponents, are worried that the behavior of this administration will do irreparable harm to the reputation of the United States and the way our government functions. Of course, it is impossible to look into the future and see whether this will occur, and defenders of the President say that this behavior is merely a reflection of his own unique personality.", 
         "word_name": "flout", 
-        "word_example": "Walter M. Shaub Jr., who is resigning as the federal government\u2019s top ethics watchdog...said the Trump administration had  flouted...long-accepted norms in a way that threatened...the United States\u2019 ethical standards... "
+        "word_example": "Walter M. Shaub Jr., who is resigning as the federal government\u2019s top ethics watchdog...said the Trump administration had  flouted...long-accepted norms in a way that threatened...the United States\u2019 ethical standards... ", 
+        "word_definition": "treat with contemptuous disregard"
       }, 
       "peripatetic": {
-        "word_definition": "traveling especially on foot", 
         "word_description": "Roger Federer won a record eighth Wimbledon men's singles title this week. Federer, like all elite international athletes, leads a  peripateticexistence, always traveling around the world to different tournaments and living out of hotel rooms. As luxurious as the accommodations may be, non-stop jet-setting sounds pretty exhausting. That Roger Federer can do that much traveling and still be as cool as he is is an achievement in itself.", 
         "word_name": "peripatetic", 
-        "word_example": "Federer fared better in his quest. It has been that kind of season, one for him and his  peripatetic family to savor.  "
+        "word_example": "Federer fared better in his quest. It has been that kind of season, one for him and his  peripatetic family to savor.  ", 
+        "word_definition": "traveling especially on foot"
       }, 
       "summit": {
-        "word_definition": "the top or extreme point of something", 
         "word_description": "Maryam Mirzakhani, the first woman and the first person of Iranian descent to win the Fields Medal, died this week of breast cancer at the age of 40. The Fields Medal is a mathematics prize given to young scholars, and is considered the equivalent of the Nobel prize. Mirzakhani was certainly at the top, or  summit  of her field. Mirzakhani's research was about dynamics and motion, modeling phenomena like the movement of billiard balls on a table.", 
         "word_name": "summit", 
-        "word_example": "The ...excellence of the creative scientist and humble person ...was a turning point in introducing Iranian women and youth on their way to conquer the  summits of pride and various international stages. "
+        "word_example": "The ...excellence of the creative scientist and humble person ...was a turning point in introducing Iranian women and youth on their way to conquer the  summits of pride and various international stages. ", 
+        "word_definition": "the top or extreme point of something"
       }, 
       "frenzy": {
-        "word_definition": "state of violent mental agitation", 
         "word_description": "Alfred Angelo, the bridal salon chain, suddenly closed their stores this week and has begun proceedings to declare bankruptcy. The problem is that there are many brides who have already purchased their gowns and cannot get them altered or delivered in time for their weddings. Talk about causing a   frenzy! This situation would turn just about any level-headed bride into a \"bridezilla.\"", 
         "word_name": "frenzy", 
-        "word_example": "As news sites reported the closings, brides-to-be were sent into a  frenzy to track down dresses they paid for.  "
+        "word_example": "As news sites reported the closings, brides-to-be were sent into a  frenzy to track down dresses they paid for.  ", 
+        "word_definition": "state of violent mental agitation"
       }, 
       "tenuous": {
-        "word_definition": "lacking substance or significance", 
         "word_description": "Mark Ruffalo revealed to moviegoers in an interview this week that a stand-alone Hulk movie starring Ruffalo was not in the cards. The reason has to do with ownership of the character and the relationship between movie studios, but who really cares why? HULK SMASH! HULK WANT SOLO MOVIE!", 
         "word_name": "tenuous", 
-        "word_example": "He\u2019s expressed frustration with the studio\u2019s inability to strike a deal with Marvel for years, and his latest comments aren\u2019t likely to improve the  tenuous situation, to say the least.  "
+        "word_example": "He\u2019s expressed frustration with the studio\u2019s inability to strike a deal with Marvel for years, and his latest comments aren\u2019t likely to improve the  tenuous situation, to say the least.  ", 
+        "word_definition": "lacking substance or significance"
       }, 
       "scorn": {
-        "word_definition": "lack of respect accompanied by a feeling of intense dislike", 
         "word_description": "This quote is from a tweet by President Trump. He is defending his son against allegations that he (Donald Jr.) met with Russian operatives to influence the presidential election. The use of   scorn implies hatred and rejection. Here, the President is evoking the \"vilified\" aspect of   scorn.", 
         "word_name": "scorn", 
-        "word_example": "Hillary Clinton can illegally get the questions to the Debate & delete 33,000 emails but my son Don is being  scorned by the Fake News media?\u201d he tweeted shortly before 7 a.m. "
+        "word_example": "Hillary Clinton can illegally get the questions to the Debate & delete 33,000 emails but my son Don is being  scorned by the Fake News media?\u201d he tweeted shortly before 7 a.m. ", 
+        "word_definition": "lack of respect accompanied by a feeling of intense dislike"
       }, 
       "pathology": {
-        "word_definition": "any deviation from a healthy or normal condition", 
         "word_description": "Senator John McCain was diagnosed with brain cancer this week. McCain, a war hero and former Republican Presidential Nominee, is highly ranked and highly respected, so much so that the legislative body has been known to reschedule discussions and votes to accommodate McCain's health. It remains to be seen what the impact of this sad news will be on the Senate's upcoming agenda.", 
         "word_name": "pathology", 
-        "word_example": "\"Subsequent tissue  pathology revealed that a primary brain tumor known as a glioblastoma was associated with the blood clot,\" the hospital said in a statement. "
+        "word_example": "\"Subsequent tissue  pathology revealed that a primary brain tumor known as a glioblastoma was associated with the blood clot,\" the hospital said in a statement. ", 
+        "word_definition": "any deviation from a healthy or normal condition"
       }, 
       "eradicate": {
-        "word_definition": "destroy completely, as if down to the roots", 
         "word_description": "There has been a further delay in the bill that was intended to \"repeal and replace \" Obamacare. Two more Republican senators have come out against the bill, leaving the senators unable to even vote to open debate on the issue. The rumored strategy now is said to be a bill that will just repeal Obamacare, with no replacement to follow in the near future, but interested parties on all sides of the political aisle will have to wait and see if that comes to pass.", 
         "word_name": "eradicate", 
-        "word_example": "Conservatives wanted the Affordable Care Act  eradicated, but moderates worried intensely about the effects that would have on their most vulnerable citizens. "
+        "word_example": "Conservatives wanted the Affordable Care Act  eradicated, but moderates worried intensely about the effects that would have on their most vulnerable citizens. ", 
+        "word_definition": "destroy completely, as if down to the roots"
       }
     }, 
-    "list_href": "/lists/1771801", 
-    "list_detailed_description": "No time to scour the headlines or watch the news? No problem! We\u2019ve rounded up the top ten words heard, read, debated, and discussed this week. This was a week of firsts: Roger Federer set a tennis record, and the BBC announced that for the first time, Dr. Who will\n"
+    "list_detailed_description": "No time to scour the headlines or watch the news? No problem! We\u2019ve rounded up the top ten words heard, read, debated, and discussed this week. This was a week of firsts: Roger Federer set a tennis record, and the BBC announced that for the first time, Dr. Who will\n", 
+    "list_href": "/lists/1771801"
   }, 
   "You Can Say That Again: Dic and Dict": {
     "list_brief_description": "Practice this list of English words derived from the Latin roots dic and dict, which mean \"say\" or...\r\n\r\n", 
     "list_num": "24 Words", 
     "list_detailed_info": {
       "dictum": {
+        "word_definition": "an authoritative declaration", 
         "word_description": "", 
         "word_name": "dictum", 
-        "word_example": "You have probably often heard this business  dictum: \u201cTime is money!\u201d", 
-        "word_definition": "an authoritative declaration"
+        "word_example": "You have probably often heard this business  dictum: \u201cTime is money!\u201d"
       }, 
       "vindictive": {
+        "word_definition": "disposed to seek revenge or intended for revenge", 
         "word_description": "", 
         "word_name": "vindictive", 
-        "word_example": "Translation: \u201cAre you  vindictive enough to see your brother not just disbarred, but imprisoned?\u201d", 
-        "word_definition": "disposed to seek revenge or intended for revenge"
+        "word_example": "Translation: \u201cAre you  vindictive enough to see your brother not just disbarred, but imprisoned?\u201d"
       }, 
       "predict": {
+        "word_definition": "tell in advance", 
         "word_description": "", 
         "word_name": "predict", 
-        "word_example": "I stare at the board and try to  predict the outcome of each match.", 
-        "word_definition": "tell in advance"
+        "word_example": "I stare at the board and try to  predict the outcome of each match."
       }, 
       "jurisdiction": {
+        "word_definition": "the territory within which power can be exercised", 
         "word_description": "", 
         "word_name": "jurisdiction", 
-        "word_example": "\u201cGentlemen,\u201d she announced to the troopers, \u201cthis is my  jurisdiction and I\u2019ll take charge of the examination.\u201d", 
-        "word_definition": "the territory within which power can be exercised"
+        "word_example": "\u201cGentlemen,\u201d she announced to the troopers, \u201cthis is my  jurisdiction and I\u2019ll take charge of the examination.\u201d"
       }, 
       "prediction": {
+        "word_definition": "a statement made about the future", 
         "word_description": "", 
         "word_name": "prediction", 
-        "word_example": "Once an aged prophetess arrived in Rome and offered to sell its monarch nine books containing  predictions about the future.", 
-        "word_definition": "a statement made about the future"
+        "word_example": "Once an aged prophetess arrived in Rome and offered to sell its monarch nine books containing  predictions about the future."
       }, 
       "indict": {
+        "word_definition": "accuse formally of a crime", 
         "word_description": "", 
         "word_name": "indict", 
-        "word_example": "He was  indicted in March on 23 charges including bribery and fraud.", 
-        "word_definition": "accuse formally of a crime"
+        "word_example": "He was  indicted in March on 23 charges including bribery and fraud."
       }, 
       "dictate": {
+        "word_definition": "issue commands or orders for", 
         "word_description": "", 
         "word_name": "dictate", 
-        "word_example": "Maryland law  dictates that car windows should be no more than 65% opaque.", 
-        "word_definition": "issue commands or orders for"
+        "word_example": "Maryland law  dictates that car windows should be no more than 65% opaque."
       }, 
       "diction": {
+        "word_definition": "the manner in which something is expressed in words", 
         "word_description": "", 
         "word_name": "diction", 
-        "word_example": "Bergquist was friendly and talkative, with an above-normal interest in Norway, where he had roots, and pronounced every Norwegian place name with careful  diction.", 
-        "word_definition": "the manner in which something is expressed in words"
+        "word_example": "Bergquist was friendly and talkative, with an above-normal interest in Norway, where he had roots, and pronounced every Norwegian place name with careful  diction."
       }, 
       "indicate": {
+        "word_definition": "give evidence of", 
         "word_description": "", 
         "word_name": "indicate", 
-        "word_example": "Research strongly  indicates that exposure to arts, science, and heritage programming provides students a path toward greater academic and life success.", 
-        "word_definition": "give evidence of"
+        "word_example": "Research strongly  indicates that exposure to arts, science, and heritage programming provides students a path toward greater academic and life success."
       }, 
       "dictator": {
+        "word_definition": "a ruler who is unconstrained by law", 
         "word_description": "", 
         "word_name": "dictator", 
-        "word_example": "The starkest difference between dictatorships and democracies is that democracies are ruled by laws, and dictatorships are ruled by  dictators.", 
-        "word_definition": "a ruler who is unconstrained by law"
+        "word_example": "The starkest difference between dictatorships and democracies is that democracies are ruled by laws, and dictatorships are ruled by  dictators."
       }, 
       "indictment": {
+        "word_definition": "an accusation of wrongdoing", 
         "word_description": "", 
         "word_name": "indictment", 
-        "word_example": "\u201cUncle Tom\u2019s Cabin,\u201d an  indictment of slavery published before the Civil War, was a culture-bearing book, he said.", 
-        "word_definition": "an accusation of wrongdoing"
+        "word_example": "\u201cUncle Tom\u2019s Cabin,\u201d an  indictment of slavery published before the Civil War, was a culture-bearing book, he said."
       }, 
       "edict": {
+        "word_definition": "a formal or authoritative proclamation", 
         "word_description": "", 
         "word_name": "edict", 
-        "word_example": "The good thing about being a CEO is that you get to issue  edicts and let people know you are in charge.", 
-        "word_definition": "a formal or authoritative proclamation"
+        "word_example": "The good thing about being a CEO is that you get to issue  edicts and let people know you are in charge."
       }, 
       "abdicate": {
+        "word_definition": "give up, such as power, as of monarchs and emperors", 
         "word_description": "", 
         "word_name": "abdicate", 
-        "word_example": "After the uprisings, Qatar\u2019s emir  abdicated, replaced by his younger, less experienced son.", 
-        "word_definition": "give up, such as power, as of monarchs and emperors"
+        "word_example": "After the uprisings, Qatar\u2019s emir  abdicated, replaced by his younger, less experienced son."
       }, 
       "dictionary": {
+        "word_definition": "a reference book containing an alphabetical list of words", 
         "word_description": "", 
         "word_name": "dictionary", 
-        "word_example": "They consulted  dictionaries to look up correct information about word meanings and grammatical constructions.", 
-        "word_definition": "a reference book containing an alphabetical list of words"
+        "word_example": "They consulted  dictionaries to look up correct information about word meanings and grammatical constructions."
       }, 
       "malediction": {
+        "word_definition": "the act of calling down a curse that invokes evil", 
         "word_description": "", 
         "word_name": "malediction", 
-        "word_example": "For every man who tried to rub her head, there were three who muttered  maledictions under their breath when she went by.", 
-        "word_definition": "the act of calling down a curse that invokes evil"
+        "word_example": "For every man who tried to rub her head, there were three who muttered  maledictions under their breath when she went by."
       }, 
       "interdict": {
+        "word_definition": "command against", 
         "word_description": "", 
         "word_name": "interdict", 
-        "word_example": "Be sure not to carry any of these books up-stairs, as they are intended solely for the drawing-room; and their removal from thence is  interdicted.", 
-        "word_definition": "command against"
+        "word_example": "Be sure not to carry any of these books up-stairs, as they are intended solely for the drawing-room; and their removal from thence is  interdicted."
       }, 
       "addict": {
+        "word_definition": "someone who is physiologically dependent on a substance", 
         "word_description": "", 
         "word_name": "addict", 
-        "word_example": "If you were an  addict, the advice would be to get clean by seeking professional help and staying away from the addictive substance.", 
-        "word_definition": "someone who is physiologically dependent on a substance"
+        "word_example": "If you were an  addict, the advice would be to get clean by seeking professional help and staying away from the addictive substance."
       }, 
       "dictatorship": {
+        "word_definition": "a form of government in which the ruler is unconstrained", 
         "word_description": "", 
         "word_name": "dictatorship", 
-        "word_example": "\u201cThis is a democracy. It\u2019s not a  dictatorship and it never will be.\u201d", 
-        "word_definition": "a form of government in which the ruler is unconstrained"
+        "word_example": "\u201cThis is a democracy. It\u2019s not a  dictatorship and it never will be.\u201d"
       }, 
       "contradict": {
+        "word_definition": "prove negative; show to be false", 
         "word_description": "", 
         "word_name": "contradict", 
-        "word_example": "It would appear to  contradict earlier evidence suggesting a much more ancient origin for many key frog groups.", 
-        "word_definition": "prove negative; show to be false"
+        "word_example": "It would appear to  contradict earlier evidence suggesting a much more ancient origin for many key frog groups."
       }, 
       "valedictorian": {
+        "word_definition": "the student with the best grades", 
         "word_description": "", 
         "word_name": "valedictorian", 
-        "word_example": "A  valedictorian is usually the highest-performing student in a class who gives a farewell address at graduation.", 
-        "word_definition": "the student with the best grades"
+        "word_example": "A  valedictorian is usually the highest-performing student in a class who gives a farewell address at graduation."
       }, 
       "contradiction": {
+        "word_definition": "opposition between two conflicting forces or ideas", 
         "word_description": "", 
         "word_name": "contradiction", 
-        "word_example": "There are many versions of this paradox but they are essentially equivalent: one would get  contradictions if one were free to change the past.", 
-        "word_definition": "opposition between two conflicting forces or ideas"
+        "word_example": "There are many versions of this paradox but they are essentially equivalent: one would get  contradictions if one were free to change the past."
       }, 
       "verdict": {
+        "word_definition": "findings of a jury on issues submitted to it for decision", 
         "word_description": "", 
         "word_name": "verdict", 
-        "word_example": "He imagined attending a trial and hearing the  verdict: guilty.", 
-        "word_definition": "findings of a jury on issues submitted to it for decision"
+        "word_example": "He imagined attending a trial and hearing the  verdict: guilty."
       }, 
       "benediction": {
+        "word_definition": "a ceremonial prayer invoking divine protection", 
         "word_description": "", 
         "word_name": "benediction", 
-        "word_example": "We waited for him to speak, like a congregation expecting the minister\u2019s  benediction.", 
-        "word_definition": "a ceremonial prayer invoking divine protection"
+        "word_example": "We waited for him to speak, like a congregation expecting the minister\u2019s  benediction."
       }, 
       "addiction": {
+        "word_definition": "being dependent on something habit-forming ", 
         "word_description": "", 
         "word_name": "addiction", 
-        "word_example": "He had been fond of apple pie all his life, and it certainly seemed like an innocent enough  addiction.", 
-        "word_definition": "being dependent on something habit-forming "
+        "word_example": "He had been fond of apple pie all his life, and it certainly seemed like an innocent enough  addiction."
       }
     }, 
-    "list_detailed_description": "Practice this list of English words derived from the Latin roots \n", 
-    "list_href": "/lists/1780537"
+    "list_href": "/lists/1780537", 
+    "list_detailed_description": "Practice this list of English words derived from the Latin roots \n"
+  }, 
+  "This Week in Words: July 31 - August 4, 2017": {
+    "list_brief_description": "No time to scour the headlines or watch the news? No problem! We\u2019ve rounded up the top ten words...\r\n\r\n", 
+    "list_num": "10 Words", 
+    "list_detailed_info": {
+      "enigmatic": {
+        "word_description": "Musician Frank Ocean is on tour, and by all reports he puts on a very unusual concert. Essentially it seemds that Ocean is an introvert, and appears puzzled as to why everyone in the arena is staring at him. There have been plenty of idiosyncratic musicians, but rarely has there been one looks this uncomfortable being the center of attention. Maybe Ocean needs \"Look at Me!\" lessons. Is Lady Gaga available?", 
+        "word_name": "enigmatic", 
+        "word_example": "Mr. Ocean is pop\u2019s most  enigmatic superstar right now, but what scans from a distance as reluctance is really a kind of meticulousness... He\u2019d rather do nothing than do something that\u2019s not quite right.  ", 
+        "word_definition": "not clear to the understanding"
+      }, 
+      "fleeting": {
+        "word_description": "Playwright and actor Sam Shepard died on July 27. Shepard was a singular talent whose writing illuminated the human experience with a truth and an immediacy rarely seen onstage. He was 73 years old. For more on Shepard, see our Tribute List  ", 
+        "word_name": "fleeting", 
+        "word_example": "He was widely regarded as one of the most original voices of his generation, winning praise from critics for his searing portraits of spouses, siblings and lovers struggling with issues of identity, failure and the  fleeting nature of the American dream.  ", 
+        "word_definition": "lasting for a markedly brief time"
+      }, 
+      "unbridled": {
+        "word_description": "For a moment this week, Amazon CEO Jeff Bezos was the richest man in the world. With stock market fluctuations, however, his reign at the top was brief, and Microsoft founder Bill Gates returned to number 1. My question is, how upset are you when you slip to 2nd on this list? Is there something the person worth $90 billion can do that the person worth $89 billion can't do, practically speaking? Does it hurt your pride just a little? Or are you too busy earning even more cash to really care?", 
+        "word_name": "unbridled", 
+        "word_example": "Bezos' rise carries important symbolic weight \u2014 signaling Amazon's  unbridled power and value, presenting a new face of outsized wealth to the world ... ", 
+        "word_definition": "not restrained or controlled"
+      }, 
+      "outlier": {
+        "word_description": "Famed Norte Dame coach Ara Parseghian died this week at the age of 94. Parseghian was tremendously successful and a huge presence on campus, inspiring generations of students on and off the football field.", 
+        "word_name": "outlier", 
+        "word_example": "In his 11 seasons at Notre Dame, Parseghian\u2019s teams lost two or fewer games in 10 of those seasons. The  outlier season was an 8-3 season in 1972 that ended in an Orange Bowl berth.  ", 
+        "word_definition": "an extreme deviation from the mean"
+      }, 
+      "jeopardy": {
+        "word_description": "There were new revelations this week that President Trump had some \"input\" in writing his son's statement about the latter's meeting with Russian officials. Whether this turns out to be a big deal legally speaking remains to be seen, but the president's lawyers had previously denied that Trump involvement at all. If the statement contains falsehoods that the POTUS helped concoct, it would seem the endeavor was less innocent than, say, a regular dad helping his kid with his homework.", 
+        "word_name": "jeopardy", 
+        "word_example": "The extent of the president\u2019s personal intervention in his son\u2019s response... adds to a series of actions that Trump has taken that some advisers fear could place him and some members of his inner circle in legal  jeopardy. ", 
+        "word_definition": "a source of danger"
+      }, 
+      "exacerbate": {
+        "word_description": "With the failure of a Republican measure to replace Obamacare last week, everyone was wondering \"what happens now?\" We began to get an answer to that question this week when members of Congress from both sides of the aisle took steps to secure, stabilize and strengthen Obamacare for their constituents, many of whom stood to eventually lose healthcare coverage if no one intervened.", 
+        "word_name": "exacerbate", 
+        "word_example": "These problems have been  exacerbated by a president who has publicly predicted that the Affordable Care Act will \u201cimplode\u201d and appears determined to help fulfill that prophecy.  ", 
+        "word_definition": "make worse"
+      }, 
+      "dupe": {
+        "word_description": "Adding insult to injury, before he was fired, Anthony Scaramucci was the victim of an email impersonator pretending to be Reince Priebus. The impersonator targeted Scaramucci because he was offended by Scaramucci's cavalier use of terms associated with mental illness, like \"paranoiac\" to describe Priebus. Whatever one's take on the incident, we should all perhaps be a little worried that it was this easy to impersonate a White House official via email.", 
+        "word_name": "dupe", 
+        "word_example": "He has previously  duped the governor of the Bank of England, Mark Carney, and Barclays boss Jess Staley by setting up fake email accounts.  ", 
+        "word_definition": "fool or hoax"
+      }, 
+      "abrupt": {
+        "word_description": "The other big staff change in the Trump administration this week was the firing of Communications Director Anthony Scaramucci, who had only been on the job about 10 days. Scaramucci was dealing with the fallout from a controversial expletive-filled interview he gave to The New Yorker magazine. It seems that getting rid of Scaramucci was one of General Kelly's first decisions as the new Chief of Staff. Order, indeed.", 
+        "word_name": "abrupt", 
+        "word_example": "Mr. Scaramucci\u2019s  abrupt removal came just 10 days after the wealthy New York financier was brought on to the West Wing staff... ", 
+        "word_definition": "exceedingly sudden and unexpected"
+      }, 
+      "turbulence": {
+        "word_description": "There was ore turnover at the White House this week. Chief of Staff Reince Priebus was replaced by retired General John Kelly. The administration hopes that Kelly will bring order and discipline to the Trump administration, something that even its supporters say has been lacking.", 
+        "word_name": "turbulence", 
+        "word_example": "The latest round of internal  turbulence at the White House carries potential repercussions for the Russia investigations being carried out by special counsel Robert Mueller, the FBI and Congress. Trump is replacing his ousted chief of staff, Reince Priebus, with Secretary of Homeland Security John F. Kelly, a retired Marine Corps general  ", 
+        "word_definition": "a state of violent disturbance and disorder"
+      }, 
+      "infamous": {
+        "word_description": "Steve Bartman, a Cubs fan who was vilified for his interference in a playoff game back in 2004 was finally exonerated this week and given a World Series ring by the team. Grudges in sports last forever \u2014 oil tankers turn around faster than most sports fans \u2014 so thirteen years (in this context) is actually pretty fast when you think about it. I'm still not over the Brooklyn Dodger defeat in 1951 and it happened 26 years before I was born.", 
+        "word_name": "infamous", 
+        "word_example": "Arguably the team's most  infamous fan, Bartman is remembered for tipping a foul ball that left fielder Moises Alou unsuccessfully tried to catch in Game 6 of the 2003 National League Championship Series.  ", 
+        "word_definition": "known widely and usually unfavorably"
+      }
+    }, 
+    "list_detailed_description": "No time to scour the headlines or watch the news? No problem! We\u2019ve rounded up the top ten words heard, read, debated, and discussed this week. Some weeks are like a revolving door \u2014 lots of comings and goings. In a week full of \n", 
+    "list_href": "/lists/1785905"
   }, 
   "Chester Bennington (1976-2017) Tribute List": {
     "list_brief_description": "Chester Bennington, the lead singer of Linkin Park, died on July 20, 2017 at the age of 41. The...\r\n\r\n", 
     "list_num": "11 Words", 
     "list_detailed_info": {
       "hypocrite": {
+        "word_definition": "a person who professes beliefs that he or she does not hold", 
         "word_description": "", 
         "word_name": "hypocrite", 
-        "word_example": "Thieves and  hypocrites ", 
-        "word_definition": "a person who professes beliefs that he or she does not hold"
+        "word_example": "Thieves and  hypocrites "
       }, 
       "undertow": {
+        "word_definition": "a current that flows away from the shore after waves break", 
         "word_description": "", 
         "word_name": "undertow", 
-        "word_example": "Cause everything that you thought I would be ", 
-        "word_definition": "a current that flows away from the shore after waves break"
+        "word_example": "Cause everything that you thought I would be "
       }, 
       "alibi": {
+        "word_definition": "proof that someone accused of a crime could not have done it", 
         "word_description": "", 
         "word_name": "alibi", 
-        "word_example": "In this farewell ", 
-        "word_definition": "proof that someone accused of a crime could not have done it"
+        "word_example": "In this farewell "
       }, 
       "paranoid": {
+        "word_definition": "suffering from delusions of persecution or grandeur", 
         "word_description": "", 
         "word_name": "paranoid", 
-        "word_example": "It's like I'm  paranoid lookin' over my back ", 
-        "word_definition": "suffering from delusions of persecution or grandeur"
+        "word_example": "It's like I'm  paranoid lookin' over my back "
       }, 
       "ignorance": {
+        "word_definition": "the lack of knowledge or education", 
         "word_description": "", 
         "word_name": "ignorance", 
-        "word_example": "I find bliss in  ignorance ", 
-        "word_definition": "the lack of knowledge or education"
+        "word_example": "I find bliss in  ignorance "
       }, 
       "resent": {
+        "word_definition": "feel bitter or indignant about", 
         "word_description": "", 
         "word_name": "resent", 
-        "word_example": "And don't  resent me ", 
-        "word_definition": "feel bitter or indignant about"
+        "word_example": "And don't  resent me "
       }, 
       "cater": {
+        "word_definition": "give what is desired or needed", 
         "word_description": "", 
         "word_name": "cater", 
-        "word_example": "Like this war's really just a different brand of war ", 
-        "word_definition": "give what is desired or needed"
+        "word_example": "Like this war's really just a different brand of war "
       }, 
       "deceit": {
+        "word_definition": "the quality of being fraudulent", 
         "word_description": "", 
         "word_name": "deceit", 
-        "word_example": "Heavy thoughts forcing their way out of me ", 
-        "word_definition": "the quality of being fraudulent"
+        "word_example": "Heavy thoughts forcing their way out of me "
       }, 
       "bliss": {
+        "word_definition": "a state of extreme happiness", 
         "word_description": "", 
         "word_name": "bliss", 
-        "word_example": "I find  bliss in ignorance ", 
-        "word_definition": "a state of extreme happiness"
+        "word_example": "I find  bliss in ignorance "
       }, 
       "condescending": {
+        "word_definition": "characteristic of those who treat others with arrogance", 
         "word_description": "", 
         "word_name": "condescending", 
-        "word_example": "I remember what they taught to me ", 
-        "word_definition": "characteristic of those who treat others with arrogance"
+        "word_example": "I remember what they taught to me "
       }, 
       "instigate": {
+        "word_definition": "provoke or stir up", 
         "word_description": "", 
         "word_name": "instigate", 
-        "word_example": "I don't know why I  instigate ", 
-        "word_definition": "provoke or stir up"
+        "word_example": "I don't know why I  instigate "
       }
     }, 
-    "list_detailed_description": "Chester Bennington, the lead singer of Linkin Park, died on July 20, 2017 at the age of 41. The cause of death was suicide. Bennington had long been the howling voice of the legacy of abuse and addiction in the rock world, and he'd become the embodiment of hope for many who identified with his lyrics and his personal struggles. Here are eleven vocabulary words drawn from the lyrics of Chester Bennington.", 
-    "list_href": "/lists/1776448"
+    "list_href": "/lists/1776448", 
+    "list_detailed_description": "Chester Bennington, the lead singer of Linkin Park, died on July 20, 2017 at the age of 41. The cause of death was suicide. Bennington had long been the howling voice of the legacy of abuse and addiction in the rock world, and he'd become the embodiment of hope for many who identified with his lyrics and his personal struggles. Here are eleven vocabulary words drawn from the lyrics of Chester Bennington."
   }, 
   "This Week in Words: July 1-7, 2017": {
     "list_brief_description": "Too wrapped up in Fourth of July festivities to watch the news? Did you use the newspaper to light a...\r\n\r\n", 
     "list_num": "10 Words", 
     "list_detailed_info": {
       "reticent": {
+        "word_definition": "temperamentally disinclined to talk", 
         "word_description": "This quote is from a letter to the Republican leadership about the current budget proposal.  Reticent isn't really the best word choice here \u2014 if you are  reticent  you are reluctant to discuss something, and obviously the authors are discussing the issue. Clearly the group doesn't want to support the resolution \u2014 they are not  reticent about it. They may be willing to shout their opinion from rooftops. A word like  reluctant would be more fitting.", 
         "word_name": "reticent", 
-        "word_example": "\u201c[A]bsent such a bipartisan, bicameral agreement, we are  reticent to support any budget resolution on the House floor,\u201d the letter reads. ", 
-        "word_definition": "temperamentally disinclined to talk"
+        "word_example": "\u201c[A]bsent such a bipartisan, bicameral agreement, we are  reticent to support any budget resolution on the House floor,\u201d the letter reads. "
       }, 
       "culmination": {
+        "word_definition": "a concluding action", 
         "word_description": "A shooting at an Arkansas nightclub injured 28 people. The governor used the word culmination because although there have been other acts of violence, this is the worst incident this area has seen \u2014 a  culmination is a final, large act in a series of smaller acts. Governor Hutchinson expressed the hope that the nightclub shooting is the end to this streak of violence, and that no further acts occur.", 
         "word_name": "culmination", 
-        "word_example": "Little Rock\u2019s crime problem appears to be intensifying. Every few days it seems a high-profile shooting dominates the news, culminating with this morning\u2019s event,\u201d  ", 
-        "word_definition": "a concluding action"
+        "word_example": "Little Rock\u2019s crime problem appears to be intensifying. Every few days it seems a high-profile shooting dominates the news, culminating with this morning\u2019s event,\u201d  "
       }, 
       "provocation": {
+        "word_definition": "a means of arousing or stirring to action", 
         "word_description": "South Korea's new President, Moon Jae-in, visited the White House this week to discuss with President Trump how to deal with continuing North Korean aggression. Then, later in the week, North Korea tested what is believed to be a long range ballistic missile capable of hitting Alaska, a violation of United Nations sanctions against the country.", 
         "word_name": "provocation", 
-        "word_example": "In Seoul, Mr. Moon, who during his election campaign this year advocated talks with the North, met with senior security officials to discuss the latest  provocation, his office said. ", 
-        "word_definition": "a means of arousing or stirring to action"
+        "word_example": "In Seoul, Mr. Moon, who during his election campaign this year advocated talks with the North, met with senior security officials to discuss the latest  provocation, his office said. "
       }, 
       "acrimony": {
+        "word_definition": "a rough and bitter manner", 
         "word_description": "President Trump penned a tweet criticizing \"Low-I.Q. Mika\" and accusing her of having a facelift. Twitter blew up like the sky on the Fourth of July over this, with critics claiming this was another of the president's attacks on female journalists and the President's defenders saying Brzezinski's attacks on Trump had started the whole thing. Much like a fireworks display, the rivalry was loud and attention-grabbing for awhile, but it soon faded away (at least to some degree).", 
         "word_name": "acrimony", 
-        "word_example": "President Trump\u2019s extraordinary attack on the television host Mika Brzezinski on Thursday capped a week of mounting  acrimony between the White House and the press. ", 
-        "word_definition": "a rough and bitter manner"
+        "word_example": "President Trump\u2019s extraordinary attack on the television host Mika Brzezinski on Thursday capped a week of mounting  acrimony between the White House and the press. "
       }, 
       "invincible": {
+        "word_definition": "incapable of being overcome or subdued", 
         "word_description": "Jay-Z's new album 4:44 was released this week. The lyrics address all aspects of the rapper's life, including his relationship with his wife Beyonc\u00e9 in light of the revelations on her album \"Lemonade.\" These particular lyrics are said to be about Jay-Z's relationship with Kanye West \u2014 the rumor mill has it that Beyonc\u00e9 doesn't like Kanye's wife, Kim Kardashian. Awkward! Imagine being the most powerful woman in hip hop and still being forced to hang out with someone you can't stand!", 
         "word_name": "invincible", 
-        "word_example": "You walkin' around like you  invincible ", 
-        "word_definition": "incapable of being overcome or subdued"
+        "word_example": "You walkin' around like you  invincible "
       }, 
       "denounce": {
+        "word_definition": "speak out against", 
         "word_description": "There were more pyrotechnics from the world of politics this week when President Trump attacked CNN for sharing a re-edited video using Trump's appearance as a guest at professional wrestling event. The CNN clip shows him tackling a man with a CNN logo superimposed over his face.", 
         "word_name": "denounce", 
-        "word_example": "The wrestling video, which was also posted to the official @POTUS Twitter account, stirred criticism, disbelief and dumbfoundedness. Some journalists  denounced its portrayal of violence as dangerous, saying it could incite attacks or threats against news media employees. ", 
-        "word_definition": "speak out against"
+        "word_example": "The wrestling video, which was also posted to the official @POTUS Twitter account, stirred criticism, disbelief and dumbfoundedness. Some journalists  denounced its portrayal of violence as dangerous, saying it could incite attacks or threats against news media employees. "
       }, 
       "deter": {
+        "word_definition": "try to prevent; show opposition to", 
         "word_description": "In order to discourage, or  deter, parents from putting their children into the custody of criminals who will smuggle their kids into the United States, the Trump administration has enacted a policy that would punish the parents of these children.", 
         "word_name": "deter", 
-        "word_example": "The administration said the arrests would  deter families from putting children in the hands of smugglers for dangerous journeys through regions controlled by drug cartels. ", 
-        "word_definition": "try to prevent; show opposition to"
+        "word_example": "The administration said the arrests would  deter families from putting children in the hands of smugglers for dangerous journeys through regions controlled by drug cartels. "
       }, 
       "fusillade": {
+        "word_definition": "rapid simultaneous discharge of firearms", 
         "word_description": "Whatever your view of President Trump's behavior on Twitter, \" fusillade of tweets\" is a phrase you can endorse to describe them.  Fusillade is normally associated with a hail of gunfire, bullets flying everywhere. Similarly, the tweets come fast and furious, often in bursts, with the intent of pummeling their target into submission.", 
         "word_name": "fusillade", 
-        "word_example": "From economic data to the tech sector\u2019s meltdown and even President Donald Trump\u2019s  fusillade of tweets, there will be no dearth of catalysts for stocks in the first several trading days of July. ", 
-        "word_definition": "rapid simultaneous discharge of firearms"
+        "word_example": "From economic data to the tech sector\u2019s meltdown and even President Donald Trump\u2019s  fusillade of tweets, there will be no dearth of catalysts for stocks in the first several trading days of July. "
       }, 
       "poignant": {
+        "word_definition": "arousing affect", 
         "word_description": "", 
         "word_name": "poignant", 
-        "word_example": "But there\u2019s also something  poignant about the way the movie acknowledges and embraces the character\u2019s teenage fallibility, his human error. This is a Spider-Man who can\u2019t drive yet, who hasn\u2019t entirely conquered his fear of heights, who cries when in pain. ", 
-        "word_definition": "arousing affect"
+        "word_example": "But there\u2019s also something  poignant about the way the movie acknowledges and embraces the character\u2019s teenage fallibility, his human error. This is a Spider-Man who can\u2019t drive yet, who hasn\u2019t entirely conquered his fear of heights, who cries when in pain. "
       }, 
       "moratorium": {
+        "word_definition": "suspension of an ongoing activity", 
         "word_description": "The NBA champion Golden State Warriors will pay Steph Curry $201 million for five years. It's the extra $1 million that we don't understand. Was the nice round number of $200 million an insult? Did Curry want to be that much closer to the Gross Domestic Product of Palau (He's got the Marshall Islands solidly beat.)? Is it a tax strategy for the mega-rich? Whatever the reason for the extra million, Curry's contract sets a record for N.B.A. Basketball.", 
         "word_name": "moratorium", 
-        "word_example": "Golden State General Manager Bob Myers said a contract would be finalized with the Warriors star Stephen Curry once the free agency  moratorium ends on July 6th... Curry\u2019s agent, Jeff Austin of Octagon Sports, first told ESPN that the deal would be worth $201 million over five years, a record for the N.B.A. ", 
-        "word_definition": "suspension of an ongoing activity"
+        "word_example": "Golden State General Manager Bob Myers said a contract would be finalized with the Warriors star Stephen Curry once the free agency  moratorium ends on July 6th... Curry\u2019s agent, Jeff Austin of Octagon Sports, first told ESPN that the deal would be worth $201 million over five years, a record for the N.B.A. "
       }
     }, 
-    "list_detailed_description": "Too wrapped up in Fourth of July festivities to watch the news? Did you use the newspaper to light a grill instead of reading it? No problem! We\u2019ve rounded up the top ten words heard, read, debated, and discussed this week. There were plenty of pyrotechnics \u2014 sparks flew between unusual adversaries, with much of the battle taking place in a \n", 
-    "list_href": "/lists/1757147"
+    "list_href": "/lists/1757147", 
+    "list_detailed_description": "Too wrapped up in Fourth of July festivities to watch the news? Did you use the newspaper to light a grill instead of reading it? No problem! We\u2019ve rounded up the top ten words heard, read, debated, and discussed this week. There were plenty of pyrotechnics \u2014 sparks flew between unusual adversaries, with much of the battle taking place in a \n"
   }, 
   "\"The Sun Is Also a Star,\" Vocabulary from Prologue-Natasha": {
     "list_brief_description": "In one of the most popular and highly praised YA novels of 2016, Nicola Yoon tells the story of two...\r\n\r\n", 
     "list_num": "40 Words", 
     "list_detailed_info": {
       "patois": {
+        "word_definition": "a regional dialect of a language ", 
         "word_description": "", 
         "word_name": "patois", 
-        "word_example": "Maybe you've heard the word irie before. Maybe you\u2019ve traveled to Jamaica and know that it has some roots in the Jamaican dialect,  patois.", 
-        "word_definition": "a regional dialect of a language "
-      }, 
-      "decency": {
-        "word_description": "", 
-        "word_name": "decency", 
-        "word_example": "Secretly, in their heart of hearts, almost everyone believes that there\u2019s some meaning, some willfulness to life. Fairness. Basic  decency. Good things happen to good people. Bad things only happen to bad people.", 
-        "word_definition": "the quality of conforming to rules of propriety and morality"
-      }, 
-      "actuarial": {
-        "word_description": "", 
-        "word_name": "actuarial", 
-        "word_example": "He has  actuarial tables in his mind. He knows the cost of a human life lost in an airplane crash, a car accident, a mining disaster. He knows these things because he once worked in insurance. It was his job to price the unwanted and unexpected.", 
-        "word_definition": "relating to statistics to calculate insurance premiums"
-      }, 
-      "navigate": {
-        "word_description": "", 
-        "word_name": "navigate", 
-        "word_example": "It even has instructions on how to find Polaris and  navigate your way by stars in case you get lost.", 
-        "word_definition": "direct and plot the path and position of a conveyance"
-      }, 
-      "random": {
-        "word_description": "", 
-        "word_name": "random", 
-        "word_example": "\u201cSomething temporary and not at all measurable. People just want to believe. Otherwise they would have to admit that life is just a  random series of good and bad things that happen until one day you die.\u201d", 
-        "word_definition": "lacking any definite plan or order or purpose"
-      }, 
-      "improbable": {
-        "word_description": "", 
-        "word_name": "improbable", 
-        "word_example": "Something strange and  improbable would happen so that the impossible couldn\u2019t.", 
-        "word_definition": "having a chance of occurring too low to inspire belief"
-      }, 
-      "optimistic": {
-        "word_description": "", 
-        "word_name": "optimistic", 
-        "word_example": "Bev\u2019s always been relentlessly  optimistic, even in the face of dire odds.", 
-        "word_definition": "hopeful that the best will happen in the future"
-      }, 
-      "dictate": {
-        "word_description": "", 
-        "word_name": "dictate", 
-        "word_example": "Since I\u2019m letting the universe  dictate my life on this Final Day of Childhood, I don\u2019t bother waiting for another train to take me to Thirty-Fourth Street.", 
-        "word_definition": "rule unconstrained by law"
-      }, 
-      "subtle": {
-        "word_description": "", 
-        "word_name": "subtle", 
-        "word_example": "I look left and right. Still no Sign. I\u2019m looking for something  subtle, along the lines of a long-haired man turning water into wine and holding a placard proclaiming himself to be Jesus Christ, Our Lord and Savior.", 
-        "word_definition": "difficult to detect or grasp by the mind or analyze"
-      }, 
-      "extinction": {
-        "word_description": "", 
-        "word_name": "extinction", 
-        "word_example": "If you want to make an apple pie from nothing at all, you have to start with the Big Bang and expanding universes, neutrons, ions, atoms, black holes, suns, moons, ocean tides, the Milky Way, Earth, evolution, dinosaurs, extinction-level events, platypuses, Homo erectus, Cro-Magnon man, etc.", 
-        "word_definition": "complete annihilation"
-      }, 
-      "constellation": {
-        "word_description": "", 
-        "word_name": "constellation", 
-        "word_example": "It\u2019s huge\u2014actually eight posters that I taped together\u2014and shows all the major stars,  constellations, and sections of the Milky Way visible from the Northern Hemisphere.", 
-        "word_definition": "a configuration of stars as seen from the earth"
-      }, 
-      "prosperity": {
-        "word_description": "", 
-        "word_name": "prosperity", 
-        "word_example": "For most immigrants, moving to the new country is an act of faith. Even if you\u2019ve heard stories of safety, opportunity, and  prosperity, it\u2019s still a leap to remove yourself from your own language, people, and country.", 
-        "word_definition": "the condition of having good fortune"
-      }, 
-      "paradox": {
-        "word_description": "", 
-        "word_name": "paradox", 
-        "word_example": "\u201cAnd we\u2019re ignoring the grandfather  paradox?\u201d she asks.", 
-        "word_definition": "a statement that contradicts itself"
-      }, 
-      "destiny": {
-        "word_description": "", 
-        "word_name": "destiny", 
-        "word_example": "Local Teen Accepts  Destiny, Agrees to Become Doctor", 
-        "word_definition": "the circumstances or condition to which someone is fated"
-      }, 
-      "sentiment": {
-        "word_description": "", 
-        "word_name": "sentiment", 
-        "word_example": "Things happen for a reason, Tasha. I don\u2019t believe that  sentiment, but still, there has to be a logical explanation for the horribleness of this day.", 
-        "word_definition": "a personal belief or judgment"
-      }, 
-      "strategy": {
-        "word_description": "", 
-        "word_name": "strategy", 
-        "word_example": "I want to tell him that maybe he shouldn\u2019t leave everything up to God and that hoping against hope is not a life  strategy, but that would mean I would have to talk to him, and I don\u2019t want to talk to him.", 
-        "word_definition": "an elaborate and systematic plan of action"
-      }, 
-      "content": {
-        "word_description": "", 
-        "word_name": "content", 
-        "word_example": "Everything is all right between you and your god, and therefore between you and the world. To be irie is to be in a high and  content spiritual place. In the word, you hear the invention of religion itself.", 
-        "word_definition": "satisfied or showing satisfaction with things as they are"
-      }, 
-      "copacetic": {
-        "word_description": "", 
-        "word_name": "copacetic", 
-        "word_example": "Anyone looking in at us from the outside would think things are  copacetic.", 
-        "word_definition": "completely satisfactory"
-      }, 
-      "futile": {
-        "word_description": "", 
-        "word_name": "futile", 
-        "word_example": "My mom says it\u2019s time for me to give up now, and that what I\u2019m doing is  futile.", 
-        "word_definition": "producing no result or effect"
-      }, 
-      "betray": {
-        "word_description": "", 
-        "word_name": "betray", 
-        "word_example": "But before that, before he becomes a politician and marries well, before he changes his name to Charles Bay, before he  betrays his good wife and constituents at every turn, before too much money and success and much too much of getting everything that he wants, he will do a good and selfless thing for his brother.", 
-        "word_definition": "disappoint, abandon, or prove undependable to"
-      }, 
-      "satellite": {
-        "word_description": "", 
-        "word_name": "satellite", 
-        "word_example": "It seems like such a long time ago when I thought the world of him. He was some exotic planet and I was his favorite  satellite. But he\u2019s no planet, just the final fading light of an already dead star. ", 
-        "word_definition": "any celestial body orbiting around a planet or star"
-      }, 
-      "fate": {
-        "word_description": "", 
-        "word_name": "fate", 
-        "word_example": "Today is my last chance to try to convince someone\u2014or  fate\u2014to help me find a way to stay in America. ", 
-        "word_definition": "the ultimate agency predetermining the course of events"
-      }, 
-      "banter": {
-        "word_description": "", 
-        "word_name": "banter", 
-        "word_example": "He is classically handsome; debonair, even. Watching him stand there in his suit, I can picture him in a black-and-white Hollywood romantic comedy trading witty  banter with his heroine.", 
-        "word_definition": "light teasing repartee"
-      }, 
-      "impress": {
-        "word_description": "", 
-        "word_name": "impress", 
-        "word_example": "I am clearly not meant to  impress this girl.", 
-        "word_definition": "have an emotional or cognitive impact upon"
-      }, 
-      "quota": {
-        "word_description": "", 
-        "word_name": "quota", 
-        "word_example": "Her face dares me to ask her more, but I\u2019ve reached my  quota of daring things (1=following cute girl, 2=yelling at ex-boyfriend of cute girl, 3=saving life of cute girl, 4=asking out cute girl) for the day.", 
-        "word_definition": "a prescribed number"
-      }, 
-      "deja vu": {
-        "word_description": "", 
-        "word_name": "deja vu", 
-        "word_example": "I get a sudden sense of  deja vu. I\u2019ve been here before. I\u2019ve noticed those bright eyes and that smile. I\u2019ve even had this conversation.", 
-        "word_definition": "the experience of thinking a new situation already occurred"
-      }, 
-      "nihilism": {
-        "word_description": "", 
-        "word_name": "nihilism", 
-        "word_example": "Instead of pushing him away, my  nihilism is only making him more comfortable.", 
-        "word_definition": "the delusion that things do not exist"
+        "word_example": "Maybe you've heard the word irie before. Maybe you\u2019ve traveled to Jamaica and know that it has some roots in the Jamaican dialect,  patois."
       }, 
       "reversal": {
+        "word_definition": "turning in the opposite direction", 
         "word_description": "", 
         "word_name": "reversal", 
-        "word_example": "My whole life it\u2019s been the opposite. Why can\u2019t you be more like your brother? This  Reversal of Fortune is not good for either of us.", 
-        "word_definition": "turning in the opposite direction"
+        "word_example": "My whole life it\u2019s been the opposite. Why can\u2019t you be more like your brother? This  Reversal of Fortune is not good for either of us."
+      }, 
+      "actuarial": {
+        "word_definition": "relating to statistics to calculate insurance premiums", 
+        "word_description": "", 
+        "word_name": "actuarial", 
+        "word_example": "He has  actuarial tables in his mind. He knows the cost of a human life lost in an airplane crash, a car accident, a mining disaster. He knows these things because he once worked in insurance. It was his job to price the unwanted and unexpected."
+      }, 
+      "navigate": {
+        "word_definition": "direct and plot the path and position of a conveyance", 
+        "word_description": "", 
+        "word_name": "navigate", 
+        "word_example": "It even has instructions on how to find Polaris and  navigate your way by stars in case you get lost."
+      }, 
+      "random": {
+        "word_definition": "lacking any definite plan or order or purpose", 
+        "word_description": "", 
+        "word_name": "random", 
+        "word_example": "\u201cSomething temporary and not at all measurable. People just want to believe. Otherwise they would have to admit that life is just a  random series of good and bad things that happen until one day you die.\u201d"
+      }, 
+      "improbable": {
+        "word_definition": "having a chance of occurring too low to inspire belief", 
+        "word_description": "", 
+        "word_name": "improbable", 
+        "word_example": "Something strange and  improbable would happen so that the impossible couldn\u2019t."
+      }, 
+      "optimistic": {
+        "word_definition": "hopeful that the best will happen in the future", 
+        "word_description": "", 
+        "word_name": "optimistic", 
+        "word_example": "Bev\u2019s always been relentlessly  optimistic, even in the face of dire odds."
+      }, 
+      "dictate": {
+        "word_definition": "rule unconstrained by law", 
+        "word_description": "", 
+        "word_name": "dictate", 
+        "word_example": "Since I\u2019m letting the universe  dictate my life on this Final Day of Childhood, I don\u2019t bother waiting for another train to take me to Thirty-Fourth Street."
+      }, 
+      "subtle": {
+        "word_definition": "difficult to detect or grasp by the mind or analyze", 
+        "word_description": "", 
+        "word_name": "subtle", 
+        "word_example": "I look left and right. Still no Sign. I\u2019m looking for something  subtle, along the lines of a long-haired man turning water into wine and holding a placard proclaiming himself to be Jesus Christ, Our Lord and Savior."
+      }, 
+      "extinction": {
+        "word_definition": "complete annihilation", 
+        "word_description": "", 
+        "word_name": "extinction", 
+        "word_example": "If you want to make an apple pie from nothing at all, you have to start with the Big Bang and expanding universes, neutrons, ions, atoms, black holes, suns, moons, ocean tides, the Milky Way, Earth, evolution, dinosaurs, extinction-level events, platypuses, Homo erectus, Cro-Magnon man, etc."
+      }, 
+      "constellation": {
+        "word_definition": "a configuration of stars as seen from the earth", 
+        "word_description": "", 
+        "word_name": "constellation", 
+        "word_example": "It\u2019s huge\u2014actually eight posters that I taped together\u2014and shows all the major stars,  constellations, and sections of the Milky Way visible from the Northern Hemisphere."
+      }, 
+      "prosperity": {
+        "word_definition": "the condition of having good fortune", 
+        "word_description": "", 
+        "word_name": "prosperity", 
+        "word_example": "For most immigrants, moving to the new country is an act of faith. Even if you\u2019ve heard stories of safety, opportunity, and  prosperity, it\u2019s still a leap to remove yourself from your own language, people, and country."
+      }, 
+      "paradox": {
+        "word_definition": "a statement that contradicts itself", 
+        "word_description": "", 
+        "word_name": "paradox", 
+        "word_example": "\u201cAnd we\u2019re ignoring the grandfather  paradox?\u201d she asks."
+      }, 
+      "destiny": {
+        "word_definition": "the circumstances or condition to which someone is fated", 
+        "word_description": "", 
+        "word_name": "destiny", 
+        "word_example": "Local Teen Accepts  Destiny, Agrees to Become Doctor"
+      }, 
+      "sentiment": {
+        "word_definition": "a personal belief or judgment", 
+        "word_description": "", 
+        "word_name": "sentiment", 
+        "word_example": "Things happen for a reason, Tasha. I don\u2019t believe that  sentiment, but still, there has to be a logical explanation for the horribleness of this day."
+      }, 
+      "strategy": {
+        "word_definition": "an elaborate and systematic plan of action", 
+        "word_description": "", 
+        "word_name": "strategy", 
+        "word_example": "I want to tell him that maybe he shouldn\u2019t leave everything up to God and that hoping against hope is not a life  strategy, but that would mean I would have to talk to him, and I don\u2019t want to talk to him."
+      }, 
+      "content": {
+        "word_definition": "satisfied or showing satisfaction with things as they are", 
+        "word_description": "", 
+        "word_name": "content", 
+        "word_example": "Everything is all right between you and your god, and therefore between you and the world. To be irie is to be in a high and  content spiritual place. In the word, you hear the invention of religion itself."
+      }, 
+      "copacetic": {
+        "word_definition": "completely satisfactory", 
+        "word_description": "", 
+        "word_name": "copacetic", 
+        "word_example": "Anyone looking in at us from the outside would think things are  copacetic."
+      }, 
+      "betray": {
+        "word_definition": "disappoint, abandon, or prove undependable to", 
+        "word_description": "", 
+        "word_name": "betray", 
+        "word_example": "But before that, before he becomes a politician and marries well, before he changes his name to Charles Bay, before he  betrays his good wife and constituents at every turn, before too much money and success and much too much of getting everything that he wants, he will do a good and selfless thing for his brother."
+      }, 
+      "futile": {
+        "word_definition": "producing no result or effect", 
+        "word_description": "", 
+        "word_name": "futile", 
+        "word_example": "My mom says it\u2019s time for me to give up now, and that what I\u2019m doing is  futile."
+      }, 
+      "satellite": {
+        "word_definition": "any celestial body orbiting around a planet or star", 
+        "word_description": "", 
+        "word_name": "satellite", 
+        "word_example": "It seems like such a long time ago when I thought the world of him. He was some exotic planet and I was his favorite  satellite. But he\u2019s no planet, just the final fading light of an already dead star. "
+      }, 
+      "fate": {
+        "word_definition": "the ultimate agency predetermining the course of events", 
+        "word_description": "", 
+        "word_name": "fate", 
+        "word_example": "Today is my last chance to try to convince someone\u2014or  fate\u2014to help me find a way to stay in America. "
+      }, 
+      "banter": {
+        "word_definition": "light teasing repartee", 
+        "word_description": "", 
+        "word_name": "banter", 
+        "word_example": "He is classically handsome; debonair, even. Watching him stand there in his suit, I can picture him in a black-and-white Hollywood romantic comedy trading witty  banter with his heroine."
+      }, 
+      "impress": {
+        "word_definition": "have an emotional or cognitive impact upon", 
+        "word_description": "", 
+        "word_name": "impress", 
+        "word_example": "I am clearly not meant to  impress this girl."
+      }, 
+      "quota": {
+        "word_definition": "a prescribed number", 
+        "word_description": "", 
+        "word_name": "quota", 
+        "word_example": "Her face dares me to ask her more, but I\u2019ve reached my  quota of daring things (1=following cute girl, 2=yelling at ex-boyfriend of cute girl, 3=saving life of cute girl, 4=asking out cute girl) for the day."
+      }, 
+      "deja vu": {
+        "word_definition": "the experience of thinking a new situation already occurred", 
+        "word_description": "", 
+        "word_name": "deja vu", 
+        "word_example": "I get a sudden sense of  deja vu. I\u2019ve been here before. I\u2019ve noticed those bright eyes and that smile. I\u2019ve even had this conversation."
+      }, 
+      "nihilism": {
+        "word_definition": "the delusion that things do not exist", 
+        "word_description": "", 
+        "word_name": "nihilism", 
+        "word_example": "Instead of pushing him away, my  nihilism is only making him more comfortable."
+      }, 
+      "decency": {
+        "word_definition": "the quality of conforming to rules of propriety and morality", 
+        "word_description": "", 
+        "word_name": "decency", 
+        "word_example": "Secretly, in their heart of hearts, almost everyone believes that there\u2019s some meaning, some willfulness to life. Fairness. Basic  decency. Good things happen to good people. Bad things only happen to bad people."
       }, 
       "compass": {
+        "word_definition": "navigational instrument for finding directions", 
         "word_description": "", 
         "word_name": "compass", 
-        "word_example": "Names are powerful things. They act as an identity marker and a kind of map, locating you in time and geography. More than that, they can be a  compass.", 
-        "word_definition": "navigational instrument for finding directions"
+        "word_example": "Names are powerful things. They act as an identity marker and a kind of map, locating you in time and geography. More than that, they can be a  compass."
       }, 
       "anonymous": {
+        "word_definition": "having no known name or identity or known source", 
         "word_description": "", 
         "word_name": "anonymous", 
-        "word_example": "To her I\u2019m just another  anonymous face, another applicant, another someone who wants something from America.", 
-        "word_definition": "having no known name or identity or known source"
+        "word_example": "To her I\u2019m just another  anonymous face, another applicant, another someone who wants something from America."
       }, 
       "inevitable": {
+        "word_definition": "incapable of being avoided or prevented", 
         "word_description": "", 
         "word_name": "inevitable", 
-        "word_example": "It doesn\u2019t mean love at first sight. It\u2019s closer to love at second sight. It\u2019s the feeling when you meet someone that you\u2019re going to fall in love with them. Maybe you don\u2019t love them right away, but it\u2019s  inevitable that you will.", 
-        "word_definition": "incapable of being avoided or prevented"
+        "word_example": "It doesn\u2019t mean love at first sight. It\u2019s closer to love at second sight. It\u2019s the feeling when you meet someone that you\u2019re going to fall in love with them. Maybe you don\u2019t love them right away, but it\u2019s  inevitable that you will."
       }, 
       "interaction": {
+        "word_definition": "a mutual or reciprocal deed", 
         "word_description": "", 
         "word_name": "interaction", 
-        "word_example": "Every  interaction with these applicants saves her life just a little.", 
-        "word_definition": "a mutual or reciprocal deed"
+        "word_example": "Every  interaction with these applicants saves her life just a little."
       }, 
       "rejection": {
+        "word_definition": "the state of being turned down", 
         "word_description": "", 
         "word_name": "rejection", 
-        "word_example": "And  rejection was not an easy thing. To be an actor you\u2019re supposed to have thick skin, but Samuel\u2019s skin was never thick enough.  Rejection was like sandpaper.", 
-        "word_definition": "the state of being turned down"
+        "word_example": "And  rejection was not an easy thing. To be an actor you\u2019re supposed to have thick skin, but Samuel\u2019s skin was never thick enough.  Rejection was like sandpaper."
       }, 
       "romantic": {
+        "word_definition": "expressive of or exciting love", 
         "word_description": "", 
         "word_name": "romantic", 
-        "word_example": "Besides the fact that I\u2019m being deported today, I am really not a girl to fall in love with. For one thing, I don\u2019t like temporary, nonprovable things, and  romantic love is both temporary and nonprovable.", 
-        "word_definition": "expressive of or exciting love"
+        "word_example": "Besides the fact that I\u2019m being deported today, I am really not a girl to fall in love with. For one thing, I don\u2019t like temporary, nonprovable things, and  romantic love is both temporary and nonprovable."
       }, 
       "resign": {
+        "word_definition": "accept as inevitable", 
         "word_description": "", 
         "word_name": "resign", 
-        "word_example": "Resigned Local Takes Westbound 7 Train to Childhood's End", 
-        "word_definition": "accept as inevitable"
+        "word_example": "Resigned Local Takes Westbound 7 Train to Childhood's End"
       }, 
       "vortex": {
+        "word_definition": "a powerful circular current of water", 
         "word_description": "", 
         "word_name": "vortex", 
-        "word_example": "Local Teen Trapped in Parental  Vortex of Expectation and Disappointment, Doesn\u2019t Expect to Be Rescued", 
-        "word_definition": "a powerful circular current of water"
+        "word_example": "Local Teen Trapped in Parental  Vortex of Expectation and Disappointment, Doesn\u2019t Expect to Be Rescued"
       }, 
       "infinitesimal": {
+        "word_definition": "immeasurably small", 
         "word_description": "", 
         "word_name": "infinitesimal", 
-        "word_example": "Like hydrogen-7 or lithium-5 or boron-7, love has an  infinitesimally small half-life that decays to nothing.", 
-        "word_definition": "immeasurably small"
+        "word_example": "Like hydrogen-7 or lithium-5 or boron-7, love has an  infinitesimally small half-life that decays to nothing."
       }, 
       "logic": {
+        "word_definition": "a system of reasoning", 
         "word_description": "", 
         "word_name": "logic", 
-        "word_example": "Instead of being ruled by  logic, we are ruled by emotions.", 
-        "word_definition": "a system of reasoning"
+        "word_example": "Instead of being ruled by  logic, we are ruled by emotions."
       }, 
       "salvation": {
+        "word_definition": "the act of delivering from sin or saving from evil", 
         "word_description": "", 
         "word_name": "salvation", 
-        "word_example": "The conductor loves the notion that you can be made anew, free of sin and therefore worthy of love and  salvation.", 
-        "word_definition": "the act of delivering from sin or saving from evil"
+        "word_example": "The conductor loves the notion that you can be made anew, free of sin and therefore worthy of love and  salvation."
       }, 
       "cynic": {
+        "word_definition": "someone who is critical of the motives of others", 
         "word_description": "", 
         "word_name": "cynic", 
-        "word_example": "My dad says he doesn\u2019t know where my cynicism comes from, but I\u2019m not a  cynic. I am a realist. It\u2019s better to see life as it is, not as you wish it to be. Things don\u2019t happen for a reason. They just happen.", 
-        "word_definition": "someone who is critical of the motives of others"
+        "word_example": "My dad says he doesn\u2019t know where my cynicism comes from, but I\u2019m not a  cynic. I am a realist. It\u2019s better to see life as it is, not as you wish it to be. Things don\u2019t happen for a reason. They just happen."
       }
     }, 
-    "list_detailed_description": "In one of the most popular and highly praised YA novels of 2016, Nicola Yoon tells the story of two teens who meet and fall in love over the course of a single day in New York City. Learn these words and see why this book shines.\n", 
-    "list_href": "/lists/1752913"
+    "list_href": "/lists/1752913", 
+    "list_detailed_description": "In one of the most popular and highly praised YA novels of 2016, Nicola Yoon tells the story of two teens who meet and fall in love over the course of a single day in New York City. Learn these words and see why this book shines.\n"
   }, 
   "Sam Shepard (1943-2017) Tribute  List": {
     "list_brief_description": "Playwright and actor Sam Shepard died on July 27, 2017 of ALS, also known as Lou Gehrig's disease....\r\n\r\n", 
     "list_num": "11 Words", 
     "list_detailed_info": {
       "contrived": {
-        "word_definition": "showing effects of planning or manipulation", 
         "word_description": "", 
         "word_name": "contrived", 
-        "word_example": "Personality is everything that's false in a human: everything that's been added on to him and  contrived.- Interview, 1984"
+        "word_example": "Personality is everything that's false in a human: everything that's been added on to him and  contrived.- Interview, 1984", 
+        "word_definition": "showing effects of planning or manipulation"
       }, 
       "perplexing": {
-        "word_definition": "lacking clarity of meaning", 
         "word_description": "", 
         "word_name": "perplexing", 
-        "word_example": "I hate endings. Just detest them. Beginnings are definitely the most exciting, middles are  perplexing and endings are a disaster. \u2026 The temptation towards resolution, towards wrapping up the package, seems to me a terrible trap. Why not be more honest with the moment? The most authentic endings are the ones which are already revolving towards another beginning. That\u2019s genius.- Interview, 1977"
+        "word_example": "I hate endings. Just detest them. Beginnings are definitely the most exciting, middles are  perplexing and endings are a disaster. \u2026 The temptation towards resolution, towards wrapping up the package, seems to me a terrible trap. Why not be more honest with the moment? The most authentic endings are the ones which are already revolving towards another beginning. That\u2019s genius.- Interview, 1977", 
+        "word_definition": "lacking clarity of meaning"
       }, 
       "reckon": {
-        "word_definition": "take account of", 
         "word_description": "", 
         "word_name": "reckon", 
-        "word_example": "I feel like I've never had a home, you know? I feel related to the country, to this country, and yet I don't know exactly where I fit in... There's always this kind of nostalgia for a place, a place where you can  reckon with yourself.- Interview, 1979"
+        "word_example": "I feel like I've never had a home, you know? I feel related to the country, to this country, and yet I don't know exactly where I fit in... There's always this kind of nostalgia for a place, a place where you can  reckon with yourself.- Interview, 1979", 
+        "word_definition": "take account of"
       }, 
       "chaos": {
-        "word_definition": "formless state of matter before the creation of the cosmos", 
         "word_description": "", 
         "word_name": "chaos", 
-        "word_example": "I'm a great believer in  chaos. I don't believe that you start with a formula and then you fulfill the formula.  Chaos is a much better instigator, because we live in  chaos - we don't live in a rigorous form.- Interview, 2013"
+        "word_example": "I'm a great believer in  chaos. I don't believe that you start with a formula and then you fulfill the formula.  Chaos is a much better instigator, because we live in  chaos - we don't live in a rigorous form.- Interview, 2013", 
+        "word_definition": "formless state of matter before the creation of the cosmos"
       }, 
       "resonate": {
-        "word_definition": "be received or understood", 
         "word_description": "", 
         "word_name": "resonate", 
-        "word_example": "In real life we don't know what's going to happen next. So how can you be that way on a stage? Being alive to the possibility of not knowing exactly how everything is going to happen next - if you can find places to have that happen onstage, it can  resonate with an experience of living. - Interview, 2012"
+        "word_example": "In real life we don't know what's going to happen next. So how can you be that way on a stage? Being alive to the possibility of not knowing exactly how everything is going to happen next - if you can find places to have that happen onstage, it can  resonate with an experience of living. - Interview, 2012", 
+        "word_definition": "be received or understood"
       }, 
       "spontaneity": {
-        "word_definition": "the quality of coming from feelings without constraint", 
         "word_description": "", 
         "word_name": "spontaneity", 
-        "word_example": "I'm still very much a believer in the  spontaneity of certain kinds of writing. But then you have to eventually, when you're writing a long play, make adjustments along the way - all kinds of adjustments.- Interview, 2012"
-      }, 
-      "depreciate": {
-        "word_definition": "decline in value", 
-        "word_description": "", 
-        "word_name": "depreciate", 
-        "word_example": "Everyone wants a piece of land. It's the only sure investment. It can never  depreciate like a car or a washing machine. Land will double its value in ten years. In less than that. Land is going up every day.- Curse of the Starving Class"
-      }, 
-      "persist": {
-        "word_definition": "refuse to stop", 
-        "word_description": "", 
-        "word_name": "persist", 
-        "word_example": "When you consider all the writers who never even had a machine. Who would have given an eyeball for a good typewriter. Any typewriter. All the ones who wrote on a matchbook covers. Paper bags. Toilet paper. Who had their writing destroyed by their jailers. Who  persisted beyond all odds.- True West"
-      }, 
-      "totalitarianism": {
-        "word_definition": "a form of government in which the ruler is unconstrained", 
-        "word_description": "", 
-        "word_name": "totalitarianism", 
-        "word_example": "Democracy's a very fragile thing. You have to take care of democracy. As soon as you stop being responsible to it and allow it to turn into scare tactics, it's no longer democracy, is it? It's something else. It may be an inch away from  totalitarianism. - Interview, 2004"
-      }, 
-      "salvation": {
-        "word_definition": "rescuing or protecting someone or something from harm", 
-        "word_description": "", 
-        "word_name": "salvation", 
-        "word_example": "Well it is like  salvation sort of. I mean the smell. I love the smell of toast. And the sun's coming up. It makes me feel like anything's possible. Y'know?- True West"
+        "word_example": "I'm still very much a believer in the  spontaneity of certain kinds of writing. But then you have to eventually, when you're writing a long play, make adjustments along the way - all kinds of adjustments.- Interview, 2012", 
+        "word_definition": "the quality of coming from feelings without constraint"
       }, 
       "vast": {
-        "word_definition": "unusually great in size or amount or extent or scope", 
         "word_description": "", 
         "word_name": "vast", 
-        "word_example": "There's no way to escape the fact that we've grown up in a violent culture, we just can't get away from it, it's part of our heritage. I think part of it is that we've always felt somewhat helpless in the face of this  vast continent. Helplessness is answered in many ways, but one of them is violence. - Interview, 2010"
+        "word_example": "There's no way to escape the fact that we've grown up in a violent culture, we just can't get away from it, it's part of our heritage. I think part of it is that we've always felt somewhat helpless in the face of this  vast continent. Helplessness is answered in many ways, but one of them is violence. - Interview, 2010", 
+        "word_definition": "unusually great in size or amount or extent or scope"
+      }, 
+      "persist": {
+        "word_description": "", 
+        "word_name": "persist", 
+        "word_example": "When you consider all the writers who never even had a machine. Who would have given an eyeball for a good typewriter. Any typewriter. All the ones who wrote on a matchbook covers. Paper bags. Toilet paper. Who had their writing destroyed by their jailers. Who  persisted beyond all odds.- True West", 
+        "word_definition": "refuse to stop"
+      }, 
+      "totalitarianism": {
+        "word_description": "", 
+        "word_name": "totalitarianism", 
+        "word_example": "Democracy's a very fragile thing. You have to take care of democracy. As soon as you stop being responsible to it and allow it to turn into scare tactics, it's no longer democracy, is it? It's something else. It may be an inch away from  totalitarianism. - Interview, 2004", 
+        "word_definition": "a form of government in which the ruler is unconstrained"
+      }, 
+      "salvation": {
+        "word_description": "", 
+        "word_name": "salvation", 
+        "word_example": "Well it is like  salvation sort of. I mean the smell. I love the smell of toast. And the sun's coming up. It makes me feel like anything's possible. Y'know?- True West", 
+        "word_definition": "rescuing or protecting someone or something from harm"
+      }, 
+      "depreciate": {
+        "word_description": "", 
+        "word_name": "depreciate", 
+        "word_example": "Everyone wants a piece of land. It's the only sure investment. It can never  depreciate like a car or a washing machine. Land will double its value in ten years. In less than that. Land is going up every day.- Curse of the Starving Class", 
+        "word_definition": "decline in value"
       }
     }, 
-    "list_href": "/lists/1786030", 
-    "list_detailed_description": "Playwright and actor Sam Shepard died on July 27, 2017 of ALS, also known as Lou Gehrig's disease. He was 73 years old. Shepard won the Pulitzer Prize for Drama in 1979 for his play \n"
+    "list_detailed_description": "Playwright and actor Sam Shepard died on July 27, 2017 of ALS, also known as Lou Gehrig's disease. He was 73 years old. Shepard won the Pulitzer Prize for Drama in 1979 for his play \n", 
+    "list_href": "/lists/1786030"
   }, 
   "This Week in Words: June 25-30, 2017": {
     "list_brief_description": "No time to scour the headlines or watch the news? No problem! We\u2019ve rounded up the top ten words...\r\n\r\n", 
     "list_num": "10 Words", 
     "list_detailed_info": {
       "reconciliation": {
+        "word_definition": "getting two things to correspond", 
         "word_description": "In this sense,  reconciliation implies fixing something that was wrong in order to get two things to come together better. The Senate's proposed Better Care Reconciliation act is intended to \"repeal, replace and fix\" what many view as a broken health care system, the one that's come to be known as \"Obamacare\".", 
         "word_name": "reconciliation", 
-        "word_example": "The Better Care  Reconciliation Act would start cutting Medicaid by the year 2021 if passed.", 
-        "word_definition": "getting two things to correspond"
+        "word_example": "The Better Care  Reconciliation Act would start cutting Medicaid by the year 2021 if passed."
       }, 
       "resentful": {
+        "word_definition": "full of or marked by indignant ill will", 
         "word_description": "Prince Harry made the news when Newsweek published an interview with the young royal. In this quote, Prince Harry discusses being resentful of being pulled out of the army because it was deemed too dangerous for him to serve. Prince Harry is royal and rich beyond imagination, yet even he gets frustrated with his lot in life. We can't decide if that's depressing or somehow uplifting.", 
         "word_name": "resentful", 
-        "word_example": "I felt very  resentful. Being in the Army was the best escape I\u2019ve ever had. I felt as though I was really achieving something ", 
-        "word_definition": "full of or marked by indignant ill will"
-      }, 
-      "reminisce": {
-        "word_description": "When a girl-group as huge as TLC releases a new album, especially when that release is accompanied by the announcement that it'll be their last, it's (at least in pop culture) newsworthy. The self-titled \"TLC\", the first release since their lead singer's tragic death in 2002, is full of throwback hip hop and R&B tracks. If TLC hadn't decided to name the album after themselves, \"Reminisce\" might have been a good alternative.", 
-        "word_name": "reminisce", 
-        "word_example": "Don't you ever wish ", 
-        "word_definition": "recall the past"
+        "word_example": "I felt very  resentful. Being in the Army was the best escape I\u2019ve ever had. I felt as though I was really achieving something "
       }, 
       "apprehend": {
+        "word_definition": "take into custody", 
         "word_description": "The story of an Arkansas convict being apprehended after he escaped from prison in 1985 certainly captured people's attention this week. How did authorities catch him? A tip came in after the fugitive visited his mother. You might not necessarily think of an escaped felon as being a good son, but depending on how you look at it, being a good son might just be the reason this guy was caught. Think he'll send a Mother's Day card next year?", 
         "word_name": "apprehend", 
-        "word_example": "Arkansas authorites said Sunday that they had  apprehended an inmate who had been on the run for more than three decades.  ", 
-        "word_definition": "take into custody"
+        "word_example": "Arkansas authorites said Sunday that they had  apprehended an inmate who had been on the run for more than three decades.  "
       }, 
       "injunction": {
+        "word_definition": "a judicial remedy to prohibit a party from doing something", 
         "word_description": "\"Injunction\" was the big surprise on our vocabulary countdown this week, as the Supreme Court decided the cases it will and will not hear in the upcoming session. The bench issued a preliminary ruling on President Trump's travel ban, upholding parts of it. Supreme Court Justices have a lot of power, so maybe that's a future career if Prince or First Daughter doesn't sound so appealing anymore.", 
         "word_name": "injunction", 
-        "word_example": "We grant the government\u2019s applications to stay the  injunctions, to the extent the  injunctions prevent enforcement of\u201d Mr. Trump\u2019s executive order, the ruling said, \u201cwith respect to foreign nationals who lack any bona fide relationship with a person or entity in the United States\" ", 
-        "word_definition": "a judicial remedy to prohibit a party from doing something"
-      }, 
-      "savant": {
-        "word_description": "First daughter Ivanka Trump gave another widely watched interview this week, in which she distanced herself from the political aspects of her family's dealings. She's another impossibly wealthy person who seems less than thrilled with life these days. Maybe being rich and powerful isn't as easy and fun as it looks?", 
-        "word_name": "savant", 
-        "word_example": "I feel blessed just being part of the ride from day one and before. But he did something pretty remarkable. But I don\u2019t profess to be a political  savant. ", 
-        "word_definition": "a learned person"
+        "word_example": "We grant the government\u2019s applications to stay the  injunctions, to the extent the  injunctions prevent enforcement of\u201d Mr. Trump\u2019s executive order, the ruling said, \u201cwith respect to foreign nationals who lack any bona fide relationship with a person or entity in the United States\" "
       }, 
       "subsidy": {
+        "word_definition": "a grant paid by a government to an enterprise", 
         "word_description": "The details of the latest attempt at a new health care bill were released this week by the Senate, and much of the discussion was taken up with a back and forth about what the proposal would or would not accomplish. The only thing anyone's sure of is that the other side is wrong, particularly when it comes to subsidies.  Subsidies are payments made by the government, and a real sticking point in the health care conundrum.", 
         "word_name": "subsidy", 
-        "word_example": "\"Older people who are now getting premium  subsidies would get substantially less help, but younger people would get more.\"", 
-        "word_definition": "a grant paid by a government to an enterprise"
+        "word_example": "\"Older people who are now getting premium  subsidies would get substantially less help, but younger people would get more.\""
+      }, 
+      "savant": {
+        "word_definition": "a learned person", 
+        "word_description": "First daughter Ivanka Trump gave another widely watched interview this week, in which she distanced herself from the political aspects of her family's dealings. She's another impossibly wealthy person who seems less than thrilled with life these days. Maybe being rich and powerful isn't as easy and fun as it looks?", 
+        "word_name": "savant", 
+        "word_example": "I feel blessed just being part of the ride from day one and before. But he did something pretty remarkable. But I don\u2019t profess to be a political  savant. "
+      }, 
+      "reminisce": {
+        "word_definition": "recall the past", 
+        "word_description": "When a girl-group as huge as TLC releases a new album, especially when that release is accompanied by the announcement that it'll be their last, it's (at least in pop culture) newsworthy. The self-titled \"TLC\", the first release since their lead singer's tragic death in 2002, is full of throwback hip hop and R&B tracks. If TLC hadn't decided to name the album after themselves, \"Reminisce\" might have been a good alternative.", 
+        "word_name": "reminisce", 
+        "word_example": "Don't you ever wish "
       }, 
       "intransigent": {
+        "word_definition": "impervious to pleas, persuasion, requests, reason", 
         "word_description": "Intransigent is a good word to use when it becomes clear that nothing is going to change, like when opponents on each side of a dispute have dug in their heels and will not budge. Apparently, Senate Majority Leader Mitch McConnell saw the writing on the wall when it came to getting (or not getting, in this case) enough support for the Senate's health care bill this week and decided to delay the vote until after the July 4th holiday break. More time for cajoling between now and then!", 
         "word_name": "intransigent", 
-        "word_example": "Facing  intransigent Republican opposition, Senator Mitch McConnell of Kentucky, the Republican leader, has told senators he will delay a vote on his legislation to repeal the Affordable Care Act, dealing President Trump an embarrassing setback on a key part of his agenda. ", 
-        "word_definition": "impervious to pleas, persuasion, requests, reason"
+        "word_example": "Facing  intransigent Republican opposition, Senator Mitch McConnell of Kentucky, the Republican leader, has told senators he will delay a vote on his legislation to repeal the Affordable Care Act, dealing President Trump an embarrassing setback on a key part of his agenda. "
       }, 
       "cajole": {
+        "word_definition": "influence or urge by gentle urging, caressing, or flattering", 
         "word_description": "In the context of politics in Washington,  cajole is a word that conjures images of back-room dealings. People cajole others to get what they want, and it's a polite way to describe what probably went on behind the scenes in the Senate this week to make a deal on the latest health care bill.", 
         "word_name": "cajole", 
-        "word_example": "With criticism mounting over their bill to repeal the Affordable Care Act, top Republicans are cutting deals and  cajoling members to get to 50 votes. ", 
-        "word_definition": "influence or urge by gentle urging, caressing, or flattering"
+        "word_example": "With criticism mounting over their bill to repeal the Affordable Care Act, top Republicans are cutting deals and  cajoling members to get to 50 votes. "
       }, 
       "retract": {
+        "word_definition": "formally reject or disavow", 
         "word_description": "Three CNN staffers resigned this week when a story they reported about a connection between an associate of President Trump and a Russian investment fund \"did not meet editorial standards.\" That's a nice way of saying that they are not sure if what these reporters  said happened  actually happened. CNN decided to retract the article, which is the media's way of saying, \"We take it back.\"", 
         "word_name": "retract", 
-        "word_example": "The  retracted story appeared on CNN\u2019s website and did not air on television.", 
-        "word_definition": "formally reject or disavow"
+        "word_example": "The  retracted story appeared on CNN\u2019s website and did not air on television."
       }
     }, 
-    "list_detailed_description": "No time to scour the headlines or watch the news? No problem! We\u2019ve rounded up the top ten words heard, read, debated, and discussed this week. Washington's wrangling over health care legislation dominated the news cycle, with Republican leadership attempting to cajole intransigent colleagues into supporting the bill. But this week wasn\u2019t all about politics: we were also intrigued by resentful royals, apprehended fugitives, and a 90s hip hop group reminiscing about their past. Take a look back on the week that was, vocabulary-style.", 
-    "list_href": "/lists/1752362"
+    "list_href": "/lists/1752362", 
+    "list_detailed_description": "No time to scour the headlines or watch the news? No problem! We\u2019ve rounded up the top ten words heard, read, debated, and discussed this week. Washington's wrangling over health care legislation dominated the news cycle, with Republican leadership attempting to cajole intransigent colleagues into supporting the bill. But this week wasn\u2019t all about politics: we were also intrigued by resentful royals, apprehended fugitives, and a 90s hip hop group reminiscing about their past. Take a look back on the week that was, vocabulary-style."
   }, 
   "The Sweltering Words of Summer": {
     "list_brief_description": "Looking for a variety of words to choose from when complaining about how hot it is? You're in luck!...\r\n\r\n", 
     "list_num": "13 Words", 
     "list_detailed_info": {
       "muggy": {
+        "word_definition": "hot or warm and humid", 
         "word_description": "Muggy has been around since at least the 1700s. Another word used for humid or muggy weather is  sticky, in reference to the sweat-soaked shirts and other garments that can make summer so uncomfortable. It's one thing to be sweaty after playing basketball or ripping phone books. It's another thing to be drenched in sweat just standing there, because of monumental mugginess.", 
         "word_name": "muggy", 
-        "word_example": "The ocean breeze swept away the  muggy heat of the summer afternoon, and it was pleasantly cool under the shade of the palmetto trees.", 
-        "word_definition": "hot or warm and humid"
+        "word_example": "The ocean breeze swept away the  muggy heat of the summer afternoon, and it was pleasantly cool under the shade of the palmetto trees."
       }, 
       "blistering": {
+        "word_definition": "hot enough to raise (or as if to raise) blisters", 
         "word_description": "", 
         "word_name": "blistering", 
-        "word_example": "After a weekend of  blistering heat, firefighters will face additional weather-related complications, according to the National Weather Service.", 
-        "word_definition": "hot enough to raise (or as if to raise) blisters"
+        "word_example": "After a weekend of  blistering heat, firefighters will face additional weather-related complications, according to the National Weather Service."
       }, 
       "humid": {
+        "word_definition": "containing or characterized by a great deal of water vapor", 
         "word_description": "One of the most annoying summer phrases\u2014along with \"Hot enough for ya?\"\u2014is \"It's not the heat, it's the humidity.\" When humidity is high, the weather is  humid. High humidity means there's a lot of moisture in the air, and when humidity reaches 100%, Mother Nature makes it rain.", 
         "word_name": "humid", 
-        "word_example": "\u201cFor example, in a warming world, we anticipate more unbearably  humid days,\u201d he said.", 
-        "word_definition": "containing or characterized by a great deal of water vapor"
+        "word_example": "\u201cFor example, in a warming world, we anticipate more unbearably  humid days,\u201d he said."
       }, 
       "oppressive": {
+        "word_definition": "weighing heavily on the senses or spirit", 
         "word_description": "This word usually refers to tyrannical governments that crush their people's spirits. Anything oppressive pushes down from above, which may explain why people often describe the heat as  oppressive when the sun feels like the enemy, because it's just so flippin' hot. If the heat is oppressive, it's wearing down your body and spirit. Seek an air conditioner immediately.", 
         "word_name": "oppressive", 
-        "word_example": "But 50 years ago she was a pre-teen, sleeping on the porch to escape the  oppressive heat, awakening to see a sky that glowed unnaturally.", 
-        "word_definition": "weighing heavily on the senses or spirit"
+        "word_example": "But 50 years ago she was a pre-teen, sleeping on the porch to escape the  oppressive heat, awakening to see a sky that glowed unnaturally."
       }, 
       "nuclear": {
+        "word_definition": "deriving destructive energy from releasing atomic energy", 
         "word_description": "Literally, anything nuclear refers to the nucleus of an atom. Nuclear energy comes from splitting the atom, and that's why you see references to nuclear weapons, nuclear power plants, and nuclear scientists. However, sometimes this term is used a bit more loosely. When an argument gets out of hand, it goes nuclear, and when the temperatures rise to preposterous degrees, you can say the weather has also reached nuclear levels.", 
         "word_name": "nuclear", 
-        "word_example": "A  nuclear summer almost assuredly is on the way.", 
-        "word_definition": "deriving destructive energy from releasing atomic energy"
+        "word_example": "A  nuclear summer almost assuredly is on the way."
       }, 
       "balmy": {
+        "word_definition": "mild and pleasant", 
         "word_description": "", 
         "word_name": "balmy", 
-        "word_example": "On a  balmy summer evening with a breeze to keep the bugs away, it\u2019s perfectly enchanting.", 
-        "word_definition": "mild and pleasant"
+        "word_example": "On a  balmy summer evening with a breeze to keep the bugs away, it\u2019s perfectly enchanting."
       }, 
       "tropical": {
+        "word_definition": "hot and humid", 
         "word_description": "This refers to countries around the Earth's equator: the tropics. These areas, far from the chilly North and South poles, have the opposite weather: hot and steamy. This is why tropical nations such as Jamaica and the Bahamas are popular vacation spots, and it's also why  tropical is a synonym for hot weather.", 
         "word_name": "tropical", 
-        "word_example": "Drivers sling hammocks in their wheel wells and sometimes wait several days in the thick  tropical heat.", 
-        "word_definition": "hot and humid"
+        "word_example": "Drivers sling hammocks in their wheel wells and sometimes wait several days in the thick  tropical heat."
       }, 
       "sweltering": {
+        "word_definition": "excessively hot and humid; marked by sweating and faintness", 
         "word_description": "Since the 1600s,  sweltering has been a word for excessive heat. The Oxford English Dictionary describes it as, \"Oppressive or overpowering with great heat; causing or accompanied by profuse sweating or suffocation through extreme heat.\" That's right: sweltering heat is so bad you might not even be able to breathe, literally. Sweltering isn't swell.", 
         "word_name": "sweltering", 
-        "word_example": "Plus, it was  sweltering and one groomsman wanted to shed his suit jacket.", 
-        "word_definition": "excessively hot and humid; marked by sweating and faintness"
+        "word_example": "Plus, it was  sweltering and one groomsman wanted to shed his suit jacket."
       }, 
       "stifling": {
+        "word_definition": "characterized by oppressive heat and humidity", 
         "word_description": "", 
         "word_name": "stifling", 
-        "word_example": "Arizona is seeing the most  stifling temperatures, but the wrath of the heat wave is being felt across Nevada and California as well.", 
-        "word_definition": "characterized by oppressive heat and humidity"
+        "word_example": "Arizona is seeing the most  stifling temperatures, but the wrath of the heat wave is being felt across Nevada and California as well."
       }, 
       "scorch": {
+        "word_definition": "become singed under intense heat or dry conditions", 
         "word_description": "", 
         "word_name": "scorch", 
-        "word_example": "This weekend, despite  scorching temperatures, they contained the majority of the 20 more significant wildfires at a few thousand acres.", 
-        "word_definition": "become singed under intense heat or dry conditions"
+        "word_example": "This weekend, despite  scorching temperatures, they contained the majority of the 20 more significant wildfires at a few thousand acres."
       }
     }, 
-    "list_detailed_description": "Looking for a variety of words to choose from when complaining about how hot it is? You're in luck! There are plenty of ways to gripe about just how stifling the summer months can be.\n", 
-    "list_href": "/lists/1771852"
+    "list_href": "/lists/1771852", 
+    "list_detailed_description": "Looking for a variety of words to choose from when complaining about how hot it is? You're in luck! There are plenty of ways to gripe about just how stifling the summer months can be.\n"
   }, 
   "Christopher Columbus: The First Voyage": {
     "list_brief_description": "Christopher Columbus embarked on the first of three voyages to the \"New World\" with three ships \u2014...\r\n\r\n", 
     "list_num": "14 Words", 
     "list_detailed_info": {
       "vagary": {
+        "word_definition": "an unexpected and inexplicable change in something", 
         "word_description": "", 
         "word_name": "vagary", 
-        "word_example": "September 17.\u2014The ship's company discovered at dawn to-day the  vagaries of the compass. Situation alarming. They at once said we must go home.", 
-        "word_definition": "an unexpected and inexplicable change in something"
+        "word_example": "September 17.\u2014The ship's company discovered at dawn to-day the  vagaries of the compass. Situation alarming. They at once said we must go home."
       }, 
       "serpent": {
+        "word_definition": "limbless scaly elongate reptile; some are venomous", 
         "word_description": "", 
         "word_name": "serpent", 
-        "word_example": "September 9.\u2014Officers and ship's company in decidedly less good spirits since the foggy weather began. Sea  serpent incident also caused a good deal of disappointment, the men being convinced we had reached the coast of China, although I had repeatedly explained that we could not possibly make that land for some time yet.", 
-        "word_definition": "limbless scaly elongate reptile; some are venomous"
+        "word_example": "September 9.\u2014Officers and ship's company in decidedly less good spirits since the foggy weather began. Sea  serpent incident also caused a good deal of disappointment, the men being convinced we had reached the coast of China, although I had repeatedly explained that we could not possibly make that land for some time yet."
       }, 
       "sanguine": {
+        "word_definition": "confidently optimistic and cheerful", 
         "word_description": "", 
         "word_name": "sanguine", 
-        "word_example": "October 11.\u2014He said at dinner yesterday that we might come home by the Nile, as we should certainly encounter its source in China. Want of taste. It is only too plain that both officers and ship's company are growing sceptical as to the practical results of our voyage. Wish the King and Queen of Spain had been a little less  sanguine. We shall indeed look very foolish if we come back having accomplished nothing.", 
-        "word_definition": "confidently optimistic and cheerful"
+        "word_example": "October 11.\u2014He said at dinner yesterday that we might come home by the Nile, as we should certainly encounter its source in China. Want of taste. It is only too plain that both officers and ship's company are growing sceptical as to the practical results of our voyage. Wish the King and Queen of Spain had been a little less  sanguine. We shall indeed look very foolish if we come back having accomplished nothing."
       }, 
       "scoff": {
+        "word_definition": "laugh at with contempt and derision", 
         "word_description": "", 
         "word_name": "scoff", 
-        "word_example": "September 9.\u2014The doctor, who has always  ", 
-        "word_definition": "laugh at with contempt and derision"
-      }, 
-      "plumb": {
-        "word_description": "", 
-        "word_name": "plumb", 
-        "word_example": "September 17.\u2014Roderigo has constructed an instrument, hanging by a universal joint on a triangular stand, adjusted so as to hang in a plane perpendicular to the horizon, by means of a  plumb line, which is suspended on a pin above a divided circle.", 
-        "word_definition": "exactly vertical"
+        "word_example": "September 9.\u2014The doctor, who has always  "
       }, 
       "disgracefully": {
+        "word_definition": "in a dishonorable manner or to a dishonorable degree", 
         "word_description": "", 
         "word_name": "disgracefully", 
-        "word_example": "September 26.\u2014Steered W. No sign of anything. Wish we had never left Spain. The Alguazil  disgracefully drunk again last night, and rude in his cups.", 
-        "word_definition": "in a dishonorable manner or to a dishonorable degree"
+        "word_example": "September 26.\u2014Steered W. No sign of anything. Wish we had never left Spain. The Alguazil  disgracefully drunk again last night, and rude in his cups."
+      }, 
+      "plumb": {
+        "word_definition": "exactly vertical", 
+        "word_description": "", 
+        "word_name": "plumb", 
+        "word_example": "September 17.\u2014Roderigo has constructed an instrument, hanging by a universal joint on a triangular stand, adjusted so as to hang in a plane perpendicular to the horizon, by means of a  plumb line, which is suspended on a pin above a divided circle."
       }, 
       "hoist": {
+        "word_definition": "raise", 
         "word_description": "", 
         "word_name": "hoist", 
-        "word_example": "October 12.\u2014 ", 
-        "word_definition": "raise"
+        "word_example": "October 12.\u2014 "
       }, 
       "respite": {
+        "word_definition": "a relief from harm or discomfort", 
         "word_description": "", 
         "word_name": "respite", 
-        "word_example": "October 10.\u2014Mutiny. Ship's company refuse to go on. Insist on returning to Spain. If I refuse they threaten to kill me; but I fear they will kill me if I consent. Otherwise the matter would be simple. Have asked for three days'  respite.", 
-        "word_definition": "a relief from harm or discomfort"
+        "word_example": "October 10.\u2014Mutiny. Ship's company refuse to go on. Insist on returning to Spain. If I refuse they threaten to kill me; but I fear they will kill me if I consent. Otherwise the matter would be simple. Have asked for three days'  respite."
       }, 
       "mutiny": {
+        "word_definition": "open rebellion against constituted authority", 
         "word_description": "", 
         "word_name": "mutiny", 
-        "word_example": "September 12.\u2014Ship's company distressingly sulky. If matters continue like this it will end in a  mutiny.", 
-        "word_definition": "open rebellion against constituted authority"
+        "word_example": "September 12.\u2014Ship's company distressingly sulky. If matters continue like this it will end in a  mutiny."
       }, 
       "arbitrary": {
+        "word_definition": "based on or subject to individual discretion or preference", 
         "word_description": "", 
         "word_name": "arbitrary", 
-        "word_example": "September 12.\u2014This faking has been an easy task, since the log, being only a mean taken every hour and consequently liable to error from the variations in the force of the wind during the intervals, from which an  ", 
-        "word_definition": "based on or subject to individual discretion or preference"
+        "word_example": "September 12.\u2014This faking has been an easy task, since the log, being only a mean taken every hour and consequently liable to error from the variations in the force of the wind during the intervals, from which an  "
       }, 
       "starboard": {
+        "word_definition": "located on the right side of a ship or aircraft", 
         "word_description": "", 
         "word_name": "starboard", 
-        "word_example": "October 11.\u2014Saw a light on  starboard bow, but am not quite certain that it wasn't a star.", 
-        "word_definition": "located on the right side of a ship or aircraft"
-      }, 
-      "axis": {
-        "word_description": "", 
-        "word_name": "axis", 
-        "word_example": "September 13.\u2014Have made a startling and disagreeable discovery. There is something wrong or odd about the compass. The  ", 
-        "word_definition": "a straight line through a body or figure"
-      }, 
-      "meridian": {
-        "word_description": "", 
-        "word_name": "meridian", 
-        "word_example": "August 5.\u2014Took the  meridian observation at midday; wind northerly with a great swell. Ship's company in good spirits: but the doctor says we have started on a wild goose chase.", 
-        "word_definition": "an imaginary great circle on the surface of the earth"
+        "word_example": "October 11.\u2014Saw a light on  starboard bow, but am not quite certain that it wasn't a star."
       }, 
       "allowance": {
+        "word_definition": "an amount granted, as during a given period", 
         "word_description": "", 
         "word_name": "allowance", 
-        "word_example": "August 10.\u2014The situation of the men from the very fatiguing work made most minute precautions necessary. Double  allowance of Manzanilla served round to-day.", 
-        "word_definition": "an amount granted, as during a given period"
+        "word_example": "August 10.\u2014The situation of the men from the very fatiguing work made most minute precautions necessary. Double  allowance of Manzanilla served round to-day."
+      }, 
+      "meridian": {
+        "word_definition": "an imaginary great circle on the surface of the earth", 
+        "word_description": "", 
+        "word_name": "meridian", 
+        "word_example": "August 5.\u2014Took the  meridian observation at midday; wind northerly with a great swell. Ship's company in good spirits: but the doctor says we have started on a wild goose chase."
+      }, 
+      "axis": {
+        "word_definition": "a straight line through a body or figure", 
+        "word_description": "", 
+        "word_name": "axis", 
+        "word_example": "September 13.\u2014Have made a startling and disagreeable discovery. There is something wrong or odd about the compass. The  "
       }
     }, 
-    "list_detailed_description": "Christopher Columbus embarked on the first of three voyages to the \"New World\" with three ships \u2014 the Ni\u00f1a, Pinta and Santa Mar\u00eda \u2014 on August 3, 1492. He kept a logbook in which he faked some entries to soothe a mutinous crew, and a private diary in which he detailed the details of the journey that shaped the subsequent history of the western hemisphere. Upon his return to Spain, Columbus presented his record to Queen Isabella I of Castile. She had it copied and retained the original, then gave the copy to Columbus before his second voyage. The whereabouts of the original Spanish text remain a mystery \u2014 its location has not been known since 1504. Here are 14 words selected from the historic text.", 
-    "list_href": "/lists/1788781"
+    "list_href": "/lists/1788781", 
+    "list_detailed_description": "Christopher Columbus embarked on the first of three voyages to the \"New World\" with three ships \u2014 the Ni\u00f1a, Pinta and Santa Mar\u00eda \u2014 on August 3, 1492. He kept a logbook in which he faked some entries to soothe a mutinous crew, and a private diary in which he detailed the details of the journey that shaped the subsequent history of the western hemisphere. Upon his return to Spain, Columbus presented his record to Queen Isabella I of Castile. She had it copied and retained the original, then gave the copy to Columbus before his second voyage. The whereabouts of the original Spanish text remain a mystery \u2014 its location has not been known since 1504. Here are 14 words selected from the historic text."
   }
 }

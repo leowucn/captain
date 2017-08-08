@@ -5,12 +5,12 @@ import urllib
 import subprocess
 import time
 import os
-from mechanize import Browser
 import bs4
 import requests
 import json
 import utility
 import string
+import urllib2
 
 # the interval seconds between British pronunciation and American pronunciation
 pronunciation_interval = 0.7
@@ -58,19 +58,13 @@ def launch_pronunciation(word):
 
 # include British and American pronunciation.
 def get_pronunciation(word, dst_dir):
-    url = 'http://dictionary.cambridge.org/'
-    browser = Browser()
-    browser.set_handle_robots(False)
-    browser.addheaders = [('User-agent', 'Firefox')]
-    browser.open(url)
-    browser.select_form(nr=0)
-    browser['q'] = word
-    try:
-        response = browser.submit()
-    except:
-        return
-    content = response.read()
-
+    url = 'http://dictionary.cambridge.org/dictionary/english/' + word
+    content = urllib2.urlopen(url).read()
+    # s = requests.session()
+    # s.keep_alive = False
+    # p(url)
+    # content = s.get(url)
+    # p(content)
     mp3_pos_lst = [m.start() for m in re.finditer('data-src-mp3', content)]
     ogg_pos_lst = [m.start() for m in re.finditer('data-src-ogg', content)]
     if len(mp3_pos_lst) == 0 or len(ogg_pos_lst) == 0:
@@ -185,5 +179,9 @@ def write_basic_dict():
         f.write(json.dumps(basic_dict, indent=2))
 
 
-# launch_pronunciation('congregate')
-# show_literal_pronunciation('dilemma')
+def p(c):
+    print(c)
+
+
+# launch_pronunciation('agree')
+# show_literal_pronunciation('agree')

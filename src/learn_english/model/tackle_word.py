@@ -48,9 +48,6 @@ class TackleWords:
         self.index_dict = utility.load_json_file(words_index_file)
 
     def get_word_meaning(self, raw_string):
-        if not utility.test_network('http://www.youdao.com'):
-            return None
-
         valid_string = raw_string[:-2].strip()
         word_list = re.compile('\w+').findall(valid_string)
         post_fix = '%20'.join(word_list)
@@ -194,20 +191,15 @@ class TackleWords:
             if len(collins_str.strip()) > 1:
                 word_meaning_dict['collins'] = collins_str.encode('utf-8')
 
-        # -------------------从vocabulary.com提取的基本释义-----------------
-        url = 'https://www.vocabulary.com/dictionary/' + valid_string
-        s = requests.session()
-        s.keep_alive = False
-        try:
-            res = s.get(url)
-        except:
-            return
-        soup = bs4.BeautifulSoup(res.content, 'lxml')
-        basic1 = soup.find('div', attrs={'class': 'section blurb'})
-        basic1_str = ''
-        if basic1 is not None:
-            basic1_str += ' '.join(list(basic1.stripped_strings))
-            word_meaning_dict['eng_basic'] = basic1_str.encode('utf-8')
+        # # -------------------从vocabulary.com提取的基本释义-----------------
+        # url = 'https://www.vocabulary.com/dictionary/' + valid_string
+        # content = urllib2.urlopen(url).read()
+        # soup = bs4.BeautifulSoup(content, 'lxml')
+        # basic1 = soup.find('div', attrs={'class': 'section blurb'})
+        # basic1_str = ''
+        # if basic1 is not None:
+        #     basic1_str += ' '.join(list(basic1.stripped_strings))
+        #     word_meaning_dict['eng_basic'] = basic1_str.encode('utf-8')
 
         result = dict()
         result[raw_string] = word_meaning_dict
@@ -308,6 +300,7 @@ class TackleWords:
                         # date = lines[index + 3][lines[index + 3].find(':') + 1:]
                         # self.query(wrapped_word, usage, date, book)
                         # file_name is a brief date.
+                        p(wrapped_word)
                         self.query(wrapped_word, usage, file_name[:-4], book)
 
     def import_clipboard_words(self):
@@ -477,7 +470,6 @@ class TackleWords:
                         with open(file_path, "w") as f:
                             for line in valid_lines_lst:
                                 f.write(line)
-
         self.set_initial_date()
         return
 
@@ -698,7 +690,7 @@ def test(fname):
 
 
 def p(c):
-    print('-----------------')
+    print('---------')
     print(c)
 
 

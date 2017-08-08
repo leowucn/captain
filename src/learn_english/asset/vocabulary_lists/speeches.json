@@ -853,11 +853,11 @@
         "word_name": "sustenance", 
         "word_example": "And once man can no longer walk with beauty or wonder at nature his spirit will wither and his  sustenance be wasted."
       }, 
-      "imagination": {
-        "word_definition": "the ability to form mental images of things or events", 
+      "society": {
+        "word_definition": "a formal association of people with similar interests", 
         "word_description": "", 
-        "word_name": "imagination", 
-        "word_example": "Our society will not be great until every young mind is set free to scan the farthest reaches of thought and  imagination."
+        "word_name": "society", 
+        "word_example": "For in your time we have the opportunity to move not only toward the rich  society and the powerful  society, but upward to the Great  Society."
       }, 
       "exploit": {
         "word_definition": "a notable achievement", 
@@ -1009,11 +1009,11 @@
         "word_name": "elevate", 
         "word_example": "The challenge of the next half century is whether we have the wisdom to use that wealth to enrich and  elevate our national life, and to advance the quality of our American civilization."
       }, 
-      "society": {
-        "word_definition": "a formal association of people with similar interests", 
+      "imagination": {
+        "word_definition": "the ability to form mental images of things or events", 
         "word_description": "", 
-        "word_name": "society", 
-        "word_example": "For in your time we have the opportunity to move not only toward the rich  society and the powerful  society, but upward to the Great  Society."
+        "word_name": "imagination", 
+        "word_example": "Our society will not be great until every young mind is set free to scan the farthest reaches of thought and  imagination."
       }, 
       "splendor": {
         "word_definition": "the quality of being magnificent or grand", 
@@ -1703,12 +1703,6 @@
         "word_name": "pledge", 
         "word_example": "If we wish to be free \u2014 if we mean to preserve inviolate those inestimable privileges for which we have been so long contending \u2014 if we mean not basely to abandon the noble struggle in which we have been so long engaged, and which we have  pledged ourselves never to abandon until the glorious object of our contest shall be obtained \u2014 we must fight!"
       }, 
-      "reserve": {
-        "word_definition": "something kept back or saved for future use", 
-        "word_description": "", 
-        "word_name": "reserve", 
-        "word_example": "But different men often see the same subject in different lights; and, therefore, I hope it will not be thought disrespectful to those gentlemen if, entertaining as I do opinions of a character very opposite to theirs, I shall speak forth my sentiments freely and without  reserve."
-      }, 
       "vain": {
         "word_definition": "unproductive of success", 
         "word_description": "Fruitless and futile are synonyms of vain.", 
@@ -1751,12 +1745,6 @@
         "word_name": "array", 
         "word_example": "I ask gentlemen, sir, what means this martial  array, if its purpose be not to force us to submission?"
       }, 
-      "prostrate": {
-        "word_definition": "throw down flat, as on the ground", 
-        "word_description": "", 
-        "word_name": "prostrate", 
-        "word_example": "We have petitioned; we have remonstrated; we have supplicated; we have  prostrated ourselves before the throne, and have implored its interposition to arrest the tyrannical hands of the ministry and Parliament."
-      }, 
       "anguish": {
         "word_definition": "extreme distress of body or mind", 
         "word_description": "", 
@@ -1769,11 +1757,11 @@
         "word_name": "contempt", 
         "word_example": "Our petitions have been slighted; our remonstrances have produced additional violence and insult; our supplications have been disregarded; and we have been spurned, with  contempt, from the foot of the throne!"
       }, 
-      "phantom": {
-        "word_definition": "something apparently sensed but having no physical reality", 
-        "word_description": "Henry is using sarcasm or irony. He is asking if Virginians should continue to hug or hold on to unreal hope until Parliament has tied them up.", 
-        "word_name": "phantom", 
-        "word_example": "Shall we acquire the means of effectual resistance by lying supinely on our backs and hugging the delusive  phantom of hope, until our enemies shall have bound us hand and foot?"
+      "brethren": {
+        "word_definition": "the lay members of a male religious order", 
+        "word_description": "Brothers is a synonym for brethren. Henry is talking about the people of Massachusetts as the brothers of Virginians.", 
+        "word_name": "brethren", 
+        "word_example": "Our  brethren are already in the field!"
       }, 
       "reconciliation": {
         "word_definition": "the reestablishment of cordial relations", 
@@ -1786,6 +1774,12 @@
         "word_description": "", 
         "word_name": "siren", 
         "word_example": "We are apt to shut our eyes against a painful truth, and listen to the song of that  siren till she transforms us into beasts."
+      }, 
+      "remonstrate": {
+        "word_definition": "present and urge reasons in opposition", 
+        "word_description": "", 
+        "word_name": "remonstrate", 
+        "word_example": "We have petitioned; we have  remonstrated; we have supplicated; we have prostrated ourselves before the throne, and have implored its interposition to arrest the tyrannical hands of the ministry and Parliament."
       }, 
       "solace": {
         "word_definition": "comfort in disappointment or misery", 
@@ -1817,11 +1811,11 @@
         "word_name": "proportion", 
         "word_example": "For my own part, I consider it as nothing less than a question of freedom or slavery; and in  proportion to the magnitude of the subject ought to be the freedom of the debate."
       }, 
-      "insidious": {
-        "word_definition": "working or spreading in a hidden and usually injurious way", 
+      "idle": {
+        "word_definition": "not in action or at work", 
         "word_description": "", 
-        "word_name": "insidious", 
-        "word_example": "Is it that  insidious smile with which our petition has been lately received?"
+        "word_name": "idle", 
+        "word_example": "Why stand we here  idle?"
       }, 
       "delusive": {
         "word_definition": "inappropriate to reality or facts", 
@@ -1853,12 +1847,6 @@
         "word_name": "conduct", 
         "word_example": "And judging by the past, I wish to know what there has been in the  conduct of the British ministry for the last ten years to justify those hopes with which gentlemen have been pleased to solace themselves and the House."
       }, 
-      "ceremony": {
-        "word_definition": "the proper or conventional behavior on some solemn occasion", 
-        "word_description": "", 
-        "word_name": "ceremony", 
-        "word_example": "This is no time for  ceremony."
-      }, 
       "appeal": {
         "word_definition": "earnest or urgent request", 
         "word_description": "", 
@@ -1883,11 +1871,17 @@
         "word_name": "tyrannical", 
         "word_example": "We have petitioned; we have remonstrated; we have supplicated; we have prostrated ourselves before the throne, and have implored its interposition to arrest the  tyrannical hands of the ministry and Parliament."
       }, 
-      "brethren": {
-        "word_definition": "the lay members of a male religious order", 
-        "word_description": "Brothers is a synonym for brethren. Henry is talking about the people of Massachusetts as the brothers of Virginians.", 
-        "word_name": "brethren", 
-        "word_example": "Our  brethren are already in the field!"
+      "revere": {
+        "word_definition": "regard with feelings of respect", 
+        "word_description": "", 
+        "word_name": "revere", 
+        "word_example": "Should I keep back my opinions at such a time, through fear of giving offense, I should consider myself as guilty of treason towards my country, and of an act of disloyalty toward the Majesty of Heaven, which I  revere above all earthly kings."
+      }, 
+      "phantom": {
+        "word_definition": "something apparently sensed but having no physical reality", 
+        "word_description": "Henry is using sarcasm or irony. He is asking if Virginians should continue to hug or hold on to unreal hope until Parliament has tied them up.", 
+        "word_name": "phantom", 
+        "word_example": "Shall we acquire the means of effectual resistance by lying supinely on our backs and hugging the delusive  phantom of hope, until our enemies shall have bound us hand and foot?"
       }, 
       "parliament": {
         "word_definition": "a legislative assembly in certain countries", 
@@ -1901,11 +1895,17 @@
         "word_name": "avert", 
         "word_example": "Sir, we have done everything that could be done to  avert the storm which is now coming on."
       }, 
-      "entertain": {
-        "word_definition": "take into consideration or have in view", 
+      "insidious": {
+        "word_definition": "working or spreading in a hidden and usually injurious way", 
         "word_description": "", 
-        "word_name": "entertain", 
-        "word_example": "But different men often see the same subject in different lights; and, therefore, I hope it will not be thought disrespectful to those gentlemen if,  entertaining as I do opinions of a character very opposite to theirs, I shall speak forth my sentiments freely and without reserve."
+        "word_name": "insidious", 
+        "word_example": "Is it that  insidious smile with which our petition has been lately received?"
+      }, 
+      "ceremony": {
+        "word_definition": "the proper or conventional behavior on some solemn occasion", 
+        "word_description": "", 
+        "word_name": "ceremony", 
+        "word_example": "This is no time for  ceremony."
       }, 
       "entreaty": {
         "word_definition": "earnest or urgent request", 
@@ -1913,11 +1913,11 @@
         "word_name": "entreaty", 
         "word_example": "Shall we resort to  entreaty and humble supplication?"
       }, 
-      "idle": {
-        "word_definition": "not in action or at work", 
+      "base": {
+        "word_definition": "having or showing an ignoble lack of honor or morality", 
         "word_description": "", 
-        "word_name": "idle", 
-        "word_example": "Why stand we here  idle?"
+        "word_name": "base", 
+        "word_example": "If we were  base enough to desire it, it is now too late to retire from the contest."
       }, 
       "indulge": {
         "word_definition": "yield to; give satisfaction to", 
@@ -2015,11 +2015,11 @@
         "word_name": "effectual", 
         "word_example": "Shall we acquire the means of  effectual resistance by lying supinely on our backs and hugging the delusive phantom of hope, until our enemies shall have bound us hand and foot?"
       }, 
-      "base": {
-        "word_definition": "having or showing an ignoble lack of honor or morality", 
+      "entertain": {
+        "word_definition": "take into consideration or have in view", 
         "word_description": "", 
-        "word_name": "base", 
-        "word_example": "If we were  base enough to desire it, it is now too late to retire from the contest."
+        "word_name": "entertain", 
+        "word_example": "But different men often see the same subject in different lights; and, therefore, I hope it will not be thought disrespectful to those gentlemen if,  entertaining as I do opinions of a character very opposite to theirs, I shall speak forth my sentiments freely and without reserve."
       }, 
       "subjugation": {
         "word_definition": "the act of conquering", 
@@ -2051,11 +2051,11 @@
         "word_name": "supplicate", 
         "word_example": "We have petitioned; we have remonstrated; we have  supplicated; we have prostrated ourselves before the throne, and have implored its interposition to arrest the tyrannical hands of the ministry and Parliament."
       }, 
-      "remonstrate": {
-        "word_definition": "present and urge reasons in opposition", 
+      "prostrate": {
+        "word_definition": "throw down flat, as on the ground", 
         "word_description": "", 
-        "word_name": "remonstrate", 
-        "word_example": "We have petitioned; we have  remonstrated; we have supplicated; we have prostrated ourselves before the throne, and have implored its interposition to arrest the tyrannical hands of the ministry and Parliament."
+        "word_name": "prostrate", 
+        "word_example": "We have petitioned; we have remonstrated; we have supplicated; we have  prostrated ourselves before the throne, and have implored its interposition to arrest the tyrannical hands of the ministry and Parliament."
       }, 
       "accumulation": {
         "word_definition": "the act of gathering up", 
@@ -2063,11 +2063,11 @@
         "word_name": "accumulation", 
         "word_example": "Has Great Britain any enemy, in this quarter of the world, to call for all this  accumulation of navies and armies?"
       }, 
-      "revere": {
-        "word_definition": "regard with feelings of respect", 
+      "reserve": {
+        "word_definition": "something kept back or saved for future use", 
         "word_description": "", 
-        "word_name": "revere", 
-        "word_example": "Should I keep back my opinions at such a time, through fear of giving offense, I should consider myself as guilty of treason towards my country, and of an act of disloyalty toward the Majesty of Heaven, which I  revere above all earthly kings."
+        "word_name": "reserve", 
+        "word_example": "But different men often see the same subject in different lights; and, therefore, I hope it will not be thought disrespectful to those gentlemen if, entertaining as I do opinions of a character very opposite to theirs, I shall speak forth my sentiments freely and without  reserve."
       }
     }, 
     "list_href": "/lists/155065", 
