@@ -853,11 +853,11 @@
         "word_name": "sustenance", 
         "word_example": "And once man can no longer walk with beauty or wonder at nature his spirit will wither and his  sustenance be wasted."
       }, 
-      "society": {
-        "word_definition": "a formal association of people with similar interests", 
+      "imagination": {
+        "word_definition": "the ability to form mental images of things or events", 
         "word_description": "", 
-        "word_name": "society", 
-        "word_example": "For in your time we have the opportunity to move not only toward the rich  society and the powerful  society, but upward to the Great  Society."
+        "word_name": "imagination", 
+        "word_example": "Our society will not be great until every young mind is set free to scan the farthest reaches of thought and  imagination."
       }, 
       "exploit": {
         "word_definition": "a notable achievement", 
@@ -1009,11 +1009,11 @@
         "word_name": "elevate", 
         "word_example": "The challenge of the next half century is whether we have the wisdom to use that wealth to enrich and  elevate our national life, and to advance the quality of our American civilization."
       }, 
-      "imagination": {
-        "word_definition": "the ability to form mental images of things or events", 
+      "society": {
+        "word_definition": "a formal association of people with similar interests", 
         "word_description": "", 
-        "word_name": "imagination", 
-        "word_example": "Our society will not be great until every young mind is set free to scan the farthest reaches of thought and  imagination."
+        "word_name": "society", 
+        "word_example": "For in your time we have the opportunity to move not only toward the rich  society and the powerful  society, but upward to the Great  Society."
       }, 
       "splendor": {
         "word_definition": "the quality of being magnificent or grand", 
@@ -1703,6 +1703,12 @@
         "word_name": "pledge", 
         "word_example": "If we wish to be free \u2014 if we mean to preserve inviolate those inestimable privileges for which we have been so long contending \u2014 if we mean not basely to abandon the noble struggle in which we have been so long engaged, and which we have  pledged ourselves never to abandon until the glorious object of our contest shall be obtained \u2014 we must fight!"
       }, 
+      "reserve": {
+        "word_definition": "something kept back or saved for future use", 
+        "word_description": "", 
+        "word_name": "reserve", 
+        "word_example": "But different men often see the same subject in different lights; and, therefore, I hope it will not be thought disrespectful to those gentlemen if, entertaining as I do opinions of a character very opposite to theirs, I shall speak forth my sentiments freely and without  reserve."
+      }, 
       "vain": {
         "word_definition": "unproductive of success", 
         "word_description": "Fruitless and futile are synonyms of vain.", 
@@ -1775,12 +1781,6 @@
         "word_name": "siren", 
         "word_example": "We are apt to shut our eyes against a painful truth, and listen to the song of that  siren till she transforms us into beasts."
       }, 
-      "remonstrate": {
-        "word_definition": "present and urge reasons in opposition", 
-        "word_description": "", 
-        "word_name": "remonstrate", 
-        "word_example": "We have petitioned; we have  remonstrated; we have supplicated; we have prostrated ourselves before the throne, and have implored its interposition to arrest the tyrannical hands of the ministry and Parliament."
-      }, 
       "solace": {
         "word_definition": "comfort in disappointment or misery", 
         "word_description": "", 
@@ -1811,11 +1811,11 @@
         "word_name": "proportion", 
         "word_example": "For my own part, I consider it as nothing less than a question of freedom or slavery; and in  proportion to the magnitude of the subject ought to be the freedom of the debate."
       }, 
-      "idle": {
-        "word_definition": "not in action or at work", 
+      "insidious": {
+        "word_definition": "working or spreading in a hidden and usually injurious way", 
         "word_description": "", 
-        "word_name": "idle", 
-        "word_example": "Why stand we here  idle?"
+        "word_name": "insidious", 
+        "word_example": "Is it that  insidious smile with which our petition has been lately received?"
       }, 
       "delusive": {
         "word_definition": "inappropriate to reality or facts", 
@@ -1846,6 +1846,12 @@
         "word_description": "", 
         "word_name": "conduct", 
         "word_example": "And judging by the past, I wish to know what there has been in the  conduct of the British ministry for the last ten years to justify those hopes with which gentlemen have been pleased to solace themselves and the House."
+      }, 
+      "ceremony": {
+        "word_definition": "the proper or conventional behavior on some solemn occasion", 
+        "word_description": "", 
+        "word_name": "ceremony", 
+        "word_example": "This is no time for  ceremony."
       }, 
       "appeal": {
         "word_definition": "earnest or urgent request", 
@@ -1895,17 +1901,11 @@
         "word_name": "avert", 
         "word_example": "Sir, we have done everything that could be done to  avert the storm which is now coming on."
       }, 
-      "insidious": {
-        "word_definition": "working or spreading in a hidden and usually injurious way", 
+      "entertain": {
+        "word_definition": "take into consideration or have in view", 
         "word_description": "", 
-        "word_name": "insidious", 
-        "word_example": "Is it that  insidious smile with which our petition has been lately received?"
-      }, 
-      "ceremony": {
-        "word_definition": "the proper or conventional behavior on some solemn occasion", 
-        "word_description": "", 
-        "word_name": "ceremony", 
-        "word_example": "This is no time for  ceremony."
+        "word_name": "entertain", 
+        "word_example": "But different men often see the same subject in different lights; and, therefore, I hope it will not be thought disrespectful to those gentlemen if,  entertaining as I do opinions of a character very opposite to theirs, I shall speak forth my sentiments freely and without reserve."
       }, 
       "entreaty": {
         "word_definition": "earnest or urgent request", 
@@ -1913,11 +1913,11 @@
         "word_name": "entreaty", 
         "word_example": "Shall we resort to  entreaty and humble supplication?"
       }, 
-      "base": {
-        "word_definition": "having or showing an ignoble lack of honor or morality", 
+      "idle": {
+        "word_definition": "not in action or at work", 
         "word_description": "", 
-        "word_name": "base", 
-        "word_example": "If we were  base enough to desire it, it is now too late to retire from the contest."
+        "word_name": "idle", 
+        "word_example": "Why stand we here  idle?"
       }, 
       "indulge": {
         "word_definition": "yield to; give satisfaction to", 
@@ -2015,11 +2015,11 @@
         "word_name": "effectual", 
         "word_example": "Shall we acquire the means of  effectual resistance by lying supinely on our backs and hugging the delusive phantom of hope, until our enemies shall have bound us hand and foot?"
       }, 
-      "entertain": {
-        "word_definition": "take into consideration or have in view", 
+      "base": {
+        "word_definition": "having or showing an ignoble lack of honor or morality", 
         "word_description": "", 
-        "word_name": "entertain", 
-        "word_example": "But different men often see the same subject in different lights; and, therefore, I hope it will not be thought disrespectful to those gentlemen if,  entertaining as I do opinions of a character very opposite to theirs, I shall speak forth my sentiments freely and without reserve."
+        "word_name": "base", 
+        "word_example": "If we were  base enough to desire it, it is now too late to retire from the contest."
       }, 
       "subjugation": {
         "word_definition": "the act of conquering", 
@@ -2063,11 +2063,11 @@
         "word_name": "accumulation", 
         "word_example": "Has Great Britain any enemy, in this quarter of the world, to call for all this  accumulation of navies and armies?"
       }, 
-      "reserve": {
-        "word_definition": "something kept back or saved for future use", 
+      "remonstrate": {
+        "word_definition": "present and urge reasons in opposition", 
         "word_description": "", 
-        "word_name": "reserve", 
-        "word_example": "But different men often see the same subject in different lights; and, therefore, I hope it will not be thought disrespectful to those gentlemen if, entertaining as I do opinions of a character very opposite to theirs, I shall speak forth my sentiments freely and without  reserve."
+        "word_name": "remonstrate", 
+        "word_example": "We have petitioned; we have  remonstrated; we have supplicated; we have prostrated ourselves before the throne, and have implored its interposition to arrest the tyrannical hands of the ministry and Parliament."
       }
     }, 
     "list_href": "/lists/155065", 
@@ -4303,17 +4303,17 @@
         "word_name": "creed", 
         "word_example": "Heroes of every color and  creed who wear the uniform and risk their lives to keep passing down those blessings of liberty, police officers and the protesters in Dallas who all desperately want to keep our children safe."
       }, 
+      "strive": {
+        "word_definition": "attempt by employing effort", 
+        "word_description": "", 
+        "word_name": "strive", 
+        "word_example": "That is the story of this country, the story that has brought me to this stage tonight, the story of generations of people who felt the lash of bondage, the shame of servitude, the sting of segregation, but who kept on  striving and hoping and doing what needed to be done so that today I wake up every morning in a house that was built by slaves."
+      }, 
       "insist": {
         "word_definition": "be emphatic or resolute and refuse to budge", 
         "word_description": "", 
         "word_name": "insist", 
         "word_example": "How we  insist that the hateful language they hear from public figures on TV does not represent the true spirit of this country."
-      }, 
-      "volunteer": {
-        "word_definition": "a person who performs work done by choice", 
-        "word_description": "", 
-        "word_name": "volunteer", 
-        "word_example": "That\u2019s how we\u2019ve always moved this country forward, by all of us coming together on behalf of our children, folks who  volunteer to coach that team, to teach that Sunday school class, because they know it takes a village."
       }, 
       "servitude": {
         "word_definition": "state of subjection to an owner or master", 
@@ -4369,11 +4369,11 @@
         "word_name": "stoop", 
         "word_example": "How we explain that when someone is cruel or acts like a bully, you don\u2019t  stoop to their level."
       }, 
-      "passion": {
-        "word_definition": "a strong feeling or emotion", 
+      "role": {
+        "word_definition": "the actions and activities assigned to a person or group", 
         "word_description": "", 
-        "word_name": "passion", 
-        "word_example": "We need to knock on every door, we need to get out every vote, we need to pour every last ounce of our  passion and our strength and our love for this country into electing Hillary Clinton as president of the United States of America!"
+        "word_name": "role", 
+        "word_example": "We as parents are their most important  role models."
       }, 
       "beloved": {
         "word_definition": "dearly loved", 
@@ -4387,11 +4387,11 @@
         "word_name": "convention", 
         "word_example": "You know, it\u2019s hard to believe that it has been eight years since I first came to this  convention to talk with you about why I thought my husband should be president."
       }, 
-      "role": {
-        "word_definition": "the actions and activities assigned to a person or group", 
+      "passion": {
+        "word_definition": "a strong feeling or emotion", 
         "word_description": "", 
-        "word_name": "role", 
-        "word_example": "We as parents are their most important  role models."
+        "word_name": "passion", 
+        "word_example": "We need to knock on every door, we need to get out every vote, we need to pour every last ounce of our  passion and our strength and our love for this country into electing Hillary Clinton as president of the United States of America!"
       }, 
       "poised": {
         "word_definition": "in full control of your faculties", 
@@ -4477,11 +4477,11 @@
         "word_name": "grace", 
         "word_example": "Remember how I told you about his character and convictions, his decency and his  grace, the traits that we\u2019ve seen every day that he\u2019s served our country in the White House?"
       }, 
-      "strive": {
-        "word_definition": "attempt by employing effort", 
+      "volunteer": {
+        "word_definition": "a person who performs work done by choice", 
         "word_description": "", 
-        "word_name": "strive", 
-        "word_example": "That is the story of this country, the story that has brought me to this stage tonight, the story of generations of people who felt the lash of bondage, the shame of servitude, the sting of segregation, but who kept on  striving and hoping and doing what needed to be done so that today I wake up every morning in a house that was built by slaves."
+        "word_name": "volunteer", 
+        "word_example": "That\u2019s how we\u2019ve always moved this country forward, by all of us coming together on behalf of our children, folks who  volunteer to coach that team, to teach that Sunday school class, because they know it takes a village."
       }, 
       "faith": {
         "word_definition": "a strong belief in a divine power or powers", 
