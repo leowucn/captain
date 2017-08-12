@@ -15,35 +15,23 @@
         "word_example": "", 
         "word_definition": "not injurious to physical or mental health"
       }, 
-      "savor": {
-        "word_description": "", 
-        "word_name": "savor", 
-        "word_example": "", 
-        "word_definition": "the taste experience when a savoury condiment is tasted"
-      }, 
       "appease": {
         "word_description": "", 
         "word_name": "appease", 
         "word_example": "", 
         "word_definition": "make peace with"
       }, 
-      "intransigence": {
+      "magnanimity": {
         "word_description": "", 
-        "word_name": "intransigence", 
+        "word_name": "magnanimity", 
         "word_example": "", 
-        "word_definition": "stubborn refusal to compromise or change"
+        "word_definition": "liberality in bestowing gifts"
       }, 
       "coda": {
         "word_description": "", 
         "word_name": "coda", 
         "word_example": "", 
         "word_definition": "the closing section of a musical composition"
-      }, 
-      "ameliorate": {
-        "word_description": "", 
-        "word_name": "ameliorate", 
-        "word_example": "", 
-        "word_definition": "to make better"
       }, 
       "supersede": {
         "word_description": "", 
@@ -141,11 +129,11 @@
         "word_example": "", 
         "word_definition": "uncertain how to act or proceed"
       }, 
-      "magnanimity": {
+      "intransigence": {
         "word_description": "", 
-        "word_name": "magnanimity", 
+        "word_name": "intransigence", 
         "word_example": "", 
-        "word_definition": "liberality in bestowing gifts"
+        "word_definition": "stubborn refusal to compromise or change"
       }, 
       "distend": {
         "word_description": "", 
@@ -333,11 +321,11 @@
         "word_example": "", 
         "word_definition": "cause to be more favorably inclined"
       }, 
-      "cacophonous": {
+      "stigma": {
         "word_description": "", 
-        "word_name": "cacophonous", 
+        "word_name": "stigma", 
         "word_example": "", 
-        "word_definition": "having an unpleasant sound"
+        "word_definition": "a symbol of disgrace or infamy"
       }, 
       "converge": {
         "word_description": "", 
@@ -446,6 +434,12 @@
         "word_name": "discrete", 
         "word_example": "", 
         "word_definition": "constituting a separate entity or part"
+      }, 
+      "qualified": {
+        "word_description": "", 
+        "word_name": "qualified", 
+        "word_example": "", 
+        "word_definition": "meeting the proper standards and requirements for a task"
       }, 
       "capricious": {
         "word_description": "", 
@@ -591,11 +585,17 @@
         "word_example": "", 
         "word_definition": "capable of destroying or eating away by chemical action"
       }, 
-      "stigma": {
+      "discerning": {
         "word_description": "", 
-        "word_name": "stigma", 
+        "word_name": "discerning", 
         "word_example": "", 
-        "word_definition": "a symbol of disgrace or infamy"
+        "word_definition": "having or revealing keen insight and good judgment"
+      }, 
+      "ameliorate": {
+        "word_description": "", 
+        "word_name": "ameliorate", 
+        "word_example": "", 
+        "word_definition": "to make better"
       }, 
       "luminous": {
         "word_description": "", 
@@ -777,11 +777,11 @@
         "word_example": "", 
         "word_definition": "a trite or obvious remark"
       }, 
-      "aesthetic": {
+      "chicanery": {
         "word_description": "", 
-        "word_name": "aesthetic", 
+        "word_name": "chicanery", 
         "word_example": "", 
-        "word_definition": "characterized by an appreciation of beauty or good taste"
+        "word_definition": "the use of tricks to deceive someone"
       }, 
       "mendacious": {
         "word_description": "", 
@@ -903,11 +903,11 @@
         "word_example": "", 
         "word_definition": "containing or based on incorrect reasoning"
       }, 
-      "subpoena": {
+      "impervious": {
         "word_description": "", 
-        "word_name": "subpoena", 
+        "word_name": "impervious", 
         "word_example": "", 
-        "word_definition": "a writ issued to compel the attendance of a witness"
+        "word_definition": "not admitting of passage or capable of being affected"
       }, 
       "anomalous": {
         "word_description": "", 
@@ -944,12 +944,6 @@
         "word_name": "desultory", 
         "word_example": "", 
         "word_definition": "marked by lack of definite plan or regularity or purpose"
-      }, 
-      "document": {
-        "word_description": "", 
-        "word_name": "document", 
-        "word_example": "", 
-        "word_definition": "a representation of a person's thinking with symbolic marks"
       }, 
       "dirge": {
         "word_description": "", 
@@ -1215,11 +1209,11 @@
         "word_example": "", 
         "word_definition": "ostentatiously lofty in style"
       }, 
-      "engender": {
+      "efficacy": {
         "word_description": "", 
-        "word_name": "engender", 
+        "word_name": "efficacy", 
         "word_example": "", 
-        "word_definition": "make children"
+        "word_definition": "capacity or power to produce a desired effect"
       }, 
       "wary": {
         "word_description": "", 
@@ -1227,11 +1221,11 @@
         "word_example": "", 
         "word_definition": "marked by keen caution and watchful prudence"
       }, 
-      "dismiss": {
+      "audacious": {
         "word_description": "", 
-        "word_name": "dismiss", 
+        "word_name": "audacious", 
         "word_example": "", 
-        "word_definition": "stop associating with"
+        "word_definition": "disposed to venture or take risks"
       }, 
       "esoteric": {
         "word_description": "", 
@@ -1263,11 +1257,11 @@
         "word_example": "", 
         "word_definition": "a rectangular piece of cloth of distinctive design"
       }, 
-      "discerning": {
+      "aesthetic": {
         "word_description": "", 
-        "word_name": "discerning", 
+        "word_name": "aesthetic", 
         "word_example": "", 
-        "word_definition": "having or revealing keen insight and good judgment"
+        "word_definition": "characterized by an appreciation of beauty or good taste"
       }, 
       "quiescent": {
         "word_description": "", 
@@ -1323,11 +1317,11 @@
         "word_example": "", 
         "word_definition": "make worse or less effective"
       }, 
-      "chicanery": {
+      "cacophonous": {
         "word_description": "", 
-        "word_name": "chicanery", 
+        "word_name": "cacophonous", 
         "word_example": "", 
-        "word_definition": "the use of tricks to deceive someone"
+        "word_definition": "having an unpleasant sound"
       }, 
       "disingenuous": {
         "word_description": "", 
@@ -1412,6 +1406,12 @@
         "word_name": "substantiate", 
         "word_example": "", 
         "word_definition": "establish or strengthen as with new evidence or facts"
+      }, 
+      "irascible": {
+        "word_description": "", 
+        "word_name": "irascible", 
+        "word_example": "", 
+        "word_definition": "quickly aroused to anger"
       }, 
       "autonomous": {
         "word_description": "", 
@@ -1557,11 +1557,11 @@
         "word_example": "", 
         "word_definition": "having or revealing little emotion or sensibility"
       }, 
-      "impervious": {
+      "hyperbole": {
         "word_description": "", 
-        "word_name": "impervious", 
+        "word_name": "hyperbole", 
         "word_example": "", 
-        "word_definition": "not admitting of passage or capable of being affected"
+        "word_definition": "extravagant exaggeration"
       }, 
       "proscribe": {
         "word_description": "", 
@@ -1587,11 +1587,11 @@
         "word_example": "", 
         "word_definition": "having or revealing little emotion or sensibility"
       }, 
-      "efficacy": {
+      "engender": {
         "word_description": "", 
-        "word_name": "efficacy", 
+        "word_name": "engender", 
         "word_example": "", 
-        "word_definition": "capacity or power to produce a desired effect"
+        "word_definition": "make children"
       }, 
       "harangue": {
         "word_description": "", 
@@ -1605,11 +1605,11 @@
         "word_example": "", 
         "word_definition": "overthrow by argument, evidence, or proof"
       }, 
-      "ambivalence": {
+      "savor": {
         "word_description": "", 
-        "word_name": "ambivalence", 
+        "word_name": "savor", 
         "word_example": "", 
-        "word_definition": "mixed feelings or emotions"
+        "word_definition": "the taste experience when a savoury condiment is tasted"
       }, 
       "anachronism": {
         "word_description": "", 
@@ -1683,11 +1683,11 @@
         "word_example": "", 
         "word_definition": "young bird that has just fledged or become capable of flying"
       }, 
-      "hyperbole": {
+      "document": {
         "word_description": "", 
-        "word_name": "hyperbole", 
+        "word_name": "document", 
         "word_example": "", 
-        "word_definition": "extravagant exaggeration"
+        "word_definition": "a representation of a person's thinking with symbolic marks"
       }, 
       "insularity": {
         "word_description": "", 
@@ -1695,11 +1695,11 @@
         "word_example": "", 
         "word_definition": "the state of being isolated or detached"
       }, 
-      "irascible": {
+      "ambivalence": {
         "word_description": "", 
-        "word_name": "irascible", 
+        "word_name": "ambivalence", 
         "word_example": "", 
-        "word_definition": "quickly aroused to anger"
+        "word_definition": "mixed feelings or emotions"
       }, 
       "occlude": {
         "word_description": "", 
@@ -1725,11 +1725,11 @@
         "word_example": "", 
         "word_definition": "marked by a narrow focus on or display of learning"
       }, 
-      "audacious": {
+      "dismiss": {
         "word_description": "", 
-        "word_name": "audacious", 
+        "word_name": "dismiss", 
         "word_example": "", 
-        "word_definition": "disposed to venture or take risks"
+        "word_definition": "stop associating with"
       }, 
       "exigency": {
         "word_description": "", 
@@ -1947,11 +1947,11 @@
         "word_example": "", 
         "word_definition": "an inference about the future based on known facts"
       }, 
-      "qualified": {
+      "subpoena": {
         "word_description": "", 
-        "word_name": "qualified", 
+        "word_name": "subpoena", 
         "word_example": "", 
-        "word_definition": "meeting the proper standards and requirements for a task"
+        "word_definition": "a writ issued to compel the attendance of a witness"
       }, 
       "cogent": {
         "word_description": "", 
@@ -2653,6 +2653,12 @@
         "word_example": "For two days I  tarried in Paris, settling my little property.", 
         "word_definition": "leave slowly and hesitantly"
       }, 
+      "concern": {
+        "word_description": "", 
+        "word_name": "concern", 
+        "word_example": "The scandal broke out in October after former chief executive Michael Woodford claimed he was fired for raising  concerns about the company's accounting practices.", 
+        "word_definition": "something that interests you because it is important"
+      }, 
       "livelihood": {
         "word_description": "", 
         "word_name": "livelihood", 
@@ -2809,12 +2815,6 @@
         "word_example": "He decided to  assay one last project before giving up.", 
         "word_definition": "make an effort or attempt"
       }, 
-      "extort": {
-        "word_description": "", 
-        "word_name": "extort", 
-        "word_example": "The owners, in turn, have called the lawyers shakedown artists bent on ruining their good reputations to  extort money.", 
-        "word_definition": "obtain by coercion or intimidation"
-      }, 
       "moribund": {
         "word_description": "", 
         "word_name": "moribund", 
@@ -2934,6 +2934,12 @@
         "word_name": "extenuate", 
         "word_example": "Prosecutors often spend time weighing mitigating and  extenuating circumstances before deciding to seek the death penalty.", 
         "word_definition": "lessen or to try to lessen the seriousness or extent of"
+      }, 
+      "cameo": {
+        "word_description": "", 
+        "word_name": "cameo", 
+        "word_example": "The trinket was a small round  cameo cut out of mother-of-pearl and set in gold; it represented St. George and the dragon.", 
+        "word_definition": "engraving or carving in low relief on a stone"
       }, 
       "invidious": {
         "word_description": "", 
@@ -3181,6 +3187,12 @@
         "word_example": "He was a  fractious invalid, and spared his wife neither time nor trouble in attending to his wants.", 
         "word_definition": "easily irritated or annoyed"
       }, 
+      "superannuated": {
+        "word_description": "", 
+        "word_name": "superannuated", 
+        "word_example": "Civil servants are  superannuated at fifty-five years of age and are sent home on a pension, seldom enjoying life longer than two years afterward.", 
+        "word_definition": "too old to be useful"
+      }, 
       "adulterate": {
         "word_description": "", 
         "word_name": "adulterate", 
@@ -3277,12 +3289,6 @@
         "word_example": "Designing and building models that  intrigue and educate without overwhelming has been challenging.", 
         "word_definition": "cause to be interested or curious"
       }, 
-      "contusion": {
-        "word_description": "", 
-        "word_name": "contusion", 
-        "word_example": "My falling companion, being a much stouter man than myself did not fare so well, as his right shoulder received a severe  contusion.", 
-        "word_definition": "an injury in which the skin is not broken"
-      }, 
       "projection": {
         "word_description": "", 
         "word_name": "projection", 
@@ -3306,12 +3312,6 @@
         "word_name": "impiety", 
         "word_example": "That, however, is unbelief, extreme  impiety, and a denial of the most high God.", 
         "word_definition": "unrighteousness by virtue of lacking respect for a god"
-      }, 
-      "bauble": {
-        "word_description": "", 
-        "word_name": "bauble", 
-        "word_example": "But men were buying Valentine's  baubles for their honeys long before the first Zales ever opened its doors in a suburban shopping mall.", 
-        "word_definition": "cheap showy jewelry or ornament on clothing"
       }, 
       "fatuous": {
         "word_description": "", 
@@ -3469,11 +3469,11 @@
         "word_example": "They showed him where he would sleep, in a little closet-like  alcove screened from the big room by a gay curtain.", 
         "word_definition": "a small recess opening off a larger room"
       }, 
-      "contrive": {
+      "forebear": {
         "word_description": "", 
-        "word_name": "contrive", 
-        "word_example": "The wily Roc, never taken much by surprise,  contrived to escape, but old Tributor and his men were all captured.", 
-        "word_definition": "make or work out a plan for; devise"
+        "word_name": "forebear", 
+        "word_example": "His  forebears were Greek immigrants who opened a small sandwich shop in Brooklyn, then moved, one after another, to Providence, to sell distinct, delectable wieners.", 
+        "word_definition": "a person from whom you are descended"
       }, 
       "inclined": {
         "word_description": "", 
@@ -3582,6 +3582,12 @@
         "word_name": "laggard", 
         "word_example": "Corporate data centers are the slowpoke  laggards of information technology.", 
         "word_definition": "someone who takes more time than necessary"
+      }, 
+      "bate": {
+        "word_description": "", 
+        "word_name": "bate", 
+        "word_example": "\u201cYou called her \u2018an interfering, disagreeable old woman\u2019!\u201d whispered Bertha with  bated breath, glancing half fearfully at the door as she spoke.", 
+        "word_definition": "moderate or restrain; lessen the force of"
       }, 
       "chastise": {
         "word_description": "", 
@@ -3973,11 +3979,23 @@
         "word_example": "Mr. Lucas\u2019s most recent project, still  gestating, is a collaboration with Cuban musicians.", 
         "word_definition": "have the idea for"
       }, 
+      "spat": {
+        "word_description": "", 
+        "word_name": "spat", 
+        "word_example": "Public  spats are rare in the asset-management industry, where companies typically resolve disputes behind closed doors.", 
+        "word_definition": "a quarrel about petty points"
+      }, 
       "connotation": {
         "word_description": "", 
         "word_name": "connotation", 
         "word_example": "In Arabic, the word \u201cbayt\u201d translates literally as house, but its  connotations resonate beyond rooms and walls, summoning longings gathered about family and home.", 
         "word_definition": "an idea that is implied or suggested"
+      }, 
+      "sleight": {
+        "word_description": "", 
+        "word_name": "sleight", 
+        "word_example": "The trick was performed Tuesday by Russell Fitzgerald, an amateur magician known to open meetings with a little  sleight of hand.", 
+        "word_definition": "adroitness in using the hands"
       }, 
       "pallid": {
         "word_description": "", 
@@ -3991,11 +4009,11 @@
         "word_example": "This is always an encouraging sign, and an  augury of success.", 
         "word_definition": "an event indicating important things to come"
       }, 
-      "abet": {
+      "dilettante": {
         "word_description": "", 
-        "word_name": "abet", 
-        "word_example": "\"Since YouTube, digital culture has aided and enhanced -- or maybe the better word is  abetted -- the celebrity meltdown,\" said Wired magazine senior editor Nancy Miller.", 
-        "word_definition": "assist or encourage, usually in some wrongdoing"
+        "word_name": "dilettante", 
+        "word_example": "They dabbled in politics and art in the same  dilettante fashion.", 
+        "word_definition": "showing frivolous or superficial interest; amateurish"
       }, 
       "sedulous": {
         "word_description": "", 
@@ -4225,12 +4243,6 @@
         "word_example": "From a hearty,  hale, corn-fed boy, he has become pale, lean, and wan.", 
         "word_definition": "exhibiting or restored to vigorous good health"
       }, 
-      "demonstrable": {
-        "word_description": "", 
-        "word_name": "demonstrable", 
-        "word_example": "The linkage between deposits and trade is definite, causal, positive, statistically  demonstrable.", 
-        "word_definition": "capable of being proved"
-      }, 
       "rile": {
         "word_description": "", 
         "word_name": "rile", 
@@ -4303,23 +4315,17 @@
         "word_example": "Though composed amid the unromantic surroundings of a  dingy, dusty, and neglected back room, the speech has become a memorable document.", 
         "word_definition": "thickly covered with ingrained dirt or soot"
       }, 
-      "repine": {
-        "word_description": "", 
-        "word_name": "repine", 
-        "word_example": "Those poor fellows above, accustomed to the wild freshness and freedom of the sea, how they must mourn and  repine!", 
-        "word_definition": "express discontent"
-      }, 
       "dint": {
         "word_description": "", 
         "word_name": "dint", 
         "word_example": "If only certain puzzles could be solved by  dint of sheer hard thinking!", 
         "word_definition": "force or effort"
       }, 
-      "bullion": {
+      "capricious": {
         "word_description": "", 
-        "word_name": "bullion", 
-        "word_example": "In times of economic turmoil, more people tend to invest in  bullion gold.", 
-        "word_definition": "gold or silver in bars or ingots"
+        "word_name": "capricious", 
+        "word_example": "Her admirers were  capricious, returning to her at times, and then holding aloof again; and as for suitors, they entirely disappeared.", 
+        "word_definition": "determined by chance or impulse rather than by necessity"
       }, 
       "mode": {
         "word_description": "", 
@@ -4657,6 +4663,12 @@
         "word_example": "\u201cThe  recovering economy is bringing more people back into the market.", 
         "word_definition": "returning to health after illness or debility"
       }, 
+      "incipient": {
+        "word_description": "", 
+        "word_name": "incipient", 
+        "word_example": "Above all, medical teams will need to establish quick surveillance to identify health needs and pinpoint  incipient outbreaks before they explode.", 
+        "word_definition": "only partly in existence; imperfectly formed"
+      }, 
       "lout": {
         "word_description": "", 
         "word_name": "lout", 
@@ -4873,6 +4885,12 @@
         "word_example": "This  triumvirate approach has real benefits in terms of shared wisdom, and we will continue to discuss the big decisions among the three of us.", 
         "word_definition": "a group of three people responsible for civil authority"
       }, 
+      "aspersion": {
+        "word_description": "", 
+        "word_name": "aspersion", 
+        "word_example": "Lord Sanquhar then proceeded to deny the  aspersion that he was an ill-natured fellow, ever revengeful, and delighting in blood.", 
+        "word_definition": "a disparaging remark"
+      }, 
       "stock": {
         "word_description": "", 
         "word_name": "stock", 
@@ -4909,6 +4927,12 @@
         "word_example": "The Federal Reserve has pledged low interest rates until late 2014,  citing in part the weakness of the job market.", 
         "word_definition": "make reference to"
       }, 
+      "unassuming": {
+        "word_description": "", 
+        "word_name": "unassuming", 
+        "word_example": "Parr's conduct after his most heroic actions was thoroughly modest and  unassuming.", 
+        "word_definition": "not arrogant"
+      }, 
       "garble": {
         "word_description": "", 
         "word_name": "garble", 
@@ -4932,12 +4956,6 @@
         "word_name": "pomp", 
         "word_example": "Throughout U.S. history, Americans have been fascinated by royal  pomp -- even on a movie screen.", 
         "word_definition": "cheap or pretentious or vain display"
-      }, 
-      "platitude": {
-        "word_description": "", 
-        "word_name": "platitude", 
-        "word_example": "But details are fuzzy and rebel leaders often resort to  platitudes when dismissing suggestions of discord, saying simply that \"Libya is one tribe.\"", 
-        "word_definition": "a trite or obvious remark"
       }, 
       "reverie": {
         "word_description": "", 
@@ -5028,12 +5046,6 @@
         "word_name": "cower", 
         "word_example": "The knaves lowered their weapons and shrank back  cowering before him.", 
         "word_definition": "crouch or curl up"
-      }, 
-      "peremptory": {
-        "word_description": "", 
-        "word_name": "peremptory", 
-        "word_example": "This time it was not a request but a  peremptory order to go at once to Cuba and undertake the work.", 
-        "word_definition": "not allowing contradiction or refusal"
       }, 
       "adulation": {
         "word_description": "", 
@@ -5131,11 +5143,11 @@
         "word_example": "In the distance heavy artillery was growling, and high explosive shells were bursting with a violence that seemed to  rend the sky.", 
         "word_definition": "tear or be torn violently"
       }, 
-      "aspersion": {
+      "slay": {
         "word_description": "", 
-        "word_name": "aspersion", 
-        "word_example": "Lord Sanquhar then proceeded to deny the  aspersion that he was an ill-natured fellow, ever revengeful, and delighting in blood.", 
-        "word_definition": "a disparaging remark"
+        "word_name": "slay", 
+        "word_example": "\"It were shame,\" said Lancelot, \"for an armed to  slay an unarmed man.\"", 
+        "word_definition": "kill intentionally and with premeditation"
       }, 
       "polemic": {
         "word_description": "", 
@@ -5184,6 +5196,12 @@
         "word_name": "disquisition", 
         "word_example": "Cumulatively, what emerges from To Kill a Mockingbird is a thoughtful  disquisition that encompasses \u2013 and goes beyond \u2013 the question of racial bias at its worst.", 
         "word_definition": "an elaborate analytical or explanatory essay or discussion"
+      }, 
+      "crew": {
+        "word_description": "", 
+        "word_name": "crew", 
+        "word_example": "Several pilots and  crew members would have to escape at once, while safety divers watched, ready to rescue anyone who became stuck.", 
+        "word_definition": "the men and women who man a vehicle"
       }, 
       "constrained": {
         "word_description": "", 
@@ -5323,6 +5341,12 @@
         "word_example": "But he had become  inured to the rush and whirr of missiles, and now paid no heed whatever to them.", 
         "word_definition": "made tough by habitual exposure"
       }, 
+      "decorum": {
+        "word_description": "", 
+        "word_name": "decorum", 
+        "word_example": "Wishing to observe the rules of  decorum she invited him to stay for supper, though absolutely nothing had been prepared for a guest.", 
+        "word_definition": "propriety in manners and conduct"
+      }, 
       "hurtle": {
         "word_description": "", 
         "word_name": "hurtle", 
@@ -5413,12 +5437,6 @@
         "word_example": "The stories of the saints he regarded as preposterous fables invented to  hoodwink a gullible and illiterate populace.", 
         "word_definition": "influence by slyness"
       }, 
-      "bemused": {
-        "word_description": "", 
-        "word_name": "bemused", 
-        "word_example": "They were marching in the middle of the street, chanting and singing and disrupting traffic while countless New Yorkers looked on, some  bemused, others applauding.", 
-        "word_definition": "perplexed by many conflicting situations or statements"
-      }, 
       "mettle": {
         "word_description": "", 
         "word_name": "mettle", 
@@ -5430,12 +5448,6 @@
         "word_name": "conspicuous", 
         "word_example": "Its bright scarlet fruits are  conspicuous in late autumn.", 
         "word_definition": "obvious to the eye or mind"
-      }, 
-      "embroil": {
-        "word_description": "", 
-        "word_name": "embroil", 
-        "word_example": "But Mr. Marbury, often  embroiled in controversy during his N.B.A. days, seems to have found some measure of peace in China.", 
-        "word_definition": "force into some kind of situation or course of action"
       }, 
       "levity": {
         "word_description": "", 
@@ -5899,17 +5911,11 @@
         "word_example": "As the TUC has pointed out, those incomes \u2013 except for senior executives, whose  emoluments seem to know few bounds \u2013 are rising more slowly than prices.", 
         "word_definition": "compensation received by virtue of holding an office"
       }, 
-      "pacifist": {
+      "ascertain": {
         "word_description": "", 
-        "word_name": "pacifist", 
-        "word_example": "He was, furthermore, a real  pacifist, believing that war is debasing morally and disastrous economically.", 
-        "word_definition": "opposed to war"
-      }, 
-      "rave": {
-        "word_description": "", 
-        "word_name": "rave", 
-        "word_example": "I have heard lots of women simply  rave about him.", 
-        "word_definition": "praise enthusiastically"
+        "word_name": "ascertain", 
+        "word_example": "Health care providers and manufacturers can  ascertain alternative treatment more effectively by tackling predicted drug shortage incidences early in the process.", 
+        "word_definition": "learn or discover with confidence"
       }, 
       "stump": {
         "word_description": "", 
@@ -5977,11 +5983,11 @@
         "word_example": "Frank had studied something of almost everything and imagined himself a  savant.", 
         "word_definition": "a learned person"
       }, 
-      "concern": {
+      "contusion": {
         "word_description": "", 
-        "word_name": "concern", 
-        "word_example": "The scandal broke out in October after former chief executive Michael Woodford claimed he was fired for raising  concerns about the company's accounting practices.", 
-        "word_definition": "something that interests you because it is important"
+        "word_name": "contusion", 
+        "word_example": "My falling companion, being a much stouter man than myself did not fare so well, as his right shoulder received a severe  contusion.", 
+        "word_definition": "an injury in which the skin is not broken"
       }, 
       "diffidence": {
         "word_description": "", 
@@ -6084,12 +6090,6 @@
         "word_name": "retentive", 
         "word_example": "The child was very sharp, and her memory was extremely  retentive.", 
         "word_definition": "good at remembering"
-      }, 
-      "nonentity": {
-        "word_description": "", 
-        "word_name": "nonentity", 
-        "word_example": "Was he such a  nonentity in every way that she could remain unconcerned as to any fear of danger from him?", 
-        "word_definition": "a person of no influence"
       }, 
       "distend": {
         "word_description": "", 
@@ -6289,11 +6289,11 @@
         "word_example": "His rural,  homespun demeanor ordinarily might elicit snickers from India\u2019s urban elite.", 
         "word_definition": "characteristic of country life"
       }, 
-      "decorum": {
+      "nonentity": {
         "word_description": "", 
-        "word_name": "decorum", 
-        "word_example": "Wishing to observe the rules of  decorum she invited him to stay for supper, though absolutely nothing had been prepared for a guest.", 
-        "word_definition": "propriety in manners and conduct"
+        "word_name": "nonentity", 
+        "word_example": "Was he such a  nonentity in every way that she could remain unconcerned as to any fear of danger from him?", 
+        "word_definition": "a person of no influence"
       }, 
       "animus": {
         "word_description": "", 
@@ -6361,11 +6361,11 @@
         "word_example": "Kirkwood's anger cooled apace; at worst it had been a flare of passion\u2014 incandescent.", 
         "word_definition": "characterized by ardent emotion, intensity, or brilliance"
       }, 
-      "unassuming": {
+      "rave": {
         "word_description": "", 
-        "word_name": "unassuming", 
-        "word_example": "Parr's conduct after his most heroic actions was thoroughly modest and  unassuming.", 
-        "word_definition": "not arrogant"
+        "word_name": "rave", 
+        "word_example": "I have heard lots of women simply  rave about him.", 
+        "word_definition": "praise enthusiastically"
       }, 
       "importunate": {
         "word_description": "", 
@@ -6379,11 +6379,11 @@
         "word_example": "Two antagonistic values may  cohere in the same object.", 
         "word_definition": "cause to form a united, orderly, and consistent whole"
       }, 
-      "crew": {
+      "pacifist": {
         "word_description": "", 
-        "word_name": "crew", 
-        "word_example": "Several pilots and  crew members would have to escape at once, while safety divers watched, ready to rescue anyone who became stuck.", 
-        "word_definition": "the men and women who man a vehicle"
+        "word_name": "pacifist", 
+        "word_example": "He was, furthermore, a real  pacifist, believing that war is debasing morally and disastrous economically.", 
+        "word_definition": "opposed to war"
       }, 
       "inimitable": {
         "word_description": "", 
@@ -6421,11 +6421,11 @@
         "word_example": "The body is  striated with clearly defined, often depressed lines, which run longitudinally and sometimes spirally.", 
         "word_definition": "mark with stripes of contrasting color"
       }, 
-      "slay": {
+      "repine": {
         "word_description": "", 
-        "word_name": "slay", 
-        "word_example": "\"It were shame,\" said Lancelot, \"for an armed to  slay an unarmed man.\"", 
-        "word_definition": "kill intentionally and with premeditation"
+        "word_name": "repine", 
+        "word_example": "Those poor fellows above, accustomed to the wild freshness and freedom of the sea, how they must mourn and  repine!", 
+        "word_definition": "express discontent"
       }, 
       "satire": {
         "word_description": "", 
@@ -6565,6 +6565,12 @@
         "word_example": "How  vapid was the talk of my remaining fellow-passengers; how slow of understanding, and how preoccupied with petty things they seemed!", 
         "word_definition": "lacking significance or liveliness or spirit or zest"
       }, 
+      "polemical": {
+        "word_description": "", 
+        "word_name": "polemical", 
+        "word_example": "His works include several dogmatic and  polemical treatises, but the most important are the historical.", 
+        "word_definition": "of or involving dispute or controversy"
+      }, 
       "disport": {
         "word_description": "", 
         "word_name": "disport", 
@@ -6667,11 +6673,11 @@
         "word_example": "In other words, they seemed fully subscribed to Andy Warhol\u2019s  dictum that business art is the best art.", 
         "word_definition": "an authoritative declaration"
       }, 
-      "credence": {
+      "mote": {
         "word_description": "", 
-        "word_name": "credence", 
-        "word_example": "\"Well-known brand names that promote new products receive more  credence than newcomers that people don't know about.\"", 
-        "word_definition": "the mental attitude that something is believable"
+        "word_name": "mote", 
+        "word_example": "He took his discharge out of his pocket, brushed every  mote of dust from the table, and spread the document before their eyes.", 
+        "word_definition": "a tiny piece of anything"
       }, 
       "zenith": {
         "word_description": "", 
@@ -6685,11 +6691,11 @@
         "word_example": "\"You couldn't ask too much of me,\" he returned, with no  unction of flattery, but the cheerfully frank expression of an ingenuous heart.", 
         "word_definition": "excessive but superficial compliments with affected charm"
       }, 
-      "forebear": {
+      "contrive": {
         "word_description": "", 
-        "word_name": "forebear", 
-        "word_example": "His  forebears were Greek immigrants who opened a small sandwich shop in Brooklyn, then moved, one after another, to Providence, to sell distinct, delectable wieners.", 
-        "word_definition": "a person from whom you are descended"
+        "word_name": "contrive", 
+        "word_example": "The wily Roc, never taken much by surprise,  contrived to escape, but old Tributor and his men were all captured.", 
+        "word_definition": "make or work out a plan for; devise"
       }, 
       "comport": {
         "word_description": "", 
@@ -6967,11 +6973,11 @@
         "word_example": "The fact was so  stupendous that Terry felt almost frightened over the great good fortune.", 
         "word_definition": "so great in size, force, or extent as to elicit awe"
       }, 
-      "ascertain": {
+      "peremptory": {
         "word_description": "", 
-        "word_name": "ascertain", 
-        "word_example": "Health care providers and manufacturers can  ascertain alternative treatment more effectively by tackling predicted drug shortage incidences early in the process.", 
-        "word_definition": "learn or discover with confidence"
+        "word_name": "peremptory", 
+        "word_example": "This time it was not a request but a  peremptory order to go at once to Cuba and undertake the work.", 
+        "word_definition": "not allowing contradiction or refusal"
       }, 
       "glower": {
         "word_description": "", 
@@ -7069,11 +7075,11 @@
         "word_example": "He had not stopped to consider her rough speech and  uncouth manners.", 
         "word_definition": "lacking refinement or cultivation or taste"
       }, 
-      "cameo": {
+      "appease": {
         "word_description": "", 
-        "word_name": "cameo", 
-        "word_example": "The trinket was a small round  cameo cut out of mother-of-pearl and set in gold; it represented St. George and the dragon.", 
-        "word_definition": "engraving or carving in low relief on a stone"
+        "word_name": "appease", 
+        "word_example": "The king also has tried to  appease public anger over corruption.", 
+        "word_definition": "cause to be more favorably inclined; gain the good will of"
       }, 
       "excise": {
         "word_description": "", 
@@ -7459,11 +7465,11 @@
         "word_example": "More than one assassin was  dispatched by the Turkish authorities to murder Napoleon.", 
         "word_definition": "send away towards a designated goal"
       }, 
-      "sleight": {
+      "embroil": {
         "word_description": "", 
-        "word_name": "sleight", 
-        "word_example": "The trick was performed Tuesday by Russell Fitzgerald, an amateur magician known to open meetings with a little  sleight of hand.", 
-        "word_definition": "adroitness in using the hands"
+        "word_name": "embroil", 
+        "word_example": "But Mr. Marbury, often  embroiled in controversy during his N.B.A. days, seems to have found some measure of peace in China.", 
+        "word_definition": "force into some kind of situation or course of action"
       }, 
       "mortify": {
         "word_description": "", 
@@ -7507,23 +7513,17 @@
         "word_example": "Residents who fled in recent days spoke of the smell of death and piles of garbage drifting like snowbanks, casting a  pall over the city.", 
         "word_definition": "a sudden numbing dread"
       }, 
-      "vat": {
-        "word_description": "", 
-        "word_name": "vat", 
-        "word_example": "The cream remains in the large  vat about twenty-four hours before it is churned.", 
-        "word_definition": "a large open vessel for holding or storing liquids"
-      }, 
       "vacate": {
         "word_description": "", 
         "word_name": "vacate", 
         "word_example": "Their number diminished sharply after Villaraigosa announced last week that he wanted protesters to  vacate the grounds by Monday or be forcibly removed.", 
         "word_definition": "leave behind empty; move out of"
       }, 
-      "intend": {
+      "bemused": {
         "word_description": "", 
-        "word_name": "intend", 
-        "word_example": "\u201cLipstick, as a product  intended for topical use with limited absorption, is ingested only in very small quantities,\u201d the agency said on its website.", 
-        "word_definition": "have in mind as a purpose"
+        "word_name": "bemused", 
+        "word_example": "They were marching in the middle of the street, chanting and singing and disrupting traffic while countless New Yorkers looked on, some  bemused, others applauding.", 
+        "word_definition": "perplexed by many conflicting situations or statements"
       }, 
       "archetype": {
         "word_description": "", 
@@ -7591,17 +7591,11 @@
         "word_example": "The statement from Hermitage said even in the Soviet period no defendant had been tried after death, when charges were generally considered  moot.", 
         "word_definition": "of no legal significance, as having been previously decided"
       }, 
-      "capricious": {
+      "bullion": {
         "word_description": "", 
-        "word_name": "capricious", 
-        "word_example": "Her admirers were  capricious, returning to her at times, and then holding aloof again; and as for suitors, they entirely disappeared.", 
-        "word_definition": "determined by chance or impulse rather than by necessity"
-      }, 
-      "dilettante": {
-        "word_description": "", 
-        "word_name": "dilettante", 
-        "word_example": "They dabbled in politics and art in the same  dilettante fashion.", 
-        "word_definition": "showing frivolous or superficial interest; amateurish"
+        "word_name": "bullion", 
+        "word_example": "In times of economic turmoil, more people tend to invest in  bullion gold.", 
+        "word_definition": "gold or silver in bars or ingots"
       }, 
       "abase": {
         "word_description": "", 
@@ -7831,11 +7825,11 @@
         "word_example": "Mike Mullen, then chairman of the Joint Chiefs of Staff, has acknowledged receiving the memo but said he ignored it as not  credible.", 
         "word_definition": "appearing to merit belief or acceptance"
       }, 
-      "bate": {
+      "abet": {
         "word_description": "", 
-        "word_name": "bate", 
-        "word_example": "\u201cYou called her \u2018an interfering, disagreeable old woman\u2019!\u201d whispered Bertha with  bated breath, glancing half fearfully at the door as she spoke.", 
-        "word_definition": "moderate or restrain; lessen the force of"
+        "word_name": "abet", 
+        "word_example": "\"Since YouTube, digital culture has aided and enhanced -- or maybe the better word is  abetted -- the celebrity meltdown,\" said Wired magazine senior editor Nancy Miller.", 
+        "word_definition": "assist or encourage, usually in some wrongdoing"
       }, 
       "sob": {
         "word_description": "", 
@@ -7873,11 +7867,11 @@
         "word_example": "He knew that men were  actuated by other motives, good and bad, than self-interest.", 
         "word_definition": "give an incentive for doing something"
       }, 
-      "mote": {
+      "demonstrable": {
         "word_description": "", 
-        "word_name": "mote", 
-        "word_example": "He took his discharge out of his pocket, brushed every  mote of dust from the table, and spread the document before their eyes.", 
-        "word_definition": "a tiny piece of anything"
+        "word_name": "demonstrable", 
+        "word_example": "The linkage between deposits and trade is definite, causal, positive, statistically  demonstrable.", 
+        "word_definition": "capable of being proved"
       }, 
       "ensue": {
         "word_description": "", 
@@ -7963,11 +7957,11 @@
         "word_example": "Tad followed,  whittling on a stick with his knife and kicking at the shavings as they fell.", 
         "word_definition": "cut small bits or pare shavings from"
       }, 
-      "incipient": {
+      "platitude": {
         "word_description": "", 
-        "word_name": "incipient", 
-        "word_example": "Above all, medical teams will need to establish quick surveillance to identify health needs and pinpoint  incipient outbreaks before they explode.", 
-        "word_definition": "only partly in existence; imperfectly formed"
+        "word_name": "platitude", 
+        "word_example": "But details are fuzzy and rebel leaders often resort to  platitudes when dismissing suggestions of discord, saying simply that \"Libya is one tribe.\"", 
+        "word_definition": "a trite or obvious remark"
       }, 
       "luminary": {
         "word_description": "", 
@@ -8029,11 +8023,11 @@
         "word_example": "They were caparisoned in Indian fashion with gay colors and fancy  trappings.", 
         "word_definition": "ornaments; embellishments to or characteristic signs of"
       }, 
-      "spat": {
+      "vat": {
         "word_description": "", 
-        "word_name": "spat", 
-        "word_example": "Public  spats are rare in the asset-management industry, where companies typically resolve disputes behind closed doors.", 
-        "word_definition": "a quarrel about petty points"
+        "word_name": "vat", 
+        "word_example": "The cream remains in the large  vat about twenty-four hours before it is churned.", 
+        "word_definition": "a large open vessel for holding or storing liquids"
       }, 
       "glib": {
         "word_description": "", 
@@ -8041,11 +8035,11 @@
         "word_example": "The other sort of engineer understands that  glib comparisons between computers and humans don't do justice to the complexities of either.", 
         "word_definition": "having only superficial plausibility"
       }, 
-      "polemical": {
+      "appoint": {
         "word_description": "", 
-        "word_name": "polemical", 
-        "word_example": "His works include several dogmatic and  polemical treatises, but the most important are the historical.", 
-        "word_definition": "of or involving dispute or controversy"
+        "word_name": "appoint", 
+        "word_example": "In 1863 he was  appointed by the general assembly professor of oriental languages at New College.", 
+        "word_definition": "assign a duty, responsibility or obligation to"
       }, 
       "gibe": {
         "word_description": "", 
@@ -8221,6 +8215,12 @@
         "word_example": "Oscar Wilde, to do him justice, bore this sort of rebuff with astonishing good  temper and sweetness.", 
         "word_definition": "a characteristic state of feeling"
       }, 
+      "slew": {
+        "word_description": "", 
+        "word_name": "slew", 
+        "word_example": "In fact, intense focus may be one reason why so-called savants become so extraordinary at performing extensive calculations or remembering a  slew of facts.", 
+        "word_definition": "a large number or amount or extent"
+      }, 
       "microcosm": {
         "word_description": "", 
         "word_name": "microcosm", 
@@ -8347,17 +8347,17 @@
         "word_example": "But the flames grew too large,  compelling firefighters to call off the rescue.", 
         "word_definition": "force somebody to do something"
       }, 
-      "appease": {
+      "intend": {
         "word_description": "", 
-        "word_name": "appease", 
-        "word_example": "The king also has tried to  appease public anger over corruption.", 
-        "word_definition": "cause to be more favorably inclined; gain the good will of"
+        "word_name": "intend", 
+        "word_example": "\u201cLipstick, as a product  intended for topical use with limited absorption, is ingested only in very small quantities,\u201d the agency said on its website.", 
+        "word_definition": "have in mind as a purpose"
       }, 
-      "slew": {
+      "bauble": {
         "word_description": "", 
-        "word_name": "slew", 
-        "word_example": "In fact, intense focus may be one reason why so-called savants become so extraordinary at performing extensive calculations or remembering a  slew of facts.", 
-        "word_definition": "a large number or amount or extent"
+        "word_name": "bauble", 
+        "word_example": "But men were buying Valentine's  baubles for their honeys long before the first Zales ever opened its doors in a suburban shopping mall.", 
+        "word_definition": "cheap showy jewelry or ornament on clothing"
       }, 
       "discursive": {
         "word_description": "", 
@@ -8509,11 +8509,11 @@
         "word_example": "By contrast, Mr. Pei\u2019s  restrained design took time to claim my attention, particularly since it sat quietly next door to Saarinen\u2019s concrete gull wings.", 
         "word_definition": "not showy or obtrusive"
       }, 
-      "appoint": {
+      "extort": {
         "word_description": "", 
-        "word_name": "appoint", 
-        "word_example": "In 1863 he was  appointed by the general assembly professor of oriental languages at New College.", 
-        "word_definition": "assign a duty, responsibility or obligation to"
+        "word_name": "extort", 
+        "word_example": "The owners, in turn, have called the lawyers shakedown artists bent on ruining their good reputations to  extort money.", 
+        "word_definition": "obtain by coercion or intimidation"
       }, 
       "outskirts": {
         "word_description": "", 
@@ -8575,11 +8575,11 @@
         "word_example": "The Nobel Prize, considered one of the highest  accolades in literature, is given only to living writers.", 
         "word_definition": "a tangible symbol signifying approval or distinction"
       }, 
-      "superannuated": {
+      "credence": {
         "word_description": "", 
-        "word_name": "superannuated", 
-        "word_example": "Civil servants are  superannuated at fifty-five years of age and are sent home on a pension, seldom enjoying life longer than two years afterward.", 
-        "word_definition": "too old to be useful"
+        "word_name": "credence", 
+        "word_example": "\"Well-known brand names that promote new products receive more  credence than newcomers that people don't know about.\"", 
+        "word_definition": "the mental attitude that something is believable"
       }, 
       "conjugal": {
         "word_description": "", 

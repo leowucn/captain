@@ -1,6 +1,5 @@
 # !/usr/bin/env python
 # -*- coding: utf-8 -*-
-import requests
 import bs4
 import os
 import utility
@@ -43,10 +42,16 @@ def update_all_lists():
         if name == 'Top Rated Lists':
             update_list(category_raw_content, 'top-rated')
     for url_postfix in category_dict.keys():
-        s = requests.session()
-        s.keep_alive = False
-        res = s.get(home_url + 'lists/' + url_postfix)
-        soup = bs4.BeautifulSoup(res.content, 'lxml')
+        url = home_url + 'lists/' + url_postfix
+        content = utility.get_content_of_url(url)
+        soup = str(bs4.BeautifulSoup(content, 'lxml'))
+        try:
+            if soup.find('bycat hasmore') < 0:
+                p('Cannot find phrase "bycat hasmore"!')
+                p(soup)
+                return
+        except:
+            return
         update_list(str(soup).split('bycat hasmore')[1], url_postfix)
     utility.show_notification('Captain Update Vocabulary Lists', 'Update Successfully!')
     return
@@ -126,23 +131,23 @@ def get_value_by_key(dict_data, key):
 
 def write_lists_by_category_and_data(category_name, lists_data):
     if category_name == 'featured':
-        utility.write_to_json_file(lists_path_featured, lists_data)
+        utility.write_json_file(lists_path_featured, lists_data)
     if category_name == 'top-rated':
-        utility.write_to_json_file(lists_path_top_rated, lists_data)
+        utility.write_json_file(lists_path_top_rated, lists_data)
     if category_name == 'test-prep':
-        utility.write_to_json_file(lists_path_test_prep, lists_data)
+        utility.write_json_file(lists_path_test_prep, lists_data)
     if category_name == 'literature':
-        utility.write_to_json_file(lists_path_literature, lists_data)
+        utility.write_json_file(lists_path_literature, lists_data)
     if category_name == 'morphology-and-roots':
-        utility.write_to_json_file(lists_path_morphology_roots, lists_data)
+        utility.write_json_file(lists_path_morphology_roots, lists_data)
     if category_name == 'historical-documents':
-        utility.write_to_json_file(lists_path_historical_documents, lists_data)
+        utility.write_json_file(lists_path_historical_documents, lists_data)
     if category_name == 'speeches':
-        utility.write_to_json_file(lists_path_speeches, lists_data)
+        utility.write_json_file(lists_path_speeches, lists_data)
     if category_name == 'just-for-fun':
-        utility.write_to_json_file(lists_path_just_for_fun, lists_data)
+        utility.write_json_file(lists_path_just_for_fun, lists_data)
     if category_name == 'news':
-        utility.write_to_json_file(lists_path_news, lists_data)
+        utility.write_json_file(lists_path_news, lists_data)
 
 
 # ----------------------------------
@@ -222,7 +227,9 @@ def extract_detailed_address(raw_content):
 
 
 def p(c):
+    print('-----------------------------')
     print(c)
+    print('-----------------------------')
 
 
 if __name__ == "__main__":

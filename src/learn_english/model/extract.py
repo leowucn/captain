@@ -3,6 +3,18 @@
 import re
 
 
+invalid_characters = {
+    '@': True, '#': True,
+    '^': True, '&': True,
+    '&&': True, '||': True,
+    '*': True, "==": True,
+    "===": True, '\\': True,
+    '/': True, '`': True,
+    '=': True, '{': True,
+    '}': True
+}
+
+
 def extract(word, paragraph):
     # If the paragraph which contains word is not too long, then return it.
     if len(paragraph) <= 160:
@@ -11,7 +23,9 @@ def extract(word, paragraph):
     indices = [m.start() for m in re.finditer(word, paragraph)]
     for index in indices:
         extract_content = get_backward_content(paragraph[:index]) + get_forward_content(paragraph[index:])
-        sentences.append(extract_content.strip() + '\n')
+        extract_content = extract_content.strip() + '\n'
+        if is_valid_string(extract_content):
+            sentences.append(extract_content.strip() + '\n')
     return list(set(sentences))
 
 
@@ -38,6 +52,13 @@ def get_forward_content(paragraph):
             break
         res.append(c)
     return ''.join(res)
+
+
+def is_valid_string(src):
+    for ch in src:
+        if ch in invalid_characters:
+            return False
+    return True
 
 
 # example = 'We believe ourselves to be honest, innocent, well meaning' \

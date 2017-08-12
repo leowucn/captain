@@ -28,16 +28,11 @@ def show_year_list():
     if len(res) == 0:
         return render_template('congratulation.html')
 
-    year_dict = dict()
-    for year, value in res[0].iteritems():
-        year_dict[year] = 0
-    if len(res) > 1:
-        for year, value in res[1].iteritems():
-            year_dict[year] = 0
+    year_dict = dict(res[0].items() + res[1].items()).keys()
 
-    all_vocabulary_lists = vocabulary_list.get_all_vocabulary_lists()
+    all_vocabulary_dict = vocabulary_list.get_all_vocabulary_lists()
     result = dict()
-    for category_name, category_lists in all_vocabulary_lists.iteritems():
+    for category_name, category_lists in all_vocabulary_dict.iteritems():
         i = 0
         result[category_name] = dict()
         for list_name, list_data in category_lists.iteritems():
@@ -46,27 +41,27 @@ def show_year_list():
             result[category_name][list_name] = dict()
             result[category_name][list_name] = list_data
             i += 1
-    return render_template('home.html', year_lst=sorted(year_dict), all_vocabulary_lists=result, ip_addr=utility.ip_addr)
+    return render_template('home.html', year_lst=sorted(year_dict), all_vocabulary_lists=result)
 
 
-@learn_english_app.route('/week_list', methods=['GET', 'POST'])
-def show_week_list():
+@learn_english_app.route('/month_list', methods=['GET', 'POST'])
+def show_month_list():
     if request.method == 'POST':
         tackle = tackle_word.TackleWords()
         res = tackle.get_classified_lst()
 
-        week_list_from_word_builder = []
-        week_list_from_clipboard = []
+        month_list_from_word_builder = []
+        month_list_from_clipboard = []
         year = request.form.keys()[0].split('-')[0]
 
         if year in res[0]:
-            for week, words_dict in res[0][year].iteritems():
-                week_list_from_word_builder.append(week)
+            for month, words_dict in res[0][year].iteritems():
+                month_list_from_word_builder.append(month)
         if len(res) > 1:
             if year in res[1]:
-                for week, words_dict in res[1][year].iteritems():
-                    week_list_from_clipboard.append(week)
-        return render_template('week_list.html', year=year, week_list_from_word_builder=sorted(week_list_from_word_builder), week_list_from_clipboard=sorted(week_list_from_clipboard), ip_addr=utility.ip_addr)
+                for month, words_dict in res[1][year].iteritems():
+                    month_list_from_clipboard.append(month)
+        return render_template('month_list.html', year=year, month_list_from_word_builder=sorted(month_list_from_word_builder), month_list_from_clipboard=sorted(month_list_from_clipboard))
     return render_template('nothing.html')
 
 
@@ -76,15 +71,15 @@ def words_list():
         lst = request.form.keys()[0].split('*')
         come_from = lst[0]
         year = lst[1]
-        week = lst[2]
+        month = lst[2]
 
-        return show_page(come_from, year, week, 0)
+        return show_page(come_from, year, month, 0)
     return render_template('nothing.html')
 
 
-@learn_english_app.route('/show_words_list/<come_from>/<year>/<week>/<index>')
-def show_words_list(come_from, year, week, index):
-    return show_page(come_from, year, week, index)
+@learn_english_app.route('/show_words_list/<come_from>/<year>/<month>/<index>')
+def show_words_list(come_from, year, month, index):
+    return show_page(come_from, year, month, index)
 
 
 @learn_english_app.route('/specified_page', methods=['GET', 'POST'])
@@ -93,17 +88,17 @@ def show_specified_page_words():
         lst = request.form.keys()[0].split('*')
         come_from = lst[0]
         year = lst[1]
-        week = lst[2]
+        month = lst[2]
         index = lst[3]
 
-        return show_page(come_from, year, week, index)
+        return show_page(come_from, year, month, index)
     return render_template('nothing.html')
 
 
 def show_page(cf, y, w1, i):
     come_from = cf
     year = y
-    week = w1
+    month = w1
     index = i
 
     start_index = int(index) * each_page_words_num
@@ -112,18 +107,24 @@ def show_page(cf, y, w1, i):
 
     tackle = tackle_word.TackleWords()
     res = tackle.get_classified_lst()
+
     src_dict = dict()
-    if come_from == '0':  # from word builder
-        src_dict = res[0][year][week]
-    if len(come_from) > 0:
-        if come_from == '1':  # from clipboard
-            week = week.encode('utf-8')
-            if week in res[1][year]:
-                src_dict = res[1][year][week]
+    if '0' == cf and 0 in res:
+        if year in res[0]:
+            if month in res[0][year]:
+                src_dict = res[0][year][month]
             else:
                 return render_template('nothing.html')
-    else:
-        return render_template('nothing.html')
+        else:
+            return render_template('nothing.html')
+    if '1' == cf and 1 in res:
+        if year in res[1]:
+            if month in res[1][year]:
+                src_dict = res[1][year][month]
+            else:
+                return render_template('nothing.html')
+        else:
+            return render_template('nothing.html')
 
     result_lst = []
     src_lst = [(k, v) for k, v in src_dict.iteritems()]
@@ -135,7 +136,7 @@ def show_page(cf, y, w1, i):
         i += 1
 
     num = len(src_dict)/each_page_words_num + 1
-    return render_template('word_verbose_info.html', come_from=come_from, y=year, w=week, result=result_lst, button_num=num, page_index=index, motto=motto.get_random_motto(),ip_addr=utility.ip_addr)
+    return render_template('word_verbose_info.html', come_from=come_from, y=year, w=month, result=result_lst, button_num=num, page_index=index, motto=motto.get_random_motto())
 
 
 @learn_english_app.route('/delete', methods=['GET', 'POST'])
@@ -149,8 +150,8 @@ def delete_word():
         word = lst[4]
 
         tackle = tackle_word.TackleWords()
-        tackle.delete(str(cf), word)
-        return redirect(url_for('learn_english.show_words_list', come_from=cf, year=y, week=w, index=i))
+        tackle.delete(word + '-' + str(cf))
+        return redirect(url_for('learn_english.show_words_list', come_from=cf, year=y, month=w, index=i))
 
 
 @learn_english_app.route('/quickly_review', methods=['GET', 'POST'])
@@ -162,7 +163,7 @@ def quickly_review():
         lst = request.form.keys()[0].split('*')
         come_from = lst[0]
         year = lst[1]
-        week = lst[2]
+        month = lst[2]
         index = lst[3]
 
         start_index = int(index) * each_page_words_num - 1
@@ -173,9 +174,9 @@ def quickly_review():
 
         src_dict = dict()
         if come_from == '0':  # from word builder
-            src_dict = res[0][year][week]
+            src_dict = res[0][year][month]
         elif come_from == '1':  # from clipboard
-            src_dict = res[1][year][week]
+            src_dict = res[1][year][month]
         else:
             return render_template('nothing.html')
 
@@ -205,12 +206,11 @@ def quickly_review():
         return render_template('word_verbose_info.html',
                                come_from=come_from,
                                y=year,
-                               w=week,
+                               w=month,
                                result=result_lst,
                                button_num=num,
                                page_index=index,
-                               motto=motto.get_random_motto(),
-                               ip_addr=utility.ip_addr
+                               motto=motto.get_random_motto()
                                )
     return render_template('nothing.html')
 
@@ -224,10 +224,10 @@ def stop_quickly_review():
         lst = request.form.keys()[0].split('*')
         come_from = lst[0]
         year = lst[1]
-        week = lst[2]
+        month = lst[2]
         index = lst[3]
 
-        return show_page(come_from, year, week, index)
+        return show_page(come_from, year, month, index)
     return render_template('nothing.html')
 
 
@@ -237,8 +237,7 @@ def show_vocabulary_list(category_name):
     return render_template('vocabulary_list.html',
                            category_name=category_name,
                            category_name_for_show=vocabulary_list.category_dict[category_name],
-                           list_data=list_data,
-                           ip_addr=utility.ip_addr
+                           list_data=list_data
                            )
 
 
@@ -248,7 +247,7 @@ def vocabulary(category_name, list_name):
     list_name = list_name.encode('utf-8')
     list_data = vocabulary_list.get_list_data(category_name, list_name)
 
-    if list_data == None:
+    if list_data is None:
         return render_template('nothing.html')
 
     list_detailed_info = list_data['list_detailed_info']
@@ -264,6 +263,12 @@ def vocabulary(category_name, list_name):
                            )
 
 
-def p(c):
-    print('----------------')
-    print(c)
+def p(content):
+    utility.append_log('---------------------')
+    utility.append_log(content)
+
+
+def p_lst_key(lst, flag):
+    utility.append_log('---------------------')
+    utility.append_log(str(flag))
+    utility.append_log(' '.join(str(e) for e in lst))

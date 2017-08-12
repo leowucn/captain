@@ -77,11 +77,11 @@
         "word_name": "enigmatic", 
         "word_example": "Mr. Ocean is pop\u2019s most  enigmatic superstar right now, but what scans from a distance as reluctance is really a kind of meticulousness... He\u2019d rather do nothing than do something that\u2019s not quite right.  "
       }, 
-      "unbridled": {
-        "word_definition": "not restrained or controlled", 
-        "word_description": "For a moment this week, Amazon CEO Jeff Bezos was the richest man in the world. With stock market fluctuations, however, his reign at the top was brief, and Microsoft founder Bill Gates returned to number 1. My question is, how upset are you when you slip to 2nd on this list? Is there something the person worth $90 billion can do that the person worth $89 billion can't do, practically speaking? Does it hurt your pride just a little? Or are you too busy earning even more cash to really care?", 
-        "word_name": "unbridled", 
-        "word_example": "Bezos' rise carries important symbolic weight \u2014 signaling Amazon's  unbridled power and value, presenting a new face of outsized wealth to the world ... "
+      "fleeting": {
+        "word_definition": "lasting for a markedly brief time", 
+        "word_description": "Playwright and actor Sam Shepard died on July 27. Shepard was a singular talent whose writing illuminated the human experience with a truth and an immediacy rarely seen onstage. He was 73 years old. For more on Shepard, see our Tribute List  ", 
+        "word_name": "fleeting", 
+        "word_example": "He was widely regarded as one of the most original voices of his generation, winning praise from critics for his searing portraits of spouses, siblings and lovers struggling with issues of identity, failure and the  fleeting nature of the American dream.  "
       }, 
       "outlier": {
         "word_definition": "an extreme deviation from the mean", 
@@ -119,11 +119,11 @@
         "word_name": "turbulence", 
         "word_example": "The latest round of internal  turbulence at the White House carries potential repercussions for the Russia investigations being carried out by special counsel Robert Mueller, the FBI and Congress. Trump is replacing his ousted chief of staff, Reince Priebus, with Secretary of Homeland Security John F. Kelly, a retired Marine Corps general  "
       }, 
-      "fleeting": {
-        "word_definition": "lasting for a markedly brief time", 
-        "word_description": "Playwright and actor Sam Shepard died on July 27. Shepard was a singular talent whose writing illuminated the human experience with a truth and an immediacy rarely seen onstage. He was 73 years old. For more on Shepard, see our Tribute List  ", 
-        "word_name": "fleeting", 
-        "word_example": "He was widely regarded as one of the most original voices of his generation, winning praise from critics for his searing portraits of spouses, siblings and lovers struggling with issues of identity, failure and the  fleeting nature of the American dream.  "
+      "unbridled": {
+        "word_definition": "not restrained or controlled", 
+        "word_description": "For a moment this week, Amazon CEO Jeff Bezos was the richest man in the world. With stock market fluctuations, however, his reign at the top was brief, and Microsoft founder Bill Gates returned to number 1. My question is, how upset are you when you slip to 2nd on this list? Is there something the person worth $90 billion can do that the person worth $89 billion can't do, practically speaking? Does it hurt your pride just a little? Or are you too busy earning even more cash to really care?", 
+        "word_name": "unbridled", 
+        "word_example": "Bezos' rise carries important symbolic weight \u2014 signaling Amazon's  unbridled power and value, presenting a new face of outsized wealth to the world ... "
       }, 
       "infamous": {
         "word_definition": "known widely and usually unfavorably", 
@@ -216,6 +216,12 @@
         "word_description": "", 
         "word_name": "vagabond", 
         "word_example": "Leave your stepping stones behind, something calls for you "
+      }, 
+      "demagogue": {
+        "word_definition": "a leader who seeks support by appealing to popular passions", 
+        "word_description": "", 
+        "word_name": "demagogue", 
+        "word_example": "I'm going where the Southern crosses the Yellow Dog "
       }, 
       "martyr": {
         "word_definition": "one who suffers for the sake of principle", 
@@ -463,11 +469,11 @@
         "word_name": "radiant", 
         "word_example": "He knows the music intimately and led a  radiant, stirring, if sometimes uneven performance."
       }, 
-      "demagogue": {
-        "word_definition": "a leader who seeks support by appealing to popular passions", 
+      "vacant": {
+        "word_definition": "void of thought or knowledge", 
         "word_description": "", 
-        "word_name": "demagogue", 
-        "word_example": "I'm going where the Southern crosses the Yellow Dog "
+        "word_name": "vacant", 
+        "word_example": "I was born here and I\u2019ll die here against my will "
       }, 
       "chastise": {
         "word_definition": "censure severely", 
@@ -547,12 +553,6 @@
         "word_name": "reprobate", 
         "word_example": "Uttering idle words from a  reprobate mind "
       }, 
-      "bog": {
-        "word_definition": "cause to slow down or get stuck", 
-        "word_description": "", 
-        "word_name": "bog", 
-        "word_example": "Well, the last thing I remember before I stripped and kneeled "
-      }, 
       "salvation": {
         "word_definition": "a means of preserving from harm or unpleasantness", 
         "word_description": "", 
@@ -571,11 +571,11 @@
         "word_name": "sublime", 
         "word_example": "All my powers of expression and thoughts so  sublime "
       }, 
-      "vacant": {
-        "word_definition": "void of thought or knowledge", 
+      "bog": {
+        "word_definition": "cause to slow down or get stuck", 
         "word_description": "", 
-        "word_name": "vacant", 
-        "word_example": "I was born here and I\u2019ll die here against my will "
+        "word_name": "bog", 
+        "word_example": "Well, the last thing I remember before I stripped and kneeled "
       }
     }, 
     "list_href": "/lists/1041604", 
@@ -1385,17 +1385,17 @@
         "word_name": "antithetical", 
         "word_example": "And I hate political correctness because it\u2019s  antithetical to the founding principles of this country and the secular progressives use it to make people sit down and shut up while they change everything. "
       }, 
-      "beholden": {
-        "word_definition": "under a moral obligation to someone", 
-        "word_description": "", 
-        "word_name": "beholden", 
-        "word_example": "Rather than being energy independent, our country will be forced to remain  beholden to her buddies in the Middle East. "
-      }, 
       "egregious": {
         "word_definition": "conspicuously and outrageously bad or reprehensible", 
         "word_description": "", 
         "word_name": "egregious", 
         "word_example": "In fact, her single greatest accomplishment may be committing such an  egregious crime and getting away with it \u2013 especially when others have paid so dearly. When that same Secretary of State rakes in millions of dollars trading access and favors to special interests and foreign powers I know the time for action has come. "
+      }, 
+      "mentor": {
+        "word_definition": "a wise and trusted guide and advisor", 
+        "word_description": "", 
+        "word_name": "mentor", 
+        "word_example": "That president can only be my  mentor, my best friend, my father, Donald . "
       }, 
       "ineptitude": {
         "word_definition": "unskillfulness resulting from a lack of training", 
@@ -1439,11 +1439,11 @@
         "word_name": "dereliction", 
         "word_example": "Her  dereliction of duty and failure to keep her people safe played a major role in the horrific Islamic terrorist murders on September 11-12, 2012 in Benghazi which claimed the lives of four brave Americans; "
       }, 
-      "mentor": {
-        "word_definition": "a wise and trusted guide and advisor", 
+      "meritocracy": {
+        "word_definition": "a social system in which power goes to superior intellects", 
         "word_description": "", 
-        "word_name": "mentor", 
-        "word_example": "That president can only be my  mentor, my best friend, my father, Donald . "
+        "word_name": "meritocracy", 
+        "word_example": "When run properly, construction sites are true  meritocracies. "
       }, 
       "malign": {
         "word_definition": "speak unfavorably about", 
@@ -1475,11 +1475,11 @@
         "word_name": "discerning", 
         "word_example": "That we are, as we have always been, one nation under God, indivisible, with liberty and justice for all. Should I have the awesome privilege to serve as your vice president, I promise to keep faith with that conviction, to pray daily for a wise and  discerning heart, for who is able to govern this great people without it? "
       }, 
-      "meritocracy": {
-        "word_definition": "a social system in which power goes to superior intellects", 
+      "beholden": {
+        "word_definition": "under a moral obligation to someone", 
         "word_description": "", 
-        "word_name": "meritocracy", 
-        "word_example": "When run properly, construction sites are true  meritocracies. "
+        "word_name": "beholden", 
+        "word_example": "Rather than being energy independent, our country will be forced to remain  beholden to her buddies in the Middle East. "
       }
     }, 
     "list_href": "/lists/1142552", 
@@ -2509,17 +2509,11 @@
         "word_name": "stringent", 
         "word_example": "And in this case it's not only about Roe v. Wade. It is about what's happening right now in America so many states are putting very  stringent regulations on women that block them from exercising that choice to the extent that they are defunding Planned Parenthood, which, of course, provides all kinds of cancer screenings and other benefits for women in our country. "
       }, 
-      "racketeer": {
-        "word_definition": "someone who commits crimes for profit", 
+      "replica": {
+        "word_definition": "copy that is not the original", 
         "word_description": "", 
-        "word_name": "racketeer", 
-        "word_example": "He went after a federal judge, born in Indiana but who Donald said couldn't be trusted to try the fraud and  racketeering case against Trump University because his parents were Mexican. "
-      }, 
-      "pivot": {
-        "word_definition": "turn on an axis", 
-        "word_description": "Here, Donald Trump is observing the Secretary Clinton has dodged, turned away from, or pivoted from the subject of the question onto another topic.", 
-        "word_name": "pivot", 
-        "word_example": "That was a great  pivot off the fact that she wants open borders, okay? "
+        "word_name": "replica", 
+        "word_example": "I believe if my opponent should win this race, which I truly don't think will happen, we will have a second amendment which will be a very, very small  replica of what it is right now.  "
       }, 
       "rhetoric": {
         "word_definition": "loud and confused and empty talk", 
@@ -2545,17 +2539,23 @@
         "word_name": "debunk", 
         "word_example": "Well, first of all, what he just said about the state department is not only untrue, it's been...  debunked numerous times. "
       }, 
-      "replica": {
-        "word_definition": "copy that is not the original", 
-        "word_description": "", 
-        "word_name": "replica", 
-        "word_example": "I believe if my opponent should win this race, which I truly don't think will happen, we will have a second amendment which will be a very, very small  replica of what it is right now.  "
-      }, 
       "imperative": {
         "word_definition": "some duty that is essential and urgent", 
         "word_description": "", 
         "word_name": "imperative", 
         "word_example": "The Supreme Court, it's what it's all about. Our country is so, so, just so  imperative that we have the right justices. "
+      }, 
+      "racketeer": {
+        "word_definition": "someone who commits crimes for profit", 
+        "word_description": "", 
+        "word_name": "racketeer", 
+        "word_example": "He went after a federal judge, born in Indiana but who Donald said couldn't be trusted to try the fraud and  racketeering case against Trump University because his parents were Mexican. "
+      }, 
+      "stagnant": {
+        "word_definition": "not growing or changing; without force or vitality", 
+        "word_description": "", 
+        "word_name": "stagnant", 
+        "word_example": "Look, our country is  stagnant. We've lost our jobs. We've lost our businesses.We're not making things anymore, relatively speaking, our product is pouring in from China, pouring in from Vietnam, pouring in from all over the world.  "
       }, 
       "depleted": {
         "word_definition": "no longer sufficient", 
@@ -2569,11 +2569,11 @@
         "word_name": "belittle", 
         "word_example": "Donald thinks  belittling women makes him bigger. "
       }, 
-      "stagnant": {
-        "word_definition": "not growing or changing; without force or vitality", 
-        "word_description": "", 
-        "word_name": "stagnant", 
-        "word_example": "Look, our country is  stagnant. We've lost our jobs. We've lost our businesses.We're not making things anymore, relatively speaking, our product is pouring in from China, pouring in from Vietnam, pouring in from all over the world.  "
+      "pivot": {
+        "word_definition": "turn on an axis", 
+        "word_description": "Here, Donald Trump is observing the Secretary Clinton has dodged, turned away from, or pivoted from the subject of the question onto another topic.", 
+        "word_name": "pivot", 
+        "word_example": "That was a great  pivot off the fact that she wants open borders, okay? "
       }, 
       "amnesty": {
         "word_definition": "a period during which offenders are exempt from punishment", 

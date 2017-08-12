@@ -2701,11 +2701,11 @@
     "list_brief_description": "Using journal entries, memos, letters, and dialogue, award-winning author Avi pokes fun at high school, politics, and the media. This satirical novel demonstrat...", 
     "list_num": "20 Words", 
     "list_detailed_info": {
-      "gleaming": {
-        "word_definition": "a flash of light", 
+      "stead": {
+        "word_definition": "the place properly occupied or served by another", 
         "word_description": "", 
-        "word_name": "gleaming", 
-        "word_example": "Oh, say, can you see, by the dawn's early light, "
+        "word_name": "stead", 
+        "word_example": "The Principal, or in his stead the Assistant Principal, or in his stead a designated member of the faculty, will say, \u201cGood morning to all students, faculty, and staff. Today is Monday (or whatever day), January (or whatever month) 3 (or whatever day)."
       }, 
       "capacity": {
         "word_definition": "capability to perform or produce", 
@@ -2767,11 +2767,11 @@
         "word_name": "wit", 
         "word_example": "MR. LUNSER: Ah, the famous  wit and wisdom of Mr. Malloy. Philip, I'm the only one allowed to make jokes around here."
       }, 
-      "stead": {
-        "word_definition": "the place properly occupied or served by another", 
+      "gleaming": {
+        "word_definition": "a flash of light", 
         "word_description": "", 
-        "word_name": "stead", 
-        "word_example": "The Principal, or in his stead the Assistant Principal, or in his stead a designated member of the faculty, will say, \u201cGood morning to all students, faculty, and staff. Today is Monday (or whatever day), January (or whatever month) 3 (or whatever day)."
+        "word_name": "gleaming", 
+        "word_example": "Oh, say, can you see, by the dawn's early light, "
       }, 
       "grateful": {
         "word_definition": "feeling or showing thankfulness", 
@@ -2883,11 +2883,11 @@
         "word_name": "rant", 
         "word_example": "And the man was croaking,  ranting, not to Maniac now but to the people. \u201cWhat happens when we go over there? Black is black! White is white! The sheep lie not with the lion! The sheep knows his own! His own kind!\u201d"
       }, 
-      "legacy": {
-        "word_definition": "a gift of personal property by will", 
+      "glum": {
+        "word_definition": "moody and melancholic", 
         "word_description": "", 
-        "word_name": "legacy", 
-        "word_example": "And sometimes the girl holding one end of the rope is from the West side of Hector, and the girl on the other end is from the East side; and if you\u2019re looking for Maniac Magee\u2019s  legacy, or monument, that\u2019s as good as any \u2014 even if it wasn\u2019t really a bull."
+        "word_name": "glum", 
+        "word_example": "This was driving Amanda bonkers. He was acting so different, all  glum, and wiseacre answers."
       }, 
       "victim": {
         "word_definition": "an unfortunate person who suffers from adverse circumstances", 
@@ -2906,6 +2906,12 @@
         "word_description": "", 
         "word_name": "feat", 
         "word_example": "The kid was trying for an inside-the-park home-run bunt \u2014 the rarest  feat in baseball, something that had hardly ever been done with a ball, and never with a frog \u2014 and to be the pitcher who let such a thing happen \u2014 well, McNab could already feel his strikeout record fading to a mere grain in the sandlot of history."
+      }, 
+      "legacy": {
+        "word_definition": "a gift of personal property by will", 
+        "word_description": "", 
+        "word_name": "legacy", 
+        "word_example": "And sometimes the girl holding one end of the rope is from the West side of Hector, and the girl on the other end is from the East side; and if you\u2019re looking for Maniac Magee\u2019s  legacy, or monument, that\u2019s as good as any \u2014 even if it wasn\u2019t really a bull."
       }, 
       "stunned": {
         "word_definition": "filled with the emotional impact of overwhelming surprise", 
@@ -2936,12 +2942,6 @@
         "word_description": "", 
         "word_name": "lurch", 
         "word_example": "But now the frog shot through his legs, over to the mound, and now toward shortstop and now toward second, and McNab was  lurching and lunging, throwing his hat at the frog, throwing his glove, and everybody was screaming, and the kid was rounding third and digging for home, and \u2014 unbe-froggable! \u2014 the \u201cball\u201d was heading back home too!"
-      }, 
-      "glum": {
-        "word_definition": "moody and melancholic", 
-        "word_description": "", 
-        "word_name": "glum", 
-        "word_example": "This was driving Amanda bonkers. He was acting so different, all  glum, and wiseacre answers."
       }, 
       "convention": {
         "word_definition": "a large formal assembly", 
@@ -4481,11 +4481,11 @@
         "word_name": "patois", 
         "word_example": "and O was the conch-shell's invocation, mer was "
       }, 
-      "obsession": {
-        "word_definition": "an unhealthy and compulsive preoccupation with something", 
+      "swift": {
+        "word_definition": "a small bird that is noted for its rapid flight", 
         "word_description": "", 
-        "word_name": "obsession", 
-        "word_example": "This brings nobody peace. The ancient war "
+        "word_name": "swift", 
+        "word_example": "The sea-swift vanishes in rain, "
       }, 
       "inheritance": {
         "word_definition": "something that passes by law to an heir of the owner", 
@@ -4493,11 +4493,11 @@
         "word_name": "inheritance", 
         "word_example": "our only  inheritance that elemental noise "
       }, 
-      "swift": {
-        "word_definition": "a small bird that is noted for its rapid flight", 
+      "obsession": {
+        "word_definition": "an unhealthy and compulsive preoccupation with something", 
         "word_description": "", 
-        "word_name": "swift", 
-        "word_example": "The sea-swift vanishes in rain, "
+        "word_name": "obsession", 
+        "word_example": "This brings nobody peace. The ancient war "
       }, 
       "monument": {
         "word_definition": "a structure erected to commemorate persons or events", 

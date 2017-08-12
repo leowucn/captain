@@ -2,12 +2,12 @@
 import socket
 import platform
 import os
-import urllib
-import traceback
 import json
 import requests
 import bs4
 import sys
+import urllib2
+import utility
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
@@ -25,21 +25,16 @@ def show_notification(title, msg):
 def load_json_file(file_path):
     feeds = dict()
     if os.path.exists(file_path):
-        with open(file_path, 'r') as fp:
+        with open(file_path) as fp:
             return json.load(fp)
     return feeds
 
 
-def write_to_json_file(file_name, data):
-    feeds = dict()
-    if os.path.exists(file_name):
-        with open(file_name) as feeds_json:
-            if feeds_json is not None:
-                feeds = json.load(feeds_json)
-    for word, verbose_info in data.iteritems():
-        feeds[word] = verbose_info
+def write_json_file(file_name, data):
+    if data is None:
+        p('in write_json_file, data is None.')
     with open(file_name, mode='w') as f:
-        f.write(json.dumps(feeds, indent=2))
+        f.write(json.dumps(data, indent=2))
 
 
 def get_ip():
@@ -51,6 +46,13 @@ def get_ip():
         return ip
     except:
         return '0.0.0.0'
+
+
+def get_content_of_url(url):
+    try:
+        return urllib2.urlopen(url).read()
+    except:
+        return ''
 
 
 def get_raw_content(url, mark):
@@ -81,10 +83,14 @@ def extract_info_from_raw(raw_content, mark):
     return res
 
 
-def print_stack(c):
-    print('---------------------')
-    print(c)
-    traceback.print_exc()
+def p(content):
+    utility.append_log('---------------------')
+    utility.append_log(content)
+
+
+def append_log(content):
+    with open('log.txt', 'a') as f:
+        f.write(content + '\n')
 
 
 ip_addr = get_ip()

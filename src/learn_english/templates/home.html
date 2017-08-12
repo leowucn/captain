@@ -82,7 +82,7 @@
    <center><h3>Words Collection from Vocabulary Builder And Clipboard</h3></center>
    <br>
    <div class="one_line" style="margin: 0 auto; width: 180px; text-align: center;">
-    <form class="ui form" action = "http://{{ ip_addr }}:9527/learn_english/week_list" method = "post">
+    <form class="ui form" action = "http://0.0.0.0:9527/learn_english/month_list" method = "post">
         {% for year in year_lst %}
             <div class="ui action">
                 <input class="ui primary button" type="submit" name={{year}} value={{year}}>
@@ -107,13 +107,13 @@
                     <div class="wordlist shortlisting">
                         <div class="col-md-3 small-article"><!-- Start small article -->
                             <div class="col-md-12 small-title">
-                                <a href="http://{{ ip_addr }}:9527/learn_english/vocabulary/featured/{{list_name}}"><strong>{{list_name}}</strong></a>
+                                <a href="http://0.0.0.0:9527/learn_english/vocabulary/featured/{{list_name}}"><strong>{{list_name}}</strong></a>
                             </div>
                             <div class="rescription" style="font-size: 14px;">
                                 {{ all_vocabulary_lists['featured'][list_name]['list_brief_description'] }}
                             </div>
                             <div class="col-md-12 small-category">
-                                <a href="http://{{ ip_addr }}:9527/learn_english/vocabulary/featured/{{list_name}}"><strong>{{all_vocabulary_lists['featured'][list_name]['list_num']}}<span class="glyphicon glyphicon-chevron-right"></span></strong></a>
+                                <a href="http://0.0.0.0:9527/learn_english/vocabulary/featured/{{list_name}}"><strong>{{all_vocabulary_lists['featured'][list_name]['list_num']}}<span class="glyphicon glyphicon-chevron-right"></span></strong></a>
                             </div>
                         </div>
                     </div>
@@ -131,13 +131,13 @@
                <div class="wordlist shortlisting">
                    <div class="col-md-3 small-article"><!-- Start small article -->
                        <div class="col-md-12 small-title">
-                           <a href="http://{{ ip_addr }}:9527/learn_english/vocabulary/top-rated/{{list_name}}"><strong>{{list_name}}</strong></a>
+                           <a href="http://0.0.0.0:9527/learn_english/vocabulary/top-rated/{{list_name}}"><strong>{{list_name}}</strong></a>
                        </div>
                        <div class="rescription" style="font-size: 14px;">
                            {{ all_vocabulary_lists['top-rated'][list_name]['list_brief_description'] }}
                        </div>
                        <div class="col-md-12 small-category">
-                           <a href="http://{{ ip_addr }}:9527/learn_english/vocabulary/top-rated/{{list_name}}"><strong>{{all_vocabulary_lists['top-rated'][list_name]['list_num']}}<span class="glyphicon glyphicon-chevron-right"></span></strong></a>
+                           <a href="http://0.0.0.0:9527/learn_english/vocabulary/top-rated/{{list_name}}"><strong>{{all_vocabulary_lists['top-rated'][list_name]['list_num']}}<span class="glyphicon glyphicon-chevron-right"></span></strong></a>
                        </div>
                    </div>
                </div>
@@ -149,19 +149,19 @@
        <div class="row">
            <div class="col-md-12 small-article-container"><!-- Small articles container -->
                {% if 'test-prep' in all_vocabulary_lists%}
-               <p style = "font-size:20px"><span class="glyphicon glyphicon-pencil"></span> Test Prep: <a style="float:right;" href="http://{{ ip_addr }}:9527/learn_english/vocabulary_list/test-prep">All Test Prep<span class="glyphicon glyphicon-chevron-right"></span> </a></p>
+               <p style = "font-size:20px"><span class="glyphicon glyphicon-pencil"></span> Test Prep: <a style="float:right;" href="http://0.0.0.0:9527/learn_english/vocabulary_list/test-prep">All Test Prep<span class="glyphicon glyphicon-chevron-right"></span> </a></p>
                <div class="ui divider"></div>
                {% for list_name in  all_vocabulary_lists['test-prep']%}
                <div class="wordlist shortlisting">
                    <div class="col-md-3 small-article"><!-- Start small article -->
                        <div class="col-md-12 small-title">
-                           <a href="http://{{ ip_addr }}:9527/learn_english/vocabulary/test-prep/{{list_name}}"><strong>{{list_name}}</strong></a>
+                           <a href="http://0.0.0.0:9527/learn_english/vocabulary/test-prep/{{list_name}}"><strong>{{list_name}}</strong></a>
                        </div>
                        <div class="rescription" style="font-size: 14px;">
                            {{ all_vocabulary_lists['test-prep'][list_name]['list_brief_description'] }}
                        </div>
                        <div class="col-md-12 small-category">
-                           <a href="http://{{ ip_addr }}:9527/learn_english/vocabulary/test-prep/{{list_name}}"><strong>{{all_vocabulary_lists['test-prep'][list_name]['list_num']}}<span class="glyphicon glyphicon-chevron-right"></span></strong></a>
+                           <a href="http://0.0.0.0:9527/learn_english/vocabulary/test-prep/{{list_name}}"><strong>{{all_vocabulary_lists['test-prep'][list_name]['list_num']}}<span class="glyphicon glyphicon-chevron-right"></span></strong></a>
                        </div>
                    </div>
                </div>
@@ -173,19 +173,19 @@
        <div class="row">
            <div class="col-md-12 small-article-container"><!-- Small articles container -->
                {% if 'literature' in all_vocabulary_lists%}
-               <p style = "font-size:20px"><span class="glyphicon glyphicon-leaf"></span> Literature: <a style="float:right;" href="http://{{ ip_addr }}:9527/learn_english/vocabulary_list/literature">All Literature<span class="glyphicon glyphicon-chevron-right"></span> </a></p>
+               <p style = "font-size:20px"><span class="glyphicon glyphicon-leaf"></span> Literature: <a style="float:right;" href="http://0.0.0.0:9527/learn_english/vocabulary_list/literature">All Literature<span class="glyphicon glyphicon-chevron-right"></span> </a></p>
                <div class="ui divider"></div>
                {% for list_name in  all_vocabulary_lists['literature']%}
                <div class="wordlist shortlisting">
                    <div class="col-md-3 small-article"><!-- Start small article -->
                        <div class="col-md-12 small-title">
-                           <a href="http://{{ ip_addr }}:9527/learn_english/vocabulary/literature/{{list_name}}"><strong>{{list_name}}</strong></a>
+                           <a href="http://0.0.0.0:9527/learn_english/vocabulary/literature/{{list_name}}"><strong>{{list_name}}</strong></a>
                        </div>
                        <div class="rescription" style="font-size: 14px;">
                            {{ all_vocabulary_lists['literature'][list_name]['list_brief_description'] }}
                        </div>
                        <div class="col-md-12 small-category">
-                           <a href="http://{{ ip_addr }}:9527/learn_english/vocabulary/literature/{{list_name}}"><strong>{{all_vocabulary_lists['literature'][list_name]['list_num']}}<span class="glyphicon glyphicon-chevron-right"></span></strong></a>
+                           <a href="http://0.0.0.0:9527/learn_english/vocabulary/literature/{{list_name}}"><strong>{{all_vocabulary_lists['literature'][list_name]['list_num']}}<span class="glyphicon glyphicon-chevron-right"></span></strong></a>
 
                        </div>
                    </div>
@@ -198,19 +198,19 @@
        <div class="row">
            <div class="col-md-12 small-article-container"><!-- Small articles container -->
                {% if 'morphology-and-roots' in all_vocabulary_lists%}
-               <p style = "font-size:20px"><span class="glyphicon glyphicon-paperclip"></span> Morphology & Roots: <a style="float:right;" href="http://{{ ip_addr }}:9527/learn_english/vocabulary_list/morphology-and-roots">All Morphology & Roots<span class="glyphicon glyphicon-chevron-right"></span> </a></p>
+               <p style = "font-size:20px"><span class="glyphicon glyphicon-paperclip"></span> Morphology & Roots: <a style="float:right;" href="http://0.0.0.0:9527/learn_english/vocabulary_list/morphology-and-roots">All Morphology & Roots<span class="glyphicon glyphicon-chevron-right"></span> </a></p>
                <div class="ui divider"></div>
                {% for list_name in  all_vocabulary_lists['morphology-and-roots']%}
                <div class="wordlist shortlisting">
                    <div class="col-md-3 small-article"><!-- Start small article -->
                        <div class="col-md-12 small-title">
-                           <a href="http://{{ ip_addr }}:9527/learn_english/vocabulary/morphology-and-roots/{{list_name}}"><strong>{{list_name}}</strong></a>
+                           <a href="http://0.0.0.0:9527/learn_english/vocabulary/morphology-and-roots/{{list_name}}"><strong>{{list_name}}</strong></a>
                        </div>
                        <div class="rescription" style="font-size: 14px;">
                            {{ all_vocabulary_lists['morphology-and-roots'][list_name]['list_brief_description'] }}
                        </div>
                        <div class="col-md-12 small-category">
-                           <a href="http://{{ ip_addr }}:9527/learn_english/vocabulary/morphology-and-roots/{{list_name}}"><strong>{{all_vocabulary_lists['morphology-and-roots'][list_name]['list_num']}}<span class="glyphicon glyphicon-chevron-right"></span></strong></a>
+                           <a href="http://0.0.0.0:9527/learn_english/vocabulary/morphology-and-roots/{{list_name}}"><strong>{{all_vocabulary_lists['morphology-and-roots'][list_name]['list_num']}}<span class="glyphicon glyphicon-chevron-right"></span></strong></a>
                        </div>
                    </div>
                </div>
@@ -222,19 +222,19 @@
        <div class="row">
            <div class="col-md-12 small-article-container"><!-- Small articles container -->
                {% if 'historical-documents' in all_vocabulary_lists%}
-               <p style = "font-size:20px"><span class="glyphicon glyphicon-tree-deciduous"></span> Historical Documents: <a style="float:right;" href="http://{{ ip_addr }}:9527/learn_english/vocabulary_list/historical-documents">All Historical Documents<span class="glyphicon glyphicon-chevron-right"></span> </a></p>
+               <p style = "font-size:20px"><span class="glyphicon glyphicon-tree-deciduous"></span> Historical Documents: <a style="float:right;" href="http://0.0.0.0:9527/learn_english/vocabulary_list/historical-documents">All Historical Documents<span class="glyphicon glyphicon-chevron-right"></span> </a></p>
                <div class="ui divider"></div>
                {% for list_name in  all_vocabulary_lists['historical-documents']%}
                <div class="wordlist shortlisting">
                    <div class="col-md-3 small-article"><!-- Start small article -->
                        <div class="col-md-12 small-title">
-                           <a href="http://{{ ip_addr }}:9527/learn_english/vocabulary/historical-documents/{{list_name}}"><strong>{{list_name}}</strong></a>
+                           <a href="http://0.0.0.0:9527/learn_english/vocabulary/historical-documents/{{list_name}}"><strong>{{list_name}}</strong></a>
                        </div>
                        <div class="rescription" style="font-size: 14px;">
                            {{ all_vocabulary_lists['historical-documents'][list_name]['list_brief_description'] }}
                        </div>
                        <div class="col-md-12 small-category">
-                           <a href="http://{{ ip_addr }}:9527/learn_english/vocabulary/historical-documents/{{list_name}}"><strong>{{all_vocabulary_lists['historical-documents'][list_name]['list_num']}}<span class="glyphicon glyphicon-chevron-right"></span></strong></a>
+                           <a href="http://0.0.0.0:9527/learn_english/vocabulary/historical-documents/{{list_name}}"><strong>{{all_vocabulary_lists['historical-documents'][list_name]['list_num']}}<span class="glyphicon glyphicon-chevron-right"></span></strong></a>
                        </div>
                    </div>
                </div>
@@ -246,19 +246,19 @@
        <div class="row">
            <div class="col-md-12 small-article-container"><!-- Small articles container -->
                {% if 'speeches' in all_vocabulary_lists%}
-               <p style = "font-size:20px"><span class="glyphicon glyphicon-bullhorn"></span> Speeches: <a style="float:right;" href="http://{{ ip_addr }}:9527/learn_english/vocabulary_list/speeches">All Speeches<span class="glyphicon glyphicon-chevron-right"></span> </a></p>
+               <p style = "font-size:20px"><span class="glyphicon glyphicon-bullhorn"></span> Speeches: <a style="float:right;" href="http://0.0.0.0:9527/learn_english/vocabulary_list/speeches">All Speeches<span class="glyphicon glyphicon-chevron-right"></span> </a></p>
                <div class="ui divider"></div>
                {% for list_name in  all_vocabulary_lists['speeches']%}
                <div class="wordlist shortlisting">
                    <div class="col-md-3 small-article"><!-- Start small article -->
                        <div class="col-md-12 small-title">
-                           <a href="http://{{ ip_addr }}:9527/learn_english/vocabulary/speeches/{{list_name}}"><strong>{{list_name}}</strong></a>
+                           <a href="http://0.0.0.0:9527/learn_english/vocabulary/speeches/{{list_name}}"><strong>{{list_name}}</strong></a>
                        </div>
                        <div class="rescription" style="font-size: 14px;">
                            {{ all_vocabulary_lists['speeches'][list_name]['list_brief_description'] }}
                        </div>
                        <div class="col-md-12 small-category">
-                           <a href="http://{{ ip_addr }}:9527/learn_english/vocabulary/speeches/{{list_name}}"><strong>{{all_vocabulary_lists['speeches'][list_name]['list_num']}}<span class="glyphicon glyphicon-chevron-right"></span></strong></a>
+                           <a href="http://0.0.0.0:9527/learn_english/vocabulary/speeches/{{list_name}}"><strong>{{all_vocabulary_lists['speeches'][list_name]['list_num']}}<span class="glyphicon glyphicon-chevron-right"></span></strong></a>
 
 
                        </div>
@@ -272,19 +272,19 @@
        <div class="row">
            <div class="col-md-12 small-article-container"><!-- Small articles container -->
                {% if 'just-for-fun' in all_vocabulary_lists%}
-               <p style = "font-size:20px"><span class="glyphicon glyphicon-ice-lolly-tasted"></span> Just for Fun: <a style="float:right;" href="http://{{ ip_addr }}:9527/learn_english/vocabulary_list/just-for-fun">All Just for Fun<span class="glyphicon glyphicon-chevron-right"></span> </a></p>
+               <p style = "font-size:20px"><span class="glyphicon glyphicon-ice-lolly-tasted"></span> Just for Fun: <a style="float:right;" href="http://0.0.0.0:9527/learn_english/vocabulary_list/just-for-fun">All Just for Fun<span class="glyphicon glyphicon-chevron-right"></span> </a></p>
                <div class="ui divider"></div>
                {% for list_name in  all_vocabulary_lists['just-for-fun']%}
                <div class="wordlist shortlisting">
                    <div class="col-md-3 small-article"><!-- Start small article -->
                        <div class="col-md-12 small-title">
-                           <a href="http://{{ ip_addr }}:9527/learn_english/vocabulary/just-for-fun/{{list_name}}"><strong>{{list_name}}</strong></a>
+                           <a href="http://0.0.0.0:9527/learn_english/vocabulary/just-for-fun/{{list_name}}"><strong>{{list_name}}</strong></a>
                        </div>
                        <div class="rescription" style="font-size: 14px;">
                            {{ all_vocabulary_lists['just-for-fun'][list_name]['list_brief_description'] }}
                        </div>
                        <div class="col-md-12 small-category">
-                           <a href="http://{{ ip_addr }}:9527/learn_english/vocabulary/just-for-fun/{{list_name}}"><strong>{{all_vocabulary_lists['just-for-fun'][list_name]['list_num']}}<span class="glyphicon glyphicon-chevron-right"></span></strong></a>
+                           <a href="http://0.0.0.0:9527/learn_english/vocabulary/just-for-fun/{{list_name}}"><strong>{{all_vocabulary_lists['just-for-fun'][list_name]['list_num']}}<span class="glyphicon glyphicon-chevron-right"></span></strong></a>
                        </div>
                    </div>
                </div>
@@ -296,19 +296,19 @@
        <div class="row">
            <div class="col-md-12 small-article-container"><!-- Small articles container -->
                {% if 'news' in all_vocabulary_lists%}
-               <p style = "font-size:20px"><span class="glyphicon glyphicon-folder-open"></span> News: <a style="float:right;" href="http://{{ ip_addr }}:9527/learn_english/vocabulary_list/news">All News<span class="glyphicon glyphicon-chevron-right"></span> </a></p>
+               <p style = "font-size:20px"><span class="glyphicon glyphicon-folder-open"></span> News: <a style="float:right;" href="http://0.0.0.0:9527/learn_english/vocabulary_list/news">All News<span class="glyphicon glyphicon-chevron-right"></span> </a></p>
                <div class="ui divider"></div>
                {% for list_name in  all_vocabulary_lists['news']%}
                <div class="wordlist shortlisting">
                    <div class="col-md-3 small-article"><!-- Start small article -->
                        <div class="col-md-12 small-title">
-                           <a href="http://{{ ip_addr }}:9527/learn_english/vocabulary/news/{{list_name}}"><strong>{{list_name}}</strong></a>
+                           <a href="http://0.0.0.0:9527/learn_english/vocabulary/news/{{list_name}}"><strong>{{list_name}}</strong></a>
                        </div>
                        <div class="rescription" style="font-size: 14px;">
                            {{ all_vocabulary_lists['news'][list_name]['list_brief_description'] }}
                        </div>
                        <div class="col-md-12 small-category">
-                           <a href="http://{{ ip_addr }}:9527/learn_english/vocabulary/news/{{list_name}}"><strong>{{all_vocabulary_lists['news'][list_name]['list_num']}}<span class="glyphicon glyphicon-chevron-right"></span></strong></a>
+                           <a href="http://0.0.0.0:9527/learn_english/vocabulary/news/{{list_name}}"><strong>{{all_vocabulary_lists['news'][list_name]['list_num']}}<span class="glyphicon glyphicon-chevron-right"></span></strong></a>
                        </div>
                    </div>
                </div>

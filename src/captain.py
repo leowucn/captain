@@ -12,4 +12,5 @@ app.register_blueprint(learn_english_app, url_prefix='/learn_english')
 os.system("sh src/learn_english/run.sh")
 
 
-app.run(host='0.0.0.0', port=9527, threaded=True, debug=True)
+app.run(host='0.0.0.0', port=9527, threaded=True, debug=True, use_reloader=True)
+

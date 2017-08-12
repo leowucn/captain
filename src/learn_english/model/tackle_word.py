@@ -1,30 +1,26 @@
 # -*- coding: utf-8 -*-
 import re
-import requests
 import bs4
-import json
 import os
-from time import gmtime, strftime
-from dateutil.parser import parse
 from os.path import dirname, abspath
 import datetime
 import utility
+from datetime import datetime
 
 parent_dir = dirname(dirname(abspath(__file__)))
 working_dir = os.getcwd()
 absolute_prefix = os.path.join(working_dir, 'asset')
-dict_dir = os.path.join(parent_dir, 'asset/dict')
 words_dir = os.path.join(parent_dir, 'asset/words')
-clipboard_dir = os.path.join(parent_dir, 'asset/clipboard')
-words_index_file = os.path.join(parent_dir, 'asset/dict/words_index.json')   # index file
 
-max_line = 5000  # restraint line amount of single file, if not, the dict file may be too huge.
+dict_file = os.path.join(parent_dir, 'asset/dict.json')
+clipboard_file = os.path.join(parent_dir, 'asset/clipboard.json')
+builder_file = os.path.join(parent_dir, 'asset/builder.json')
+
 word_type = ('n.', 'v.', 'pron.', 'adj.', 'adv.', 'num.', 'art.', 'prep.', 'conj.', 'int.', 'vi.', 'vt.', 'aux.', 'aux.v')
 
 '''
 all types might reside in querying result.
 'basic'           ------>基本释义
-'eng_basic'       ------>从vocabulary.com提取的基本释义
 'usage'           ------>出现的语句
 'phrase'          ------>词组短语
 'synonyms'        ------>同近义词
@@ -41,22 +37,17 @@ word-1         represent word from clipboard
 
 class TackleWords:
     def __init__(self):
-        self.index_dict = dict()
-        self.set_initial_date()
-
-    def set_initial_date(self):
-        self.index_dict = utility.load_json_file(words_index_file)
+        self.dict_data = utility.load_json_file(dict_file)
+        self.clipboard_data = utility.load_json_file(clipboard_file)
 
     def get_word_meaning(self, raw_string):
-        valid_string = raw_string[:-2].strip()
-        word_list = re.compile('\w+').findall(valid_string)
+        word = raw_string[:-2].strip()
+        word_list = re.compile('\w+').findall(word)
         post_fix = '%20'.join(word_list)
 
         url = 'http://www.youdao.com/w/eng/' + post_fix
-        s = requests.session()
-        s.keep_alive = False
-        res = s.get(url)
-        soup = bs4.BeautifulSoup(res.content, 'lxml')
+        content = utility.get_content_of_url(url)
+        soup = bs4.BeautifulSoup(content, 'lxml')
         word_meaning_dict = dict()
 
         # ----------------------basic-----------------------
@@ -84,7 +75,7 @@ class TackleWords:
                 for i, s in enumerate(phrase.stripped_strings):
                     r = s.replace('\n', '')
 
-                    if r.find(valid_string) >= 0:
+                    if r.find(word) >= 0:
                         if i+1 >= len(list(phrase.stripped_strings)):
                             break
                         phrase_str += r + '     ' + re.sub('\s*', '', list(phrase.stripped_strings)[i+1]) + '\n'
@@ -191,16 +182,7 @@ class TackleWords:
             if len(collins_str.strip()) > 1:
                 word_meaning_dict['collins'] = collins_str.encode('utf-8')
 
-        # # -------------------从vocabulary.com提取的基本释义-----------------
-        # url = 'https://www.vocabulary.com/dictionary/' + valid_string
-        # content = urllib2.urlopen(url).read()
-        # soup = bs4.BeautifulSoup(content, 'lxml')
-        # basic1 = soup.find('div', attrs={'class': 'section blurb'})
-        # basic1_str = ''
-        # if basic1 is not None:
-        #     basic1_str += ' '.join(list(basic1.stripped_strings))
-        #     word_meaning_dict['eng_basic'] = basic1_str.encode('utf-8')
-
+        word_meaning_dict['usage'] = ''
         result = dict()
         result[raw_string] = word_meaning_dict
         return result
@@ -212,68 +194,44 @@ class TackleWords:
                 return True
         return False
 
-    @staticmethod
-    def fix_encoding_issue(src_string):
-        if src_string.count('\\') > 0:
-            return src_string.decode('unicode-escape').encode('utf-8')
-        return src_string
+    def query(self, wrapped_word, usage=None, date=None, book=None):
+        word_come_from = wrapped_word.split('-')[1]
 
-    def query(self, word, usage=None, date=None, book=None):
-        result = dict()
-        meaning = dict()
-        if word.split('-')[1] == '1':
-            self.store_clipboard(word[:-2], usage.strip())
-        if word in self.index_dict:
-            file_name = self.index_dict[word]['file_name']
-            with open(os.path.join(absolute_prefix, file_name)) as f:
-                i = 0
-                for line_content in f:
-                    i += 1
-                    if self.index_dict[word]['line_index'] > i:
-                        continue
-                    if line_content.strip() != u'}' and line_content.strip() != u'},':
-                        res = self.extract_content(line_content)
-                        if len(res) != 2:
-                            continue
-                        # This is essential, without fix encoding issue, the exported dict file encoding wound have problem.
-                        meaning[res[0]] = self.fix_encoding_issue(res[1])
-                    else:
-                        result[word] = meaning
-                        break
+        if word_come_from == '1':
+            self.store_clipboard(wrapped_word[:-2], usage)
 
-                if date is not None:
-                    result[word]['date'] = date.strip()
-                if usage is not None:
-                    stripped_usage = usage.strip()
-                    if 'usage' in result[word]:
-                        if result[word]['usage'].find(stripped_usage) < 0:
-                            all_usage = self.fix_encoding_issue(result[word]['usage'])
-                            if all_usage.find(stripped_usage) < 0:
-                                all_usage += '\n* ' + stripped_usage
-                                result[word]['usage'] = all_usage
-                    else:
-                        result[word]['usage'] = stripped_usage
-                if book is not None:
-                    stripped_book = book.strip()
-                    if 'book' in result[word]:
-                        if result[word]['book'].find(stripped_book) < 0:
-                            result[word]['book'] += '\n*' + stripped_book
-                    else:
-                        result[word]['book'] = stripped_book
-                self.update(result)
-        else:
-            result = self.get_word_meaning(word)
+        if wrapped_word not in self.dict_data:
+            result = self.get_word_meaning(wrapped_word)
             if result is None:
                 return None
 
             if usage is not None:
-                result[word]['usage'] = '* ' + usage.strip()
+                result[wrapped_word]['usage'] = self.add_usage_to_collection(result[wrapped_word]['usage'], usage)
             if date is not None:
-                result[word]['date'] = date.strip()
+                result[wrapped_word]['date'] = date.strip()
             if book is not None:
-                result[word]['book'] = book.strip()
-            self.insert(result)
-        return result
+                result[wrapped_word]['book'] = book.strip()
+            self.dict_data[wrapped_word] = result[wrapped_word]
+        else:
+            self.dict_data[wrapped_word]['usage'] = self.add_usage_to_collection(self.dict_data[wrapped_word]['usage'], usage)
+        utility.write_json_file(dict_file, self.dict_data)
+        return
+
+    @staticmethod
+    def add_usage_to_collection(collection, usage):
+        if collection.find(usage) < 0:
+            collection += usage
+            if not usage.endswith('\n'):
+                collection += '\n'
+        return collection
+
+    def update_clipboard(self):
+        self.import_clipboard_words()
+        self.clipboard_data = utility.load_json_file(clipboard_file)
+
+    def upsert_word(self, word_info):
+        self.dict_data[word_info.keys()[0]] = word_info.values()[0]
+        utility.write_json_file(dict_file, self.dict_data)
 
     def import_all_dir(self):
         self.import_word_builder()
@@ -293,151 +251,36 @@ class TackleWords:
                     if line[0].isdigit():
                         word = line[line.find('.') + 2:]
                         wrapped_word = word + '-0'
-                        if wrapped_word in self.index_dict:
+                        if wrapped_word in self.dict_data:
                             continue
                         usage = lines[index + 1][lines[index + 1].find(':') + 1:]
                         book = lines[index + 2][lines[index + 2].find(':') + 1:]
-                        # date = lines[index + 3][lines[index + 3].find(':') + 1:]
-                        # self.query(wrapped_word, usage, date, book)
-                        # file_name is a brief date.
-                        p(wrapped_word)
                         self.query(wrapped_word, usage, file_name[:-4], book)
 
     def import_clipboard_words(self):
-        files = [f for f in os.listdir(clipboard_dir) if os.path.isfile(os.path.join(clipboard_dir, f))]
-        for file_name in files:
-            if os.path.splitext(file_name)[1] != '.txt':
-                continue
-            word = ''
-            usage = ''
-            with open(os.path.join(clipboard_dir, file_name)) as f:
-                lines = (line.rstrip() for line in f)  # All lines including the blank ones
-                lines = (line for line in lines if line)  # Non-blank lines
-                for line in lines:
-                    if self.is_word_line(line):
-                        word = line[line.find('.') + 1:].strip()
-                    if line.find('usage') == 0:
-                        usage = line[line.find(':') + 1:].strip()
-                    if line.find('date') == 0:
-                        date = line[line.find(':') + 1:].strip()
-                        wrapped_word = word + '-1'
-                        if wrapped_word in self.index_dict:
-                            continue
-                        self.query(wrapped_word, usage, date)
-                        word = ''
-                        usage = ''
+        for word, word_info in self.clipboard_data.iteritems():
+            wrapped_word = word + '-1'
+            self.query(wrapped_word, word_info['usage'], word_info['date'])
 
-    @staticmethod
-    def is_date(string):
-        try:
-            parse(string)
-            return True
-        except ValueError:
-            return False
-
-    @staticmethod
-    def is_word_line(line):
-        is_number = False
-        for i, c in enumerate(line):
-            if c.isdigit():
-                is_number = True
-            elif is_number and c == '.':
-                return True
-            else:
-                return False
-
-    @staticmethod
-    def get_latest_file_digit_name(src_dir):
-        files = [f for f in os.listdir(src_dir) if os.path.isfile(os.path.join(src_dir, f))]
-        max_num = 1
-
-        for filename in files:
-            name = os.path.splitext(filename)[0]
-            if not name.isdigit():
-                continue
-            num = int(name)
-            if num > max_num:
-                max_num = num
-        return max_num
-
-    @staticmethod
-    def get_all_dict_file_list():
-        lst = []
-        files = [f for f in os.listdir(dict_dir) if os.path.isfile(os.path.join(dict_dir, f))]
-
-        for filename in files:
-            name = os.path.splitext(filename)[0]
-            if not name.isdigit():
-                continue
-            lst.append(os.path.join(dict_dir, filename))
-        return lst
-
-    def insert(self, data):
-        digit_name = self.get_latest_file_digit_name(dict_dir)
-        file_name = str(digit_name) + '.json'
-
-        num_lines = self.get_file_line_count(os.path.join(dict_dir, file_name))
-        if num_lines >= max_line:
-            file_name = str(digit_name + 1) + '.json'
-        utility.write_to_json_file(os.path.join(dict_dir, file_name), data)
-        self.update_index_dict()
-
-    def delete(self, from_where, delete_word):
-        if from_where != '0' and from_where != '1':
-            return
-
-        wrapped_word = delete_word + '-' + from_where
+    def delete(self, wrapped_word):
+        word_ele = wrapped_word.split('-')
         # ----------------delete from dict----------------------
-        try:
-            file_name = self.index_dict[wrapped_word]['file_name']
-            line_index = self.index_dict[wrapped_word]['line_index']
-        except KeyError:
-            return
-
-        lines_lst = []
-        last_index = 0
-        with open(file_name) as f:
-            i = 0
-            for line in f:
-                i += 1
-                if i < line_index:
-                    continue
-                stripped_line = line.strip('\n| ')
-                if stripped_line == '},' or stripped_line == '}':
-                    last_index = i
-                    break
-        with open(file_name) as f:
-            i = 0
-            for line in f:
-                i += 1
-                if line_index - 1 <= i <= last_index:
-                    continue
-                if last_index + 1 == i:
-                    if line.strip() == '}':
-                        lines_lst.append('}\n')
-                    else:
-                        lines_lst.append('},\n')
-                lines_lst.append(line)
-        f = open(file_name, "w")
-        for line in lines_lst:
-            f.write(line)
-        f.close()
-        self.update_index_dict()
-
+        del self.dict_data[wrapped_word]
+        utility.write_json_file(dict_file, self.dict_data)
         # ----------------delete from word builder----------------------
-        if from_where == '0':
+        if word_ele[1] == '0':
             for file_name in os.listdir(words_dir):
                 if file_name.endswith(".txt"):
                     file_path = os.path.join(words_dir, file_name)
-                    if '. ' + delete_word in open(file_path).read():
+                    if '. ' + word_ele[0] in open(file_path).read():
                         valid_lines_lst = []
                         with open(file_path) as f:
                             lines = (line.rstrip() for line in f)  # All lines including the blank ones
                             lines = list(line for line in lines if line)  # Non-blank lines
                             for index, line in enumerate(lines):
                                 if line[0].isdigit():
-                                    word = line[line.find('.') + 2:].strip()
-                                    if word == delete_word:
+                                    wrapped_word = line[line.find('.') + 2:].strip()
+                                    if wrapped_word == word_ele[0]:
                                         continue
                                     valid_lines_lst.append(line + '\n')
                                     valid_lines_lst.append(lines[index + 1] + '\n')
@@ -447,120 +290,24 @@ class TackleWords:
                         with open(file_path, "w") as f:
                             for line in valid_lines_lst:
                                 f.write(line)
-
+                        break
         # ----------------delete from clipboard----------------------
         else:
-            for file_name in os.listdir(clipboard_dir):
-                if file_name.endswith(".txt"):
-                    file_path = os.path.join(clipboard_dir, file_name)
-                    if '. ' + delete_word in open(file_path).read():
-                        valid_lines_lst = []
-                        with open(file_path) as f:
-                            lines = (line.rstrip() for line in f)  # All lines including the blank ones
-                            lines = list(line for line in lines if line)  # Non-blank lines
-                            for index, line in enumerate(lines):
-                                if line[0].isdigit():
-                                    word = line[line.find('.') + 2:].strip()
-                                    if word == delete_word:
-                                        continue
-                                    valid_lines_lst.append(line + '\n')
-                                    valid_lines_lst.append(lines[index + 1] + '\n')
-                                    valid_lines_lst.append(lines[index + 2] + '\n')
-                                    valid_lines_lst.append('\n')
-                        with open(file_path, "w") as f:
-                            for line in valid_lines_lst:
-                                f.write(line)
-        self.set_initial_date()
+            if word_ele[0] in self.clipboard_data:
+                del self.clipboard_data[word_ele[0]]
+                utility.write_json_file(clipboard_file, self.clipboard_data)
         return
 
-    def update(self, data):
-        file_name = self.index_dict[data.keys()[0]]['file_name']
-        utility.write_to_json_file(file_name, data)
-        self.update_index_dict()
-
     def store_clipboard(self, word, usage):
-        digit_name = self.get_latest_file_digit_name(clipboard_dir)
-        file_name = str(digit_name) + '.txt'
-
-        num_lines = self.get_file_line_count(file_name)
-        if num_lines >= max_line:
-            file_name = str(digit_name + 1) + '.txt'
-
-        file_path = os.path.join(clipboard_dir, file_name)
-
-        # check if the word and usage exist.
-        portion = os.popen("tail -4 " + file_path).readlines()
-        last_word = portion[0].split('.')[1].strip()
-        if word == last_word and usage == last_word:
-            return
-
-        max_index = -1
-        if os.path.exists(file_path):
-            with open(file_path) as f:
-                lines = (line.rstrip() for line in f)  # All lines including the blank ones
-                lines = (line for line in lines if line)  # Non-blank lines
-                for line in lines:
-                    if line.strip()[0].isdigit():
-                        res = re.findall(r'\d+', line)
-                        if len(res) > 0:
-                            if res[0] > max_index:
-                                max_index = int(res[0])
-        with open(file_path, mode='a') as f:
-            f.write(str(max_index + 1) + '. ' + word + '\n')
-            f.write('usage: ' + usage.strip() + '\n')
-            f.write('date: ' + strftime("%Y-%m-%d", gmtime()) + '\n')
-            f.write('\n')
-
-    def update_index_dict(self):
-        dict_index_dict = dict()
-        dict_file_lst = self.get_all_dict_file_list()
-
-        for file_name in dict_file_lst:
-            with open(file_name) as f:
-                i = 0
-                for line in f:
-                    i += 1
-                    if i == 1:
-                        continue
-                    stripped_line = line.strip('\n| ')
-                    if stripped_line.endswith('{'):
-                        lst = [m.start() for m in re.finditer('"', stripped_line)]
-                        word = stripped_line[lst[0]+1: lst[1]]
-                        word_index_info = dict()
-                        word_index_info['line_index'] = i
-                        word_index_info['file_name'] = file_name
-                        dict_index_dict[word] = word_index_info
-        self.index_dict = dict_index_dict
-        # update words_index.json
-        with open(words_index_file, 'w') as f:
-            f.write(json.dumps(dict_index_dict, indent=2))
-
-    # extract content exactly from quotation mark
-    @staticmethod
-    def extract_content(string):
-        lst = []
-        src = string.strip()
-        i_next_pos = 0
-        for i, c in enumerate(src):
-            if i < i_next_pos:
-                continue
-            if c == '\"':
-                j_next_pos = 0
-                j_begin = i + 1
-                for j, d in enumerate(src[j_begin:]):
-                    if j < j_next_pos:
-                        continue
-                    if d == '\"':
-                        lst.append(src[j_begin: j_begin+j])
-                        i_next_pos = j_begin + j + 1
-                        if i_next_pos >= len(src):
-                            return lst
-                        break
-                    elif d == '\\':
-                        j_next_pos = j + 2
-            elif c == '\\':
-                    i_next_pos = i + 2
-        return lst
+        if word in self.clipboard_data:
+            self.clipboard_data[word]['usage'] = self.add_usage_to_collection(self.clipboard_data[word]['usage'], usage)
+        else:
+            word_info = dict()
+            word_info['usage'] = ''
+            word_info['usage'] = self.add_usage_to_collection(word_info['usage'], usage)
+            word_info['date'] = str(datetime.now())[:-7]
+            self.clipboard_data[word] = word_info
+        utility.write_json_file(clipboard_file, self.clipboard_data)
 
     @staticmethod
     def is_alpha_and_x(src_str, x):
@@ -603,110 +350,40 @@ class TackleWords:
                 return False
         return True
 
-    @staticmethod
-    def get_file_line_count(file_name):
-        if not os.path.isfile(file_name):
-            return 0
-        f = open(file_name, 'r')
-        num_lines = sum(1 for line in f)
-        f.close()
-        return num_lines
-
-    # lst(key: year->week->word  value: word_verbose_info)
+    # lst(key: year->month->word  value: word_info)
     def get_classified_lst(self):
-        result = []
-        dict_file_lst = self.get_all_dict_file_list()
+        result = dict()
+        result[0] = dict()
+        result[1] = dict()
+        for wrapped_word, word_info in self.dict_data.iteritems():
+            year_and_month = self.get_year_and_month(word_info[u'date'])
+            year = year_and_month[0]
+            month = year_and_month[1]
 
-        from_word_builder_dict = dict()
-        from_clipboard_dict = dict()
+            wrapped_list = wrapped_word.split('-')
+            word = wrapped_list[0]
+            word_come_from = int(wrapped_list[1])
 
-        for file_name in dict_file_lst:
-            with open(file_name) as f:
-                try:
-                    feeds = json.load(f)
-                except ValueError:
-                    return result
-                for word, verbose_info in feeds.iteritems():
-                    word_label = word.split('-')[1]
-                    if word_label == '0':
-                        res = self.get_year_and_week_by_date(verbose_info[u'date'])
-                        year = res[0]
-                        week = verbose_info["date"][5:]
-
-                        if year in from_word_builder_dict:
-                            if week not in from_word_builder_dict[year]:
-                                from_word_builder_dict[year][week] = dict()
-                        else:
-                            from_word_builder_dict[year] = dict()
-                            from_word_builder_dict[year][week] = dict()
-
-                        tmp = dict()
-                        for t, meaning in verbose_info.iteritems():
-                            if str(meaning).count('\\') > 0:
-                                tmp[t] = meaning.decode('unicode-escape').encode('utf-8')
-                            else:
-                                tmp[t] = str(meaning).encode('utf-8')
-                        from_word_builder_dict[year][week][word[:-2]] = tmp
-                    else:
-                        res = self.get_year_and_week_by_date(verbose_info[u'date'])
-                        year = res[0]
-                        week = res[1]
-
-                        if year in from_clipboard_dict:
-                            if week not in from_clipboard_dict[year]:
-                                from_clipboard_dict[year][week] = dict()
-                        else:
-                            from_clipboard_dict[year] = dict()
-                            from_clipboard_dict[year][week] = dict()
-
-                        tmp = dict()
-                        for t, meaning in verbose_info.iteritems():
-                            if str(meaning).count('\\') > 0:
-                                tmp[t] = meaning.decode('unicode-escape').encode('utf-8')
-                            else:
-                                tmp[t] = str(meaning).encode('utf-8')
-                        from_clipboard_dict[year][week][word[:-2]] = tmp
-
-        result.append(from_word_builder_dict)
-        if len(from_clipboard_dict) > 0:
-            result.append(from_clipboard_dict)
+            if year not in result[word_come_from]:
+                result[word_come_from][year] = dict()
+            if month not in result[word_come_from][year]:
+                result[word_come_from][year][month] = dict()
+            result[word_come_from][year][month][word] = word_info
         return result
 
     @staticmethod
-    def get_year_and_week_by_date(date):
-        res = []
-        lst = re.split('-| ', date.strip())
-        res.append(str(lst[0]))
-        res.append(str(datetime.date(int(lst[0]), int(lst[1]), int(lst[2])).isocalendar()[1]))
-        return res
+    def get_year_and_month(date):
+        d1 = date.split(' ')[0]
+        d2 = d1.split('-')
+        return d2[:2]
 
 
-def test(fname):
-    if not os.path.isfile(fname):
-        return ''
-    with open(fname, 'r') as fin:
-        print(fin.read())
-        print('---------')
-
-
-def p(c):
-    print('---------')
-    print(c)
+def p(content):
+    utility.append_log('---------------------')
+    utility.append_log(content)
 
 
 if __name__ == "__main__":
     tackle_words = TackleWords()
-    # m = tackle_words.get_word_meaning('get-0')
-    # m = tackle_words.query('get-0')
-    # m = tackle_words.query('boa')
-    # m = tackle_words.query('love')
-    # m = tackle_words.query('wikipedia')
-    # print(m)
     tackle_words.import_all_dir()
-    # tackle_words.delete('1', 'expression')
-    # tackle_words.update_index_dict()
-    # tackle_words.import_clipboard_words()
-    # result = tackle_words.get_classified_lst()
-    # p(result)
-    # tackle_words.delete('1', 'font')
 

@@ -36,12 +36,12 @@
        <div class="ui divider"></div>
 
        {% for list_name, list_info in list_data.iteritems() %}
-            <a style="font-family:Avenir; font-size: 25px;" href="http://{{ ip_addr }}:9527/learn_english/vocabulary/{{ category_name }}/{{ list_name }}"><strong>{{list_name}}</strong></a>
+            <a style="font-family:Avenir; font-size: 25px;" href="http://0.0.0.0:9527/learn_english/vocabulary/{{ category_name }}/{{ list_name }}"><strong>{{list_name}}</strong></a>
 
             <div style="font-size: 16px;">
                 {{ list_info['list_detailed_description'] }}
             </div>
-            <a href="http://{{ ip_addr }}:9527/learn_english/vocabulary/{{ category_name }}/{{ list_name }}"><strong>{{ list_info['list_num'] }}<span class="glyphicon glyphicon-chevron-right"></span></strong></a>
+            <a href="http://0.0.0.0:9527/learn_english/vocabulary/{{ category_name }}/{{ list_name }}"><strong>{{ list_info['list_num'] }}<span class="glyphicon glyphicon-chevron-right"></span></strong></a>
             <div class="ui divider"></div>
        {% endfor %}
    </body>

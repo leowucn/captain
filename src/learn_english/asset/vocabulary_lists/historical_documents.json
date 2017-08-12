@@ -1,4 +1,222 @@
 {
+  "Vocabulary from the Magna Carta on its 800th Anniversary": {
+    "list_brief_description": "The Magna Carta, signed in 1215, is 800 years old on June 15, 2015. The Magna Carta settled the rebellion of some barons against the king. Although some of the ...", 
+    "list_num": "35 Words", 
+    "list_detailed_info": {
+      "render": {
+        "word_definition": "give or supply", 
+        "word_description": "", 
+        "word_name": "render", 
+        "word_example": "On our return from the Crusade, or if we abandon it, we will at once  render justice in full."
+      }, 
+      "discord": {
+        "word_definition": "lack of agreement or harmony", 
+        "word_description": "", 
+        "word_name": "discord", 
+        "word_example": "* (61) SINCE WE HAVE GRANTED ALL THESE THINGS for God, for the better ordering of our kingdom, and to allay the  discord that has arisen between us and our barons, and since we desire that they shall be enjoyed in their entirety, with lasting strength, for ever, we give and grant to the barons the following security:"
+      }, 
+      "allegiance": {
+        "word_definition": "the act of binding yourself to a course of action", 
+        "word_description": "", 
+        "word_name": "allegiance", 
+        "word_example": "* (42) In future it shall be lawful for any man to leave and return to our kingdom unharmed and without fear, by land or water, preserving his  allegiance to us, except in time of war, for some short period, for the common benefit of the realm."
+      }, 
+      "deprive": {
+        "word_definition": "take away", 
+        "word_description": "", 
+        "word_name": "deprive", 
+        "word_example": "(20) For a trivial offence, a free man shall be fined only in proportion to the degree of his offence, and for a serious offence correspondingly, but not so heavily as to  deprive him of his livelihood."
+      }, 
+      "rendering": {
+        "word_definition": "an explanation of something that is not immediately obvious", 
+        "word_description": "", 
+        "word_name": "rendering", 
+        "word_example": "* (53) We shall have similar respite in  rendering justice in connexion with forests that are to be disafforested, or to remain forests, when these were first afforested by our father Henry or our brother Richard; with the guardianship of lands in another person's 'fee', when we have hitherto had this by virtue of a 'fee' held of us for knight's service by a third party; and with abbeys founded in another person's 'fee', in which the lord of the 'fee' claims to own a right."
+      }, 
+      "redress": {
+        "word_definition": "make reparations or amends for", 
+        "word_description": "", 
+        "word_name": "redress", 
+        "word_example": "If we, our chief justice, our officials, or any of our servants offend in any respect against any man, or transgress any of the articles of the peace or of this security, and the offence is made known to four of the said twenty-five barons, they shall come to us - or in our absence from the kingdom to the chief justice - to declare it and claim immediate  redress."
+      }, 
+      "allay": {
+        "word_definition": "lessen the intensity of or calm", 
+        "word_description": "", 
+        "word_name": "allay", 
+        "word_example": "* (61) SINCE WE HAVE GRANTED ALL THESE THINGS for God, for the better ordering of our kingdom, and to  allay the discord that has arisen between us and our barons, and since we desire that they shall be enjoyed in their entirety, with lasting strength, for ever, we give and grant to the barons the following security:"
+      }, 
+      "feudal": {
+        "word_definition": "relating to a system where vassals are protected by lords", 
+        "word_description": "", 
+        "word_name": "feudal", 
+        "word_example": "(4) The guardian of the land of an heir who is under age shall take from it only reasonable revenues, customary dues, and  feudal services."
+      }, 
+      "tithe": {
+        "word_definition": "a levy of one tenth of something", 
+        "word_description": "", 
+        "word_name": "tithe", 
+        "word_example": "* (25) Every county, hundred, wapentake, and  tithing shall remain at its ancient rent, without increase, except the royal demesne manors."
+      }, 
+      "baron": {
+        "word_definition": "a nobleman (in various countries) of varying rank", 
+        "word_description": "", 
+        "word_name": "baron", 
+        "word_example": "JOHN, by the grace of God King of England, Lord of Ireland, Duke of Normandy and Aquitaine, and Count of Anjou, to his archbishops, bishops, abbots, earls,  barons, justices, foresters, sheriffs, stewards, servants, and to all his officials and loyal subjects, Greeting."
+      }, 
+      "reverend": {
+        "word_definition": "worthy of adoration or reverence", 
+        "word_description": "", 
+        "word_name": "reverend", 
+        "word_example": "...those of our ancestors and heirs, to the honour of God, the exaltation of the holy Church, and the better ordering of our kingdom, at the advice of our  reverend fathers Stephen, archbishop of Canterbury, primate of all England, and cardinal of the holy Roman Church, Henry archbishop of Dublin, William bishop of London, Peter bishop of Winchester, Jocelin..."
+      }, 
+      "irrevocably": {
+        "word_definition": "in a manner that cannot be taken back", 
+        "word_description": "", 
+        "word_name": "irrevocably", 
+        "word_example": "*(48) All evil customs relating to forests and warrens, foresters, warreners, sheriffs and their servants, or river-banks and their wardens, are at once to be investigated in every county by twelve sworn knights of the county, and within forty days of their enquiry the evil customs are to be abolished completely and  irrevocably."
+      }, 
+      "suffice": {
+        "word_definition": "be adequate, either in quality or quantity", 
+        "word_description": "", 
+        "word_name": "suffice", 
+        "word_example": "(19) If any assizes cannot be taken on the day of the county court, as many knights and freeholders shall afterwards remain behind, of those who have attended the court, as will  suffice for the administration of justice, having regard to the volume of business to be done."
+      }, 
+      "papal": {
+        "word_definition": "proceeding from the head of the Roman Catholic Church", 
+        "word_description": "", 
+        "word_name": "papal", 
+        "word_example": "...Jocelin bishop of Bath and Glastonbury, Hugh bishop of Lincoln, Walter bishop of Worcester, William bishop of Coventry, Benedict bishop of Rochester, Master Pandulf subdeacon and member of the  papal household, Brother Aymeric master of the knighthood of the Temple in England, William Marshal earl of Pembroke, William earl of Salisbury, William earl of Warren, William earl of Arundel,..."
+      }, 
+      "inquisition": {
+        "word_definition": "a severe interrogation", 
+        "word_description": "", 
+        "word_name": "inquisition", 
+        "word_example": "(36) In future nothing shall be paid or accepted for the issue of a writ of  inquisition of life or limbs."
+      }, 
+      "levy": {
+        "word_definition": "impose and collect", 
+        "word_description": "", 
+        "word_name": "levy", 
+        "word_example": "* (12) No 'scutage' or 'aid' may be  levied in our kingdom without its general consent, unless it is for the ransom of our person, to make our eldest son a knight, and (once) to marry our eldest daughter."
+      }, 
+      "gratis": {
+        "word_definition": "costing nothing", 
+        "word_description": "", 
+        "word_name": "gratis", 
+        "word_example": "It shall be given  gratis, and not refused."
+      }, 
+      "exaltation": {
+        "word_definition": "the elevation of a person, as to the status of a god", 
+        "word_description": "", 
+        "word_name": "exaltation", 
+        "word_example": "KNOW THAT BEFORE GOD, for the health of our soul and those of our ancestors and heirs, to the honour of God, the  exaltation of the holy Church, and the better ordering of our kingdom, at the advice of our reverend fathers Stephen, archbishop of Canterbury, primate of all England, and cardinal of..."
+      }, 
+      "tenure": {
+        "word_definition": "the term during which some position is held", 
+        "word_description": "", 
+        "word_name": "tenure", 
+        "word_example": "(46) All barons who have founded abbeys, and have charters of English kings or ancient  tenure as evidence of this, may have guardianship of them when there is no abbot, as is their due."
+      }, 
+      "heir": {
+        "word_definition": "a person entitled by law to inherit the estate of another", 
+        "word_description": "", 
+        "word_name": "heir", 
+        "word_example": "KNOW THAT BEFORE GOD, for the health of our soul and those of our ancestors and  heirs, to the honour of God, the exaltation of the holy Church, and the better ordering of our kingdom, at the advice of our reverend fathers Stephen, archbishop of Canterbury,..."
+      }, 
+      "procure": {
+        "word_definition": "get by special effort", 
+        "word_description": "", 
+        "word_name": "procure", 
+        "word_example": "We will not seek to  procure from anyone, either by our own efforts or those of a third party, anything by which any part of these concessions or liberties might be revoked or diminished."
+      }, 
+      "respite": {
+        "word_definition": "a pause from doing something", 
+        "word_description": "", 
+        "word_name": "respite", 
+        "word_example": "In cases, however, where a man was deprived or dispossessed of something without the lawful judgment of his equals by our father King Henry or our brother King Richard, and it remains in our hands or is held by others under our warranty, we shall have  respite for the period commonly allowed to Crusaders, unless a lawsuit had been begun, or an enquiry had been made at our order, before we took the Cross as a Crusader."
+      }, 
+      "assail": {
+        "word_definition": "attack someone physically or emotionally", 
+        "word_description": "", 
+        "word_name": "assail", 
+        "word_example": "...which the offence was declared to us or to him, the four barons shall refer the matter to the rest of the twenty-five barons, who may distrain upon and  assail us in every way possible, with the support of the whole community of the land, by seizing our castles, lands, possessions, or anything else saving only our own person..."
+      }, 
+      "ward": {
+        "word_definition": "a person who is under the protection of another", 
+        "word_description": "", 
+        "word_name": "ward", 
+        "word_example": "(3) But if the heir of such a person is under age and a  ward, when he comes of age he shall have his inheritance without 'relief' or fine."
+      }, 
+      "prudent": {
+        "word_definition": "marked by sound judgment", 
+        "word_description": "", 
+        "word_name": "prudent", 
+        "word_example": "If we have given the guardianship of the land to a sheriff, or to any person answerable to us for the revenues, and he commits destruction or damage, we will exact compensation from him, and the land shall be entrusted to two worthy and  prudent men of the same 'fee', who shall be answerable to us for the revenues, or to the person to whom we have assigned them."
+      }, 
+      "debtor": {
+        "word_definition": "a person who owes a creditor", 
+        "word_description": "", 
+        "word_name": "debtor", 
+        "word_example": "(9) Neither we nor our officials will seize any land or rent in payment of a debt, so long as the  debtor has movable goods sufficient to discharge the debt."
+      }, 
+      "utmost": {
+        "word_definition": "highest in extent or degree", 
+        "word_description": "", 
+        "word_name": "utmost", 
+        "word_example": "Any man who so desires may take an oath to obey the commands of the twenty-five barons for the achievement of these ends, and to join with them in assailing us to the  utmost of his power."
+      }, 
+      "pertain": {
+        "word_definition": "be relevant to", 
+        "word_description": "", 
+        "word_name": "pertain", 
+        "word_example": "(5) For so long as a guardian has guardianship of such land, he shall maintain the houses, parks, fish preserves, ponds, mills, and everything else  pertaining to it, from the revenues of the land itself."
+      }, 
+      "ecclesiastical": {
+        "word_definition": "of or associated with a church", 
+        "word_description": "", 
+        "word_name": "ecclesiastical", 
+        "word_example": "(22) A fine imposed upon the lay property of a clerk in holy orders shall be assessed upon the same principles, without reference to the value of his  ecclesiastical benefice."
+      }, 
+      "remit": {
+        "word_definition": "send in payment", 
+        "word_description": "", 
+        "word_name": "remit", 
+        "word_example": "* (55) All fines that have been given to us unjustly and against the law of the land, and all fines that we have exacted unjustly, shall be entirely  remitted or the matter decided by a majority judgment of the twenty-five barons referred to below in the clause for securing the peace (\u00a761) together with Stephen, archbishop of Canterbury, if he can be present, and such others as he wishes to bring with him."
+      }, 
+      "perpetuity": {
+        "word_definition": "the property of being seemingly ceaseless", 
+        "word_description": "", 
+        "word_name": "perpetuity", 
+        "word_example": "+ (1) FIRST, THAT WE HAVE GRANTED TO GOD, and by this present charter have confirmed for us and our heirs in  perpetuity, that the English Church shall be free, and shall have its rights undiminished, and its liberties unimpaired."
+      }, 
+      "executor": {
+        "word_definition": "a person appointed to carry out the terms of the will", 
+        "word_description": "", 
+        "word_name": "executor", 
+        "word_example": "Nothing shall be removed until the whole debt is paid, when the residue shall be given over to the  executors to carry out the dead man\u2019s will."
+      }, 
+      "irrespective": {
+        "word_definition": "in spite of everything; without regard to drawbacks", 
+        "word_description": "", 
+        "word_name": "irrespective", 
+        "word_example": "* (10) If anyone who has borrowed a sum of money from Jews dies before the debt has been repaid, his heir shall pay no interest on the debt for so long as he remains under age,  irrespective of whom he holds his lands."
+      }, 
+      "concession": {
+        "word_definition": "the act of yielding", 
+        "word_description": "", 
+        "word_name": "concession", 
+        "word_example": "We will not seek to procure from anyone, either by our own efforts or those of a third party, anything by which any part of these  concessions or liberties might be revoked or diminished."
+      }, 
+      "transgress": {
+        "word_definition": "act in disregard of laws, rules, contracts, or promises", 
+        "word_description": "", 
+        "word_name": "transgress", 
+        "word_example": "If we, our chief justice, our officials, or any of our servants offend in any respect against any man, or  transgress any of the articles of the peace or of this security, and the offence is made known to four of the said twenty-five barons, they shall come to us - or in our absence from the kingdom to the chief justice - to declare it and claim immediate redress."
+      }
+    }, 
+    "list_href": "/lists/687059", 
+    "list_detailed_description": "The Magna Carta, signed in 1215, is 800 years old on June 15, 2015. The Magna Carta settled the rebellion of some barons against the king. Although some of the language is still obscure, the document is widely credited as being the first statement of individual rights under kingly rule. Among other things, it put a limit on payments that could be made to a king and ensured swift justice, guaranteed by a board of peers, in this case 25 barons. Here are 35 words from the English translation of the original Latin of this document that is the forerunner of democratic expressions like the Declaration of Independence."
+  }, 
   "Brown v. Board of Education of Topeka (1954)": {
     "list_brief_description": "In 1951, the National Association for the Advancement of Colored People (NAACP) recruited thirteen parents to file a class action suit on behalf of their childr...", 
     "list_num": "25 Words", 
@@ -15,11 +233,11 @@
         "word_name": "motivation", 
         "word_example": "A sense of inferiority affects the  motivation of a child to learn."
       }, 
-      "doctrine": {
-        "word_definition": "a belief accepted as authoritative by some group or school", 
+      "determine": {
+        "word_definition": "establish after a calculation, investigation, or experiment", 
         "word_description": "", 
-        "word_name": "doctrine", 
-        "word_example": "In each of the cases other than the Delaware case, a three-judge federal district court denied relief to the plaintiffs on the so-called \"separate but equal\"  doctrine announced by this Court in Plessy v. Ferguson. Under that  doctrine, equality of treatment is accorded when the races are provided substantially equal facilities, even though these facilities be separate."
+        "word_name": "determine", 
+        "word_example": "We must consider public education in the light of its full development and its present place in American life throughout the Nation. Only in this way can it be  determined if segregation in public schools deprives these plaintiffs of the equal protection of the laws."
       }, 
       "psychological": {
         "word_definition": "mental or emotional as opposed to physical in nature", 
@@ -33,11 +251,11 @@
         "word_name": "intangible", 
         "word_example": "In McLaurin v. Oklahoma State Regents, supra, the Court, in requiring that a Negro admitted to a white graduate school be treated like all other students, again resorted to  intangible considerations: \". . . his ability to study, to engage in discussions and exchange views with other students, and, in general, to learn his profession.\""
       }, 
-      "determine": {
-        "word_definition": "establish after a calculation, investigation, or experiment", 
+      "doctrine": {
+        "word_definition": "a belief accepted as authoritative by some group or school", 
         "word_description": "", 
-        "word_name": "determine", 
-        "word_example": "We must consider public education in the light of its full development and its present place in American life throughout the Nation. Only in this way can it be  determined if segregation in public schools deprives these plaintiffs of the equal protection of the laws."
+        "word_name": "doctrine", 
+        "word_example": "In each of the cases other than the Delaware case, a three-judge federal district court denied relief to the plaintiffs on the so-called \"separate but equal\"  doctrine announced by this Court in Plessy v. Ferguson. Under that  doctrine, equality of treatment is accorded when the races are provided substantially equal facilities, even though these facilities be separate."
       }, 
       "quality": {
         "word_definition": "an essential and distinguishing attribute of something", 
@@ -157,157 +375,193 @@
     "list_href": "/lists/1548347", 
     "list_detailed_description": "In 1951, the National Association for the Advancement of Colored People (NAACP) recruited thirteen parents to file a class action suit on behalf of their children. The named plaintiff, Oliver Brown, was the father of a third grader who, denied admission to a neighborhood white school, was forced to walk six blocks to take a bus to a black school. On reviewing the District Court's ruling based on the precedent of \n"
   }, 
-  "The Dred Scott Decision (1857)": {
-    "list_brief_description": "Vocabulary from this pro-slavery Supreme Court decision illuminates how it brought the nation to the brink of the Civil War. In March of 1857, Chief Justice Rog...", 
-    "list_num": "25 Words", 
+  "Declaration of the Rights of Man (1789)": {
+    "list_brief_description": "Coauthored by Thomas Jefferson and General Lafayette, this declaration was approved by the National Assembly of France in 1789. Unlike the American Declaration ...", 
+    "list_num": "30 Words", 
     "list_detailed_info": {
-      "liberal": {
-        "word_definition": "not strictly literal or exact", 
+      "grievance": {
+        "word_definition": "a complaint about a wrong that causes resentment", 
         "word_description": "", 
-        "word_name": "liberal", 
-        "word_example": "No one, we presume, supposes that any change in public opinion or feeling, in relation to this unfortunate race, in the civilized nations of Europe or in this country should induce the Court to give to the words of the Constitution a more  liberal construction in their favor than they were intended to bear when the instrument was framed and adopted...."
+        "word_name": "grievance", 
+        "word_example": "and, lastly, in order that the  grievances of the citizens, based hereafter upon simple and incontestable principles, shall tend to the maintenance of the constitution and redound to the happiness of all."
       }, 
-      "migrate": {
-        "word_definition": "move from one country or region to another and settle there", 
+      "prohibit": {
+        "word_definition": "command against", 
         "word_description": "", 
-        "word_name": "migrate", 
-        "word_example": "Taking this rule to guide us, it may be safely assumed that citizens of the United States who  migrate to a territory...cannot be ruled as mere colonists, dependent upon the will of the general government, and to be governed by any laws it may think proper to impose...."
+        "word_name": "prohibit", 
+        "word_example": "5. Law can only  prohibit such actions as are hurtful to society."
       }, 
-      "abridge": {
-        "word_definition": "lessen, diminish, or curtail", 
+      "proportion": {
+        "word_definition": "relation with respect to comparative quantity or magnitude", 
         "word_description": "", 
-        "word_name": "abridge", 
-        "word_example": "For example, no one, we presume, will contend that Congress can make any law in a territory respecting the establishment of religion...or  abridging the freedom of speech or of the press...."
+        "word_name": "proportion", 
+        "word_example": "and to fix the  proportion, the mode of assessment and of collection and the duration of the taxes."
       }, 
-      "bound": {
-        "word_definition": "confined by contract", 
-        "word_description": "Obligated to is a synonym for bound to.", 
-        "word_name": "bound", 
-        "word_example": "They had for more than a century before been regarded as beings of an inferior order and altogether unfit to associate with the white race, either in social or political relations; and so far inferior that they had no rights which the white man was  bound to respect; and that the Negro might justly and lawfully be reduced to slavery for his benefit."
-      }, 
-      "deprive": {
-        "word_definition": "take away", 
+      "inflict": {
+        "word_definition": "impose something unpleasant", 
         "word_description": "", 
-        "word_name": "deprive", 
-        "word_example": "An act of Congress which  deprives a citizen of the United States of his liberty or property, without due process of law, merely because he came himself or brought his property into a particular territory of the United States...could hardly be dignified with the name of due process of law."
+        "word_name": "inflict", 
+        "word_example": "8. The law shall provide for such punishments only as are strictly and obviously necessary, and no one shall suffer punishment except it be legally  inflicted in virtue of a law passed and promulgated before the commission of the offense."
       }, 
-      "servitude": {
-        "word_definition": "state of subjection to an owner or master", 
-        "word_description": "Involuntary servitude is a synonym for slavery.", 
-        "word_name": "servitude", 
-        "word_example": "The act of Congress, upon which the plaintiff relies, declares that slavery and involuntary  servitude, except as a punishment for crime, shall be forever prohibited in all that part of the territory ceded by France, under the name of Louisiana, which lies north of thirty-six degrees thirty minutes north latitude and not included within the limits of Missouri."
-      }, 
-      "cede": {
-        "word_definition": "relinquish possession or control over", 
-        "word_description": "Surrendered or transfered are synonyms for ceded.", 
-        "word_name": "cede", 
-        "word_example": "The act of Congress, upon which the plaintiff relies, declares that slavery and involuntary servitude, except as a punishment for crime, shall be forever prohibited in all that part of the territory  ceded by France, under the name of Louisiana, which lies north of thirty-six degrees thirty minutes north latitude and not included within the limits of Missouri."
-      }, 
-      "legislation": {
-        "word_definition": "law enacted by an assembly", 
+      "participate": {
+        "word_definition": "be involved in", 
         "word_description": "", 
-        "word_name": "legislation", 
-        "word_example": "In the opinion of the Court the  legislation and histories of the times, and the language used in the Declaration of Independence, show that neither the class of persons who had been imported as slaves nor their descendants, whether they had become free or not, were then acknowledged as a part of the people nor intended to be included in the general words used in that memorable instrument...."
+        "word_name": "participate", 
+        "word_example": "6. Law is the expression of the general will. Every citizen has a right to  participate personally, or through his representative, in its foundation."
       }, 
-      "involuntary": {
-        "word_definition": "not subject to the control of the will", 
-        "word_description": "compulsory is a synonym for involuntary.", 
-        "word_name": "involuntary", 
-        "word_example": "The act of Congress, upon which the plaintiff relies, declares that slavery and  involuntary servitude, except as a punishment for crime, shall be forever prohibited in all that part of the territory ceded by France, under the name of Louisiana, which lies north of thirty-six degrees thirty minutes north latitude and not included within the limits of Missouri."
-      }, 
-      "latitude": {
-        "word_definition": "an imaginary line around the Earth parallel to the equator", 
-        "word_description": "The act of Congress that established this latitude line was part of a larger set of agreements called the \"Missouri Compromise.\"", 
-        "word_name": "latitude", 
-        "word_example": "The act of Congress, upon which the plaintiff relies, declares that slavery and involuntary servitude, except as a punishment for crime, shall be forever prohibited in all that part of the territory ceded by France, under the name of Louisiana, which lies north of thirty-six degrees thirty minutes north  latitude and not included within the limits of Missouri."
-      }, 
-      "import": {
-        "word_definition": "bring in from abroad", 
+      "auspices": {
+        "word_definition": "kindly endorsement and guidance", 
         "word_description": "", 
-        "word_name": "import", 
-        "word_example": "In the opinion of the Court the legislation and histories of the times, and the language used in the Declaration of Independence, show that neither the class of persons who had been  imported as slaves nor their descendants, whether they had become free or not, were then acknowledged as a part of the people nor intended to be included in the general words used in that memorable instrument...."
+        "word_name": "auspices", 
+        "word_example": "Therefore the National Assembly recognizes and proclaims, in the presence and under the  auspices of the Supreme Being, the following rights of man and of the citizen"
       }, 
-      "warrant": {
-        "word_definition": "show to be reasonable or provide adequate ground for", 
+      "eligible": {
+        "word_definition": "qualified for or allowed or worthy of being chosen", 
         "word_description": "", 
-        "word_name": "warrant", 
-        "word_example": "Upon these considerations it is the opinion of the Court that the act of Congress which prohibited a citizen from holding and owning property of this kind in the territory of the United States north of the line therein mentioned is not  warranted by the Constitution and is therefore void. . ."
+        "word_name": "eligible", 
+        "word_example": "All citizens, being equal in the eyes of the law, are equally  eligible to all dignities and to all public positions and occupations, according to their abilities, and without distinction except that of their virtues and talents."
       }, 
-      "inferior": {
-        "word_definition": "one of lesser rank or station or quality", 
+      "indispensable": {
+        "word_definition": "absolutely necessary", 
         "word_description": "", 
-        "word_name": "inferior", 
-        "word_example": "They had for more than a century before been regarded as beings of an  inferior order and altogether unfit to associate with the white race, either in social or political relations; and so far  inferior that they had no rights which the white man was bound to respect; and that the Negro might justly and lawfully be reduced to slavery for his benefit."
+        "word_name": "indispensable", 
+        "word_example": "9. As all persons are held innocent until they shall have been declared guilty, if arrest shall be deemed  indispensable, all harshness not essential to the securing of the prisoner's person shall be severely repressed by law."
       }, 
-      "associate": {
-        "word_definition": "keep company with", 
+      "disquiet": {
+        "word_definition": "make uneasy or cause to be worried or alarmed", 
         "word_description": "", 
-        "word_name": "associate", 
-        "word_example": "They had for more than a century before been regarded as beings of an inferior order and altogether unfit to  associate with the white race, either in social or political relations; and so far inferior that they had no rights which the white man was bound to respect; and that the Negro might justly and lawfully be reduced to slavery for his benefit."
+        "word_name": "disquiet", 
+        "word_example": "10. No one shall be  disquieted on account of his opinions, including his religious views, provided their manifestation does not disturb the public order established by law."
       }, 
-      "plaintiff": {
-        "word_definition": "a person who brings an action in a court of law", 
+      "unalienable": {
+        "word_definition": "incapable of being repudiated or transferred to another", 
         "word_description": "", 
-        "word_name": "plaintiff", 
-        "word_example": "We proceed...to inquire whether the facts relied on by the  plaintiff entitle him to his freedom...."
+        "word_name": "unalienable", 
+        "word_example": "...to set forth in a solemn declaration the natural,  unalienable, and sacred rights of man, in order that this declaration, being constantly before all the members of the Social body, shall remind them continually of their rights and duties"
       }, 
-      "void": {
-        "word_definition": "lacking any legal or binding force", 
+      "accordingly": {
+        "word_definition": "(sentence connectors) because of the reason given", 
         "word_description": "", 
-        "word_name": "void", 
-        "word_example": "Upon these considerations it is the opinion of the Court that the act of Congress which prohibited a citizen from holding and owning property of this kind in the territory of the United States north of the line therein mentioned is not warranted by the Constitution and is therefore  void . . ."
+        "word_name": "accordingly", 
+        "word_example": "Every citizen may,  accordingly, speak, write, and print with freedom, but shall be responsible for such abuses of this freedom as shall be defined by law."
       }, 
-      "traffic": {
-        "word_definition": "trade or deal a commodity", 
+      "sovereignty": {
+        "word_definition": "the authority of a state to govern another state", 
         "word_description": "", 
-        "word_name": "traffic", 
-        "word_example": "He was bought and sold and treated as an ordinary article of merchandise and  traffic whenever a profit could be made by it."
+        "word_name": "sovereignty", 
+        "word_example": "3. The principle of all  sovereignty resides essentially in the nation."
       }, 
-      "declaration": {
-        "word_definition": "a formal public statement", 
+      "indemnify": {
+        "word_definition": "make amends for; pay compensation for", 
         "word_description": "", 
-        "word_name": "declaration", 
-        "word_example": "In the opinion of the Court the legislation and histories of the times, and the language used in the  Declaration of Independence, show that neither the class of persons who had been imported as slaves nor their descendants, whether they had become free or not, were then acknowledged as a part of the people nor intended to be included in the general words used in that memorable instrument...."
+        "word_name": "indemnify", 
+        "word_example": "and then only on condition that the owner shall have been previously and equitably  indemnified."
       }, 
-      "article": {
-        "word_definition": "one of a class of artifacts", 
+      "advantage": {
+        "word_definition": "the quality of having a superior or more favorable position", 
         "word_description": "", 
-        "word_name": "article", 
-        "word_example": "He was bought and sold and treated as an ordinary  article of merchandise and traffic whenever a profit could be made by it."
+        "word_name": "advantage", 
+        "word_example": "These forces are, therefore, established for the good of all and not for the personal  advantage of those to whom they shall be intrusted."
       }, 
-      "provision": {
-        "word_definition": "a stipulated condition", 
+      "oppression": {
+        "word_definition": "the state of being kept down by unjust use of authority", 
         "word_description": "", 
-        "word_name": "provision", 
-        "word_example": "As there is no express regulation in the Constitution defining the power which the general government may exercise over the person or property of a citizen in a territory thus acquired, the Court must necessarily look to the  provisions and principles of the Constitution, and its distribution of powers, for the rules and principles by which its decisions must be governed."
+        "word_name": "oppression", 
+        "word_example": "These rights are liberty, property, security, and resistance to  oppression."
       }, 
-      "merchandise": {
-        "word_definition": "commodities offered for sale", 
+      "prescribe": {
+        "word_definition": "issue commands or orders for", 
         "word_description": "", 
-        "word_name": "merchandise", 
-        "word_example": "He was bought and sold and treated as an ordinary article of  merchandise and traffic whenever a profit could be made by it."
+        "word_name": "prescribe", 
+        "word_example": "7. No person shall be accused, arrested, or imprisoned except in the cases and according to the forms  prescribed by law."
       }, 
-      "descendant": {
-        "word_definition": "a person considered as coming from some ancestor or race", 
+      "virtue": {
+        "word_definition": "the quality of doing what is right", 
         "word_description": "", 
-        "word_name": "descendant", 
-        "word_example": "In the opinion of the Court the legislation and histories of the times, and the language used in the Declaration of Independence, show that neither the class of persons who had been imported as slaves nor their  descendants, whether they had become free or not, were then acknowledged as a part of the people nor intended to be included in the general words used in that memorable instrument...."
+        "word_name": "virtue", 
+        "word_example": "But any citizen summoned or arrested in  virtue of the law shall submit without delay, as resistance constitutes an offense."
       }, 
-      "social": {
-        "word_definition": "living together or enjoying life in communities", 
+      "equitable": {
+        "word_definition": "fair to all parties as dictated by reason and conscience", 
         "word_description": "", 
-        "word_name": "social", 
-        "word_example": "They had for more than a century before been regarded as beings of an inferior order and altogether unfit to associate with the white race, either in  social or political relations; and so far inferior that they had no rights which the white man was bound to respect; and that the Negro might justly and lawfully be reduced to slavery for his benefit."
+        "word_name": "equitable", 
+        "word_example": "This should be equitably distributed among all the citizens in proportion to their means."
       }, 
-      "opinion": {
-        "word_definition": "the legal document stating reasons for a judicial decision", 
+      "precious": {
+        "word_definition": "held in great esteem for admirable qualities", 
         "word_description": "", 
-        "word_name": "opinion", 
-        "word_example": "In the  opinion of the Court the legislation and histories of the times, and the language used in the Declaration of Independence, show that neither the class of persons who had been imported as slaves nor their descendants, whether they had become free or not, were then acknowledged as a part of the people nor intended to be included in the general words used in that memorable instrument...."
+        "word_name": "precious", 
+        "word_example": "11. The free communication of ideas and opinions is one of the most  precious of the rights of man."
+      }, 
+      "security": {
+        "word_definition": "the state of being free from danger or injury", 
+        "word_description": "", 
+        "word_name": "security", 
+        "word_example": "12. The  security of the rights of man and of the citizen requires public military forces."
+      }, 
+      "association": {
+        "word_definition": "a formal organization of people or groups of people", 
+        "word_description": "", 
+        "word_name": "association", 
+        "word_example": "2. The aim of all political  association is the preservation of the natural and imprescriptible rights of man."
+      }, 
+      "account": {
+        "word_definition": "a record or narrative description of past events", 
+        "word_description": "", 
+        "word_name": "account", 
+        "word_example": "15. Society has the right to require of every public agent an  account of his administration."
+      }, 
+      "consist": {
+        "word_definition": "have its essential character", 
+        "word_description": "", 
+        "word_name": "consist", 
+        "word_example": "4. Liberty  consists in the freedom to do everything which injures no one else; hence the exercise of the natural rights of each man has no limits except those which assure to the other members of the society the enjoyment of the same rights."
+      }, 
+      "grant": {
+        "word_definition": "give as judged due or on the basis of merit", 
+        "word_description": "", 
+        "word_name": "grant", 
+        "word_example": "14. All the citizens have a right to decide, either personally or by their representatives, as to the necessity of the public contribution; to  grant this freely"
+      }, 
+      "inviolable": {
+        "word_definition": "incapable of being transgressed or dishonored", 
+        "word_description": "", 
+        "word_name": "inviolable", 
+        "word_example": "17. Since property is an  inviolable and sacred right, no one shall be deprived thereof except where public necessity, legally determined, shall clearly demand it"
+      }, 
+      "assure": {
+        "word_definition": "make certain of", 
+        "word_description": "", 
+        "word_name": "assure", 
+        "word_example": "16. A society in which the observance of the law is not  assured, nor the separation of powers defined, has no constitution at all."
+      }, 
+      "calamity": {
+        "word_definition": "an event resulting in great loss and misfortune", 
+        "word_description": "", 
+        "word_name": "calamity", 
+        "word_example": "The representatives of the French people, organized as a National Assembly, believing that the ignorance, neglect, or contempt of the rights of man are the sole cause of public  calamities and of the corruption of governments..."
+      }, 
+      "arbitrary": {
+        "word_definition": "based on or subject to individual discretion or preference", 
+        "word_description": "", 
+        "word_name": "arbitrary", 
+        "word_example": "Any one soliciting, transmitting, executing, or causing to be executed, any  arbitrary order, shall be punished."
+      }, 
+      "distinction": {
+        "word_definition": "a discrimination between things as different", 
+        "word_description": "", 
+        "word_name": "distinction", 
+        "word_example": "1. Men are born and remain free and equal in rights. Social  distinctions may be founded only upon the general good."
+      }, 
+      "contribution": {
+        "word_definition": "an amount of money given", 
+        "word_description": "", 
+        "word_name": "contribution", 
+        "word_example": "13. A common  contribution is essential for the maintenance of the public forces and for the cost of administration."
       }
     }, 
-    "list_href": "/lists/173582", 
-    "list_detailed_description": "Vocabulary from this pro-slavery Supreme Court decision illuminates how it brought the nation to the brink of the Civil War. In March of 1857, Chief Justice Roger B. Taney delivered the majority opinion in the Dred Scott Case. Scott, a slave, had been brought from a slave territory to a free territory and demanded his freedom. The Court ruled that as a slave, Scott was not a citizen and as such could not sue in the courts. The decision further polarized the North and the South and ended any chance of compromise on the issue of slavery."
+    "list_href": "/lists/735374", 
+    "list_detailed_description": "Coauthored by Thomas Jefferson and General Lafayette, this declaration was approved by the National Assembly of France in 1789. Unlike the American Declaration of Independence, its content consists more of philosophical principles rather than specific grievances against an abusive king. But similarly, it led to a revolution that inspired the hearts of individuals around the world. Read this list aloud to hear the echoes that unite humanity.\n"
   }, 
   "\"The Declaration of Independence\" (1776)": {
     "list_brief_description": "The Declaration of Independence was adopted on July 4, 1776 by the Second Continental Congress in Philadelphia. Drafted by Thomas Jefferson, with a preamble by ...", 
@@ -673,223 +927,271 @@
     "list_href": "/lists/404066", 
     "list_detailed_description": "The Universal Declaration of Human Rights was adopted by the UN General Assembly on December 10, 1948 to reflect the commitment of the international community to prevent any repeat of the atrocities of World War II. Drafted by the Commission on Human Rights, which consisted of 18 members from various political, cultural, and religious backgrounds, it recognizes the value and rights of every individual everywhere. In addition to influencing many subsequent national constitutions, laws, and treaties, it serves as a tool to apply moral pressure on abusive governments. \n"
   }, 
-  "Vocabulary from the Magna Carta on its 800th Anniversary": {
-    "list_brief_description": "The Magna Carta, signed in 1215, is 800 years old on June 15, 2015. The Magna Carta settled the rebellion of some barons against the king. Although some of the ...", 
-    "list_num": "35 Words", 
+  "Vocabulary from The Articles of Confederation": {
+    "list_brief_description": "Just as \"history is written by the winners,\" the historical record often skips over missteps or mistakes made by those same winners. The Articles of Confederati...", 
+    "list_num": "43 Words", 
     "list_detailed_info": {
-      "render": {
-        "word_definition": "give or supply", 
+      "ingress": {
+        "word_definition": "the act of entering", 
         "word_description": "", 
-        "word_name": "render", 
-        "word_example": "On our return from the Crusade, or if we abandon it, we will at once  render justice in full."
+        "word_name": "ingress", 
+        "word_example": "...vagabonds, and fugitives from justice excepted, shall be entitled to all privileges and immunities of free citizens in the several States; and the people of each State shall free  ingress and regress to and from any other State, and shall enjoy therein all the privileges of trade and commerce, subject to the same duties, impositions, and restrictions as the..."
       }, 
-      "discord": {
-        "word_definition": "lack of agreement or harmony", 
+      "alliance": {
+        "word_definition": "the state of being confederated", 
         "word_description": "", 
-        "word_name": "discord", 
-        "word_example": "* (61) SINCE WE HAVE GRANTED ALL THESE THINGS for God, for the better ordering of our kingdom, and to allay the  discord that has arisen between us and our barons, and since we desire that they shall be enjoyed in their entirety, with lasting strength, for ever, we give and grant to the barons the following security:"
+        "word_name": "alliance", 
+        "word_example": "No State, without the consent of the United States in Congress assembled, shall send any embassy to, or receive any embassy from, or enter into any conference, agreement,  alliance or treaty with any King, Prince or State; nor shall any person holding any office of profit or trust under the United States, or any of them, accept any..."
       }, 
-      "allegiance": {
-        "word_definition": "the act of binding yourself to a course of action", 
+      "ratify": {
+        "word_definition": "approve and express assent, responsibility, or obligation", 
         "word_description": "", 
-        "word_name": "allegiance", 
-        "word_example": "* (42) In future it shall be lawful for any man to leave and return to our kingdom unharmed and without fear, by land or water, preserving his  allegiance to us, except in time of war, for some short period, for the common benefit of the realm."
+        "word_name": "ratify", 
+        "word_example": "And Whereas it hath pleased the Great Governor of the World to incline the hearts of the legislatures we respectively represent in Congress, to approve of, and to authorize us to  ratify the said Articles of Confederation and perpetual Union."
       }, 
-      "deprive": {
-        "word_definition": "take away", 
+      "misdemeanor": {
+        "word_definition": "a crime less serious than a felony", 
         "word_description": "", 
-        "word_name": "deprive", 
-        "word_example": "(20) For a trivial offence, a free man shall be fined only in proportion to the degree of his offence, and for a serious offence correspondingly, but not so heavily as to  deprive him of his livelihood."
+        "word_name": "misdemeanor", 
+        "word_example": "If any person guilty of, or charged with, treason, felony, or other high  misdemeanor in any State, shall flee from justice, and be found in any of the United States, he shall, upon demand of the Governor or executive power of the State from which he fled, be delivered up and removed to the State having jurisdiction of his offense."
       }, 
-      "rendering": {
-        "word_definition": "an explanation of something that is not immediately obvious", 
+      "reprisal": {
+        "word_definition": "a retaliatory action against an enemy in wartime", 
         "word_description": "", 
-        "word_name": "rendering", 
-        "word_example": "* (53) We shall have similar respite in  rendering justice in connexion with forests that are to be disafforested, or to remain forests, when these were first afforested by our father Henry or our brother Richard; with the guardianship of lands in another person's 'fee', when we have hitherto had this by virtue of a 'fee' held of us for knight's service by a third party; and with abbeys founded in another person's 'fee', in which the lord of the 'fee' claims to own a right."
+        "word_name": "reprisal", 
+        "word_example": "...delay till the United States in Congress assembled can be consulted; nor shall any State grant commissions to any ships or vessels of war, nor letters of marque or  reprisal, except it be after a declaration of war by the United States in Congress assembled, and then only against the Kingdom or State and the subjects thereof, against which..."
       }, 
-      "redress": {
-        "word_definition": "make reparations or amends for", 
+      "stipulation": {
+        "word_definition": "an agreement made by parties in a judicial proceeding", 
         "word_description": "", 
-        "word_name": "redress", 
-        "word_example": "If we, our chief justice, our officials, or any of our servants offend in any respect against any man, or transgress any of the articles of the peace or of this security, and the offence is made known to four of the said twenty-five barons, they shall come to us - or in our absence from the kingdom to the chief justice - to declare it and claim immediate  redress."
+        "word_name": "stipulation", 
+        "word_example": "No State shall lay any imposts or duties, which may interfere with any  stipulations in treaties, entered into by the United States in Congress assembled, with any King, Prince or State, in pursuance of any treaties already proposed by Congress, to the courts of France and Spain."
       }, 
-      "allay": {
-        "word_definition": "lessen the intensity of or calm", 
+      "recess": {
+        "word_definition": "a state of abeyance or suspended business", 
         "word_description": "", 
-        "word_name": "allay", 
-        "word_example": "* (61) SINCE WE HAVE GRANTED ALL THESE THINGS for God, for the better ordering of our kingdom, and to  allay the discord that has arisen between us and our barons, and since we desire that they shall be enjoyed in their entirety, with lasting strength, for ever, we give and grant to the barons the following security:"
+        "word_name": "recess", 
+        "word_example": "The United States in Congress assembled shall have authority to appoint a committee, to sit in the  recess of Congress, to be denominated 'A Committee of the States', and to consist of one delegate from each State; and to appoint such other committees and civil officers as..."
       }, 
-      "feudal": {
-        "word_definition": "relating to a system where vassals are protected by lords", 
+      "welfare": {
+        "word_definition": "something that aids or promotes well-being", 
         "word_description": "", 
-        "word_name": "feudal", 
-        "word_example": "(4) The guardian of the land of an heir who is under age shall take from it only reasonable revenues, customary dues, and  feudal services."
+        "word_name": "welfare", 
+        "word_example": "The said States hereby severally enter into a firm league of friendship with each other, for their common defense, the security of their liberties, and their mutual and general  welfare, binding themselves to assist each other, against all force offered to, or attacks made upon them, or any of them, on account of religion, sovereignty, trade, or any other pretense whatever."
       }, 
-      "tithe": {
-        "word_definition": "a levy of one tenth of something", 
+      "infest": {
+        "word_definition": "occupy in large numbers or live on a host", 
         "word_description": "", 
-        "word_name": "tithe", 
-        "word_example": "* (25) Every county, hundred, wapentake, and  tithing shall remain at its ancient rent, without increase, except the royal demesne manors."
+        "word_name": "infest", 
+        "word_example": "...the subjects thereof, against which war has been so declared, and under such regulations as shall be established by the United States in Congress assembled, unless such State be  infested by pirates, in which case vessels of war may be fitted out for that occasion, and kept so long as the danger shall continue, or until the United States..."
       }, 
-      "baron": {
-        "word_definition": "a nobleman (in various countries) of varying rank", 
+      "respective": {
+        "word_definition": "considered individually", 
         "word_description": "", 
-        "word_name": "baron", 
-        "word_example": "JOHN, by the grace of God King of England, Lord of Ireland, Duke of Normandy and Aquitaine, and Count of Anjou, to his archbishops, bishops, abbots, earls,  barons, justices, foresters, sheriffs, stewards, servants, and to all his officials and loyal subjects, Greeting."
+        "word_name": "respective", 
+        "word_example": "...sixth article -- of sending and receiving ambassadors -- entering into treaties and alliances, provided that no treaty of commerce shall be made whereby the legislative power of the  respective States shall be restrained from imposing such imposts and duties on foreigners, as their own people are subjected to, or from prohibiting the exportation or importation of any species..."
       }, 
-      "reverend": {
-        "word_definition": "worthy of adoration or reverence", 
+      "imposition": {
+        "word_definition": "the act of enforcing something ", 
         "word_description": "", 
-        "word_name": "reverend", 
-        "word_example": "...those of our ancestors and heirs, to the honour of God, the exaltation of the holy Church, and the better ordering of our kingdom, at the advice of our  reverend fathers Stephen, archbishop of Canterbury, primate of all England, and cardinal of the holy Roman Church, Henry archbishop of Dublin, William bishop of London, Peter bishop of Winchester, Jocelin..."
+        "word_name": "imposition", 
+        "word_example": "...each State shall free ingress and regress to and from any other State, and shall enjoy therein all the privileges of trade and commerce, subject to the same duties,  impositions, and restrictions as the inhabitants thereof respectively, provided that such restrictions shall not extend so far as to prevent the removal of property imported into any State, to any..."
       }, 
-      "irrevocably": {
-        "word_definition": "in a manner that cannot be taken back", 
+      "grant": {
+        "word_definition": "let have", 
         "word_description": "", 
-        "word_name": "irrevocably", 
-        "word_example": "*(48) All evil customs relating to forests and warrens, foresters, warreners, sheriffs and their servants, or river-banks and their wardens, are at once to be investigated in every county by twelve sworn knights of the county, and within forty days of their enquiry the evil customs are to be abolished completely and  irrevocably."
+        "word_name": "grant", 
+        "word_example": "...any present, emolument, office or title of any kind whatever from any King, Prince or foreign State; nor shall the United States in Congress assembled, or any of them,  grant any title of nobility."
       }, 
-      "suffice": {
-        "word_definition": "be adequate, either in quality or quantity", 
+      "piracy": {
+        "word_definition": "hijacking on the high seas or in similar contexts", 
         "word_description": "", 
-        "word_name": "suffice", 
-        "word_example": "(19) If any assizes cannot be taken on the day of the county court, as many knights and freeholders shall afterwards remain behind, of those who have attended the court, as will  suffice for the administration of justice, having regard to the volume of business to be done."
+        "word_name": "piracy", 
+        "word_example": "...service of the United States shall be divided or appropriated -- of granting letters of marque and reprisal in times of peace -- appointing courts for the trial of  piracies and felonies commited on the high seas and establishing courts for receiving and determining finally appeals in all cases of captures, provided that no member of Congress shall be..."
       }, 
-      "papal": {
-        "word_definition": "proceeding from the head of the Roman Catholic Church", 
+      "jurisdiction": {
+        "word_definition": "the territory within which power can be exercised", 
         "word_description": "", 
-        "word_name": "papal", 
-        "word_example": "...Jocelin bishop of Bath and Glastonbury, Hugh bishop of Lincoln, Walter bishop of Worcester, William bishop of Coventry, Benedict bishop of Rochester, Master Pandulf subdeacon and member of the  papal household, Brother Aymeric master of the knighthood of the Temple in England, William Marshal earl of Pembroke, William earl of Salisbury, William earl of Warren, William earl of Arundel,..."
+        "word_name": "jurisdiction", 
+        "word_example": "Each state retains its sovereignty, freedom, and independence, and every power,  jurisdiction, and right, which is not by this Confederation expressly delegated to the United States, in Congress assembled."
       }, 
-      "inquisition": {
-        "word_definition": "a severe interrogation", 
+      "requisition": {
+        "word_definition": "an authoritative request or demand", 
         "word_description": "", 
-        "word_name": "inquisition", 
-        "word_example": "(36) In future nothing shall be paid or accepted for the issue of a writ of  inquisition of life or limbs."
+        "word_name": "requisition", 
+        "word_example": "...account of the sums of money so borrowed or emitted -- to build and equip a navy -- to agree upon the number of land forces, and to make  requisitions from each State for its quota, in proportion to the number of white inhabitants in such State; which  requisition shall be binding, and thereupon the legislature of each State..."
       }, 
-      "levy": {
-        "word_definition": "impose and collect", 
+      "defray": {
+        "word_definition": "bear the expenses of", 
         "word_description": "", 
-        "word_name": "levy", 
-        "word_example": "* (12) No 'scutage' or 'aid' may be  levied in our kingdom without its general consent, unless it is for the ransom of our person, to make our eldest son a knight, and (once) to marry our eldest daughter."
+        "word_name": "defray", 
+        "word_example": "...charges of war, and all other expenses that shall be incurred for the common defense or general welfare, and allowed by the United States in Congress assembled, shall be  defrayed out of a common treasury, which shall be supplied by the several States in proportion to the value of all land within each State, granted or surveyed for any..."
       }, 
-      "gratis": {
-        "word_definition": "costing nothing", 
+      "felony": {
+        "word_definition": "a serious crime, such as murder or arson", 
         "word_description": "", 
-        "word_name": "gratis", 
-        "word_example": "It shall be given  gratis, and not refused."
+        "word_name": "felony", 
+        "word_example": "If any person guilty of, or charged with, treason,  felony, or other high misdemeanor in any State, shall flee from justice, and be found in any of the United States, he shall, upon demand of the Governor or executive power of the State from which he fled, be delivered up and removed to the State having jurisdiction of his offense."
       }, 
-      "exaltation": {
-        "word_definition": "the elevation of a person, as to the status of a god", 
+      "sovereignty": {
+        "word_definition": "the authority of a state to govern another state", 
         "word_description": "", 
-        "word_name": "exaltation", 
-        "word_example": "KNOW THAT BEFORE GOD, for the health of our soul and those of our ancestors and heirs, to the honour of God, the  exaltation of the holy Church, and the better ordering of our kingdom, at the advice of our reverend fathers Stephen, archbishop of Canterbury, primate of all England, and cardinal of..."
+        "word_name": "sovereignty", 
+        "word_example": "Each state retains its  sovereignty, freedom, and independence, and every power, jurisdiction, and right, which is not by this Confederation expressly delegated to the United States, in Congress assembled."
       }, 
-      "tenure": {
-        "word_definition": "the term during which some position is held", 
+      "delegate": {
+        "word_definition": "a person appointed or elected to represent others", 
         "word_description": "", 
-        "word_name": "tenure", 
-        "word_example": "(46) All barons who have founded abbeys, and have charters of English kings or ancient  tenure as evidence of this, may have guardianship of them when there is no abbot, as is their due."
+        "word_name": "delegate", 
+        "word_example": "Each state retains its sovereignty, freedom, and independence, and every power, jurisdiction, and right, which is not by this Confederation expressly  delegated to the United States, in Congress assembled."
       }, 
-      "heir": {
-        "word_definition": "a person entitled by law to inherit the estate of another", 
+      "legislature": {
+        "word_definition": "an assembly that makes, amends, or repeals laws", 
         "word_description": "", 
-        "word_name": "heir", 
-        "word_example": "KNOW THAT BEFORE GOD, for the health of our soul and those of our ancestors and  heirs, to the honour of God, the exaltation of the holy Church, and the better ordering of our kingdom, at the advice of our reverend fathers Stephen, archbishop of Canterbury,..."
+        "word_name": "legislature", 
+        "word_example": "For the most convenient management of the general interests of the United States, delegates shall be annually appointed in such manner as the  legislatures of each State shall direct, to meet in Congress on the first Monday in November, in every year, with a powerreserved to each State to recall its delegates, or any of them, at any time within the year, and to send others in their stead for the remainder of the year."
       }, 
-      "procure": {
-        "word_definition": "get by special effort", 
+      "affix": {
+        "word_definition": "attach to", 
         "word_description": "", 
-        "word_name": "procure", 
-        "word_example": "We will not seek to  procure from anyone, either by our own efforts or those of a third party, anything by which any part of these concessions or liberties might be revoked or diminished."
+        "word_name": "affix", 
+        "word_example": "To all to whom these Presents shall come, we the undersigned Delegates of the States  affixed to our Names send greeting."
       }, 
-      "respite": {
-        "word_definition": "a pause from doing something", 
+      "respectively": {
+        "word_definition": "in the order given", 
         "word_description": "", 
-        "word_name": "respite", 
-        "word_example": "In cases, however, where a man was deprived or dispossessed of something without the lawful judgment of his equals by our father King Henry or our brother King Richard, and it remains in our hands or is held by others under our warranty, we shall have  respite for the period commonly allowed to Crusaders, unless a lawsuit had been begun, or an enquiry had been made at our order, before we took the Cross as a Crusader."
+        "word_name": "respectively", 
+        "word_example": "...to and from any other State, and shall enjoy therein all the privileges of trade and commerce, subject to the same duties, impositions, and restrictions as the inhabitants thereof  respectively, provided that such restrictions shall not extend so far as to prevent the removal of property imported into any State, to any other State, of which the owner is..."
       }, 
-      "assail": {
-        "word_definition": "attack someone physically or emotionally", 
+      "equipped": {
+        "word_definition": "provided with whatever is necessary for a purpose", 
         "word_description": "", 
-        "word_name": "assail", 
-        "word_example": "...which the offence was declared to us or to him, the four barons shall refer the matter to the rest of the twenty-five barons, who may distrain upon and  assail us in every way possible, with the support of the whole community of the land, by seizing our castles, lands, possessions, or anything else saving only our own person..."
+        "word_name": "equipped", 
+        "word_example": "...raise the men and cloath, arm and equip them in a solid-like manner, at the expense of the United States; and the officers and men so cloathed, armed and  equipped shall march to the place appointed, and within the time agreed on by the United States in Congress assembled."
       }, 
-      "ward": {
-        "word_definition": "a person who is under the protection of another", 
+      "quota": {
+        "word_definition": "a prescribed number", 
         "word_description": "", 
-        "word_name": "ward", 
-        "word_example": "(3) But if the heir of such a person is under age and a  ward, when he comes of age he shall have his inheritance without 'relief' or fine."
+        "word_name": "quota", 
+        "word_example": "...so borrowed or emitted -- to build and equip a navy -- to agree upon the number of land forces, and to make requisitions from each State for its  quota, in proportion to the number of white inhabitants in such State; which requisition shall be binding, and thereupon the legislature of each State shall appoint the regimental officers, raise..."
       }, 
-      "prudent": {
-        "word_definition": "marked by sound judgment", 
+      "regress": {
+        "word_definition": "go back to a previous state", 
         "word_description": "", 
-        "word_name": "prudent", 
-        "word_example": "If we have given the guardianship of the land to a sheriff, or to any person answerable to us for the revenues, and he commits destruction or damage, we will exact compensation from him, and the land shall be entrusted to two worthy and  prudent men of the same 'fee', who shall be answerable to us for the revenues, or to the person to whom we have assigned them."
+        "word_name": "regress", 
+        "word_example": "...fugitives from justice excepted, shall be entitled to all privileges and immunities of free citizens in the several States; and the people of each State shall free ingress and  regress to and from any other State, and shall enjoy therein all the privileges of trade and commerce, subject to the same duties, impositions, and restrictions as the inhabitants thereof..."
       }, 
-      "debtor": {
-        "word_definition": "a person who owes a creditor", 
+      "adjourn": {
+        "word_definition": "close at the end of a session", 
         "word_description": "", 
-        "word_name": "debtor", 
-        "word_example": "(9) Neither we nor our officials will seize any land or rent in payment of a debt, so long as the  debtor has movable goods sufficient to discharge the debt."
+        "word_name": "adjourn", 
+        "word_example": "...raised, nor appoint a commander in chief of the army or navy, unless nine States assent to the same: nor shall a question on any other point, except for  adjourning from day to day be determined, unless by the votes of the majority of the United States in Congress assembled."
       }, 
-      "utmost": {
-        "word_definition": "highest in extent or degree", 
+      "constituent": {
+        "word_definition": "one of the individual parts making up a composite entity", 
         "word_description": "", 
-        "word_name": "utmost", 
-        "word_example": "Any man who so desires may take an oath to obey the commands of the twenty-five barons for the achievement of these ends, and to join with them in assailing us to the  utmost of his power."
+        "word_name": "constituent", 
+        "word_example": "...the undersigned delegates, by virtue of the power and authority to us given for that purpose, do by these presents, in the name and in behalf of our respective  constituents, fully and entirely ratify and confirm each and every of the said Articles of Confederation and perpetual Union, and all and singular the matters and things therein contained: And..."
       }, 
-      "pertain": {
-        "word_definition": "be relevant to", 
+      "requisite": {
+        "word_definition": "necessary for relief or supply", 
         "word_description": "", 
-        "word_name": "pertain", 
-        "word_example": "(5) For so long as a guardian has guardianship of such land, he shall maintain the houses, parks, fish preserves, ponds, mills, and everything else  pertaining to it, from the revenues of the land itself."
+        "word_name": "requisite", 
+        "word_example": "...forces be kept up by any State in time of peace, except such number only, as in the judgement of the United States in Congress assembled, shall be deemed  requisite to garrison the forts necessary for the defense of such State; but every State shall always keep up a well-regulated and disciplined militia, sufficiently armed and accoutered, and shall..."
       }, 
-      "ecclesiastical": {
-        "word_definition": "of or associated with a church", 
+      "transcript": {
+        "word_definition": "a reproduction of a written record", 
         "word_description": "", 
-        "word_name": "ecclesiastical", 
-        "word_example": "(22) A fine imposed upon the lay property of a clerk in holy orders shall be assessed upon the same principles, without reference to the value of his  ecclesiastical benefice."
+        "word_name": "transcript", 
+        "word_example": "...be entered on the journal, when it is desired by any delegates of a State, or any of them, at his or their request shall be furnished with a  transcript of the said journal, except such parts as are above excepted, to lay before the legislatures of the several States."
       }, 
-      "remit": {
-        "word_definition": "send in payment", 
+      "appoint": {
+        "word_definition": "assign a duty, responsibility or obligation to", 
         "word_description": "", 
-        "word_name": "remit", 
-        "word_example": "* (55) All fines that have been given to us unjustly and against the law of the land, and all fines that we have exacted unjustly, shall be entirely  remitted or the matter decided by a majority judgment of the twenty-five barons referred to below in the clause for securing the peace (\u00a761) together with Stephen, archbishop of Canterbury, if he can be present, and such others as he wishes to bring with him."
+        "word_name": "appoint", 
+        "word_example": "For the most convenient management of the general interests of the United States, delegates shall be annually  appointed in such manner as the legislatures of each State shall direct, to meet in Congress on the first Monday in November, in every year, with a powerreserved to each State to recall its delegates, or any of them, at any time within the year, and to send others in their stead for the remainder of the year."
       }, 
-      "perpetuity": {
-        "word_definition": "the property of being seemingly ceaseless", 
+      "antecedent": {
+        "word_definition": "a preceding occurrence or cause or event", 
         "word_description": "", 
-        "word_name": "perpetuity", 
-        "word_example": "+ (1) FIRST, THAT WE HAVE GRANTED TO GOD, and by this present charter have confirmed for us and our heirs in  perpetuity, that the English Church shall be free, and shall have its rights undiminished, and its liberties unimpaired."
+        "word_name": "antecedent", 
+        "word_example": "...may respect such lands, and the States which passed such grants are adjusted, the said grants or either of them being at the same time claimed to have originated  antecedent to such settlement of jurisdiction, shall on the petition of either party to the Congress of the United States, be finally determined as near as may be in the..."
       }, 
-      "executor": {
-        "word_definition": "a person appointed to carry out the terms of the will", 
+      "perpetual": {
+        "word_definition": "continuing forever or indefinitely", 
         "word_description": "", 
-        "word_name": "executor", 
-        "word_example": "Nothing shall be removed until the whole debt is paid, when the residue shall be given over to the  executors to carry out the dead man\u2019s will."
+        "word_name": "perpetual", 
+        "word_example": "Articles of Confederation and  perpetual Union between the states of New Hampshire, Massachusetts-bay Rhode Island and Providence Plantations, Connecticut, New York, New Jersey, Pennsylvania, Delaware, Maryland, Virginia, North Carolina, South Carolina and Georgia."
       }, 
-      "irrespective": {
-        "word_definition": "in spite of everything; without regard to drawbacks", 
+      "alteration": {
+        "word_definition": "the act of revising", 
         "word_description": "", 
-        "word_name": "irrespective", 
-        "word_example": "* (10) If anyone who has borrowed a sum of money from Jews dies before the debt has been repaid, his heir shall pay no interest on the debt for so long as he remains under age,  irrespective of whom he holds his lands."
+        "word_name": "alteration", 
+        "word_example": "And the Articles of this Confederation shall be inviolably observed by every State, and the Union shall be perpetual; nor shall any  alteration at any time hereafter be made in any of them; unless such  alteration be agreed to in a Congress of the United States, and be afterwards confirmed by the legislatures of every State."
       }, 
-      "concession": {
-        "word_definition": "the act of yielding", 
+      "treaty": {
+        "word_definition": "a written agreement between two states or sovereigns", 
         "word_description": "", 
-        "word_name": "concession", 
-        "word_example": "We will not seek to procure from anyone, either by our own efforts or those of a third party, anything by which any part of these  concessions or liberties might be revoked or diminished."
+        "word_name": "treaty", 
+        "word_example": "...State, without the consent of the United States in Congress assembled, shall send any embassy to, or receive any embassy from, or enter into any conference, agreement, alliance or  treaty with any King, Prince or State; nor shall any person holding any office of profit or trust under the United States, or any of them, accept any present, emolument,..."
       }, 
-      "transgress": {
-        "word_definition": "act in disregard of laws, rules, contracts, or promises", 
+      "infringe": {
+        "word_definition": "advance beyond the usual limit", 
         "word_description": "", 
-        "word_name": "transgress", 
-        "word_example": "If we, our chief justice, our officials, or any of our servants offend in any respect against any man, or  transgress any of the articles of the peace or of this security, and the offence is made known to four of the said twenty-five barons, they shall come to us - or in our absence from the kingdom to the chief justice - to declare it and claim immediate redress."
+        "word_name": "infringe", 
+        "word_example": "...trade and managing all affairs with the Indians, not members of any of the States, provided that the legislative right of any State within its own limits be not  infringed or violated -- establishing or regulating post offices from one State to another, throughout all the United States, and exacting such postage on the papers passing through the same..."
+      }, 
+      "ratification": {
+        "word_definition": "making something valid by formally confirming it", 
+        "word_description": "", 
+        "word_name": "ratification", 
+        "word_example": "Agreed to by Congress 15 November 1777 In force after  ratification by Maryland, 1 March 1781"
+      }, 
+      "emolument": {
+        "word_definition": "compensation received by virtue of holding an office", 
+        "word_description": "", 
+        "word_name": "emolument", 
+        "word_example": "No State shall be represented in Congress by less than two, nor more than seven members; and no person shall be capable of being a delegate for more than three years in any term of six years; nor shall any person, being a delegate, be capable of holding any office under the United States, for which he, or another for his benefit, receives any salary, fees or  emolument of any kind."
+      }, 
+      "inviolable": {
+        "word_definition": "incapable of being transgressed or dishonored", 
+        "word_description": "", 
+        "word_name": "inviolable", 
+        "word_example": "And the Articles of this Confederation shall be  inviolably observed by every State, and the Union shall be perpetual; nor shall any alteration at any time hereafter be made in any of them; unless such alteration be agreed to in a Congress of the United States, and be afterwards confirmed by the legislatures of every State."
+      }, 
+      "alloy": {
+        "word_definition": "a mixture containing two or more metallic elements", 
+        "word_description": "", 
+        "word_name": "alloy", 
+        "word_example": "The United States in Congress assembled shall also have the sole and exclusive right and power of regulating the  alloy and value of coin struck by their own authority, or by that of the respective States -- fixing the standards of weights and measures throughout the United States --..."
+      }, 
+      "importation": {
+        "word_definition": "the commercial activity of buying goods from another country", 
+        "word_description": "", 
+        "word_name": "importation", 
+        "word_example": "...power of the respective States shall be restrained from imposing such imposts and duties on foreigners, as their own people are subjected to, or from prohibiting the exportation or  importation of any species of goods or commodities whatsoever -- of establishing rules for deciding in all cases, what captures on land or water shall be legal, and in what..."
+      }, 
+      "emit": {
+        "word_definition": "give off, send forth, or discharge", 
+        "word_description": "", 
+        "word_name": "emit", 
+        "word_example": "...of money to be raised for the service of the United States, and to appropriate and apply the same for defraying the public expenses -- to borrow money, or  emit bills on the credit of the United States, transmitting every half-year to the respective States an account of the sums of money so borrowed or  emitted -- to build..."
+      }, 
+      "confederation": {
+        "word_definition": "the state of being allied", 
+        "word_description": "", 
+        "word_name": "confederation", 
+        "word_example": "No two or more States shall enter into any treaty,  confederation or alliance whatever between them, without the consent of the United States in Congress assembled, specifying accurately the purposes for which the same is to be entered into, and how long it shall continue."
+      }, 
+      "exacting": {
+        "word_definition": "severe and unremitting in making demands", 
+        "word_description": "", 
+        "word_name": "exacting", 
+        "word_example": "...of any State within its own limits be not infringed or violated -- establishing or regulating post offices from one State to another, throughout all the United States, and  exacting such postage on the papers passing through the same as may be requisite to defray the expenses of the said office -- appointing all officers of the land forces,..."
       }
     }, 
-    "list_href": "/lists/687059", 
-    "list_detailed_description": "The Magna Carta, signed in 1215, is 800 years old on June 15, 2015. The Magna Carta settled the rebellion of some barons against the king. Although some of the language is still obscure, the document is widely credited as being the first statement of individual rights under kingly rule. Among other things, it put a limit on payments that could be made to a king and ensured swift justice, guaranteed by a board of peers, in this case 25 barons. Here are 35 words from the English translation of the original Latin of this document that is the forerunner of democratic expressions like the Declaration of Independence."
+    "list_href": "/lists/1050435", 
+    "list_detailed_description": "Just as \"history is written by the winners,\" the historical record often skips over missteps or mistakes made by those same winners. The Articles of Confederation were the founding fathers' first attempt at establishing an central alliance of all the different states in 1777. Although a valiant effort, the provisions laid down in this document didn't quite work the way the writers wanted them to, and they soon realized they had to start again with a new document. That second try is known as The Constitution, and it endures to this day. Here are 43 vocabulary words from The Articles of Confederation. The entire document is available \n"
   }, 
   "Declaration of the Rights of Woman (1791)": {
     "list_brief_description": "The full title of this declaration includes a focus on citizenship, and it was published two years after the declaration of rights for men and immediately after...", 
@@ -1855,272 +2157,6 @@
     "list_href": "/lists/1647078", 
     "list_detailed_description": "Robert E. Lee's farewell to the Army of Northern Virginia was delivered at Appomattox Court House on April 10, 1865, one day after the surrender that effectively ended the Civil War. The speech is brief and eloquent. Lee thanks his men for their sacrifice and explains that the outcome is not due to their performance. For more on this speech and its important words, \n"
   }, 
-  "Vocabulary from The Articles of Confederation": {
-    "list_brief_description": "Just as \"history is written by the winners,\" the historical record often skips over missteps or mistakes made by those same winners. The Articles of Confederati...", 
-    "list_num": "43 Words", 
-    "list_detailed_info": {
-      "ingress": {
-        "word_definition": "the act of entering", 
-        "word_description": "", 
-        "word_name": "ingress", 
-        "word_example": "...vagabonds, and fugitives from justice excepted, shall be entitled to all privileges and immunities of free citizens in the several States; and the people of each State shall free  ingress and regress to and from any other State, and shall enjoy therein all the privileges of trade and commerce, subject to the same duties, impositions, and restrictions as the..."
-      }, 
-      "alliance": {
-        "word_definition": "the state of being confederated", 
-        "word_description": "", 
-        "word_name": "alliance", 
-        "word_example": "No State, without the consent of the United States in Congress assembled, shall send any embassy to, or receive any embassy from, or enter into any conference, agreement,  alliance or treaty with any King, Prince or State; nor shall any person holding any office of profit or trust under the United States, or any of them, accept any..."
-      }, 
-      "ratify": {
-        "word_definition": "approve and express assent, responsibility, or obligation", 
-        "word_description": "", 
-        "word_name": "ratify", 
-        "word_example": "And Whereas it hath pleased the Great Governor of the World to incline the hearts of the legislatures we respectively represent in Congress, to approve of, and to authorize us to  ratify the said Articles of Confederation and perpetual Union."
-      }, 
-      "misdemeanor": {
-        "word_definition": "a crime less serious than a felony", 
-        "word_description": "", 
-        "word_name": "misdemeanor", 
-        "word_example": "If any person guilty of, or charged with, treason, felony, or other high  misdemeanor in any State, shall flee from justice, and be found in any of the United States, he shall, upon demand of the Governor or executive power of the State from which he fled, be delivered up and removed to the State having jurisdiction of his offense."
-      }, 
-      "reprisal": {
-        "word_definition": "a retaliatory action against an enemy in wartime", 
-        "word_description": "", 
-        "word_name": "reprisal", 
-        "word_example": "...delay till the United States in Congress assembled can be consulted; nor shall any State grant commissions to any ships or vessels of war, nor letters of marque or  reprisal, except it be after a declaration of war by the United States in Congress assembled, and then only against the Kingdom or State and the subjects thereof, against which..."
-      }, 
-      "stipulation": {
-        "word_definition": "an agreement made by parties in a judicial proceeding", 
-        "word_description": "", 
-        "word_name": "stipulation", 
-        "word_example": "No State shall lay any imposts or duties, which may interfere with any  stipulations in treaties, entered into by the United States in Congress assembled, with any King, Prince or State, in pursuance of any treaties already proposed by Congress, to the courts of France and Spain."
-      }, 
-      "recess": {
-        "word_definition": "a state of abeyance or suspended business", 
-        "word_description": "", 
-        "word_name": "recess", 
-        "word_example": "The United States in Congress assembled shall have authority to appoint a committee, to sit in the  recess of Congress, to be denominated 'A Committee of the States', and to consist of one delegate from each State; and to appoint such other committees and civil officers as..."
-      }, 
-      "welfare": {
-        "word_definition": "something that aids or promotes well-being", 
-        "word_description": "", 
-        "word_name": "welfare", 
-        "word_example": "The said States hereby severally enter into a firm league of friendship with each other, for their common defense, the security of their liberties, and their mutual and general  welfare, binding themselves to assist each other, against all force offered to, or attacks made upon them, or any of them, on account of religion, sovereignty, trade, or any other pretense whatever."
-      }, 
-      "infest": {
-        "word_definition": "occupy in large numbers or live on a host", 
-        "word_description": "", 
-        "word_name": "infest", 
-        "word_example": "...the subjects thereof, against which war has been so declared, and under such regulations as shall be established by the United States in Congress assembled, unless such State be  infested by pirates, in which case vessels of war may be fitted out for that occasion, and kept so long as the danger shall continue, or until the United States..."
-      }, 
-      "respective": {
-        "word_definition": "considered individually", 
-        "word_description": "", 
-        "word_name": "respective", 
-        "word_example": "...sixth article -- of sending and receiving ambassadors -- entering into treaties and alliances, provided that no treaty of commerce shall be made whereby the legislative power of the  respective States shall be restrained from imposing such imposts and duties on foreigners, as their own people are subjected to, or from prohibiting the exportation or importation of any species..."
-      }, 
-      "imposition": {
-        "word_definition": "the act of enforcing something ", 
-        "word_description": "", 
-        "word_name": "imposition", 
-        "word_example": "...each State shall free ingress and regress to and from any other State, and shall enjoy therein all the privileges of trade and commerce, subject to the same duties,  impositions, and restrictions as the inhabitants thereof respectively, provided that such restrictions shall not extend so far as to prevent the removal of property imported into any State, to any..."
-      }, 
-      "grant": {
-        "word_definition": "let have", 
-        "word_description": "", 
-        "word_name": "grant", 
-        "word_example": "...any present, emolument, office or title of any kind whatever from any King, Prince or foreign State; nor shall the United States in Congress assembled, or any of them,  grant any title of nobility."
-      }, 
-      "piracy": {
-        "word_definition": "hijacking on the high seas or in similar contexts", 
-        "word_description": "", 
-        "word_name": "piracy", 
-        "word_example": "...service of the United States shall be divided or appropriated -- of granting letters of marque and reprisal in times of peace -- appointing courts for the trial of  piracies and felonies commited on the high seas and establishing courts for receiving and determining finally appeals in all cases of captures, provided that no member of Congress shall be..."
-      }, 
-      "jurisdiction": {
-        "word_definition": "the territory within which power can be exercised", 
-        "word_description": "", 
-        "word_name": "jurisdiction", 
-        "word_example": "Each state retains its sovereignty, freedom, and independence, and every power,  jurisdiction, and right, which is not by this Confederation expressly delegated to the United States, in Congress assembled."
-      }, 
-      "requisition": {
-        "word_definition": "an authoritative request or demand", 
-        "word_description": "", 
-        "word_name": "requisition", 
-        "word_example": "...account of the sums of money so borrowed or emitted -- to build and equip a navy -- to agree upon the number of land forces, and to make  requisitions from each State for its quota, in proportion to the number of white inhabitants in such State; which  requisition shall be binding, and thereupon the legislature of each State..."
-      }, 
-      "defray": {
-        "word_definition": "bear the expenses of", 
-        "word_description": "", 
-        "word_name": "defray", 
-        "word_example": "...charges of war, and all other expenses that shall be incurred for the common defense or general welfare, and allowed by the United States in Congress assembled, shall be  defrayed out of a common treasury, which shall be supplied by the several States in proportion to the value of all land within each State, granted or surveyed for any..."
-      }, 
-      "felony": {
-        "word_definition": "a serious crime, such as murder or arson", 
-        "word_description": "", 
-        "word_name": "felony", 
-        "word_example": "If any person guilty of, or charged with, treason,  felony, or other high misdemeanor in any State, shall flee from justice, and be found in any of the United States, he shall, upon demand of the Governor or executive power of the State from which he fled, be delivered up and removed to the State having jurisdiction of his offense."
-      }, 
-      "sovereignty": {
-        "word_definition": "the authority of a state to govern another state", 
-        "word_description": "", 
-        "word_name": "sovereignty", 
-        "word_example": "Each state retains its  sovereignty, freedom, and independence, and every power, jurisdiction, and right, which is not by this Confederation expressly delegated to the United States, in Congress assembled."
-      }, 
-      "delegate": {
-        "word_definition": "a person appointed or elected to represent others", 
-        "word_description": "", 
-        "word_name": "delegate", 
-        "word_example": "Each state retains its sovereignty, freedom, and independence, and every power, jurisdiction, and right, which is not by this Confederation expressly  delegated to the United States, in Congress assembled."
-      }, 
-      "legislature": {
-        "word_definition": "an assembly that makes, amends, or repeals laws", 
-        "word_description": "", 
-        "word_name": "legislature", 
-        "word_example": "For the most convenient management of the general interests of the United States, delegates shall be annually appointed in such manner as the  legislatures of each State shall direct, to meet in Congress on the first Monday in November, in every year, with a powerreserved to each State to recall its delegates, or any of them, at any time within the year, and to send others in their stead for the remainder of the year."
-      }, 
-      "affix": {
-        "word_definition": "attach to", 
-        "word_description": "", 
-        "word_name": "affix", 
-        "word_example": "To all to whom these Presents shall come, we the undersigned Delegates of the States  affixed to our Names send greeting."
-      }, 
-      "respectively": {
-        "word_definition": "in the order given", 
-        "word_description": "", 
-        "word_name": "respectively", 
-        "word_example": "...to and from any other State, and shall enjoy therein all the privileges of trade and commerce, subject to the same duties, impositions, and restrictions as the inhabitants thereof  respectively, provided that such restrictions shall not extend so far as to prevent the removal of property imported into any State, to any other State, of which the owner is..."
-      }, 
-      "equipped": {
-        "word_definition": "provided with whatever is necessary for a purpose", 
-        "word_description": "", 
-        "word_name": "equipped", 
-        "word_example": "...raise the men and cloath, arm and equip them in a solid-like manner, at the expense of the United States; and the officers and men so cloathed, armed and  equipped shall march to the place appointed, and within the time agreed on by the United States in Congress assembled."
-      }, 
-      "quota": {
-        "word_definition": "a prescribed number", 
-        "word_description": "", 
-        "word_name": "quota", 
-        "word_example": "...so borrowed or emitted -- to build and equip a navy -- to agree upon the number of land forces, and to make requisitions from each State for its  quota, in proportion to the number of white inhabitants in such State; which requisition shall be binding, and thereupon the legislature of each State shall appoint the regimental officers, raise..."
-      }, 
-      "regress": {
-        "word_definition": "go back to a previous state", 
-        "word_description": "", 
-        "word_name": "regress", 
-        "word_example": "...fugitives from justice excepted, shall be entitled to all privileges and immunities of free citizens in the several States; and the people of each State shall free ingress and  regress to and from any other State, and shall enjoy therein all the privileges of trade and commerce, subject to the same duties, impositions, and restrictions as the inhabitants thereof..."
-      }, 
-      "adjourn": {
-        "word_definition": "close at the end of a session", 
-        "word_description": "", 
-        "word_name": "adjourn", 
-        "word_example": "...raised, nor appoint a commander in chief of the army or navy, unless nine States assent to the same: nor shall a question on any other point, except for  adjourning from day to day be determined, unless by the votes of the majority of the United States in Congress assembled."
-      }, 
-      "constituent": {
-        "word_definition": "one of the individual parts making up a composite entity", 
-        "word_description": "", 
-        "word_name": "constituent", 
-        "word_example": "...the undersigned delegates, by virtue of the power and authority to us given for that purpose, do by these presents, in the name and in behalf of our respective  constituents, fully and entirely ratify and confirm each and every of the said Articles of Confederation and perpetual Union, and all and singular the matters and things therein contained: And..."
-      }, 
-      "requisite": {
-        "word_definition": "necessary for relief or supply", 
-        "word_description": "", 
-        "word_name": "requisite", 
-        "word_example": "...forces be kept up by any State in time of peace, except such number only, as in the judgement of the United States in Congress assembled, shall be deemed  requisite to garrison the forts necessary for the defense of such State; but every State shall always keep up a well-regulated and disciplined militia, sufficiently armed and accoutered, and shall..."
-      }, 
-      "transcript": {
-        "word_definition": "a reproduction of a written record", 
-        "word_description": "", 
-        "word_name": "transcript", 
-        "word_example": "...be entered on the journal, when it is desired by any delegates of a State, or any of them, at his or their request shall be furnished with a  transcript of the said journal, except such parts as are above excepted, to lay before the legislatures of the several States."
-      }, 
-      "appoint": {
-        "word_definition": "assign a duty, responsibility or obligation to", 
-        "word_description": "", 
-        "word_name": "appoint", 
-        "word_example": "For the most convenient management of the general interests of the United States, delegates shall be annually  appointed in such manner as the legislatures of each State shall direct, to meet in Congress on the first Monday in November, in every year, with a powerreserved to each State to recall its delegates, or any of them, at any time within the year, and to send others in their stead for the remainder of the year."
-      }, 
-      "antecedent": {
-        "word_definition": "a preceding occurrence or cause or event", 
-        "word_description": "", 
-        "word_name": "antecedent", 
-        "word_example": "...may respect such lands, and the States which passed such grants are adjusted, the said grants or either of them being at the same time claimed to have originated  antecedent to such settlement of jurisdiction, shall on the petition of either party to the Congress of the United States, be finally determined as near as may be in the..."
-      }, 
-      "perpetual": {
-        "word_definition": "continuing forever or indefinitely", 
-        "word_description": "", 
-        "word_name": "perpetual", 
-        "word_example": "Articles of Confederation and  perpetual Union between the states of New Hampshire, Massachusetts-bay Rhode Island and Providence Plantations, Connecticut, New York, New Jersey, Pennsylvania, Delaware, Maryland, Virginia, North Carolina, South Carolina and Georgia."
-      }, 
-      "alteration": {
-        "word_definition": "the act of revising", 
-        "word_description": "", 
-        "word_name": "alteration", 
-        "word_example": "And the Articles of this Confederation shall be inviolably observed by every State, and the Union shall be perpetual; nor shall any  alteration at any time hereafter be made in any of them; unless such  alteration be agreed to in a Congress of the United States, and be afterwards confirmed by the legislatures of every State."
-      }, 
-      "treaty": {
-        "word_definition": "a written agreement between two states or sovereigns", 
-        "word_description": "", 
-        "word_name": "treaty", 
-        "word_example": "...State, without the consent of the United States in Congress assembled, shall send any embassy to, or receive any embassy from, or enter into any conference, agreement, alliance or  treaty with any King, Prince or State; nor shall any person holding any office of profit or trust under the United States, or any of them, accept any present, emolument,..."
-      }, 
-      "infringe": {
-        "word_definition": "advance beyond the usual limit", 
-        "word_description": "", 
-        "word_name": "infringe", 
-        "word_example": "...trade and managing all affairs with the Indians, not members of any of the States, provided that the legislative right of any State within its own limits be not  infringed or violated -- establishing or regulating post offices from one State to another, throughout all the United States, and exacting such postage on the papers passing through the same..."
-      }, 
-      "ratification": {
-        "word_definition": "making something valid by formally confirming it", 
-        "word_description": "", 
-        "word_name": "ratification", 
-        "word_example": "Agreed to by Congress 15 November 1777 In force after  ratification by Maryland, 1 March 1781"
-      }, 
-      "emolument": {
-        "word_definition": "compensation received by virtue of holding an office", 
-        "word_description": "", 
-        "word_name": "emolument", 
-        "word_example": "No State shall be represented in Congress by less than two, nor more than seven members; and no person shall be capable of being a delegate for more than three years in any term of six years; nor shall any person, being a delegate, be capable of holding any office under the United States, for which he, or another for his benefit, receives any salary, fees or  emolument of any kind."
-      }, 
-      "inviolable": {
-        "word_definition": "incapable of being transgressed or dishonored", 
-        "word_description": "", 
-        "word_name": "inviolable", 
-        "word_example": "And the Articles of this Confederation shall be  inviolably observed by every State, and the Union shall be perpetual; nor shall any alteration at any time hereafter be made in any of them; unless such alteration be agreed to in a Congress of the United States, and be afterwards confirmed by the legislatures of every State."
-      }, 
-      "alloy": {
-        "word_definition": "a mixture containing two or more metallic elements", 
-        "word_description": "", 
-        "word_name": "alloy", 
-        "word_example": "The United States in Congress assembled shall also have the sole and exclusive right and power of regulating the  alloy and value of coin struck by their own authority, or by that of the respective States -- fixing the standards of weights and measures throughout the United States --..."
-      }, 
-      "importation": {
-        "word_definition": "the commercial activity of buying goods from another country", 
-        "word_description": "", 
-        "word_name": "importation", 
-        "word_example": "...power of the respective States shall be restrained from imposing such imposts and duties on foreigners, as their own people are subjected to, or from prohibiting the exportation or  importation of any species of goods or commodities whatsoever -- of establishing rules for deciding in all cases, what captures on land or water shall be legal, and in what..."
-      }, 
-      "emit": {
-        "word_definition": "give off, send forth, or discharge", 
-        "word_description": "", 
-        "word_name": "emit", 
-        "word_example": "...of money to be raised for the service of the United States, and to appropriate and apply the same for defraying the public expenses -- to borrow money, or  emit bills on the credit of the United States, transmitting every half-year to the respective States an account of the sums of money so borrowed or  emitted -- to build..."
-      }, 
-      "confederation": {
-        "word_definition": "the state of being allied", 
-        "word_description": "", 
-        "word_name": "confederation", 
-        "word_example": "No two or more States shall enter into any treaty,  confederation or alliance whatever between them, without the consent of the United States in Congress assembled, specifying accurately the purposes for which the same is to be entered into, and how long it shall continue."
-      }, 
-      "exacting": {
-        "word_definition": "severe and unremitting in making demands", 
-        "word_description": "", 
-        "word_name": "exacting", 
-        "word_example": "...of any State within its own limits be not infringed or violated -- establishing or regulating post offices from one State to another, throughout all the United States, and  exacting such postage on the papers passing through the same as may be requisite to defray the expenses of the said office -- appointing all officers of the land forces,..."
-      }
-    }, 
-    "list_href": "/lists/1050435", 
-    "list_detailed_description": "Just as \"history is written by the winners,\" the historical record often skips over missteps or mistakes made by those same winners. The Articles of Confederation were the founding fathers' first attempt at establishing an central alliance of all the different states in 1777. Although a valiant effort, the provisions laid down in this document didn't quite work the way the writers wanted them to, and they soon realized they had to start again with a new document. That second try is known as The Constitution, and it endures to this day. Here are 43 vocabulary words from The Articles of Confederation. The entire document is available \n"
-  }, 
   "Ten Words from New York Times History - Japan Surrenders - August 14, 1945": {
     "list_brief_description": "From Japan Told to Order End of Hostilities, Notify Allied Supreme Commander and Send Emissaries to Him.\r\n\r\n", 
     "list_num": "10 Words", 
@@ -2189,193 +2225,157 @@
     "list_href": "/lists/286799", 
     "list_detailed_description": "From \n"
   }, 
-  "Declaration of the Rights of Man (1789)": {
-    "list_brief_description": "Coauthored by Thomas Jefferson and General Lafayette, this declaration was approved by the National Assembly of France in 1789. Unlike the American Declaration ...", 
-    "list_num": "30 Words", 
+  "The Dred Scott Decision (1857)": {
+    "list_brief_description": "Vocabulary from this pro-slavery Supreme Court decision illuminates how it brought the nation to the brink of the Civil War. In March of 1857, Chief Justice Rog...", 
+    "list_num": "25 Words", 
     "list_detailed_info": {
-      "grievance": {
-        "word_definition": "a complaint about a wrong that causes resentment", 
+      "liberal": {
+        "word_definition": "not strictly literal or exact", 
         "word_description": "", 
-        "word_name": "grievance", 
-        "word_example": "and, lastly, in order that the  grievances of the citizens, based hereafter upon simple and incontestable principles, shall tend to the maintenance of the constitution and redound to the happiness of all."
+        "word_name": "liberal", 
+        "word_example": "No one, we presume, supposes that any change in public opinion or feeling, in relation to this unfortunate race, in the civilized nations of Europe or in this country should induce the Court to give to the words of the Constitution a more  liberal construction in their favor than they were intended to bear when the instrument was framed and adopted...."
       }, 
-      "prohibit": {
-        "word_definition": "command against", 
+      "migrate": {
+        "word_definition": "move from one country or region to another and settle there", 
         "word_description": "", 
-        "word_name": "prohibit", 
-        "word_example": "5. Law can only  prohibit such actions as are hurtful to society."
+        "word_name": "migrate", 
+        "word_example": "Taking this rule to guide us, it may be safely assumed that citizens of the United States who  migrate to a territory...cannot be ruled as mere colonists, dependent upon the will of the general government, and to be governed by any laws it may think proper to impose...."
       }, 
-      "proportion": {
-        "word_definition": "relation with respect to comparative quantity or magnitude", 
+      "abridge": {
+        "word_definition": "lessen, diminish, or curtail", 
         "word_description": "", 
-        "word_name": "proportion", 
-        "word_example": "and to fix the  proportion, the mode of assessment and of collection and the duration of the taxes."
+        "word_name": "abridge", 
+        "word_example": "For example, no one, we presume, will contend that Congress can make any law in a territory respecting the establishment of religion...or  abridging the freedom of speech or of the press...."
       }, 
-      "inflict": {
-        "word_definition": "impose something unpleasant", 
-        "word_description": "", 
-        "word_name": "inflict", 
-        "word_example": "8. The law shall provide for such punishments only as are strictly and obviously necessary, and no one shall suffer punishment except it be legally  inflicted in virtue of a law passed and promulgated before the commission of the offense."
+      "bound": {
+        "word_definition": "confined by contract", 
+        "word_description": "Obligated to is a synonym for bound to.", 
+        "word_name": "bound", 
+        "word_example": "They had for more than a century before been regarded as beings of an inferior order and altogether unfit to associate with the white race, either in social or political relations; and so far inferior that they had no rights which the white man was  bound to respect; and that the Negro might justly and lawfully be reduced to slavery for his benefit."
       }, 
-      "participate": {
-        "word_definition": "be involved in", 
+      "deprive": {
+        "word_definition": "take away", 
         "word_description": "", 
-        "word_name": "participate", 
-        "word_example": "6. Law is the expression of the general will. Every citizen has a right to  participate personally, or through his representative, in its foundation."
+        "word_name": "deprive", 
+        "word_example": "An act of Congress which  deprives a citizen of the United States of his liberty or property, without due process of law, merely because he came himself or brought his property into a particular territory of the United States...could hardly be dignified with the name of due process of law."
       }, 
-      "auspices": {
-        "word_definition": "kindly endorsement and guidance", 
-        "word_description": "", 
-        "word_name": "auspices", 
-        "word_example": "Therefore the National Assembly recognizes and proclaims, in the presence and under the  auspices of the Supreme Being, the following rights of man and of the citizen"
+      "servitude": {
+        "word_definition": "state of subjection to an owner or master", 
+        "word_description": "Involuntary servitude is a synonym for slavery.", 
+        "word_name": "servitude", 
+        "word_example": "The act of Congress, upon which the plaintiff relies, declares that slavery and involuntary  servitude, except as a punishment for crime, shall be forever prohibited in all that part of the territory ceded by France, under the name of Louisiana, which lies north of thirty-six degrees thirty minutes north latitude and not included within the limits of Missouri."
       }, 
-      "eligible": {
-        "word_definition": "qualified for or allowed or worthy of being chosen", 
-        "word_description": "", 
-        "word_name": "eligible", 
-        "word_example": "All citizens, being equal in the eyes of the law, are equally  eligible to all dignities and to all public positions and occupations, according to their abilities, and without distinction except that of their virtues and talents."
+      "cede": {
+        "word_definition": "relinquish possession or control over", 
+        "word_description": "Surrendered or transfered are synonyms for ceded.", 
+        "word_name": "cede", 
+        "word_example": "The act of Congress, upon which the plaintiff relies, declares that slavery and involuntary servitude, except as a punishment for crime, shall be forever prohibited in all that part of the territory  ceded by France, under the name of Louisiana, which lies north of thirty-six degrees thirty minutes north latitude and not included within the limits of Missouri."
       }, 
-      "indispensable": {
-        "word_definition": "absolutely necessary", 
+      "legislation": {
+        "word_definition": "law enacted by an assembly", 
         "word_description": "", 
-        "word_name": "indispensable", 
-        "word_example": "9. As all persons are held innocent until they shall have been declared guilty, if arrest shall be deemed  indispensable, all harshness not essential to the securing of the prisoner's person shall be severely repressed by law."
+        "word_name": "legislation", 
+        "word_example": "In the opinion of the Court the  legislation and histories of the times, and the language used in the Declaration of Independence, show that neither the class of persons who had been imported as slaves nor their descendants, whether they had become free or not, were then acknowledged as a part of the people nor intended to be included in the general words used in that memorable instrument...."
       }, 
-      "disquiet": {
-        "word_definition": "make uneasy or cause to be worried or alarmed", 
-        "word_description": "", 
-        "word_name": "disquiet", 
-        "word_example": "10. No one shall be  disquieted on account of his opinions, including his religious views, provided their manifestation does not disturb the public order established by law."
+      "involuntary": {
+        "word_definition": "not subject to the control of the will", 
+        "word_description": "compulsory is a synonym for involuntary.", 
+        "word_name": "involuntary", 
+        "word_example": "The act of Congress, upon which the plaintiff relies, declares that slavery and  involuntary servitude, except as a punishment for crime, shall be forever prohibited in all that part of the territory ceded by France, under the name of Louisiana, which lies north of thirty-six degrees thirty minutes north latitude and not included within the limits of Missouri."
       }, 
-      "unalienable": {
-        "word_definition": "incapable of being repudiated or transferred to another", 
-        "word_description": "", 
-        "word_name": "unalienable", 
-        "word_example": "...to set forth in a solemn declaration the natural,  unalienable, and sacred rights of man, in order that this declaration, being constantly before all the members of the Social body, shall remind them continually of their rights and duties"
+      "latitude": {
+        "word_definition": "an imaginary line around the Earth parallel to the equator", 
+        "word_description": "The act of Congress that established this latitude line was part of a larger set of agreements called the \"Missouri Compromise.\"", 
+        "word_name": "latitude", 
+        "word_example": "The act of Congress, upon which the plaintiff relies, declares that slavery and involuntary servitude, except as a punishment for crime, shall be forever prohibited in all that part of the territory ceded by France, under the name of Louisiana, which lies north of thirty-six degrees thirty minutes north  latitude and not included within the limits of Missouri."
       }, 
-      "accordingly": {
-        "word_definition": "(sentence connectors) because of the reason given", 
+      "import": {
+        "word_definition": "bring in from abroad", 
         "word_description": "", 
-        "word_name": "accordingly", 
-        "word_example": "Every citizen may,  accordingly, speak, write, and print with freedom, but shall be responsible for such abuses of this freedom as shall be defined by law."
+        "word_name": "import", 
+        "word_example": "In the opinion of the Court the legislation and histories of the times, and the language used in the Declaration of Independence, show that neither the class of persons who had been  imported as slaves nor their descendants, whether they had become free or not, were then acknowledged as a part of the people nor intended to be included in the general words used in that memorable instrument...."
       }, 
-      "sovereignty": {
-        "word_definition": "the authority of a state to govern another state", 
+      "warrant": {
+        "word_definition": "show to be reasonable or provide adequate ground for", 
         "word_description": "", 
-        "word_name": "sovereignty", 
-        "word_example": "3. The principle of all  sovereignty resides essentially in the nation."
+        "word_name": "warrant", 
+        "word_example": "Upon these considerations it is the opinion of the Court that the act of Congress which prohibited a citizen from holding and owning property of this kind in the territory of the United States north of the line therein mentioned is not  warranted by the Constitution and is therefore void. . ."
       }, 
-      "indemnify": {
-        "word_definition": "make amends for; pay compensation for", 
+      "inferior": {
+        "word_definition": "one of lesser rank or station or quality", 
         "word_description": "", 
-        "word_name": "indemnify", 
-        "word_example": "and then only on condition that the owner shall have been previously and equitably  indemnified."
+        "word_name": "inferior", 
+        "word_example": "They had for more than a century before been regarded as beings of an  inferior order and altogether unfit to associate with the white race, either in social or political relations; and so far  inferior that they had no rights which the white man was bound to respect; and that the Negro might justly and lawfully be reduced to slavery for his benefit."
       }, 
-      "advantage": {
-        "word_definition": "the quality of having a superior or more favorable position", 
+      "associate": {
+        "word_definition": "keep company with", 
         "word_description": "", 
-        "word_name": "advantage", 
-        "word_example": "These forces are, therefore, established for the good of all and not for the personal  advantage of those to whom they shall be intrusted."
+        "word_name": "associate", 
+        "word_example": "They had for more than a century before been regarded as beings of an inferior order and altogether unfit to  associate with the white race, either in social or political relations; and so far inferior that they had no rights which the white man was bound to respect; and that the Negro might justly and lawfully be reduced to slavery for his benefit."
       }, 
-      "oppression": {
-        "word_definition": "the state of being kept down by unjust use of authority", 
+      "plaintiff": {
+        "word_definition": "a person who brings an action in a court of law", 
         "word_description": "", 
-        "word_name": "oppression", 
-        "word_example": "These rights are liberty, property, security, and resistance to  oppression."
+        "word_name": "plaintiff", 
+        "word_example": "We proceed...to inquire whether the facts relied on by the  plaintiff entitle him to his freedom...."
       }, 
-      "prescribe": {
-        "word_definition": "issue commands or orders for", 
+      "void": {
+        "word_definition": "lacking any legal or binding force", 
         "word_description": "", 
-        "word_name": "prescribe", 
-        "word_example": "7. No person shall be accused, arrested, or imprisoned except in the cases and according to the forms  prescribed by law."
+        "word_name": "void", 
+        "word_example": "Upon these considerations it is the opinion of the Court that the act of Congress which prohibited a citizen from holding and owning property of this kind in the territory of the United States north of the line therein mentioned is not warranted by the Constitution and is therefore  void . . ."
       }, 
-      "virtue": {
-        "word_definition": "the quality of doing what is right", 
+      "traffic": {
+        "word_definition": "trade or deal a commodity", 
         "word_description": "", 
-        "word_name": "virtue", 
-        "word_example": "But any citizen summoned or arrested in  virtue of the law shall submit without delay, as resistance constitutes an offense."
+        "word_name": "traffic", 
+        "word_example": "He was bought and sold and treated as an ordinary article of merchandise and  traffic whenever a profit could be made by it."
       }, 
-      "equitable": {
-        "word_definition": "fair to all parties as dictated by reason and conscience", 
+      "declaration": {
+        "word_definition": "a formal public statement", 
         "word_description": "", 
-        "word_name": "equitable", 
-        "word_example": "This should be equitably distributed among all the citizens in proportion to their means."
+        "word_name": "declaration", 
+        "word_example": "In the opinion of the Court the legislation and histories of the times, and the language used in the  Declaration of Independence, show that neither the class of persons who had been imported as slaves nor their descendants, whether they had become free or not, were then acknowledged as a part of the people nor intended to be included in the general words used in that memorable instrument...."
       }, 
-      "precious": {
-        "word_definition": "held in great esteem for admirable qualities", 
+      "article": {
+        "word_definition": "one of a class of artifacts", 
         "word_description": "", 
-        "word_name": "precious", 
-        "word_example": "11. The free communication of ideas and opinions is one of the most  precious of the rights of man."
+        "word_name": "article", 
+        "word_example": "He was bought and sold and treated as an ordinary  article of merchandise and traffic whenever a profit could be made by it."
       }, 
-      "security": {
-        "word_definition": "the state of being free from danger or injury", 
+      "provision": {
+        "word_definition": "a stipulated condition", 
         "word_description": "", 
-        "word_name": "security", 
-        "word_example": "12. The  security of the rights of man and of the citizen requires public military forces."
+        "word_name": "provision", 
+        "word_example": "As there is no express regulation in the Constitution defining the power which the general government may exercise over the person or property of a citizen in a territory thus acquired, the Court must necessarily look to the  provisions and principles of the Constitution, and its distribution of powers, for the rules and principles by which its decisions must be governed."
       }, 
-      "association": {
-        "word_definition": "a formal organization of people or groups of people", 
+      "merchandise": {
+        "word_definition": "commodities offered for sale", 
         "word_description": "", 
-        "word_name": "association", 
-        "word_example": "2. The aim of all political  association is the preservation of the natural and imprescriptible rights of man."
+        "word_name": "merchandise", 
+        "word_example": "He was bought and sold and treated as an ordinary article of  merchandise and traffic whenever a profit could be made by it."
       }, 
-      "account": {
-        "word_definition": "a record or narrative description of past events", 
+      "descendant": {
+        "word_definition": "a person considered as coming from some ancestor or race", 
         "word_description": "", 
-        "word_name": "account", 
-        "word_example": "15. Society has the right to require of every public agent an  account of his administration."
+        "word_name": "descendant", 
+        "word_example": "In the opinion of the Court the legislation and histories of the times, and the language used in the Declaration of Independence, show that neither the class of persons who had been imported as slaves nor their  descendants, whether they had become free or not, were then acknowledged as a part of the people nor intended to be included in the general words used in that memorable instrument...."
       }, 
-      "consist": {
-        "word_definition": "have its essential character", 
+      "social": {
+        "word_definition": "living together or enjoying life in communities", 
         "word_description": "", 
-        "word_name": "consist", 
-        "word_example": "4. Liberty  consists in the freedom to do everything which injures no one else; hence the exercise of the natural rights of each man has no limits except those which assure to the other members of the society the enjoyment of the same rights."
+        "word_name": "social", 
+        "word_example": "They had for more than a century before been regarded as beings of an inferior order and altogether unfit to associate with the white race, either in  social or political relations; and so far inferior that they had no rights which the white man was bound to respect; and that the Negro might justly and lawfully be reduced to slavery for his benefit."
       }, 
-      "grant": {
-        "word_definition": "give as judged due or on the basis of merit", 
+      "opinion": {
+        "word_definition": "the legal document stating reasons for a judicial decision", 
         "word_description": "", 
-        "word_name": "grant", 
-        "word_example": "14. All the citizens have a right to decide, either personally or by their representatives, as to the necessity of the public contribution; to  grant this freely"
-      }, 
-      "inviolable": {
-        "word_definition": "incapable of being transgressed or dishonored", 
-        "word_description": "", 
-        "word_name": "inviolable", 
-        "word_example": "17. Since property is an  inviolable and sacred right, no one shall be deprived thereof except where public necessity, legally determined, shall clearly demand it"
-      }, 
-      "assure": {
-        "word_definition": "make certain of", 
-        "word_description": "", 
-        "word_name": "assure", 
-        "word_example": "16. A society in which the observance of the law is not  assured, nor the separation of powers defined, has no constitution at all."
-      }, 
-      "calamity": {
-        "word_definition": "an event resulting in great loss and misfortune", 
-        "word_description": "", 
-        "word_name": "calamity", 
-        "word_example": "The representatives of the French people, organized as a National Assembly, believing that the ignorance, neglect, or contempt of the rights of man are the sole cause of public  calamities and of the corruption of governments..."
-      }, 
-      "arbitrary": {
-        "word_definition": "based on or subject to individual discretion or preference", 
-        "word_description": "", 
-        "word_name": "arbitrary", 
-        "word_example": "Any one soliciting, transmitting, executing, or causing to be executed, any  arbitrary order, shall be punished."
-      }, 
-      "distinction": {
-        "word_definition": "a discrimination between things as different", 
-        "word_description": "", 
-        "word_name": "distinction", 
-        "word_example": "1. Men are born and remain free and equal in rights. Social  distinctions may be founded only upon the general good."
-      }, 
-      "contribution": {
-        "word_definition": "an amount of money given", 
-        "word_description": "", 
-        "word_name": "contribution", 
-        "word_example": "13. A common  contribution is essential for the maintenance of the public forces and for the cost of administration."
+        "word_name": "opinion", 
+        "word_example": "In the  opinion of the Court the legislation and histories of the times, and the language used in the Declaration of Independence, show that neither the class of persons who had been imported as slaves nor their descendants, whether they had become free or not, were then acknowledged as a part of the people nor intended to be included in the general words used in that memorable instrument...."
       }
     }, 
-    "list_href": "/lists/735374", 
-    "list_detailed_description": "Coauthored by Thomas Jefferson and General Lafayette, this declaration was approved by the National Assembly of France in 1789. Unlike the American Declaration of Independence, its content consists more of philosophical principles rather than specific grievances against an abusive king. But similarly, it led to a revolution that inspired the hearts of individuals around the world. Read this list aloud to hear the echoes that unite humanity.\n"
+    "list_href": "/lists/173582", 
+    "list_detailed_description": "Vocabulary from this pro-slavery Supreme Court decision illuminates how it brought the nation to the brink of the Civil War. In March of 1857, Chief Justice Roger B. Taney delivered the majority opinion in the Dred Scott Case. Scott, a slave, had been brought from a slave territory to a free territory and demanded his freedom. The Court ruled that as a slave, Scott was not a citizen and as such could not sue in the courts. The decision further polarized the North and the South and ended any chance of compromise on the issue of slavery."
   }, 
   "Christopher Columbus: The First Voyage": {
     "list_brief_description": "Christopher Columbus embarked on the first of three voyages to the \"New World\" with three ships \u2014 the Ni\u00f1a, Pinta and Santa Mar\u00eda \u2014 on August 3, 1492. He ...", 

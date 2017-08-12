@@ -10,10 +10,11 @@ import requests
 import json
 import utility
 import string
-import urllib2
+from threading import Thread
 
-# the interval seconds between British pronunciation and American pronunciation
-pronunciation_interval = 0.7
+
+pronunciation_interval = 0.7      # the interval seconds between British pronunciation and American pronunciation
+timeout = 10                      # wait no more than four seconds for show pronunciation.
 
 basic_dict_file = os.path.join(os.getcwd(), 'src/learn_english/asset/pronunciation/basic.json')
 pronunciation_dir_pre = os.path.join(os.getcwd(), 'src/learn_english/asset/pronunciation')
@@ -21,8 +22,14 @@ basic_dict = dict()
 
 
 def show(word):
-    show_literal_pronunciation(word)
-    launch_pronunciation(word)
+    t1 = Thread(target=show_literal_pronunciation, args=(word,))
+    t2 = Thread(target=launch_pronunciation, args=(word,))
+
+    t1.start()
+    t2.start()
+
+    t1.join()
+    t2.join()
 
 
 def launch_pronunciation(word):
@@ -59,12 +66,7 @@ def launch_pronunciation(word):
 # include British and American pronunciation.
 def get_pronunciation(word, dst_dir):
     url = 'http://dictionary.cambridge.org/dictionary/english/' + word
-    content = urllib2.urlopen(url).read()
-    # s = requests.session()
-    # s.keep_alive = False
-    # p(url)
-    # content = s.get(url)
-    # p(content)
+    content = utility.get_content_of_url(url)
     mp3_pos_lst = [m.start() for m in re.finditer('data-src-mp3', content)]
     ogg_pos_lst = [m.start() for m in re.finditer('data-src-ogg', content)]
     if len(mp3_pos_lst) == 0 or len(ogg_pos_lst) == 0:
@@ -180,6 +182,7 @@ def write_basic_dict():
 
 
 def p(c):
+    print('-----------------------')
     print(c)
 
 
