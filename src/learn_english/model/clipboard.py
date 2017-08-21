@@ -54,10 +54,10 @@ def watcher():
                 word = ''
                 continue
             i += 1
-            p(word + ' ' + str(i))
             ori_form = get_word_original_form(word)
             pronunciation.show(ori_form)
         time.sleep(interval)
+    utility.show_notification('Clipboard motinor Error!', 'Some error happened1')
 
 
 # whether the src is valid string, the code or the Chinese should be exclusive.

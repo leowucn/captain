@@ -2521,6 +2521,12 @@
         "word_name": "rhetoric", 
         "word_example": "Well, that is not what happens in these cases [of late-term abortions] And using that kind of scare  rhetoric is just terribly unfortunate. You should meet with some of the women that I've met with.Women I've known over the course of my life.  "
       }, 
+      "repeal": {
+        "word_definition": "cancel officially", 
+        "word_description": "", 
+        "word_name": "repeal", 
+        "word_example": "And one thing we have to do,  repeal and replace the disaster known as Obamacare. "
+      }, 
       "anemic": {
         "word_definition": "lacking vigor or energy", 
         "word_description": "", 
@@ -2539,23 +2545,17 @@
         "word_name": "debunk", 
         "word_example": "Well, first of all, what he just said about the state department is not only untrue, it's been...  debunked numerous times. "
       }, 
-      "imperative": {
-        "word_definition": "some duty that is essential and urgent", 
-        "word_description": "", 
-        "word_name": "imperative", 
-        "word_example": "The Supreme Court, it's what it's all about. Our country is so, so, just so  imperative that we have the right justices. "
-      }, 
       "racketeer": {
         "word_definition": "someone who commits crimes for profit", 
         "word_description": "", 
         "word_name": "racketeer", 
         "word_example": "He went after a federal judge, born in Indiana but who Donald said couldn't be trusted to try the fraud and  racketeering case against Trump University because his parents were Mexican. "
       }, 
-      "stagnant": {
-        "word_definition": "not growing or changing; without force or vitality", 
+      "imperative": {
+        "word_definition": "some duty that is essential and urgent", 
         "word_description": "", 
-        "word_name": "stagnant", 
-        "word_example": "Look, our country is  stagnant. We've lost our jobs. We've lost our businesses.We're not making things anymore, relatively speaking, our product is pouring in from China, pouring in from Vietnam, pouring in from all over the world.  "
+        "word_name": "imperative", 
+        "word_example": "The Supreme Court, it's what it's all about. Our country is so, so, just so  imperative that we have the right justices. "
       }, 
       "depleted": {
         "word_definition": "no longer sufficient", 
@@ -2581,11 +2581,11 @@
         "word_name": "amnesty", 
         "word_example": "First of all, she wants to give  amnesty,[ to illegal immigrants already in the United States] which is a disaster and very unfair to all the people who are waiting in line [ for legal citizenship] for many years. "
       }, 
-      "repeal": {
-        "word_definition": "cancel officially", 
+      "stagnant": {
+        "word_definition": "not growing or changing; without force or vitality", 
         "word_description": "", 
-        "word_name": "repeal", 
-        "word_example": "And one thing we have to do,  repeal and replace the disaster known as Obamacare. "
+        "word_name": "stagnant", 
+        "word_example": "Look, our country is  stagnant. We've lost our jobs. We've lost our businesses.We're not making things anymore, relatively speaking, our product is pouring in from China, pouring in from Vietnam, pouring in from all over the world.  "
       }, 
       "gold standard": {
         "word_definition": "a paragon of excellence", 

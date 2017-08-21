@@ -1,1 +1,22 @@
-{}
+{
+  "etymology": {
+    "usage": "I receive all kinds of questions about etymology.\n", 
+    "date": "2017-08-16 08:17:18"
+  }, 
+  "r": {
+    "usage": "return nil, err\nmodules.HandleError(c, err)\n\t\treturn\n", 
+    "date": "2017-08-18 11:03:46"
+  }, 
+  "return": {
+    "usage": "modules.NormalReturn(c, result)\n\t\treturn\nreturn result, nil\n", 
+    "date": "2017-08-18 14:46:15"
+  }, 
+  "d": {
+    "usage": "projectId := c.Request.FormValue(\"projectId\")\n", 
+    "date": "2017-08-18 14:12:44"
+  }, 
+  "n": {
+    "usage": "ApplyTypeWorkOrderNonLocal\n", 
+    "date": "2017-08-18 16:21:34"
+  }
+}

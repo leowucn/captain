@@ -49,6 +49,7 @@ def update_all_lists():
             if soup.find('bycat hasmore') < 0:
                 p('Cannot find phrase "bycat hasmore"!')
                 p(soup)
+                p(url_postfix)
                 return
         except:
             return
