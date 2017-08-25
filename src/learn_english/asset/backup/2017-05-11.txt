@@ -1,0 +1,100 @@
+1. sickening
+usage: It was a sickening sight. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:31:28
+
+2. din
+usage: The din was deafening. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:34:58
+
+3. banner
+usage: A huge banner showing the Slytherin serpent covered the wall behind the High Table. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:28:30
+
+4. chuck
+usage: I should be chucked out an’ made ter live as a Muggle!” 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:22:59
+
+5. sidle
+usage: Hagrid sidled through the door as he spoke. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:21:45
+
+6. slip
+usage: He slipped into a seat between Ron and Hermione at the Gryffindor table and tried to ignore the fact that people were standing up to look at him. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:29:09
+
+7. erupt
+usage: Someone standing outside the Great Hall might well have thought some sort of explosion had taken place, so loud was the noise that erupted from the Gryffindor table. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:37:15
+
+8. wheeze
+usage: “And I must trouble you with an old man’s wheezing waffle before we sink our teeth into our delicious feast. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:29:59
+
+9. sunburn
+usage: Ronald Weasley …” Ron went purple in the face; he looked like a radish with a bad sunburn. “… for the best-played game of chess Hogwarts has seen in many years, I award Gryffindor House fifty points.” 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:32:34
+
+10. waffle
+usage: “And I must trouble you with an old man’s wheezing waffle before we sink our teeth into our delicious feast. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:30:04
+
+11. radish
+usage: Ronald Weasley …” Ron went purple in the face; he looked like a radish with a bad sunburn. “… for the best-played game of chess Hogwarts has seen in many years, I award Gryffindor House fifty points.” 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:32:28
+
+12. remorse
+usage: said Harry, shocked to see Hagrid shaking with grief and remorse, great tears leaking down into his beard. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:23:56
+
+13. babble
+usage: The babble died away. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:29:43
+
+14. deck
+usage: It was decked out in the Slytherin colors of green and silver to celebrate Slytherin’s winning the House Cup for the seventh year in a row. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:28:01
+
+15. sniffy
+usage: “Professor Dumbledore says you are to be allowed to go,” she said sniffily, as though in her opinion Professor Dumbledore didn’t realize how risky feasts could be. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:21:25
+
+16. hoarse
+usage: Those who could add up while yelling themselves hoarse knew that Gryffindor now had four hundred and seventy-two points — exactly the same as Slytherin. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:35:30
+
+17. nerve
+usage: The room went deadly quiet. “… for pure nerve and outstanding courage, I award Gryffindor House sixty points.” 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:34:33
+
+18. deafening
+usage: The din was deafening. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:35:15
+
+19. hush
+usage: When Harry walked in there was a sudden hush, and then everybody started talking loudly at once. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:28:54
+
+20. git
+usage: “I told the evil git how ter get past Fluffy! 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:22:37
+

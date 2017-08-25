@@ -1,0 +1,100 @@
+1. hygienic
+usage: Madam Pomfrey, however, felt it might not be very hygienic, and confiscated it.” 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 13:55:00
+
+2. steamroller
+usage: The points are all in and Slytherin won, of course — you missed the last Quidditch match, we were steamrollered by Ravenclaw without you — but the food’ll be good.” 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:19:58
+
+3. pound
+usage: …” Harry tried to understand this but it made his head pound, so he stopped. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:12:22
+
+4. amazement
+usage: Dumbledore smiled at the look of amazement on Harry’s face. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 13:58:20
+
+5. linen
+usage: He was lying in a bed with white linen sheets, and next to him was a table piled high with what looked like half the candy shop. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 13:52:27
+
+6. hum
+usage: Dumbledore hummed a little and smiled at the ceiling. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:00:05
+
+7. glint
+usage: He felt Quirrell’s arm wrenched from his grasp, knew all was lost, and fell into blackness, down … down … down … Something gold was glinting just above him. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 13:51:02
+
+8. straighten
+usage: “I want to go to the feast,” he told Madam Pomfrey as she straightened his many candy boxes. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:20:54
+
+9. agony
+usage: It was agony to touch a person marked by something so good.” 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:05:03
+
+10. detest
+usage: “Well, they did rather detest each other. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:06:53
+
+11. alas
+usage: “Alas, the first thing you ask me, I cannot tell you. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:03:50
+
+12. amuse
+usage: No doubt they thought it would amuse you. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 13:54:33
+
+13. dreamy
+usage: “Yes …” said Dumbledore dreamily. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:08:05
+
+14. twinkle
+usage: Dumbledore’s eyes twinkled. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:06:08
+
+15. surprise
+usage: My brain surprises even me sometimes. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:13:19
+
+16. hatred
+usage: Quirrell, full of hatred, greed, and ambition, sharing his soul with Voldemort, could not touch you for this reason. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:04:47
+
+17. windowsill
+usage: Dumbledore now became very interested in a bird out on the windowsill, which gave Harry time to dry his eyes on the sheet. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:05:31
+
+18. confiscate
+usage: Madam Pomfrey, however, felt it might not be very hygienic, and confiscated it.” 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 13:55:06
+
+19. debt
+usage: Professor Snape couldn’t bear being in your father’s debt. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:08:21
+
+20. rocker
+usage: ” “I always said he was off his rocker,” said Ron, looking quite impressed at how crazy his hero was. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:17:14
+

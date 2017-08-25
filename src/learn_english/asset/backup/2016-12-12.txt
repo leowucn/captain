@@ -1,0 +1,70 @@
+1. rumbling
+usage: A low rumbling sound had broken the silence around them
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-12
+
+2. grudging
+usage: “I’m not saying his heart isn’t in the right place,” said Professor McGonagall grudgingly, “but you can’t pretend he’s not careless
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-12
+
+3. legend
+usage: He’ll be famous — a legend — I wouldn’t be surprised if today was known as Harry Potter Day in the future — there will be books written about Harry — every child in our world will know his name!
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-12
+
+4. spectacle
+usage: 1) His blue eyes were light, bright, and sparkling behind half-moon spectacles and his nose was very long and crooked, as though it had been broken at least twice. 2) Professor McGonagall pulled out a lace handkerchief and dabbed at her eyes beneath her spectacles
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-12
+
+5. handkerchief
+usage: 1) Their mother had just taken out her handkerchief. 2) Professor McGonagall pulled out a lace handkerchief and dabbed at her eyes beneath her spectacles
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-12
+
+6. blush
+usage: I haven’t blushed so much since Madam Pomfrey told me she liked my new earmuffs.
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-12
+
+7. sideways
+usage: She threw a sharp, sideways glance at Dumbledore here, as though hoping he was going to tell her something, but he didn’t, so she went on
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-12
+
+8. mutter
+usage: 1) “D-Defense Against the D-D-Dark Arts,” muttered Professor Quirrell, as though he’d rather not think about it. 2) “Three up … two across …” he muttered. 3) Harry, who hadn’t had any breakfast, leapt to his feet, but Ron’s ears went pink again and he muttered that he’d brought sandwiches. 4) He chuckled and muttered, “I should have known.
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-12
+
+9. sight
+usage: 1) The brick he had touched quivered — it wriggled — in the middle, a small hole appeared — it grew wider and wider — a second later they were facing an archway large enough even for Hagrid, an archway onto a cobbled street that twisted and turned out of sight. 2) For some reason, the sight of the cat seemed to amuse him
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-12
+
+10. ever
+usage: Although owls normally hunt at night and are hardly ever seen in daylight, there have been hundreds of sightings of these birds flying in every direction since sunrise
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-12
+
+11. report
+usage: When Dudley had been put to bed, he went into the living room in time to catch the last report on the evening news: “And finally, bird-watchers everywhere have reported that the nation’s owls have been behaving very unusually today
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-12
+
+12. stroke
+usage: 1) He stroked the door gently with one of his long fingers and it simply melted away. 2) He put the receiver back down and stroked his mustache, thinking … no, he was being stupid
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-12
+
+13. tyke
+usage: “Little tyke,” chortled Mr
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-12
+
+14. dull
+usage: Dursley woke up on the dull, gray Tuesday our story starts, there was nothing about the cloudy sky outside to suggest that strange and mysterious things would soon be happening all over the country
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-12
+

@@ -34,7 +34,7 @@ def watcher():
     i = 0
     while True:
         result = pyperclip.paste().strip()
-        if 1 <= len(result) <= 20 and result.isalpha():
+        if 1 < len(result) <= 20 and result.isalpha():
             word = result
         if word != '' and len(result) > len(word) and result.find(word) >= 0 and is_valid_string(result):
             # p('word = ' + word + ', result = ' + result + ', i = ' + str(i))

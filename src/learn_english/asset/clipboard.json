@@ -1,22 +1,82 @@
 {
+  "spawn": {
+    "usage": "In the traditional approach to creating web servers, for each incoming request or connection the server spawns a new thread of execution or even forks a new process to handle the request and send a response.\n", 
+    "date": "2017-08-24 13:51:15"
+  }, 
+  "eventually": {
+    "usage": "When I\u2019m learning about something, I eventually hit a plateau.\n", 
+    "date": "2017-08-24 10:45:30"
+  }, 
+  "pun": {
+    "usage": "What are your favorite puns?\nAnswer\nRequest\n", 
+    "date": "2017-08-21 15:41:44"
+  }, 
+  "overhead": {
+    "usage": "Conceptually, this makes perfect sense, but in practice it incurs a great deal of overhead.\n", 
+    "date": "2017-08-24 13:52:46"
+  }, 
+  "of": {
+    "usage": "I\u2019m just an average Arizona teen fresh out of high school.\nWhen I signed up for high school classes in my freshman year, I was (and still am today) very interested in photography, so I requested Film Production as one of my classes.\nMy first programming experience came about by an ironic twist of fate, actually.\nI\u2019m currently working at a branch of AMC Theatres and also in a grocery store.\n", 
+    "date": "2017-08-24 11:19:33"
+  }, 
+  "todoissues": {
+    "usage": "getNeedMonitorTodoIssues\n", 
+    "date": "2017-08-21 13:41:34"
+  }, 
+  "ramp": {
+    "usage": "So in today\u2019s post, I\u2019ll list seven steps (and 50+ resources) that can help you get started in this exciting field of Computer Science, and ramp up toward becoming a machine learning hero.\n", 
+    "date": "2017-08-24 10:58:05"
+  }, 
+  "sift": {
+    "usage": "After a bit of sifting I found a government report from 2009.\n", 
+    "date": "2017-08-24 10:50:34"
+  }, 
+  "cyber": {
+    "usage": "I started this project in January 2017 to learn more about machine learning and cyber security.\nSince I didn\u2019t know the current state of research in either area, I decided to tackle a problem in cyber security.\n", 
+    "date": "2017-08-24 10:47:09"
+  }, 
+  "tale": {
+    "usage": "An Embarrassing Tale: Why my server could only handle 10 players\n", 
+    "date": "2017-08-24 13:08:02"
+  }, 
   "etymology": {
     "usage": "I receive all kinds of questions about etymology.\n", 
     "date": "2017-08-16 08:17:18"
   }, 
-  "r": {
-    "usage": "return nil, err\nmodules.HandleError(c, err)\n\t\treturn\n", 
-    "date": "2017-08-18 11:03:46"
+  "incur": {
+    "usage": "Conceptually, this makes perfect sense, but in practice it incurs a great deal of overhead.\n", 
+    "date": "2017-08-24 13:51:39"
   }, 
-  "return": {
-    "usage": "modules.NormalReturn(c, result)\n\t\treturn\nreturn result, nil\n", 
-    "date": "2017-08-18 14:46:15"
+  "preliminary": {
+    "usage": "A month later, I had done some (minimal) preliminary research.\n", 
+    "date": "2017-08-24 10:52:00"
   }, 
-  "d": {
-    "usage": "projectId := c.Request.FormValue(\"projectId\")\n", 
-    "date": "2017-08-18 14:12:44"
+  "ironic": {
+    "usage": "My first programming experience came about by an ironic twist of fate, actually.\n", 
+    "date": "2017-08-24 11:19:14"
   }, 
-  "n": {
-    "usage": "ApplyTypeWorkOrderNonLocal\n", 
-    "date": "2017-08-18 16:21:34"
+  "throughput": {
+    "usage": "js is a JavaScript runtime environment that achieves low latency and high throughput by taking a \u201cnon-blocking\u201d approach to serving requests.\nScalability, latency, and throughput are key performance indicators for web servers.\nKeeping the latency low and the throughput high while scaling up and out is not easy.\n", 
+    "date": "2017-08-24 13:50:24"
+  }, 
+  "tribute": {
+    "usage": "When I got to my first project, the tribute page, which I was really looking forward to, I found I couldn't really remember some of what I'd learned so far.\n", 
+    "date": "2017-08-24 13:15:51"
+  }, 
+  "stealth": {
+    "usage": "In short- he is a very enigmatically modest, stealth programmer.\n", 
+    "date": "2017-08-24 14:49:36"
+  }, 
+  "plague": {
+    "usage": "js is one of the worst things to happen to the software industry in recent times, a whole generation of programmers are being taught the worst of all ways of doing concurrency, in a system that doesn't scale either in performance or project size and with one of the languages most plagued by pitfalls ever created.\n", 
+    "date": "2017-08-24 09:54:29"
+  }, 
+  "stab": {
+    "usage": "To my surprise, I found quite a few papers that have taken a stab at this problem.\n", 
+    "date": "2017-08-24 10:52:59"
+  }, 
+  "pitfall": {
+    "usage": "js is one of the worst things to happen to the software industry in recent times, a whole generation of programmers are being taught the worst of all ways of doing concurrency, in a system that doesn't scale either in performance or project size and with one of the languages most plagued by pitfalls ever created.\n", 
+    "date": "2017-08-24 09:53:27"
   }
 }

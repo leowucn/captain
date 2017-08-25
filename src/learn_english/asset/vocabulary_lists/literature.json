@@ -2767,11 +2767,11 @@
         "word_example": "MR. LUNSER: Ah, the famous  wit and wisdom of Mr. Malloy. Philip, I'm the only one allowed to make jokes around here.", 
         "word_definition": "verbal skill that has the power to evoke laughter"
       }, 
-      "gleaming": {
+      "stead": {
         "word_description": "", 
-        "word_name": "gleaming", 
-        "word_example": "Oh, say, can you see, by the dawn's early light, ", 
-        "word_definition": "a flash of light"
+        "word_name": "stead", 
+        "word_example": "The Principal, or in his stead the Assistant Principal, or in his stead a designated member of the faculty, will say, \u201cGood morning to all students, faculty, and staff. Today is Monday (or whatever day), January (or whatever month) 3 (or whatever day).", 
+        "word_definition": "the place properly occupied or served by another"
       }, 
       "grateful": {
         "word_description": "", 
@@ -2791,11 +2791,11 @@
         "word_example": "They come to literature  reluctantly at best, fighting me every inch of the way.", 
         "word_definition": "with a certain degree of unwillingness"
       }, 
-      "stead": {
+      "gleaming": {
         "word_description": "", 
-        "word_name": "stead", 
-        "word_example": "The Principal, or in his stead the Assistant Principal, or in his stead a designated member of the faculty, will say, \u201cGood morning to all students, faculty, and staff. Today is Monday (or whatever day), January (or whatever month) 3 (or whatever day).", 
-        "word_definition": "the place properly occupied or served by another"
+        "word_name": "gleaming", 
+        "word_example": "Oh, say, can you see, by the dawn's early light, ", 
+        "word_definition": "a flash of light"
       }, 
       "gallantly": {
         "word_description": "", 
@@ -2883,11 +2883,11 @@
         "word_example": "And the man was croaking,  ranting, not to Maniac now but to the people. \u201cWhat happens when we go over there? Black is black! White is white! The sheep lie not with the lion! The sheep knows his own! His own kind!\u201d", 
         "word_definition": "talk at length in a noisy, excited, or angry manner"
       }, 
-      "glum": {
+      "legacy": {
         "word_description": "", 
-        "word_name": "glum", 
-        "word_example": "This was driving Amanda bonkers. He was acting so different, all  glum, and wiseacre answers.", 
-        "word_definition": "moody and melancholic"
+        "word_name": "legacy", 
+        "word_example": "And sometimes the girl holding one end of the rope is from the West side of Hector, and the girl on the other end is from the East side; and if you\u2019re looking for Maniac Magee\u2019s  legacy, or monument, that\u2019s as good as any \u2014 even if it wasn\u2019t really a bull.", 
+        "word_definition": "a gift of personal property by will"
       }, 
       "victim": {
         "word_description": "", 
@@ -3039,11 +3039,11 @@
         "word_example": "A couple of people truly remember, and here\u2019s what they saw: a scraggly little kid jogging toward them, the soles of both sneakers hanging by their  hinges and flopping open like dog tongues each time they came up from the pavement.", 
         "word_definition": "a joint that holds two parts together so that one can swing"
       }, 
-      "legacy": {
+      "glum": {
         "word_description": "", 
-        "word_name": "legacy", 
-        "word_example": "And sometimes the girl holding one end of the rope is from the West side of Hector, and the girl on the other end is from the East side; and if you\u2019re looking for Maniac Magee\u2019s  legacy, or monument, that\u2019s as good as any \u2014 even if it wasn\u2019t really a bull.", 
-        "word_definition": "a gift of personal property by will"
+        "word_name": "glum", 
+        "word_example": "This was driving Amanda bonkers. He was acting so different, all  glum, and wiseacre answers.", 
+        "word_definition": "moody and melancholic"
       }, 
       "scowl": {
         "word_description": "", 
@@ -4397,11 +4397,11 @@
         "word_example": "our only  inheritance that elemental noise ", 
         "word_definition": "something that passes by law to an heir of the owner"
       }, 
-      "obsession": {
+      "swift": {
         "word_description": "", 
-        "word_name": "obsession", 
-        "word_example": "This brings nobody peace. The ancient war ", 
-        "word_definition": "an unhealthy and compulsive preoccupation with something"
+        "word_name": "swift", 
+        "word_example": "The sea-swift vanishes in rain, ", 
+        "word_definition": "a small bird that is noted for its rapid flight"
       }, 
       "monument": {
         "word_description": "", 
@@ -4463,11 +4463,11 @@
         "word_example": "From frozen Neva to the Hudson pours, ", 
         "word_definition": "a branch that flows into the main stream"
       }, 
-      "swift": {
+      "obsession": {
         "word_description": "", 
-        "word_name": "swift", 
-        "word_example": "The sea-swift vanishes in rain, ", 
-        "word_definition": "a small bird that is noted for its rapid flight"
+        "word_name": "obsession", 
+        "word_example": "This brings nobody peace. The ancient war ", 
+        "word_definition": "an unhealthy and compulsive preoccupation with something"
       }, 
       "channel": {
         "word_description": "", 

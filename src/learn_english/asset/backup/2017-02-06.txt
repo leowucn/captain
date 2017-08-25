@@ -1,0 +1,125 @@
+1. musty
+usage: Dudley and Harry shared a room with twin beds and damp, musty sheets. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 22:28:17
+
+2. inky
+usage: A breeze ruffled the neat hedges of Privet Drive, which lay silent and tidy under the inky sky, the very last place you would expect astonishing things to happen. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-12 08:40:10
+
+3. elastic
+usage: Harry picked it up and stared at it, his heart twanging like a giant elastic band. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 21:37:58
+
+4. badger
+usage: Turning the envelope over, his hand trembling, Harry saw a purple wax seal bearing a coat of arms; a lion, an eagle, a badger, and a snake surrounding a large letter H. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 21:41:09
+
+5. howl
+usage: What came next happened so fast no one saw how it happened — one second, Piers and Dudley were leaning right up close to the glass, the next, they had leapt back with howls of horror. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 11:03:26
+
+6. gibber
+usage: Piers and Dudley could only gibber. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 11:11:46
+
+7. dangle
+usage: Harry and Dudley promptly had a furious but silent fight over who would listen at the keyhole; Dudley won, so Harry, his glasses dangling from one ear, lay flat on his stomach to listen at the crack between door and floor. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 21:53:00
+
+8. whacked
+usage: He’d screamed, whacked his father with his Smelting stick, been sick on purpose, kicked his mother, and thrown his tortoise through the greenhouse roof, and he still didn’t have his room back. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 22:00:50
+
+9. rifle
+usage: The month-old video camera was lying on top of a small, working tank Dudley had once driven over the next door neighbor’s dog; in the corner was Dudley’s first-ever television set, which he’d put his foot through when his favorite program had been canceled; there was a large birdcage, which had once held a parrot that Dudley had swapped at school for a real air rifle, which was up on a shelf with the end all bent because Dudley had sat on it. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 21:58:54
+
+10. outskirts
+usage: Uncle Vernon stopped at last outside a gloomy-looking hotel on the outskirts of a big city. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 22:27:40
+
+11. strained
+usage: Sometimes, when he strained his memory during long hours in his cupboard, he came up with a strange vision: a blinding flash of green light and a burning pain on his forehead. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 11:22:08
+
+12. mutter
+usage: “Shake ’em off … shake ’em off,” he would mutter whenever he did this. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 22:26:34
+
+13. relieved
+usage: “Hagrid,” said Dumbledore, sounding relieved. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-12 08:19:45
+
+14. wrench
+usage: Ten minutes later they had wrenched their way through the boarded-up doors and were in the car, speeding toward the highway. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 22:24:58
+
+15. brass
+usage: The sun rose on the same tidy front gardens and lit up the brass number four on the Dursleys’ front door; it crept into their living room, which was almost exactly the same as it had been on the night when Mr. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-12 08:44:33
+
+16. trip
+usage: It turned out she’d broken her leg tripping over one of her cats, and she didn’t seem quite as fond of them as before. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 11:34:49
+
+17. horror
+usage: Lights clicked on upstairs and to his horror Harry realized that the big, squashy something had been his uncle’s face. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 22:14:41
+
+18. shaggy
+usage: He bent his great, shaggy head over Harry and gave him what must have been a very scratchy, whiskery kiss. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-12 08:25:44
+
+19. envelope
+usage: Three things lay on the doormat: a postcard from Uncle Vernon’s sister Marge, who was vacationing on the Isle of Wight, a brown envelope that looked like a bill, and — a letter for Harry. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 21:36:17
+
+20. headmistress
+usage: The Dursleys had received a very angry letter from Harry’s headmistress telling them Harry had been climbing school buildings. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-13 06:39:19
+
+21. plainly
+usage: Yet here it was, a letter, addressed so plainly there could be no mistake:   The envelope was thick and heavy, made of yellowish parchment, and the address was written in emerald-green ink. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 21:39:10
+
+22. nightfall
+usage: By nightfall Dudley was howling. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 22:26:51
+
+23. vacation
+usage: Three things lay on the doormat: a postcard from Uncle Vernon’s sister Marge, who was vacationing on the Isle of Wight, a brown envelope that looked like a bill, and — a letter for Harry. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 21:36:02
+
+24. croak
+usage: “Get out, both of you,” croaked Uncle Vernon, stuffing the letter back inside its envelope. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 21:51:17
+
+25. whelk
+usage: “Ate a funny whelk …” “Dad!” 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 21:43:26
+

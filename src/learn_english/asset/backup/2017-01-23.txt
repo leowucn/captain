@@ -1,0 +1,105 @@
+1. wig
+usage: Aunt Petunia often said that Dudley looked like a baby angel — Harry often said that Dudley looked like a pig in a wig. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-12 19:34:14
+
+2. ray
+usage: This was why Harry spent as much time as possible out of the house, wandering around and thinking about the end of the holidays, where he could see a tiny ray of hope. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 11:31:09
+
+3. orange
+usage: Smeltings boys wore maroon tailcoats, orange knickerbockers, and flat straw hats called boaters. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 13:33:32
+
+4. rib
+usage: He thought two of his ribs might already have cracked from trying not to laugh. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 13:37:15
+
+5. postcard
+usage: Three things lay on the doormat: a postcard from Uncle Vernon’s sister Marge, who was vacationing on the Isle of Wight, a brown envelope that looked like a bill, and — a letter for Harry. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 21:35:47
+
+6. bearing
+usage: Turning the envelope over, his hand trembling, Harry saw a purple wax seal bearing a coat of arms; a lion, an eagle, a badger, and a snake surrounding a large letter H. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 21:40:48
+
+7. wheeze
+usage: “Go to your cupboard — I mean, your bedroom,” he wheezed at Harry. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 22:04:19
+
+8. sink
+usage: It seemed to be coming from a large metal tub in the sink. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 13:41:39
+
+9. tap
+usage: He gave his father a sharp tap on the head with his Smelting stick. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 21:47:53
+
+10. alien
+usage: He was hungry, he’d missed five television programs he’d wanted to see, and he’d never gone so long without blowing up an alien on his computer. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 22:27:16
+
+11. bent
+usage: The month-old video camera was lying on top of a small, working tank Dudley had once driven over the next door neighbor’s dog; in the corner was Dudley’s first-ever television set, which he’d put his foot through when his favorite program had been canceled; there was a large birdcage, which had once held a parrot that Dudley had swapped at school for a real air rifle, which was up on a shelf with the end all bent because Dudley had sat on it. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 21:59:10
+
+12. whizz
+usage: “No post on Sundays,” he reminded them cheerfully as he spread marmalade on his newspapers, “no damn letters today —” Something came whizzing down the kitchen chimney as he spoke and caught him sharply on the back of the head. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 22:21:07
+
+13. tuft
+usage: “That does it,” said Uncle Vernon, trying to speak calmly but pulling great tufts out of his mustache at the same time. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 22:24:15
+
+14. cupboard
+usage: That evening when he got back from work, Uncle Vernon did something he’d never done before; he visited Harry in his cupboard. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 21:55:02
+
+15. flat
+usage: Smeltings boys wore maroon tailcoats, orange knickerbockers, and flat straw hats called boaters. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 13:33:59
+
+16. swift
+usage: As the snake slid swiftly past him, Harry could have sworn a low, hissing voice said, “Brazil, here I come. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 11:10:14
+
+17. dye
+usage: “I’m dyeing some of Dudley’s old things gray for you. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 13:52:38
+
+18. nail
+usage: “Oh, these people’s minds work in strange ways, Petunia, they’re not like you and me,” said Uncle Vernon, trying to knock in a nail with the piece of fruitcake Aunt Petunia had just brought him. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 22:17:11
+
+19. scruff
+usage: roared Uncle Vernon, and he took both Harry and Dudley by the scruffs of their necks and threw them into the hall, slamming the kitchen door behind them. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 21:51:51
+
+20. slam
+usage: When Aunt Petunia and Dudley had run out with their arms over their faces, Uncle Vernon slammed the door shut. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 22:23:29
+
+21. duck
+usage: The Dursleys ducked, but Harry leapt into the air trying to catch one — “Out! 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 22:21:52
+

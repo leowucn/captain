@@ -7,6 +7,7 @@ import requests
 import bs4
 import sys
 import urllib2
+import traceback
 import utility
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -81,6 +82,13 @@ def extract_info_from_raw(raw_content, mark):
     res = raw_content[left_bracket_index + 1:right_bracket_index]
     res = res.replace('&amp;', '&')
     return res
+
+
+def g():
+    print('---------------------------')
+    for line in traceback.format_stack():
+        print(line.strip())
+    print('---------------------------')
 
 
 def p(content):

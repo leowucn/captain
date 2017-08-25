@@ -1,0 +1,105 @@
+1. billow
+usage: A lot of green smoke came billowing out, and as it cleared, Harry gasped. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-26 13:00:06
+
+2. bump
+usage: At this moment the boat bumped gently into the harbor wall. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-26 10:19:52
+
+3. twist
+usage: The brick he had touched quivered — it wriggled — in the middle, a small hole appeared — it grew wider and wider — a second later they were facing an archway large enough even for Hagrid, an archway onto a cobbled street that twisted and turned out of sight. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-26 11:50:41
+
+4. transfigure
+usage: A little more power and excellent for transfiguration. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-26 15:21:49
+
+5. wriggle
+usage: The brick he had touched quivered — it wriggled — in the middle, a small hole appeared — it grew wider and wider — a second later they were facing an archway large enough even for Hagrid, an archway onto a cobbled street that twisted and turned out of sight. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-26 11:49:51
+
+6. piercing
+usage: Ollivander, giving Hagrid a piercing look. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-26 15:24:47
+
+7. cauldron
+usage: Phyllida Spore Magical Drafts and Potions by Arsenius Jigger Fantastic Beasts and Where to Find Them by Newt Scamander The Dark Forces: A Guide to Self-Protection by Quentin Trimble OTHER EQUIPMENT 1 wand 1 cauldron (pewter, standard size 2) 1 set glass or crystal phials 1 telescope 1 set brass scales Students may also bring an owl OR a cat OR a toad PARENTS ARE REMINDED THAT FIRST YEARS ARE NOT ALLOWED THEIR OWN
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-26 10:27:51
+
+8. hoot
+usage: Owls hooted to one another in a disgruntled sort of way over the babble and the scraping of heavy trunks. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-27 06:56:06
+
+9. grip
+usage: Harry noticed he gripped his pink umbrella very tightly as he spoke. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-26 15:24:38
+
+10. pipe
+usage: piped a small girl, also red-headed, who was holding her hand, “Mom, can’t I go …” “You’re not old enough, Ginny, now be quiet. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-26 18:54:06
+
+11. tuck
+usage: Hagrid picked it up and tucked it deep inside his coat. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-26 13:22:10
+
+12. slight
+usage: said the boy, with a slight sneer. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-26 13:32:19
+
+13. enchantment
+usage: “Spells — enchantments,” said Hagrid, unfolding his newspaper as he spoke. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-26 10:15:23
+
+14. crackpot
+usage: He’ll be with youngsters of his own sort, fer a change, an’ he’ll be under the greatest headmaster Hogwarts ever had, Albus Dumbled—” “I AM NOT PAYING FOR SOME CRACKPOT OLD FOOL TO TEACH HIM MAGIC TRICKS!” 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-25 10:47:10
+
+15. alley
+usage: Diagon Alley Harry woke early the next morning. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-25 17:00:02
+
+16. engrave
+usage: Now they were facing a second pair of doors, silver this time, with words engraved upon them: Enter, stranger, but take heed Of what awaits the sin of greed, For those who take, but do not earn, Must pay most dearly in their turn. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-26 12:49:46
+
+17. relief
+usage: …” He shook his head and then, to Harry’s relief, spotted Hagrid. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-26 15:24:28
+
+18. drawl
+usage: He had a bored, drawling voice. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-26 13:27:27
+
+19. powder
+usage: Barrels of slimy stuff stood on the floor; jars of herbs, dried roots, and bright powders lined the walls; bundles of feathers, strings of fangs, and snarled claws hung from the ceiling. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-26 15:09:56
+
+20. stroke
+usage: He stroked the door gently with one of his long fingers and it simply melted away. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-26 13:19:32
+
+21. humbug
+usage: Hagrid’s coat seemed to be made of nothing but pockets — bunches of keys, slug pellets, balls of string, peppermint humbugs, teabags … finally, Harry pulled out a handful of strange-looking coins. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-26 10:04:21
+

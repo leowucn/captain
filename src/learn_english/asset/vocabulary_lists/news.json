@@ -163,6 +163,12 @@
         "word_name": "castanets", 
         "word_example": "Past the Aztec ruins and the ghosts of our people "
       }, 
+      "vacant": {
+        "word_definition": "void of thought or knowledge", 
+        "word_description": "", 
+        "word_name": "vacant", 
+        "word_example": "I was born here and I\u2019ll die here against my will "
+      }, 
       "vain": {
         "word_definition": "unproductive of success", 
         "word_description": "", 
@@ -216,12 +222,6 @@
         "word_description": "", 
         "word_name": "vagabond", 
         "word_example": "Leave your stepping stones behind, something calls for you "
-      }, 
-      "demagogue": {
-        "word_definition": "a leader who seeks support by appealing to popular passions", 
-        "word_description": "", 
-        "word_name": "demagogue", 
-        "word_example": "I'm going where the Southern crosses the Yellow Dog "
       }, 
       "martyr": {
         "word_definition": "one who suffers for the sake of principle", 
@@ -469,11 +469,11 @@
         "word_name": "radiant", 
         "word_example": "He knows the music intimately and led a  radiant, stirring, if sometimes uneven performance."
       }, 
-      "vacant": {
-        "word_definition": "void of thought or knowledge", 
+      "demagogue": {
+        "word_definition": "a leader who seeks support by appealing to popular passions", 
         "word_description": "", 
-        "word_name": "vacant", 
-        "word_example": "I was born here and I\u2019ll die here against my will "
+        "word_name": "demagogue", 
+        "word_example": "I'm going where the Southern crosses the Yellow Dog "
       }, 
       "chastise": {
         "word_definition": "censure severely", 
@@ -1391,12 +1391,6 @@
         "word_name": "egregious", 
         "word_example": "In fact, her single greatest accomplishment may be committing such an  egregious crime and getting away with it \u2013 especially when others have paid so dearly. When that same Secretary of State rakes in millions of dollars trading access and favors to special interests and foreign powers I know the time for action has come. "
       }, 
-      "mentor": {
-        "word_definition": "a wise and trusted guide and advisor", 
-        "word_description": "", 
-        "word_name": "mentor", 
-        "word_example": "That president can only be my  mentor, my best friend, my father, Donald . "
-      }, 
       "ineptitude": {
         "word_definition": "unskillfulness resulting from a lack of training", 
         "word_description": "", 
@@ -1427,6 +1421,12 @@
         "word_name": "iconic", 
         "word_example": "Throughout my father's career, he has been repeatedly called on by government to step in, save delayed, shuttered, and and grossly over-budget public projects, everything from the exterior of Grand Central Terminal in New York to the  iconic old post office in Washington, D.C., just to name a few. "
       }, 
+      "meritocracy": {
+        "word_definition": "a social system in which power goes to superior intellects", 
+        "word_description": "", 
+        "word_name": "meritocracy", 
+        "word_example": "When run properly, construction sites are true  meritocracies. "
+      }, 
       "deleterious": {
         "word_definition": "harmful to living things", 
         "word_description": "", 
@@ -1439,11 +1439,11 @@
         "word_name": "dereliction", 
         "word_example": "Her  dereliction of duty and failure to keep her people safe played a major role in the horrific Islamic terrorist murders on September 11-12, 2012 in Benghazi which claimed the lives of four brave Americans; "
       }, 
-      "meritocracy": {
-        "word_definition": "a social system in which power goes to superior intellects", 
+      "beholden": {
+        "word_definition": "under a moral obligation to someone", 
         "word_description": "", 
-        "word_name": "meritocracy", 
-        "word_example": "When run properly, construction sites are true  meritocracies. "
+        "word_name": "beholden", 
+        "word_example": "Rather than being energy independent, our country will be forced to remain  beholden to her buddies in the Middle East. "
       }, 
       "malign": {
         "word_definition": "speak unfavorably about", 
@@ -1475,11 +1475,11 @@
         "word_name": "discerning", 
         "word_example": "That we are, as we have always been, one nation under God, indivisible, with liberty and justice for all. Should I have the awesome privilege to serve as your vice president, I promise to keep faith with that conviction, to pray daily for a wise and  discerning heart, for who is able to govern this great people without it? "
       }, 
-      "beholden": {
-        "word_definition": "under a moral obligation to someone", 
+      "mentor": {
+        "word_definition": "a wise and trusted guide and advisor", 
         "word_description": "", 
-        "word_name": "beholden", 
-        "word_example": "Rather than being energy independent, our country will be forced to remain  beholden to her buddies in the Middle East. "
+        "word_name": "mentor", 
+        "word_example": "That president can only be my  mentor, my best friend, my father, Donald . "
       }
     }, 
     "list_href": "/lists/1142552", 
@@ -2509,23 +2509,23 @@
         "word_name": "stringent", 
         "word_example": "And in this case it's not only about Roe v. Wade. It is about what's happening right now in America so many states are putting very  stringent regulations on women that block them from exercising that choice to the extent that they are defunding Planned Parenthood, which, of course, provides all kinds of cancer screenings and other benefits for women in our country. "
       }, 
-      "replica": {
-        "word_definition": "copy that is not the original", 
+      "gold standard": {
+        "word_definition": "a paragon of excellence", 
         "word_description": "", 
-        "word_name": "replica", 
-        "word_example": "I believe if my opponent should win this race, which I truly don't think will happen, we will have a second amendment which will be a very, very small  replica of what it is right now.  "
+        "word_name": "gold standard", 
+        "word_example": "She lied when she said she didn't call it [The Trans -Pacific Partnership Trade Deal] the  gold standard in one of the debates. "
+      }, 
+      "pivot": {
+        "word_definition": "turn on an axis", 
+        "word_description": "Here, Donald Trump is observing the Secretary Clinton has dodged, turned away from, or pivoted from the subject of the question onto another topic.", 
+        "word_name": "pivot", 
+        "word_example": "That was a great  pivot off the fact that she wants open borders, okay? "
       }, 
       "rhetoric": {
         "word_definition": "loud and confused and empty talk", 
         "word_description": "", 
         "word_name": "rhetoric", 
         "word_example": "Well, that is not what happens in these cases [of late-term abortions] And using that kind of scare  rhetoric is just terribly unfortunate. You should meet with some of the women that I've met with.Women I've known over the course of my life.  "
-      }, 
-      "repeal": {
-        "word_definition": "cancel officially", 
-        "word_description": "", 
-        "word_name": "repeal", 
-        "word_example": "And one thing we have to do,  repeal and replace the disaster known as Obamacare. "
       }, 
       "anemic": {
         "word_definition": "lacking vigor or energy", 
@@ -2569,11 +2569,11 @@
         "word_name": "belittle", 
         "word_example": "Donald thinks  belittling women makes him bigger. "
       }, 
-      "pivot": {
-        "word_definition": "turn on an axis", 
-        "word_description": "Here, Donald Trump is observing the Secretary Clinton has dodged, turned away from, or pivoted from the subject of the question onto another topic.", 
-        "word_name": "pivot", 
-        "word_example": "That was a great  pivot off the fact that she wants open borders, okay? "
+      "stagnant": {
+        "word_definition": "not growing or changing; without force or vitality", 
+        "word_description": "", 
+        "word_name": "stagnant", 
+        "word_example": "Look, our country is  stagnant. We've lost our jobs. We've lost our businesses.We're not making things anymore, relatively speaking, our product is pouring in from China, pouring in from Vietnam, pouring in from all over the world.  "
       }, 
       "amnesty": {
         "word_definition": "a period during which offenders are exempt from punishment", 
@@ -2581,17 +2581,17 @@
         "word_name": "amnesty", 
         "word_example": "First of all, she wants to give  amnesty,[ to illegal immigrants already in the United States] which is a disaster and very unfair to all the people who are waiting in line [ for legal citizenship] for many years. "
       }, 
-      "stagnant": {
-        "word_definition": "not growing or changing; without force or vitality", 
+      "repeal": {
+        "word_definition": "cancel officially", 
         "word_description": "", 
-        "word_name": "stagnant", 
-        "word_example": "Look, our country is  stagnant. We've lost our jobs. We've lost our businesses.We're not making things anymore, relatively speaking, our product is pouring in from China, pouring in from Vietnam, pouring in from all over the world.  "
+        "word_name": "repeal", 
+        "word_example": "And one thing we have to do,  repeal and replace the disaster known as Obamacare. "
       }, 
-      "gold standard": {
-        "word_definition": "a paragon of excellence", 
+      "replica": {
+        "word_definition": "copy that is not the original", 
         "word_description": "", 
-        "word_name": "gold standard", 
-        "word_example": "She lied when she said she didn't call it [The Trans -Pacific Partnership Trade Deal] the  gold standard in one of the debates. "
+        "word_name": "replica", 
+        "word_example": "I believe if my opponent should win this race, which I truly don't think will happen, we will have a second amendment which will be a very, very small  replica of what it is right now.  "
       }, 
       "unprecedented": {
         "word_definition": "novel; having no earlier occurrence", 
