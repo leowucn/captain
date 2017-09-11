@@ -33,7 +33,7 @@ def load_json_file(file_path):
 
 def write_json_file(file_name, data):
     if data is None:
-        p('in write_json_file, data is None.')
+        return
     with open(file_name, mode='w') as f:
         f.write(json.dumps(data, indent=2))
 
