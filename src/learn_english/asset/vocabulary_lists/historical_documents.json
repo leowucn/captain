@@ -233,11 +233,11 @@
         "word_name": "motivation", 
         "word_example": "A sense of inferiority affects the  motivation of a child to learn."
       }, 
-      "determine": {
-        "word_definition": "establish after a calculation, investigation, or experiment", 
+      "doctrine": {
+        "word_definition": "a belief accepted as authoritative by some group or school", 
         "word_description": "", 
-        "word_name": "determine", 
-        "word_example": "We must consider public education in the light of its full development and its present place in American life throughout the Nation. Only in this way can it be  determined if segregation in public schools deprives these plaintiffs of the equal protection of the laws."
+        "word_name": "doctrine", 
+        "word_example": "In each of the cases other than the Delaware case, a three-judge federal district court denied relief to the plaintiffs on the so-called \"separate but equal\"  doctrine announced by this Court in Plessy v. Ferguson. Under that  doctrine, equality of treatment is accorded when the races are provided substantially equal facilities, even though these facilities be separate."
       }, 
       "psychological": {
         "word_definition": "mental or emotional as opposed to physical in nature", 
@@ -251,11 +251,11 @@
         "word_name": "intangible", 
         "word_example": "In McLaurin v. Oklahoma State Regents, supra, the Court, in requiring that a Negro admitted to a white graduate school be treated like all other students, again resorted to  intangible considerations: \". . . his ability to study, to engage in discussions and exchange views with other students, and, in general, to learn his profession.\""
       }, 
-      "doctrine": {
-        "word_definition": "a belief accepted as authoritative by some group or school", 
+      "determine": {
+        "word_definition": "establish after a calculation, investigation, or experiment", 
         "word_description": "", 
-        "word_name": "doctrine", 
-        "word_example": "In each of the cases other than the Delaware case, a three-judge federal district court denied relief to the plaintiffs on the so-called \"separate but equal\"  doctrine announced by this Court in Plessy v. Ferguson. Under that  doctrine, equality of treatment is accorded when the races are provided substantially equal facilities, even though these facilities be separate."
+        "word_name": "determine", 
+        "word_example": "We must consider public education in the light of its full development and its present place in American life throughout the Nation. Only in this way can it be  determined if segregation in public schools deprives these plaintiffs of the equal protection of the laws."
       }, 
       "quality": {
         "word_definition": "an essential and distinguishing attribute of something", 
@@ -1967,11 +1967,11 @@
         "word_name": "impropriety", 
         "word_example": "Resolved, that the objection of indelicacy and  impropriety, which is so often brought against woman when she addresses a public audience, comes with a very ill grace from those who encourage, by their attendance, her appearance on the stage, in the concert, or in feats of the circus."
       }, 
-      "facility": {
-        "word_definition": "a building or place that provides a particular service", 
+      "remuneration": {
+        "word_definition": "paying for goods or services or to recompense for losses", 
         "word_description": "", 
-        "word_name": "facility", 
-        "word_example": "He has denied her the  facilities for obtaining a thorough education, all colleges being closed against her."
+        "word_name": "remuneration", 
+        "word_example": "He has monopolized nearly all the profitable employments, and from those she is permitted to follow, she receives but a scanty  remuneration."
       }, 
       "usurpation": {
         "word_definition": "entry to another's property without right or permission", 
@@ -1990,6 +1990,12 @@
         "word_description": "", 
         "word_name": "precept", 
         "word_example": "Resolved, That such laws as conflict, in any way, with the true and substantial happiness of woman, are contrary to the great  precept of nature and of no validity, for this is \"superior in obligation to any other.\""
+      }, 
+      "facility": {
+        "word_definition": "a building or place that provides a particular service", 
+        "word_description": "", 
+        "word_name": "facility", 
+        "word_example": "He has denied her the  facilities for obtaining a thorough education, all colleges being closed against her."
       }, 
       "circumscribe": {
         "word_definition": "restrict or confine", 
@@ -2038,12 +2044,6 @@
         "word_description": "", 
         "word_name": "compel", 
         "word_example": "He has  compelled her to submit to law in the formation of which she had no voice."
-      }, 
-      "remuneration": {
-        "word_definition": "paying for goods or services or to recompense for losses", 
-        "word_description": "", 
-        "word_name": "remuneration", 
-        "word_example": "He has monopolized nearly all the profitable employments, and from those she is permitted to follow, she receives but a scanty  remuneration."
       }, 
       "impunity": {
         "word_definition": "exemption from punishment or loss", 
@@ -4385,11 +4385,11 @@
     "list_brief_description": "On 24th September 1996, the nations of the world convened to sign a treaty that banned the testing and development of all nuclear weapons in a massive step towa...", 
     "list_num": "21 Words", 
     "list_detailed_info": {
-      "enhancement": {
-        "word_definition": "an improvement that makes something more agreeable", 
+      "arrears": {
+        "word_definition": "the state of being behind in payments", 
         "word_description": "", 
-        "word_name": "enhancement", 
-        "word_example": "Affirming the purpose of attracting the adherence of all States to this Treaty and its objective to contribute effectively to the prevention of the proliferation of nuclear weapons in all its aspects, to the process of nuclear disarmament and therefore to the  enhancement of international peace and security,"
+        "word_name": "arrears", 
+        "word_example": "A member of the Organization which is in  arrears in the payment of its assessed contribution to the Organization shall have no vote in the Organization if the amount of its  arrears equals or exceeds the amount of the contribution due from it for the preceding two full years."
       }, 
       "contravene": {
         "word_definition": "go against, as of rules and laws", 
@@ -4457,11 +4457,11 @@
         "word_name": "deem", 
         "word_example": "(d) If the requesting State Party  deems the clarification to be inadequate, it shall have the right to request the Executive Council to obtain further clarification from the requested State Party."
       }, 
-      "arrears": {
-        "word_definition": "the state of being behind in payments", 
+      "ultimate": {
+        "word_definition": "furthest or highest in degree or order; utmost or extreme", 
         "word_description": "", 
-        "word_name": "arrears", 
-        "word_example": "A member of the Organization which is in  arrears in the payment of its assessed contribution to the Organization shall have no vote in the Organization if the amount of its  arrears equals or exceeds the amount of the contribution due from it for the preceding two full years."
+        "word_name": "ultimate", 
+        "word_example": "Stressing therefore the need for continued systematic and progressive efforts to reduce nuclear weapons globally, with the  ultimate goal of eliminating those weapons, and of general and complete disarmament under strict and effective international control,"
       }, 
       "systematic": {
         "word_definition": "characterized by order and planning", 
@@ -4505,11 +4505,11 @@
         "word_name": "hamper", 
         "word_example": "The provisions of this Treaty shall be implemented in a manner which avoids  hampering the economic and technological development of the States Parties for further development of the application of atomic energy for peaceful purposes."
       }, 
-      "ultimate": {
-        "word_definition": "furthest or highest in degree or order; utmost or extreme", 
+      "enhancement": {
+        "word_definition": "an improvement that makes something more agreeable", 
         "word_description": "", 
-        "word_name": "ultimate", 
-        "word_example": "Stressing therefore the need for continued systematic and progressive efforts to reduce nuclear weapons globally, with the  ultimate goal of eliminating those weapons, and of general and complete disarmament under strict and effective international control,"
+        "word_name": "enhancement", 
+        "word_example": "Affirming the purpose of attracting the adherence of all States to this Treaty and its objective to contribute effectively to the prevention of the proliferation of nuclear weapons in all its aspects, to the process of nuclear disarmament and therefore to the  enhancement of international peace and security,"
       }
     }, 
     "list_href": "/lists/464486", 
@@ -4531,11 +4531,11 @@
         "word_name": "secure", 
         "word_example": ". . . That all lands adapted to agriculture, with or without irrigation so sold or released to the United States by any Indian tribe shall be held by the United States for the sale purpose of  securing homes to actual settlers. . ."
       }, 
-      "estate": {
-        "word_definition": "everything you own; all of your assets and liabilities", 
-        "word_description": "Real estate is land that you own including buildings upon that land.", 
-        "word_name": "estate", 
-        "word_example": ". . . the laws of the State of Kansas regulating the descent and partition of real  estate shall, so far as practicable, apply to all lands in the Indian Territory. . ."
+      "render": {
+        "word_definition": "cause to become", 
+        "word_description": "", 
+        "word_name": "render", 
+        "word_example": "That in cases where the use of water for irrigation is necessary to  render the lands within any Indian reservation available for agricultural purposes, the Secretary of the Interior be, and he is hereby, authorized to prescribe such rules and regulations as he may deem necessary to secure a just and equal distribution thereof among the Indians residing upon any such reservation. . ."
       }, 
       "consent": {
         "word_definition": "permission to do something", 
@@ -4591,6 +4591,12 @@
         "word_name": "reservation", 
         "word_example": "An Act to Provide for the Allotment of Lands in Severalty to Indians on the Various  Reservations, and to Extend the Protection of the Laws of the United States and the Territories over the Indians, and for Other Purposes."
       }, 
+      "tract": {
+        "word_definition": "an extended area of land", 
+        "word_description": "", 
+        "word_name": "tract", 
+        "word_example": ". . . That all lands adapted to agriculture, with or without irrigation so sold or released to the United States by any Indian tribe shall be held by the United States for the sale purpose of securing homes to actual settlers and shall be disposed of by the United States to actual and bona fide settlers only  tracts not exceeding one hundred and sixty acres to any one person. . ."
+      }, 
       "agriculture": {
         "word_definition": "the practice of cultivating the land or raising stock", 
         "word_description": "The practice of farming is agriculture.", 
@@ -4603,11 +4609,11 @@
         "word_name": "condemn", 
         "word_example": "That nothing in this act contained shall be so construed to affect the right and power of Congress to grant the right of way through any lands granted to an Indian, or a tribe of Indians, for railroads or other highways, or telegraph lines, for the public use, or  condemn such lands to public uses, upon making just compensation."
       }, 
-      "render": {
-        "word_definition": "cause to become", 
-        "word_description": "", 
-        "word_name": "render", 
-        "word_example": "That in cases where the use of water for irrigation is necessary to  render the lands within any Indian reservation available for agricultural purposes, the Secretary of the Interior be, and he is hereby, authorized to prescribe such rules and regulations as he may deem necessary to secure a just and equal distribution thereof among the Indians residing upon any such reservation. . ."
+      "estate": {
+        "word_definition": "everything you own; all of your assets and liabilities", 
+        "word_description": "Real estate is land that you own including buildings upon that land.", 
+        "word_name": "estate", 
+        "word_example": ". . . the laws of the State of Kansas regulating the descent and partition of real  estate shall, so far as practicable, apply to all lands in the Indian Territory. . ."
       }, 
       "patent": {
         "word_definition": "an official document granting a right or privilege", 
@@ -4681,12 +4687,6 @@
         "word_name": "commissioner", 
         "word_example": ". . . and shall be certified by such agents to the  Commissioner of Indian Affairs, in duplicate, one copy to be retained in the Indian Office and the other to be transmitted to the Secretary of the Interior for his action, and to be deposited in the General Land Office. . ."
       }, 
-      "excess": {
-        "word_definition": "more than is needed, desired, or required", 
-        "word_description": "", 
-        "word_name": "excess", 
-        "word_example": "And provided further, That where the treaty or act of Congress setting apart such reservation provides the allotment of lands in severalty in quantities in  excess of those herein provided . . ."
-      }, 
       "assignment": {
         "word_definition": "distributing something to designated places or persons", 
         "word_description": "", 
@@ -4723,11 +4723,11 @@
         "word_name": "disposition", 
         "word_example": "And the fees to which the officers of such local land-office would have been entitled had such lands been entered under the general laws for the  disposition of the public lands shall be paid to them. . ."
       }, 
-      "tract": {
-        "word_definition": "an extended area of land", 
+      "excess": {
+        "word_definition": "more than is needed, desired, or required", 
         "word_description": "", 
-        "word_name": "tract", 
-        "word_example": ". . . That all lands adapted to agriculture, with or without irrigation so sold or released to the United States by any Indian tribe shall be held by the United States for the sale purpose of securing homes to actual settlers and shall be disposed of by the United States to actual and bona fide settlers only  tracts not exceeding one hundred and sixty acres to any one person. . ."
+        "word_name": "excess", 
+        "word_example": "And provided further, That where the treaty or act of Congress setting apart such reservation provides the allotment of lands in severalty in quantities in  excess of those herein provided . . ."
       }, 
       "equitable": {
         "word_definition": "fair to all parties as dictated by reason and conscience", 

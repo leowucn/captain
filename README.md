@@ -8,11 +8,15 @@ Captain is a smart clipboard recorder, a dictionary and a vocabulary builder whi
 
 ### Smart Clipboard Recorder
 
-Captain monitor the clipboard and extract the vocabulary and the sentence wisely. Why? Because it is essential to record the vocabulary and the sentence in which you stuck and can't recognise the word when you read English articles or English novels. If you can learn words from a vivid or meaningful sentence in which you stuck other than a trivial example from a dictionary, you would gain much efficiency when learning English.
+Captain monitor the clipboard and extract the vocabulary and the sentence which the vocabulary exist wisely. Why? Because it is essential to record the vocabulary and the sentence in which you stuck and can't recognise when you read English articles or English novels. If you can learn words from a vivid or meaningful sentence in which you stuck other than a trivial example from a dictionary, you would gain much efficiency when learning English.
+
+### Word Prototype
+
+Caption could automatically get word prototype from a derived form. And this is crutical for setsequent function. After all, you would probabely want to query word ‘get’ other than 'got'.  
 
 ### Automatic pronunciation
 
-Want to listen to word pronunciation but too lazy to open other app and click pronunciation button? Or less you have to open a web browser and search the certain word? How can you bear the so much low efficiency? Now,  Captain would release you from the annoying dilemma. The only thing you need to do is to copy the word! Programming should make life easier. That's it.ʘ‿ʘ.
+Want to listen to word pronunciation but too lazy to open other app and click pronunciation button? Or even worse you have to open a web browser and search the certain word manually? How can you bear the low efficiency? Now, you have Caption,  Captain would release you from the annoying dilemma. The only thing you need to do is to copy the word, and the pronunciation would automatically be emitted. And it is necessary here to declare that all of the pronunctions are downloaded from http://dictionary.cambridge.org/, so I appreciate their great work sincerely.
 
 ### Automatic notification
 
@@ -26,9 +30,9 @@ Captain, of course, can look up words. As a matter of fact, Captain requests and
 
 Captain is originally designed as an assistant partner of Kindle E-reader.Frankly, I think Kindle is awesome to learning English. When we look up words on Kindle, they are automatically added to the Vocabulary Builder on the device. With Vocabulary Builder, we can use flashcards to learn the definitions and usage of words. But as a long term user, I think Kindle has a serious shortcoming which is a lack of excellent management functionary of vocabulary builder, and this is why I created this project originally.
 
-![](src/learn_english/asset/images/screenshot2.png)
+![](src/learn_english/asset/images/Screen1.png)
 
-![](src/learn_english/asset/images/screenshot3.png)
+![](src/learn_english/asset/images/Screen2.png)
 
 ### Kindle Exporter
 

@@ -22,10 +22,10 @@ def extract(word, paragraph):
     sentences = []
     indices = [m.start() for m in re.finditer(word, paragraph)]
     for index in indices:
-        if index > 0 and paragraph[index-1] != ' ':
+        if index > 0 and paragraph[index-1].isalpha():
             continue
         if index < len(paragraph)-1:
-            if paragraph[index+len(word)] != ' ' and paragraph[index+len(word)] != '.':
+            if paragraph[index+len(word)].isalpha():
                 continue
         extract_content = get_backward_content(paragraph[:index]) + get_forward_content(paragraph[index:])
         extract_content = extract_content.strip() + '\n'
@@ -70,8 +70,8 @@ def p(c):
     print(c)
 
 
-example = '''Having said that, I'm a nurse at the VA hospital.  We were required to take a 3 day course on "Reigniting the Spirit of Care".  I knew I'd hate it because it's pretty spiritual and I'm the least spiritual thing around.'''
-r = extract('it', example)
-print(r)
+# example = '''Via this IP address it’s possible to customize the default gateway. To reach an administrative console you have to paste link http://192.168.0.1 into your web-browser. This act is from the system administrator’s arsenal, but any user of the above-mentioned devices can do it yourself.'''
+# r = extract('arsenal', example)
+# print(r)
 # get_backward_content('hello. this is a example')
 # get_forward_content('hello. this is a example')

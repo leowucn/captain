@@ -34,8 +34,11 @@ def load_json_file(file_name):
         # except:
         #     return dict()
     f = open(file_name, 'r')
-    res = json.load(f)
-    f.close()
+    try:
+        res = json.load(f)
+        f.close()
+    except:
+        return dict()
     return res
 
 
