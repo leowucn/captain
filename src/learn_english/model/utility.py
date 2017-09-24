@@ -7,10 +7,14 @@ import requests
 import bs4
 import sys
 import urllib2
-import traceback
 import utility
+import traceback
+from nltk.stem import WordNetLemmatizer
 reload(sys)
 sys.setdefaultencoding('utf-8')
+
+
+extractor = WordNetLemmatizer()
 
 
 def show_notification(title, msg):
@@ -23,19 +27,28 @@ def show_notification(title, msg):
     return
 
 
-def load_json_file(file_path):
-    feeds = dict()
-    if os.path.exists(file_path):
-        with open(file_path) as fp:
-            return json.load(fp)
-    return feeds
+def load_json_file(file_name):
+    # with open(file_path, mode='r') as fp:
+        # try:
+        #     return json.load(fp)
+        # except:
+        #     return dict()
+    f = open(file_name, 'r')
+    res = json.load(f)
+    f.close()
+    return res
 
 
 def write_json_file(file_name, data):
     if data is None:
         return
-    with open(file_name, mode='w') as f:
-        f.write(json.dumps(data, indent=2))
+    if data == '' or data == ' ':
+        g()
+    # with open(file_name, mode='w') as f:
+    #     f.write(json.dumps(data, indent=2))
+    f = open(file_name, 'w')
+    f.write(json.dumps(data, indent=2))
+    f.close()
 
 
 def get_ip():
@@ -82,6 +95,23 @@ def extract_info_from_raw(raw_content, mark):
     res = raw_content[left_bracket_index + 1:right_bracket_index]
     res = res.replace('&amp;', '&')
     return res
+
+
+def get_word_original_form(word):
+    word = word.lower()
+
+    ori_form = extractor.lemmatize(word, pos='v')
+    if word != ori_form:
+        return ori_form
+    else:
+        ori_form = extractor.lemmatize(word, pos='n')
+        if word != ori_form:
+            return ori_form
+        else:
+            ori_form = extractor.lemmatize(word, pos='a')
+            if word != ori_form:
+                return ori_form
+    return word
 
 
 def g():

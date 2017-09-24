@@ -16,12 +16,17 @@ invalid_characters = {
 
 
 def extract(word, paragraph):
-    # If the paragraph which contains word is not too long, then return it.
+    # If the paragraph which contains word is not so long, then return it.
     if len(paragraph) <= 160:
         return [paragraph]
     sentences = []
     indices = [m.start() for m in re.finditer(word, paragraph)]
     for index in indices:
+        if index > 0 and paragraph[index-1] != ' ':
+            continue
+        if index < len(paragraph)-1:
+            if paragraph[index+len(word)] != ' ' and paragraph[index+len(word)] != '.':
+                continue
         extract_content = get_backward_content(paragraph[:index]) + get_forward_content(paragraph[index:])
         extract_content = extract_content.strip() + '\n'
         if is_valid_string(extract_content):
@@ -61,12 +66,12 @@ def is_valid_string(src):
     return True
 
 
-# example = 'We believe ourselves to be honest, innocent, well meaning' \
-#           ' and kind people. For the most part, we are but we are also' \
-#           ' born with some qualities that cause friction in life without' \
-#           ' us even realizing it. Just because we never intended to be the ' \
-#           'bad one does not mean that we are incapable of causing pain to others.'
-# r = extract('we', example)
-# print(r)
+def p(c):
+    print(c)
+
+
+example = '''Having said that, I'm a nurse at the VA hospital.  We were required to take a 3 day course on "Reigniting the Spirit of Care".  I knew I'd hate it because it's pretty spiritual and I'm the least spiritual thing around.'''
+r = extract('it', example)
+print(r)
 # get_backward_content('hello. this is a example')
 # get_forward_content('hello. this is a example')

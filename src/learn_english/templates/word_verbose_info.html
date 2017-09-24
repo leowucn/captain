@@ -59,12 +59,12 @@
     <h3>{{motto['motto']}}&emsp;—{{motto['author']}}</h3>
     <div class="ui divider"></div>
     <div class="one_line">
-        <form class="ui form" action = "http://0.0.0.0:9527/learn_english/" method = "post">
+        <form class="ui form" action = "http://127.0.0.1:9527/learn_english/" method = "post">
             <div class="ui action">
                 <input class="ui compact orange tiny button" type="submit" name='' value="year list">
             </div>
         </form>
-        <form class="ui form" action = "http://0.0.0.0:9527/learn_english/week_list" method = "post">
+        <form class="ui form" action = "http://127.0.0.1:9527/learn_english/week_list" method = "post">
             <div class="ui action">
                 <input class="ui compact orange tiny button" type="submit" name={{ y }} value="week list">
             </div>
@@ -82,12 +82,12 @@
     <div class="ui divider"></div>
 
     <div class="one_line">
-        <form class="ui form" action = "http://0.0.0.0:9527/learn_english/quickly_review" method = "post">
+        <form class="ui form" action = "http://127.0.0.1:9527/learn_english/quickly_review" method = "post">
             <div class="ui action">
                 <input class="ui compact purple tiny button" type="submit" name= {{ come_from }}*{{ y }}*{{ w }}*{{ page_index }} value="quickly review">
             </div>
         </form>
-        <form class="ui form" action = "http://0.0.0.0:9527/learn_english/stop_quickly_review" method = "post">
+        <form class="ui form" action = "http://127.0.0.1:9527/learn_english/stop_quickly_review" method = "post">
             <div class="ui action">
                 <input class="ui compact purple tiny button" type="submit" name= {{ come_from }}*{{ y }}*{{ w }}*{{ page_index }} value="stop">
             </div>
@@ -98,7 +98,7 @@
 
     <div class="one_line">
         {% for i in range(button_num) %}
-            <form class="ui form" action = "http://0.0.0.0:9527/learn_english/specified_page" method = "post">
+            <form class="ui form" action = "http://127.0.0.1:9527/learn_english/specified_page" method = "post">
                 <div class="ui action">
                     <input class="ui compact green tiny button" type="submit" name= {{ come_from }}*{{ y }}*{{ w }}*{{ i }} value={{ y }}*{{ w }}*{{ i }}>
                 </div>
@@ -113,7 +113,7 @@
     <div class="row">
     <div class="column">
         <div class="buttonHolder">
-            <form class="ui form" action = "http://0.0.0.0:9527/learn_english/delete" method = "post">
+            <form class="ui form" action = "http://127.0.0.1:9527/learn_english/delete" method = "post">
                 <div class="ui action">
                     <p class="ui header"><span class="ui huge label">{{ word }}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="ui compact red mini button" type="submit" name= {{ come_from }}*{{ y }}*{{ w }}*{{ page_index }}*{{ word }} value="delete">
                     </p>
@@ -205,7 +205,7 @@
     <br>
     <div class="one_line">
         {% for i in range(button_num) %}
-            <form class="ui form" action = "http://0.0.0.0:9527/learn_english/specified_page" method = "post">
+            <form class="ui form" action = "http://127.0.0.1:9527/learn_english/specified_page" method = "post">
                 <div class="ui action">
                     <input class="ui compact green tiny button" type="submit" name= {{ come_from }}*{{ y }}*{{ w }}*{{ i }} value={{ y }}*{{ w }}*{{ i }}>
                 </div>
@@ -221,12 +221,12 @@
 
     <div class="ui divider"></div>
     <div class="one_line">
-        <form class="ui form" action = "http://0.0.0.0:9527/learn_english/" method = "post">
+        <form class="ui form" action = "http://127.0.0.1:9527/learn_english/" method = "post">
             <div class="ui action">
                 <input class="ui compact orange tiny button" type="submit" name='' value="year list">
             </div>
         </form>
-        <form class="ui form" action = "http://0.0.0.0:9527/learn_english/week_list" method = "post">
+        <form class="ui form" action = "http://127.0.0.1:9527/learn_english/week_list" method = "post">
             <div class="ui action">
                 <input class="ui compact orange tiny button" type="submit" name={{ y }} value="week list">
             </div>

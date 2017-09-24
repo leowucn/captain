@@ -467,73 +467,61 @@
     "list_detailed_description": "With St. Patrick's Day \u2014 and celebrations of all things Irish \u2014 coming up on March 17th, learn 10 words derived from the Irish language. For more words from the Emerald Isle, read the article: \n", 
     "list_href": "/lists/1003994"
   }, 
-  "Basketball Words for March Madness": {
-    "list_brief_description": "March Madness basketball and brackets are pure mania, but the related words are pretty chill, right? Think again. Do YOU know all five meanings of foul? Test yo...", 
-    "list_num": "15 Words", 
+  "Spider-Man's Word Web": {
+    "list_brief_description": "Even if a new Spider-Man movie keeps coming more often than Leap Year, the lingo of Spider-Man is eternal and unique. Enjoy these words inspired by the \"web-hea...", 
+    "list_num": "12 Words", 
     "list_detailed_info": {
-      "court": {
-        "word_description": "Many sports\u2014such as baseball, football, and soccer\u2014are played on a field. Not basketball, which takes place on a court. This is one of many meanings of  court, including a place where you\u2019d find a judge or king and any closed-in area (such as a courtyard). The other major sport that takes place on a court is tennis, though if you try to play basketball on a tennis court, you might need to retake Sports 101.", 
-        "word_name": "court", 
-        "word_example": "As Highland stormed up and down the basketball  court Thursday, there was plenty of physical play under the basket.", 
-        "word_definition": "a specially marked area within which a game is played"
+      "radioactive": {
+        "word_description": "Spider-Man\u2019s origin involved getting bit by a radioactive spider: in other words, a spider that had become  irradiated with  radiation. Radiation is a specific sort of intense energy consisting of electromagnetic particles. If only radiation worked like it does in Marvel Comics, where cosmic radiation created the Fantastic Four, gamma rays created the Hulk, and radiation in general created mutants like the X-Men. In real life, too much radiation is anything but super.", 
+        "word_name": "radioactive", 
+        "word_example": "Peter Parker was a simple high school geek before a bite from a  radioactive spider transformed him into Spider-Man.", 
+        "word_definition": "exhibiting or caused by emissions in nuclear decay"
       }, 
-      "center": {
-        "word_description": "The center is located at the middle of anything, from a circle to a city. That concept is stretched just a little in basketball:  center is the name of one of the three positions, along with forward and guard. Fittingly, there\u2019s only one center, while there are two guards (point and shooting) and two forwards (power and small). The center is usually the biggest player on the court.", 
-        "word_name": "center", 
-        "word_example": "The deal clears more cap space for the Lightning, who earlier in the week traded goaltender Ben Bishop and  center Brian Boyle.", 
-        "word_definition": "position of a basketball player who participates in the jump"
+      "adolescent": {
+        "word_description": "Does the word  teen sound too casual or cutesy to you? Then there's always  adolescent, which means the same. You can also refer to the teen years as adolescence. Since teens are sometimes stereotyped as being moody and self-centered, this word is also used as an insult for older people. An adult who's rude, sulky, or otherwise immature can be called adolescent. Before his Uncle Ben died, Peter was an adolescent literally and figuratively. He had a lot of growing up to do.", 
+        "word_name": "adolescent", 
+        "word_example": "Anna May Dutton started skateboarding to channel her  adolescent energy.", 
+        "word_definition": "a juvenile between the onset of puberty and maturity"
       }, 
-      "zone": {
-        "word_description": "In basketball, the main use of  zone is in  zone defense, which is the opposite of  man-to-man defense. In a zone defense, the defenders don\u2019t have specific assignments: they cover areas of the court. This is often a losing strategy, since not having a specific player to follow can lead to chaos and anarchy, which aren\u2019t as fun as they sound. When a player is lighting up the scoreboard\u2014scoring points\u2014you can also say they\u2019re  in the zone.", 
-        "word_name": "zone", 
-        "word_example": "No. 12 West Virginia has undone opponents in the past three games not with a relentless press but with a throwback  zone defense.", 
-        "word_definition": "separate or apportion into sections"
+      "reptilian": {
+        "word_description": "Many of Spider-Man's enemies have pseudo-scientific origins\u2014such as Dr. Curtis Connors, the Lizard. Lizards are reptiles that are closely related to snakes, consisting of over 4000 species that are mostly long, green, and scaly. Many can regenerate limbs, which is what interested Connors. He was trying to regrow his own missing arm but ended up turning into a freaky lizard man instead, with many reptilian qualities. This is why comic-book science is not recommended by doctors.", 
+        "word_name": "reptilian", 
+        "word_example": "At least a dozen mortal guards stood on the balcony, plus two monsters\u2014 reptilian women with doublesnake trunks instead of legs.", 
+        "word_definition": "of or relating to cold-blooded vertebrates with scaly skin"
       }, 
-      "rebound": {
-        "word_description": "You can rebound from a failed relationship by starting a new one, and you can rebound from losing your job by spiffing up your resume and replacing that tie with the mustard stains. But in basketball, a rebound is much more literal: it\u2019s any time the ball bounces off the backboard or rim, doesn\u2019t go through the hoop, and a player grabs it.", 
-        "word_name": "rebound", 
-        "word_example": "Her layup attempt bounced around the top the iron and rolled off with Joyner grabbing the  rebound and getting fouled.", 
-        "word_definition": "securing possession of the basketball after a missed shot"
+      "orphan": {
+        "word_description": "Peter Parker, when first introduced in the comics and movies, lives with his Aunt May and Uncle Ben. That's because his parents died: Peter was adopted by his aunt and uncle. When someone doesn't have any parents, they're an orphan. For some reason, being an orphan is strongly correlated with being a superhero. Batman's parents were murdered. Superman's parents died on Krypton. Captain America's parents died young. Even James Bond is an orphan. No wonder villainous fiends are so anti-orphanage.", 
+        "word_name": "orphan", 
+        "word_example": "Then the wife died, the husband was sent to a nursing home and Louie became an  orphan.", 
+        "word_definition": "a child who has lost both parents"
       }, 
-      "assist": {
-        "word_description": "If you throw me the ball and I make a basket, I may get the glory of scoring 2 or 3 points, but you receive something besides a warm feeling inside: an assist. Assists are passes that directly set up scoring. Any player can make as assist, but usually the quarterback-like point guard gets the most assists.", 
-        "word_name": "assist", 
-        "word_example": "De\u2019Sean Parsons added 14 points for Portland State with five rebounds and four  assists.", 
-        "word_definition": "the act of enabling another player to make a good play"
+      "fluid": {
+        "word_description": "Peter Parker is a whiz at science, which is why he was interested in the particle accelerator that irradiated that pesky spider. This scientific interest also allowed Peter to invent his own web fluid. This web fluid shoots out in liquid form, then hardens in exactly the way he wants it to, whether to create a line for swinging or a giant net. Hey, if you're looking for realism, Spider-Man stories aren't the place.", 
+        "word_name": "fluid", 
+        "word_example": "\u201cIt\u2019s like slime,\u201d she said, referring to another type of non-Newtonian  fluid.", 
+        "word_definition": "continuous amorphous matter that tends to flow"
       }, 
-      "upset": {
-        "word_description": "People get upset for lots of reasons, from politics to parking, but in the NCAA Tournament an upset occurs when a lower-ranked team beats a higher-ranked team. Upsets are inevitable, and they\u2019re a big part of what makes March Madness bonkers.", 
-        "word_name": "upset", 
-        "word_example": "He missed four games, and Northwestern lost three of them \u2014 although the one victory was an impressive  upset of Wisconsin on the road.", 
-        "word_definition": "an improbable and unexpected victory"
+      "responsibility": {
+        "word_description": "Spider-Man\u2019s motto is: \u201cWith great power comes great responsibility.\u201d Peter learns this lesson the hard way during his famous origin, when he is so consumed with a chance to make money as a wrestler that he fails to stop a bad guy who had just committed a robbery. That bad guy\u2014who Peter could have easily grabbed or tripped\u2014ends up murdering Peter\u2019s Uncle Ben. That\u2019s when Peter decides he might need to do more with his powers than use them for his own gain.", 
+        "word_name": "responsibility", 
+        "word_example": "", 
+        "word_definition": "the social force that binds you to a course of action"
       }, 
-      "foul": {
-        "word_description": "This versatile word can be an adjective, noun, or verb. It can describe a stinky smell (\u201cYikes, what is the foul odor?\u201d) that assaults your nostrils, and that gross meaning might help you member the basketball meaning: a violation of the rules. The referee blows the whistle when one player fouls the other, resulting in free throws for the victim.", 
-        "word_name": "foul", 
-        "word_example": "\u201cThe players decided the game, and it wasn\u2019t just with free throws, and with  fouling,\u201d he said.", 
-        "word_definition": "an act that violates the rules of a sport"
+      "remorse": {
+        "word_description": "Because Spider-Man feels at fault for the death of his Uncle Ben, he is consumed by remorse\u2014an emotion made up of regret and sadness. When you feel remorseful, you blame yourself for something. Despite his wisecracks, remorsefulness is the defining trait of Spider-Man, who always feels like he has to make up for the past. Subsequent events in the comics\u2014such as the death of his girlfriend Gwen Stacy\u2014add to his guilt. It's not easy being Spidey.", 
+        "word_name": "remorse", 
+        "word_example": "Filled with  remorse, he sat on the ground and cried.", 
+        "word_definition": "a feeling of deep regret, usually for some misdeed"
       }, 
-      "guard": {
-        "word_description": "", 
-        "word_name": "guard", 
-        "word_example": "Point  guard Lonzo Ball was selected national freshman of the year by USA Today and the Sporting News.", 
-        "word_definition": "a position on a basketball team"
-      }, 
-      "forward": {
-        "word_description": "", 
-        "word_name": "forward", 
-        "word_example": "Update: This will be the final time Clippers  forward Paul Pierce, who\u2019s retiring after 19 seasons in the NBA, will play against the Celtics.", 
-        "word_definition": "a position on a basketball, soccer, or hockey team"
-      }, 
-      "dribble": {
-        "word_description": "", 
-        "word_name": "dribble", 
-        "word_example": "Murphy provided the ignition, when he grabbed a long rebound and  dribbled into the lane for a powerful two-handed dunk and a 30-25 advantage.", 
-        "word_definition": "flowing in drops"
+      "nerd": {
+        "word_description": "This word has a positive and negative meaning: a nerd can be an insult for someone considered uncool or a compliment for someone consumed by something, like a computer nerd or a comic book nerd.", 
+        "word_name": "nerd", 
+        "word_example": "May 6 is the great, geek holiday Free Comic Book Day, an annual celebration of reading, art and  nerd fellowship.", 
+        "word_definition": "an intelligent but single-minded expert in a technical field"
       }
     }, 
-    "list_detailed_description": "March Madness basketball and brackets are pure mania, but the related words are pretty chill, right? Think again. Do YOU know all five meanings of \n", 
-    "list_href": "/lists/1568958"
+    "list_detailed_description": "Even if a new Spider-Man movie keeps coming more often than Leap Year, the lingo of Spider-Man is eternal and unique. Enjoy these words inspired by the \"web-headed menace.\"\n", 
+    "list_href": "/lists/1761440"
   }, 
   "Wonder Woman's Superpower Words": {
     "list_brief_description": "As a mere mortal you may lack Wonder Woman's heroic powers, but you can still attain a super vocabulary by learning these words. For the full article, check out...", 
@@ -632,6 +620,92 @@
     }, 
     "list_detailed_description": "As a mere mortal you may lack Wonder Woman's heroic powers, but you can still attain a super vocabulary by learning these words. For the full article, check out:", 
     "list_href": "/lists/1726365"
+  }, 
+  "Words Every Pirate Should Know": {
+    "list_brief_description": "International Talk Like A Pirate Day is celebrated on September 19. In the swashbuckling spirit, this list covers words every self-respecting pirate should know...", 
+    "list_num": "15 Words", 
+    "list_detailed_info": {
+      "scurvy": {
+        "word_description": "This is a disease many pirates would contract because there was a lack of fresh fruit or other sources of Vitamin C.  ", 
+        "word_name": "scurvy", 
+        "word_example": "Scurvy, an 18th century disease caused by a lack of vitamin C, appears to have made a surprise comeback in Australia.", 
+        "word_definition": "a condition caused by deficiency of ascorbic acid"
+      }, 
+      "booty": {
+        "word_description": "", 
+        "word_name": "booty", 
+        "word_example": "He made me think of a pirate captain disposing of the  booty.", 
+        "word_definition": "goods or money obtained illegally"
+      }, 
+      "prow": {
+        "word_description": "The word for the front part of a ship,  ", 
+        "word_name": "prow", 
+        "word_example": "Instead of a knife she used a blade that curved like the  prow of a Viking ship, sailing to battle in distant seas.", 
+        "word_definition": "the front part of a vessel"
+      }, 
+      "pillage": {
+        "word_description": "", 
+        "word_name": "pillage", 
+        "word_example": "\u201cBeaten, bleeding, terrified, the men lay huddled together in the hold, while the pirates proceeded in their work of  pillage and brutality.", 
+        "word_definition": "steal goods; take as spoils"
+      }, 
+      "fathom": {
+        "word_description": "", 
+        "word_name": "fathom", 
+        "word_example": "The film borrowed heavily from a recent American picture, \u201cThe Beast From 20,000  Fathoms,\u201d but put a distinctly Japanese spin on the allegory.", 
+        "word_definition": "a linear unit of measurement for water depth"
+      }, 
+      "maroon": {
+        "word_description": "", 
+        "word_name": "maroon", 
+        "word_example": "Estimates of losses were not available, with rescuers yet to reach villages  marooned by the worst floods in recent years.", 
+        "word_definition": "leave stranded or isolated with little hope of rescue"
+      }, 
+      "hoist": {
+        "word_description": "", 
+        "word_name": "hoist", 
+        "word_example": "Drenched pirates shouted and  hoisted and scrambled, but there was nothing to be done.", 
+        "word_definition": "raise or haul up with or as if with mechanical help"
+      }, 
+      "keel": {
+        "word_description": "The keel is the lowest plank of wood on a boat. It is the foundational piece, and the ship depends on it for strength and stability. The phrase \"keep an even keel\" comes from maintaining a level, horizontal position on a ship, and has been metaphorically extended to mean keeping a calm demeanor and not going from one extreme emotion to another.", 
+        "word_name": "keel", 
+        "word_example": "But the  keel remained intact, and the boat eventually righted itself, though it was flooded.", 
+        "word_definition": "one of the main longitudinal beams of the hull of a vessel"
+      }, 
+      "careen": {
+        "word_description": "This verb originally applied to ships and is from a French word which literally translates as \"to expose a ship's  ", 
+        "word_name": "careen", 
+        "word_example": "Then a car roared past him,  careening all over the road, in the opposite direction.", 
+        "word_definition": "pitching dangerously to one side"
+      }, 
+      "unfurl": {
+        "word_description": "", 
+        "word_name": "unfurl", 
+        "word_example": "The queen herself was seen summoning the winds,  Unfurling her sails and frantically paying out the slackened ropes.", 
+        "word_definition": "to unroll, unfold, or spread out"
+      }, 
+      "stern": {
+        "word_description": "The stern is where the steering gear of the ship is located, and the word derives from Old Norse  ", 
+        "word_name": "stern", 
+        "word_example": "That  stern of a Turkish gulet where 10 of us slept on cushions under the stars.", 
+        "word_definition": "the rear part of a ship"
+      }, 
+      "buccaneer": {
+        "word_description": "", 
+        "word_name": "buccaneer", 
+        "word_example": "Buccaneers and pirate-wannabes of all ages abound, since pirate attire is encouraged and usually available from event vendors.", 
+        "word_definition": "someone who robs at sea or plunders the land from the sea"
+      }, 
+      "ballast": {
+        "word_description": "", 
+        "word_name": "ballast", 
+        "word_example": "The  ballast water that stabilizes marine vessels is the greatest source of harmful bacteria and invasive species in aquatic ecosystems.", 
+        "word_definition": "any heavy material used to stabilize a ship or airship"
+      }
+    }, 
+    "list_detailed_description": "", 
+    "list_href": "/lists/1844657"
   }, 
   "Cat Vocabulary: A Feline Lexicon": {
     "list_brief_description": "Whether you're a cat-person or have a case of feline phobia, here are 13 words to describe these lithe, stealthy creatures.\r\n\r\n", 
@@ -786,6 +860,74 @@
     }, 
     "list_detailed_description": "There is so much more to dads than a bunch of words, but these terms at least cover the tip of the word-berg that describes both the clich\u00e9s and the changing culture of fatherhood.\n", 
     "list_href": "/lists/1740448"
+  }, 
+  "Basketball Words for March Madness": {
+    "list_brief_description": "March Madness basketball and brackets are pure mania, but the related words are pretty chill, right? Think again. Do YOU know all five meanings of foul? Test yo...", 
+    "list_num": "15 Words", 
+    "list_detailed_info": {
+      "court": {
+        "word_description": "Many sports\u2014such as baseball, football, and soccer\u2014are played on a field. Not basketball, which takes place on a court. This is one of many meanings of  court, including a place where you\u2019d find a judge or king and any closed-in area (such as a courtyard). The other major sport that takes place on a court is tennis, though if you try to play basketball on a tennis court, you might need to retake Sports 101.", 
+        "word_name": "court", 
+        "word_example": "As Highland stormed up and down the basketball  court Thursday, there was plenty of physical play under the basket.", 
+        "word_definition": "a specially marked area within which a game is played"
+      }, 
+      "center": {
+        "word_description": "The center is located at the middle of anything, from a circle to a city. That concept is stretched just a little in basketball:  center is the name of one of the three positions, along with forward and guard. Fittingly, there\u2019s only one center, while there are two guards (point and shooting) and two forwards (power and small). The center is usually the biggest player on the court.", 
+        "word_name": "center", 
+        "word_example": "The deal clears more cap space for the Lightning, who earlier in the week traded goaltender Ben Bishop and  center Brian Boyle.", 
+        "word_definition": "position of a basketball player who participates in the jump"
+      }, 
+      "zone": {
+        "word_description": "In basketball, the main use of  zone is in  zone defense, which is the opposite of  man-to-man defense. In a zone defense, the defenders don\u2019t have specific assignments: they cover areas of the court. This is often a losing strategy, since not having a specific player to follow can lead to chaos and anarchy, which aren\u2019t as fun as they sound. When a player is lighting up the scoreboard\u2014scoring points\u2014you can also say they\u2019re  in the zone.", 
+        "word_name": "zone", 
+        "word_example": "No. 12 West Virginia has undone opponents in the past three games not with a relentless press but with a throwback  zone defense.", 
+        "word_definition": "separate or apportion into sections"
+      }, 
+      "rebound": {
+        "word_description": "You can rebound from a failed relationship by starting a new one, and you can rebound from losing your job by spiffing up your resume and replacing that tie with the mustard stains. But in basketball, a rebound is much more literal: it\u2019s any time the ball bounces off the backboard or rim, doesn\u2019t go through the hoop, and a player grabs it.", 
+        "word_name": "rebound", 
+        "word_example": "Her layup attempt bounced around the top the iron and rolled off with Joyner grabbing the  rebound and getting fouled.", 
+        "word_definition": "securing possession of the basketball after a missed shot"
+      }, 
+      "assist": {
+        "word_description": "If you throw me the ball and I make a basket, I may get the glory of scoring 2 or 3 points, but you receive something besides a warm feeling inside: an assist. Assists are passes that directly set up scoring. Any player can make as assist, but usually the quarterback-like point guard gets the most assists.", 
+        "word_name": "assist", 
+        "word_example": "De\u2019Sean Parsons added 14 points for Portland State with five rebounds and four  assists.", 
+        "word_definition": "the act of enabling another player to make a good play"
+      }, 
+      "upset": {
+        "word_description": "People get upset for lots of reasons, from politics to parking, but in the NCAA Tournament an upset occurs when a lower-ranked team beats a higher-ranked team. Upsets are inevitable, and they\u2019re a big part of what makes March Madness bonkers.", 
+        "word_name": "upset", 
+        "word_example": "He missed four games, and Northwestern lost three of them \u2014 although the one victory was an impressive  upset of Wisconsin on the road.", 
+        "word_definition": "an improbable and unexpected victory"
+      }, 
+      "foul": {
+        "word_description": "This versatile word can be an adjective, noun, or verb. It can describe a stinky smell (\u201cYikes, what is the foul odor?\u201d) that assaults your nostrils, and that gross meaning might help you member the basketball meaning: a violation of the rules. The referee blows the whistle when one player fouls the other, resulting in free throws for the victim.", 
+        "word_name": "foul", 
+        "word_example": "\u201cThe players decided the game, and it wasn\u2019t just with free throws, and with  fouling,\u201d he said.", 
+        "word_definition": "an act that violates the rules of a sport"
+      }, 
+      "guard": {
+        "word_description": "", 
+        "word_name": "guard", 
+        "word_example": "Point  guard Lonzo Ball was selected national freshman of the year by USA Today and the Sporting News.", 
+        "word_definition": "a position on a basketball team"
+      }, 
+      "forward": {
+        "word_description": "", 
+        "word_name": "forward", 
+        "word_example": "Update: This will be the final time Clippers  forward Paul Pierce, who\u2019s retiring after 19 seasons in the NBA, will play against the Celtics.", 
+        "word_definition": "a position on a basketball, soccer, or hockey team"
+      }, 
+      "dribble": {
+        "word_description": "", 
+        "word_name": "dribble", 
+        "word_example": "Murphy provided the ignition, when he grabbed a long rebound and  dribbled into the lane for a powerful two-handed dunk and a 30-25 advantage.", 
+        "word_definition": "flowing in drops"
+      }
+    }, 
+    "list_detailed_description": "March Madness basketball and brackets are pure mania, but the related words are pretty chill, right? Think again. Do YOU know all five meanings of \n", 
+    "list_href": "/lists/1568958"
   }, 
   "Change Your Mind": {
     "list_brief_description": "A person is entitled to change their mind. Sometimes, however, this switch can be seen as a betrayal to the people you used to side with and have now left behin...", 
@@ -1101,61 +1243,153 @@
     "list_detailed_description": "Southern Rock pioneer Gregg Allman died on May 28, 2017 at the age of 69. With his Allman Brothers Band, Gregg used wailing guitar and lyrics about gambling and relationships gone bad to define both his persona as a \"bad boy\" of rock and roll and an entire genre of music. Here are ten vocabulary words drawn from the lyrics of Gregg Allman.", 
     "list_href": "/lists/1723706"
   }, 
-  "Spider-Man's Word Web": {
-    "list_brief_description": "Even if a new Spider-Man movie keeps coming more often than Leap Year, the lingo of Spider-Man is eternal and unique. Enjoy these words inspired by the \"web-hea...", 
+  "The Smashing Lexicon of Tennis": {
+    "list_brief_description": "Let\u2019s look at some tennis words, which won\u2019t help your stroke but will boost your vocabulary. For the full article, check out: Tennis, Anyone?\r\n\r\n", 
     "list_num": "12 Words", 
     "list_detailed_info": {
-      "radioactive": {
-        "word_description": "Spider-Man\u2019s origin involved getting bit by a radioactive spider: in other words, a spider that had become  irradiated with  radiation. Radiation is a specific sort of intense energy consisting of electromagnetic particles. If only radiation worked like it does in Marvel Comics, where cosmic radiation created the Fantastic Four, gamma rays created the Hulk, and radiation in general created mutants like the X-Men. In real life, too much radiation is anything but super.", 
-        "word_name": "radioactive", 
-        "word_example": "Peter Parker was a simple high school geek before a bite from a  radioactive spider transformed him into Spider-Man.", 
-        "word_definition": "exhibiting or caused by emissions in nuclear decay"
+      "lob": {
+        "word_definition": "an easy return of a tennis ball in a high arc", 
+        "word_description": "", 
+        "word_name": "lob", 
+        "word_example": "Murray used plenty of drop shots and  lobs, often to great effect."
       }, 
-      "adolescent": {
-        "word_description": "Does the word  teen sound too casual or cutesy to you? Then there's always  adolescent, which means the same. You can also refer to the teen years as adolescence. Since teens are sometimes stereotyped as being moody and self-centered, this word is also used as an insult for older people. An adult who's rude, sulky, or otherwise immature can be called adolescent. Before his Uncle Ben died, Peter was an adolescent literally and figuratively. He had a lot of growing up to do.", 
-        "word_name": "adolescent", 
-        "word_example": "Anna May Dutton started skateboarding to channel her  adolescent energy.", 
-        "word_definition": "a juvenile between the onset of puberty and maturity"
+      "smash": {
+        "word_definition": "hit (a tennis ball) in a powerful overhead stroke", 
+        "word_description": "To smash something is to destroy it utterly. It\u2019s no accident that destructive antihero the Hulk\u2019s catchphrase is \u201cHulk smash!\u201d In tennis,  ", 
+        "word_name": "smash", 
+        "word_example": "Frustration boiled over for the Swiss in the second set after he misfired with an overhead  smash."
       }, 
-      "reptilian": {
-        "word_description": "Many of Spider-Man's enemies have pseudo-scientific origins\u2014such as Dr. Curtis Connors, the Lizard. Lizards are reptiles that are closely related to snakes, consisting of over 4000 species that are mostly long, green, and scaly. Many can regenerate limbs, which is what interested Connors. He was trying to regrow his own missing arm but ended up turning into a freaky lizard man instead, with many reptilian qualities. This is why comic-book science is not recommended by doctors.", 
-        "word_name": "reptilian", 
-        "word_example": "At least a dozen mortal guards stood on the balcony, plus two monsters\u2014 reptilian women with doublesnake trunks instead of legs.", 
-        "word_definition": "of or relating to cold-blooded vertebrates with scaly skin"
+      "ace": {
+        "word_definition": "a serve that the receiver is unable to reach", 
+        "word_description": "The primary sense of  ", 
+        "word_name": "ace", 
+        "word_example": "\"I think my game today was much better, especially my serve,\" said Pliskova, who pounded 13  aces past her opponent."
       }, 
-      "orphan": {
-        "word_description": "Peter Parker, when first introduced in the comics and movies, lives with his Aunt May and Uncle Ben. That's because his parents died: Peter was adopted by his aunt and uncle. When someone doesn't have any parents, they're an orphan. For some reason, being an orphan is strongly correlated with being a superhero. Batman's parents were murdered. Superman's parents died on Krypton. Captain America's parents died young. Even James Bond is an orphan. No wonder villainous fiends are so anti-orphanage.", 
-        "word_name": "orphan", 
-        "word_example": "Then the wife died, the husband was sent to a nursing home and Louie became an  orphan.", 
-        "word_definition": "a child who has lost both parents"
+      "fault": {
+        "word_definition": "an imperfection in an object or machine", 
+        "word_description": "A fault is some kind of defect or mistake. If you spilled a drink, and then someone slipped on it, that was your fault. Also, everyone has faults in the sense of traits that aren\u2019t the best. In tennis, the meaning of fault is more specific: an error made while serving. If your serve hits the net, even a little bit, that\u2019s a fault, and you need to serve again. If you hit the net again, that\u2019s a double fault, which results in a point for the other player.", 
+        "word_name": "fault", 
+        "word_example": "Williams saved a break point for 5-4, paying no heed to the applause that greeted her double  fault and a butchered drive volley."
       }, 
-      "fluid": {
-        "word_description": "Peter Parker is a whiz at science, which is why he was interested in the particle accelerator that irradiated that pesky spider. This scientific interest also allowed Peter to invent his own web fluid. This web fluid shoots out in liquid form, then hardens in exactly the way he wants it to, whether to create a line for swinging or a giant net. Hey, if you're looking for realism, Spider-Man stories aren't the place.", 
-        "word_name": "fluid", 
-        "word_example": "\u201cIt\u2019s like slime,\u201d she said, referring to another type of non-Newtonian  fluid.", 
-        "word_definition": "continuous amorphous matter that tends to flow"
+      "stroke": {
+        "word_definition": "a single complete movement", 
+        "word_description": "", 
+        "word_name": "stroke", 
+        "word_example": "Both finalists rely on uncomplicated games of big serving and ground  strokes."
       }, 
-      "responsibility": {
-        "word_description": "Spider-Man\u2019s motto is: \u201cWith great power comes great responsibility.\u201d Peter learns this lesson the hard way during his famous origin, when he is so consumed with a chance to make money as a wrestler that he fails to stop a bad guy who had just committed a robbery. That bad guy\u2014who Peter could have easily grabbed or tripped\u2014ends up murdering Peter\u2019s Uncle Ben. That\u2019s when Peter decides he might need to do more with his powers than use them for his own gain.", 
-        "word_name": "responsibility", 
-        "word_example": "", 
-        "word_definition": "the social force that binds you to a course of action"
+      "clay": {
+        "word_definition": "water-soaked soil; soft, wet earth", 
+        "word_description": "Breaking refers to many sorts of destruction, but in tennis you\u2019ve broken your opponent if you win the game when they\u2019re serving.", 
+        "word_name": "clay", 
+        "word_example": "Unlike the other grand slams that are played on cement or  clay, Wimbledon's courts are alive."
       }, 
-      "remorse": {
-        "word_description": "Because Spider-Man feels at fault for the death of his Uncle Ben, he is consumed by remorse\u2014an emotion made up of regret and sadness. When you feel remorseful, you blame yourself for something. Despite his wisecracks, remorsefulness is the defining trait of Spider-Man, who always feels like he has to make up for the past. Subsequent events in the comics\u2014such as the death of his girlfriend Gwen Stacy\u2014add to his guilt. It's not easy being Spidey.", 
-        "word_name": "remorse", 
-        "word_example": "Filled with  remorse, he sat on the ground and cried.", 
-        "word_definition": "a feeling of deep regret, usually for some misdeed"
+      "volley": {
+        "word_definition": "a tennis return made by hitting the ball before it bounces", 
+        "word_description": "The original meaning of  ", 
+        "word_name": "volley", 
+        "word_example": "Williams saved a break point for 5-4, paying no heed to the applause that greeted her double fault and a butchered drive  volley."
       }, 
-      "nerd": {
-        "word_description": "This word has a positive and negative meaning: a nerd can be an insult for someone considered uncool or a compliment for someone consumed by something, like a computer nerd or a comic book nerd.", 
-        "word_name": "nerd", 
-        "word_example": "May 6 is the great, geek holiday Free Comic Book Day, an annual celebration of reading, art and  nerd fellowship.", 
-        "word_definition": "an intelligent but single-minded expert in a technical field"
+      "deuce": {
+        "word_definition": "tie requiring winning two successive points to win the game", 
+        "word_description": "", 
+        "word_name": "deuce", 
+        "word_example": "After fighting through  deuce, he struck a forehand long to hand Nadal his fifth break of the match at 1-4 in the third."
+      }, 
+      "match": {
+        "word_definition": "a formal contest in which people or teams compete", 
+        "word_description": "This is a word that applies to many situations that involve one plus one. If your shirt and pants go together, they match. If you meet the person you want to marry, you met your perfect match. In sports, a one-on-one contest is called a match. Tennis commentators talk about match play (singles matches) as opposed to doubles (teams of two playing each other).", 
+        "word_name": "match", 
+        "word_example": "Muguruza broke her again to open the second set and faced only two break points during the entire  match."
       }
     }, 
-    "list_detailed_description": "Even if a new Spider-Man movie keeps coming more often than Leap Year, the lingo of Spider-Man is eternal and unique. Enjoy these words inspired by the \"web-headed menace.\"\n", 
-    "list_href": "/lists/1761440"
+    "list_href": "/lists/1815780", 
+    "list_detailed_description": "Let\u2019s look at some tennis words, which won\u2019t help your stroke but will boost your vocabulary. For the full article, check out: \n"
+  }, 
+  "Words That Put You To Work": {
+    "list_brief_description": "Labor Day is a time to recognize those who toil in this country, slog through their expected tasks, and simply work hard. It's also a time to enjoy the waning d...", 
+    "list_num": "13 Words", 
+    "list_detailed_info": {
+      "wage": {
+        "word_definition": "something that remunerates", 
+        "word_description": "", 
+        "word_name": "wage", 
+        "word_example": "Many low-wage workers in the Gateway City will lose raises they received in May, when the minimum  wage increased to $10 an hour."
+      }, 
+      "salary": {
+        "word_definition": "fixed payment for services", 
+        "word_description": "", 
+        "word_name": "salary", 
+        "word_example": "The government is set to reveal whether companies should publish their pay ratio - the  salary gap between their executives and wider workforce."
+      }, 
+      "industrious": {
+        "word_definition": "characterized by hard work and perseverance", 
+        "word_description": "No word better exemplifies the bright side of labor than this word, which means inventive, resourceful and clever. Being  ", 
+        "word_name": "industrious", 
+        "word_example": "It is entirely reasonable for every  industrious and diligent person in our society to expect access to dignified, important and adequately compensated work."
+      }, 
+      "productive": {
+        "word_definition": "capable of bringing forth, especially abundantly", 
+        "word_description": "", 
+        "word_name": "productive", 
+        "word_example": "In his Tuesday statement, Tillerson said Washington was interested in a \u201c productive dialogue\u201d but only on the basis of Pyongyang\u2019s acceptance of nuclear disarmament."
+      }, 
+      "diligence": {
+        "word_definition": "conscientiousness in paying proper attention to a task", 
+        "word_description": "To work with a sense of  ", 
+        "word_name": "diligence", 
+        "word_example": "\"This new outbreak is being handled with extreme care,  diligence and with the experience gained from the first outbreak,\" said Astral in a statement."
+      }, 
+      "efficient": {
+        "word_definition": "being effective without wasting time, effort, or expense", 
+        "word_description": "", 
+        "word_name": "efficient", 
+        "word_example": "At a fleet and  efficient 81 minutes \u2014 several minutes shorter than its original running time \u2014 \u201cKidnap\u201d is an action movie with barely a wasted frame."
+      }, 
+      "labor": {
+        "word_definition": "any piece of work that is undertaken or attempted", 
+        "word_description": "Any manual or physical activity that is not done for fun can be called a  ", 
+        "word_name": "labor", 
+        "word_example": "The government also launched the  labor reforms that were central to Macron\u2019s campaign promise to boost France\u2019s lagging economy through pro-free market policies."
+      }, 
+      "assiduous": {
+        "word_definition": "marked by care and persistent effort", 
+        "word_description": "", 
+        "word_name": "assiduous", 
+        "word_example": "A spokeswoman for UKA said the email highlighted just how  assiduous the organisation is in ensuring that classification is done fairly and robustly."
+      }, 
+      "drudgery": {
+        "word_definition": "hard monotonous routine work", 
+        "word_description": "", 
+        "word_name": "drudgery", 
+        "word_example": "But a washing machine is clean and efficient and replaces work that was always  drudgery."
+      }, 
+      "slog": {
+        "word_definition": "walk heavily and firmly, as when weary, or through mud", 
+        "word_description": "", 
+        "word_name": "slog", 
+        "word_example": "What followed was a months-long  slog as the two sides, pitted against one another, failed to agree on a way forward."
+      }, 
+      "conscientious": {
+        "word_definition": "characterized by extreme care and great effort", 
+        "word_description": "", 
+        "word_name": "conscientious", 
+        "word_example": "\u201cThey were brilliant, really nice people, so  conscientious and courteous,\u201d he said."
+      }, 
+      "toil": {
+        "word_definition": "work hard", 
+        "word_description": "", 
+        "word_name": "toil", 
+        "word_example": "Klopp\u2019s side frequently faced, and  toiled against, opponents who sat back en masse and played on the counterattack last season."
+      }, 
+      "employment": {
+        "word_definition": "the state of having a job", 
+        "word_description": "", 
+        "word_name": "employment", 
+        "word_example": "Conditions are unsanitary and there is little to no access to healthcare, education or  employment."
+      }
+    }, 
+    "list_href": "/lists/1793019", 
+    "list_detailed_description": "Labor Day is a time to recognize those who \n"
   }, 
   "April Fool's List": {
     "list_brief_description": "In celebration of April Fool's Day, here are twenty vocabulary words that all have to do with various degrees of joking, trickery and deceit. Some involve a sim...", 
@@ -1301,11 +1535,11 @@
         "word_example": "", 
         "word_definition": "suggestive of the supernatural; mysterious"
       }, 
-      "dread": {
+      "horrendous": {
         "word_description": "", 
-        "word_name": "dread", 
+        "word_name": "horrendous", 
         "word_example": "", 
-        "word_definition": "fearful expectation or anticipation"
+        "word_definition": "causing fear or dread or terror"
       }, 
       "haunt": {
         "word_description": "", 
@@ -1325,17 +1559,17 @@
         "word_example": "", 
         "word_definition": "unusual or out of the ordinary"
       }, 
+      "dread": {
+        "word_description": "", 
+        "word_name": "dread", 
+        "word_example": "", 
+        "word_definition": "fearful expectation or anticipation"
+      }, 
       "uncanny": {
         "word_description": "", 
         "word_name": "uncanny", 
         "word_example": "", 
         "word_definition": "surpassing the ordinary or normal"
-      }, 
-      "horrendous": {
-        "word_description": "", 
-        "word_name": "horrendous", 
-        "word_example": "", 
-        "word_definition": "causing fear or dread or terror"
       }, 
       "terror": {
         "word_description": "", 
@@ -1541,73 +1775,91 @@
     "list_detailed_description": "What does it mean to trump or have a trump? Find out through this list of synonymous verbs and nouns.", 
     "list_href": "/lists/1345121"
   }, 
-  "An Inspirational Back-to-School Word List": {
-    "list_brief_description": "As you pack your backpack and sharpen your pencils, take a moment to sharpen your vocabulary! Here are ten words that can inspire you to take on the academic ch...", 
-    "list_num": "10 Words", 
+  "Motherlode: A Mother's Day Lexicon": {
+    "list_brief_description": "Mothers do so many things, which is why a good nap may be the best gift you can give your own mom on Mother's Day. Still, you might want to offer Mom a few word...", 
+    "list_num": "13 Words", 
     "list_detailed_info": {
-      "reflection": {
-        "word_description": "", 
-        "word_name": "reflection", 
-        "word_example": "When they do something, whether it\u2019s good or bad, they take time for  reflection.", 
-        "word_definition": "a calm, lengthy, intent consideration"
+      "protect": {
+        "word_description": "Motherhood isn't just about feeding and clothing: moms protect their young, as you can find out for yourself by messing with a baby bear in the wild. Moms protect their kids from suspicious strangers, inappropriate TV shows, and bad decisions, like a toddler who thinks he can jump off the top of the couch and stick the landing. Moms are, in their own way, the most caring bodyguards in the world.", 
+        "word_name": "protect", 
+        "word_example": "When she had asked me what I was going to say, I told her, \u201cI\u2019m going to  protect my own . . . you know how it is.", 
+        "word_definition": "shield from danger, injury, destruction, or damage"
       }, 
-      "character": {
-        "word_description": "", 
-        "word_name": "character", 
-        "word_example": "\u201cYou wouldn\u2019t see the rich, unique  character that shines through.\u201d", 
-        "word_definition": "attributes that determine one's moral and ethical actions"
+      "nourish": {
+        "word_description": "Whether through breastfeeding, bottles, or ordering a pizza, mothers nourish their children. The first meanings of this word applied to breastfeeding, but the word has broadened quite a bit. You can call any food nourishment, and you can even call some non-edible things nourishing. For example, a great book is nourishment for your mind. But as your mother would say, \"Never, ever eat books.\"", 
+        "word_name": "nourish", 
+        "word_example": "Rachel worried that her daughter did not gain, and fussed over the fire concocting  nourishing stews which Mercy obediently tried to swallow.", 
+        "word_definition": "provide with sustenance"
       }, 
-      "wisdom": {
-        "word_description": "", 
-        "word_name": "wisdom", 
-        "word_example": "But researchers pointed to some likely explanations -- including the perspective and \" wisdom\" that comes from life experience.", 
-        "word_definition": "accumulated knowledge or erudition or enlightenment"
+      "console": {
+        "word_description": "Consoling is similar to soothing. When you console someone, you make them feel better with kind words such as \"You'll do better on the next math test\" or \"Here, have a cookie.\" Mothers have a lot of consoling to do, since children are constantly getting their knees scraped by the pavement and their dreams crushed by the world. Even as kids turn into adults, they still usually turn to their moms for consolation.", 
+        "word_name": "console", 
+        "word_example": "I don\u2019t need to be patted or  consoled, like a child.", 
+        "word_definition": "give moral or emotional strength to"
       }, 
-      "stamina": {
+      "raise": {
         "word_description": "", 
-        "word_name": "stamina", 
-        "word_example": "Underwater for about two-thirds of each performance, synchronized swimmers require  stamina, flexibility, endurance and, always, poise.", 
-        "word_definition": "enduring strength and energy"
+        "word_name": "raise", 
+        "word_example": "Whether a woman parents her child as her mother  raised her, or adopts a different style, becoming a mother provides an opportunity for a do-over.", 
+        "word_definition": "bring up"
       }, 
-      "potential": {
-        "word_description": "", 
-        "word_name": "potential", 
-        "word_example": "Giving children a fair chance to achieve their dreams and reach their  potential is everyone's responsibility.", 
-        "word_definition": "the inherent capacity for coming into being"
+      "vex": {
+        "word_description": "As great as your mom is\u2014and hey, I never said she wasn't, so relax\u2014I bet she sometimes vexes you. This is a short, punchy, useful word for irritations. Mothers constantly worry about their children, so they tend to nag them\u2014nagging is one of the top ten vexations in the universe. Vex has been a word since at least the 1400s, and it can be used in two ways. If someone is annoying you, you can say \"Stop vexing me!\" or \"I am vexed!\" Vexing is a two-way street, but both are a pain in the tuchus.", 
+        "word_name": "vex", 
+        "word_example": "His mother would be  vexed to see him gulp his malted milk or bolt his sandwich.", 
+        "word_definition": "disturb, especially by minor irritations"
       }, 
-      "exuberance": {
-        "word_description": "", 
-        "word_name": "exuberance", 
-        "word_example": "There were historic performances by some of the world\u2019s greatest athletes, cheered on \u2013 and sometimes booed \u2013 by crowds exhibiting Brazil\u2019s characteristic  exuberance.", 
-        "word_definition": "joyful enthusiasm"
+      "soothe": {
+        "word_description": "Mothers often soothe their children, especially little ones who start crying because they're hungry, they have to go to the bathroom, they're tired, or it's Wednesday. I have a friend with three small children, and she spends most of the day soothing. The origins of this word are surprising: soothing had to do with proving something true rather than making someone feel better. Soothe was related to soothsayer, someone who speaks the truth and is therefore hard to find these days.", 
+        "word_name": "soothe", 
+        "word_example": "I let her hold and  soothe me like a little child, until I fell asleep.", 
+        "word_definition": "cause to feel better"
       }, 
-      "fortitude": {
+      "encourage": {
         "word_description": "", 
-        "word_name": "fortitude", 
-        "word_example": "\u201cIt just takes  fortitude. It takes bravery,\u201d Gatlin said of the young sprinters.", 
-        "word_definition": "strength of mind that enables one to endure adversity"
+        "word_name": "encourage", 
+        "word_example": "She also  encouraged her daughter\u2019s natural musical talent by enrolling her in piano lessons.", 
+        "word_definition": "inspire with confidence"
       }, 
-      "rigor": {
+      "foster": {
         "word_description": "", 
-        "word_name": "rigor", 
-        "word_example": "So Victor tries to do as much as a college junior immersed in the  rigors of schoolwork and major-college football can do.", 
-        "word_definition": "something hard to endure"
+        "word_name": "foster", 
+        "word_example": "Additionally, Matheus said, the agency realized it needed to offer additional support for  foster parents.", 
+        "word_definition": "providing nurture though not related by blood or legal ties"
       }, 
-      "achievement": {
+      "cajole": {
         "word_description": "", 
-        "word_name": "achievement", 
-        "word_example": "\u201cThis  achievement is a testament to the hard work and dedication of employees across the federal government,\u201d Rice said.", 
-        "word_definition": "the action of accomplishing something"
+        "word_name": "cajole", 
+        "word_example": "I resent being forced to spend my limited time with my son  cajoling him to do mindless worksheets.", 
+        "word_definition": "influence or urge by gentle urging, caressing, or flattering"
       }, 
-      "inspiration": {
+      "nurture": {
         "word_description": "", 
-        "word_name": "inspiration", 
-        "word_example": "One young girl said: \"Amy is an  inspiration, she's shown us what can be done. She worked really hard, she deserves what she's got.\"", 
-        "word_definition": "arousal of the mind to unusual activity or creativity"
+        "word_name": "nurture", 
+        "word_example": "\u201cWe\u2019re there to  nurture them, and we should not be asked to spurn a child\u2019s affection.\u201d", 
+        "word_definition": "bring up"
+      }, 
+      "beget": {
+        "word_description": "This word, best known for its use in the Bible, is something all biological mothers can put on their resume: they begat, to use the past tense. To beget is to have children: begetting is reproducing. This old Germanic word doesn't pop up too often these days, though it is useful in jokes.", 
+        "word_name": "beget", 
+        "word_example": "Along with this, self-preservation and development and reproduction, the  begetting of offspring of like nature, are characteristic.", 
+        "word_definition": "generate children"
+      }, 
+      "guide": {
+        "word_description": "", 
+        "word_name": "guide", 
+        "word_example": "Roy figured she used up her  guiding skills every day at school and was too worn out to deal with Garrett when she got home.", 
+        "word_definition": "be a motivating force or drive"
+      }, 
+      "worry": {
+        "word_description": "", 
+        "word_name": "worry", 
+        "word_example": "His mother would be  worried sick once she realized he was out in this weather.", 
+        "word_definition": "be concerned with"
       }
     }, 
-    "list_detailed_description": "As you pack your backpack and sharpen your pencils, take a moment to sharpen your vocabulary! Here are ten words that can inspire you to take on the academic challenges of a new school year.", 
-    "list_href": "/lists/1189825"
+    "list_detailed_description": "Mothers do so many things, which is why a good nap may be the best gift you can give your own mom on Mother's Day. Still, you might want to offer Mom a few words of appreciation, so here's a list of 13 verbs that get to the heart of what mothers do.\n", 
+    "list_href": "/lists/1700597"
   }, 
   "Book Words for Book Worms": {
     "list_brief_description": "There's more to books than just reading them. Books have a whole vocabulary associated with them that designates parts of books, kinds of books, people involved...", 
@@ -1763,91 +2015,73 @@
     "list_detailed_description": "", 
     "list_href": "/lists/1743479"
   }, 
-  "Motherlode: A Mother's Day Lexicon": {
-    "list_brief_description": "Mothers do so many things, which is why a good nap may be the best gift you can give your own mom on Mother's Day. Still, you might want to offer Mom a few word...", 
-    "list_num": "13 Words", 
+  "An Inspirational Back-to-School Word List": {
+    "list_brief_description": "As you pack your backpack and sharpen your pencils, take a moment to sharpen your vocabulary! Here are ten words that can inspire you to take on the academic ch...", 
+    "list_num": "10 Words", 
     "list_detailed_info": {
-      "protect": {
-        "word_description": "Motherhood isn't just about feeding and clothing: moms protect their young, as you can find out for yourself by messing with a baby bear in the wild. Moms protect their kids from suspicious strangers, inappropriate TV shows, and bad decisions, like a toddler who thinks he can jump off the top of the couch and stick the landing. Moms are, in their own way, the most caring bodyguards in the world.", 
-        "word_name": "protect", 
-        "word_example": "When she had asked me what I was going to say, I told her, \u201cI\u2019m going to  protect my own . . . you know how it is.", 
-        "word_definition": "shield from danger, injury, destruction, or damage"
-      }, 
-      "nourish": {
-        "word_description": "Whether through breastfeeding, bottles, or ordering a pizza, mothers nourish their children. The first meanings of this word applied to breastfeeding, but the word has broadened quite a bit. You can call any food nourishment, and you can even call some non-edible things nourishing. For example, a great book is nourishment for your mind. But as your mother would say, \"Never, ever eat books.\"", 
-        "word_name": "nourish", 
-        "word_example": "Rachel worried that her daughter did not gain, and fussed over the fire concocting  nourishing stews which Mercy obediently tried to swallow.", 
-        "word_definition": "provide with sustenance"
-      }, 
-      "console": {
-        "word_description": "Consoling is similar to soothing. When you console someone, you make them feel better with kind words such as \"You'll do better on the next math test\" or \"Here, have a cookie.\" Mothers have a lot of consoling to do, since children are constantly getting their knees scraped by the pavement and their dreams crushed by the world. Even as kids turn into adults, they still usually turn to their moms for consolation.", 
-        "word_name": "console", 
-        "word_example": "I don\u2019t need to be patted or  consoled, like a child.", 
-        "word_definition": "give moral or emotional strength to"
-      }, 
-      "raise": {
+      "reflection": {
         "word_description": "", 
-        "word_name": "raise", 
-        "word_example": "Whether a woman parents her child as her mother  raised her, or adopts a different style, becoming a mother provides an opportunity for a do-over.", 
-        "word_definition": "bring up"
+        "word_name": "reflection", 
+        "word_example": "When they do something, whether it\u2019s good or bad, they take time for  reflection.", 
+        "word_definition": "a calm, lengthy, intent consideration"
       }, 
-      "vex": {
-        "word_description": "As great as your mom is\u2014and hey, I never said she wasn't, so relax\u2014I bet she sometimes vexes you. This is a short, punchy, useful word for irritations. Mothers constantly worry about their children, so they tend to nag them\u2014nagging is one of the top ten vexations in the universe. Vex has been a word since at least the 1400s, and it can be used in two ways. If someone is annoying you, you can say \"Stop vexing me!\" or \"I am vexed!\" Vexing is a two-way street, but both are a pain in the tuchus.", 
-        "word_name": "vex", 
-        "word_example": "His mother would be  vexed to see him gulp his malted milk or bolt his sandwich.", 
-        "word_definition": "disturb, especially by minor irritations"
-      }, 
-      "soothe": {
-        "word_description": "Mothers often soothe their children, especially little ones who start crying because they're hungry, they have to go to the bathroom, they're tired, or it's Wednesday. I have a friend with three small children, and she spends most of the day soothing. The origins of this word are surprising: soothing had to do with proving something true rather than making someone feel better. Soothe was related to soothsayer, someone who speaks the truth and is therefore hard to find these days.", 
-        "word_name": "soothe", 
-        "word_example": "I let her hold and  soothe me like a little child, until I fell asleep.", 
-        "word_definition": "cause to feel better"
-      }, 
-      "encourage": {
+      "character": {
         "word_description": "", 
-        "word_name": "encourage", 
-        "word_example": "She also  encouraged her daughter\u2019s natural musical talent by enrolling her in piano lessons.", 
-        "word_definition": "inspire with confidence"
+        "word_name": "character", 
+        "word_example": "\u201cYou wouldn\u2019t see the rich, unique  character that shines through.\u201d", 
+        "word_definition": "attributes that determine one's moral and ethical actions"
       }, 
-      "foster": {
+      "wisdom": {
         "word_description": "", 
-        "word_name": "foster", 
-        "word_example": "Additionally, Matheus said, the agency realized it needed to offer additional support for  foster parents.", 
-        "word_definition": "providing nurture though not related by blood or legal ties"
+        "word_name": "wisdom", 
+        "word_example": "But researchers pointed to some likely explanations -- including the perspective and \" wisdom\" that comes from life experience.", 
+        "word_definition": "accumulated knowledge or erudition or enlightenment"
       }, 
-      "cajole": {
+      "stamina": {
         "word_description": "", 
-        "word_name": "cajole", 
-        "word_example": "I resent being forced to spend my limited time with my son  cajoling him to do mindless worksheets.", 
-        "word_definition": "influence or urge by gentle urging, caressing, or flattering"
+        "word_name": "stamina", 
+        "word_example": "Underwater for about two-thirds of each performance, synchronized swimmers require  stamina, flexibility, endurance and, always, poise.", 
+        "word_definition": "enduring strength and energy"
       }, 
-      "nurture": {
+      "potential": {
         "word_description": "", 
-        "word_name": "nurture", 
-        "word_example": "\u201cWe\u2019re there to  nurture them, and we should not be asked to spurn a child\u2019s affection.\u201d", 
-        "word_definition": "bring up"
+        "word_name": "potential", 
+        "word_example": "Giving children a fair chance to achieve their dreams and reach their  potential is everyone's responsibility.", 
+        "word_definition": "the inherent capacity for coming into being"
       }, 
-      "beget": {
-        "word_description": "This word, best known for its use in the Bible, is something all biological mothers can put on their resume: they begat, to use the past tense. To beget is to have children: begetting is reproducing. This old Germanic word doesn't pop up too often these days, though it is useful in jokes.", 
-        "word_name": "beget", 
-        "word_example": "Along with this, self-preservation and development and reproduction, the  begetting of offspring of like nature, are characteristic.", 
-        "word_definition": "generate children"
-      }, 
-      "guide": {
+      "exuberance": {
         "word_description": "", 
-        "word_name": "guide", 
-        "word_example": "Roy figured she used up her  guiding skills every day at school and was too worn out to deal with Garrett when she got home.", 
-        "word_definition": "be a motivating force or drive"
+        "word_name": "exuberance", 
+        "word_example": "There were historic performances by some of the world\u2019s greatest athletes, cheered on \u2013 and sometimes booed \u2013 by crowds exhibiting Brazil\u2019s characteristic  exuberance.", 
+        "word_definition": "joyful enthusiasm"
       }, 
-      "worry": {
+      "fortitude": {
         "word_description": "", 
-        "word_name": "worry", 
-        "word_example": "His mother would be  worried sick once she realized he was out in this weather.", 
-        "word_definition": "be concerned with"
+        "word_name": "fortitude", 
+        "word_example": "\u201cIt just takes  fortitude. It takes bravery,\u201d Gatlin said of the young sprinters.", 
+        "word_definition": "strength of mind that enables one to endure adversity"
+      }, 
+      "rigor": {
+        "word_description": "", 
+        "word_name": "rigor", 
+        "word_example": "So Victor tries to do as much as a college junior immersed in the  rigors of schoolwork and major-college football can do.", 
+        "word_definition": "something hard to endure"
+      }, 
+      "achievement": {
+        "word_description": "", 
+        "word_name": "achievement", 
+        "word_example": "\u201cThis  achievement is a testament to the hard work and dedication of employees across the federal government,\u201d Rice said.", 
+        "word_definition": "the action of accomplishing something"
+      }, 
+      "inspiration": {
+        "word_description": "", 
+        "word_name": "inspiration", 
+        "word_example": "One young girl said: \"Amy is an  inspiration, she's shown us what can be done. She worked really hard, she deserves what she's got.\"", 
+        "word_definition": "arousal of the mind to unusual activity or creativity"
       }
     }, 
-    "list_detailed_description": "Mothers do so many things, which is why a good nap may be the best gift you can give your own mom on Mother's Day. Still, you might want to offer Mom a few words of appreciation, so here's a list of 13 verbs that get to the heart of what mothers do.\n", 
-    "list_href": "/lists/1700597"
+    "list_detailed_description": "As you pack your backpack and sharpen your pencils, take a moment to sharpen your vocabulary! Here are ten words that can inspire you to take on the academic challenges of a new school year.", 
+    "list_href": "/lists/1189825"
   }, 
   "Vocabulary of the Summer Olympics": {
     "list_brief_description": "The 2016 Olympic Games will begin this August in Rio de Janeiro, Brazil. Learn this list of 28 words so you can keep up with each sport from start to finish.\r\n\r...", 
@@ -2418,5 +2652,103 @@
     }, 
     "list_detailed_description": "June of 2017 marks the 50th anniversary of one of The Beatles' greatest albums, Sgt. Pepper\u2019s Lonely Heart\u2019s Club Band. The imagery and expressions on Sgt. Pepper's yielded some of the most listenable music and interesting lyrics in the history of pop music. Here are 17 vocabulary words drawn from Sgt. Pepper's.\n", 
     "list_href": "/lists/1727232"
+  }, 
+  "Beam Me Up: Talking About Star Trek": {
+    "list_brief_description": "Every time a new adaptation of Star Trek is released, there's plenty of buzz about what is one of the most enduring and iconic science fiction franchises. Rathe...", 
+    "list_num": "15 Words", 
+    "list_detailed_info": {
+      "prime": {
+        "word_definition": "of or relating to the first or originating agent", 
+        "word_description": "Anything prime is the best or highest example something. In Star Trek, the prime directive states that Starfleet ships shouldn\u2019t be meddling in other planet\u2019s cultures just because they feel like it or think they know better.", 
+        "word_name": "prime", 
+        "word_example": "For the uninitiated, the  prime directive was a Star Trek philosophy which prohibited members of the United Federation of Planets from interfering with the internal development of alien civilizations. In other words, it was a basic understanding that one civilization or race wouldn\u2019t screw with the development of another.  "
+      }, 
+      "trek": {
+        "word_definition": "any long and difficult trip", 
+        "word_description": "", 
+        "word_name": "trek", 
+        "word_example": "The writer and director was also responsible for another successful reboot in the form of the recent Star  Trek series."
+      }, 
+      "enterprise": {
+        "word_definition": "a purposeful or industrious undertaking", 
+        "word_description": "", 
+        "word_name": "enterprise", 
+        "word_example": "While transporting two passengers to their home planet, the  Enterprise team loses its way."
+      }, 
+      "hybrid": {
+        "word_definition": "a composite of mixed origin", 
+        "word_description": "A hybrid combines two things: a restaurant could be a hybrid of Mexican and Chinese food, while a hybrid car runs on both gas and electric. Animal hybrids include the mule (the offspring of a donkey and horse). Mixed dog breeds could also be called hybrids, such as the labradoodle (Labrador and poodle) and puggle (pug and beagle). Mr. Spock is often referred to as a hybrid because his father is a Vulcan and his mother is an Earthling.", 
+        "word_name": "hybrid", 
+        "word_example": "Mr. Spock is one of the world's most loved and most enduring sci-fi characters. A green-blooded, human-Vulcan  hybrid, he was Captain Kirk's loyal aide, and his conscience, and second in command of the Star Ship Enterprise.  "
+      }, 
+      "mission": {
+        "word_definition": "an operation that is assigned by a higher headquarters", 
+        "word_description": "The opening lines of Star Trek\u2019s original series are famous: \u201cSpace, the final frontier. These are the voyages of the starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.\" A mission is a purpose and goal: a reason for doing something. You could say you\u2019re on a mission to find the perfect cheeseburger. People on a religious mission are dedicated to helping (and possibly converting) people.", 
+        "word_name": "mission", 
+        "word_example": "The ship, and its crew, are mysterious hybrids, but with just 10 days to go before the CBS All Access debut of the new show \u2014 which is actually a prequel that takes place in a universe about a decade before the five-year  mission at the heart of the original series \u2014 producers have revealed a few new secrets behind the warship's design.  "
+      }, 
+      "warp": {
+        "word_definition": "bend or twist out of shape", 
+        "word_description": "When something is  ", 
+        "word_name": "warp", 
+        "word_example": "When Jean-Luc Picard was in command of the starship Enterprise, characters from the various TV series Star Trek: The Next Generation, Deep Space Nine, and even Voyager could move to the silver screen at  warp speed.  "
+      }, 
+      "crystal": {
+        "word_definition": "a rock with regularly repeating internal structure", 
+        "word_description": "Dilithium crystals power the Enterprise, but only the dilithium part is made-up. Crystals are real solids found in nature that have geometrical patterns described as  ", 
+        "word_name": "crystal", 
+        "word_example": "Koolmees documented the involved project on his K-Money Industries website. Dilithium, the  crystal that powers Federation starships, is stubbornly fictional, so Koolmees build the dilithium chamber to hold his home server instead.  "
+      }, 
+      "neutral": {
+        "word_definition": "having no personal preference", 
+        "word_description": "To be neutral is to not have a side: neutral parties aren\u2019t rooting for anyone, whether in politics, war, or sports. In Star Trek, the Neutral Zone is an area of space not controlled by the Federation, Klingons, or Romulans.", 
+        "word_name": "neutral", 
+        "word_example": "The Kobayashi Maru fake-out massacre that opens the film still kills an audience. While Captain Spock (Leonard Nimoy) observes from his science station, Captain-in-training Saavik (Kirstie Alley) attempts to navigate a  Neutral Zone rescue mission with catastrophic political Klingon consequences.  "
+      }, 
+      "logic": {
+        "word_definition": "the branch of philosophy that analyzes inference", 
+        "word_description": "Logic is a specific type of reason that can be demonstrated or proven. Mr. Spock, like other Vulcans, is devoted to logic, as opposed to emotion.", 
+        "word_name": "logic", 
+        "word_example": "Originally a fleet was a group of ships in the Navy, but since Star Trek\u2019s space forces are modeled on naval tradition, words like fleet (and first officer) were borrowed by writers.  "
+      }, 
+      "fleet": {
+        "word_definition": "group of aircraft operating under the same ownership", 
+        "word_description": "Originally a fleet was a group of ships in the navy, but since Star Trek\u2019s space forces are modeled on naval tradition, words like  ", 
+        "word_name": "fleet", 
+        "word_example": "When the Enterprise hosts an officer from the Klingon  fleet, the crew faces an instant culture-clash. Worf is sensitive to other Klingons perceiving him as weak or \u201ctoo human,\u201d but the situation quickly moves beyond mere social awkwardness.  "
+      }, 
+      "torpedo": {
+        "word_definition": "a long cylindrical self-propelled underwater projectile", 
+        "word_description": "By the 1700s, the word had gained its more contemporary meaning: as a type of explosive, in the shape of a cigar, launched from a submarine.", 
+        "word_name": "torpedo", 
+        "word_example": "In \u2018Star Trek,\u2019 photon  torpedoes were matter-antimatter weapons on starships. In real life, photons are microscopic particles of light that have a wide range of scientific applications from manufacturing to medicine to communication.  "
+      }, 
+      "regulation": {
+        "word_definition": "the act of bringing to uniformity", 
+        "word_description": "Regulations are rules, especially specific rules for a particular group or organization. Captain Kirk is well-known for flouting Starfleet regulations.", 
+        "word_name": "regulation", 
+        "word_example": "The appearance of \"an object of unknown origin\" seems to kickstart the events of Star Trek: Discovery. This object is found \"on the edge of Federation space,\" and it seems that the USS Shenzou is venturing a little further than Starfleet  regulations would usually allow.  "
+      }, 
+      "stun": {
+        "word_definition": "make senseless or dizzy by or as if by a blow", 
+        "word_description": "This word comes from a very specific Star Trek phrase that became a part of popular culture: \u201cSet phasers to stun!\u201d This was actually a decent thing to do, since the alternative was setting them to kill. If a Starfleet officer hit someone with a phaser set on stun, it knocked them unconscious, similar to how a linebacker can stun a quarterback. People are also stunned by bad or shocking news. To be stunned is to be knocked out: literally or metaphorically.", 
+        "word_name": "stun", 
+        "word_example": "Regardless of whether these weapons are set to  stun, blast aliens, or wrangle ghosts, the question is this: Are zap-guns plausible?  "
+      }, 
+      "galaxy": {
+        "word_definition": "a collection of star systems", 
+        "word_description": "The universe is everything that exists. A solar system is a group of planets orbiting a sun, just like Earth and Mars and Jupiter and the rest orbit our little sun, or Sunny, as I like to call her. The unit in-between is the galaxy: a galaxy is made up of many solar systems. As best I can tell, the adventures of Star Trek take place all or mostly within our galaxy, the Milky Way.", 
+        "word_name": "galaxy", 
+        "word_example": "The two soon find that they have passed through a wormhole that has deposited them on the other side of the  galaxy.  "
+      }, 
+      "engineer": {
+        "word_definition": "a person who uses scientific knowledge to solve problems", 
+        "word_description": "Engineers design and build many things, but in Star Trek, the engineer has a more literal job: taking care of the engines.", 
+        "word_name": "engineer", 
+        "word_example": "For Mar\u00eda Regina Apodaca Moreno, 22, of all the crew members of the starship Enterprise it was chief  engineer Scotty who was her inspiration.  "
+      }
+    }, 
+    "list_href": "/lists/1866050", 
+    "list_detailed_description": "Every time a new adaptation of Star Trek is released, there's plenty of buzz about what is one of the most enduring and iconic science fiction franchises. Rather than a glossary of Klingon terms, we've rounded up some of the more relevant English terms that get bandied about when there's a Star Trek media frenzy.\n"
   }
 }
