@@ -39,10 +39,6 @@ class TackleWords:
         self.clipboard_data = utility.load_json_file(clipboard_file)
 
     def query(self, wrapped_word, usage=None, date=None, book=None):
-        if 'year-1' not in self.dict_data:
-            p('-1-1')
-        if 'year-1' in self.dict_data:
-            p('00')
         if wrapped_word in self.dict_data:
             self.dict_data[wrapped_word]['usage'] = self.add_usage_to_collection(self.dict_data[wrapped_word]['usage'], usage)
         else:
@@ -55,15 +51,9 @@ class TackleWords:
                 result[wrapped_word]['date'] = date.strip()
             if book is not None:
                 result[wrapped_word]['book'] = book.strip()
-            if 'year-1' in self.dict_data:
-                p('11')
             self.dict_data[wrapped_word] = result[wrapped_word]
-            if 'year-1' in self.dict_data:
-                p('22')
         utility.write_json_file(dict_file, self.dict_data)
 
-        if 'year-1' in self.dict_data:
-            p('33')
         if wrapped_word.split('-')[1] == '1':
             self.store_clipboard(wrapped_word[:-2], usage)
         return

@@ -841,12 +841,6 @@
     "list_brief_description": "On May 22, 1964, the graduating students of the University of Michigan were personally asked by the President to join him in a battle to make America great. Her...", 
     "list_num": "30 Words", 
     "list_detailed_info": {
-      "imagination": {
-        "word_description": "", 
-        "word_name": "imagination", 
-        "word_example": "Our society will not be great until every young mind is set free to scan the farthest reaches of thought and  imagination.", 
-        "word_definition": "the ability to form mental images of things or events"
-      }, 
       "prevent": {
         "word_description": "", 
         "word_name": "prevent", 
@@ -859,11 +853,11 @@
         "word_example": "And once man can no longer walk with beauty or wonder at nature his spirit will wither and his  sustenance be wasted.", 
         "word_definition": "a source of materials to nourish the body"
       }, 
-      "society": {
+      "imagination": {
         "word_description": "", 
-        "word_name": "society", 
-        "word_example": "For in your time we have the opportunity to move not only toward the rich  society and the powerful  society, but upward to the Great  Society.", 
-        "word_definition": "a formal association of people with similar interests"
+        "word_name": "imagination", 
+        "word_example": "Our society will not be great until every young mind is set free to scan the farthest reaches of thought and  imagination.", 
+        "word_definition": "the ability to form mental images of things or events"
       }, 
       "exploit": {
         "word_description": "", 
@@ -882,6 +876,12 @@
         "word_name": "quality", 
         "word_example": "It is a place where men are more concerned with the  quality of their goals than the quantity of their goods.", 
         "word_definition": "a degree or grade of excellence or worth"
+      }, 
+      "society": {
+        "word_description": "", 
+        "word_name": "society", 
+        "word_example": "For in your time we have the opportunity to move not only toward the rich  society and the powerful  society, but upward to the Great  Society.", 
+        "word_definition": "a formal association of people with similar interests"
       }, 
       "capacity": {
         "word_description": "", 
@@ -1691,6 +1691,12 @@
     "list_brief_description": "Perhaps the ultimate call to arms, Patrick Henry's speech makes a case for the inevitability of the American Revolution. On March 23, 1775 Virginian patriots me...", 
     "list_num": "63 Words", 
     "list_detailed_info": {
+      "phantom": {
+        "word_description": "Henry is using sarcasm or irony. He is asking if Virginians should continue to hug or hold on to unreal hope until Parliament has tied them up.", 
+        "word_name": "phantom", 
+        "word_example": "Shall we acquire the means of effectual resistance by lying supinely on our backs and hugging the delusive  phantom of hope, until our enemies shall have bound us hand and foot?", 
+        "word_definition": "something apparently sensed but having no physical reality"
+      }, 
       "patriotism": {
         "word_description": "", 
         "word_name": "patriotism", 
@@ -1702,12 +1708,6 @@
         "word_name": "pledge", 
         "word_example": "If we wish to be free \u2014 if we mean to preserve inviolate those inestimable privileges for which we have been so long contending \u2014 if we mean not basely to abandon the noble struggle in which we have been so long engaged, and which we have  pledged ourselves never to abandon until the glorious object of our contest shall be obtained \u2014 we must fight!", 
         "word_definition": "promise solemnly and formally"
-      }, 
-      "entertain": {
-        "word_description": "", 
-        "word_name": "entertain", 
-        "word_example": "But different men often see the same subject in different lights; and, therefore, I hope it will not be thought disrespectful to those gentlemen if,  entertaining as I do opinions of a character very opposite to theirs, I shall speak forth my sentiments freely and without reserve.", 
-        "word_definition": "take into consideration or have in view"
       }, 
       "reserve": {
         "word_description": "", 
@@ -1829,11 +1829,11 @@
         "word_example": "For my own part, I consider it as nothing less than a question of freedom or slavery; and in  proportion to the magnitude of the subject ought to be the freedom of the debate.", 
         "word_definition": "balance among the parts of something"
       }, 
-      "insidious": {
+      "idle": {
         "word_description": "", 
-        "word_name": "insidious", 
-        "word_example": "Is it that  insidious smile with which our petition has been lately received?", 
-        "word_definition": "working or spreading in a hidden and usually injurious way"
+        "word_name": "idle", 
+        "word_example": "Why stand we here  idle?", 
+        "word_definition": "not in action or at work"
       }, 
       "delusive": {
         "word_description": "Misleading is a synonym for delusive.", 
@@ -1883,11 +1883,11 @@
         "word_example": "Should I keep back my opinions at such a time, through fear of giving offense, I should consider myself as guilty of treason towards my country, and of an act of disloyalty toward the Majesty of Heaven, which I  revere above all earthly kings.", 
         "word_definition": "regard with feelings of respect"
       }, 
-      "phantom": {
-        "word_description": "Henry is using sarcasm or irony. He is asking if Virginians should continue to hug or hold on to unreal hope until Parliament has tied them up.", 
-        "word_name": "phantom", 
-        "word_example": "Shall we acquire the means of effectual resistance by lying supinely on our backs and hugging the delusive  phantom of hope, until our enemies shall have bound us hand and foot?", 
-        "word_definition": "something apparently sensed but having no physical reality"
+      "ceremony": {
+        "word_description": "", 
+        "word_name": "ceremony", 
+        "word_example": "This is no time for  ceremony.", 
+        "word_definition": "the proper or conventional behavior on some solemn occasion"
       }, 
       "parliament": {
         "word_description": "Parliament is the proper name of the British law making body.", 
@@ -1901,11 +1901,11 @@
         "word_example": "Sir, we have done everything that could be done to  avert the storm which is now coming on.", 
         "word_definition": "prevent the occurrence of; prevent from happening"
       }, 
-      "ceremony": {
+      "entertain": {
         "word_description": "", 
-        "word_name": "ceremony", 
-        "word_example": "This is no time for  ceremony.", 
-        "word_definition": "the proper or conventional behavior on some solemn occasion"
+        "word_name": "entertain", 
+        "word_example": "But different men often see the same subject in different lights; and, therefore, I hope it will not be thought disrespectful to those gentlemen if,  entertaining as I do opinions of a character very opposite to theirs, I shall speak forth my sentiments freely and without reserve.", 
+        "word_definition": "take into consideration or have in view"
       }, 
       "entreaty": {
         "word_description": "", 
@@ -2009,11 +2009,11 @@
         "word_example": "There is a just God who  presides over the destinies of nations, and who will raise up friends to fight our battles for us.", 
         "word_definition": "act as executive officer"
       }, 
-      "idle": {
+      "insidious": {
         "word_description": "", 
-        "word_name": "idle", 
-        "word_example": "Why stand we here  idle?", 
-        "word_definition": "not in action or at work"
+        "word_name": "insidious", 
+        "word_example": "Is it that  insidious smile with which our petition has been lately received?", 
+        "word_definition": "working or spreading in a hidden and usually injurious way"
       }, 
       "magnitude": {
         "word_description": "", 
@@ -4601,12 +4601,6 @@
     "list_brief_description": "Many political pundits and speech critics claim that Michelle Obama's speech at the 2016 Democratic National Convention was the most powerful and stirring. Here...", 
     "list_num": "50 Words", 
     "list_detailed_info": {
-      "model": {
-        "word_description": "", 
-        "word_name": "model", 
-        "word_example": "We as parents are their most important role  models.", 
-        "word_definition": "someone worthy of imitation"
-      }, 
       "elect": {
         "word_description": "", 
         "word_name": "elect", 
@@ -4642,6 +4636,12 @@
         "word_name": "creed", 
         "word_example": "Heroes of every color and  creed who wear the uniform and risk their lives to keep passing down those blessings of liberty, police officers and the protesters in Dallas who all desperately want to keep our children safe.", 
         "word_definition": "any system of principles or beliefs"
+      }, 
+      "strive": {
+        "word_description": "", 
+        "word_name": "strive", 
+        "word_example": "That is the story of this country, the story that has brought me to this stage tonight, the story of generations of people who felt the lash of bondage, the shame of servitude, the sting of segregation, but who kept on  striving and hoping and doing what needed to be done so that today I wake up every morning in a house that was built by slaves.", 
+        "word_definition": "attempt by employing effort"
       }, 
       "insist": {
         "word_description": "", 
@@ -4889,11 +4889,11 @@
         "word_example": "See, I trust Hillary to lead this country because I\u2019ve seen her lifelong  devotion to our nation\u2019s children, not just her own daughter, who she has raised to perfection\u2026", 
         "word_definition": "commitment to some purpose"
       }, 
-      "strive": {
+      "model": {
         "word_description": "", 
-        "word_name": "strive", 
-        "word_example": "That is the story of this country, the story that has brought me to this stage tonight, the story of generations of people who felt the lash of bondage, the shame of servitude, the sting of segregation, but who kept on  striving and hoping and doing what needed to be done so that today I wake up every morning in a house that was built by slaves.", 
-        "word_definition": "attempt by employing effort"
+        "word_name": "model", 
+        "word_example": "We as parents are their most important role  models.", 
+        "word_definition": "someone worthy of imitation"
       }, 
       "journey": {
         "word_description": "", 

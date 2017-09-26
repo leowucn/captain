@@ -33,13 +33,13 @@ def load_json_file(file_name):
         #     return json.load(fp)
         # except:
         #     return dict()
-    f = open(file_name, 'r')
     try:
+        f = open(file_name, 'r')
         res = json.load(f)
         f.close()
+        return res
     except:
         return dict()
-    return res
 
 
 def write_json_file(file_name, data):

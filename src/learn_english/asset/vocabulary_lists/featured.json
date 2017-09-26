@@ -3,392 +3,392 @@
     "list_brief_description": "President Trump addressed the United Nations General Assembly for the first time on September 19,...\r\n\r\n", 
     "list_num": "25 Words", 
     "list_detailed_info": {
-      "depraved": {
-        "word_description": "", 
-        "word_name": "depraved", 
-        "word_example": "No one has shown more contempt for other nations and for the well-being of their own people than the  depraved regime in North Korea.", 
-        "word_definition": "deviating from what is considered moral or right or proper"
-      }, 
       "tenet": {
+        "word_definition": "a religious doctrine proclaimed as true without proof", 
         "word_description": "", 
         "word_name": "tenet", 
-        "word_example": "Those who preach the  tenets of these discredited ideologies only contribute to the continued suffering of the people who live under these cruel systems.", 
-        "word_definition": "a religious doctrine proclaimed as true without proof"
+        "word_example": "Those who preach the  tenets of these discredited ideologies only contribute to the continued suffering of the people who live under these cruel systems."
       }, 
-      "yearning": {
+      "depraved": {
+        "word_definition": "deviating from what is considered moral or right or proper", 
         "word_description": "", 
-        "word_name": "yearning", 
-        "word_example": "This is the ancient wish of every people and the deepest  yearning that lives inside every sacred soul.", 
-        "word_definition": "prolonged unfulfilled desire or need"
+        "word_name": "depraved", 
+        "word_example": "No one has shown more contempt for other nations and for the well-being of their own people than the  depraved regime in North Korea."
       }, 
       "exploit": {
+        "word_definition": "use or manipulate to one's advantage", 
         "word_description": "", 
         "word_name": "exploit", 
-        "word_example": "Authority and authoritarian powers seek to collapse the values, the systems, and alliances, that prevented conflict and tilted the word toward freedom since World War II. International criminal networks traffic drugs, weapons, people, force dislocation and mass migration, threaten our borders and new forms of aggression  exploit technology to menace our citizens.", 
-        "word_definition": "use or manipulate to one's advantage"
+        "word_example": "Authority and authoritarian powers seek to collapse the values, the systems, and alliances, that prevented conflict and tilted the word toward freedom since World War II. International criminal networks traffic drugs, weapons, people, force dislocation and mass migration, threaten our borders and new forms of aggression  exploit technology to menace our citizens."
       }, 
       "depleted": {
+        "word_definition": "no longer sufficient", 
         "word_description": "", 
         "word_name": "depleted", 
-        "word_example": "It has turned a wealthy country, with a rich history and culture, into an economically  depleted rogue state whose chief exports are violence, bloodshed, and chaos.", 
-        "word_definition": "no longer sufficient"
+        "word_example": "It has turned a wealthy country, with a rich history and culture, into an economically  depleted rogue state whose chief exports are violence, bloodshed, and chaos."
       }, 
       "sanction": {
+        "word_definition": "the act of punishing", 
         "word_description": "", 
         "word_name": "sanction", 
-        "word_example": "The United Nations Security Council recently held two unanimous 15-0 votes adopting hard-hitting resolutions against North Korea, and I want to thank China and Russia for joining the vote to impose  sanctions, along with all of the other members of the Security Council.", 
-        "word_definition": "the act of punishing"
+        "word_example": "The United Nations Security Council recently held two unanimous 15-0 votes adopting hard-hitting resolutions against North Korea, and I want to thank China and Russia for joining the vote to impose  sanctions, along with all of the other members of the Security Council."
       }, 
       "implemented": {
+        "word_definition": "forced or compelled or put in force", 
         "word_description": "", 
         "word_name": "implemented", 
-        "word_example": "The problem in Venezuela is not that socialism has been poorly  implemented, but that socialism has been faithfully  implemented.", 
-        "word_definition": "forced or compelled or put in force"
-      }, 
-      "auspices": {
-        "word_description": "", 
-        "word_name": "auspices", 
-        "word_example": "Major portions of the world are in conflict, and some, in fact, are going to hell, but the powerful people in this room, under the guidance and  auspices of the United Nations, can solve many of these vicious and complex problems.", 
-        "word_definition": "kindly endorsement and guidance"
-      }, 
-      "subvert": {
-        "word_description": "", 
-        "word_name": "subvert", 
-        "word_example": "In some cases, states that seek to  subvert this institution's noble end have hijacked the very systems that are supposed to advance them.", 
-        "word_definition": "destroy completely"
-      }, 
-      "stark": {
-        "word_description": "", 
-        "word_name": "stark", 
-        "word_example": "The Iranian regime's support for terror is in  stark contrast to the recent commitments of many of its neighbors to fight terrorism and halt its finance, and in Saudi Arabia early last year, I was greatly honored to address the leaders of more than 50 Arab and Muslim nations.", 
-        "word_definition": "complete or extreme"
-      }, 
-      "resilient": {
-        "word_description": "", 
-        "word_name": "resilient", 
-        "word_example": "The American people are strong and  resilient, and they will emerge from these hardships more determined than ever before.", 
-        "word_definition": "recovering readily from adversity, depression, or the like"
-      }, 
-      "sovereignty": {
-        "word_description": "", 
-        "word_name": "sovereignty", 
-        "word_example": "It was based on the vision that diverse nations could cooperate to protect their  sovereignty, preserve their security, and promote their prosperity.", 
-        "word_definition": "the authority of a state to govern another state"
+        "word_example": "The problem in Venezuela is not that socialism has been poorly  implemented, but that socialism has been faithfully  implemented."
       }, 
       "regime": {
+        "word_definition": "the governing authority of a political unit", 
         "word_description": "", 
         "word_name": "regime", 
-        "word_example": "Rogue  regimes represented in this body not only support terror but threaten other nations and their own people with the most destructive weapons known to humanity.", 
-        "word_definition": "the governing authority of a political unit"
+        "word_example": "Rogue  regimes represented in this body not only support terror but threaten other nations and their own people with the most destructive weapons known to humanity."
+      }, 
+      "subvert": {
+        "word_definition": "destroy completely", 
+        "word_description": "", 
+        "word_name": "subvert", 
+        "word_example": "In some cases, states that seek to  subvert this institution's noble end have hijacked the very systems that are supposed to advance them."
+      }, 
+      "stark": {
+        "word_definition": "complete or extreme", 
+        "word_description": "", 
+        "word_name": "stark", 
+        "word_example": "The Iranian regime's support for terror is in  stark contrast to the recent commitments of many of its neighbors to fight terrorism and halt its finance, and in Saudi Arabia early last year, I was greatly honored to address the leaders of more than 50 Arab and Muslim nations."
+      }, 
+      "resilient": {
+        "word_definition": "recovering readily from adversity, depression, or the like", 
+        "word_description": "", 
+        "word_name": "resilient", 
+        "word_example": "The American people are strong and  resilient, and they will emerge from these hardships more determined than ever before."
+      }, 
+      "sovereignty": {
+        "word_definition": "the authority of a state to govern another state", 
+        "word_description": "", 
+        "word_name": "sovereignty", 
+        "word_example": "It was based on the vision that diverse nations could cooperate to protect their  sovereignty, preserve their security, and promote their prosperity."
+      }, 
+      "auspices": {
+        "word_definition": "kindly endorsement and guidance", 
+        "word_description": "", 
+        "word_name": "auspices", 
+        "word_example": "Major portions of the world are in conflict, and some, in fact, are going to hell, but the powerful people in this room, under the guidance and  auspices of the United Nations, can solve many of these vicious and complex problems."
       }, 
       "disproportionate": {
+        "word_definition": "out of proper balance", 
         "word_description": "", 
         "word_name": "disproportionate", 
-        "word_example": "In the meantime, we believe that no nation should have to bear a  disproportionate share of the burden, militarily or financially.", 
-        "word_definition": "out of proper balance"
+        "word_example": "In the meantime, we believe that no nation should have to bear a  disproportionate share of the burden, militarily or financially."
       }, 
       "bureaucracy": {
+        "word_definition": "an organization obstructing action by unnecessary procedures", 
         "word_description": "", 
         "word_name": "bureaucracy", 
-        "word_example": "Too often the focus of this organization has not been on results, but on  bureaucracy and process.", 
-        "word_definition": "an organization obstructing action by unnecessary procedures"
+        "word_example": "Too often the focus of this organization has not been on results, but on  bureaucracy and process."
       }, 
       "authoritarian": {
+        "word_definition": "characteristic of an absolute ruler or absolute rule", 
         "word_description": "", 
         "word_name": "authoritarian", 
-        "word_example": "Authority and  authoritarian powers seek to collapse the values, the systems, and alliances, that prevented conflict and tilted the word toward freedom since World War II. International criminal networks traffic drugs, weapons, people, force dislocation and mass migration, threaten our borders and new forms of aggression exploit technology to menace our citizens.", 
-        "word_definition": "characteristic of an absolute ruler or absolute rule"
+        "word_example": "Authority and  authoritarian powers seek to collapse the values, the systems, and alliances, that prevented conflict and tilted the word toward freedom since World War II. International criminal networks traffic drugs, weapons, people, force dislocation and mass migration, threaten our borders and new forms of aggression exploit technology to menace our citizens."
       }, 
       "complacency": {
+        "word_definition": "the feeling you have when you are satisfied with yourself", 
         "word_description": "", 
         "word_name": "complacency", 
-        "word_example": "We will slide down the path of  complacency, numb to the challenges, threats, and even wars that we face, or do we have enough strength and pride to confront those dangers today so that our citizens can enjoy peace and prosperity tomorrow.", 
-        "word_definition": "the feeling you have when you are satisfied with yourself"
+        "word_example": "We will slide down the path of  complacency, numb to the challenges, threats, and even wars that we face, or do we have enough strength and pride to confront those dangers today so that our citizens can enjoy peace and prosperity tomorrow."
       }, 
       "imperil": {
+        "word_definition": "pose a threat to; present a danger to", 
         "word_description": "", 
         "word_name": "imperil", 
-        "word_example": "It is an outrage that some nations would not only trade with such a regime, but would arm, supply, and financially support a country that  imperils the world with nuclear conflict.", 
-        "word_definition": "pose a threat to; present a danger to"
+        "word_example": "It is an outrage that some nations would not only trade with such a regime, but would arm, supply, and financially support a country that  imperils the world with nuclear conflict."
       }, 
       "tribunal": {
+        "word_definition": "an assembly to conduct judicial business", 
         "word_description": "", 
         "word_name": "tribunal", 
-        "word_example": "For too long the American people were told that mammoth, multinational trade deals, unaccountable international  tribunals, and powerful global bureaucracies were the best way to promote their success.", 
-        "word_definition": "an assembly to conduct judicial business"
+        "word_example": "For too long the American people were told that mammoth, multinational trade deals, unaccountable international  tribunals, and powerful global bureaucracies were the best way to promote their success."
       }, 
       "dictatorship": {
+        "word_definition": "a form of government in which the ruler is unconstrained", 
         "word_description": "", 
         "word_name": "dictatorship", 
-        "word_example": "The Iranian government masks a corrupt  dictatorship behind the false guise of a democracy.", 
-        "word_definition": "a form of government in which the ruler is unconstrained"
+        "word_example": "The Iranian government masks a corrupt  dictatorship behind the false guise of a democracy."
       }, 
       "reciprocal": {
+        "word_definition": "concerning each of two or more persons or things", 
         "word_description": "", 
         "word_name": "reciprocal", 
-        "word_example": "In America, we seek stronger ties of business and trade with all nations of goodwill, but this trade must be fair and it must be  reciprocal.", 
-        "word_definition": "concerning each of two or more persons or things"
+        "word_example": "In America, we seek stronger ties of business and trade with all nations of goodwill, but this trade must be fair and it must be  reciprocal."
       }, 
       "egregious": {
+        "word_definition": "conspicuously and outrageously bad or reprehensible", 
         "word_description": "", 
         "word_name": "egregious", 
-        "word_example": "For example, it is a massive source of embarrassment to the United Nations that some governments with  egregious human rights records sit on the UN Human Rights Council.", 
-        "word_definition": "conspicuously and outrageously bad or reprehensible"
+        "word_example": "For example, it is a massive source of embarrassment to the United Nations that some governments with  egregious human rights records sit on the UN Human Rights Council."
+      }, 
+      "yearning": {
+        "word_definition": "prolonged unfulfilled desire or need", 
+        "word_description": "", 
+        "word_name": "yearning", 
+        "word_example": "This is the ancient wish of every people and the deepest  yearning that lives inside every sacred soul."
       }, 
       "humanitarian": {
+        "word_definition": "marked by devotion to popular welfare", 
         "word_description": "", 
         "word_name": "humanitarian", 
-        "word_example": "We appreciate the efforts of the United Nations' agencies that are providing vital  humanitarian assistance in areas liberated from ISIS, and we especially thank Jordan, Turkey, and Lebanon for their role in hosting refugees from the Syrian conflict.", 
-        "word_definition": "marked by devotion to popular welfare"
+        "word_example": "We appreciate the efforts of the United Nations' agencies that are providing vital  humanitarian assistance in areas liberated from ISIS, and we especially thank Jordan, Turkey, and Lebanon for their role in hosting refugees from the Syrian conflict."
       }, 
       "mammoth": {
+        "word_definition": "so exceedingly large or extensive as to suggest a giant", 
         "word_description": "", 
         "word_name": "mammoth", 
-        "word_example": "For too long the American people were told that  mammoth, multinational trade deals, unaccountable international tribunals, and powerful global bureaucracies were the best way to promote their success.", 
-        "word_definition": "so exceedingly large or extensive as to suggest a giant"
+        "word_example": "For too long the American people were told that  mammoth, multinational trade deals, unaccountable international tribunals, and powerful global bureaucracies were the best way to promote their success."
       }, 
       "menace": {
+        "word_definition": "something that is a source of danger", 
         "word_description": "", 
         "word_name": "menace", 
-        "word_example": "Authority and authoritarian powers seek to collapse the values, the systems, and alliances, that prevented conflict and tilted the word toward freedom since World War II. International criminal networks traffic drugs, weapons, people, force dislocation and mass migration, threaten our borders and new forms of aggression exploit technology to  menace our citizens.", 
-        "word_definition": "something that is a source of danger"
+        "word_example": "Authority and authoritarian powers seek to collapse the values, the systems, and alliances, that prevented conflict and tilted the word toward freedom since World War II. International criminal networks traffic drugs, weapons, people, force dislocation and mass migration, threaten our borders and new forms of aggression exploit technology to  menace our citizens."
       }
     }, 
-    "list_detailed_description": "President Trump addressed the United Nations General Assembly for the first time on September 19, 2017. The speech touched on a range of topics including the state of the U.N. itself, the political situation in Venezuela, the Iran nuclear deal, and North Korea's ongoing nuclear efforts. Here's a list of vocabulary words drawn from the president's speech. The entire speech can be read \n", 
-    "list_href": "/lists/1865814"
+    "list_href": "/lists/1865814", 
+    "list_detailed_description": "President Trump addressed the United Nations General Assembly for the first time on September 19, 2017. The speech touched on a range of topics including the state of the U.N. itself, the political situation in Venezuela, the Iran nuclear deal, and North Korea's ongoing nuclear efforts. Here's a list of vocabulary words drawn from the president's speech. The entire speech can be read \n"
   }, 
   "Beam Me Up: Talking About Star Trek": {
     "list_brief_description": "Every time a new adaptation of Star Trek is released, there's plenty of buzz about what is one of...\r\n\r\n", 
     "list_num": "15 Words", 
     "list_detailed_info": {
       "prime": {
+        "word_definition": "of or relating to the first or originating agent", 
         "word_description": "Anything prime is the best or highest example something. In Star Trek, the prime directive states that Starfleet ships shouldn\u2019t be meddling in other planet\u2019s cultures just because they feel like it or think they know better.", 
         "word_name": "prime", 
-        "word_example": "For the uninitiated, the  prime directive was a Star Trek philosophy which prohibited members of the United Federation of Planets from interfering with the internal development of alien civilizations. In other words, it was a basic understanding that one civilization or race wouldn\u2019t screw with the development of another.  ", 
-        "word_definition": "of or relating to the first or originating agent"
+        "word_example": "For the uninitiated, the  prime directive was a Star Trek philosophy which prohibited members of the United Federation of Planets from interfering with the internal development of alien civilizations. In other words, it was a basic understanding that one civilization or race wouldn\u2019t screw with the development of another.  "
       }, 
       "trek": {
+        "word_definition": "any long and difficult trip", 
         "word_description": "", 
         "word_name": "trek", 
-        "word_example": "The writer and director was also responsible for another successful reboot in the form of the recent Star  Trek series.", 
-        "word_definition": "any long and difficult trip"
-      }, 
-      "logic": {
-        "word_description": "Logic is a specific type of reason that can be demonstrated or proven. Mr. Spock, like other Vulcans, is devoted to logic, as opposed to emotion.", 
-        "word_name": "logic", 
-        "word_example": "Originally a fleet was a group of ships in the Navy, but since Star Trek\u2019s space forces are modeled on naval tradition, words like fleet (and first officer) were borrowed by writers.  ", 
-        "word_definition": "the branch of philosophy that analyzes inference"
-      }, 
-      "hybrid": {
-        "word_description": "A hybrid combines two things: a restaurant could be a hybrid of Mexican and Chinese food, while a hybrid car runs on both gas and electric. Animal hybrids include the mule (the offspring of a donkey and horse). Mixed dog breeds could also be called hybrids, such as the labradoodle (Labrador and poodle) and puggle (pug and beagle). Mr. Spock is often referred to as a hybrid because his father is a Vulcan and his mother is an Earthling.", 
-        "word_name": "hybrid", 
-        "word_example": "Mr. Spock is one of the world's most loved and most enduring sci-fi characters. A green-blooded, human-Vulcan  hybrid, he was Captain Kirk's loyal aide, and his conscience, and second in command of the Star Ship Enterprise.  ", 
-        "word_definition": "a composite of mixed origin"
-      }, 
-      "mission": {
-        "word_description": "The opening lines of Star Trek\u2019s original series are famous: \u201cSpace, the final frontier. These are the voyages of the starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.\" A mission is a purpose and goal: a reason for doing something. You could say you\u2019re on a mission to find the perfect cheeseburger. People on a religious mission are dedicated to helping (and possibly converting) people.", 
-        "word_name": "mission", 
-        "word_example": "The ship, and its crew, are mysterious hybrids, but with just 10 days to go before the CBS All Access debut of the new show \u2014 which is actually a prequel that takes place in a universe about a decade before the five-year  mission at the heart of the original series \u2014 producers have revealed a few new secrets behind the warship's design.  ", 
-        "word_definition": "an operation that is assigned by a higher headquarters"
-      }, 
-      "warp": {
-        "word_description": "When something is  ", 
-        "word_name": "warp", 
-        "word_example": "When Jean-Luc Picard was in command of the starship Enterprise, characters from the various TV series Star Trek: The Next Generation, Deep Space Nine, and even Voyager could move to the silver screen at  warp speed.  ", 
-        "word_definition": "bend or twist out of shape"
-      }, 
-      "crystal": {
-        "word_description": "Dilithium crystals power the Enterprise, but only the dilithium part is made-up. Crystals are real solids found in nature that have geometrical patterns described as  ", 
-        "word_name": "crystal", 
-        "word_example": "Koolmees documented the involved project on his K-Money Industries website. Dilithium, the  crystal that powers Federation starships, is stubbornly fictional, so Koolmees build the dilithium chamber to hold his home server instead.  ", 
-        "word_definition": "a rock with regularly repeating internal structure"
-      }, 
-      "neutral": {
-        "word_description": "To be neutral is to not have a side: neutral parties aren\u2019t rooting for anyone, whether in politics, war, or sports. In Star Trek, the Neutral Zone is an area of space not controlled by the Federation, Klingons, or Romulans.", 
-        "word_name": "neutral", 
-        "word_example": "The Kobayashi Maru fake-out massacre that opens the film still kills an audience. While Captain Spock (Leonard Nimoy) observes from his science station, Captain-in-training Saavik (Kirstie Alley) attempts to navigate a  Neutral Zone rescue mission with catastrophic political Klingon consequences.  ", 
-        "word_definition": "having no personal preference"
+        "word_example": "The writer and director was also responsible for another successful reboot in the form of the recent Star  Trek series."
       }, 
       "enterprise": {
+        "word_definition": "a purposeful or industrious undertaking", 
         "word_description": "", 
         "word_name": "enterprise", 
-        "word_example": "While transporting two passengers to their home planet, the  Enterprise team loses its way.", 
-        "word_definition": "a purposeful or industrious undertaking"
+        "word_example": "While transporting two passengers to their home planet, the  Enterprise team loses its way."
+      }, 
+      "hybrid": {
+        "word_definition": "a composite of mixed origin", 
+        "word_description": "A hybrid combines two things: a restaurant could be a hybrid of Mexican and Chinese food, while a hybrid car runs on both gas and electric. Animal hybrids include the mule (the offspring of a donkey and horse). Mixed dog breeds could also be called hybrids, such as the labradoodle (Labrador and poodle) and puggle (pug and beagle). Mr. Spock is often referred to as a hybrid because his father is a Vulcan and his mother is an Earthling.", 
+        "word_name": "hybrid", 
+        "word_example": "Mr. Spock is one of the world's most loved and most enduring sci-fi characters. A green-blooded, human-Vulcan  hybrid, he was Captain Kirk's loyal aide, and his conscience, and second in command of the Star Ship Enterprise.  "
+      }, 
+      "mission": {
+        "word_definition": "an operation that is assigned by a higher headquarters", 
+        "word_description": "The opening lines of Star Trek\u2019s original series are famous: \u201cSpace, the final frontier. These are the voyages of the starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.\" A mission is a purpose and goal: a reason for doing something. You could say you\u2019re on a mission to find the perfect cheeseburger. People on a religious mission are dedicated to helping (and possibly converting) people.", 
+        "word_name": "mission", 
+        "word_example": "The ship, and its crew, are mysterious hybrids, but with just 10 days to go before the CBS All Access debut of the new show \u2014 which is actually a prequel that takes place in a universe about a decade before the five-year  mission at the heart of the original series \u2014 producers have revealed a few new secrets behind the warship's design.  "
+      }, 
+      "warp": {
+        "word_definition": "bend or twist out of shape", 
+        "word_description": "When something is  ", 
+        "word_name": "warp", 
+        "word_example": "When Jean-Luc Picard was in command of the starship Enterprise, characters from the various TV series Star Trek: The Next Generation, Deep Space Nine, and even Voyager could move to the silver screen at  warp speed.  "
+      }, 
+      "crystal": {
+        "word_definition": "a rock with regularly repeating internal structure", 
+        "word_description": "Dilithium crystals power the Enterprise, but only the dilithium part is made-up. Crystals are real solids found in nature that have geometrical patterns described as  ", 
+        "word_name": "crystal", 
+        "word_example": "Koolmees documented the involved project on his K-Money Industries website. Dilithium, the  crystal that powers Federation starships, is stubbornly fictional, so Koolmees build the dilithium chamber to hold his home server instead.  "
+      }, 
+      "neutral": {
+        "word_definition": "having no personal preference", 
+        "word_description": "To be neutral is to not have a side: neutral parties aren\u2019t rooting for anyone, whether in politics, war, or sports. In Star Trek, the Neutral Zone is an area of space not controlled by the Federation, Klingons, or Romulans.", 
+        "word_name": "neutral", 
+        "word_example": "The Kobayashi Maru fake-out massacre that opens the film still kills an audience. While Captain Spock (Leonard Nimoy) observes from his science station, Captain-in-training Saavik (Kirstie Alley) attempts to navigate a  Neutral Zone rescue mission with catastrophic political Klingon consequences.  "
+      }, 
+      "logic": {
+        "word_definition": "the branch of philosophy that analyzes inference", 
+        "word_description": "Logic is a specific type of reason that can be demonstrated or proven. Mr. Spock, like other Vulcans, is devoted to logic, as opposed to emotion.", 
+        "word_name": "logic", 
+        "word_example": "Originally a fleet was a group of ships in the Navy, but since Star Trek\u2019s space forces are modeled on naval tradition, words like fleet (and first officer) were borrowed by writers.  "
       }, 
       "fleet": {
+        "word_definition": "group of aircraft operating under the same ownership", 
         "word_description": "Originally a fleet was a group of ships in the navy, but since Star Trek\u2019s space forces are modeled on naval tradition, words like  ", 
         "word_name": "fleet", 
-        "word_example": "When the Enterprise hosts an officer from the Klingon  fleet, the crew faces an instant culture-clash. Worf is sensitive to other Klingons perceiving him as weak or \u201ctoo human,\u201d but the situation quickly moves beyond mere social awkwardness.  ", 
-        "word_definition": "group of aircraft operating under the same ownership"
+        "word_example": "When the Enterprise hosts an officer from the Klingon  fleet, the crew faces an instant culture-clash. Worf is sensitive to other Klingons perceiving him as weak or \u201ctoo human,\u201d but the situation quickly moves beyond mere social awkwardness.  "
       }, 
       "torpedo": {
+        "word_definition": "a long cylindrical self-propelled underwater projectile", 
         "word_description": "By the 1700s, the word had gained its more contemporary meaning: as a type of explosive, in the shape of a cigar, launched from a submarine.", 
         "word_name": "torpedo", 
-        "word_example": "In \u2018Star Trek,\u2019 photon  torpedoes were matter-antimatter weapons on starships. In real life, photons are microscopic particles of light that have a wide range of scientific applications from manufacturing to medicine to communication.  ", 
-        "word_definition": "a long cylindrical self-propelled underwater projectile"
+        "word_example": "In \u2018Star Trek,\u2019 photon  torpedoes were matter-antimatter weapons on starships. In real life, photons are microscopic particles of light that have a wide range of scientific applications from manufacturing to medicine to communication.  "
       }, 
       "regulation": {
+        "word_definition": "the act of bringing to uniformity", 
         "word_description": "Regulations are rules, especially specific rules for a particular group or organization. Captain Kirk is well-known for flouting Starfleet regulations.", 
         "word_name": "regulation", 
-        "word_example": "The appearance of \"an object of unknown origin\" seems to kickstart the events of Star Trek: Discovery. This object is found \"on the edge of Federation space,\" and it seems that the USS Shenzou is venturing a little further than Starfleet  regulations would usually allow.  ", 
-        "word_definition": "the act of bringing to uniformity"
+        "word_example": "The appearance of \"an object of unknown origin\" seems to kickstart the events of Star Trek: Discovery. This object is found \"on the edge of Federation space,\" and it seems that the USS Shenzou is venturing a little further than Starfleet  regulations would usually allow.  "
       }, 
       "stun": {
+        "word_definition": "make senseless or dizzy by or as if by a blow", 
         "word_description": "This word comes from a very specific Star Trek phrase that became a part of popular culture: \u201cSet phasers to stun!\u201d This was actually a decent thing to do, since the alternative was setting them to kill. If a Starfleet officer hit someone with a phaser set on stun, it knocked them unconscious, similar to how a linebacker can stun a quarterback. People are also stunned by bad or shocking news. To be stunned is to be knocked out: literally or metaphorically.", 
         "word_name": "stun", 
-        "word_example": "Regardless of whether these weapons are set to  stun, blast aliens, or wrangle ghosts, the question is this: Are zap-guns plausible?  ", 
-        "word_definition": "make senseless or dizzy by or as if by a blow"
+        "word_example": "Regardless of whether these weapons are set to  stun, blast aliens, or wrangle ghosts, the question is this: Are zap-guns plausible?  "
       }, 
       "galaxy": {
+        "word_definition": "a collection of star systems", 
         "word_description": "The universe is everything that exists. A solar system is a group of planets orbiting a sun, just like Earth and Mars and Jupiter and the rest orbit our little sun, or Sunny, as I like to call her. The unit in-between is the galaxy: a galaxy is made up of many solar systems. As best I can tell, the adventures of Star Trek take place all or mostly within our galaxy, the Milky Way.", 
         "word_name": "galaxy", 
-        "word_example": "The two soon find that they have passed through a wormhole that has deposited them on the other side of the  galaxy.  ", 
-        "word_definition": "a collection of star systems"
+        "word_example": "The two soon find that they have passed through a wormhole that has deposited them on the other side of the  galaxy.  "
       }, 
       "engineer": {
+        "word_definition": "a person who uses scientific knowledge to solve problems", 
         "word_description": "Engineers design and build many things, but in Star Trek, the engineer has a more literal job: taking care of the engines.", 
         "word_name": "engineer", 
-        "word_example": "For Mar\u00eda Regina Apodaca Moreno, 22, of all the crew members of the starship Enterprise it was chief  engineer Scotty who was her inspiration.  ", 
-        "word_definition": "a person who uses scientific knowledge to solve problems"
+        "word_example": "For Mar\u00eda Regina Apodaca Moreno, 22, of all the crew members of the starship Enterprise it was chief  engineer Scotty who was her inspiration.  "
       }
     }, 
-    "list_detailed_description": "Every time a new adaptation of Star Trek is released, there's plenty of buzz about what is one of the most enduring and iconic science fiction franchises. Rather than a glossary of Klingon terms, we've rounded up some of the more relevant English terms that get bandied about when there's a Star Trek media frenzy.\n", 
-    "list_href": "/lists/1866050"
+    "list_href": "/lists/1866050", 
+    "list_detailed_description": "Every time a new adaptation of Star Trek is released, there's plenty of buzz about what is one of the most enduring and iconic science fiction franchises. Rather than a glossary of Klingon terms, we've rounded up some of the more relevant English terms that get bandied about when there's a Star Trek media frenzy.\n"
   }, 
   "Punctuation": {
     "list_brief_description": "These punctuation terms are good to know, period. Learn what an apostrophe\u2019s purpose is; find out...\r\n\r\n", 
     "list_num": "13 Words", 
     "list_detailed_info": {
       "semicolon": {
+        "word_definition": "a punctuation mark used to connect independent clauses", 
         "word_description": "", 
         "word_name": "semicolon", 
-        "word_example": "", 
-        "word_definition": "a punctuation mark used to connect independent clauses"
+        "word_example": ""
       }, 
       "hyphen": {
+        "word_definition": "a punctuation mark (-) used between parts of a word", 
         "word_description": "", 
         "word_name": "hyphen", 
-        "word_example": "", 
-        "word_definition": "a punctuation mark (-) used between parts of a word"
+        "word_example": ""
       }, 
       "period": {
+        "word_definition": "an amount of time", 
         "word_description": "", 
         "word_name": "period", 
-        "word_example": "", 
-        "word_definition": "an amount of time"
+        "word_example": ""
       }, 
       "comma": {
+        "word_definition": "a punctuation mark (,) indicating the separation of elements", 
         "word_description": "", 
         "word_name": "comma", 
-        "word_example": "", 
-        "word_definition": "a punctuation mark (,) indicating the separation of elements"
+        "word_example": ""
       }, 
       "parenthesis": {
+        "word_definition": "a punctuation mark used to enclose textual material", 
         "word_description": "", 
         "word_name": "parenthesis", 
-        "word_example": "", 
-        "word_definition": "a punctuation mark used to enclose textual material"
+        "word_example": ""
       }, 
       "ellipsis": {
+        "word_definition": "omission or suppression of parts of words or sentences", 
         "word_description": "", 
         "word_name": "ellipsis", 
-        "word_example": "", 
-        "word_definition": "omission or suppression of parts of words or sentences"
+        "word_example": ""
       }, 
       "colon": {
+        "word_definition": "the part of the large intestine between the cecum and rectum", 
         "word_description": "", 
         "word_name": "colon", 
-        "word_example": "", 
-        "word_definition": "the part of the large intestine between the cecum and rectum"
+        "word_example": ""
       }, 
       "apostrophe": {
+        "word_definition": "a mark used to indicate the omission of one or more letters", 
         "word_description": "", 
         "word_name": "apostrophe", 
-        "word_example": "", 
-        "word_definition": "a mark used to indicate the omission of one or more letters"
+        "word_example": ""
       }
     }, 
-    "list_detailed_description": "These punctuation terms are good to know, period. Learn what an apostrophe\u2019s purpose is; find out what a semicolon is for. Are you confused about question marks? Probably not (although you may be mystified by parentheses). This list is sure to make you as excited as an exclamation point!", 
-    "list_href": "/lists/1449172"
+    "list_href": "/lists/1449172", 
+    "list_detailed_description": "These punctuation terms are good to know, period. Learn what an apostrophe\u2019s purpose is; find out what a semicolon is for. Are you confused about question marks? Probably not (although you may be mystified by parentheses). This list is sure to make you as excited as an exclamation point!"
   }, 
   "This Week in Words: September 17 - 24, 2017": {
     "list_brief_description": "No time to scour the headlines or watch the news? No problem! We\u2019ve rounded up the top words heard,...\r\n\r\n", 
     "list_num": "13 Words", 
     "list_detailed_info": {
       "obliterate": {
+        "word_definition": "remove completely from recognition or memory", 
         "word_description": "Republicans in Congress have put together another bill to repeal \"Obamacare,\" as it is known. Some senators, like Rand Paul of Kentucky, have already stated they will not support the bill. A big factor working against this new bill is time \u2014 the Office of Management and Budget, which evaluates the plan in terms of cost and people affected, will not have time to \"score\" the bill prior to the scheduled vote and Senators will therefore not have a clear sense of what they are voting on.", 
         "word_name": "obliterate", 
-        "word_example": "Just when the effort to repeal the Affordable Care Act appeared to be dead, a last-ditch push to  obliterate the law could be nearing a showdown vote in the Senate, and a handful of Republicans insist they are closing in on the votes. ", 
-        "word_definition": "remove completely from recognition or memory"
+        "word_example": "Just when the effort to repeal the Affordable Care Act appeared to be dead, a last-ditch push to  obliterate the law could be nearing a showdown vote in the Senate, and a handful of Republicans insist they are closing in on the votes. "
       }, 
       "dissolution": {
+        "word_definition": "the termination or disintegration of a relationship", 
         "word_description": "The National Book Award nominees were announced this week. One of the serious contenders this year is Jesmyn Ward's  ", 
         "word_name": "dissolution", 
-        "word_example": "Now Ward is back with Sing, Unburied, Sing. Again, she tells a tragic story about an African American family challenged with  dissolution, but the threats here are more complex and even more tenacious than Katrina. ", 
-        "word_definition": "the termination or disintegration of a relationship"
+        "word_example": "Now Ward is back with Sing, Unburied, Sing. Again, she tells a tragic story about an African American family challenged with  dissolution, but the threats here are more complex and even more tenacious than Katrina. "
       }, 
       "audacious": {
+        "word_definition": "disposed to venture or take risks", 
         "word_description": "\"It\" was number one at the box office again this week, but that wasn't the big box office story. The buzz this week was the poor performance of \"Mother!\" starring Jennifer Lawrence. It earned less than $10 million dollars, and when people leaving the theater were asked what they thought of the film, it scored a grade of \"F\" in the polling. Since 1986, only 18 other movies have received that grade.", 
         "word_name": "audacious", 
-        "word_example": "\u201cIt\u2019s big, bold and  audacious. We always knew it wouldn\u2019t be for everybody.\u201d ", 
-        "word_definition": "disposed to venture or take risks"
+        "word_example": "\u201cIt\u2019s big, bold and  audacious. We always knew it wouldn\u2019t be for everybody.\u201d "
       }, 
       "exacerbate": {
+        "word_definition": "make worse", 
         "word_description": "That paradise of play, that fantasyland of fun, Toys\"R\"Us, has filed for chapter 11 bankruptcy protection. The store has been greatly impacted by the online sales of other retailers. It is unclear whether the chain will have to close some stores nationwide as a result of this financial trouble, but a huge giraffe mascot named Geoffrey may soon be out of a job.", 
         "word_name": "exacerbate", 
-        "word_example": "But the financial plight of Toys\u201cR\u201dUs was  exacerbated by a heavy debt load that has weighed on the company for years.  ", 
-        "word_definition": "make worse"
+        "word_example": "But the financial plight of Toys\u201cR\u201dUs was  exacerbated by a heavy debt load that has weighed on the company for years.  "
       }, 
       "resonate": {
+        "word_definition": "be received or understood", 
         "word_description": "The Emmy Awards for excellence in television were presented on Sunday night. The annual event continued its recent trend of awarding diversity in the art form, and thereby awarded many \"firsts.\" This year marked the first win by an African American woman for writing on a sitcom, Lena Waithe, for the show \"Atlanta.\"", 
         "word_name": "resonate", 
-        "word_example": "A wide range of shows telling honest stories about a wide variety of people won Emmys on Sunday night, showing that diversity not only works but  resonates. ", 
-        "word_definition": "be received or understood"
+        "word_example": "A wide range of shows telling honest stories about a wide variety of people won Emmys on Sunday night, showing that diversity not only works but  resonates. "
       }, 
       "imperil": {
+        "word_definition": "pose a threat to; present a danger to", 
         "word_description": "President Trump addressed the United Nations General Assembly on Tuesday. On the topic of North Korea, the president threatened to \"totally destroy\" that country, referred to its leader Kim Jong-un as \"Rocket Man,\" and questioned the ethics of countries that trade with North Korea on the first place.", 
         "word_name": "imperil", 
-        "word_example": "It is an outrage that some nations would not only trade with such a regime, but would arm, supply and financially support a country that  imperils the world.  ", 
-        "word_definition": "pose a threat to; present a danger to"
+        "word_example": "It is an outrage that some nations would not only trade with such a regime, but would arm, supply and financially support a country that  imperils the world.  "
       }, 
       "initiative": {
+        "word_definition": "the first of a series of actions", 
         "word_description": "The fallout from the movement to repeal DACA continued this week. With DACA no longer in place, the children of illegal immigrants have to pay a registration fee by a certain date. The state of Rhode Island announced that it is not waiting for a congressional plan; it will pay that fee for all of Rhode Island's \"Dreamers.\" Rhode Island currently has about 3,000 people who were covered by DACA and are therefore eligible for this new program.", 
         "word_name": "initiative", 
-        "word_example": "\"I'm proud to announce an  initiative to pay DACA renewal fees for every Rhode Island DREAMer who is eligible to apply for renewal by Oct. 5,\"  ", 
-        "word_definition": "the first of a series of actions"
-      }, 
-      "epicenter": {
-        "word_description": "Another earthquake hit Mexico this week, measuring 7.1 on the Richter scale. This earthquake comes less than two weeks after an 8.1 earthquake hit that country and killed one hundred people. Although this week's quake was less severe in magnitude, its  ", 
-        "word_name": "epicenter", 
-        "word_example": "Its  epicenter was in the state of Puebla, about 80 miles southeast of the capital, Mexico City.  ", 
-        "word_definition": "a point on the Earth's surface directly above an earthquake"
-      }, 
-      "guise": {
-        "word_description": "President Trump regards the deal that the Obama administration made with Iran as a terrible step backward in dealing with that country. He does not trust any of the promises Iran made in that deal to curb its nuclear weapons program. This is one of the reasons he suggested in his speech to the U.N. General Assembly that Iran hides behind a \"false guise.\" He feels that the country's representatives will say one thing and turn around and do the opposite.", 
-        "word_name": "guise", 
-        "word_example": "The Iranian government masks a corrupt dictatorship behind the false  guise of a democracy.  ", 
-        "word_definition": "an artful or simulated semblance"
-      }, 
-      "echelon": {
-        "word_description": "Hurricane Maria hit Puerto Rico this week. This hurricane season has been terrible for the Caribbean islands, and Maria only made things worse. 155 mile-per-hour winds and flash flooding destroyed much of Puerto Rico, a U.S. territory. At last report the entire island was without power.", 
-        "word_name": "echelon", 
-        "word_example": "\"Hurricane Maria is really scraping the upper  echelon of what's possible with hurricanes, (with) 175 mph sustained winds right around the center of the storm,\" Van Dam said Tuesday.  ", 
-        "word_definition": "level of authority in a hierarchy"
+        "word_example": "\"I'm proud to announce an  initiative to pay DACA renewal fees for every Rhode Island DREAMer who is eligible to apply for renewal by Oct. 5,\"  "
       }, 
       "bureaucratic": {
+        "word_definition": "of or relating to unnecessary procedures and red tape", 
         "word_description": "President Trump was in New York this week, at the meeting of the United Nations General Assembly. In brief remarks the day before  ", 
         "word_name": "bureaucratic", 
-        "word_example": "In a meeting with counterparts from around the world, Mr. Trump said the United Nations had grown too  bureaucratic and ineffective and should reorient its approach.  ", 
-        "word_definition": "of or relating to unnecessary procedures and red tape"
+        "word_example": "In a meeting with counterparts from around the world, Mr. Trump said the United Nations had grown too  bureaucratic and ineffective and should reorient its approach.  "
+      }, 
+      "guise": {
+        "word_definition": "an artful or simulated semblance", 
+        "word_description": "President Trump regards the deal that the Obama administration made with Iran as a terrible step backward in dealing with that country. He does not trust any of the promises Iran made in that deal to curb its nuclear weapons program. This is one of the reasons he suggested in his speech to the U.N. General Assembly that Iran hides behind a \"false guise.\" He feels that the country's representatives will say one thing and turn around and do the opposite.", 
+        "word_name": "guise", 
+        "word_example": "The Iranian government masks a corrupt dictatorship behind the false  guise of a democracy.  "
+      }, 
+      "echelon": {
+        "word_definition": "level of authority in a hierarchy", 
+        "word_description": "Hurricane Maria hit Puerto Rico this week. This hurricane season has been terrible for the Caribbean islands, and Maria only made things worse. 155 mile-per-hour winds and flash flooding destroyed much of Puerto Rico, a U.S. territory. At last report the entire island was without power.", 
+        "word_name": "echelon", 
+        "word_example": "\"Hurricane Maria is really scraping the upper  echelon of what's possible with hurricanes, (with) 175 mph sustained winds right around the center of the storm,\" Van Dam said Tuesday.  "
+      }, 
+      "epicenter": {
+        "word_definition": "a point on the Earth's surface directly above an earthquake", 
+        "word_description": "Another earthquake hit Mexico this week, measuring 7.1 on the Richter scale. This earthquake comes less than two weeks after an 8.1 earthquake hit that country and killed one hundred people. Although this week's quake was less severe in magnitude, its  ", 
+        "word_name": "epicenter", 
+        "word_example": "Its  epicenter was in the state of Puebla, about 80 miles southeast of the capital, Mexico City.  "
       }, 
       "emphatically": {
+        "word_definition": "without question and beyond doubt", 
         "word_description": "Houston Texans defensive star J.J. Watt had a goal. He wanted to raise $200,000 for Hurricane Harvey relief for Texas and the surrounding area. Watt's charity has succeeded beyond anyone's wildest dreams, and so far the organization has raised $37.1 million dollars. This generosity is a true testament to the good spirit of people across the country who respond in times of crisis.", 
         "word_name": "emphatically", 
-        "word_example": "When times are the toughest, humanity stands at its strongest and you have all helped to prove that  emphatically.  ", 
-        "word_definition": "without question and beyond doubt"
+        "word_example": "When times are the toughest, humanity stands at its strongest and you have all helped to prove that  emphatically.  "
       }
     }, 
-    "list_detailed_description": "No time to scour the headlines or watch the news? No problem! We\u2019ve rounded up the top words heard, read, debated, and discussed this week. This was a week of bold moves. Whether you agree with him or not, President Trump gave an \n", 
-    "list_href": "/lists/1862786"
+    "list_href": "/lists/1862786", 
+    "list_detailed_description": "No time to scour the headlines or watch the news? No problem! We\u2019ve rounded up the top words heard, read, debated, and discussed this week. This was a week of bold moves. Whether you agree with him or not, President Trump gave an \n"
   }
 }

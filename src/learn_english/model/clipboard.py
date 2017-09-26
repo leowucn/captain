@@ -19,6 +19,9 @@ def watcher():
     i = 0
     while True:
         result = pyperclip.paste().strip()
+        if not is_valid(result):
+            time.sleep(interval)
+            continue
         # p('word = ' + word + ' , i = ' + str(i) + ' ' + ', result = ' + result)
         if word != '' and result.find(word) >= 0:
             if word != '' and len(result) > len(word) and result.find(word) >= 0:
@@ -40,6 +43,14 @@ def watcher():
             i = 0
             continue
         time.sleep(interval)
+
+
+# clip_str should only include ascii characters.
+def is_valid(clip_str):
+    for c in clip_str:
+        if ord(c) > 127:
+            return False
+    return True
 
 
 def p(content):
