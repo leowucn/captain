@@ -21,12 +21,6 @@
         "word_example": "The loft where his small team works is filled with  relics from his days fronting the pioneering rock group Talking Heads.", 
         "word_definition": "something of sentimental value"
       }, 
-      "memorabilia": {
-        "word_description": "", 
-        "word_name": "memorabilia", 
-        "word_example": "Across from us is a dusty shelf filled with  memorabilia.", 
-        "word_definition": "a record of things worth remembering"
-      }, 
       "vintage": {
         "word_description": "", 
         "word_name": "vintage", 
@@ -56,6 +50,12 @@
         "word_name": "souvenir", 
         "word_example": "The house produced many  souvenirs of early New York when its owners, Martin Sheridan and Richard Hayman, dug up the basement.", 
         "word_definition": "a reminder of past events"
+      }, 
+      "memorabilia": {
+        "word_description": "", 
+        "word_name": "memorabilia", 
+        "word_example": "Across from us is a dusty shelf filled with  memorabilia.", 
+        "word_definition": "a record of things worth remembering"
       }, 
       "musty": {
         "word_description": "", 
@@ -146,6 +146,116 @@
     }, 
     "list_detailed_description": "On Monday, August 21, 2017 there will be a total eclipse of the sun. The moon will appear to completely block the sun for a few minutes, and we will experience darkness in the middle of the day. When you can see this happening depends on where you are in the country. The United States hasn't had an eclipse of this kind since 1979. Below are some vocabulary words related to this extraordinary celestial event.", 
     "list_href": "/lists/1806744"
+  }, 
+  "Uncanny, Creepy, or Downright Scary: Words For Halloween": {
+    "list_brief_description": "\n", 
+    "list_num": "18 Words", 
+    "list_detailed_info": {
+      "uncanny": {
+        "word_description": "", 
+        "word_name": "uncanny", 
+        "word_example": "", 
+        "word_definition": "surpassing the ordinary or normal"
+      }, 
+      "dreadful": {
+        "word_description": "", 
+        "word_name": "dreadful", 
+        "word_example": "", 
+        "word_definition": "exceptionally bad or displeasing"
+      }, 
+      "eldritch": {
+        "word_description": "", 
+        "word_name": "eldritch", 
+        "word_example": "", 
+        "word_definition": "suggesting the operation of supernatural influences"
+      }, 
+      "monster": {
+        "word_description": "", 
+        "word_name": "monster", 
+        "word_example": "", 
+        "word_definition": "an imaginary creature usually having human and animal parts"
+      }, 
+      "eerie": {
+        "word_description": "", 
+        "word_name": "eerie", 
+        "word_example": "", 
+        "word_definition": "suggestive of the supernatural; mysterious"
+      }, 
+      "haunt": {
+        "word_description": "", 
+        "word_name": "haunt", 
+        "word_example": "", 
+        "word_definition": "follow stealthily or pursue like a ghost"
+      }, 
+      "pall": {
+        "word_description": "", 
+        "word_name": "pall", 
+        "word_example": "", 
+        "word_definition": "burial garment in which a corpse is wrapped"
+      }, 
+      "strange": {
+        "word_description": "", 
+        "word_name": "strange", 
+        "word_example": "", 
+        "word_definition": "unusual or out of the ordinary"
+      }, 
+      "dread": {
+        "word_description": "", 
+        "word_name": "dread", 
+        "word_example": "", 
+        "word_definition": "fearful expectation or anticipation"
+      }, 
+      "horrendous": {
+        "word_description": "", 
+        "word_name": "horrendous", 
+        "word_example": "", 
+        "word_definition": "causing fear or dread or terror"
+      }, 
+      "terror": {
+        "word_description": "", 
+        "word_name": "terror", 
+        "word_example": "", 
+        "word_definition": "an overwhelming feeling of fear and anxiety"
+      }, 
+      "daunt": {
+        "word_description": "", 
+        "word_name": "daunt", 
+        "word_example": "", 
+        "word_definition": "cause to lose courage"
+      }, 
+      "weird": {
+        "word_description": "", 
+        "word_name": "weird", 
+        "word_example": "", 
+        "word_definition": "strikingly odd or unusual"
+      }, 
+      "unearthly": {
+        "word_description": "", 
+        "word_name": "unearthly", 
+        "word_example": "", 
+        "word_definition": "suggesting the operation of supernatural influences"
+      }, 
+      "specter": {
+        "word_description": "", 
+        "word_name": "specter", 
+        "word_example": "", 
+        "word_definition": "a ghostly appearing figure"
+      }, 
+      "bizarre": {
+        "word_description": "", 
+        "word_name": "bizarre", 
+        "word_example": "", 
+        "word_definition": "conspicuously or grossly unconventional or unusual"
+      }, 
+      "wraith": {
+        "word_description": "", 
+        "word_name": "wraith", 
+        "word_example": "", 
+        "word_definition": "a mental representation of some haunting experience"
+      }
+    }, 
+    "list_detailed_description": "", 
+    "list_href": "/lists/199824"
   }, 
   "May the 4th Be With You: Star Words": {
     "list_brief_description": "Rejoice, Star Wars fans! May the 4th is National Star Wars Day! The epic film series launched plenty of words\u2014like Jedi and Wookiee\u2014but it also made use of ...", 
@@ -330,98 +440,6 @@
     }, 
     "list_detailed_description": "Let's face it, we all (or at least most of us) lie. Whether you just want to spare someone's feelings or want to get away with something you really shouldn't be doing, people bend the truth on occasion. It's no surprise, then, that there are so many words that describe the telling of untruths. Whether the motivation is malicious or kindhearted, there is a nuanced way to describe it. Here are fifteen words to describe liars and the webs they spin.\n", 
     "list_href": "/lists/1736128"
-  }, 
-  "Memorial Day: Words of Respect and Remembrance": {
-    "list_brief_description": "Here\u2019s a look at some of the words you\u2019re most likely to hear and see around Memorial Day. There are many ways to honor the people who died in combat for th...", 
-    "list_num": "15 Words", 
-    "list_detailed_info": {
-      "memorial": {
-        "word_description": "The name of this holiday is a word closely related to  memory. Memorials\u2014such as the famous Lincoln Memorial\u2014are there to help us remember people who died. There are memorials for all sorts of people, but memorials to veterans get a little extra respect, and for good reason. One of the most famous (and largest) memorials in the U.S. is the Vietnam Veterans Memorial, which is two acres long and contains the names of everyone who died in that war.", 
-        "word_name": "memorial", 
-        "word_example": "The three officers to be honored died in past years, and were recently added to the National Law Enforcement  Memorial.", 
-        "word_definition": "a structure erected to commemorate persons or events"
-      }, 
-      "platoon": {
-        "word_description": "This French borrowing entered English in the 1500s: it refers to a group of soldiers, usually infantrymen. Often a platoon is made of various squadrons or squads\u2014a platoon is bigger than a squad, but smaller than a company. Soldiers who served in the same platoon share a special bond.", 
-        "word_name": "platoon", 
-        "word_example": "He led a rifle  platoon in Vietnam, eventually receiving numerous commendations, including the Purple Heart and the Bronze Star.", 
-        "word_definition": "a military unit that is a subdivision of a company"
-      }, 
-      "service": {
-        "word_description": "This common word has a specific military meaning that's a lot more important than the service you get at your local pizzeria. When you enter the military, you've entered the  service, and you can call your time there  military service. Many people say to veterans, \"Thank you for your service.\" The idea is that joining the military isn't something you do for yourself, like becoming a lawyer or artist, but something done to serve your country.", 
-        "word_name": "service", 
-        "word_example": "No one now outside of the War Department knew the quality and duration of his  service.", 
-        "word_definition": "an act of help or assistance"
-      }, 
-      "deferment": {
-        "word_description": "", 
-        "word_name": "deferment", 
-        "word_example": "Trump himself received five draft  deferments during the Vietnam War, including one for bone spurs in his heel, the Times reported in August.", 
-        "word_definition": "act of putting off to a future time"
-      }, 
-      "sacrifice": {
-        "word_description": "To sacrifice something is to give it up, and this is one of the most important words relating to Memorial Day, which honors people who sacrificed their lives. Dying in war is often called the  ultimate sacrifice. In a world where most people are all about me, me, and me, this type of sacrifice is hard to imagine.", 
-        "word_name": "sacrifice", 
-        "word_example": "The  sacrifice of soldiers killed during World Wars One and Two is well-documented.", 
-        "word_definition": "personnel that are lost by death or capture "
-      }, 
-      "enlist": {
-        "word_description": "A draft brings people into the military, whether they want to join or not. The U.S. has had a draft at different points in history, most recently during the Vietnam era when we were sending an enormous number of troops over there. Whether there's a draft or not, people can volunteer for the military: if you volunteer, you enlist. This word can also be used to describe recruiting other people. A new enlistee in the navy could then try to enlist others: in other words, encourage them to join too.", 
-        "word_name": "enlist", 
-        "word_example": "He thought about  enlisting in the Marine Corps before an encounter with a CIA recruiter.", 
-        "word_definition": "join the military"
-      }, 
-      "draft": {
-        "word_description": "There are many types of drafts, such as a gust of wind or rough piece of writing. But the military version is a lot more significant: a draft selects people for the military. If you're drafted, you have to enter the service, unless you don't pass the medical exams. Some people receive a  deferment, meaning they delay their service. Another way that some avoid the draft is by being a conscientious objector: someone philosophically opposed to violence in general or a specific war.", 
-        "word_name": "draft", 
-        "word_example": "366 blue plastic capsules contained the birthdays that would be chosen in the first Vietnam  draft lottery drawing on December 1, 1969.", 
-        "word_definition": "compulsory military service"
-      }, 
-      "troop": {
-        "word_description": "", 
-        "word_name": "troop", 
-        "word_example": "In January 2016, South Korean border  troops fired shots at a suspected drone.", 
-        "word_definition": "a group of soldiers"
-      }, 
-      "combat": {
-        "word_description": "", 
-        "word_name": "combat", 
-        "word_example": "But Pentagon officials this month maintained that the accident occurred outside the Vietnam  combat zone.", 
-        "word_definition": "the act of fighting; any contest or struggle"
-      }, 
-      "military": {
-        "word_description": "The military consists of the army, the navy, the marines, and all other government forces that go to war. General, captain, private, and ensign are all military ranks. The military's goal is to defend the county, but also to attack other countries when ordered. A frequently debated political topic is military spending: how much money should be spent on tanks, planes, bombs, and other military equipment? Some argue for a stronger military, while others will say more money should go elsewhere.", 
-        "word_name": "military", 
-        "word_example": "The  military did not say whether there were any US casualties during the raid which was supported by the Yemeni government.", 
-        "word_definition": "the armed forces of a nation"
-      }, 
-      "compulsory": {
-        "word_description": "", 
-        "word_name": "compulsory", 
-        "word_example": "Russia maintains the  compulsory one-year draft, but has increasingly sought to enlist volunteers for longer terms of duty to boost the military capability.", 
-        "word_definition": "required by rule"
-      }, 
-      "strategy": {
-        "word_description": "", 
-        "word_name": "strategy", 
-        "word_example": "Lee, they wrote, mishandled overall  strategy of the war.", 
-        "word_definition": "an elaborate and systematic plan of action"
-      }, 
-      "veteran": {
-        "word_description": "A veteran is anyone who has served in some branch of the military such as the army, navy, air force, or marines. No matter how long someone served, they're a veteran. This word is also used for other types of experience, especially substantial experience. A teacher who's been chalking boards for decades can be called a veteran teacher. A basketball player who's been in the NBA for a while\u2014say, 5-10 years\u2014is often called a veteran. And if you've done anything for some time, this word can apply.", 
-        "word_name": "veteran", 
-        "word_example": "Included in the executive\u2019s proposal would be an exemption for low-income seniors and disabled  veterans.", 
-        "word_definition": "a person who has served in the armed forces"
-      }, 
-      "volunteer": {
-        "word_description": "", 
-        "word_name": "volunteer", 
-        "word_example": "Bereza, who commanded one of the  volunteer battalions that fought in the east, called it necessary to preserve the state.", 
-        "word_definition": "a person who performs work done by choice"
-      }
-    }, 
-    "list_detailed_description": "Here\u2019s a look at some of the words you\u2019re most likely to hear and see around Memorial Day. There are many ways to honor the people who died in combat for their country: one is to understand their vocabulary.\n", 
-    "list_href": "/lists/1717531"
   }, 
   "St. Patrick's Day Vocabulary: Words From Irish": {
     "list_brief_description": "With St. Patrick's Day \u2014 and celebrations of all things Irish \u2014 coming up on March 17th, learn 10 words derived from the Irish language. For more words from...", 
@@ -637,6 +655,12 @@
         "word_example": "He made me think of a pirate captain disposing of the  booty.", 
         "word_definition": "goods or money obtained illegally"
       }, 
+      "careen": {
+        "word_description": "This verb originally applied to ships and is from a French word which literally translates as \"to expose a ship's  ", 
+        "word_name": "careen", 
+        "word_example": "Then a car roared past him,  careening all over the road, in the opposite direction.", 
+        "word_definition": "pitching dangerously to one side"
+      }, 
       "prow": {
         "word_description": "The word for the front part of a ship,  ", 
         "word_name": "prow", 
@@ -661,23 +685,17 @@
         "word_example": "Estimates of losses were not available, with rescuers yet to reach villages  marooned by the worst floods in recent years.", 
         "word_definition": "leave stranded or isolated with little hope of rescue"
       }, 
-      "hoist": {
-        "word_description": "", 
-        "word_name": "hoist", 
-        "word_example": "Drenched pirates shouted and  hoisted and scrambled, but there was nothing to be done.", 
-        "word_definition": "raise or haul up with or as if with mechanical help"
-      }, 
       "keel": {
         "word_description": "The keel is the lowest plank of wood on a boat. It is the foundational piece, and the ship depends on it for strength and stability. The phrase \"keep an even keel\" comes from maintaining a level, horizontal position on a ship, and has been metaphorically extended to mean keeping a calm demeanor and not going from one extreme emotion to another.", 
         "word_name": "keel", 
         "word_example": "But the  keel remained intact, and the boat eventually righted itself, though it was flooded.", 
         "word_definition": "one of the main longitudinal beams of the hull of a vessel"
       }, 
-      "careen": {
-        "word_description": "This verb originally applied to ships and is from a French word which literally translates as \"to expose a ship's  ", 
-        "word_name": "careen", 
-        "word_example": "Then a car roared past him,  careening all over the road, in the opposite direction.", 
-        "word_definition": "pitching dangerously to one side"
+      "hoist": {
+        "word_description": "", 
+        "word_name": "hoist", 
+        "word_example": "Drenched pirates shouted and  hoisted and scrambled, but there was nothing to be done.", 
+        "word_definition": "raise or haul up with or as if with mechanical help"
       }, 
       "unfurl": {
         "word_description": "", 
@@ -792,6 +810,116 @@
     }, 
     "list_detailed_description": "Whether you're a cat-person or have a case of feline phobia, here are 13 words to describe these lithe, stealthy creatures.", 
     "list_href": "/lists/1623099"
+  }, 
+  "Automobiles": {
+    "list_brief_description": "Henry Ford's Model-T was first produced in October 1908. It was the cheapest car ever built, and it helped usher in a new age of transportation. Whether you're ...", 
+    "list_num": "17 Words", 
+    "list_detailed_info": {
+      "acceleration": {
+        "word_description": "", 
+        "word_name": "acceleration", 
+        "word_example": "It\u2019s a car model that I really enjoy driving, with excellent handling and  acceleration.", 
+        "word_definition": "(physics) a rate of increase of velocity"
+      }, 
+      "manufacture": {
+        "word_description": "", 
+        "word_name": "manufacture", 
+        "word_example": "While lighter plastic car parts might help cut vehicle emissions and increase the range of electric cars, doesn't their  manufacture bring other environmental risks?", 
+        "word_definition": "organized action of making of goods and services for sale"
+      }, 
+      "cylinder": {
+        "word_description": "", 
+        "word_name": "cylinder", 
+        "word_example": "The engine in the base Cooper \u2014 which starts at $20,745 \u2014 is also notable because it has just three  cylinders.", 
+        "word_definition": "a chamber within which a piston moves"
+      }, 
+      "lemon": {
+        "word_description": "", 
+        "word_name": "lemon", 
+        "word_example": "It was impossible to tell whether it was Mom\u2019s driving or whether we had bought a  lemon.", 
+        "word_definition": "an object, especially a car, that is defective or deficient"
+      }, 
+      "velocity": {
+        "word_description": "", 
+        "word_name": "velocity", 
+        "word_example": "It can also reach a top speed of 155 mph, up from the Model S\u2019s peak  velocity of 130 mph.", 
+        "word_definition": "distance travelled per unit time"
+      }, 
+      "accelerator": {
+        "word_description": "", 
+        "word_name": "accelerator", 
+        "word_example": "He likes the instant torque, the zero hesitation when he steps on the  accelerator.", 
+        "word_definition": "a pedal that controls the throttle valve"
+      }, 
+      "transmission": {
+        "word_description": "", 
+        "word_name": "transmission", 
+        "word_example": "Built for quickness and nothing else, semi-automatic  transmissions were far too jerky and unrefined for the road in the early 1990s.", 
+        "word_definition": "the gears that transfer power from an automobile engine"
+      }, 
+      "combustible": {
+        "word_description": "", 
+        "word_name": "combustible", 
+        "word_example": "For enthusiasts, there was much ogling at under-the-hood advancements of the  combustible engine.", 
+        "word_definition": "capable of igniting and burning"
+      }, 
+      "torque": {
+        "word_description": "", 
+        "word_name": "torque", 
+        "word_example": "There is an unwritten mandate that every time a new car model arrives, it has to have more horsepower and  torque than its predecessor.", 
+        "word_definition": "a twisting force"
+      }, 
+      "jalopy": {
+        "word_description": "", 
+        "word_name": "jalopy", 
+        "word_example": "They pass the carcasses of old  jalopies, front ends fallen through the ice, doors riddled with bullet holes.", 
+        "word_definition": "a car that is old and unreliable"
+      }, 
+      "axle": {
+        "word_description": "", 
+        "word_name": "axle", 
+        "word_example": "The gas tank was mounted behind the rear  axle, leaving it vulnerable in a crash.", 
+        "word_definition": "a shaft on which a wheel rotates"
+      }, 
+      "vehicle": {
+        "word_description": "", 
+        "word_name": "vehicle", 
+        "word_example": "Electric  vehicles use rechargeable batteries containing cobalt, a byproduct of copper and nickel output, which boosts energy density and extends battery life.", 
+        "word_definition": "a conveyance that transports people or objects"
+      }, 
+      "suspension": {
+        "word_description": "", 
+        "word_name": "suspension", 
+        "word_example": "Because Jeeps have a looser  suspension than most cars, their frames absorb every bump in the road.", 
+        "word_definition": "a mechanical system of springs or shock absorbers"
+      }, 
+      "throttle": {
+        "word_description": "", 
+        "word_name": "throttle", 
+        "word_example": "I hit the  throttle \u2014 and then realize I\u2019m out of fuel.", 
+        "word_definition": "a valve that regulates the supply of fuel to the engine"
+      }, 
+      "prototype": {
+        "word_description": "", 
+        "word_name": "prototype", 
+        "word_example": "He added, \u201cOur research vehicle  prototype we think is the most perceptive car in the world.\u201d", 
+        "word_definition": "a standard or typical example"
+      }, 
+      "modernize": {
+        "word_description": "", 
+        "word_name": "modernize", 
+        "word_example": "Uber is striving to  modernize an entrenched industry and bring it, however reluctantly, into the digital age.", 
+        "word_definition": "make repairs, renovations, revisions or adjustments to"
+      }, 
+      "carburetor": {
+        "word_description": "", 
+        "word_name": "carburetor", 
+        "word_example": "The fuel injection delivers an even flow of gas to the engine, something that  carburetors couldn\u2019t always do.", 
+        "word_definition": "the part of a combustion engine that mixes air with gasoline"
+      }
+    }, 
+    "list_detailed_description": "Henry Ford's Model-T was first produced in October 1908. It was the cheapest car ever built, and it helped usher in a new age of transportation. Whether you're an automotive enthusiast or a total novice, check out these words connected to cars.", 
+    "list_href": "/lists/1890738"
   }, 
   "Father's Day Words": {
     "list_brief_description": "There is so much more to dads than a bunch of words, but these terms at least cover the tip of the word-berg that describes both the clich\u00e9s and the changing c...", 
@@ -1507,115 +1635,97 @@
     "list_detailed_description": "In celebration of April Fool's Day, here are twenty vocabulary words that all have to do with various degrees of joking, trickery and deceit. Some involve a simple lie or two, while others indicate elaborate schemes. For more on the history of these words, read \n", 
     "list_href": "/lists/1022253"
   }, 
-  "Uncanny, Creepy, or Downright Scary: Words For Halloween": {
-    "list_brief_description": "\n", 
-    "list_num": "18 Words", 
+  "Memorial Day: Words of Respect and Remembrance": {
+    "list_brief_description": "Here\u2019s a look at some of the words you\u2019re most likely to hear and see around Memorial Day. There are many ways to honor the people who died in combat for th...", 
+    "list_num": "15 Words", 
     "list_detailed_info": {
-      "dreadful": {
-        "word_description": "", 
-        "word_name": "dreadful", 
-        "word_example": "", 
-        "word_definition": "exceptionally bad or displeasing"
+      "memorial": {
+        "word_description": "The name of this holiday is a word closely related to  memory. Memorials\u2014such as the famous Lincoln Memorial\u2014are there to help us remember people who died. There are memorials for all sorts of people, but memorials to veterans get a little extra respect, and for good reason. One of the most famous (and largest) memorials in the U.S. is the Vietnam Veterans Memorial, which is two acres long and contains the names of everyone who died in that war.", 
+        "word_name": "memorial", 
+        "word_example": "The three officers to be honored died in past years, and were recently added to the National Law Enforcement  Memorial.", 
+        "word_definition": "a structure erected to commemorate persons or events"
       }, 
-      "eldritch": {
-        "word_description": "", 
-        "word_name": "eldritch", 
-        "word_example": "", 
-        "word_definition": "suggesting the operation of supernatural influences"
+      "platoon": {
+        "word_description": "This French borrowing entered English in the 1500s: it refers to a group of soldiers, usually infantrymen. Often a platoon is made of various squadrons or squads\u2014a platoon is bigger than a squad, but smaller than a company. Soldiers who served in the same platoon share a special bond.", 
+        "word_name": "platoon", 
+        "word_example": "He led a rifle  platoon in Vietnam, eventually receiving numerous commendations, including the Purple Heart and the Bronze Star.", 
+        "word_definition": "a military unit that is a subdivision of a company"
       }, 
-      "monster": {
-        "word_description": "", 
-        "word_name": "monster", 
-        "word_example": "", 
-        "word_definition": "an imaginary creature usually having human and animal parts"
+      "service": {
+        "word_description": "This common word has a specific military meaning that's a lot more important than the service you get at your local pizzeria. When you enter the military, you've entered the  service, and you can call your time there  military service. Many people say to veterans, \"Thank you for your service.\" The idea is that joining the military isn't something you do for yourself, like becoming a lawyer or artist, but something done to serve your country.", 
+        "word_name": "service", 
+        "word_example": "No one now outside of the War Department knew the quality and duration of his  service.", 
+        "word_definition": "an act of help or assistance"
       }, 
-      "eerie": {
+      "deferment": {
         "word_description": "", 
-        "word_name": "eerie", 
-        "word_example": "", 
-        "word_definition": "suggestive of the supernatural; mysterious"
+        "word_name": "deferment", 
+        "word_example": "Trump himself received five draft  deferments during the Vietnam War, including one for bone spurs in his heel, the Times reported in August.", 
+        "word_definition": "act of putting off to a future time"
       }, 
-      "horrendous": {
-        "word_description": "", 
-        "word_name": "horrendous", 
-        "word_example": "", 
-        "word_definition": "causing fear or dread or terror"
+      "sacrifice": {
+        "word_description": "To sacrifice something is to give it up, and this is one of the most important words relating to Memorial Day, which honors people who sacrificed their lives. Dying in war is often called the  ultimate sacrifice. In a world where most people are all about me, me, and me, this type of sacrifice is hard to imagine.", 
+        "word_name": "sacrifice", 
+        "word_example": "The  sacrifice of soldiers killed during World Wars One and Two is well-documented.", 
+        "word_definition": "personnel that are lost by death or capture "
       }, 
-      "haunt": {
-        "word_description": "", 
-        "word_name": "haunt", 
-        "word_example": "", 
-        "word_definition": "follow stealthily or pursue like a ghost"
+      "enlist": {
+        "word_description": "A draft brings people into the military, whether they want to join or not. The U.S. has had a draft at different points in history, most recently during the Vietnam era when we were sending an enormous number of troops over there. Whether there's a draft or not, people can volunteer for the military: if you volunteer, you enlist. This word can also be used to describe recruiting other people. A new enlistee in the navy could then try to enlist others: in other words, encourage them to join too.", 
+        "word_name": "enlist", 
+        "word_example": "He thought about  enlisting in the Marine Corps before an encounter with a CIA recruiter.", 
+        "word_definition": "join the military"
       }, 
-      "pall": {
-        "word_description": "", 
-        "word_name": "pall", 
-        "word_example": "", 
-        "word_definition": "burial garment in which a corpse is wrapped"
+      "draft": {
+        "word_description": "There are many types of drafts, such as a gust of wind or rough piece of writing. But the military version is a lot more significant: a draft selects people for the military. If you're drafted, you have to enter the service, unless you don't pass the medical exams. Some people receive a  deferment, meaning they delay their service. Another way that some avoid the draft is by being a conscientious objector: someone philosophically opposed to violence in general or a specific war.", 
+        "word_name": "draft", 
+        "word_example": "366 blue plastic capsules contained the birthdays that would be chosen in the first Vietnam  draft lottery drawing on December 1, 1969.", 
+        "word_definition": "compulsory military service"
       }, 
-      "strange": {
+      "troop": {
         "word_description": "", 
-        "word_name": "strange", 
-        "word_example": "", 
-        "word_definition": "unusual or out of the ordinary"
+        "word_name": "troop", 
+        "word_example": "In January 2016, South Korean border  troops fired shots at a suspected drone.", 
+        "word_definition": "a group of soldiers"
       }, 
-      "dread": {
+      "combat": {
         "word_description": "", 
-        "word_name": "dread", 
-        "word_example": "", 
-        "word_definition": "fearful expectation or anticipation"
+        "word_name": "combat", 
+        "word_example": "But Pentagon officials this month maintained that the accident occurred outside the Vietnam  combat zone.", 
+        "word_definition": "the act of fighting; any contest or struggle"
       }, 
-      "uncanny": {
-        "word_description": "", 
-        "word_name": "uncanny", 
-        "word_example": "", 
-        "word_definition": "surpassing the ordinary or normal"
+      "military": {
+        "word_description": "The military consists of the army, the navy, the marines, and all other government forces that go to war. General, captain, private, and ensign are all military ranks. The military's goal is to defend the county, but also to attack other countries when ordered. A frequently debated political topic is military spending: how much money should be spent on tanks, planes, bombs, and other military equipment? Some argue for a stronger military, while others will say more money should go elsewhere.", 
+        "word_name": "military", 
+        "word_example": "The  military did not say whether there were any US casualties during the raid which was supported by the Yemeni government.", 
+        "word_definition": "the armed forces of a nation"
       }, 
-      "terror": {
+      "compulsory": {
         "word_description": "", 
-        "word_name": "terror", 
-        "word_example": "", 
-        "word_definition": "an overwhelming feeling of fear and anxiety"
+        "word_name": "compulsory", 
+        "word_example": "Russia maintains the  compulsory one-year draft, but has increasingly sought to enlist volunteers for longer terms of duty to boost the military capability.", 
+        "word_definition": "required by rule"
       }, 
-      "daunt": {
+      "strategy": {
         "word_description": "", 
-        "word_name": "daunt", 
-        "word_example": "", 
-        "word_definition": "cause to lose courage"
+        "word_name": "strategy", 
+        "word_example": "Lee, they wrote, mishandled overall  strategy of the war.", 
+        "word_definition": "an elaborate and systematic plan of action"
       }, 
-      "weird": {
-        "word_description": "", 
-        "word_name": "weird", 
-        "word_example": "", 
-        "word_definition": "strikingly odd or unusual"
+      "veteran": {
+        "word_description": "A veteran is anyone who has served in some branch of the military such as the army, navy, air force, or marines. No matter how long someone served, they're a veteran. This word is also used for other types of experience, especially substantial experience. A teacher who's been chalking boards for decades can be called a veteran teacher. A basketball player who's been in the NBA for a while\u2014say, 5-10 years\u2014is often called a veteran. And if you've done anything for some time, this word can apply.", 
+        "word_name": "veteran", 
+        "word_example": "Included in the executive\u2019s proposal would be an exemption for low-income seniors and disabled  veterans.", 
+        "word_definition": "a person who has served in the armed forces"
       }, 
-      "unearthly": {
+      "volunteer": {
         "word_description": "", 
-        "word_name": "unearthly", 
-        "word_example": "", 
-        "word_definition": "suggesting the operation of supernatural influences"
-      }, 
-      "specter": {
-        "word_description": "", 
-        "word_name": "specter", 
-        "word_example": "", 
-        "word_definition": "a ghostly appearing figure"
-      }, 
-      "bizarre": {
-        "word_description": "", 
-        "word_name": "bizarre", 
-        "word_example": "", 
-        "word_definition": "conspicuously or grossly unconventional or unusual"
-      }, 
-      "wraith": {
-        "word_description": "", 
-        "word_name": "wraith", 
-        "word_example": "", 
-        "word_definition": "a mental representation of some haunting experience"
+        "word_name": "volunteer", 
+        "word_example": "Bereza, who commanded one of the  volunteer battalions that fought in the east, called it necessary to preserve the state.", 
+        "word_definition": "a person who performs work done by choice"
       }
     }, 
-    "list_detailed_description": "", 
-    "list_href": "/lists/199824"
+    "list_detailed_description": "Here\u2019s a look at some of the words you\u2019re most likely to hear and see around Memorial Day. There are many ways to honor the people who died in combat for their country: one is to understand their vocabulary.\n", 
+    "list_href": "/lists/1717531"
   }, 
   "Trumps": {
     "list_brief_description": "What does it mean to trump or have a trump? Find out through this list of synonymous verbs and nouns.\r\n\r\n", 
@@ -2153,11 +2263,11 @@
         "word_example": "In the \u201cweight over the bar\u201d event,  competitors can use only one hand to toss a 56-pound weight over a horizontal bar.", 
         "word_definition": "the contestant you hope to defeat"
       }, 
-      "sponsor": {
-        "word_description": "", 
-        "word_name": "sponsor", 
-        "word_example": "Now, she's a professional athlete, albeit still oozing charisma, and  sponsors are betting big bucks on her to succeed again.", 
-        "word_definition": "someone who supports or champions something"
+      "victory": {
+        "word_description": "Sport: track and field", 
+        "word_name": "victory", 
+        "word_example": "The 18-time Olympic champion can punch his ticket to Rio on Wednesday with a  victory in the 200 fly final.", 
+        "word_definition": "a successful ending of a struggle or contest"
       }, 
       "spectator": {
         "word_description": "", 
@@ -2207,11 +2317,11 @@
         "word_example": "He was then dropped against Albania, coming on as a  substitute in the second half.", 
         "word_definition": "an athlete who plays when a starter on the team is replaced"
       }, 
-      "victory": {
-        "word_description": "Sport: track and field", 
-        "word_name": "victory", 
-        "word_example": "The 18-time Olympic champion can punch his ticket to Rio on Wednesday with a  victory in the 200 fly final.", 
-        "word_definition": "a successful ending of a struggle or contest"
+      "sponsor": {
+        "word_description": "", 
+        "word_name": "sponsor", 
+        "word_example": "Now, she's a professional athlete, albeit still oozing charisma, and  sponsors are betting big bucks on her to succeed again.", 
+        "word_definition": "someone who supports or champions something"
       }
     }, 
     "list_detailed_description": "The 2016 Olympic Games will begin this August in Rio de Janeiro, Brazil. Learn this list of 28 words so you can keep up with each sport from start to finish.", 
@@ -2750,5 +2860,91 @@
     }, 
     "list_href": "/lists/1866050", 
     "list_detailed_description": "Every time a new adaptation of Star Trek is released, there's plenty of buzz about what is one of the most enduring and iconic science fiction franchises. Rather than a glossary of Klingon terms, we've rounded up some of the more relevant English terms that get bandied about when there's a Star Trek media frenzy.\n"
+  }, 
+  "Albert Einstein": {
+    "list_brief_description": "Calling all budding geniuses! Don't let inertia stop you from learning these words related to physicist Albert Einstein and his work. Best known for developing ...", 
+    "list_num": "14 Words", 
+    "list_detailed_info": {
+      "theory": {
+        "word_definition": "a well-substantiated explanation of some aspect of the world", 
+        "word_description": "", 
+        "word_name": "theory", 
+        "word_example": "Albert Einstein\u2019s  theory of general relativity was still being met with skepticism."
+      }, 
+      "refugee": {
+        "word_definition": "an exile who flees for safety", 
+        "word_description": "", 
+        "word_name": "refugee", 
+        "word_example": "This letter shows that Einstein also lobbied on behalf of the larger group of  refugees, leveraging his public profile to ask the Roosevelts to work harder to overcome red tape and quotas that impeded emigration.  "
+      }, 
+      "relativity": {
+        "word_definition": "the theory that space and time are not absolute concepts", 
+        "word_description": "", 
+        "word_name": "relativity", 
+        "word_example": "In the early 20th century, Albert Einstein\u2019s new and controversial theory of  relativity predicted that gravity would cause light to bend."
+      }, 
+      "physicist": {
+        "word_definition": "a scientist trained in the science of matter and energy", 
+        "word_description": "", 
+        "word_name": "physicist", 
+        "word_example": "In the 1920s, while living in Berlin, the  physicist collaborated with Hungarian graduate assistant Leo Szil\u00e1rd to develop and patent an energy-efficient fridge."
+      }, 
+      "pacifism": {
+        "word_definition": "the belief that all disputes can be settled by arbitration", 
+        "word_description": "", 
+        "word_name": "pacifism", 
+        "word_example": "And then there are the fleeting references to Einstein\u2019s outspoken  pacifism, anti-fascism and support for civil rights \u2014 which put him under FBI scrutiny."
+      }, 
+      "inertia": {
+        "word_definition": "the tendency of something to stay in rest or motion", 
+        "word_description": "", 
+        "word_name": "inertia", 
+        "word_example": "Mass can be considered as a measure of  inertia, or resistance to motion."
+      }, 
+      "equation": {
+        "word_definition": "a mathematical statement that two expressions are the same", 
+        "word_description": "", 
+        "word_name": "equation", 
+        "word_example": "Albert Einstein is perhaps most famous for introducing the world to the  equation E=mc2."
+      }, 
+      "genius": {
+        "word_definition": "someone who has exceptional intellectual ability", 
+        "word_description": "", 
+        "word_name": "genius", 
+        "word_example": "Albert Einstein is widely regarded as a  genius, but how did he get that way?"
+      }, 
+      "mass": {
+        "word_definition": "the property of a body that causes it to have weight", 
+        "word_description": "", 
+        "word_name": "mass", 
+        "word_example": "In a book on special relativity, you might expect to meet Einstein's  mass\u2013energy equivalence, E = mc2, close to the beginning."
+      }, 
+      "theoretical": {
+        "word_definition": "concerned with hypotheses and not practical considerations", 
+        "word_description": "", 
+        "word_name": "theoretical", 
+        "word_example": "Finding a particle-based description of gravity has obsessed  theoretical physicists since Einstein."
+      }, 
+      "quantum": {
+        "word_definition": "the smallest discrete quantity of some physical property", 
+        "word_description": "", 
+        "word_name": "quantum", 
+        "word_example": "He says it confirms that gravity interacts with  quantum fields in the manner indicated by Einstein\u2019s theories of relativity."
+      }, 
+      "physics": {
+        "word_definition": "the science of matter and energy and their interactions", 
+        "word_description": "", 
+        "word_name": "physics", 
+        "word_example": "Einstein's work laid the foundation for modern  physics and cosmology, providing a perspective of space and time that is shaped by gravity."
+      }, 
+      "energy": {
+        "word_definition": "the capacity of a physical system to do work", 
+        "word_description": "", 
+        "word_name": "energy", 
+        "word_example": "His famous E = mc2 revealed a vast asymmetry in the cosmic relationship between matter and  energy."
+      }
+    }, 
+    "list_href": "/lists/1884476", 
+    "list_detailed_description": "Calling all budding geniuses! Don't let inertia stop you from learning these words related to physicist Albert Einstein and his work. Best known for developing the theory of relativity, Einstein is widely considered to be one of the greatest scientists of all time. If these words give you the momentum to learn more about physics, you can practice our introductory physics list \n"
   }
 }

@@ -1413,12 +1413,6 @@
         "word_example": "", 
         "word_definition": "establish or strengthen as with new evidence or facts"
       }, 
-      "refute": {
-        "word_description": "", 
-        "word_name": "refute", 
-        "word_example": "", 
-        "word_definition": "overthrow by argument, evidence, or proof"
-      }, 
       "autonomous": {
         "word_description": "", 
         "word_name": "autonomous", 
@@ -1545,17 +1539,23 @@
         "word_example": "", 
         "word_definition": "repeated too often; overfamiliar through overuse"
       }, 
+      "stint": {
+        "word_description": "", 
+        "word_name": "stint", 
+        "word_example": "", 
+        "word_definition": "supply sparingly and with restricted quantities"
+      }, 
       "enervate": {
         "word_description": "", 
         "word_name": "enervate", 
         "word_example": "", 
         "word_definition": "weaken mentally or morally"
       }, 
-      "stint": {
+      "stolid": {
         "word_description": "", 
-        "word_name": "stint", 
+        "word_name": "stolid", 
         "word_example": "", 
-        "word_definition": "supply sparingly and with restricted quantities"
+        "word_definition": "having or revealing little emotion or sensibility"
       }, 
       "hyperbole": {
         "word_description": "", 
@@ -1599,11 +1599,11 @@
         "word_example": "", 
         "word_definition": "a loud bombastic declamation expressed with strong emotion"
       }, 
-      "castigation": {
+      "refute": {
         "word_description": "", 
-        "word_name": "castigation", 
+        "word_name": "refute", 
         "word_example": "", 
-        "word_definition": "verbal punishment"
+        "word_definition": "overthrow by argument, evidence, or proof"
       }, 
       "ambivalence": {
         "word_description": "", 
@@ -1629,11 +1629,11 @@
         "word_example": "", 
         "word_definition": "stab or urge on as if with a pointed stick"
       }, 
-      "stolid": {
+      "castigation": {
         "word_description": "", 
-        "word_name": "stolid", 
+        "word_name": "castigation", 
         "word_example": "", 
-        "word_definition": "having or revealing little emotion or sensibility"
+        "word_definition": "verbal punishment"
       }, 
       "recondite": {
         "word_description": "", 

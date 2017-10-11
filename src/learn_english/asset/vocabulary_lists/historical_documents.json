@@ -3,11 +3,11 @@
     "list_brief_description": "In 1951, the National Association for the Advancement of Colored People (NAACP) recruited thirteen parents to file a class action suit on behalf of their childr...", 
     "list_num": "25 Words", 
     "list_detailed_info": {
-      "available": {
+      "development": {
         "word_description": "", 
-        "word_name": "available", 
-        "word_example": "Such an opportunity, where the state has undertaken to provide it, is a right which must be made  available to all on equal terms.", 
-        "word_definition": "obtainable or accessible and ready for use or service"
+        "word_name": "development", 
+        "word_example": "Segregation with the sanction of law, therefore, has a tendency to retard the educational and mental  development of negro children and to deprive them of some of the benefits they would receive in a racially integrated school system.", 
+        "word_definition": "the act of improving by expanding, enlarging, or refining"
       }, 
       "motivation": {
         "word_description": "", 
@@ -15,11 +15,11 @@
         "word_example": "A sense of inferiority affects the  motivation of a child to learn.", 
         "word_definition": "psychological feature arousing action toward a desired goal"
       }, 
-      "determine": {
+      "doctrine": {
         "word_description": "", 
-        "word_name": "determine", 
-        "word_example": "We must consider public education in the light of its full development and its present place in American life throughout the Nation. Only in this way can it be  determined if segregation in public schools deprives these plaintiffs of the equal protection of the laws.", 
-        "word_definition": "establish after a calculation, investigation, or experiment"
+        "word_name": "doctrine", 
+        "word_example": "In each of the cases other than the Delaware case, a three-judge federal district court denied relief to the plaintiffs on the so-called \"separate but equal\"  doctrine announced by this Court in Plessy v. Ferguson. Under that  doctrine, equality of treatment is accorded when the races are provided substantially equal facilities, even though these facilities be separate.", 
+        "word_definition": "a belief accepted as authoritative by some group or school"
       }, 
       "psychological": {
         "word_description": "", 
@@ -33,17 +33,11 @@
         "word_example": "In McLaurin v. Oklahoma State Regents, supra, the Court, in requiring that a Negro admitted to a white graduate school be treated like all other students, again resorted to  intangible considerations: \". . . his ability to study, to engage in discussions and exchange views with other students, and, in general, to learn his profession.\"", 
         "word_definition": "incapable of being perceived by the senses, especially touch"
       }, 
-      "doctrine": {
+      "determine": {
         "word_description": "", 
-        "word_name": "doctrine", 
-        "word_example": "In each of the cases other than the Delaware case, a three-judge federal district court denied relief to the plaintiffs on the so-called \"separate but equal\"  doctrine announced by this Court in Plessy v. Ferguson. Under that  doctrine, equality of treatment is accorded when the races are provided substantially equal facilities, even though these facilities be separate.", 
-        "word_definition": "a belief accepted as authoritative by some group or school"
-      }, 
-      "development": {
-        "word_description": "", 
-        "word_name": "development", 
-        "word_example": "Segregation with the sanction of law, therefore, has a tendency to retard the educational and mental  development of negro children and to deprive them of some of the benefits they would receive in a racially integrated school system.", 
-        "word_definition": "the act of improving by expanding, enlarging, or refining"
+        "word_name": "determine", 
+        "word_example": "We must consider public education in the light of its full development and its present place in American life throughout the Nation. Only in this way can it be  determined if segregation in public schools deprives these plaintiffs of the equal protection of the laws.", 
+        "word_definition": "establish after a calculation, investigation, or experiment"
       }, 
       "quality": {
         "word_description": "", 
@@ -68,6 +62,12 @@
         "word_name": "denial", 
         "word_example": "We have now announced that such segregation is a  denial of the equal protection of the laws.", 
         "word_definition": "the act of refusing to comply, as with a request"
+      }, 
+      "available": {
+        "word_description": "", 
+        "word_name": "available", 
+        "word_example": "Such an opportunity, where the state has undertaken to provide it, is a right which must be made  available to all on equal terms.", 
+        "word_definition": "obtainable or accessible and ready for use or service"
       }, 
       "detrimental": {
         "word_description": "", 
@@ -1221,6 +1221,12 @@
         "word_example": "No person shall be held to answer for a capital, or otherwise infamous crime, unless on a presentment or indictment of a Grand Jury, except in cases arising in the land or naval forces, or in the Militia, when in actual service in time of War or public danger; nor shall any person be subject for the same offence to be twice put in  jeopardy of life or limb; nor shall be compelled in any criminal case to be a witness against himself, nor be deprived of life, liberty, or property, without due proce", 
         "word_definition": "a source of danger"
       }, 
+      "deprived": {
+        "word_description": "", 
+        "word_name": "deprived", 
+        "word_example": "No person shall be held to answer for a capital, or otherwise infamous crime, unless on a presentment or indictment of a Grand Jury, except in cases arising in the land or naval forces, or in the Militia, when in actual service in time of War or public danger; nor shall any person be subject for the same offence to be twice put in jeopardy of life or limb; nor shall be compelled in any criminal case to be a witness against himself, nor be  deprived of life, liberty, or property, without due proce", 
+        "word_definition": "marked by a state of extreme poverty"
+      }, 
       "compel": {
         "word_description": "", 
         "word_name": "compel", 
@@ -1262,12 +1268,6 @@
         "word_name": "preserve", 
         "word_example": "In Suits at common law, where the value in controversy shall exceed twenty dollars, the right of trial by jury shall be  preserved, and no fact tried by a jury, shall be otherwise re-examined in any Court of the United States, than according to the rules of the common law.", 
         "word_definition": "keep in safety and protect from harm, loss, or destruction"
-      }, 
-      "confront": {
-        "word_description": "", 
-        "word_name": "confront", 
-        "word_example": "In all criminal prosecutions, the accused shall enjoy the right to a speedy and public trial, by an impartial jury of the State and district wherein the crime shall have been committed, which district shall have been previously ascertained by law, and to be informed of the nature and cause of the accusation; to be  confronted with the witnesses against him; to have compulsory process for obtaining witnesses in his favor, and to have the Assistance of Counsel for his defence.", 
-        "word_definition": "oppose, as in hostility or a competition"
       }, 
       "impartial": {
         "word_description": "", 
@@ -1347,11 +1347,11 @@
         "word_example": "Excessive bail shall not be required, nor excessive fines  imposed, nor cruel and unusual punishments inflicted.", 
         "word_definition": "set forth authoritatively as obligatory"
       }, 
-      "deprived": {
+      "confront": {
         "word_description": "", 
-        "word_name": "deprived", 
-        "word_example": "No person shall be held to answer for a capital, or otherwise infamous crime, unless on a presentment or indictment of a Grand Jury, except in cases arising in the land or naval forces, or in the Militia, when in actual service in time of War or public danger; nor shall any person be subject for the same offence to be twice put in jeopardy of life or limb; nor shall be compelled in any criminal case to be a witness against himself, nor be  deprived of life, liberty, or property, without due proce", 
-        "word_definition": "marked by a state of extreme poverty"
+        "word_name": "confront", 
+        "word_example": "In all criminal prosecutions, the accused shall enjoy the right to a speedy and public trial, by an impartial jury of the State and district wherein the crime shall have been committed, which district shall have been previously ascertained by law, and to be informed of the nature and cause of the accusation; to be  confronted with the witnesses against him; to have compulsory process for obtaining witnesses in his favor, and to have the Assistance of Counsel for his defence.", 
+        "word_definition": "oppose, as in hostility or a competition"
       }, 
       "controversy": {
         "word_description": "", 
@@ -1665,11 +1665,11 @@
         "word_example": "Resolved, that the objection of indelicacy and  impropriety, which is so often brought against woman when she addresses a public audience, comes with a very ill grace from those who encourage, by their attendance, her appearance on the stage, in the concert, or in feats of the circus.", 
         "word_definition": "a wrong or indecent act"
       }, 
-      "remuneration": {
+      "facility": {
         "word_description": "", 
-        "word_name": "remuneration", 
-        "word_example": "He has monopolized nearly all the profitable employments, and from those she is permitted to follow, she receives but a scanty  remuneration.", 
-        "word_definition": "paying for goods or services or to recompense for losses"
+        "word_name": "facility", 
+        "word_example": "He has denied her the  facilities for obtaining a thorough education, all colleges being closed against her.", 
+        "word_definition": "a building or place that provides a particular service"
       }, 
       "usurpation": {
         "word_description": "", 
@@ -1688,12 +1688,6 @@
         "word_name": "precept", 
         "word_example": "Resolved, That such laws as conflict, in any way, with the true and substantial happiness of woman, are contrary to the great  precept of nature and of no validity, for this is \"superior in obligation to any other.\"", 
         "word_definition": "a doctrine that is taught"
-      }, 
-      "facility": {
-        "word_description": "", 
-        "word_name": "facility", 
-        "word_example": "He has denied her the  facilities for obtaining a thorough education, all colleges being closed against her.", 
-        "word_definition": "a building or place that provides a particular service"
       }, 
       "circumscribe": {
         "word_description": "", 
@@ -1742,6 +1736,12 @@
         "word_name": "compel", 
         "word_example": "He has  compelled her to submit to law in the formation of which she had no voice.", 
         "word_definition": "force somebody to do something"
+      }, 
+      "remuneration": {
+        "word_description": "", 
+        "word_name": "remuneration", 
+        "word_example": "He has monopolized nearly all the profitable employments, and from those she is permitted to follow, she receives but a scanty  remuneration.", 
+        "word_definition": "paying for goods or services or to recompense for losses"
       }, 
       "impunity": {
         "word_description": "", 
@@ -1830,6 +1830,98 @@
     }, 
     "list_detailed_description": "The Declaration of Sentiments was presented in July 1848 at the first Women's Rights Convention in Seneca Falls. Composed by the abolitionist Elizabeth Cady Stanton, it deliberately echoes the Declaration of Independence by casting women in the role of the oppressed and men in the role of the tyrant. This led to much heated dispute, but it is now recognized as the first step towards the addition of the 19th Amendment to the US Constitution. \n", 
     "list_href": "/lists/405938"
+  }, 
+  "Christopher Columbus' Diary: The First Voyage": {
+    "list_brief_description": "Christopher Columbus embarked on the first of three voyages to the \"New World\" with three ships \u2014 the Ni\u00f1a, Pinta and Santa Mar\u00eda \u2014 on August 3, 1492. On ...", 
+    "list_num": "14 Words", 
+    "list_detailed_info": {
+      "vagary": {
+        "word_definition": "an unexpected and inexplicable change in something", 
+        "word_description": "", 
+        "word_name": "vagary", 
+        "word_example": "September 17.\u2014The ship's company discovered at dawn to-day the  vagaries of the compass. Situation alarming. They at once said we must go home."
+      }, 
+      "serpent": {
+        "word_definition": "limbless scaly elongate reptile; some are venomous", 
+        "word_description": "", 
+        "word_name": "serpent", 
+        "word_example": "September 9.\u2014Officers and ship's company in decidedly less good spirits since the foggy weather began. Sea  serpent incident also caused a good deal of disappointment, the men being convinced we had reached the coast of China, although I had repeatedly explained that we could not possibly make that land for some time yet."
+      }, 
+      "sanguine": {
+        "word_definition": "confidently optimistic and cheerful", 
+        "word_description": "", 
+        "word_name": "sanguine", 
+        "word_example": "October 11.\u2014He said at dinner yesterday that we might come home by the Nile, as we should certainly encounter its source in China. Want of taste. It is only too plain that both officers and ship's company are growing sceptical as to the practical results of our voyage. Wish the King and Queen of Spain had been a little less  sanguine. We shall indeed look very foolish if we come back having accomplished nothing."
+      }, 
+      "scoff": {
+        "word_definition": "laugh at with contempt and derision", 
+        "word_description": "", 
+        "word_name": "scoff", 
+        "word_example": "September 9.\u2014The doctor, who has always  "
+      }, 
+      "disgracefully": {
+        "word_definition": "in a dishonorable manner or to a dishonorable degree", 
+        "word_description": "", 
+        "word_name": "disgracefully", 
+        "word_example": "September 26.\u2014Steered W. No sign of anything. Wish we had never left Spain. The Alguazil  disgracefully drunk again last night, and rude in his cups."
+      }, 
+      "plumb": {
+        "word_definition": "exactly vertical", 
+        "word_description": "", 
+        "word_name": "plumb", 
+        "word_example": "September 17.\u2014Roderigo has constructed an instrument, hanging by a universal joint on a triangular stand, adjusted so as to hang in a plane perpendicular to the horizon, by means of a  plumb line, which is suspended on a pin above a divided circle."
+      }, 
+      "hoist": {
+        "word_definition": "raise", 
+        "word_description": "", 
+        "word_name": "hoist", 
+        "word_example": "October 12.\u2014 "
+      }, 
+      "respite": {
+        "word_definition": "a relief from harm or discomfort", 
+        "word_description": "", 
+        "word_name": "respite", 
+        "word_example": "October 10.\u2014Mutiny. Ship's company refuse to go on. Insist on returning to Spain. If I refuse they threaten to kill me; but I fear they will kill me if I consent. Otherwise the matter would be simple. Have asked for three days'  respite."
+      }, 
+      "mutiny": {
+        "word_definition": "open rebellion against constituted authority", 
+        "word_description": "", 
+        "word_name": "mutiny", 
+        "word_example": "September 12.\u2014Ship's company distressingly sulky. If matters continue like this it will end in a  mutiny."
+      }, 
+      "arbitrary": {
+        "word_definition": "based on or subject to individual discretion or preference", 
+        "word_description": "", 
+        "word_name": "arbitrary", 
+        "word_example": "September 12.\u2014This faking has been an easy task, since the log, being only a mean taken every hour and consequently liable to error from the variations in the force of the wind during the intervals, from which an  "
+      }, 
+      "starboard": {
+        "word_definition": "located on the right side of a ship or aircraft", 
+        "word_description": "", 
+        "word_name": "starboard", 
+        "word_example": "October 11.\u2014Saw a light on  starboard bow, but am not quite certain that it wasn't a star."
+      }, 
+      "allowance": {
+        "word_definition": "an amount granted, as during a given period", 
+        "word_description": "", 
+        "word_name": "allowance", 
+        "word_example": "August 10.\u2014The situation of the men from the very fatiguing work made most minute precautions necessary. Double  allowance of Manzanilla served round to-day."
+      }, 
+      "meridian": {
+        "word_definition": "an imaginary great circle on the surface of the earth", 
+        "word_description": "", 
+        "word_name": "meridian", 
+        "word_example": "August 5.\u2014Took the  meridian observation at midday; wind northerly with a great swell. Ship's company in good spirits: but the doctor says we have started on a wild goose chase."
+      }, 
+      "axis": {
+        "word_definition": "a straight line through a body or figure", 
+        "word_description": "", 
+        "word_name": "axis", 
+        "word_example": "September 13.\u2014Have made a startling and disagreeable discovery. There is something wrong or odd about the compass. The  "
+      }
+    }, 
+    "list_href": "/lists/1788781", 
+    "list_detailed_description": "Christopher Columbus embarked on the first of three voyages to the \"New World\" with three ships \u2014 the Ni\u00f1a, Pinta and Santa Mar\u00eda \u2014 on August 3, 1492. On October 12th, Columbus and his crew arrived on the island known today as San Salvador. He kept a logbook in which he faked some entries to soothe a mutinous crew, and a private diary in which he described the journey that shaped the subsequent history of the western hemisphere. Upon his return to Spain, Columbus presented these records to Queen Isabella I of Castile. She had the diary copied and retained the original, then gave the copy to Columbus before his second voyage. The whereabouts of the original Spanish text remain a mystery \u2014 its location has not been known since 1504. Here are 14 words selected from the historic text."
   }, 
   "Lee's General Order No. 9: A Farewell Address": {
     "list_brief_description": "Robert E. Lee's farewell to the Army of Northern Virginia was delivered at Appomattox Court House on April 10, 1865, one day after the surrender that effectivel...", 
@@ -2053,11 +2145,11 @@
         "word_example": "For the most convenient management of the general interests of the United States, delegates shall be annually  appointed in such manner as the legislatures of each State shall direct, to meet in Congress on the first Monday in November, in every year, with a powerreserved to each State to recall its delegates, or any of them, at any time within the year, and to send others in their stead for the remainder of the year.", 
         "word_definition": "assign a duty, responsibility or obligation to"
       }, 
-      "jurisdiction": {
+      "affix": {
         "word_description": "", 
-        "word_name": "jurisdiction", 
-        "word_example": "Each state retains its sovereignty, freedom, and independence, and every power,  jurisdiction, and right, which is not by this Confederation expressly delegated to the United States, in Congress assembled.", 
-        "word_definition": "the territory within which power can be exercised"
+        "word_name": "affix", 
+        "word_example": "To all to whom these Presents shall come, we the undersigned Delegates of the States  affixed to our Names send greeting.", 
+        "word_definition": "attach to"
       }, 
       "respectively": {
         "word_description": "", 
@@ -2137,11 +2229,11 @@
         "word_example": "...State, without the consent of the United States in Congress assembled, shall send any embassy to, or receive any embassy from, or enter into any conference, agreement, alliance or  treaty with any King, Prince or State; nor shall any person holding any office of profit or trust under the United States, or any of them, accept any present, emolument,...", 
         "word_definition": "a written agreement between two states or sovereigns"
       }, 
-      "affix": {
+      "jurisdiction": {
         "word_description": "", 
-        "word_name": "affix", 
-        "word_example": "To all to whom these Presents shall come, we the undersigned Delegates of the States  affixed to our Names send greeting.", 
-        "word_definition": "attach to"
+        "word_name": "jurisdiction", 
+        "word_example": "Each state retains its sovereignty, freedom, and independence, and every power,  jurisdiction, and right, which is not by this Confederation expressly delegated to the United States, in Congress assembled.", 
+        "word_definition": "the territory within which power can be exercised"
       }, 
       "requisition": {
         "word_description": "", 
@@ -3805,11 +3897,11 @@
         "word_example": "But when you have seen vicious mobs lynch your mothers and fathers at will and drown your sisters and brothers at whim; when you have seen hate-filled policemen curse, kick and even kill your black brothers and sisters; when you see the vast majority of your twenty million Negro brothers smothering in an airtight cage of poverty in the midst of an affluent society; when you suddenly find your tongue twisted and your speech stammering as you seek to explain to your six-year-old daughter why she c", 
         "word_definition": "troubled persistently, especially with petty annoyances"
       }, 
-      "affluent": {
-        "word_description": "synonyms include \"prosperous\" and 'wealthy\"", 
-        "word_name": "affluent", 
-        "word_example": "But when you have seen vicious mobs lynch your mothers and fathers at will and drown your sisters and brothers at whim; when you have seen hate-filled policemen curse, kick and even kill your black brothers and sisters; when you see the vast majority of your twenty million Negro brothers smothering in an airtight cage of poverty in the midst of an  affluent society; when you suddenly find your tongue twisted and your speech stammering as you seek to explain to your six-year-old daughter why she c", 
-        "word_definition": "having an abundant supply of money or possessions of value"
+      "manifest": {
+        "word_description": "If something is manifest it is obvious or clear.", 
+        "word_name": "manifest", 
+        "word_example": "The yearning for freedom eventually  manifests itself, and that is what has happened to the American Negro.", 
+        "word_definition": "clearly revealed to the mind or the senses or judgment"
       }, 
       "substantive": {
         "word_description": "", 
@@ -3853,11 +3945,11 @@
         "word_example": "If today's church does not recapture the sacrificial spirit of the early church, it vi lose its  authenticity, forfeit the loyalty of millions, and be dismissed as an irrelevant social club with no meaning for the twentieth century.", 
         "word_definition": "undisputed credibility"
       }, 
-      "manifest": {
-        "word_description": "If something is manifest it is obvious or clear.", 
-        "word_name": "manifest", 
-        "word_example": "The yearning for freedom eventually  manifests itself, and that is what has happened to the American Negro.", 
-        "word_definition": "clearly revealed to the mind or the senses or judgment"
+      "affluent": {
+        "word_description": "synonyms include \"prosperous\" and 'wealthy\"", 
+        "word_name": "affluent", 
+        "word_example": "But when you have seen vicious mobs lynch your mothers and fathers at will and drown your sisters and brothers at whim; when you have seen hate-filled policemen curse, kick and even kill your black brothers and sisters; when you see the vast majority of your twenty million Negro brothers smothering in an airtight cage of poverty in the midst of an  affluent society; when you suddenly find your tongue twisted and your speech stammering as you seek to explain to your six-year-old daughter why she c", 
+        "word_definition": "having an abundant supply of money or possessions of value"
       }, 
       "anarchy": {
         "word_description": "", 
@@ -4385,11 +4477,11 @@
     "list_brief_description": "On 24th September 1996, the nations of the world convened to sign a treaty that banned the testing and development of all nuclear weapons in a massive step towa...", 
     "list_num": "21 Words", 
     "list_detailed_info": {
-      "arrears": {
+      "enhancement": {
         "word_description": "", 
-        "word_name": "arrears", 
-        "word_example": "A member of the Organization which is in  arrears in the payment of its assessed contribution to the Organization shall have no vote in the Organization if the amount of its  arrears equals or exceeds the amount of the contribution due from it for the preceding two full years.", 
-        "word_definition": "the state of being behind in payments"
+        "word_name": "enhancement", 
+        "word_example": "Affirming the purpose of attracting the adherence of all States to this Treaty and its objective to contribute effectively to the prevention of the proliferation of nuclear weapons in all its aspects, to the process of nuclear disarmament and therefore to the  enhancement of international peace and security,", 
+        "word_definition": "an improvement that makes something more agreeable"
       }, 
       "contravene": {
         "word_description": "", 
@@ -4457,11 +4549,11 @@
         "word_example": "(d) If the requesting State Party  deems the clarification to be inadequate, it shall have the right to request the Executive Council to obtain further clarification from the requested State Party.", 
         "word_definition": "keep in mind or convey as a conviction or view"
       }, 
-      "ultimate": {
+      "arrears": {
         "word_description": "", 
-        "word_name": "ultimate", 
-        "word_example": "Stressing therefore the need for continued systematic and progressive efforts to reduce nuclear weapons globally, with the  ultimate goal of eliminating those weapons, and of general and complete disarmament under strict and effective international control,", 
-        "word_definition": "furthest or highest in degree or order; utmost or extreme"
+        "word_name": "arrears", 
+        "word_example": "A member of the Organization which is in  arrears in the payment of its assessed contribution to the Organization shall have no vote in the Organization if the amount of its  arrears equals or exceeds the amount of the contribution due from it for the preceding two full years.", 
+        "word_definition": "the state of being behind in payments"
       }, 
       "systematic": {
         "word_description": "", 
@@ -4505,11 +4597,11 @@
         "word_example": "Noting the  aspirations expressed by the Parties to the 1963 Treaty Banning Nuclear Weapon Tests in the Atmosphere, in Outer Space and Under Water to seek to achieve the discontinuance of all test explosions of nuclear weapons for all time,", 
         "word_definition": "a cherished desire"
       }, 
-      "enhancement": {
+      "ultimate": {
         "word_description": "", 
-        "word_name": "enhancement", 
-        "word_example": "Affirming the purpose of attracting the adherence of all States to this Treaty and its objective to contribute effectively to the prevention of the proliferation of nuclear weapons in all its aspects, to the process of nuclear disarmament and therefore to the  enhancement of international peace and security,", 
-        "word_definition": "an improvement that makes something more agreeable"
+        "word_name": "ultimate", 
+        "word_example": "Stressing therefore the need for continued systematic and progressive efforts to reduce nuclear weapons globally, with the  ultimate goal of eliminating those weapons, and of general and complete disarmament under strict and effective international control,", 
+        "word_definition": "furthest or highest in degree or order; utmost or extreme"
       }
     }, 
     "list_detailed_description": "On 24th September 1996, the nations of the world convened to sign a treaty that banned the testing and development of all nuclear weapons in a massive step towards harmony and peace. This list of vocabulary is taken straight from the Treaty itself.", 
@@ -4531,11 +4623,11 @@
         "word_example": ". . . That all lands adapted to agriculture, with or without irrigation so sold or released to the United States by any Indian tribe shall be held by the United States for the sale purpose of  securing homes to actual settlers. . .", 
         "word_definition": "get by special effort"
       }, 
-      "render": {
-        "word_description": "", 
-        "word_name": "render", 
-        "word_example": "That in cases where the use of water for irrigation is necessary to  render the lands within any Indian reservation available for agricultural purposes, the Secretary of the Interior be, and he is hereby, authorized to prescribe such rules and regulations as he may deem necessary to secure a just and equal distribution thereof among the Indians residing upon any such reservation. . .", 
-        "word_definition": "cause to become"
+      "estate": {
+        "word_description": "Real estate is land that you own including buildings upon that land.", 
+        "word_name": "estate", 
+        "word_example": ". . . the laws of the State of Kansas regulating the descent and partition of real  estate shall, so far as practicable, apply to all lands in the Indian Territory. . .", 
+        "word_definition": "everything you own; all of your assets and liabilities"
       }, 
       "consent": {
         "word_description": "", 
@@ -4591,12 +4683,6 @@
         "word_example": ". . . it shall be lawful for the Secretary of the Interior to negotiate with such Indian tribe for the purchase and release by said tribe, in conformity with the treaty or statute under which such reservation is held, of such portions of its reservation not allotted as such tribe shall, from time to time, consent to sell, on such terms and conditions as shall be considered just and  equitable between the United States and said tribe of Indians. . .", 
         "word_definition": "fair to all parties as dictated by reason and conscience"
       }, 
-      "tract": {
-        "word_description": "", 
-        "word_name": "tract", 
-        "word_example": ". . . That all lands adapted to agriculture, with or without irrigation so sold or released to the United States by any Indian tribe shall be held by the United States for the sale purpose of securing homes to actual settlers and shall be disposed of by the United States to actual and bona fide settlers only  tracts not exceeding one hundred and sixty acres to any one person. . .", 
-        "word_definition": "an extended area of land"
-      }, 
       "agriculture": {
         "word_description": "The practice of farming is agriculture.", 
         "word_name": "agriculture", 
@@ -4609,11 +4695,11 @@
         "word_example": "That nothing in this act contained shall be so construed to affect the right and power of Congress to grant the right of way through any lands granted to an Indian, or a tribe of Indians, for railroads or other highways, or telegraph lines, for the public use, or  condemn such lands to public uses, upon making just compensation.", 
         "word_definition": "appropriate (property) for public use"
       }, 
-      "estate": {
-        "word_description": "Real estate is land that you own including buildings upon that land.", 
-        "word_name": "estate", 
-        "word_example": ". . . the laws of the State of Kansas regulating the descent and partition of real  estate shall, so far as practicable, apply to all lands in the Indian Territory. . .", 
-        "word_definition": "everything you own; all of your assets and liabilities"
+      "render": {
+        "word_description": "", 
+        "word_name": "render", 
+        "word_example": "That in cases where the use of water for irrigation is necessary to  render the lands within any Indian reservation available for agricultural purposes, the Secretary of the Interior be, and he is hereby, authorized to prescribe such rules and regulations as he may deem necessary to secure a just and equal distribution thereof among the Indians residing upon any such reservation. . .", 
+        "word_definition": "cause to become"
       }, 
       "patent": {
         "word_description": "In this context a patent might also be a deed or another document stating ownership of land.", 
@@ -4687,6 +4773,12 @@
         "word_example": ". . . and shall be certified by such agents to the  Commissioner of Indian Affairs, in duplicate, one copy to be retained in the Indian Office and the other to be transmitted to the Secretary of the Interior for his action, and to be deposited in the General Land Office. . .", 
         "word_definition": "a government administrator"
       }, 
+      "excess": {
+        "word_description": "", 
+        "word_name": "excess", 
+        "word_example": "And provided further, That where the treaty or act of Congress setting apart such reservation provides the allotment of lands in severalty in quantities in  excess of those herein provided . . .", 
+        "word_definition": "more than is needed, desired, or required"
+      }, 
       "assignment": {
         "word_description": "", 
         "word_name": "assignment", 
@@ -4723,11 +4815,11 @@
         "word_example": "And the fees to which the officers of such local land-office would have been entitled had such lands been entered under the general laws for the  disposition of the public lands shall be paid to them. . .", 
         "word_definition": "the act or means of getting rid of something"
       }, 
-      "excess": {
+      "tract": {
         "word_description": "", 
-        "word_name": "excess", 
-        "word_example": "And provided further, That where the treaty or act of Congress setting apart such reservation provides the allotment of lands in severalty in quantities in  excess of those herein provided . . .", 
-        "word_definition": "more than is needed, desired, or required"
+        "word_name": "tract", 
+        "word_example": ". . . That all lands adapted to agriculture, with or without irrigation so sold or released to the United States by any Indian tribe shall be held by the United States for the sale purpose of securing homes to actual settlers and shall be disposed of by the United States to actual and bona fide settlers only  tracts not exceeding one hundred and sixty acres to any one person. . .", 
+        "word_definition": "an extended area of land"
       }, 
       "reservation": {
         "word_description": "A reservation was the name given to a piece of land set aside for a Native American tribe.", 
@@ -4845,11 +4937,11 @@
         "word_example": "Oh! thus be it ever, when freemen shall stand ", 
         "word_definition": "sadness resulting from being forsaken or abandoned"
       }, 
-      "hail": {
+      "havoc": {
         "word_description": "", 
-        "word_name": "hail", 
-        "word_example": "Oh, say can you see by the dawn's early light ", 
-        "word_definition": "greet enthusiastically or joyfully"
+        "word_name": "havoc", 
+        "word_example": "And where is that band who so vauntingly swore ", 
+        "word_definition": "violent and needless disturbance"
       }, 
       "gleaming": {
         "word_description": "", 
@@ -4857,11 +4949,11 @@
         "word_example": "Oh, say can you see by the dawn's early light ", 
         "word_definition": "bright with a steady but subdued shining"
       }, 
-      "havoc": {
+      "hail": {
         "word_description": "", 
-        "word_name": "havoc", 
-        "word_example": "And where is that band who so vauntingly swore ", 
-        "word_definition": "violent and needless disturbance"
+        "word_name": "hail", 
+        "word_example": "Oh, say can you see by the dawn's early light ", 
+        "word_definition": "greet enthusiastically or joyfully"
       }, 
       "hireling": {
         "word_description": "", 
