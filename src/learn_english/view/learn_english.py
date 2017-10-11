@@ -166,10 +166,11 @@ def quickly_review():
         month = lst[2]
         index = lst[3]
 
-        start_index = int(index) * each_page_words_num - 1
+        start_index = int(index) * each_page_words_num
         if start_index < 0:
             start_index = 0
         last_index = (int(index) + 1) * each_page_words_num - 1
+
         i = 0
 
         src_dict = dict()
