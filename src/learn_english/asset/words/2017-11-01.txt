@@ -1,0 +1,115 @@
+1. hotshot
+usage: They advertise in about a thousand magazines, always showing some hot-shot guy on a horse jumping over a fence. 
+book: CR!B87R8F2YT52MS502R344B3B7202V:2AF79F3
+date: 2017-10-27 11:59:31
+
+2. terrific
+usage: You couldn’t see the grandstand too hot, but you could hear them all yelling, deep and terrific on the Pencey side, because practically the whole school except me was there, and scrawny and faggy on the Saxon Hall side, because the visiting team hardly ever brought many people with them. 
+book: CR!B87R8F2YT52MS502R344B3B7202V:2AF79F3
+date: 2017-10-27 12:15:52
+
+3. splendid
+usage: And underneath the guy on the horse’s picture, it always says: “Since 1888 we have been molding boys into splendid, clear-thinking young men.” 
+book: CR!B87R8F2YT52MS502R344B3B7202V:2AF79F3
+date: 2017-10-27 12:00:21
+
+4. fluffy
+usage: The wheels of the car skimmed the sea of fluffy cloud, the sky a bright, endless blue under the blinding white sun. 
+book: Harry_Potter_and_the_Chamber_of:0388E1D
+date: 2017-10-22 12:57:01
+
+5. autobiography
+usage: Besides, I’m not going to tell you my whole goddam autobiography or anything. 
+book: CR!B87R8F2YT52MS502R344B3B7202V:2AF79F3
+date: 2017-10-27 08:24:40
+
+6. wiper
+usage: Harry pulled his sweater back on, trying to ignore the way the windshield wipers were now waving feebly, as though in protest. 
+book: Harry_Potter_and_the_Chamber_of:0388E1D
+date: 2017-10-22 16:25:44
+
+7. goldfish
+usage: He wrote this terrific book of short stories, The Secret Goldfish, in case you never heard of him. 
+book: CR!B87R8F2YT52MS502R344B3B7202V:2AF79F3
+date: 2017-10-27 11:55:08
+
+8. lawn
+usage: This, thought Harry, was surely the only way to travel — past swirls and turrets of snowy cloud, in a car full of hot, bright sunlight, with a fat pack of toffees in the glove compartment, and the prospect of seeing Fred’s and George’s jealous faces when they landed smoothly and spectacularly on the sweeping lawn in front of Hogwarts castle. 
+book: Harry_Potter_and_the_Chamber_of:0388E1D
+date: 2017-10-22 12:59:39
+
+9. madman
+usage: I’ll just tell you about this madman stuff that happened to me around last Christmas just before I got pretty run-down and had to come out here and take it easy. 
+book: CR!B87R8F2YT52MS502R344B3B7202V:2AF79F3
+date: 2017-10-27 08:25:18
+
+10. blossom
+usage: Stars were blossoming in the blackness. 
+book: Harry_Potter_and_the_Chamber_of:0388E1D
+date: 2017-10-22 16:25:19
+
+11. canopy
+usage: It was much darker beneath the canopy of clouds. 
+book: Harry_Potter_and_the_Chamber_of:0388E1D
+date: 2017-10-22 16:24:13
+
+12. way
+usage: I remember around three o’clock that afternoon I was standing way the hell up on top of Thomsen Hill, right next to this crazy cannon that was in the Revolutionary War and all. 
+book: CR!B87R8F2YT52MS502R344B3B7202V:2AF79F3
+date: 2017-10-27 12:05:56
+
+13. whine
+usage: Ron put his foot on the accelerator and drove them upward again, but as he did so, the engine began to whine. 
+book: Harry_Potter_and_the_Chamber_of:0388E1D
+date: 2017-10-22 16:24:47
+
+14. multicoloured
+usage: London was soon far behind them, replaced by neat green fields that gave way in turn to wide, purplish moors, a great city alive with cars like multicolored ants, villages with tiny toy churches. 
+book: Harry_Potter_and_the_Chamber_of:0388E1D
+date: 2017-10-22 13:00:31
+
+15. squint
+usage: “Dip back down again — quickly —” They dropped back beneath the clouds and twisted around in their seats, squinting at the ground. 
+book: Harry_Potter_and_the_Chamber_of:0388E1D
+date: 2017-10-22 12:55:37
+
+16. feeble
+usage: Harry pulled his sweater back on, trying to ignore the way the windshield wipers were now waving feebly, as though in protest. 
+book: Harry_Potter_and_the_Chamber_of:0388E1D
+date: 2017-10-22 16:25:53
+
+17. bang
+usage: They got a bang out of things, though—in a half-assed way, of course. 
+book: CR!B87R8F2YT52MS502R344B3B7202V:2AF79F3
+date: 2017-10-28 23:14:44
+
+18. windshield
+usage: Harry pulled his sweater back on, trying to ignore the way the windshield wipers were now waving feebly, as though in protest. 
+book: Harry_Potter_and_the_Chamber_of:0388E1D
+date: 2017-10-22 16:25:36
+
+19. biology
+usage: This teacher that taught biology, Mr. 
+book: CR!B87R8F2YT52MS502R344B3B7202V:2AF79F3
+date: 2017-10-27 17:44:53
+
+20. polo
+usage: Like as if all you ever did at Pencey was play polo all the time. 
+book: CR!B87R8F2YT52MS502R344B3B7202V:2AF79F3
+date: 2017-10-27 08:34:06
+
+21. slob
+usage: She probably knew what a phony slob he was. 
+book: CR!B87R8F2YT52MS502R344B3B7202V:2AF79F3
+date: 2017-10-27 12:23:08
+
+22. dorm
+usage: Zambesi, stuck his head out of this window in the academic building and told us to go back to the dorm and get ready for dinner. 
+book: CR!B87R8F2YT52MS502R344B3B7202V:2AF79F3
+date: 2017-10-27 17:45:36
+
+23. manure
+usage: What I liked about her, she didn’t give you a lot of horse manure about what a great guy her father was. 
+book: CR!B87R8F2YT52MS502R344B3B7202V:2AF79F3
+date: 2017-10-27 12:22:51
+

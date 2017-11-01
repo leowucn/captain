@@ -11,7 +11,7 @@ sqlite_file = '/Volumes/Kindle/system/vocabulary/vocab.db'  # on mac os
 words_table_name = 'WORDS'
 lookups_table_name = 'LOOKUPS'
 
-words_dir = os.path.join(os.getcwd(), 'core/asset/words')
+words_dir = os.path.join(os.getcwd(), 'src/learn_english/asset/words')
 
 
 def backup_sqlite_file():
