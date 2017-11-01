@@ -42,6 +42,18 @@
             text-align: center;
         }
 
+        .i-am-centered { margin: auto; max-width: 1000px;}
+
+        body {
+            background-image: url("/learn_english/static/beach-wave-ocean.jpg");
+            background-attachment: fixed;
+            background-repeat: repeat-both;
+            background-repeat: repeat space;
+            background-repeat: repeat repeat;
+            background-repeat: round space;
+            background-size:100% 100%; 
+            background-size:cover;
+        }
     </style>
 </head>
    <body>
@@ -110,11 +122,14 @@
 
     {% for word, meaning in result %}
     <br>
+
+    <div class="i-am-centered">
     <div class="row">
     <div class="column">
         <div class="buttonHolder">
             <form class="ui form" action = "http://127.0.0.1:9527/learn_english/delete" method = "post">
                 <div class="ui action">
+                    <br>
                     <p class="ui header"><span class="ui huge label">{{ word }}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="ui compact red mini button" type="submit" name= {{ come_from }}*{{ y }}*{{ w }}*{{ page_index }}*{{ word }} value="delete">
                     </p>
                 </div>
@@ -122,7 +137,7 @@
         </div>
       <div class="ui two column grid">
           <div class="column">
-              <div id='container' style='width:1290px;'>
+              <div id='container' style='width:1000px;'>
           <table class="ui table">
             <thead>
               <tr>
@@ -198,6 +213,7 @@
         </div>
           </div>
       </div>
+    </div>
     </div>
   </div>
     {% endfor %}
