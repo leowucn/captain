@@ -40,13 +40,15 @@ class TackleWords:
 
     def query(self, wrapped_word, usage=None, date=None, book=None):
         if wrapped_word in self.dict_data:
-            self.dict_data[wrapped_word]['usage'] = self.add_usage_to_collection(self.dict_data[wrapped_word]['usage'], usage)
+            self.dict_data[wrapped_word]['usage'] = self.add_usage_to_collection(
+                self.dict_data[wrapped_word]['usage'], usage)
         else:
             result = get_word_meaning(wrapped_word)
             if result is None:
                 return
             if usage is not None:
-                result[wrapped_word]['usage'] = self.add_usage_to_collection(result[wrapped_word]['usage'], usage)
+                result[wrapped_word]['usage'] = self.add_usage_to_collection(
+                    result[wrapped_word]['usage'], usage)
             if date is not None:
                 result[wrapped_word]['date'] = date.strip()
             if book is not None:
@@ -60,23 +62,27 @@ class TackleWords:
 
     def store_clipboard(self, word, usage):
         if word in self.clipboard_data:
-            self.clipboard_data[word]['usage'] = self.add_usage_to_collection(self.clipboard_data[word]['usage'], usage)
+            self.clipboard_data[word]['usage'] = self.add_usage_to_collection(
+                self.clipboard_data[word]['usage'], usage)
         else:
             word_info = dict()
             word_info['usage'] = ''
-            word_info['usage'] = self.add_usage_to_collection(word_info['usage'], usage)
+            word_info['usage'] = self.add_usage_to_collection(
+                word_info['usage'], usage)
             word_info['date'] = str(datetime.now())[:-7]
             self.clipboard_data[word] = word_info
         utility.write_json_file(clipboard_file, self.clipboard_data)
 
     def import_words(self):
-        files = [f for f in os.listdir(words_dir) if os.path.isfile(os.path.join(words_dir, f))]
+        files = [f for f in os.listdir(words_dir) if os.path.isfile(
+            os.path.join(words_dir, f))]
         for file_name in files:
             if os.path.splitext(file_name)[1] != '.txt':
                 continue
             file_path = os.path.join(words_dir, file_name)
             with open(file_path) as f:
-                lines = (line.rstrip() for line in f)  # All lines including the blank ones
+                # All lines including the blank ones
+                lines = (line.rstrip() for line in f)
                 lines = list(line for line in lines if line)  # Non-blank lines
                 for index, line in enumerate(lines):
                     if line[0].isdigit():
@@ -84,13 +90,16 @@ class TackleWords:
                         wrapped_word = word + '-0'
                         if wrapped_word in self.dict_data:
                             continue
-                        usage = lines[index + 1][lines[index + 1].find(':') + 1:]
-                        book = lines[index + 2][lines[index + 2].find(':') + 1:]
+                        usage = lines[index +
+                                      1][lines[index + 1].find(':') + 1:]
+                        book = lines[index +
+                                     2][lines[index + 2].find(':') + 1:]
                         self.query(wrapped_word, usage, file_name[:-4], book)
         for word, word_info in self.clipboard_data.iteritems():
             wrapped_word = word + '-1'
             self.query(wrapped_word, word_info['usage'], word_info['date'])
-        utility.show_notification('Captain Import Info', 'Importing words completely finished!')
+        utility.show_notification(
+            'Captain Import Info', 'Importing words completely finished!')
 
     def delete(self, wrapped_word):
         self.clipboard_data = utility.load_json_file(clipboard_file)
@@ -106,17 +115,23 @@ class TackleWords:
                     if '. ' + word_ele[0] in open(file_path).read():
                         valid_lines_lst = []
                         with open(file_path) as f:
-                            lines = (line.rstrip() for line in f)  # All lines including the blank ones
-                            lines = list(line for line in lines if line)  # Non-blank lines
+                            # All lines including the blank ones
+                            lines = (line.rstrip() for line in f)
+                            # Non-blank lines
+                            lines = list(line for line in lines if line)
                             for index, line in enumerate(lines):
                                 if line[0].isdigit():
-                                    wrapped_word = line[line.find('.') + 2:].strip()
+                                    wrapped_word = line[line.find(
+                                        '.') + 2:].strip()
                                     if wrapped_word == word_ele[0]:
                                         continue
                                     valid_lines_lst.append(line + '\n')
-                                    valid_lines_lst.append(lines[index + 1] + '\n')
-                                    valid_lines_lst.append(lines[index + 2] + '\n')
-                                    valid_lines_lst.append(lines[index + 3] + '\n')
+                                    valid_lines_lst.append(
+                                        lines[index + 1] + '\n')
+                                    valid_lines_lst.append(
+                                        lines[index + 2] + '\n')
+                                    valid_lines_lst.append(
+                                        lines[index + 3] + '\n')
                                     valid_lines_lst.append('\n')
                         with open(file_path, "w") as f:
                             for line in valid_lines_lst:
@@ -173,4 +188,3 @@ def p(content):
 if __name__ == "__main__":
     tackle_words = TackleWords()
     tackle_words.import_words()
-
