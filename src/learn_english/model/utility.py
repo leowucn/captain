@@ -28,11 +28,6 @@ def show_notification(title, msg):
 
 
 def load_json_file(file_name):
-    # with open(file_path, mode='r') as fp:
-        # try:
-        #     return json.load(fp)
-        # except:
-        #     return dict()
     try:
         f = open(file_name, 'r')
         res = json.load(f)
@@ -43,12 +38,6 @@ def load_json_file(file_name):
 
 
 def write_json_file(file_name, data):
-    if data is None:
-        return
-    if data == '' or data == ' ':
-        g()
-    # with open(file_name, mode='w') as f:
-    #     f.write(json.dumps(data, indent=2))
     f = open(file_name, 'w')
     f.write(json.dumps(data, indent=2))
     f.close()

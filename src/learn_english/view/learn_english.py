@@ -86,7 +86,9 @@ def show_words_list(come_from, year, month, index):
 def show_specified_page_words():
     if request.method == 'POST':
         lst = request.form.keys()[0].split('*')
+        pa(request.form.keys())
         come_from = lst[0]
+        # p(come_from)
         year = lst[1]
         month = lst[2]
         index = lst[3]
@@ -268,7 +270,6 @@ def p(content):
     utility.append_log(content)
 
 
-def p_lst_key(lst, flag):
+def pa(content):
     utility.append_log('---------------------')
-    utility.append_log(str(flag))
-    utility.append_log(' '.join(str(e) for e in lst))
+    utility.append_log(' '.join(content))

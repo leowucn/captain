@@ -10,8 +10,6 @@
     <!-- Site Properties -->
     <title>Captain</title>
     <link rel="stylesheet" type="text/css" href="/learn_english/static/semantic/semantic.css">
-
-    <!-- <script src="/learn_english/static/semantic/examples/assets/library/jquery.min.js"></script> -->
     <script src="/learn_english/static/semantic/semantic.js"></script>
 
     <script>
@@ -65,11 +63,12 @@
 
 <body>
     {% if come_from == '0' %}
-    <span class="ui label">Word Builder</span>
-    {% endif %} {% if come_from == '1' %}
-    <span class="ui label">Clipboard</span>
-    {% endif %} &emsp;&emsp;&emsp;&emsp; Page Index:
-    <span class="ui label">{{ page_index }}</span>
+    <span class="ui label">Words From Kindle</span>
+    {% endif %} 
+    {% if come_from == '1' %}
+    <span class="ui label">Words From Clipboard</span>
+    {% endif %} 
+    &emsp;&emsp;&emsp;&emsp; Current Page Index: <span class="ui label">{{ page_index }}</span>
 
     <h2>Motto for {{motto['type'].title()}}</h2>
     <h3>{{motto['motto']}}&emsp;—{{motto['author']}}</h3>
@@ -98,12 +97,12 @@
     <div class="one_line">
         <form class="ui form" action="http://127.0.0.1:9527/learn_english/quickly_review" method="post">
             <div class="ui action">
-                <input class="ui compact purple tiny button" type="submit" name={ { come_from }}*{{ y }}*{{ w }}*{{ page_index }} value="quickly review">
+                <input class="ui compact purple tiny button" type="submit" name={{ come_from }}*{{ y }}*{{ w }}*{{ page_index }} value="quickly review">
             </div>
         </form>
         <form class="ui form" action="http://127.0.0.1:9527/learn_english/stop_quickly_review" method="post">
             <div class="ui action">
-                <input class="ui compact purple tiny button" type="submit" name={ { come_from }}*{{ y }}*{{ w }}*{{ page_index }} value="stop">
+                <input class="ui compact purple tiny button" type="submit" name={{ come_from }}*{{ y }}*{{ w }}*{{ page_index }} value="stop">
             </div>
         </form>
     </div>
@@ -114,15 +113,11 @@
         {% for i in range(button_num) %}
         <form class="ui form" action="http://127.0.0.1:9527/learn_english/specified_page" method="post">
             <div class="ui action">
-                <input class="ui compact green tiny button" type="submit" name={ { come_from }}*{{ y }}*{{ w }}*{{ i }} value={{ y }}*{{
-                    w }}*{{ i }}>
+                <input class="ui compact green tiny button" type="submit" name={{come_from}}*{{y}}*{{w}}*{{i}} value={{y}}*{{w}}*{{i}}>
             </div>
         </form>
         {% endfor %}
     </div>
-    <br>
-    <br>
-    <br>
     <br>
     <br>
     <br>
@@ -139,9 +134,7 @@
                         <div class="ui action">
                             <br>
                             <p class="ui header">
-                                <span class="ui huge label">{{ word }}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <input class="ui compact red mini button" type="submit" name={ { come_from }}*{{ y }}*{{ w }}*{{ page_index }}*{{ word }}
-                                    value="delete">
+                                <span class="ui huge label">{{ word }}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input class="ui compact red mini button" type="submit" name={{ come_from }}*{{ y }}*{{ w }}*{{ page_index }}*{{ word }} value="delete">
                             </p>
                         </div>
                     </form>
@@ -236,22 +229,18 @@
         {% for i in range(button_num) %}
         <form class="ui form" action="http://127.0.0.1:9527/learn_english/specified_page" method="post">
             <div class="ui action">
-                <input class="ui compact green tiny button" type="submit" name={ { come_from }}*{{ y }}*{{ w }}*{{ i }} value={{ y }}*{{
-                    w }}*{{ i }}>
+                <input class="ui compact green tiny button" type="submit" name={{ come_from }}*{{ y }}*{{ w }}*{{ i }} value={{ y }}*{{ w }}*{{ i }}>
             </div>
         </form>
         {% endfor %}
         <br>
         <br>
         <br>
-        <br>
-        <br>
     </div>
 
     <div class="ui divider"></div>
-    <div class="ui item">
-        Page Index:
-        <span class="ui label">{{ page_index }}</span>
+    <div class="ui item"></div>
+        Current Page Index:<span class="ui label">{{ page_index }}</span>
     </div>
 
     <div class="ui divider"></div>
@@ -268,10 +257,12 @@
         </form>
     </div>
     <br>
-    <br> {% if come_from == '0' %}
-    <span class="ui label">Word Builder</span>
-    {% endif %} {% if come_from == '1' %}
-    <span class="ui label">Clipboard</span>
+    <br> 
+    {% if come_from == '0' %}
+    <span class="ui label">Words From Kindle</span>
+    {% endif %} 
+    {% if come_from == '1' %}
+    <span class="ui label">Words From Clipboard</span>
     {% endif %}
 
 </body>

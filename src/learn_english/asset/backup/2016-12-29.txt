@@ -18,11 +18,6 @@ usage: A breeze ruffled the neat hedges of Privet Drive, which lay silent and ti
 book: Harry_Potter_and_the_Sorcerer
 date: 2016-12-29
 
-5. thick
-usage: 1) He had a large pink face, not much neck, small, watery blue eyes, and thick blond hair that lay smoothly on his thick, fat head. 2) Dudley and Piers wanted to see huge, poisonous cobras and thick, man-crushing pythons
-book: Harry_Potter_and_the_Sorcerer
-date: 2016-12-29
-
 6. knuckle
 usage: Uncle Vernon rapped the glass smartly with his knuckles, but the snake just snoozed on
 book: Harry_Potter_and_the_Sorcerer

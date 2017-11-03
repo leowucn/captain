@@ -17,7 +17,7 @@ builder_file = os.path.join(parent_dir, 'asset/builder.json')
 
 
 '''
-all types might reside in result queried from youdao.com.
+all types might appear in result queried from youdao.com.
 'basic'           ------>基本释义
 'usage'           ------>出现的语句
 'phrase'          ------>词组短语
@@ -47,31 +47,46 @@ class TackleWords:
             if result is None:
                 return
             if usage is not None:
-                result[wrapped_word]['usage'] = self.add_usage_to_collection(
-                    result[wrapped_word]['usage'], usage)
+                result[wrapped_word]['usage'] = self.add_usage_to_collection(result[wrapped_word]['usage'], usage)
             if date is not None:
                 result[wrapped_word]['date'] = date.strip()
             if book is not None:
                 result[wrapped_word]['book'] = book.strip()
             self.dict_data[wrapped_word] = result[wrapped_word]
-        utility.write_json_file(dict_file, self.dict_data)
+        self.store(dict_file, wrapped_word, self.dict_data[wrapped_word])
 
         if wrapped_word.split('-')[1] == '1':
             self.store_clipboard(wrapped_word[:-2], usage)
         return
 
+    def store(self, file_name, key, value):
+        if key is None or len(key) == 0 or value is None:
+            self.dict_data = utility.load_json_file(dict_file)
+            self.clipboard_data = utility.load_json_file(clipboard_file)
+            return
+        all_data = utility.load_json_file(file_name)
+        all_data[key] = value
+        utility.write_json_file(file_name, all_data)
+    
+    def remove(self, file_name, key):
+        if key is None or len(key) == 0:
+            self.dict_data = utility.load_json_file(dict_file)
+            self.clipboard_data = utility.load_json_file(clipboard_file)
+            return
+        all_data = utility.load_json_file(file_name)
+        del all_data[key]
+        utility.write_json_file(file_name, all_data)
+
     def store_clipboard(self, word, usage):
         if word in self.clipboard_data:
-            self.clipboard_data[word]['usage'] = self.add_usage_to_collection(
-                self.clipboard_data[word]['usage'], usage)
+            self.clipboard_data[word]['usage'] = self.add_usage_to_collection(self.clipboard_data[word]['usage'], usage)
         else:
             word_info = dict()
             word_info['usage'] = ''
-            word_info['usage'] = self.add_usage_to_collection(
-                word_info['usage'], usage)
+            word_info['usage'] = self.add_usage_to_collection(word_info['usage'], usage)
             word_info['date'] = str(datetime.now())[:-7]
             self.clipboard_data[word] = word_info
-        utility.write_json_file(clipboard_file, self.clipboard_data)
+        self.store(clipboard_file, word, self.clipboard_data[word])
 
     def import_words(self):
         files = [f for f in os.listdir(words_dir) if os.path.isfile(
@@ -106,9 +121,10 @@ class TackleWords:
         word_ele = wrapped_word.split('-')
         # delete from dict
         del self.dict_data[wrapped_word]
-        utility.write_json_file(dict_file, self.dict_data)
+        self.remove(dict_file, wrapped_word)
+
+        # delete from word builder
         if word_ele[1] == '0':
-            # delete from word builder
             for file_name in os.listdir(words_dir):
                 if file_name.endswith(".txt"):
                     file_path = os.path.join(words_dir, file_name)
@@ -140,8 +156,7 @@ class TackleWords:
         else:
             # delete from clipboard
             if word_ele[0] in self.clipboard_data:
-                del self.clipboard_data[word_ele[0]]
-                utility.write_json_file(clipboard_file, self.clipboard_data)
+                self.remove(clipboard_file, word_ele[0])
         return
 
     # lst(key: year->month->word  value: word_info)
