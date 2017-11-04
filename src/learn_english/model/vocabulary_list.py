@@ -192,7 +192,7 @@ def update_list(category_raw_content, category_name):
         category_lists_dict[list_name]['list_brief_description'] = list_brief_description
         category_lists_dict[list_name]['list_num'] = list_words_num
         category_lists_dict[list_name]['list_href'] = list_href
-        category_lists_dict[list_name]['list_detailed_info'] = dict()
+        category_lists_dict[list_name]['list_detailed_info'] = []
 
         # ------------------------------------------
         # detailed_description of list
@@ -200,12 +200,15 @@ def update_list(category_raw_content, category_name):
         raw_words_list_description = utility.get_raw_content(
             entire_list_url, 'description')
         if raw_words_list_description is not None:
-            words_list_description = utility.extract_info_from_raw(
-                raw_words_list_description, 'description')
+
+            if category_name == 'top_rated':           
+                p(raw_words_list_description)
+
+            words_list_description = utility.extract_info_from_raw(raw_words_list_description, 'description')
             category_lists_dict[list_name]['list_detailed_description'] = words_list_description
         raw_words_list_content_list = utility.get_raw_content(
             entire_list_url, 'centeredContent').split('entry learnable')
-        for raw_words_list_content in raw_words_list_content_list:
+        for index, raw_words_list_content in enumerate(raw_words_list_content_list):
             raw_words_list_content = raw_words_list_content.replace('<em>', '')
             raw_words_list_content = raw_words_list_content.replace(
                 '</em>', '')
@@ -229,13 +232,14 @@ def update_list(category_raw_content, category_name):
                 raw_words_list_content, '"description"')
 
             list_detailed_info_dict = dict()
+            list_detailed_info_dict[name] = name
+            list_detailed_info_dict[name] = dict()
+            list_detailed_info_dict[name]['index'] = index
+            list_detailed_info_dict[name]['word_definition'] = definition
+            list_detailed_info_dict[name]['word_example'] = example
+            list_detailed_info_dict[name]['word_description'] = description
 
-            list_detailed_info_dict['word_name'] = name
-            list_detailed_info_dict['word_definition'] = definition
-            list_detailed_info_dict['word_example'] = example
-            list_detailed_info_dict['word_description'] = description
-
-            category_lists_dict[list_name]['list_detailed_info'][name] = list_detailed_info_dict
+            category_lists_dict[list_name]['list_detailed_info'].append(list_detailed_info_dict)
 
     write_lists_by_category_and_data(category_name, category_lists_dict)
 
@@ -257,11 +261,9 @@ def extract_detailed_address(raw_content):
 # -------------------------------------------------
 
 
-def p(c):
-    print('-----------------------------')
-    print(c)
-    print('-----------------------------')
-
+def p(content):
+    utility.append_log('---------------------')
+    utility.append_log(content)
 
 if __name__ == "__main__":
     update_all_lists()

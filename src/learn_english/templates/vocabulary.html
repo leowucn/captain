@@ -47,56 +47,90 @@
             padding-left: 0.5em;
             /*  float: right;*/
         }
+        .i-am-centered {
+            margin: auto;
+            max-width: 1000px;
+        }
+        body {
+            background-image: url("/learn_english/static/images/beach-wave-ocean.jpg");
+            background-attachment: fixed;
+            background-repeat: repeat-both;
+            background-repeat: repeat space;
+            background-repeat: repeat repeat;
+            background-repeat: round space;
+            background-size: 100% 100%;
+            background-size: cover;
+        }
 
     </style>
 </head>
    <body style='margin-top:0.5cm;margin-left:2cm;margin-right:2cm;'>
 
-   <p>VOCABULARY LISTS : {{ category_name.replace("'", "") }}</p>
-   <div style=margin-right:8cm;'>
-       <p style="font-family:Open Sans; font-size: 45px;">{{ list_name }} </p>
-       <p style="font-size: 16px;"> {{ list_detailed_description }} </p>
+
+   <div class="i-am-centered">
+        <p>VOCABULARY LISTS : {{ category_name.replace("'", "") }}</p>
+        <div style=margin-right:8cm;>
+            <p style="font-family:Open Sans; font-size: 45px;">{{ list_name }} </p>
+            <p style="font-size: 16px;"> {{ list_detailed_description }} </p>
+        </div>
+        <span class="label label-info" >{{ list_num }}</span>
+        <div class="ui divider"></div>
    </div>
 
-    <span class="label label-info" >{{ list_num }}</span>
-   <div class="ui divider"></div>
 
-   {% for list_name, words_info in list_detailed_info.iteritems() %}
-      <p style="font-family:Avenir; font-size: 50px;">{{ list_name }}</p>
-
-      <span class="label label-info">definition</span>
-        <div style="font-size: 16px;">
-            {{ words_info['word_definition'] }}
-        </div>
-
-      <div class="row">
-          <div class="col-md-12 small-article-container"><!-- Small articles container -->
-           {% if 'word_example' in words_info %}
-            <div class="wordlist shortlistikg " style="font-size: 16px;">
-                <div class="col-md-5 small-article"><!-- Start small article -->
-                    <span class="label label-info">example</span>
-                    <div class="rescription">
-                        {{ words_info['word_example'] }}
+   {% for word_info in list_detailed_info %}
+        <br>
+        {% for word, info in word_info.iteritems() %}
+            <br>
+            <div class="i-am-centered">
+                <div class="row">
+                    <div class="column">
+                        <div class="ui two column grid">
+                            <div class="column">
+                                <div id='container' style='width:1000px;'>
+                                    <table class="ui table">
+                                        <thead>
+                                            <tr>
+                                                <th>Type</th>
+                                                <th>Verbose Info</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <p align="center"> <span style="font-family:Avenir; font-size: 20px;">{{ info['index'] }}. </span> <span style="font-family:Avenir; font-size: 50px;">{{ word }}</span></p>
+                                            {% if info['word_definition']|length>0 %}
+                                            <tr>
+                                                <td>{{ 'definition' }}</td>
+                                                <td>
+                                                    <p style="font-size: 16px;">{{ info['word_definition'] }}</p>
+                                                </td>
+                                            </tr>
+                                            {% endif %} 
+                                            {% if info['word_description']|length>0 %}
+                                            <tr>
+                                                <td>{{ 'description' }}</td>
+                                                <td>
+                                                    <p style="font-size: 16px;">{{ info['word_description'] }}</p>
+                                                </td>
+                                            </tr>
+                                            {% endif %} 
+                                            {% if info['word_example']|length>0 %}
+                                            <tr>
+                                                <td>{{ 'example' }}</td>
+                                                <td>
+                                                    <p style="font-size: 16px;">{{ info['word_example'] }}</p>
+                                                </td>
+                                            </tr>
+                                            {% endif %} 
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-           {% endif %}
-
-              <span class="label label-info">description</span>
-          {% if 'word_description' in words_info %}
-            <div class="wordlist shortlisting" style="font-size: 16px;">
-                <div class="col-md-5 small-article"><!-- Start small article -->
-                    <div class="rescription">
-                        {{ words_info['word_description'] }}
-                    </div>
-                </div>
-            </div>
-           {% endif %}
-          </div>
-          <br><br><br><br>
-      </div>
-    <div class="ui divider"></div>
-   {% endfor %}
+        {% endfor %}
+    {% endfor %}
 
    </body>
 </html>
