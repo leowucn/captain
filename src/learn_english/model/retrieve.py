@@ -7,10 +7,8 @@ import pytz
 import re
 
 sqlite_file = '/Volumes/Kindle/system/vocabulary/vocab.db'  # on mac os
-# sqlite_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'vocab.db')  # for test
 words_table_name = 'WORDS'
 lookups_table_name = 'LOOKUPS'
-
 words_dir = os.path.join(os.getcwd(), 'src/learn_english/asset/words')
 
 
@@ -44,6 +42,12 @@ def delete_retrieved_data(conn, word_key_lst):
     conn.commit()
 
 
+def get_book_name_by_book_key(conn, book_key):
+    c = conn.cursor()
+    c.execute('SELECT title FROM book_info where id="%s"' % book_key)
+    return c.fetchall()
+
+
 def tackle_kindle(conn):
     words_filed_dict = dict()
     lookups_filed_dict = dict()
@@ -68,7 +72,8 @@ def tackle_kindle(conn):
     for lookup_data in lookups_data_lst:
         word_key = lookup_data[lookups_filed_dict['word_key']]
         if word_key in exported_id_lst:
-            result[word_key]['book_key'] = lookup_data[lookups_filed_dict['book_key']]
+            book_name = get_book_name_by_book_key(conn, lookup_data[lookups_filed_dict['book_key']])[0]
+            result[word_key]['book'] = ' '.join(book_name)
             result[word_key]['usage'] = lookup_data[lookups_filed_dict['usage']]
             result[word_key]['timestamp'] = lookup_data[lookups_filed_dict['timestamp']]
     store(result)
@@ -95,7 +100,7 @@ def store(words_data):
                 continue
             f.write(str(new_index) + '. ' + word_info['word'] + '\n')
             f.write('usage: ' + word_info['usage'].encode('utf-8') + '\n')
-            f.write('book: ' + word_info['book_key'][:word_info['book_key'].find("'")] + '\n')
+            f.write('book: ' + word_info['book'].encode('utf-8') + '\n')
             tz = pytz.timezone('Asia/Shanghai')
             date = datetime.datetime.fromtimestamp(word_info['timestamp']/1000, tz).strftime('%Y-%m-%d %H:%M:%S')
             f.write('date: ' + date + '\n')
