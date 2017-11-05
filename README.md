@@ -20,7 +20,7 @@ Want to listen to word pronunciation but too lazy to open other app and click pr
 
 ### 4. Automatic notification
 
-Just like automatic pronunciation, when you finished the step of copying a word, after a short time, the word definition would pop up with the form of notification. Cool!![](src/learn_english/asset/images/Screen0.png)
+Just like automatic pronunciation, when you finished the step of copying a word, after a short time, the word definition would pop up with the form of notification. Cool!![](src/learn_english/asset/images/Screen0.jpg)
 
 ### 5. Kindle Exporter
 
@@ -34,9 +34,9 @@ Captain, of course, is able to look up words. As a matter of fact, Captain reque
 
 Captain is originally designed as an assistant partner of Kindle E-reader.Frankly, I think Kindle is awesome to learning English. When we look up words on Kindle, they are automatically added to the Vocabulary Builder on the device. With Vocabulary Builder, we can use flashcards to learn the definitions and usage of words. But as a long term user, I think Kindle has a serious shortcoming which is a lack of excellent management functionary of vocabulary builder, and this is why I created this project originally.
 
-![](src/learn_english/asset/images/Screen1.png)
+![](src/learn_english/asset/images/Screen1.jpg)
 
-![](src/learn_english/asset/images/Screen2.png)
+![](src/learn_english/asset/images/Screen2.jpg)
 
 
 
