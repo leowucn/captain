@@ -85,8 +85,21 @@ def extract_info_from_raw(raw_content, mark):
     left_bracket_index = raw_content[point_one_index:].index('>') + point_one_index
     right_bracket_index = raw_content[point_one_index:].index('<') + point_one_index
     res = raw_content[left_bracket_index + 1:right_bracket_index]
-    res = res.replace('&amp;', '&')
     return res
+
+
+def find_str(s, char):
+    index = 0
+
+    if char in s:
+        c = char[0]
+        for ch in s:
+            if ch == c:
+                if s[index:index+len(char)] == char:
+                    return index
+
+            index += 1
+    return -1
 
 
 def get_word_original_form(word):
