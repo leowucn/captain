@@ -38,12 +38,10 @@ category_dict = {
 
 
 def update_all_lists():
-    p(11)
     raw_content = utility.get_raw_content(urlparse.urljoin(home_url, 'lists'), 'col9 listcats pad2x ')
     if raw_content == '':
         return
     category_raw_content_list = str(raw_content).split('section class')
-    p(22)
     for category_raw_content in category_raw_content_list:
         name = utility.extract_info_from_raw(category_raw_content, 'sectionHeader').strip()
         if name == '':
@@ -52,7 +50,6 @@ def update_all_lists():
             update_list(category_raw_content, 'featured')
         if name == 'Top Rated Lists':
             update_list(category_raw_content, 'top-rated')
-    p(33)
     for url_postfix in category_dict.keys():
         url = home_url + 'lists/' + url_postfix
         content = utility.get_content_of_url(url)
@@ -66,7 +63,6 @@ def update_all_lists():
         except:
             return
         update_list(str(soup).split('bycat hasmore')[1], url_postfix)
-    p(44)
     utility.show_notification(
         'Captain Update Vocabulary Lists', 'Update Successfully!')
     return
@@ -227,9 +223,9 @@ def update_list(category_raw_content, category_name):
                 continue
 
             definition = utility.extract_info_from_raw(raw_words_list_content, '\"definition\"')
-            p(raw_words_list_content)
-            p(category_name)
-            p(list_name)
+            # p(raw_words_list_content)
+            # p(category_name)
+            # p(list_name)
             example = utility.extract_info_from_raw(raw_words_list_content, '\"example\"')
             description = utility.extract_info_from_raw(raw_words_list_content, '\"description\"')
 

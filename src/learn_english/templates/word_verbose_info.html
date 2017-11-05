@@ -68,9 +68,8 @@
     {% if come_from == '1' %}
     <span class="ui label">Words From Clipboard</span>
     {% endif %} 
-    &emsp;&emsp;&emsp;&emsp; Current Page Index: <span class="ui label">{{ page_index }}</span>
+    &emsp;&emsp;&emsp;&emsp; <span class="ui label">Current Page Index: {{ page_index }}</span>
 
-    <h2>Motto for {{motto['type'].title()}}</h2>
     <h3>{{motto['motto']}}&emsp;—{{motto['author']}}</h3>
     <div class="ui divider"></div>
     <div class="one_line">
@@ -84,17 +83,7 @@
                 <input class="ui compact orange tiny button" type="submit" name={{ y }} value="month list">
             </div>
         </form>
-        <br>
-    </div>
-    <div class="ui divider"></div>
 
-    <h2>Vocabulary List of Current Page</h2>
-    <h3>
-        {% for word, meaning in result %} {{word}} {% endfor %}
-    </h3>
-    <div class="ui divider"></div>
-
-    <div class="one_line">
         <form class="ui form" action="http://127.0.0.1:9527/learn_english/quickly_review" method="post">
             <div class="ui action">
                 <input class="ui compact purple tiny button" type="submit" name={{ come_from }}*{{ y }}*{{ w }}*{{ page_index }} value="quickly review">
@@ -105,9 +94,16 @@
                 <input class="ui compact purple tiny button" type="submit" name={{ come_from }}*{{ y }}*{{ w }}*{{ page_index }} value="stop">
             </div>
         </form>
+        <br>
     </div>
-    <br>
     <div class="ui divider"></div>
+
+    <!-- <h2>Vocabulary List of Current Page</h2> -->
+    <h3>
+        {% for word, meaning in result %} {{word}} {% endfor %}
+    </h3>
+    <div class="ui divider"></div>
+
 
     <div class="one_line">
         {% for i in range(button_num) %}
@@ -124,17 +120,14 @@
     <div class="ui divider"></div>
 
     {% for word, meaning in result %}
-    <br>
-
     <div class="i-am-centered">
         <div class="row">
             <div class="column">
                 <div class="buttonHolder">
                     <form class="ui form" action="http://127.0.0.1:9527/learn_english/delete" method="post">
                         <div class="ui action">
-                            <br>
                             <p class="ui header">
-                                <span class="ui huge label">{{ word }}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input class="ui compact red mini button" type="submit" name={{ come_from }}*{{ y }}*{{ w }}*{{ page_index }}*{{ word }} value="delete">
+                                <span class="ui huge label" style="font-family:Avenir; font-size: 35px;">{{ word }}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input class="ui compact red mini button" type="submit" name={{ come_from }}*{{ y }}*{{ w }}*{{ page_index }}*{{ word }} value="delete">
                             </p>
                         </div>
                     </form>
@@ -221,6 +214,7 @@
                 </div>
             </div>
         </div>
+        <br><br>
     </div>
     {% endfor %}
 
@@ -239,31 +233,28 @@
     </div>
 
     <div class="ui divider"></div>
-    <div class="ui item"></div>
-        Current Page Index:<span class="ui label">{{ page_index }}</span>
-    </div>
-
-    <div class="ui divider"></div>
     <div class="one_line">
         <form class="ui form" action="http://127.0.0.1:9527/learn_english/" method="post">
             <div class="ui action">
                 <input class="ui compact orange tiny button" type="submit" name='' value="year list">
             </div>
         </form>
-        <form class="ui form" action="http://127.0.0.1:9527/learn_english/week_list" method="post">
+        <form class="ui form" action="http://127.0.0.1:9527/learn_english/month_list" method="post">
             <div class="ui action">
-                <input class="ui compact orange tiny button" type="submit" name={{ y }} value="week list">
+                <input class="ui compact orange tiny button" type="submit" name={{ y }} value="month list">
             </div>
         </form>
     </div>
     <br>
     <br> 
+    <div class="ui divider"></div>
     {% if come_from == '0' %}
     <span class="ui label">Words From Kindle</span>
     {% endif %} 
     {% if come_from == '1' %}
     <span class="ui label">Words From Clipboard</span>
     {% endif %}
+    &emsp;&emsp;&emsp;&emsp; <span class="ui label">Current Page Index: {{ page_index }}</span>
 
 </body>
 
