@@ -1,6 +1,6 @@
 # Awesome Tool for Learning English
 
-## What it is?
+## What is it?
 
 Captain is a smart clipboard recorder, a dictionary and a vocabulary builder which is created for learning English.
 
