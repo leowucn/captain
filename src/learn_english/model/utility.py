@@ -10,6 +10,7 @@ import urllib2
 import utility
 import traceback
 from nltk.stem import WordNetLemmatizer
+import datetime
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
@@ -119,6 +120,11 @@ def get_word_original_form(word):
     return word
 
 
+def get_now_minute():
+    now = datetime.datetime.now()
+    return now.minute
+
+
 def g():
     print('---------------------------')
     for line in traceback.format_stack():
@@ -136,4 +142,6 @@ def append_log(content):
         f.write(content + '\n')
 
 
-ip_addr = get_ip()
+# ip_addr = get_ip()
+
+

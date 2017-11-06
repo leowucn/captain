@@ -5,6 +5,9 @@ import datetime
 import utility
 from datetime import datetime
 from get_word_meaning import get_word_meaning
+import random
+import time
+import pronunciation
 
 parent_dir = dirname(dirname(abspath(__file__)))
 working_dir = os.getcwd()
@@ -193,6 +196,26 @@ class TackleWords:
         d1 = date.split(' ')[0]
         d2 = d1.split('-')
         return d2[:2]
+
+
+    # 获取随机单词，用于复习使用
+    def emit_random_word(self):
+        random_word = random.choice(self.dict_data.keys())[:-2]
+        pronunciation.show(random_word)
+        time.sleep(1.5)
+        pronunciation.show(random_word)
+        time.sleep(1.5)
+        pronunciation.show(random_word)
+        time.sleep(2)
+
+
+    def memorize_words(self):
+        now_minute = utility.get_now_minute()
+        if 0 <= now_minute <= 5:
+            self.emit_random_word()
+        elif 25 <= now_minute <= 30:
+            self.emit_random_word()
+
 
 
 def p(content):

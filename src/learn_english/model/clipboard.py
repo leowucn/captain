@@ -43,6 +43,10 @@ def watcher():
             ori_form = utility.get_word_original_form(word)
             i = 0
             continue
+
+        # When the following condition are sufficient, Captain would look like suspend, and copy word 
+        # has no any effect. This is normal, as now is the time for memorizing the word learned.
+        tackle.memorize_words()
         time.sleep(interval)
 
 
@@ -55,7 +59,7 @@ def is_valid(clip_str):
 
 
 def p(content):
-    # utility.append_log('---------------------')
+    utility.append_log('---------------------')
     utility.append_log(content)
 
 
