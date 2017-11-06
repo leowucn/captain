@@ -26,11 +26,15 @@ Just like automatic pronunciation, when you finished the step of copying a word,
 
 For convenience, Captain is able to automatically export the words in 'mastered' category on Kindle vocabulary builder to a local file, and it will delete those on Kindle and synchronize to Kindle. But currently, you need manually reboot Kindle after exporting to make change valid.
 
+
 ### 6. Dictionary
+For memorizing words learned in a convenient way,  Captain supports a deliberate approach to help you which selects word randomly from the words you learned to present at a random time within an hour.
+
+### 7. Dictionary
 
 Captain, of course, is able to look up words. As a matter of fact, Captain requests and gets word definition from website http://dict.youdao.com/, then it will record the definition in a local dictionary file.  so thanks for youdao's great work sincerely.
 
-### 7. Vocabulary Builder
+### 8. Vocabulary Builder
 
 Captain is originally designed as an assistant partner of Kindle E-reader.Frankly, I think Kindle is awesome to learning English. When we look up words on Kindle, they are automatically added to the Vocabulary Builder on the device. With Vocabulary Builder, we can use flashcards to learn the definitions and usage of words. But as a long term user, I think Kindle has a serious shortcoming which is a lack of excellent management functionary of vocabulary builder, and this is why I created this project originally.
 
