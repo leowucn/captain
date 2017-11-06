@@ -30,7 +30,7 @@ For convenience, Captain is able to automatically export the words in 'mastered'
 ### 6. Dictionary
 For memorizing words learned in a convenient way,  Captain supports a deliberate approach to help you which selects word randomly from the words you learned to present at a random time within an hour.
 
-### 7. Dictionary
+### 7. Review Words Learned
 
 Captain, of course, is able to look up words. As a matter of fact, Captain requests and gets word definition from website http://dict.youdao.com/, then it will record the definition in a local dictionary file.  so thanks for youdao's great work sincerely.
 
