@@ -12,7 +12,7 @@ Captain monitors the clipboard and extracts the word and the sentence which the 
 
 ### 2. Word Prototype
 
-Caption could automatically obtain prototype of a word from a derived form. And this is crucial for subsequent function. After all, you would probably want to query word 'get' other than 'got'.  
+Caption could automatically obtain prototype of a word from a derived form. And this is crucial for subsequent function. After all, you would probably want to query word 'get' other than 'got'.
 
 ### 3. Automatic pronunciation
 
@@ -27,10 +27,10 @@ Just like automatic pronunciation, when you finished the step of copying a word,
 For convenience, Captain is able to automatically export the words in 'mastered' category on Kindle vocabulary builder to a local file, and it will delete those on Kindle and synchronize to Kindle. But currently, you need manually reboot Kindle after exporting to make change valid.
 
 
-### 6. Dictionary
+### 6. Review Words Learned
 For memorizing words learned in a convenient way,  Captain supports a deliberate approach to help you which selects word randomly from the words you learned to present at a random time within an hour.
 
-### 7. Review Words Learned
+### 7. Dictionary
 
 Captain, of course, is able to look up words. As a matter of fact, Captain requests and gets word definition from website http://dict.youdao.com/, then it will record the definition in a local dictionary file.  so thanks for youdao's great work sincerely.
 
@@ -68,13 +68,13 @@ OS: OSX
 
     sh rerun.sh
 
-Open your browser, enter the url http://127.0.0.1:9527/learn_english. 
+Open your browser, enter the url http://127.0.0.1:9527/learn_english.
 
 ## How to use
 
 Once you have done the above steps. You can use now.
 
-For recording the vocabulary and the sentence where you stuck, first you should copy the word and then the sentence in which the word reside. That's all you need to do. Now the word has been stored properly associated with its definition, you can access and review at  http://127.0.0.1:9527/learn_english. 
+For recording the vocabulary and the sentence where you stuck, first you should copy the word and then the sentence in which the word reside. That's all you need to do. Now the word has been stored properly associated with its definition, you can access and review at  http://127.0.0.1:9527/learn_english.
 
 For exporting the vocabulary which in category 'mastered' on Kindle, you just need to plug in you Kindle and issue the command `sh run.sh` or if you have executed that command, you should issue `sh rerun.sh` instead.
 
