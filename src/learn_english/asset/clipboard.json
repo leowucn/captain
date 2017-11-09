@@ -1,1 +1,14 @@
-{}
+{
+  "poetry": {
+    "usage": "rupi has performed her poetry across the world.\n", 
+    "date": "2017-11-08 22:17:39"
+  }, 
+  "paintbrush": {
+    "usage": "she started drawing at the age of five when her mother handed her a paintbrush and said\u2014draw your heart out.\n", 
+    "date": "2017-11-08 22:18:56"
+  }, 
+  "immigrant": {
+    "usage": "I can relate to so many of these poems. I am also a daughter of immigrants. The poems about her mother reminds me of my own.\n", 
+    "date": "2017-11-08 22:19:43"
+  }
+}

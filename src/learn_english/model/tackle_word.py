@@ -70,7 +70,7 @@ class TackleWords:
         all_data = utility.load_json_file(file_name)
         all_data[key] = value
         utility.write_json_file(file_name, all_data)
-    
+
     def remove(self, file_name, key):
         if key is None or len(key) == 0:
             self.dict_data = utility.load_json_file(dict_file)
@@ -162,7 +162,7 @@ class TackleWords:
                 self.remove(clipboard_file, word_ele[0])
         return
 
-    # lst(key: year->month->word  value: word_info)
+    # lst(key: year->date->word  value: word_info)
     def get_classified_lst(self):
         result = dict()
         result[0] = dict()
@@ -170,7 +170,7 @@ class TackleWords:
         for wrapped_word, word_info in self.dict_data.iteritems():
             year_and_month = self.get_year_and_month(word_info[u'date'])
             year = year_and_month[0]
-            month = year_and_month[1]
+            # month = year_and_month[1]
 
             wrapped_list = wrapped_word.split('-')
             word = wrapped_list[0]
@@ -178,9 +178,9 @@ class TackleWords:
 
             if year not in result[word_come_from]:
                 result[word_come_from][year] = dict()
-            if month not in result[word_come_from][year]:
-                result[word_come_from][year][month] = dict()
-            result[word_come_from][year][month][word] = word_info
+            if word_info['date'] not in result[word_come_from][year]:
+                result[word_come_from][year][word_info['date']] = dict()
+            result[word_come_from][year][word_info['date']][word] = word_info
         return result
 
     @staticmethod

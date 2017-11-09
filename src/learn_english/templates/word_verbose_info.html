@@ -64,11 +64,10 @@
 <body>
     {% if come_from == '0' %}
     <span class="ui label">Words From Kindle</span>
-    {% endif %} 
-    {% if come_from == '1' %}
+    {% endif %} {% if come_from == '1' %}
     <span class="ui label">Words From Clipboard</span>
-    {% endif %} 
-    &emsp;&emsp;&emsp;&emsp; <span class="ui label">Current Page Index: {{ page_index }}</span>
+    {% endif %} &emsp;&emsp;&emsp;&emsp;
+    <span class="ui label">Current Page Index: {{ page_index }}</span>
 
     <h3>{{motto['motto']}}&emsp;—{{motto['author']}}</h3>
     <div class="ui divider"></div>
@@ -78,9 +77,9 @@
                 <input class="ui compact orange tiny button" type="submit" name='' value="year list">
             </div>
         </form>
-        <form class="ui form" action="http://127.0.0.1:9527/learn_english/month_list" method="post">
+        <form class="ui form" action="http://127.0.0.1:9527/learn_english/word_date_list" method="post">
             <div class="ui action">
-                <input class="ui compact orange tiny button" type="submit" name={{ y }} value="month list">
+                <input class="ui compact orange tiny button" type="submit" name={{ y }} value="word date list">
             </div>
         </form>
 
@@ -214,7 +213,8 @@
                 </div>
             </div>
         </div>
-        <br><br>
+        <br>
+        <br>
     </div>
     {% endfor %}
 
@@ -239,22 +239,22 @@
                 <input class="ui compact orange tiny button" type="submit" name='' value="year list">
             </div>
         </form>
-        <form class="ui form" action="http://127.0.0.1:9527/learn_english/month_list" method="post">
+        <form class="ui form" action="http://127.0.0.1:9527/learn_english/word_date_list" method="post">
             <div class="ui action">
-                <input class="ui compact orange tiny button" type="submit" name={{ y }} value="month list">
+                <input class="ui compact orange tiny button" type="submit" name={{ y }} value="word date list">
             </div>
         </form>
     </div>
     <br>
-    <br> 
+    <br>
     <div class="ui divider"></div>
     {% if come_from == '0' %}
     <span class="ui label">Words From Kindle</span>
-    {% endif %} 
+    {% endif %}
     {% if come_from == '1' %}
     <span class="ui label">Words From Clipboard</span>
-    {% endif %}
-    &emsp;&emsp;&emsp;&emsp; <span class="ui label">Current Page Index: {{ page_index }}</span>
+    {% endif %} &emsp;&emsp;&emsp;&emsp;
+    <span class="ui label">Current Page Index: {{ page_index }}</span>
 
 </body>
 

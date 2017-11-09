@@ -83,6 +83,7 @@
             padding: 0;
             font-size: 0.9em;
         }
+
         body {
             background-image: url("/learn_english/static/images/cloud-snowing-house.jpg");
             background-attachment: fixed;
@@ -92,7 +93,8 @@
             background-repeat: round space;
             background-size: 100% 100%;
             background-size: cover;
-            background-position: center center;  /*no zoom in*/
+            background-position: center center;
+            /*no zoom in*/
         }
     </style>
 </head>
@@ -106,7 +108,7 @@
     </center>
     <br>
     <div class="one_line" style="margin: 0 auto; width: 180px; text-align: center;">
-        <form class="ui form" action="http://127.0.0.1:9527/learn_english/month_list" method="post">
+        <form class="ui form" action="http://127.0.0.1:9527/learn_english/word_date_list" method="post">
             {% for year in year_lst %}
             <div class="ui action">
                 <input class="ui primary button" type="submit" name={{year}} value={{year}}>

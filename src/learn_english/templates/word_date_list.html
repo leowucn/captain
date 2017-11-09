@@ -25,9 +25,10 @@
         .one_line input {
             float: left;
         }
+
         .i-am-centered {
             margin: auto;
-            max-width: 700px;
+            max-width: 1000px;
         }
     </style>
 </head>
@@ -41,7 +42,7 @@
             <div class="one_line">
                 <div class="ui divider"></div>
                 <form class="ui form" action="http://127.0.0.1:9527/learn_english/words_list" method="post">
-                    {% for month in month_list_from_word_builder %}
+                    {% for month in word_date_list_from_word_builder %}
                     <div class="ui action">
                         <input class="ui primary mini button" type="submit" name=0*{{ year }}*{{ month }} value={{ year }}*{{ month }}>
                     </div>
@@ -50,17 +51,27 @@
             </div>
             <br>
             <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
 
             <div class="ui divider"></div>
             <h1 class="ui header">Words From Computer Clipboard</h1>
             <div class="one_line">
                 <form class="ui form" action="http://127.0.0.1:9527/learn_english/words_list" method="post">
-                    {% for month in month_list_from_clipboard %}
+                    {% for month in word_date_list_from_clipboard %}
                     <div class="ui action">
                         <input class="ui primary mini button" type="submit" name=1*{{ year }}*{{ month }} value={{ year }}*{{ month.zfill(2) }}>
                     </div>
                     {% endfor %}
                 </form>
+                <br>
+                <br>
+                <br>
                 <br>
                 <br>
                 <div class="ui divider"></div>
