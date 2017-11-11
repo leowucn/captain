@@ -63,9 +63,10 @@
 
 <body>
     {% if come_from == '0' %}
-    <span class="ui label">Words From Kindle</span>
-    {% endif %} {% if come_from == '1' %}
-    <span class="ui label">Words From Clipboard</span>
+        <span class="ui label">Words From Kindle</span>
+    {% endif %}
+    {% if come_from == '1' %}
+        <span class="ui label">Words From Clipboard</span>
     {% endif %} &emsp;&emsp;&emsp;&emsp;
     <span class="ui label">Current Page Index: {{ page_index }}</span>
 
@@ -108,13 +109,16 @@
         {% for i in range(button_num) %}
         <form class="ui form" action="http://127.0.0.1:9527/learn_english/specified_page" method="post">
             <div class="ui action">
-                <input class="ui compact green tiny button" type="submit" name={{come_from}}*{{y}}*{{w}}*{{i}} value={{y}}*{{w}}*{{i}}>
+            {% if come_from == '0' %}
+                <input class="ui compact green tiny button" type="submit" name={{come_from}}*{{y}}*{{w}}*{{i}} value={{w[5:]}}*{{i}}>
+            {% endif %}
+            {% if come_from == '1' %}
+                <input class="ui compact green tiny button" type="submit" name={{come_from}}*{{y}}*{{w}}*{{i}} value={{w}}*{{i}}>
+            {% endif %}
             </div>
         </form>
         {% endfor %}
     </div>
-    <br>
-    <br>
     <br>
     <div class="ui divider"></div>
 
@@ -223,7 +227,12 @@
         {% for i in range(button_num) %}
         <form class="ui form" action="http://127.0.0.1:9527/learn_english/specified_page" method="post">
             <div class="ui action">
-                <input class="ui compact green tiny button" type="submit" name={{ come_from }}*{{ y }}*{{ w }}*{{ i }} value={{ y }}*{{ w }}*{{ i }}>
+            {% if come_from == '0' %}
+                <input class="ui compact green tiny button" type="submit" name={{come_from}}*{{y}}*{{w}}*{{i}} value={{w[5:]}}*{{i}}>
+            {% endif %}
+            {% if come_from == '1' %}
+                <input class="ui compact green tiny button" type="submit" name={{come_from}}*{{y}}*{{w}}*{{i}} value={{w}}*{{i}}>
+            {% endif %}
             </div>
         </form>
         {% endfor %}

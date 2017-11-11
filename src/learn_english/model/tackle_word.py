@@ -170,7 +170,7 @@ class TackleWords:
         for wrapped_word, word_info in self.dict_data.iteritems():
             year_and_month = self.get_year_and_month(word_info[u'date'])
             year = year_and_month[0]
-            # month = year_and_month[1]
+            month = year_and_month[1]
 
             wrapped_list = wrapped_word.split('-')
             word = wrapped_list[0]
@@ -178,9 +178,14 @@ class TackleWords:
 
             if year not in result[word_come_from]:
                 result[word_come_from][year] = dict()
-            if word_info['date'] not in result[word_come_from][year]:
-                result[word_come_from][year][word_info['date']] = dict()
-            result[word_come_from][year][word_info['date']][word] = word_info
+            if word_come_from == 1:
+                if month not in result[word_come_from][year]:
+                    result[word_come_from][year][month] = dict()
+                result[word_come_from][year][month][word] = word_info
+            else:
+                if word_info['date'] not in result[word_come_from][year]:
+                    result[word_come_from][year][word_info['date']] = dict()
+                result[word_come_from][year][word_info['date']][word] = word_info
         return result
 
     @staticmethod
