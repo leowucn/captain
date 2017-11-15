@@ -9,6 +9,7 @@ import random
 import time
 import pronunciation
 import database
+import re
 
 parent_dir = dirname(dirname(abspath(__file__)))
 working_dir = os.getcwd()
@@ -59,7 +60,10 @@ class TackleWords:
                 database.update_clipboard_word(clip_word_info)
             self.clipboard_data = database.get_clipboard_word_all()
         if database.get_word_definition_by_word(data['word']) is None:
-            data['usage'] = '✓' + data['usage'] + '\n'
+            r = re.compile("[1-9]+\)").split(data['usage'])
+            res = '\n@'.join(r)
+            usage = '✓' + '\n✓'.join(res) + '\n'
+            data['usage'] = unicode(usage, errors='replace')
             database.insert_word_definition(data)
         else:
             word_definition = database.get_word_definition_by_word(

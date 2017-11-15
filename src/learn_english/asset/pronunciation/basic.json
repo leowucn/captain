@@ -131,10 +131,6 @@
     "pronun": "\u82f1 ['be\u026ak(\u0259)n] \u7f8e ['bek\u0259n]", 
     "basic": "n. \u54b8\u8089\uff1b\u814c\u8089\uff1b\u718f\u732a\u8089"
   }, 
-  "resentful": {
-    "pronun": "\u82f1 [r\u026a'zentf\u028al; -f(\u0259)l] \u7f8e [r\u026a'z\u025bntfl]", 
-    "basic": "adj. \u5145\u6ee1\u5fff\u6068\u7684\uff1b\u538c\u6076\u7684"
-  }, 
   "horn": {
     "pronun": "\u82f1 [h\u0254\u02d0n] \u7f8e [h\u0254rn]", 
     "basic": "n. \u5587\u53ed\uff0c\u53f7\u89d2\uff1b\u89d2\nvt. \u88c5\u89d2\u4e8e\nn. (Horn)\u4eba\u540d\uff1b(\u82f1\u3001\u5fb7\u3001\u5308\u3001\u6377\u3001\u7f57\u3001\u6ce2\u3001\u82ac\u3001\u5e0c\u3001\u745e\u5178)\u970d\u6069\uff1b(\u6cd5)\u5965\u5c14\u6069\uff1b(\u67ec)\u6d2a"
@@ -882,6 +878,10 @@
   "cereal": {
     "pronun": "\u82f1 ['s\u026a\u0259r\u026a\u0259l] \u7f8e ['s\u026ar\u026a\u0259l]", 
     "basic": "n. \u8c37\u7c7b\uff0c\u8c37\u7269\uff1b\u8c37\u7c7b\u98df\u54c1\uff1b\u8c37\u7c7b\u690d\u7269\nadj. \u8c37\u7c7b\u7684\uff1b\u8c37\u7c7b\u5236\u6210\u7684"
+  }, 
+  "signum": {
+    "pronun": "['si\u0261n\u0259m]", 
+    "basic": "n. [\u6570] \u6b63\u8d1f\u53f7\u51fd\u6570\uff1b\u5f81"
   }, 
   "wardrobe": {
     "pronun": "\u82f1 ['w\u0254\u02d0dr\u0259\u028ab] \u7f8e ['w\u0254r'drob]", 
@@ -3307,10 +3307,6 @@
     "pronun": "\u82f1 ['w\u025c\u02d0k\u0283\u0252p] \u7f8e ['w\u025dk\u0283\u0251p]", 
     "basic": "n. \u8f66\u95f4\uff1b\u7814\u8ba8\u4f1a\uff1b\u5de5\u573a\uff1b\u8bb2\u4e60\u73ed"
   }, 
-  "customize": {
-    "pronun": "\u82f1 ['k\u028cst\u0259ma\u026az] \u7f8e ['k\u028cst\u0259ma\u026az]", 
-    "basic": "vt. \u5b9a\u505a\uff0c\u6309\u5ba2\u6237\u5177\u4f53\u8981\u6c42\u5236\u9020"
-  }, 
   "enable": {
     "pronun": "\u82f1 [\u026an'e\u026ab(\u0259)l; en-] \u7f8e [\u026a'nebl]", 
     "basic": "vt. \u4f7f\u80fd\u591f\uff0c\u4f7f\u6210\u4e3a\u53ef\u80fd\uff1b\u6388\u4e88\u6743\u5229\u6216\u65b9\u6cd5"
@@ -3322,6 +3318,10 @@
   "gist": {
     "pronun": "\u82f1 [d\u0292\u026ast] \u7f8e [d\u0292\u026ast]", 
     "basic": "n. \u4e3b\u65e8\uff0c\u8981\u70b9\uff1b\u4f9d\u636e\nn. (Gist)\u4eba\u540d\uff1b(\u82f1)\u5409\u65af\u7279"
+  }, 
+  "accessibility": {
+    "pronun": "\u82f1 [\u0259k,ses\u0259'b\u026al\u0259t\u026a] \u7f8e [\u00e6k,s\u025bs\u0259'b\u026al\u0259ti]", 
+    "basic": "n. \u6613\u63a5\u8fd1\uff1b\u53ef\u4eb2\uff1b\u53ef\u4ee5\u5f97\u5230"
   }, 
   "composable": {
     "pronun": "[k\u0259m'p\u0259uz\u0259bl]", 
@@ -3407,9 +3407,9 @@
     "pronun": "\u82f1 [\u02c8d\u026afr\u0259nt] \u7f8e ['d\u026afr\u0259nt]", 
     "basic": "adj. \u4e0d\u540c\u7684\uff1b\u4e2a\u522b\u7684\uff0c\u4e0e\u4f17\u4e0d\u540c\u7684"
   }, 
-  "pas": {
-    "pronun": "\u82f1 [p\u0251\u02d0] \u7f8e", 
-    "basic": "n. \u4e00\u79cd\u821e\u6b65\nn. \u4f18\u5148\u6743"
+  "resentful": {
+    "pronun": "\u82f1 [r\u026a'zentf\u028al; -f(\u0259)l] \u7f8e [r\u026a'z\u025bntfl]", 
+    "basic": "adj. \u5145\u6ee1\u5fff\u6068\u7684\uff1b\u538c\u6076\u7684"
   }, 
   "granted": {
     "pronun": "\u82f1 ['\u0261r\u0251\u02d0nt\u026ad] \u7f8e ['\u0261r\u0251\u02d0nt\u026ad]", 
@@ -4435,10 +4435,6 @@
     "pronun": "\u82f1 [\u026anf\u0259'me\u026a\u0283(\u0259)n] \u7f8e ['\u026anf\u025a'me\u0283\u0259n]", 
     "basic": "n. \u4fe1\u606f\uff0c\u8d44\u6599\uff1b\u77e5\u8bc6\uff1b\u60c5\u62a5\uff1b\u901a\u77e5"
   }, 
-  "usefulness": {
-    "pronun": "\u82f1 ['ju\u02d0sf(\u028a)ln\u0259s] \u7f8e ['j\u028asf\u0259ln\u0259s]", 
-    "basic": "n. \u6709\u7528\uff1b\u6709\u6548\u6027\uff1b\u6709\u76ca"
-  }, 
   "comfort": {
     "pronun": "\u82f1 ['k\u028cmf\u0259t] \u7f8e ['k\u028cmf\u025at]", 
     "basic": "n. \u5b89\u6170\uff1b\u8212\u9002\uff1b\u5b89\u6170\u8005\nvt. \u5b89\u6170\uff1b\u4f7f\uff08\u75db\u82e6\u7b49\uff09\u7f13\u548c"
@@ -5327,10 +5323,6 @@
     "pronun": "[pi\u02d0di\u02d0'\u025bf]", 
     "basic": "abbr. \u6982\u7387\u5206\u5e03\u51fd\u6570\uff08Probability Distribution Function\uff09\nn. Adobe\u7684\u53ef\u79fb\u690d\u6587\u6863\u683c\u5f0f\u6587\u4ef6\u7684\u6269\u5c55\u540d"
   }, 
-  "department": {
-    "pronun": "\u82f1 [d\u026a'p\u0251\u02d0tm(\u0259)nt] \u7f8e [d\u026a'p\u0251rtm\u0259nt]", 
-    "basic": "n. \u90e8\uff1b\u90e8\u95e8\uff1b\u7cfb\uff1b\u79d1\uff1b\u5c40"
-  }, 
   "blissfully": {
     "pronun": "['blisfuli]", 
     "basic": "adv. \u5e78\u798f\u5730\uff1b\u5145\u6ee1\u559c\u60a6\u5730"
@@ -5614,6 +5606,10 @@
   "sculpting": {
     "pronun": "\u7f8e", 
     "basic": "n. \u96d5\u5851\u6cd5\nv. \u96d5\u523b\uff1b\u96d5\u5851\uff08sculpt\u7684\u73b0\u5728\u5206\u8bcd\uff09"
+  }, 
+  "bearing": {
+    "pronun": "\u82f1 ['be\u0259r\u026a\u014b] \u7f8e ['b\u025br\u026a\u014b]", 
+    "basic": "n. [\u673a] \u8f74\u627f\uff1b\u5173\u7cfb\uff1b\u65b9\u4f4d\uff1b\u4e3e\u6b62\nv. \u5fcd\u53d7\uff08bear\u7684ing\u5f62\u5f0f\uff09"
   }, 
   "Arab": {
     "pronun": "\u82f1 ['\u00e6r\u0259b] \u7f8e", 
@@ -5967,9 +5963,9 @@
     "pronun": "\u82f1 [rekr\u026a'e\u026a\u0283\u0259nl] \u7f8e [,r\u025bkri'e\u0283\u0259n\u0259l]", 
     "basic": "adj. \u5a31\u4e50\u7684\uff0c\u6d88\u9063\u7684\uff1b\u4f11\u517b\u7684"
   }, 
-  "accessibility": {
-    "pronun": "\u82f1 [\u0259k,ses\u0259'b\u026al\u0259t\u026a] \u7f8e [\u00e6k,s\u025bs\u0259'b\u026al\u0259ti]", 
-    "basic": "n. \u6613\u63a5\u8fd1\uff1b\u53ef\u4eb2\uff1b\u53ef\u4ee5\u5f97\u5230"
+  "pas": {
+    "pronun": "\u82f1 [p\u0251\u02d0] \u7f8e", 
+    "basic": "n. \u4e00\u79cd\u821e\u6b65\nn. \u4f18\u5148\u6743"
   }, 
   "scarlet": {
     "pronun": "\u82f1 ['sk\u0251\u02d0l\u0259t] \u7f8e ['sk\u0251rl\u026at]", 
@@ -6015,9 +6011,9 @@
     "pronun": "\u82f1 [f\u028c\u014bk\u0283\u0259'n\u00e6l\u0259t\u026a] \u7f8e [,f\u028c\u014bk\u0283\u0259'n\u00e6l\u0259ti]", 
     "basic": "n. \u529f\u80fd\uff1b[\u6570] \u6cdb\u51fd\u6027\uff0c\u51fd\u6570\u6027"
   }, 
-  "retract": {
-    "pronun": "\u82f1 [r\u026a'tr\u00e6kt] \u7f8e [r\u026a'tr\u00e6kt]", 
-    "basic": "vt. \u7f29\u56de\uff1b\u7f29\u8fdb\uff1b\u53d6\u6d88\nvi. \u7f29\u56de\uff1b\u7f29\u8fdb\uff1b\u64a4\u6d88\nn. \u6536\u7f29\u6838"
+  "department": {
+    "pronun": "\u82f1 [d\u026a'p\u0251\u02d0tm(\u0259)nt] \u7f8e [d\u026a'p\u0251rtm\u0259nt]", 
+    "basic": "n. \u90e8\uff1b\u90e8\u95e8\uff1b\u7cfb\uff1b\u79d1\uff1b\u5c40"
   }, 
   "irreplaceable": {
     "pronun": "\u82f1 [\u026ar\u026a'ple\u026as\u0259b(\u0259)l] \u7f8e ['\u026ar\u026a'ples\u0259bl]", 
@@ -6038,6 +6034,10 @@
   "lend": {
     "pronun": "\u82f1 [lend] \u7f8e [l\u025bnd]", 
     "basic": "vt. \u8d37\uff1b\u589e\u6dfb\uff0c\u63d0\u4f9b\uff1b\u628a\u2026\u2026\u501f\u7ed9\nvi. \u8d37\u6b3e\nn. (Lend)\u4eba\u540d\uff1b(\u5fb7)\u4f26\u5fb7"
+  }, 
+  "replace": {
+    "pronun": "\u82f1 [r\u026a'ple\u026as] \u7f8e [r\u026a'ples]", 
+    "basic": "vt. \u53d6\u4ee3\uff0c\u4ee3\u66ff\uff1b\u66ff\u6362\uff0c\u66f4\u6362\uff1b\u5f52\u8fd8\uff0c\u507f\u8fd8\uff1b\u628a\u2026\u653e\u56de\u539f\u5904"
   }, 
   "rifle": {
     "pronun": "\u82f1 ['ra\u026af(\u0259)l] \u7f8e ['ra\u026afl]", 
@@ -6735,9 +6735,9 @@
     "pronun": "[ini\u0283\u0259lai'zei\u0283\u0259n]", 
     "basic": "n. \u521d\u59cb\u5316"
   }, 
-  "meta": {
-    "pronun": "\u82f1 ['met\u0259] \u7f8e ['m\u025bt\u0259]", 
-    "basic": "pref. \u8868\u793a\u201c\u53d8\u5316\u201d\u201c\u53d8\u6362\u201d\u4e4b\u4e49\nn. (Meta)\u4eba\u540d\uff1b(\u5fb7\u3001\u4fc4\u3001\u7f57\u3001\u585e\u3001\u8461\u3001\u610f\u3001\u82f1)\u6885\u5854(\u5973\u5b50\u6559\u540dMargaret\u7684\u6635\u79f0)"
+  "intangible": {
+    "pronun": "\u82f1 [\u026an't\u00e6n(d)\u0292\u026ab(\u0259)l] \u7f8e [\u026an't\u00e6nd\u0292\u0259bl]", 
+    "basic": "adj. \u65e0\u5f62\u7684\uff0c\u89e6\u6478\u4e0d\u5230\u7684\uff1b\u96be\u4ee5\u7406\u89e3\u7684"
   }, 
   "interplay": {
     "pronun": "\u82f1 ['\u026ant\u0259ple\u026a] \u7f8e [,\u026ant\u025a'pl\u025bi]", 
@@ -6751,9 +6751,9 @@
     "pronun": "\u82f1 [p\u00e6t\u0283] \u7f8e [p\u00e6t\u0283]", 
     "basic": "n. \u773c\u7f69\uff1b\u6591\u70b9\uff1b\u788e\u7247\uff1b\u5c0f\u5757\u571f\u5730\nvt. \u4fee\u8865\uff1b\u89e3\u51b3\uff1b\u63a9\u9970\nvi. \u6253\u8865\u4e01\nn. (Patch)\u4eba\u540d\uff1b(\u82f1)\u5e15\u5947"
   }, 
-  "globs": {
-    "pronun": "\u82f1 [gl\u0252b] \u7f8e [\u0261l\u0251b]", 
-    "basic": "n. \u4e00\u6ef4\uff1b\u6c34\u73e0\uff1b\u4e00\u56e2\nn. (Glob)\u4eba\u540d\uff1b(\u4e39)\u683c\u6d1b\u5e03"
+  "salesman": {
+    "pronun": "\u82f1 ['se\u026alzm\u0259n] \u7f8e ['selzm\u0259n]", 
+    "basic": "n. \u63a8\u9500\u5458\uff1b\u552e\u8d27\u5458"
   }, 
   "chaos": {
     "pronun": "\u82f1 ['ke\u026a\u0252s] \u7f8e ['ke\u0251s]", 
@@ -6814,6 +6814,10 @@
   "organic": {
     "pronun": "\u82f1 [\u0254\u02d0'g\u00e6n\u026ak] \u7f8e [\u0254r'g\u00e6n\u026ak]", 
     "basic": "adj. [\u6709\u5316] \u6709\u673a\u7684\uff1b\u7ec4\u7ec7\u7684\uff1b\u5668\u5b98\u7684\uff1b\u6839\u672c\u7684"
+  }, 
+  "retract": {
+    "pronun": "\u82f1 [r\u026a'tr\u00e6kt] \u7f8e [r\u026a'tr\u00e6kt]", 
+    "basic": "vt. \u7f29\u56de\uff1b\u7f29\u8fdb\uff1b\u53d6\u6d88\nvi. \u7f29\u56de\uff1b\u7f29\u8fdb\uff1b\u64a4\u6d88\nn. \u6536\u7f29\u6838"
   }, 
   "g": {
     "pronun": "\u82f1 [d\u0292i\u02d0]", 
@@ -7186,6 +7190,10 @@
   "dodge": {
     "pronun": "\u82f1 [d\u0252d\u0292] \u7f8e [d\u0251d\u0292]", 
     "basic": "n. \u8eb2\u95ea\uff1b\u6258\u8bcd\nvt. \u8eb2\u907f\uff0c\u907f\u5f00\nvi. \u8eb2\u907f\uff0c\u907f\u5f00\nn. (Dodge)\u4eba\u540d\uff1b(\u82f1)\u9053\u5947\nn. \u9053\u5947\uff08\u6c7d\u8f66\u54c1\u724c\uff09"
+  }, 
+  "count": {
+    "pronun": "\u82f1 [ka\u028ant] \u7f8e [ka\u028ant]", 
+    "basic": "vt. \u8ba1\u7b97\uff1b\u8ba4\u4e3a\nvi. \u8ba1\u6570\uff1b\u6709\u4ef7\u503c\nn. \u8ba1\u6570\uff1b\u8ba1\u7b97\uff1b\u4f2f\u7235\nn. (Count)\u4eba\u540d\uff1b(\u6cd5\u3001\u5fb7\u3001\u5357\u975e)\u4f2f\u7235(\u6b27\u6d32\u8d35\u65cf\u5934\u8854)\uff0c \u5eb7\u7279(\u4eba\u540d)"
   }, 
   "move": {
     "pronun": "\u82f1 [mu\u02d0v] \u7f8e [muv]", 
@@ -8043,9 +8051,9 @@
     "pronun": "\u82f1 ['b\u00e6t\u0283\u0259l\u0259] \u7f8e ['b\u00e6t\u0283\u0259l\u025a]", 
     "basic": "n. \u5b66\u58eb\uff1b\u5355\u8eab\u6c49\uff1b\uff08\u5c1a\u672a\u4ea4\u914d\u7684\uff09\u5c0f\u96c4\u517d\nn. (Bachelor)\u4eba\u540d\uff1b(\u82f1)\u5df4\u5f7b\u52d2"
   }, 
-  "count": {
-    "pronun": "\u82f1 [ka\u028ant] \u7f8e [ka\u028ant]", 
-    "basic": "vt. \u8ba1\u7b97\uff1b\u8ba4\u4e3a\nvi. \u8ba1\u6570\uff1b\u6709\u4ef7\u503c\nn. \u8ba1\u6570\uff1b\u8ba1\u7b97\uff1b\u4f2f\u7235\nn. (Count)\u4eba\u540d\uff1b(\u6cd5\u3001\u5fb7\u3001\u5357\u975e)\u4f2f\u7235(\u6b27\u6d32\u8d35\u65cf\u5934\u8854)\uff0c \u5eb7\u7279(\u4eba\u540d)"
+  "usefulness": {
+    "pronun": "\u82f1 ['ju\u02d0sf(\u028a)ln\u0259s] \u7f8e ['j\u028asf\u0259ln\u0259s]", 
+    "basic": "n. \u6709\u7528\uff1b\u6709\u6548\u6027\uff1b\u6709\u76ca"
   }, 
   "made": {
     "pronun": "\u82f1 [me\u026ad] \u7f8e [med]", 
@@ -8075,9 +8083,9 @@
     "pronun": "\u82f1 [(for v.)r\u026a\u02c8k\u0254\u02d0d; (for n.) \u02c8rek\u0254\u02d0d] \u7f8e [(for v.) r\u026a\u02c8k\u0254rd; (for n.) \u02c8rek\u0259rd;\u02c8r\u025bk\u025ad]", 
     "basic": "vt. \u8bb0\u5f55\uff0c\u8bb0\u8f7d\uff1b\u6807\u660e\uff1b\u5c06...\u5f55\u97f3\nvi. \u8bb0\u5f55\uff1b\u5f55\u97f3\nn. \u6863\u6848\uff0c\u5c65\u5386\uff1b\u5531\u7247\uff1b\u6700\u9ad8\u7eaa\u5f55\nadj. \u521b\u7eaa\u5f55\u7684\nn. (Record)\u4eba\u540d\uff1b(\u6cd5)\u52d2\u79d1\u5c14\uff1b(\u82f1)\u96f7\u79d1\u5fb7"
   }, 
-  "intangible": {
-    "pronun": "\u82f1 [\u026an't\u00e6n(d)\u0292\u026ab(\u0259)l] \u7f8e [\u026an't\u00e6nd\u0292\u0259bl]", 
-    "basic": "adj. \u65e0\u5f62\u7684\uff0c\u89e6\u6478\u4e0d\u5230\u7684\uff1b\u96be\u4ee5\u7406\u89e3\u7684"
+  "meta": {
+    "pronun": "\u82f1 ['met\u0259] \u7f8e ['m\u025bt\u0259]", 
+    "basic": "pref. \u8868\u793a\u201c\u53d8\u5316\u201d\u201c\u53d8\u6362\u201d\u4e4b\u4e49\nn. (Meta)\u4eba\u540d\uff1b(\u5fb7\u3001\u4fc4\u3001\u7f57\u3001\u585e\u3001\u8461\u3001\u610f\u3001\u82f1)\u6885\u5854(\u5973\u5b50\u6559\u540dMargaret\u7684\u6635\u79f0)"
   }, 
   "limit": {
     "pronun": "\u82f1 ['l\u026am\u026at] \u7f8e ['l\u026am\u026at]", 
@@ -8091,9 +8099,9 @@
     "pronun": "\u82f1 ['\u026a\u0283u\u02d0; '\u026asju\u02d0] \u7f8e ['\u026a\u0283u]", 
     "basic": "n. \u95ee\u9898\uff1b\u6d41\u51fa\uff1b\u671f\u53f7\uff1b\u53d1\u884c\u7269\nvt. \u53d1\u884c\uff0c\u53d1\u5e03\uff1b\u53d1\u7ed9\uff1b\u653e\u51fa\uff0c\u6392\u51fa\nvi. \u53d1\u884c\uff1b\u6d41\u51fa\uff1b\u9020\u6210\u2026\u7ed3\u679c\uff1b\u4f20\u4e0b"
   }, 
-  "bearing": {
-    "pronun": "\u82f1 ['be\u0259r\u026a\u014b] \u7f8e ['b\u025br\u026a\u014b]", 
-    "basic": "n. [\u673a] \u8f74\u627f\uff1b\u5173\u7cfb\uff1b\u65b9\u4f4d\uff1b\u4e3e\u6b62\nv. \u5fcd\u53d7\uff08bear\u7684ing\u5f62\u5f0f\uff09"
+  "customize": {
+    "pronun": "\u82f1 ['k\u028cst\u0259ma\u026az] \u7f8e ['k\u028cst\u0259ma\u026az]", 
+    "basic": "vt. \u5b9a\u505a\uff0c\u6309\u5ba2\u6237\u5177\u4f53\u8981\u6c42\u5236\u9020"
   }, 
   "intimidating": {
     "pronun": "\u82f1 \u7f8e [\u026an't\u026am\u026adet\u026a\u014b]", 
@@ -8147,9 +8155,9 @@
     "pronun": "\u82f1 [n\u028cn\u00f0\u0259'les] \u7f8e ['n\u028cn\u00f0\u0259'l\u025bs]", 
     "basic": "adv. \u5c3d\u7ba1\u5982\u6b64\uff0c\u4f46\u662f"
   }, 
-  "salesman": {
-    "pronun": "\u82f1 ['se\u026alzm\u0259n] \u7f8e ['selzm\u0259n]", 
-    "basic": "n. \u63a8\u9500\u5458\uff1b\u552e\u8d27\u5458"
+  "globs": {
+    "pronun": "\u82f1 [gl\u0252b] \u7f8e [\u0261l\u0251b]", 
+    "basic": "n. \u4e00\u6ef4\uff1b\u6c34\u73e0\uff1b\u4e00\u56e2\nn. (Glob)\u4eba\u540d\uff1b(\u4e39)\u683c\u6d1b\u5e03"
   }, 
   "virtual": {
     "pronun": "\u82f1 [\u02c8v\u025c:t\u0283u\u0259l] \u7f8e [[\u02c8v\u025c:rt\u0283u\u0259l]]", 
