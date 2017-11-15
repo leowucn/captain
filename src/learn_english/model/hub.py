@@ -44,9 +44,9 @@ def watcher():
             i = 0
             continue
 
-        # When the following condition are sufficient, Captain would look like suspend, and copy word 
+        # When the following condition are sufficient, Captain would look like suspend, and copy word
         # has no any effect. This is normal, as now is the time for memorizing the word learned.
-        tackle.memorize_words()
+        # tackle.memorize_words()
         time.sleep(interval)
 
 

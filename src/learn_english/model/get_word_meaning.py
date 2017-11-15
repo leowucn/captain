@@ -2,9 +2,11 @@
 import re
 import bs4
 import utility
+import datetime
 
 
-word_type = ('n.', 'v.', 'pron.', 'adj.', 'adv.', 'num.', 'art.', 'prep.', 'conj.', 'int.', 'vi.', 'vt.', 'aux.', 'aux.v')
+word_type = ('n.', 'v.', 'pron.', 'adj.', 'adv.', 'num.', 'art.',
+             'prep.', 'conj.', 'int.', 'vi.', 'vt.', 'aux.', 'aux.v')
 
 
 def get_word_meaning(wrapped_word):
@@ -43,9 +45,11 @@ def get_word_meaning(wrapped_word):
                 r = s.replace('\n', '')
 
                 if r.find(word) >= 0:
-                    if i+ 1 >= len(list(phrase.stripped_strings)):
+                    if i + 1 >= len(list(phrase.stripped_strings)):
                         break
-                    phrase_str += r + '     ' + re.sub('\s*', '', list(phrase.stripped_strings)[i + 1]) + '\n'
+                    phrase_str += r + '     ' + \
+                        re.sub('\s*', '', list(phrase.stripped_strings)
+                               [i + 1]) + '\n'
             if len(phrase_str) != 0:
                 word_meaning_dict['phrase'] = phrase_str.strip('\n')
 
@@ -92,7 +96,8 @@ def get_word_meaning(wrapped_word):
             is_found = False
             for i, s in enumerate(rel_word_tab.stripped_strings):
                 if s == u'词根：':
-                    rel_word_tab_str += s + ' ' + list(rel_word_tab.stripped_strings)[i + 1] + '\n'
+                    rel_word_tab_str += s + ' ' + \
+                        list(rel_word_tab.stripped_strings)[i + 1] + '\n'
                     is_found = True
                     continue
                 if is_found:
@@ -141,7 +146,8 @@ def get_word_meaning(wrapped_word):
     if collins is not None:
         text_list = []
         for i, s in enumerate(collins.stripped_strings):
-            text_list.append(' '.join(s.split()))  # tackle special formation problem
+            # tackle special formation problem
+            text_list.append(' '.join(s.split()))
 
         line = ' '.join(text_list[3:])
         collins_str = re.sub('例：', '\n例：', line)
@@ -150,10 +156,9 @@ def get_word_meaning(wrapped_word):
         if len(collins_str.strip()) > 1:
             word_meaning_dict['collins'] = collins_str.encode('utf-8')
 
-    word_meaning_dict['usage'] = ''
-    result = dict()
-    result[wrapped_word] = word_meaning_dict
-    return result
+    word_meaning_dict['word'] = wrapped_word
+    word_meaning_dict['date'] = str(datetime.datetime.now())[:-7]
+    return word_meaning_dict
 
 
 def is_alpha_and_x(src_str, x):

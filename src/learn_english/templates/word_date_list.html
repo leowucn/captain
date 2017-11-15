@@ -42,7 +42,7 @@
             <div class="one_line">
                 <div class="ui divider"></div>
                 <form class="ui form" action="http://127.0.0.1:9527/learn_english/words_list" method="post">
-                    {% for word_date in word_date_list_from_word_builder %}
+                    {% for word_date in words_date_list_from_kindle %}
                     <div class="ui action">
                         <input class="ui primary mini button" type="submit" name=0*{{ year }}*{{ word_date }} value={{ word_date[5:] }}>
                     </div>
@@ -63,7 +63,7 @@
             <h1 class="ui header">Words From Computer Clipboard</h1>
             <div class="one_line">
                 <form class="ui form" action="http://127.0.0.1:9527/learn_english/words_list" method="post">
-                    {% for t in word_date_list_from_clipboard %}
+                    {% for t in words_date_list_from_clipboard %}
                     <div class="ui action">
                         <input class="ui primary mini button" type="submit" name=1*{{ year }}*{{ t }} value={{ t }}月>
                     </div>

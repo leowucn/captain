@@ -8,6 +8,7 @@ from get_word_meaning import get_word_meaning
 import random
 import time
 import pronunciation
+import database
 
 parent_dir = dirname(dirname(abspath(__file__)))
 working_dir = os.getcwd()
@@ -38,58 +39,57 @@ word-1            represent word from clipboard
 
 class TackleWords:
     def __init__(self):
-        self.dict_data = utility.load_json_file(dict_file)
-        self.clipboard_data = utility.load_json_file(clipboard_file)
+        self.words_definitions = database.get_word_definition_all()
+        self.clipboard_data = database.get_clipboard_word_all()
+
+    def save_word(self, data):
+        if data['word'].endswith('-1'):
+            if database.get_clipboard_word_by_word(data['word']) is None:
+                data['usage'] = '✓' + data['usage'] + '\n'
+                database.insert_clipboard_word(data)
+            else:
+                clip_word_info = database.get_clipboard_word_by_word(
+                    data['word'])
+                usage = clip_word_info['usage']
+                if usage.find(data['usage']) < 0:
+                    if not usage.endswith('\n'):
+                        usage += '\n'
+                usage += '✓' + data['usage'] + '\n'
+                clip_word_info['usage'] = usage
+                database.update_clipboard_word(clip_word_info)
+            self.clipboard_data = database.get_clipboard_word_all()
+        if database.get_word_definition_by_word(data['word']) is None:
+            data['usage'] = '✓' + data['usage'] + '\n'
+            database.insert_word_definition(data)
+        else:
+            word_definition = database.get_word_definition_by_word(
+                data['word'])
+            usage = word_definition['usage']
+            if usage.find(data['usage']) < 0:
+                if not usage.endswith('\n'):
+                    usage += '\n'
+                usage += '✓' + data['usage'] + '\n'
+                word_definition['usage'] = usage
+                database.update_word_definition(word_definition)
+        self.words_definitions = database.get_word_definition_all()
 
     def query(self, wrapped_word, usage=None, date=None, book=None):
-        if wrapped_word in self.dict_data:
-            self.dict_data[wrapped_word]['usage'] = self.add_usage_to_collection(
-                self.dict_data[wrapped_word]['usage'], usage)
+        word_definition = dict()
+        word_definition = database.get_word_definition_by_word(wrapped_word)
+        if word_definition is not None:
+            word_definition['usage'] = usage
         else:
-            result = get_word_meaning(wrapped_word)
-            if result is None:
+            word_definition = get_word_meaning(wrapped_word)
+            if word_definition is None:
                 return
             if usage is not None:
-                result[wrapped_word]['usage'] = self.add_usage_to_collection(result[wrapped_word]['usage'], usage)
+                word_definition['usage'] = usage
             if date is not None:
-                result[wrapped_word]['date'] = date.strip()
+                word_definition['date'] = date.strip()
             if book is not None:
-                result[wrapped_word]['book'] = book.strip()
-            self.dict_data[wrapped_word] = result[wrapped_word]
-        self.store(dict_file, wrapped_word, self.dict_data[wrapped_word])
-
-        if wrapped_word.split('-')[1] == '1':
-            self.store_clipboard(wrapped_word[:-2], usage)
+                word_definition['book'] = book.strip()
+        self.save_word(word_definition)
         return
-
-    def store(self, file_name, key, value):
-        if key is None or len(key) == 0 or value is None:
-            self.dict_data = utility.load_json_file(dict_file)
-            self.clipboard_data = utility.load_json_file(clipboard_file)
-            return
-        all_data = utility.load_json_file(file_name)
-        all_data[key] = value
-        utility.write_json_file(file_name, all_data)
-
-    def remove(self, file_name, key):
-        if key is None or len(key) == 0:
-            self.dict_data = utility.load_json_file(dict_file)
-            self.clipboard_data = utility.load_json_file(clipboard_file)
-            return
-        all_data = utility.load_json_file(file_name)
-        del all_data[key]
-        utility.write_json_file(file_name, all_data)
-
-    def store_clipboard(self, word, usage):
-        if word in self.clipboard_data:
-            self.clipboard_data[word]['usage'] = self.add_usage_to_collection(self.clipboard_data[word]['usage'], usage)
-        else:
-            word_info = dict()
-            word_info['usage'] = ''
-            word_info['usage'] = self.add_usage_to_collection(word_info['usage'], usage)
-            word_info['date'] = str(datetime.now())[:-7]
-            self.clipboard_data[word] = word_info
-        self.store(clipboard_file, word, self.clipboard_data[word])
 
     def import_words(self):
         files = [f for f in os.listdir(words_dir) if os.path.isfile(
@@ -106,32 +106,31 @@ class TackleWords:
                     if line[0].isdigit():
                         word = line[line.find('.') + 2:]
                         wrapped_word = word + '-0'
-                        if wrapped_word in self.dict_data:
-                            continue
                         usage = lines[index +
                                       1][lines[index + 1].find(':') + 1:]
                         book = lines[index +
                                      2][lines[index + 2].find(':') + 1:]
-                        self.query(wrapped_word, usage, file_name[:-4], book)
-        for word, word_info in self.clipboard_data.iteritems():
-            wrapped_word = word + '-1'
-            self.query(wrapped_word, word_info['usage'], word_info['date'])
-        utility.show_notification(
-            'Captain Import Info', 'Importing words completely finished!')
+                        self.query(wrapped_word, usage,
+                                   file_name[:-4], book)
+        for clip_word_info in self.clipboard_data:
+            wrapped_word = clip_word_info['word'] + '-1'
+            if database.get_clipboard_word_by_word(wrapped_word) is not None:
+                continue
+            self.query(
+                wrapped_word, clip_word_info['usage'], clip_word_info['date'])
+        utility.show_notification('Import Words', 'Success!')
 
     def delete(self, wrapped_word):
-        self.clipboard_data = utility.load_json_file(clipboard_file)
-        word_ele = wrapped_word.split('-')
-        # delete from dict
-        del self.dict_data[wrapped_word]
-        self.remove(dict_file, wrapped_word)
+        database.delete_word_definition_by_word(wrapped_word)
+        database.delete_clipboard_word_by_word(wrapped_word)
 
+        splitted_word = wrapped_word.split('-')
         # delete from word builder
-        if word_ele[1] == '0':
+        if splitted_word[1] == '0':
             for file_name in os.listdir(words_dir):
                 if file_name.endswith(".txt"):
                     file_path = os.path.join(words_dir, file_name)
-                    if '. ' + word_ele[0] in open(file_path).read():
+                    if '. ' + splitted_word[0] in open(file_path).read():
                         valid_lines_lst = []
                         with open(file_path) as f:
                             # All lines including the blank ones
@@ -140,9 +139,9 @@ class TackleWords:
                             lines = list(line for line in lines if line)
                             for index, line in enumerate(lines):
                                 if line[0].isdigit():
-                                    wrapped_word = line[line.find(
+                                    word = line[line.find(
                                         '.') + 2:].strip()
-                                    if wrapped_word == word_ele[0]:
+                                    if word == splitted_word[0]:
                                         continue
                                     valid_lines_lst.append(line + '\n')
                                     valid_lines_lst.append(
@@ -156,10 +155,6 @@ class TackleWords:
                             for line in valid_lines_lst:
                                 f.write(line)
                         break
-        else:
-            # delete from clipboard
-            if word_ele[0] in self.clipboard_data:
-                self.remove(clipboard_file, word_ele[0])
         return
 
     # lst(key: year->date->word  value: word_info)
@@ -167,45 +162,30 @@ class TackleWords:
         result = dict()
         result[0] = dict()
         result[1] = dict()
-        for wrapped_word, word_info in self.dict_data.iteritems():
-            year_and_month = self.get_year_and_month(word_info[u'date'])
-            year = year_and_month[0]
-            month = year_and_month[1]
+        for word_definition in self.words_definitions:
+            t = word_definition['date'].split(' ')[0].split('-')
+            year = t[0]
+            month = t[1]
 
-            wrapped_list = wrapped_word.split('-')
-            word = wrapped_list[0]
-            word_come_from = int(wrapped_list[1])
+            w = word_definition['word'].split('-')
+            word = w[0]
+            where = int(w[1])
 
-            if year not in result[word_come_from]:
-                result[word_come_from][year] = dict()
-            if word_come_from == 1:
-                if month not in result[word_come_from][year]:
-                    result[word_come_from][year][month] = dict()
-                result[word_come_from][year][month][word] = word_info
+            if year not in result[where]:
+                result[where][year] = dict()
+            if where == 1:
+                if month not in result[where][year]:
+                    result[where][year][month] = []
+                result[where][year][month].append(word_definition)
             else:
-                if word_info['date'] not in result[word_come_from][year]:
-                    result[word_come_from][year][word_info['date']] = dict()
-                result[word_come_from][year][word_info['date']][word] = word_info
+                word_date = word_definition['date']
+                if word_date not in result[where][year]:
+                    result[where][year][word_date] = []
+                result[where][year][word_date].append(word_definition)
         return result
 
-    @staticmethod
-    def add_usage_to_collection(collection, usage):
-        if collection.find(usage) < 0:
-            collection += usage
-            if not usage.endswith('\n'):
-                collection += '\n'
-        return collection
-
-    @staticmethod
-    def get_year_and_month(date):
-        d1 = date.split(' ')[0]
-        d2 = d1.split('-')
-        return d2[:2]
-
-
-    # 获取随机单词，用于复习使用
     def emit_random_word(self):
-        random_word = random.choice(self.dict_data.keys())[:-2]
+        random_word = random.choice(self.words_definitions)[:-2]
         pronunciation.show(random_word)
         time.sleep(1.5)
         pronunciation.show(random_word)
@@ -213,14 +193,13 @@ class TackleWords:
         pronunciation.show(random_word)
         time.sleep(2)
 
-
+    # 获取随机单词，用于复习使用
     def memorize_words(self):
         now_minute = utility.get_now_minute()
         if 0 <= now_minute <= 5:
             self.emit_random_word()
         elif 25 <= now_minute <= 30:
             self.emit_random_word()
-
 
 
 def p(content):

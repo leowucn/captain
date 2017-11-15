@@ -100,7 +100,9 @@
 
     <!-- <h2>Vocabulary List of Current Page</h2> -->
     <h3>
-        {% for word, meaning in result %} {{word}} {% endfor %}
+        {% for word_definition in result %}
+            {{word_definition['word'][:-2]}}
+        {% endfor %}
     </h3>
     <div class="ui divider"></div>
 
@@ -122,7 +124,7 @@
     <br>
     <div class="ui divider"></div>
 
-    {% for word, meaning in result %}
+    {% for word_definition in result %}
     <div class="i-am-centered">
         <div class="row">
             <div class="column">
@@ -130,7 +132,7 @@
                     <form class="ui form" action="http://127.0.0.1:9527/learn_english/delete" method="post">
                         <div class="ui action">
                             <p class="ui header">
-                                <span class="ui huge label" style="font-family:Avenir; font-size: 35px;">{{ word }}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input class="ui compact red mini button" type="submit" name={{ come_from }}*{{ y }}*{{ w }}*{{ page_index }}*{{ word }} value="delete">
+                                <span class="ui huge label" style="font-family:Avenir; font-size: 35px;">{{ word_definition['word'][:-2] }}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input class="ui compact red mini button" type="submit" name={{ come_from }}*{{ y }}*{{ w }}*{{ page_index }}*{{ word_definition['word'] }} value="delete">
                             </p>
                         </div>
                     </form>
@@ -146,67 +148,75 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    {% if 'basic' in meaning%}
+                                    {% if 'basic' in word_definition%}
                                     <tr>
                                         <td>{{ 'basic' }}</td>
                                         <td>
-                                            <p>{{ meaning['basic'] }}</p>
+                                            <p>{{ word_definition['basic'] }}</p>
                                         </td>
                                     </tr>
-                                    {% endif %} {% if 'book' in meaning%}
+                                    {% endif %}
+                                    {% if 'book' in word_definition%}
                                     <tr>
                                         <td>{{ 'book' }}</td>
                                         <td>
-                                            <p>{{ meaning['book'] }}</p>
+                                            <p>{{ word_definition['book'] }}</p>
                                         </td>
                                     </tr>
-                                    {% endif %} {% if 'date' in meaning%}
+                                    {% endif %}
+                                    {% if 'date' in word_definition%}
                                     <tr>
                                         <td>{{ 'date' }}</td>
                                         <td>
-                                            <p>{{ meaning['date'] }}</p>
+                                            <p>{{ word_definition['date'] }}</p>
                                         </td>
                                     </tr>
-                                    {% endif %} {% if 'usage' in meaning%}
+                                    {% endif %}
+                                    {% if 'usage' in word_definition%}
                                     <tr>
                                         <td>{{ 'usage' }}</td>
                                         <td>
-                                            <p>{{ meaning['usage'] }}</p>
+                                            <p>{{ word_definition['usage'] }}</p>
                                         </td>
                                     </tr>
-                                    {% endif %} {% if 'phrase' in meaning%}
+                                    {% endif %}
+                                    {% if 'phrase' in word_definition%}
                                     <tr>
                                         <td>{{ 'phrase' }}</td>
                                         <td>
-                                            <p>{{ meaning['phrase'] }}</p>
+                                            <p>{{ word_definition['phrase'] }}</p>
                                         </td>
                                     </tr>
-                                    {% endif %} {% if 'synonyms' in meaning%}
+                                    {% endif %}
+                                    {% if 'synonyms' in word_definition%}
                                     <tr>
                                         <td>{{ 'synonyms' }}</td>
                                         <td>
-                                            <p>{{ meaning['synonyms'] }}</p>
+                                            <p>{{ word_definition['synonyms'] }}</p>
                                         </td>
                                     </tr>
-                                    {% endif %} {% if 'rel_word_tab' in meaning%}
+                                    {% endif %}
+                                    {% if 'rel_word_tab' in word_definition%}
                                     <tr>
                                         <td>{{ 'rel_word_tab' }}</td>
                                         <td>
-                                            <p>{{ meaning['rel_word_tab'] }}</p>
+                                            <p>{{ word_definition['rel_word_tab'] }}</p>
                                         </td>
                                     </tr>
-                                    {% endif %} {% if 'discriminate' in meaning%}
+                                    {% endif %}
+                                    {% if 'discriminate' in word_definition%}
                                     <tr>
                                         <td>{{ 'discriminate' }}</td>
                                         <td>
-                                            <p>{{ meaning['discriminate'] }}</p>
+                                            <p>{{ word_definition['discriminate'] }}</p>
                                         </td>
                                     </tr>
-                                    {% endif %} {% if 'collins' in meaning%}
+                                    {% endif %}
+                                    {% if 'collins' in word_definition%}
                                     <tr>
                                         <td>{{ 'collins' }}</td>
                                         <td>
-                                            <p>{{ meaning['collins'] }}</p>
+                                            <p>{{ word_definition['collins'] }}</p>
                                         </td>
                                     </tr>
                                     {% endif %}
