@@ -23,7 +23,9 @@ def show_notification(title, msg):
         strippend_msg = msg.strip()
         if strippend_msg == "":
             return
-        command = "osascript -e \'tell app \"System Events\" to display notification \"" + strippend_msg.encode('utf-8') + "\" with title \"" + title.encode('utf-8') + "\"\'"
+        command = "osascript -e \'tell app \"System Events\" to display notification \"" + \
+            strippend_msg.encode('utf-8') + "\" with title \"" + \
+            title.encode('utf-8') + "\"\'"
         os.system(command)
     return
 
@@ -83,8 +85,10 @@ def extract_info_from_raw(raw_content, mark):
         point_one_index = raw_content.index(mark)
     except:
         return ''
-    left_bracket_index = raw_content[point_one_index:].index('>') + point_one_index
-    right_bracket_index = raw_content[point_one_index:].index('<') + point_one_index
+    left_bracket_index = raw_content[point_one_index:].index(
+        '>') + point_one_index
+    right_bracket_index = raw_content[point_one_index:].index(
+        '<') + point_one_index
     res = raw_content[left_bracket_index + 1:right_bracket_index]
     return res
 
@@ -96,7 +100,7 @@ def find_str(s, char):
         c = char[0]
         for ch in s:
             if ch == c:
-                if s[index:index+len(char)] == char:
+                if s[index:index + len(char)] == char:
                     return index
 
             index += 1
@@ -143,5 +147,3 @@ def append_log(content):
 
 
 # ip_addr = get_ip()
-
-

@@ -90,7 +90,6 @@ def show_specified_page_words():
         lst = request.form.keys()[0].split('*')
         pa(request.form.keys())
         come_from = lst[0]
-        # p(come_from)
         year = lst[1]
         month = lst[2]
         index = lst[3]
@@ -153,7 +152,7 @@ def delete_word():
         word = lst[4]
 
         tackle = tackle_word.TackleWords()
-        tackle.delete(word + '-' + str(cf))
+        tackle.delete(word)
         return redirect(url_for('learn_english.show_words_list', come_from=cf, year=y, month=w, index=i))
 
 
@@ -195,9 +194,10 @@ def quickly_review():
 
         global stop
         stop = False
-        for word, verbose_info in result_lst:
+        for word_definition in result_lst:
             if stop:
                 break
+            word = word_definition['word'][:-2]
             time.sleep(1.5)
             pronunciation.show(word)
             time.sleep(3)

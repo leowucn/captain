@@ -1,6 +1,3 @@
 #!/usr/bin/env bash
-# pgrep -f captain | xargs kill -9
-# pgrep -f tackle_word | xargs kill -9
-pgrep -f clipboard | xargs kill -9
-
 nohup python src/captain.py &
+sh src/learn_english/run.sh

@@ -15,7 +15,7 @@ working_dir = os.getcwd()
 absolute_prefix = os.path.join(working_dir, 'asset')
 words_dir = os.path.join(parent_dir, 'asset/words')
 builder_file = os.path.join(parent_dir, 'asset/builder.json')
-usage_prefix = '☛: '
+usage_prefix = '✅: '
 
 
 '''
@@ -51,11 +51,12 @@ class TackleWords:
                 if usage.find(data['usage']) < 0:
                     if not usage.endswith('\n'):
                         usage += '\n'
-                usage += usage_prefix + data['usage'] + '\n'
-                clip_word_info['usage'] = usage
-                database.update_clipboard_word(clip_word_info)
+                    usage += usage_prefix + data['usage'] + '\n'
+                    clip_word_info['usage'] = usage
+                    database.update_clipboard_word(clip_word_info)
         if database.get_word_definition_by_word(data['word']) is None:
-            data['usage'] = usage_prefix + data['usage'] + '\n'
+            if not data['usage'].startswith(usage_prefix):
+                data['usage'] = usage_prefix + data['usage'] + '\n'
             database.insert_word_definition(data)
         else:
             word_definition = database.get_word_definition_by_word(

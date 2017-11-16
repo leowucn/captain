@@ -11,14 +11,16 @@ import json
 import utility
 import string
 from threading import Thread
+import database
 
 
-pronunciation_interval = 0.7      # the interval seconds between British pronunciation and American pronunciation
-timeout = 10                      # wait no more than four seconds for show pronunciation.
+# the interval seconds between British pronunciation and American pronunciation
+pronunciation_interval = 0.7
+# wait no more than four seconds for show pronunciation.
+timeout = 10
 
-basic_dict_file = os.path.join(os.getcwd(), 'src/learn_english/asset/pronunciation/basic.json')
-pronunciation_dir_pre = os.path.join(os.getcwd(), 'src/learn_english/asset/pronunciation')
-basic_dict = dict()
+pronunciation_dir_pre = os.path.join(
+    os.getcwd(), 'src/learn_english/asset/pronunciation')
 
 
 def show(word):
@@ -44,7 +46,8 @@ def launch_pronunciation(word):
         get_pronunciation(stripped_word, dst_dir)
         return
     else:
-        files = [f for f in os.listdir(dst_dir) if os.path.isfile(os.path.join(dst_dir, f))]
+        files = [f for f in os.listdir(
+            dst_dir) if os.path.isfile(os.path.join(dst_dir, f))]
         d = dict()
         for filename in files:
             if os.path.splitext(filename)[0] == stripped_word + '-uk':
@@ -83,7 +86,8 @@ def get_pronunciation(word, dst_dir):
     try:
         offset = 14     # len('data-src-mp3') + 2 or len('data-src-ogg') + 2
         for i in range(len(mp3_pos_lst)):
-            url_lst.append(content[mp3_pos_lst[i] + offset: ogg_pos_lst[i] - 2])
+            url_lst.append(
+                content[mp3_pos_lst[i] + offset: ogg_pos_lst[i] - 2])
     except:
         return
 
@@ -116,30 +120,24 @@ def show_literal_pronunciation(word):
     stripped_word = word.strip()
     if not stripped_word.isalpha():
         return
-    global basic_dict
-    load_basic_dict()
-
-    basic = dict()
-    if stripped_word in basic_dict:
-        basic = basic_dict[stripped_word]
-    else:
+    basic = database.get_word_basic_by_word(word)
+    if basic is None:
         result = get_text_pronunciation(stripped_word)
         if len(result) == 0:
             return
         if result['pronun'] == "" or result['basic'] == "":
             return
+        basic = dict()
+        basic['word'] = word
         basic['pronun'] = result['pronun']
         basic['basic'] = result['basic']
-        basic_dict[stripped_word] = basic
-        write_basic_dict()
+        database.insert_word_basic(basic)
 
     literal = basic['pronun'].replace("'", ".")
     literal = literal.replace("ˈ", ".")
 
-    # printable = set(string.printable)
-    # word = filter(lambda x: x in printable, word)
-
-    utility.show_notification(word + ' -> ' + literal.encode('utf-8'), basic['basic'].encode('utf-8'))
+    utility.show_notification(
+        word + ' -> ' + literal.encode('utf-8'), basic['basic'].encode('utf-8'))
     return
 
 
@@ -165,20 +163,6 @@ def get_text_pronunciation(word):
     else:
         basic['basic'] = ''
     return basic
-
-
-def load_basic_dict():
-    if not os.path.isfile(basic_dict_file):
-        return
-    global basic_dict
-    with open(basic_dict_file, 'r') as fp:
-        basic_dict = json.load(fp)
-
-
-def write_basic_dict():
-    global basic_dict
-    with open(basic_dict_file, mode='w') as f:
-        f.write(json.dumps(basic_dict, indent=2))
 
 
 def p(c):

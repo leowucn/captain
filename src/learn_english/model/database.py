@@ -81,6 +81,28 @@ def get_clipboard_word_all():
     collection = db['clipboard_word']
     return collection.find({})
 
+# ------------------------------------------------
+# word basic definition
+
+
+def insert_word_basic(word_basic):
+    db = client['db_captain']
+    collection = db['word_basic']
+    oid = ObjectId()
+    word_basic['_id'] = str(oid)
+    collection.insert_one(word_basic)
+
+
+def get_word_basic_by_word(word):
+    db = client['db_captain']
+    collection = db['word_basic']
+    return collection.find_one({'word': word})
+
+
+def get_word_basic_all():
+    db = client['db_captain']
+    collection = db['word_basic']
+    return collection.find({})
 
 # insert_word_definition({"author": "Mike","text": "My first blog post!", 'word':'hello'})
 # res = get_word_definition_by_word('hell')

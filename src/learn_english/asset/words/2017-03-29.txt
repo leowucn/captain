@@ -1,0 +1,120 @@
+1. jostle
+usage: People jostled him on their way to platforms nine and ten. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-27 06:52:56
+
+2. brass
+usage: otection by Quentin Trimble OTHER EQUIPMENT 1 wand 1 cauldron (pewter, standard size 2) 1 set glass or crystal phials 1 telescope 1 set brass scales Students may also bring an owl OR a cat OR a toad PARENTS ARE REMINDED THAT FIRST YEARS ARE NOT ALLOWED THEIR OWN BROOMSTICKS “Can we buy all this in London?” 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-26 10:28:25
+
+3. pelt
+usage: So he pelts Dumbledore with owls every morning, askin’ fer advice.” 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-26 10:18:51
+
+4. tent
+usage: Hagrid took up two seats and sat knitting what looked like a canary-yellow circus tent. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-26 10:22:15
+
+5. knitting
+usage: Hagrid took up two seats and sat knitting what looked like a canary-yellow circus tent. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-26 10:21:53
+
+6. trunk
+usage: Each of them was pushing a trunk like Harry’s in front of him — and they had an owl. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-26 18:53:10
+
+7. shabby
+usage: The last shop was narrow and shabby. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-26 15:16:01
+
+8. heartstrings
+usage: We use unicorn hairs, phoenix tail feathers, and the heartstrings of dragons. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-26 17:01:55
+
+9. lean
+usage: He did look very green, and when the cart stopped at last beside a small door in the passage wall, Hagrid got out and had to lean against the wall to stop his knees from trembling. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-26 12:59:30
+
+10. pile
+usage: Could there really be piles of wizard gold buried miles beneath them? 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-26 10:32:12
+
+11. flaming
+usage: The speaker was a plump woman who was talking to four boys, all with flaming red hair. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-26 18:52:39
+
+12. peel
+usage: Peeling gold letters over the door read Ollivanders: Makers of Fine Wands since 382b.c. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-26 15:16:34
+
+13. beam
+usage: Harry looked back at Hagrid, smiling, and saw that Hagrid was positively beaming at him. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-25 10:45:03
+
+14. squat
+usage: Madam Malkin was a squat, smiling witch dressed all in mauve. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-26 13:25:29
+
+15. unicorn
+usage: While Hagrid asked the man behind the counter for a supply of some basic potion ingredients for Harry, Harry himself examined silver unicorn horns at twenty-one Galleons each and minuscule, glittery-black beetle eyes (five Knuts a scoop). 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-26 15:10:58
+
+16. gruff
+usage: “Don’ mention it,” said Hagrid gruffly. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-26 15:15:05
+
+17. cobbled
+usage: The brick he had touched quivered — it wriggled — in the middle, a small hole appeared — it grew wider and wider — a second later they were facing an archway large enough even for Hagrid, an archway onto a cobbled street that twisted and turned out of sight. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-26 11:50:39
+
+18. babble
+usage: At last, Hagrid managed to make himself heard over the babble. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-26 11:46:44
+
+19. slam
+usage: Pulling Aunt Petunia and Dudley into the other room, he cast one last terrified look at Hagrid and slammed the door behind them. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-25 10:49:57
+
+20. twitch
+usage: One of his eyes was twitching. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-26 11:44:53
+
+21. surname
+usage: What’s your surname, anyway?” 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-26 13:33:46
+
+22. balloon
+usage: Harry scrambled to his feet, so happy he felt as though a large balloon was swelling inside him. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-26 09:53:14
+
+23. silvery
+usage: Those silvery eyes were a bit creepy. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-26 15:20:44
+
+24. measured
+usage: He measured Harry from shoulder to finger, then wrist to elbow, shoulder to floor, knee to armpit and round his head. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-26 15:25:25
+

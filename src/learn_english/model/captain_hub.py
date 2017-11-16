@@ -29,7 +29,8 @@ def watcher():
                 sentences = extract.extract(word, result)
                 if len(sentences) > 0:
                     for sentence in sentences:
-                        tackle.query(ori_form + '-1', sentence, strftime("%Y-%m-%d", gmtime()))
+                        tackle.query(ori_form + '-1', sentence,
+                                     strftime("%Y-%m-%d", gmtime()))
             if word != '':
                 if i >= max_display_times:
                     os.system("echo '' | pbcopy")

@@ -1,0 +1,100 @@
+1. sweater
+usage: “Thanks for the fudge and the sweater, Mrs. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:46:47
+
+2. hanging
+usage: In an instant, the green hangings became scarlet and the silver became gold; the huge Slytherin serpent vanished and a towering Gryffindor lion took its place. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:38:52
+
+3. grin
+usage: “Still famous,” said Ron, grinning at him. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:45:24
+
+4. fleet
+usage: And suddenly, their wardrobes were empty, their trunks were packed, Neville’s toad was found lurking in a corner of the toilets; notes were handed out to all students, warning them not to use magic over the holidays (“I always hope they’ll forget to give us these,” said Fred Weasley sadly); Hagrid was there to take them down to the fleet of boats that sailed across the lake; they were boarding the Hogwarts Express; talking and laughing as the countryside became greener and tidier; eating Bertie Bott’s Every Flavor Beans as they sped past Muggle towns; pulling off their wizard robes and putting on jackets and coats; pulling into platform nine and three-quarters at King’s Cross station. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:42:54
+
+5. squeal
+usage: she squealed. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:46:06
+
+6. applause
+usage: “Which means,” Dumbledore called over the storm of applause, for even Ravenclaw and Hufflepuff were celebrating the downfall of Slytherin, “we need a little change of decoration.” 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:38:29
+
+7. sail
+usage: And suddenly, their wardrobes were empty, their trunks were packed, Neville’s toad was found lurking in a corner of the toilets; notes were handed out to all students, warning them not to use magic over the holidays (“I always hope they’ll forget to give us these,” said Fred Weasley sadly); Hagrid was there to take them down to the fleet of boats that sailed across the lake; they were boarding the Hogwarts Express; talking and laughing as the countryside became greener and tidier; eating Bertie Bott’s Every Flavor Beans as they sped past Muggle towns; pulling off their wizard robes and putting on jackets and coats; pulling into platform nine and three-quarters at King’s Cross station. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:43:24
+
+8. moustache
+usage: It was Uncle Vernon, still purple-faced, still mustached, still looking furious at the nerve of Harry, carrying an owl in a cage in a station full of ordinary people. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:47:04
+
+9. horrify
+usage: Harry, still cheering, nudged Ron in the ribs and pointed at Malfoy, who couldn’t have looked more stunned and horrified if he’d just had the Body-Bind Curse put on him. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:38:14
+
+10. abysmal
+usage: Even Neville scraped through, his good Herbology mark making up for his abysmal Potions one. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:41:26
+
+11. rib
+usage: Harry, still cheering, nudged Ron in the ribs and pointed at Malfoy, who couldn’t have looked more stunned and horrified if he’d just had the Body-Bind Curse put on him. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:38:04
+
+12. very
+usage: Behind him stood Aunt Petunia and Dudley, looking terrified at the very sight of Harry. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:47:28
+
+13. nudge
+usage: Harry, still cheering, nudged Ron in the ribs and pointed at Malfoy, who couldn’t have looked more stunned and horrified if he’d just had the Body-Bind Curse put on him. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:37:54
+
+14. jot
+usage: He caught Harry’s eye and Harry knew at once that Snape’s feelings toward him hadn’t changed one jot. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:39:50
+
+15. manner
+usage: “In a manner of speaking,” said Uncle Vernon. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:47:56
+
+16. wardrobe
+usage: And suddenly, their wardrobes were empty, their trunks were packed, Neville’s toad was found lurking in a corner of the toilets; notes were handed out to all students, warning them not to use magic over the holidays (“I always hope they’ll forget to give us these,” said Fred Weasley sadly); Hagrid was there to take them down to the fleet of boats that sailed across the lake; they were boarding the Hogwarts Express; talking and laughing as the countryside became greener and tidier; eating Bertie Bott’s Every
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:41:52
+
+17. wizened
+usage: A wizened old guard was up by the ticket barrier, letting them go through the gate in twos and threes so they didn’t attract attention by all bursting out of a solid wall at once and alarming the Muggles. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:44:08
+
+18. serpent
+usage: In an instant, the green hangings became scarlet and the silver became gold; the huge Slytherin serpent vanished and a towering Gryffindor lion took its place. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:39:11
+
+19. fudge
+usage: “Thanks for the fudge and the sweater, Mrs. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:46:35
+
+20. scarlet
+usage: In an instant, the green hangings became scarlet and the silver became gold; the huge Slytherin serpent vanished and a towering Gryffindor lion took its place. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-05-06 14:39:02
+

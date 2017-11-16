@@ -1,0 +1,100 @@
+1. furious
+usage: “I want to read it,” said Harry furiously, “as it’s mine.” 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 21:48:31
+
+2. fruitcake
+usage: “Oh, these people’s minds work in strange ways, Petunia, they’re not like you and me,” said Uncle Vernon, trying to knock in a nail with the piece of fruitcake Aunt Petunia had just brought him. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 22:17:24
+
+3. porridge
+usage: Within seconds it was the grayish white of old porridge. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 21:45:21
+
+4. reptile
+usage: People throughout the reptile house screamed and started running for the exits. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 11:09:58
+
+5. twang
+usage: Harry picked it up and stared at it, his heart twanging like a giant elastic band. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 21:36:51
+
+6. screw
+usage: In fact, he wasn’t really crying — it had been years since he’d really cried — but he knew that if he screwed up his face and wailed, his mother would give him anything he wanted. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-12 19:45:51
+
+7. crutch
+usage: Figg as she crossed Privet Drive on her crutches. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 11:29:46
+
+8. wrinkled
+usage: Dudley and Uncle Vernon came in, both with wrinkled noses because of the smell from Harry’s new uniform. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 13:55:30
+
+9. pinched
+usage: Dursley’s scream as she opened the front door to put out the milk bottles, nor that he would spend the next few weeks being prodded and pinched by his cousin Dudley. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2016-12-12 08:42:18
+
+10. keyhole
+usage: Harry and Dudley promptly had a furious but silent fight over who would listen at the keyhole; Dudley won, so Harry, his glasses dangling from one ear, lay flat on his stomach to listen at the crack between door and floor. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 21:52:43
+
+11. cornflakes
+usage: … They ate stale cornflakes and cold tinned tomatoes on toast for breakfast the next day. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 22:28:53
+
+12. knickerbockers
+usage: Smeltings boys wore maroon tailcoats, orange knickerbockers, and flat straw hats called boaters. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 13:33:42
+
+13. snort
+usage: Uncle Vernon ripped open the bill, snorted in disgust, and flipped over the postcard. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 21:42:33
+
+14. rip
+usage: Uncle Vernon ripped open the bill, snorted in disgust, and flipped over the postcard. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 21:42:02
+
+15. flip
+usage: Uncle Vernon ripped open the bill, snorted in disgust, and flipped over the postcard. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 21:42:52
+
+16. eagle
+usage: Turning the envelope over, his hand trembling, Harry saw a purple wax seal bearing a coat of arms; a lion, an eagle, a badger, and a snake surrounding a large letter H. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 21:41:02
+
+17. squeeze
+usage: As far as Harry had seen, the snake hadn’t done anything except snap playfully at their heels as it passed, but by the time they were all back in Uncle Vernon’s car, Dudley was telling them how it had nearly bitten off his leg, while Piers was swearing it had tried to squeeze him to death. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 11:12:44
+
+18. brandy
+usage: He managed to say, “Go — cupboard — stay — no meals,” before he collapsed into a chair, and Aunt Petunia had to run and get him a large brandy. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 11:13:45
+
+19. grey
+usage: Within seconds it was the grayish white of old porridge. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 21:45:13
+
+20. dodge
+usage: Harry dodged the Smelting stick and went to get the mail. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-01-08 21:34:25
+

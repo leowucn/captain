@@ -1,0 +1,100 @@
+1. costume
+usage: But he was in Turkish costume, and so nobody would believe what he said. 
+book: 小王子 (插图版)
+date: 2017-11-09 07:06:29
+
+2. astronomical
+usage: On making his discovery, the astronomer had presented it to the International Astronomical Congress, in a great demonstration. 
+book: 小王子 (插图版)
+date: 2017-11-09 07:05:06
+
+3. goner
+usage: With a guy like Ackley, if you looked up from your book you were a goner. 
+book: The catcher in the rye
+date: 2017-10-30 20:12:46
+
+4. shrug
+usage: They would shrug their shoulders, and treat you like a child. 
+book: 小王子 (插图版)
+date: 2017-11-09 07:15:11
+
+5. swell
+usage: He was telling us all about what a swell guy he was, what a hot-shot and all, then all of a sudden this guy sitting in the row in front of me, Edgar Marsalla, laid this terrific fart. 
+book: The catcher in the rye
+date: 2017-10-30 19:26:38
+
+6. geranium
+usage: If you were to say to the grown-ups: "I saw a beautiful house made of rosy brick, with geraniums in the windows and doves on the roof," they would not be able to get any idea of that house at all. 
+book: 小王子 (插图版)
+date: 2017-11-09 07:13:10
+
+7. tough
+usage: I told him how I would’ve done exactly the same thing if I’d been in his place, and how most people didn’t appreciate how tough it is being a teacher. 
+book: The catcher in the rye
+date: 2017-10-30 18:37:28
+
+8. dive
+usage: If you were to say to the grown-ups: "I saw a beautiful house made of rosy brick, with geraniums in the windows and doves on the roof," they would not be able to get any idea of that house at all. 
+book: 小王子 (插图版)
+date: 2017-11-09 07:13:59
+
+9. Turkish
+usage: But he was in Turkish costume, and so nobody would believe what he said. 
+book: 小王子 (插图版)
+date: 2017-11-09 07:08:36
+
+10. asteroid
+usage: This asteroid has only once been seen through the telescope. 
+book: 小王子 (插图版)
+date: 2017-11-09 07:03:38
+
+11. dictator
+usage: Fortunately, however, for the reputation of Asteroid B-612, a Turkish dictator made a law that his subjects, under pain of death, should change to European costume. 
+book: 小王子 (插图版)
+date: 2017-11-09 07:09:43
+
+12. figure
+usage: But certainly, for us who understand life, figures are a matter of indifference. 
+book: 小王子 (插图版)
+date: 2017-11-09 07:32:36
+
+13. European
+usage: Fortunately, however, for the reputation of Asteroid B-612, a Turkish dictator made a law that his subjects, under pain of death, should change to European costume. 
+book: 小王子 (插图版)
+date: 2017-11-09 07:10:02
+
+14. grief
+usage: I have suffered too much grief in setting down these memories. 
+book: 小王子 (插图版)
+date: 2017-11-09 07:20:01
+
+15. indifference
+usage: But certainly, for us who understand life, figures are a matter of indifference. 
+book: 小王子 (插图版)
+date: 2017-11-09 07:32:22
+
+16. reputation
+usage: Fortunately, however, for the reputation of Asteroid B-612, a Turkish dictator made a law that his subjects, under pain of death, should change to European costume. 
+book: 小王子 (插图版)
+date: 2017-11-09 07:09:07
+
+17. Venus
+usage: I knew very well that in addition to the great planets-- such as the Earth, Jupiter, Mars, Venus-- to which we have given names, there are also hundreds of others, some of which are so small that one has a hard time seeing them through the telescope. 
+book: 小王子 (插图版)
+date: 2017-11-09 06:57:48
+
+18. forbearance
+usage: Children should always show great forbearance toward grown-up people. 
+book: 小王子 (插图版)
+date: 2017-11-09 07:16:56
+
+19. impressive
+usage: So in 1920 the astronomer gave his demonstration all over again, dressed with impressive style and elegance. 
+book: 小王子 (插图版)
+date: 2017-11-09 07:10:15
+
+20. congress
+usage: On making his discovery, the astronomer had presented it to the International Astronomical Congress, in a great demonstration. 
+book: 小王子 (插图版)
+date: 2017-11-09 07:05:17
+

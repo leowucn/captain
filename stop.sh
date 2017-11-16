@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
-kill  $(lsof -ti:9527)
+pgrep -f captain | xargs kill -9
+pgrep -f learn_english | xargs kill -9

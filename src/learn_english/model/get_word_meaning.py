@@ -43,7 +43,6 @@ def get_word_meaning(wrapped_word):
             phrase_str = ''
             for i, s in enumerate(phrase.stripped_strings):
                 r = s.replace('\n', '')
-
                 if r.find(word) >= 0:
                     if i + 1 >= len(list(phrase.stripped_strings)):
                         break
@@ -206,3 +205,8 @@ def is_start_word_type(src):
         if src.strip().startswith(w_type):
             return True
     return False
+
+
+def p(content):
+    utility.append_log('---------------------')
+    utility.append_log(content)

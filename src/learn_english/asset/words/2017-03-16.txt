@@ -1,0 +1,100 @@
+1. glint
+usage: His face was almost completely hidden by a long, shaggy mane of hair and a wild, tangled beard, but you could make out his eyes, glinting like black beetles under all the hair. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-01 07:48:55
+
+2. beard
+usage: His face was almost completely hidden by a long, shaggy mane of hair and a wild, tangled beard, but you could make out his eyes, glinting like black beetles under all the hair. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-01 07:48:37
+
+3. hanger
+usage: Of course, his birthdays were never exactly fun — last year, the Dursleys had given him a coat hanger and a pair of Uncle Vernon’s old socks. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-02-28 07:39:50
+
+4. bolt
+usage: The whole shack shivered and Harry sat bolt upright, staring at the door. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-01 07:43:52
+
+5. mane
+usage: His face was almost completely hidden by a long, shaggy mane of hair and a wild, tangled beard, but you could make out his eyes, glinting like black beetles under all the hair. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-01 07:47:30
+
+6. slap
+usage: Was that the sea, slapping hard on the rock like that? 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-01 07:42:18
+
+7. brushed
+usage: The giant squeezed his way into the hut, stooping so that his head just brushed the ceiling. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-01 07:50:11
+
+8. rowboat
+usage: A toothless old man came ambling up to them, pointing, with a rather wicked grin, at an old rowboat bobbing in the iron-gray water below them. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-01 07:26:30
+
+9. point
+usage: A toothless old man came ambling up to them, pointing, with a rather wicked grin, at an old rowboat bobbing in the iron-gray water below them. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-01 07:26:07
+
+10. trodden
+usage: Uncle Vernon made another funny noise, like a mouse being trodden on. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-06 07:35:32
+
+11. rattle
+usage: Spray from the high waves splattered the walls of the hut and a fierce wind rattled the filthy windows. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-01 07:34:45
+
+12. suspension
+usage: The same thing happened in the middle of a plowed field, halfway across a suspension bridge, and at the top of a multilevel parking garage. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-02-28 07:34:36
+
+13. landed
+usage: The door was hit with such force that it swung clean off its hinges and with a deafening crash landed flat on the floor. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-01 07:47:13
+
+14. smile
+usage: Harry looked up into the fierce, wild, shadowy face and saw that the beetle eyes were crinkled in a smile. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-05 18:30:52
+
+15. poker
+usage: The giant sat back down on the sofa, which sagged under his weight, and began taking all sorts of things out of the pockets of his coat: a copper kettle, a squashy package of sausages, a poker, a teapot, several chipped mugs, and a bottle of some amber liquid that he took a swig from before starting to make tea. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-06 07:43:05
+
+16. overcoat
+usage: From an inside pocket of his black overcoat he pulled a slightly squashed box. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-06 07:36:28
+
+17. wrist
+usage: The lighted dial of Dudley’s watch, which was dangling over the edge of the sofa on his fat wrist, told Harry he’d be eleven in ten minutes’ time. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-01 07:40:45
+
+18. snivel
+usage: Dudley sniveled. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-02-28 07:37:59
+
+19. toast
+usage: … They ate stale cornflakes and cold tinned tomatoes on toast for breakfast the next day. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-02-28 07:31:27
+
+20. seaweed
+usage: The inside was horrible; it smelled strongly of seaweed, the wind whistled through the gaps in the wooden walls, and the fireplace was damp and empty. 
+book: Harry_Potter_and_the_Sorcerer
+date: 2017-03-01 07:30:35
+
