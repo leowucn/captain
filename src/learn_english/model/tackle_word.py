@@ -9,16 +9,13 @@ import random
 import time
 import pronunciation
 import database
-import re
 
 parent_dir = dirname(dirname(abspath(__file__)))
 working_dir = os.getcwd()
 absolute_prefix = os.path.join(working_dir, 'asset')
 words_dir = os.path.join(parent_dir, 'asset/words')
-
-dict_file = os.path.join(parent_dir, 'asset/dict.json')
-clipboard_file = os.path.join(parent_dir, 'asset/clipboard.json')
 builder_file = os.path.join(parent_dir, 'asset/builder.json')
+usage_prefix = '☛: '
 
 
 '''
@@ -40,13 +37,12 @@ word-1            represent word from clipboard
 
 class TackleWords:
     def __init__(self):
-        self.words_definitions = database.get_word_definition_all()
-        self.clipboard_data = database.get_clipboard_word_all()
+        pass
 
     def save_word(self, data):
         if data['word'].endswith('-1'):
             if database.get_clipboard_word_by_word(data['word']) is None:
-                data['usage'] = '✓' + data['usage'] + '\n'
+                data['usage'] = usage_prefix + data['usage'] + '\n'
                 database.insert_clipboard_word(data)
             else:
                 clip_word_info = database.get_clipboard_word_by_word(
@@ -55,15 +51,11 @@ class TackleWords:
                 if usage.find(data['usage']) < 0:
                     if not usage.endswith('\n'):
                         usage += '\n'
-                usage += '✓' + data['usage'] + '\n'
+                usage += usage_prefix + data['usage'] + '\n'
                 clip_word_info['usage'] = usage
                 database.update_clipboard_word(clip_word_info)
-            self.clipboard_data = database.get_clipboard_word_all()
         if database.get_word_definition_by_word(data['word']) is None:
-            r = re.compile("[1-9]+\)").split(data['usage'])
-            res = '\n@'.join(r)
-            usage = '✓' + '\n✓'.join(res) + '\n'
-            data['usage'] = unicode(usage, errors='replace')
+            data['usage'] = usage_prefix + data['usage'] + '\n'
             database.insert_word_definition(data)
         else:
             word_definition = database.get_word_definition_by_word(
@@ -72,10 +64,9 @@ class TackleWords:
             if usage.find(data['usage']) < 0:
                 if not usage.endswith('\n'):
                     usage += '\n'
-                usage += '✓' + data['usage'] + '\n'
+                usage += usage_prefix + data['usage'] + '\n'
                 word_definition['usage'] = usage
                 database.update_word_definition(word_definition)
-        self.words_definitions = database.get_word_definition_all()
 
     def query(self, wrapped_word, usage=None, date=None, book=None):
         word_definition = dict()
@@ -116,7 +107,9 @@ class TackleWords:
                                      2][lines[index + 2].find(':') + 1:]
                         self.query(wrapped_word, usage,
                                    file_name[:-4], book)
-        for clip_word_info in self.clipboard_data:
+
+        clipboard_data = database.get_clipboard_word_all()
+        for clip_word_info in clipboard_data:
             wrapped_word = clip_word_info['word'] + '-1'
             if database.get_clipboard_word_by_word(wrapped_word) is not None:
                 continue
@@ -166,7 +159,9 @@ class TackleWords:
         result = dict()
         result[0] = dict()
         result[1] = dict()
-        for word_definition in self.words_definitions:
+
+        words_definitions = database.get_word_definition_all()
+        for word_definition in words_definitions:
             t = word_definition['date'].split(' ')[0].split('-')
             year = t[0]
             month = t[1]
@@ -189,7 +184,8 @@ class TackleWords:
         return result
 
     def emit_random_word(self):
-        random_word = random.choice(self.words_definitions)[:-2]
+        words_definitions = database.get_word_definition_all()
+        random_word = random.choice(words_definitions)[:-2]
         pronunciation.show(random_word)
         time.sleep(1.5)
         pronunciation.show(random_word)
