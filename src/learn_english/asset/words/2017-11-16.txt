@@ -1,0 +1,115 @@
+1. choked
+usage: His words were choked by sobbing.
+book: 小王子 (插图版)
+date: 2017-11-12 09:29:26
+
+2. terrible
+usage: They believe that their thorns are terrible weapons..."
+book: 小王子 (插图版)
+date: 2017-11-12 09:20:53
+
+3. fellow
+usage: And I was astounded to hear the little fellow greet it with, "No, no, no!
+book: 小王子 (插图版)
+date: 2017-11-08 08:20:05
+
+4. chap
+usage: But then I remembered how my studies had been concentrated on geography, history, arithmetic, and grammar, and I told the little chap (a little crossly, too) that I did not know how to draw.
+book: 小王子 (插图版)
+date: 2017-11-08 08:18:39
+
+5. greet
+usage: And I was astounded to hear the little fellow greet it with, "No, no, no!
+book: 小王子 (插图版)
+date: 2017-11-08 08:19:46
+
+6. relentless
+usage: But he went on, relentlessly: "You mix everything up together...
+book: 小王子 (插图版)
+date: 2017-11-12 09:22:45
+
+7. bush
+usage: Abruptly, without anything to lead up to it, and as if the question had been born of long and silent meditation on his problem, he demanded: "A sheep-- if it eats little bushes, does it eat flowers, too?"
+book: 小王子 (插图版)
+date: 2017-11-12 09:14:27
+
+8. astound
+usage: And I was astounded to hear the little fellow greet it with, "No, no, no!
+book: 小王子 (插图版)
+date: 2017-11-08 08:19:31
+
+9. spite
+usage: Flowers have thorns just for spite!"
+book: 小王子 (插图版)
+date: 2017-11-12 09:19:18
+
+10. reassure
+usage: They reassure themselves as best they can.
+book: 小王子 (插图版)
+date: 2017-11-12 09:20:29
+
+11. concentrated
+usage: But then I remembered how my studies had been concentrated on geography, history, arithmetic, and grammar, and I told the little chap (a little crossly, too) that I did not know how to draw.
+book: 小王子 (插图版)
+date: 2017-11-08 08:17:38
+
+12. resentful
+usage: Then the little prince flashed back at me, with a kind of resentfulness: "I don't believe you!
+book: 小王子 (插图版)
+date: 2017-11-12 09:19:58
+
+13. warfare
+usage: Is the warfare between the sheep and the flowers not important?
+book: 小王子 (插图版)
+date: 2017-11-12 09:26:11
+
+14. unscrew
+usage: At that moment I was very busy trying to unscrew a bolt that had got stuck in my engine.
+book: 小王子 (插图版)
+date: 2017-11-12 09:15:47
+
+15. sob
+usage: His words were choked by sobbing.
+book: 小王子 (插图版)
+date: 2017-11-12 09:29:34
+
+16. bolt
+usage: At that moment I was very busy trying to unscrew a bolt that had got stuck in my engine.
+book: 小王子 (插图版)
+date: 2017-11-12 09:17:19
+
+17. cumbersome
+usage: A boa constrictor is a very dangerous creature, and an elephant is very cumbersome.
+book: 小王子 (插图版)
+date: 2017-11-08 08:20:42
+
+18. meditation
+usage: Abruptly, without anything to lead up to it, and as if the question had been born of long and silent meditation on his problem, he demanded: "A sheep-- if it eats little bushes, does it eat flowers, too?"
+book: 小王子 (插图版)
+date: 2017-11-12 09:14:13
+
+19. cross
+usage: But then I remembered how my studies had been concentrated on geography, history, arithmetic, and grammar, and I told the little chap (a little crossly, too) that I did not know how to draw.
+book: 小王子 (插图版)
+date: 2017-11-08 08:18:47
+
+20. rage
+usage: The little prince was now white with rage.
+book: 小王子 (插图版)
+date: 2017-11-12 09:24:30
+
+21. mushroom
+usage: But he is not a man-- he is a mushroom!"
+book: 小王子 (插图版)
+date: 2017-11-12 09:24:20
+
+22. twilight
+usage: You can see the day end and the twilight falling whenever you like...
+book: 小王子 (插图版)
+date: 2017-11-12 09:12:36
+
+23. thorn
+usage: "The thorns-- what use are they?"
+book: 小王子 (插图版)
+date: 2017-11-12 09:18:06
+
