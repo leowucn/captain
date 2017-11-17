@@ -9,6 +9,8 @@ import random
 import time
 import pronunciation
 import database
+import re
+import io
 
 parent_dir = dirname(dirname(abspath(__file__)))
 working_dir = os.getcwd()
@@ -42,7 +44,7 @@ class TackleWords:
     def save_word(self, data):
         if data['word'].endswith('-1'):
             if database.get_clipboard_word_by_word(data['word']) is None:
-                data['usage'] = usage_prefix + data['usage'] + '\n'
+                data['usage'] += get_splitted_usages(data['usage']) + '\n'
                 database.insert_clipboard_word(data)
             else:
                 clip_word_info = database.get_clipboard_word_by_word(
@@ -51,12 +53,13 @@ class TackleWords:
                 if usage.find(data['usage']) < 0:
                     if not usage.endswith('\n'):
                         usage += '\n'
-                    usage += usage_prefix + data['usage'] + '\n'
+                    usage += get_splitted_usages(data['usage']) + '\n'
                     clip_word_info['usage'] = usage
                     database.update_clipboard_word(clip_word_info)
         if database.get_word_definition_by_word(data['word']) is None:
             if not data['usage'].startswith(usage_prefix):
-                data['usage'] = usage_prefix + data['usage'] + '\n'
+                data['usage'] = get_splitted_usages(data['usage']) + '\n'
+            p(data['usage'])
             database.insert_word_definition(data)
         else:
             word_definition = database.get_word_definition_by_word(
@@ -65,7 +68,7 @@ class TackleWords:
             if usage.find(data['usage']) < 0:
                 if not usage.endswith('\n'):
                     usage += '\n'
-                usage += usage_prefix + data['usage'] + '\n'
+                usage += get_splitted_usages(data['usage']) + '\n'
                 word_definition['usage'] = usage
                 database.update_word_definition(word_definition)
 
@@ -94,7 +97,7 @@ class TackleWords:
             if os.path.splitext(file_name)[1] != '.txt':
                 continue
             file_path = os.path.join(words_dir, file_name)
-            with open(file_path) as f:
+            with io.open(file_path, mode="r", encoding="utf-8") as f:
                 # All lines including the blank ones
                 lines = (line.rstrip() for line in f)
                 lines = list(line for line in lines if line)  # Non-blank lines
@@ -201,6 +204,13 @@ class TackleWords:
             self.emit_random_word()
         elif 25 <= now_minute <= 30:
             self.emit_random_word()
+
+
+def get_splitted_usages(raw_usages):
+    l = re.compile('[0-9]+\)').split(raw_usages)
+    if len(l) == 1:
+        return usage_prefix + l[0]
+    return usage_prefix + ('\n' + usage_prefix).join(l[1:])
 
 
 def p(content):

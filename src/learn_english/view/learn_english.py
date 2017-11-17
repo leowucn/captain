@@ -88,7 +88,6 @@ def show_words_list(come_from, year, month, index):
 def show_specified_page_words():
     if request.method == 'POST':
         lst = request.form.keys()[0].split('*')
-        pa(request.form.keys())
         come_from = lst[0]
         year = lst[1]
         month = lst[2]
