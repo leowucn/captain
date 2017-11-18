@@ -42,9 +42,10 @@ class TackleWords:
         pass
 
     def save_word(self, data):
+        word = data['word'][:-2]
         if data['word'].endswith('-1'):
             if database.get_clipboard_word_by_word(data['word']) is None:
-                data['usage'] += get_splitted_usages(data['usage']) + '\n'
+                data['usage'] = get_refined_usages(data['usage'], word) + '\n'
                 database.insert_clipboard_word(data)
             else:
                 clip_word_info = database.get_clipboard_word_by_word(
@@ -53,13 +54,12 @@ class TackleWords:
                 if usage.find(data['usage']) < 0:
                     if not usage.endswith('\n'):
                         usage += '\n'
-                    usage += get_splitted_usages(data['usage']) + '\n'
+                    usage += get_refined_usages(data['usage'], word) + '\n'
                     clip_word_info['usage'] = usage
                     database.update_clipboard_word(clip_word_info)
         if database.get_word_definition_by_word(data['word']) is None:
             if not data['usage'].startswith(usage_prefix):
-                data['usage'] = get_splitted_usages(data['usage']) + '\n'
-            p(data['usage'])
+                data['usage'] = get_refined_usages(data['usage'], word) + '\n'
             database.insert_word_definition(data)
         else:
             word_definition = database.get_word_definition_by_word(
@@ -68,7 +68,7 @@ class TackleWords:
             if usage.find(data['usage']) < 0:
                 if not usage.endswith('\n'):
                     usage += '\n'
-                usage += get_splitted_usages(data['usage']) + '\n'
+                usage += get_refined_usages(data['usage'], word) + '\n'
                 word_definition['usage'] = usage
                 database.update_word_definition(word_definition)
 
@@ -109,13 +109,14 @@ class TackleWords:
                                       1][lines[index + 1].find(':') + 1:]
                         book = lines[index +
                                      2][lines[index + 2].find(':') + 1:]
-                        self.query(wrapped_word, usage,
+                        wrapped_word = utility.get_word_original_form(
+                            word) + '-0'
+                        self.query(wrapped_word,  usage,
                                    file_name[:-4], book)
-
         clipboard_data = database.get_clipboard_word_all()
         for clip_word_info in clipboard_data:
             wrapped_word = clip_word_info['word'] + '-1'
-            if database.get_clipboard_word_by_word(wrapped_word) is not None:
+            if database.get_word_definition_by_word(wrapped_word) is not None:
                 continue
             self.query(
                 wrapped_word, clip_word_info['usage'], clip_word_info['date'])
@@ -206,7 +207,10 @@ class TackleWords:
             self.emit_random_word()
 
 
-def get_splitted_usages(raw_usages):
+def get_refined_usages(raw_usages, word):
+    # p = '<strong>' + word + '</strong>'
+    # raw_usages = raw_usages.replace(p, word)
+    # raw_usages = raw_usages.replace(word, p)
     l = re.compile('[0-9]+\)').split(raw_usages)
     if len(l) == 1:
         return usage_prefix + l[0]
