@@ -8,9 +8,8 @@
 
   <!-- Site Properties -->
   <title>Captain</title>
-  <link rel="stylesheet" type="text/css" href="/learn_english/static/semantic/dist/semantic.css">
-  <script src="/learn_english/static/semantic/dist/semantic.js"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/learn_english/static/semantic/semantic.css">
+    <script src="/learn_english/static/semantic/semantic.js"></script>
 
 
   <script>
@@ -31,6 +30,12 @@
     </style>
 </head>
    <body style='margin-top:0.5cm;margin-left:2cm;margin-right:2cm;'>
+        <form class="ui form" action="http://127.0.0.1:9527/learn_english/" method="post">
+            <div class="ui action">
+                <input class="ui compact orange tiny button" type="submit" name='' value="go home page">
+            </div>
+        </form>
+
        <div style="text-align: center;fontgfamily:Open Sans; font-size: 45px;">
            <p style="font-size: 20px;">Vocabulary Lists</p>
            <p style="font-size: 45px;">{{ category_name_for_show }}</p>
@@ -45,6 +50,7 @@
             </div>
             <a href="http://127.0.0.1:9527/learn_english/vocabulary/{{ category_name }}/{{ list_name }}"><strong>{{ list_info['list_num'] }}<span class="glyphicon glyphicon-chevron-right"></span></strong></a>
             <div class="ui divider"></div>
+            <br>
        {% endfor %}
    </body>
 </html>

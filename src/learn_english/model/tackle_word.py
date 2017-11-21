@@ -1,40 +1,17 @@
 # -*- coding: utf-8 -*-
+"""
+do some stuff for tackling word
+"""
 import os
-from os.path import dirname, abspath
-import datetime
-import utility
-from datetime import datetime
-from get_word_meaning import get_word_meaning
+import io
+import re
 import random
 import time
+import utility
+from get_word_meaning import get_word_meaning
 import pronunciation
 import database
-import re
-import io
-
-parent_dir = dirname(dirname(abspath(__file__)))
-working_dir = os.getcwd()
-absolute_prefix = os.path.join(working_dir, 'asset')
-words_dir = os.path.join(parent_dir, 'asset/words')
-builder_file = os.path.join(parent_dir, 'asset/builder.json')
-usage_prefix = '✅: '
-
-
-'''
-all types might appear in result queried from youdao.com.
-'basic'           ------>基本释义
-'usage'           ------>出现的语句
-'phrase'          ------>词组短语
-'synonyms'        ------>同近义词
-'rel_word_tab'    ------>同根词
-'discriminate'    ------>词语辨析
-'collins'         ------>柯林斯
-'date'            ------>单词录入时间
-'index'           ------>index
-
-word-0            represent word from word builder
-word-1            represent word from clipboard
-'''
+import constants
 
 
 class TackleWords:
@@ -42,34 +19,28 @@ class TackleWords:
         pass
 
     def save_word(self, data):
-        word = data['word'][:-2]
         if data['word'].endswith('-1'):
             if database.get_clipboard_word_by_word(data['word']) is None:
-                data['usage'] = get_refined_usages(data['usage'], word) + '\n'
+                data['usage'] = utility.get_refined_usages(data['usage'])
                 database.insert_clipboard_word(data)
             else:
                 clip_word_info = database.get_clipboard_word_by_word(
                     data['word'])
-                usage = clip_word_info['usage']
-                if usage.find(data['usage']) < 0:
-                    if not usage.endswith('\n'):
-                        usage += '\n'
-                    usage += get_refined_usages(data['usage'], word) + '\n'
-                    clip_word_info['usage'] = usage
+                clip_word_info['usage'], ok = utility.get_concatinated_usages(
+                    clip_word_info['usage'], data['usage'])
+                if ok:
                     database.update_clipboard_word(clip_word_info)
         if database.get_word_definition_by_word(data['word']) is None:
-            if not data['usage'].startswith(usage_prefix):
-                data['usage'] = get_refined_usages(data['usage'], word) + '\n'
+            if not data['usage'].startswith(constants.USAGE_PREFIX):
+                data['usage'] = utility.get_refined_usages(
+                    data['usage'])
             database.insert_word_definition(data)
         else:
             word_definition = database.get_word_definition_by_word(
                 data['word'])
-            usage = word_definition['usage']
-            if usage.find(data['usage']) < 0:
-                if not usage.endswith('\n'):
-                    usage += '\n'
-                usage += get_refined_usages(data['usage'], word) + '\n'
-                word_definition['usage'] = usage
+            word_definition['usage'], ok = utility.get_concatinated_usages(
+                word_definition['usage'], data['usage'])
+            if ok:
                 database.update_word_definition(word_definition)
 
     def query(self, wrapped_word, usage=None, date=None, book=None):
@@ -91,12 +62,12 @@ class TackleWords:
         return
 
     def import_words(self):
-        files = [f for f in os.listdir(words_dir) if os.path.isfile(
-            os.path.join(words_dir, f))]
+        files = [f for f in os.listdir(constants.KINDLE_WORDS_DIR) if os.path.isfile(
+            os.path.join(constants.KINDLE_WORDS_DIR, f))]
         for file_name in files:
             if os.path.splitext(file_name)[1] != '.txt':
                 continue
-            file_path = os.path.join(words_dir, file_name)
+            file_path = os.path.join(constants.KINDLE_WORDS_DIR, file_name)
             with io.open(file_path, mode="r", encoding="utf-8") as f:
                 # All lines including the blank ones
                 lines = (line.rstrip() for line in f)
@@ -115,7 +86,7 @@ class TackleWords:
                                    file_name[:-4], book)
         clipboard_data = database.get_clipboard_word_all()
         for clip_word_info in clipboard_data:
-            wrapped_word = clip_word_info['word'] + '-1'
+            wrapped_word = clip_word_info['word']
             if database.get_word_definition_by_word(wrapped_word) is not None:
                 continue
             self.query(
@@ -129,9 +100,10 @@ class TackleWords:
         splitted_word = wrapped_word.split('-')
         # delete from word builder
         if splitted_word[1] == '0':
-            for file_name in os.listdir(words_dir):
+            for file_name in os.listdir(constants.KINDLE_WORDS_DIR):
                 if file_name.endswith(".txt"):
-                    file_path = os.path.join(words_dir, file_name)
+                    file_path = os.path.join(
+                        constants.KINDLE_WORDS_DIR, file_name)
                     if '. ' + splitted_word[0] in open(file_path).read():
                         valid_lines_lst = []
                         with open(file_path) as f:
@@ -159,8 +131,10 @@ class TackleWords:
                         break
         return
 
-    # lst(key: year->date->word  value: word_info)
     def get_classified_lst(self):
+        """
+            lst(key: year->date->word  value: word_info)
+        """
         result = dict()
         result[0] = dict()
         result[1] = dict()
@@ -198,30 +172,16 @@ class TackleWords:
         pronunciation.show(random_word)
         time.sleep(2)
 
-    # 获取随机单词，用于复习使用
     def memorize_words(self):
-        now_minute = utility.get_now_minute()
+        """
+        获取随机单词，用于复习使用
+        """
+        now_minute = utility.get_current_minute()
         if 0 <= now_minute <= 5:
             self.emit_random_word()
         elif 25 <= now_minute <= 30:
             self.emit_random_word()
 
 
-def get_refined_usages(raw_usages, word):
-    # p = '<strong>' + word + '</strong>'
-    # raw_usages = raw_usages.replace(p, word)
-    # raw_usages = raw_usages.replace(word, p)
-    l = re.compile('[0-9]+\)').split(raw_usages)
-    if len(l) == 1:
-        return usage_prefix + l[0]
-    return usage_prefix + ('\n' + usage_prefix).join(l[1:])
-
-
-def p(content):
-    utility.append_log('---------------------')
-    utility.append_log(content)
-
-
 if __name__ == "__main__":
-    tackle_words = TackleWords()
-    tackle_words.import_words()
+    TackleWords().import_words()

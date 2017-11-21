@@ -1,19 +1,19 @@
 # -*- encoding: utf-8 -*-
+"""
+extract words list from kindle
+"""
 import sqlite3
 import os
 from time import gmtime, strftime
 import datetime
-import pytz
 import re
-
-sqlite_file = '/Volumes/Kindle/system/vocabulary/vocab.db'  # on mac os
-words_table_name = 'WORDS'
-lookups_table_name = 'LOOKUPS'
-words_dir = os.path.join(os.getcwd(), 'src/learn_english/asset/words')
+import pytz
+import constants
 
 
 def backup_sqlite_file():
-    os.system('cp /Volumes/Kindle/system/vocabulary/vocab.db /Volumes/Kindle/system/vocabulary/.vocab.db.bak')
+    os.system('cp {} {}'.format(constants.KINDLE_SQLITE,
+                                constants.KINDLE_SQLITE_BACKUP))
 
 
 def get_table_data(conn, table_name):
@@ -52,18 +52,19 @@ def tackle_kindle(conn):
     words_filed_dict = dict()
     lookups_filed_dict = dict()
 
-    for index, filed in enumerate(get_table_field_names(conn, words_table_name)):
+    for index, filed in enumerate(get_table_field_names(conn, 'WORDS')):
         words_filed_dict[filed] = index
-    for index, filed in enumerate(get_table_field_names(conn, lookups_table_name)):
+    for index, filed in enumerate(get_table_field_names(conn, 'LOOKUPS')):
         lookups_filed_dict[filed] = index
 
-    words_data_lst = get_table_data(conn, words_table_name)
-    lookups_data_lst = get_table_data(conn, lookups_table_name)
+    words_data_lst = get_table_data(conn, 'WORDS')
+    lookups_data_lst = get_table_data(conn, 'LOOKUPS')
 
     result = dict()
     exported_id_lst = []
     for word_data in words_data_lst:
-        if word_data[words_filed_dict['category']] == 100:  # '100' represents the category in which the words has been mastered.
+        # '100' represents the category in which the words has been mastered.
+        if word_data[words_filed_dict['category']] == 100:
             item = dict()
             item['word'] = word_data[words_filed_dict['stem']]
             result[word_data[words_filed_dict['id']]] = item
@@ -72,7 +73,8 @@ def tackle_kindle(conn):
     for lookup_data in lookups_data_lst:
         word_key = lookup_data[lookups_filed_dict['word_key']]
         if word_key in exported_id_lst:
-            book_name = get_book_name_by_book_key(conn, lookup_data[lookups_filed_dict['book_key']])[0]
+            book_name = get_book_name_by_book_key(
+                conn, lookup_data[lookups_filed_dict['book_key']])[0]
             result[word_key]['book'] = ' '.join(book_name)
             result[word_key]['usage'] = lookup_data[lookups_filed_dict['usage']]
             result[word_key]['timestamp'] = lookup_data[lookups_filed_dict['timestamp']]
@@ -80,10 +82,12 @@ def tackle_kindle(conn):
     delete_retrieved_data(conn, result)
 
 
-# key: 'word' 'book_key' 'usage' 'timestamp'
 def store(words_data):
+    """
+    key: 'word' 'book_key' 'usage' 'timestamp'
+    """
     file_name = strftime("%Y-%m-%d", gmtime()) + '.txt'
-    file_path = os.path.join(words_dir, file_name)
+    file_path = os.path.join(constants.KINDLE_WORDS_DIR, file_name)
 
     new_index = 1
     if os.path.isfile(file_path):
@@ -102,17 +106,18 @@ def store(words_data):
             f.write('usage: ' + word_info['usage'].encode('utf-8') + '\n')
             f.write('book: ' + word_info['book'].encode('utf-8') + '\n')
             tz = pytz.timezone('Asia/Shanghai')
-            date = datetime.datetime.fromtimestamp(word_info['timestamp']/1000, tz).strftime('%Y-%m-%d %H:%M:%S')
+            date = datetime.datetime.fromtimestamp(
+                word_info['timestamp'] / 1000, tz).strftime('%Y-%m-%d %H:%M:%S')
             f.write('date: ' + date + '\n')
             f.write('\n')
             new_index += 1
 
 
 if __name__ == "__main__":
-    if os.path.isfile(sqlite_file):
+    if os.path.isfile(constants.KINDLE_SQLITE):
         backup_sqlite_file()
         # Connecting to the database file
-        sql_conn = sqlite3.connect(sqlite_file)
+        sql_conn = sqlite3.connect(constants.KINDLE_SQLITE)
         tackle_kindle(sql_conn)
         # Closing the connection to the database file
         sql_conn.close()

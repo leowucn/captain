@@ -1,15 +1,31 @@
 # -*- coding: utf-8 -*-
+"""
+all types might appear in result queried from youdao.com.
+'basic'           ------>基本释义
+'usage'           ------>出现的语句
+'phrase'          ------>词组短语
+'synonyms'        ------>同近义词
+'rel_word_tab'    ------>同根词
+'discriminate'    ------>词语辨析
+'collins'         ------>柯林斯
+'date'            ------>单词录入时间
+'index'           ------>index
+
+word-0            represent word from word builder
+word-1            represent word from clipboard
+"""
+
 import re
+import datetime
 import bs4
 import utility
-import datetime
-
-
-word_type = ('n.', 'v.', 'pron.', 'adj.', 'adv.', 'num.', 'art.',
-             'prep.', 'conj.', 'int.', 'vi.', 'vt.', 'aux.', 'aux.v')
+import constants
 
 
 def get_word_meaning(wrapped_word):
+    """
+    get word meaning from youdao.com, thanks for their great work.
+    """
     word = wrapped_word[:-2].strip()
     word_list = re.compile('\w+').findall(word)
     post_fix = '%20'.join(word_list)
@@ -201,12 +217,7 @@ def whether_only_alpha(src_str):
 
 
 def is_start_word_type(src):
-    for w_type in word_type:
+    for w_type in constants.WORD_TYPE:
         if src.strip().startswith(w_type):
             return True
     return False
-
-
-def p(content):
-    utility.append_log('---------------------')
-    utility.append_log(content)

@@ -11,6 +11,7 @@ import pronunciation
 import motto
 import vocabulary_list
 import utility
+import constants
 
 
 each_page_words_num = 10
@@ -237,7 +238,7 @@ def show_vocabulary_list(category_name):
         category_name.encode('utf-8'))
     return render_template('vocabulary_list.html',
                            category_name=category_name,
-                           category_name_for_show=vocabulary_list.category_dict[category_name],
+                           category_name_for_show=constants.CATEGORY_DICT[category_name],
                            list_data=list_data
                            )
 

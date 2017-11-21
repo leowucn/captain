@@ -1,21 +1,23 @@
 # -*- coding:utf-8 -*-
-import socket
+"""
+utility function
+"""
 import platform
 import os
+import re
 import json
-import requests
-import bs4
 import sys
 import urllib2
-import utility
-import traceback
-from nltk.stem import WordNetLemmatizer
 import datetime
+import bs4
+import requests
+from nltk.stem import WordNetLemmatizer
+import constants
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
 
-extractor = WordNetLemmatizer()
+REVEAL_ORIGINAL_FORM = WordNetLemmatizer()
 
 
 def show_notification(title, msg):
@@ -44,17 +46,6 @@ def write_json_file(file_name, data):
     f = open(file_name, 'w')
     f.write(json.dumps(data, indent=2))
     f.close()
-
-
-def get_ip():
-    try:
-        s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-        s.connect(("8.8.8.8", 80))
-        ip = s.getsockname()[0]
-        s.close()
-        return ip
-    except:
-        return '0.0.0.0'
 
 
 def get_content_of_url(url):
@@ -93,57 +84,57 @@ def extract_info_from_raw(raw_content, mark):
     return res
 
 
-def find_str(s, char):
-    index = 0
-
-    if char in s:
-        c = char[0]
-        for ch in s:
-            if ch == c:
-                if s[index:index + len(char)] == char:
-                    return index
-
-            index += 1
-    return -1
-
-
 def get_word_original_form(word):
     word = word.lower()
-
-    ori_form = extractor.lemmatize(word, pos='v')
+    ori_form = REVEAL_ORIGINAL_FORM.lemmatize(word, pos='v')
     if word != ori_form:
         return ori_form
     else:
-        ori_form = extractor.lemmatize(word, pos='n')
+        ori_form = REVEAL_ORIGINAL_FORM.lemmatize(word, pos='n')
         if word != ori_form:
             return ori_form
         else:
-            ori_form = extractor.lemmatize(word, pos='a')
+            ori_form = REVEAL_ORIGINAL_FORM.lemmatize(word, pos='a')
             if word != ori_form:
                 return ori_form
     return word
 
 
-def get_now_minute():
-    now = datetime.datetime.now()
-    return now.minute
+def get_concatinated_usages(dst_usage, new_usage):
+    new_usage = new_usage.replace(constants.USAGE_PREFIX, '')
+    new_usage_lst = new_usage.split('\n')
+    ok = False
+    for usage in new_usage_lst:
+        if dst_usage.find(usage) < 0:
+            if not usage.endswith('\n') and len(usage) > 0:
+                usage += '\n'
+            if not dst_usage.endswith('\n') and len(dst_usage) > 0:
+                dst_usage += '\n'
+            dst_usage += get_refined_usages(usage)
+            ok = True
+    return dst_usage, ok
 
 
-def g():
-    print('---------------------------')
-    for line in traceback.format_stack():
-        print(line.strip())
-    print('---------------------------')
+def get_refined_usages(raw_usages):
+    lst = re.compile('[0-9]+\)').split(raw_usages)
+    if len(lst) == 1:
+        return constants.USAGE_PREFIX + lst[0]
+    return constants.USAGE_PREFIX + ('\n' + constants.USAGE_PREFIX).join(lst[1:])
 
 
-def p(content):
-    utility.append_log('---------------------')
-    utility.append_log(content)
+def get_current_minute():
+    return int(datetime.datetime.now().strftime("%M"))
+
+
+def get_current_seconds():
+    return int(datetime.datetime.now().strftime("%S"))
+
+
+def log2file(content):
+    append_log('---------------------')
+    append_log(content)
 
 
 def append_log(content):
     with open('log.txt', 'a') as f:
         f.write(content + '\n')
-
-
-# ip_addr = get_ip()

@@ -1,29 +1,23 @@
 # -*- coding:utf-8 -*-
-import requests
-import bs4
 import sys
 import random
 import os
 import json
 import copy
-
+import bs4
+import requests
+import constants
 reload(sys)
 sys.setdefaultencoding('utf8')
 
-motto_path = os.path.join(os.getcwd(), 'src/learn_english/asset/motto.json')
-motto_type = ('business', 'family', 'famous', 'funny', 'leadership',
-              'life', 'love', 'movie', 'politic', 'religious', 'team')
 
-
-# dict key: 'motto', 'type', 'author'
 def get_random_motto():
-    global motto_path
     all_motto_dict = dict()
-    random_motto_type = random.choice(motto_type)
+    random_motto_type = random.choice(constants.MOTTO_TYPE)
 
     res = dict()
-    if os.path.isfile(motto_path):
-        with open(motto_path) as f:
+    if os.path.isfile(constants.MOTTO_PATH):
+        with open(constants.MOTTO_PATH) as f:
             all_motto_dict = json.load(f)
         if random_motto_type in all_motto_dict:
             res = random.choice(all_motto_dict[random_motto_type].values())
@@ -31,12 +25,12 @@ def get_random_motto():
             motto_dict = grab_motto(random_motto_type)
             res = random.choice(motto_dict[random_motto_type].values())
             all_motto_dict[random_motto_type] = motto_dict.values()[0]
-            with open(motto_path, 'w') as f:
+            with open(constants.MOTTO_PATH, 'w') as f:
                 f.write(json.dumps(all_motto_dict, indent=2))
     else:
         motto_dict = grab_motto(random_motto_type)
         res = random.choice(motto_dict[random_motto_type].values())
-        with open(motto_path, 'w') as f:
+        with open(constants.MOTTO_PATH, 'w') as f:
             f.write(json.dumps(motto_dict, indent=2))
     return res
 
@@ -68,5 +62,6 @@ def grab_motto(specific_motto_type):
     res_dict[specific_motto_type] = tmp_dict
     return res_dict
 
-# res = get_random_motto()
-# print(res)
+
+res = get_random_motto()
+print(res)

@@ -1,57 +1,31 @@
-# !/usr/bin/env python
 # -*- coding: utf-8 -*-
-import bs4
+"""
+fetch vocabulary lists from vocabulary.com, thanks for their great work!
+"""
 import os
-import utility
 import urlparse
-
-
-home_url = 'https://www.vocabulary.com/'
-lists_path_featured = os.path.join(
-    os.getcwd(), 'src/learn_english/asset/vocabulary_lists/featured.json')
-lists_path_top_rated = os.path.join(
-    os.getcwd(), 'src/learn_english/asset/vocabulary_lists/top_rated.json')
-lists_path_test_prep = os.path.join(
-    os.getcwd(), 'src/learn_english/asset/vocabulary_lists/test_prep.json')
-lists_path_literature = os.path.join(
-    os.getcwd(), 'src/learn_english/asset/vocabulary_lists/literature.json')
-lists_path_morphology_roots = os.path.join(
-    os.getcwd(), 'src/learn_english/asset/vocabulary_lists/morphology_and_roots.json')
-lists_path_historical_documents = os.path.join(
-    os.getcwd(), 'src/learn_english/asset/vocabulary_lists/historical_documents.json')
-lists_path_speeches = os.path.join(
-    os.getcwd(), 'src/learn_english/asset/vocabulary_lists/speeches.json')
-lists_path_just_for_fun = os.path.join(
-    os.getcwd(), 'src/learn_english/asset/vocabulary_lists/just_for_fun.json')
-lists_path_news = os.path.join(
-    os.getcwd(), 'src/learn_english/asset/vocabulary_lists/news.json')
-
-category_dict = {
-    'test-prep': 'Test Prep',
-    'literature': 'Literature',
-    'morphology-and-roots': 'Morphology & Roots',
-    'historical-documents': 'Historical Documents',
-    'speeches': 'Speeches',
-    'just-for-fun': 'Just for Fun',
-    'news': 'News'
-}
+import bs4
+import utility
+import constants
 
 
 def update_all_lists():
-    raw_content = utility.get_raw_content(urlparse.urljoin(home_url, 'lists'), 'col9 listcats pad2x ')
+    raw_content = utility.get_raw_content(
+        urlparse.urljoin(constants.VOCABULARY_HOME_URL, 'lists'), 'col9 listcats pad2x ')
     if raw_content == '':
         return
     category_raw_content_list = str(raw_content).split('section class')
     for category_raw_content in category_raw_content_list:
-        name = utility.extract_info_from_raw(category_raw_content, 'sectionHeader').strip()
+        name = utility.extract_info_from_raw(
+            category_raw_content, 'sectionHeader').strip()
         if name == '':
             continue
         if name == 'Featured Lists':
             update_list(category_raw_content, 'featured')
         if name == 'Top Rated Lists':
             update_list(category_raw_content, 'top-rated')
-    for url_postfix in category_dict.keys():
-        url = home_url + 'lists/' + url_postfix
+    for url_postfix in constants.CATEGORY_DICT.keys():
+        url = constants.VOCABULARY_HOME_URL + 'lists/' + url_postfix
         content = utility.get_content_of_url(url)
         soup = str(bs4.BeautifulSoup(content, 'lxml'))
         try:
@@ -70,70 +44,71 @@ def update_all_lists():
 
 def get_all_vocabulary_lists():
     result = dict()
-    if os.path.exists(lists_path_featured):
-        result['featured'] = utility.load_json_file(lists_path_featured)
-    if os.path.exists(lists_path_top_rated):
-        result['top-rated'] = utility.load_json_file(lists_path_top_rated)
-    if os.path.exists(lists_path_test_prep):
-        result['test-prep'] = utility.load_json_file(lists_path_test_prep)
-    if os.path.exists(lists_path_literature):
-        result['literature'] = utility.load_json_file(lists_path_literature)
-    if os.path.exists(lists_path_morphology_roots):
+    if os.path.exists(constants.LISTS_FEATURED):
+        result['featured'] = utility.load_json_file(constants.LISTS_FEATURED)
+    if os.path.exists(constants.LISTS_TOP_RATED):
+        result['top-rated'] = utility.load_json_file(constants.LISTS_TOP_RATED)
+    if os.path.exists(constants.LISTS_TEST_PREP):
+        result['test-prep'] = utility.load_json_file(constants.LISTS_TEST_PREP)
+    if os.path.exists(constants.LISTS_LITERATURE):
+        result['literature'] = utility.load_json_file(
+            constants.LISTS_LITERATURE)
+    if os.path.exists(constants.LISTS_MORPHOLOGY_ROOTS):
         result['morphology-and-roots'] = utility.load_json_file(
-            lists_path_morphology_roots)
-    if os.path.exists(lists_path_historical_documents):
+            constants.LISTS_MORPHOLOGY_ROOTS)
+    if os.path.exists(constants.LISTS_HISTORICAL_DOCUMENTS):
         result['historical-documents'] = utility.load_json_file(
-            lists_path_historical_documents)
-    if os.path.exists(lists_path_speeches):
-        result['speeches'] = utility.load_json_file(lists_path_speeches)
-    if os.path.exists(lists_path_just_for_fun):
+            constants.LISTS_HISTORICAL_DOCUMENTS)
+    if os.path.exists(constants.LISTS_SPEECHES):
+        result['speeches'] = utility.load_json_file(constants.LISTS_SPEECHES)
+    if os.path.exists(constants.LISTS_JUST_FOR_FUN):
         result['just-for-fun'] = utility.load_json_file(
-            lists_path_just_for_fun)
-    if os.path.exists(lists_path_news):
-        result['news'] = utility.load_json_file(lists_path_news)
+            constants.LISTS_JUST_FOR_FUN)
+    if os.path.exists(constants.LISTS_NEWS):
+        result['news'] = utility.load_json_file(constants.LISTS_NEWS)
     return result
 
 
 def get_lists_by_category(category_name):
     if category_name == 'featured':
-        return utility.load_json_file(lists_path_featured)
+        return utility.load_json_file(constants.LISTS_FEATURED)
     if category_name == 'top-rated':
-        return utility.load_json_file(lists_path_top_rated)
+        return utility.load_json_file(constants.LISTS_TOP_RATED)
     if category_name == 'test-prep':
-        return utility.load_json_file(lists_path_test_prep)
+        return utility.load_json_file(constants.LISTS_TEST_PREP)
     if category_name == 'literature':
-        return utility.load_json_file(lists_path_literature)
+        return utility.load_json_file(constants.LISTS_LITERATURE)
     if category_name == 'morphology-and-roots':
-        return utility.load_json_file(lists_path_morphology_roots)
+        return utility.load_json_file(constants.LISTS_MORPHOLOGY_ROOTS)
     if category_name == 'historical-documents':
-        return utility.load_json_file(lists_path_historical_documents)
+        return utility.load_json_file(constants.LISTS_HISTORICAL_DOCUMENTS)
     if category_name == 'speeches':
-        return utility.load_json_file(lists_path_speeches)
+        return utility.load_json_file(constants.LISTS_SPEECHES)
     if category_name == 'just-for-fun':
-        return utility.load_json_file(lists_path_just_for_fun)
+        return utility.load_json_file(constants.LISTS_JUST_FOR_FUN)
     if category_name == 'news':
-        return utility.load_json_file(lists_path_news)
+        return utility.load_json_file(constants.LISTS_NEWS)
 
 
 def get_list_data(category_name, list_name):
     if category_name == 'featured':
-        return get_value_by_key(utility.load_json_file(lists_path_featured), list_name)
+        return get_value_by_key(utility.load_json_file(constants.LISTS_FEATURED), list_name)
     if category_name == 'top-rated':
-        return get_value_by_key(utility.load_json_file(lists_path_top_rated), list_name)
+        return get_value_by_key(utility.load_json_file(constants.LISTS_TOP_RATED), list_name)
     if category_name == 'test-prep':
-        return get_value_by_key(utility.load_json_file(lists_path_test_prep), list_name)
+        return get_value_by_key(utility.load_json_file(constants.LISTS_TEST_PREP), list_name)
     if category_name == 'literature':
-        return get_value_by_key(utility.load_json_file(lists_path_literature), list_name)
+        return get_value_by_key(utility.load_json_file(constants.LISTS_LITERATURE), list_name)
     if category_name == 'morphology-and-roots':
-        return get_value_by_key(utility.load_json_file(lists_path_morphology_roots), list_name)
+        return get_value_by_key(utility.load_json_file(constants.LISTS_MORPHOLOGY_ROOTS), list_name)
     if category_name == 'historical-documents':
-        return get_value_by_key(utility.load_json_file(lists_path_historical_documents), list_name)
+        return get_value_by_key(utility.load_json_file(constants.LISTS_HISTORICAL_DOCUMENTS), list_name)
     if category_name == 'speeches':
-        return get_value_by_key(utility.load_json_file(lists_path_speeches), list_name)
+        return get_value_by_key(utility.load_json_file(constants.LISTS_SPEECHES), list_name)
     if category_name == 'just-for-fun':
-        return get_value_by_key(utility.load_json_file(lists_path_just_for_fun), list_name)
+        return get_value_by_key(utility.load_json_file(constants.LISTS_JUST_FOR_FUN), list_name)
     if category_name == 'news':
-        return get_value_by_key(utility.load_json_file(lists_path_news), list_name)
+        return get_value_by_key(utility.load_json_file(constants.LISTS_NEWS), list_name)
 
 
 def get_value_by_key(dict_data, key):
@@ -145,28 +120,30 @@ def get_value_by_key(dict_data, key):
 
 def write_lists_by_category_and_data(category_name, lists_data):
     if category_name == 'featured':
-        utility.write_json_file(lists_path_featured, lists_data)
+        utility.write_json_file(constants.LISTS_FEATURED, lists_data)
     if category_name == 'top-rated':
-        utility.write_json_file(lists_path_top_rated, lists_data)
+        utility.write_json_file(constants.LISTS_TOP_RATED, lists_data)
     if category_name == 'test-prep':
-        utility.write_json_file(lists_path_test_prep, lists_data)
+        utility.write_json_file(constants.LISTS_TEST_PREP, lists_data)
     if category_name == 'literature':
-        utility.write_json_file(lists_path_literature, lists_data)
+        utility.write_json_file(constants.LISTS_LITERATURE, lists_data)
     if category_name == 'morphology-and-roots':
-        utility.write_json_file(lists_path_morphology_roots, lists_data)
+        utility.write_json_file(constants.LISTS_MORPHOLOGY_ROOTS, lists_data)
     if category_name == 'historical-documents':
-        utility.write_json_file(lists_path_historical_documents, lists_data)
+        utility.write_json_file(
+            constants.LISTS_HISTORICAL_DOCUMENTS, lists_data)
     if category_name == 'speeches':
-        utility.write_json_file(lists_path_speeches, lists_data)
+        utility.write_json_file(constants.LISTS_SPEECHES, lists_data)
     if category_name == 'just-for-fun':
-        utility.write_json_file(lists_path_just_for_fun, lists_data)
+        utility.write_json_file(constants.LISTS_JUST_FOR_FUN, lists_data)
     if category_name == 'news':
-        utility.write_json_file(lists_path_news, lists_data)
+        utility.write_json_file(constants.LISTS_NEWS, lists_data)
 
 
-# ----------------------------------
-# get all of list detailed information from category
 def update_list(category_raw_content, category_name):
+    """
+    get all of list detailed information from category
+    """
     category_lists_dict = get_lists_by_category(category_name)
 
     item_raw_content_list = category_raw_content.split('wordlist shortlisting')
@@ -175,7 +152,7 @@ def update_list(category_raw_content, category_name):
             item_raw_content.replace('#', ''), 'href')
         if list_name in category_lists_dict:
             continue
-    
+
         list_brief_description = utility.extract_info_from_raw(
             item_raw_content, 'description')
         if len(list_brief_description) > 160:
@@ -194,40 +171,46 @@ def update_list(category_raw_content, category_name):
 
         # ------------------------------------------
         # detailed_description of list
-        entire_list_url = urlparse.urljoin(home_url, list_href)
+        entire_list_url = urlparse.urljoin(
+            constants.VOCABULARY_HOME_URL, list_href)
         raw_words_list_description = utility.get_raw_content(
             entire_list_url, 'description')
         if raw_words_list_description is not None:
-            # if category_name == 'top_rated':           
-                # p(raw_words_list_description)
-            words_list_description = utility.extract_info_from_raw(raw_words_list_description, 'description')
+            words_list_description = utility.extract_info_from_raw(
+                raw_words_list_description, 'description')
             category_lists_dict[list_name]['list_detailed_description'] = words_list_description
 
-        raw_words_list_content_list = utility.get_raw_content(entire_list_url, 'centeredContent').split('class=\"entry learnable\"')
-        
+        raw_words_list_content_list = utility.get_raw_content(
+            entire_list_url, 'centeredContent').split('class=\"entry learnable\"')
+
         for content in raw_words_list_content_list:
             if 'class="definition"' not in content:
                 raw_words_list_content_list.remove(content)
         for index, raw_words_list_content in enumerate(raw_words_list_content_list):
-            raw_words_list_content = raw_words_list_content.replace('&amp;', '&')
+            raw_words_list_content = raw_words_list_content.replace(
+                '&amp;', '&')
             raw_words_list_content = raw_words_list_content.replace('\n', ' ')
             raw_words_list_content = raw_words_list_content.replace('<i>', '')
             raw_words_list_content = raw_words_list_content.replace('</i>', '')
             raw_words_list_content = raw_words_list_content.replace('<em>', '')
-            raw_words_list_content = raw_words_list_content.replace('</em>', '')
-            raw_words_list_content = raw_words_list_content.replace('<strong>', '')
-            raw_words_list_content = raw_words_list_content.replace('</strong>', '')
+            raw_words_list_content = raw_words_list_content.replace(
+                '</em>', '')
+            raw_words_list_content = raw_words_list_content.replace(
+                '<strong>', '')
+            raw_words_list_content = raw_words_list_content.replace(
+                '</strong>', '')
             raw_words_list_content = raw_words_list_content.replace('<br>', '')
-            name = utility.extract_info_from_raw(raw_words_list_content, 'href')
+            name = utility.extract_info_from_raw(
+                raw_words_list_content, 'href')
             if name == "definitions & notes":
                 continue
 
-            definition = utility.extract_info_from_raw(raw_words_list_content, '\"definition\"')
-            # p(raw_words_list_content)
-            # p(category_name)
-            # p(list_name)
-            example = utility.extract_info_from_raw(raw_words_list_content, '\"example\"')
-            description = utility.extract_info_from_raw(raw_words_list_content, '\"description\"')
+            definition = utility.extract_info_from_raw(
+                raw_words_list_content, '\"definition\"')
+            example = utility.extract_info_from_raw(
+                raw_words_list_content, '\"example\"')
+            description = utility.extract_info_from_raw(
+                raw_words_list_content, '\"description\"')
 
             list_detailed_info_dict = dict()
             list_detailed_info_dict[name] = name
@@ -237,7 +220,8 @@ def update_list(category_raw_content, category_name):
             list_detailed_info_dict[name]['word_example'] = example
             list_detailed_info_dict[name]['word_description'] = description
 
-            category_lists_dict[list_name]['list_detailed_info'].append(list_detailed_info_dict)
+            category_lists_dict[list_name]['list_detailed_info'].append(
+                list_detailed_info_dict)
 
     write_lists_by_category_and_data(category_name, category_lists_dict)
 
@@ -256,15 +240,7 @@ def extract_detailed_address(raw_content):
     right_colon_index = raw_content[left_colon_index:].index(
         '"') + left_colon_index
     return raw_content[left_colon_index:right_colon_index]
-# -------------------------------------------------
 
-
-def p(content):
-    utility.append_log('---------------------')
-    if type(content) == int:
-        utility.append_log(str(content))
-    else:
-        utility.append_log(content)
 
 if __name__ == "__main__":
     update_all_lists()

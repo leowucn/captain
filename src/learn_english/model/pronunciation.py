@@ -1,37 +1,30 @@
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
+"""
+emit pronunciation
+"""
 import re
 import urllib
 import subprocess
 import time
 import os
-import bs4
-import requests
-import json
-import utility
 import string
 from threading import Thread
+import requests
+import bs4
+import utility
 import database
-
-
-# the interval seconds between British pronunciation and American pronunciation
-pronunciation_interval = 0.7
-# wait no more than four seconds for show pronunciation.
-timeout = 10
-
-pronunciation_dir_pre = os.path.join(
-    os.getcwd(), 'src/learn_english/asset/pronunciation')
+import constants
 
 
 def show(word):
-    t1 = Thread(target=show_literal_pronunciation, args=(word,))
-    t2 = Thread(target=launch_pronunciation, args=(word,))
+    thread_first = Thread(target=show_literal_pronunciation, args=(word,))
+    thread_second = Thread(target=launch_pronunciation, args=(word,))
 
-    t1.start()
-    t2.start()
+    thread_first.start()
+    thread_second.start()
 
-    t1.join()
-    t2.join()
+    thread_first.join()
+    thread_second.join()
 
 
 def launch_pronunciation(word):
@@ -40,7 +33,7 @@ def launch_pronunciation(word):
     stripped_word = word.strip().lower()
     if len(stripped_word) == 0:
         return
-    dst_dir = os.path.join(pronunciation_dir_pre, stripped_word[0])
+    dst_dir = os.path.join(constants.PRONUNCIATION_DIR, stripped_word[0])
     if not os.path.exists(dst_dir):
         os.makedirs(dst_dir)
         get_pronunciation(stripped_word, dst_dir)
@@ -57,7 +50,7 @@ def launch_pronunciation(word):
         if len(d) > 0:
             if 'uk' in d:
                 subprocess.Popen(['mpg123', '-q', d['uk']]).wait()
-                time.sleep(pronunciation_interval)
+                time.sleep(constants.PRONUNCIATION_INTERVAL)
             if 'us' in d:
                 subprocess.Popen(['mpg123', '-q', d['us']]).wait()
         else:
@@ -66,8 +59,10 @@ def launch_pronunciation(word):
     return
 
 
-# include British and American pronunciation.
 def get_pronunciation(word, dst_dir):
+    """
+    include British and American pronunciation.
+    """
     url = 'http://dictionary.cambridge.org/dictionary/english/' + word
     content = utility.get_content_of_url(url)
     mp3_pos_lst = [m.start() for m in re.finditer('data-src-mp3', content)]
@@ -111,7 +106,7 @@ def get_pronunciation(word, dst_dir):
     for name in mp3_name_lst:
         if os.path.isfile(name):
             subprocess.Popen(['mpg123', '-q', name]).wait()
-            time.sleep(pronunciation_interval)
+            time.sleep(constants.PRONUNCIATION_INTERVAL)
 
 
 def show_literal_pronunciation(word):
@@ -163,12 +158,6 @@ def get_text_pronunciation(word):
     else:
         basic['basic'] = ''
     return basic
-
-
-def p(c):
-    print('-----------------------')
-    print(c)
-
 
 # launch_pronunciation('agree')
 # show_literal_pronunciation('agree')

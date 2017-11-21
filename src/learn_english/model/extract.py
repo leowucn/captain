@@ -1,32 +1,25 @@
 # !/usr/bin/env python
 # -*- coding: utf-8 -*-
 import re
-
-
-invalid_characters = {
-    '@': True, '#': True,
-    '^': True, '&': True,
-    '&&': True, '||': True,
-    '*': True, "==": True,
-    "===": True, '\\': True,
-    '}': True, '`': True,
-    '=': True, '{': True
-}
+import constants
 
 
 def extract(word, paragraph):
-    # If the paragraph which contains word is not so long, then return it.
+    """
+    If the paragraph which contains word is not so long, then return it.
+    """
     if len(paragraph) <= 160:
         return [paragraph]
     sentences = []
     indices = [m.start() for m in re.finditer(word, paragraph)]
     for index in indices:
-        if index > 0 and paragraph[index-1].isalpha():
+        if index > 0 and paragraph[index - 1].isalpha():
             continue
-        if index < len(paragraph)-1:
-            if paragraph[index+len(word)].isalpha():
+        if index < len(paragraph) - 1:
+            if paragraph[index + len(word)].isalpha():
                 continue
-        extract_content = get_backward_content(paragraph[:index]) + get_forward_content(paragraph[index:])
+        extract_content = get_backward_content(
+            paragraph[:index]) + get_forward_content(paragraph[index:])
         extract_content = extract_content.strip() + '\n'
         if is_valid_string(extract_content):
             sentences.append(extract_content.strip() + '\n')
@@ -66,7 +59,7 @@ def get_forward_content(paragraph):
 
 def is_valid_string(src):
     for ch in src:
-        if ch in invalid_characters:
+        if ch in constants.INVALID_CHARACTERS:
             return False
     return True
 
