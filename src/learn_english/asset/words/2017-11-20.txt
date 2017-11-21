@@ -1,0 +1,100 @@
+1. acquaintance
+usage: [ Chapter 2 ] - the narrator crashes in the desert and makes the acquaintance of the little prince 　 So I lived my life alone, without anyone that I could really talk to, until I had an accident with my plane in the Desert of Sahara, six years ago. 
+book: 小王子 (插图版)
+date: 2017-11-08 07:22:38
+
+2. shipwreck
+usage: I was more isolated than a shipwrecked sailor on a raft in the middle of the ocean. 
+book: 小王子 (插图版)
+date: 2017-11-08 08:08:15
+
+3. railing
+usage: I will draw you a railing to put around your flower. 
+book: 小王子 (插图版)
+date: 2017-11-15 07:13:27
+
+4. apparition
+usage: Now I stared at this sudden apparition with my eyes fairly starting out of my head in astonishment. 
+book: 小王子 (插图版)
+date: 2017-11-08 08:13:07
+
+5. inhabit
+usage: Remember, I had crashed in the desert a thousand miles from any inhabited region. 
+book: 小王子 (插图版)
+date: 2017-11-08 08:14:32
+
+6. muzzle
+usage: I will draw you a muzzle for your sheep. 
+book: 小王子 (插图版)
+date: 2017-11-15 07:13:00
+
+7. faint
+usage: And yet my little man seemed neither to be straying uncertainly among the sands, nor to be fainting from fatigue or hunger or thirst or fear. 
+book: 小王子 (插图版)
+date: 2017-11-08 08:15:12
+
+8. overpowering
+usage: When a mystery is too overpowering, one dare not disobey. 
+book: 小王子 (插图版)
+date: 2017-11-08 08:16:32
+
+9. serious
+usage: And I saw a most extraordinary small person, who stood there examining me with great seriousness. 
+book: 小王子 (插图版)
+date: 2017-11-08 08:10:17
+
+10. stray
+usage: And yet my little man seemed neither to be straying uncertainly among the sands, nor to be fainting from fatigue or hunger or thirst or fear. 
+book: 小王子 (插图版)
+date: 2017-11-08 08:14:47
+
+11. mechanic
+usage: And as I had with me neither a mechanic nor any passengers, I set myself to attempt the difficult repairs all alone. 
+book: 小王子 (插图版)
+date: 2017-11-08 08:06:20
+
+12. fatigue
+usage: And yet my little man seemed neither to be straying uncertainly among the sands, nor to be fainting from fatigue or hunger or thirst or fear. 
+book: 小王子 (插图版)
+date: 2017-11-08 08:15:20
+
+13. absurd
+usage: Absurd as it might seem to me, a thousand miles from any human habitation and in danger of death, I took out of my pocket a sheet of paper and my fountain-pen. 
+book: 小王子 (插图版)
+date: 2017-11-08 08:17:00
+
+14. raft
+usage: I was more isolated than a shipwrecked sailor on a raft in the middle of the ocean. 
+book: 小王子 (插图版)
+date: 2017-11-08 08:08:34
+
+15. blundering
+usage: I felt awkward and blundering. 
+book: 小王子 (插图版)
+date: 2017-11-15 07:13:54
+
+16. habitation
+usage: The first night, then, I went to sleep on the sand, a thousand miles from any human habitation. 
+book: 小王子 (插图版)
+date: 2017-11-08 08:08:02
+
+17. overtake
+usage: I did not know how I could reach him, where I could overtake him and go on hand in hand with him once more. 
+book: 小王子 (插图版)
+date: 2017-11-15 07:14:17
+
+18. sunrise
+usage: Then one morning, exactly at sunrise, she suddenly showed herself. 
+book: 小王子 (插图版)
+date: 2017-11-16 19:29:01
+
+19. thunderstruck
+usage: I jumped to my feet, completely thunderstruck. 
+book: 小王子 (插图版)
+date: 2017-11-08 08:09:55
+
+20. sailor
+usage: I was more isolated than a shipwrecked sailor on a raft in the middle of the ocean. 
+book: 小王子 (插图版)
+date: 2017-11-08 08:08:23
+

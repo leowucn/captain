@@ -5,7 +5,7 @@ sh src/learn_english/run.sh
 if pgrep -q mongod; then
     echo running;
 else
-    mongod;
+    mongod &
 fi
 exit 0;
 
