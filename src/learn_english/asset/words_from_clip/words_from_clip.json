@@ -4,16 +4,17 @@
   "ongoing-1": "\u2705: The data comes from the Current Population Survey, between 2011 and 2016. The Census Bureau and Bureau of Labor Statistics run the survey on an ongoing basis.\n\n", 
   "interfere-1": "\u2705: This could jeopardize all the information stored on or accessed by this computer, such as health records, confidential communications, or thoughts written in a private journal. Malware can also interfere with the activities you perform with your computer. For example, if you use your computer to conduct financial transactions, the malware might allow its creator to make fraudulent transactions in your name.\n\n", 
   "atom-1": "\u2705: The Atoms of Programming\n", 
+  "primitive-1": "\u2705: Note that this may not be the actual value seen by the method: if the method is a function in non-strict mode code, null and undefined will be replaced with the global object, and primitive values will be boxed.\n", 
   "scramble-1": "\u2705: For example, nowadays it\u2019s common for malware creators to check to see if their malware is recognized by any signature-based antivirus programs. If it\u2019s recognized, they scramble their code until it\u2019s no longer recognizable by the antivirus programs, then send it out.\n\n", 
-  "gist-1": "\u2705: gist  Create gists\n", 
+  "conduct-1": "\u2705: Malware can also interfere with the activities you perform with your computer. For example, if you use your computer to conduct financial transactions, the malware might allow its creator to make fraudulent transactions in your name.\n\n", 
   "audit-1": "\u2705: It also means that the source code is openly available so others can contribute to and audit it.\n\n", 
   "fraudulent-1": "\u2705: For example, if you use your computer to conduct financial transactions, the malware might allow its creator to make fraudulent transactions in your name.\n\n", 
   "signify-1": "\u2705: The movement toward smart cities signifies attempts by public and private industry to tackle the complexity and, oftentimes, incoherence of urban design efforts to create livable and sustainable communities.\n\n", 
   "flip-1": "\u2705: The maximum height is limited to the height of the available space on a platform, but it can temporarily expand (for example, to display a comment field). Cards do not flip over to reveal information on the back.\n\n", 
   "jeopardize-1": "\u2705: Depending on what kind of malware it is, it might do anything from showing you unwanted advertisements to logging your keystrokes to taking over your entire computer. This could jeopardize all the information stored on or accessed by this computer, such as health records, confidential communications, or thoughts written in a private journal.\n\n", 
   "indefinite-1": "\u2705: The rest parameter syntax allows us to represent an indefinite number of arguments as an array.\n", 
-  "conduct-1": "\u2705: Malware can also interfere with the activities you perform with your computer. For example, if you use your computer to conduct financial transactions, the malware might allow its creator to make fraudulent transactions in your name.\n\n", 
-  "revive-1": "\u2705: Reviving the 1973 Unix Programmer's Manual\n", 
+  "overlay-1": "\u2705: A Card containing each of the card components: CardHeader (with avatar), CardMedia (with overlay), CardTitle, CardText & CardActions.\n", 
+  "gist-1": "\u2705: gist  Create gists\n", 
   "subsequently-1": "\u2705: If it\u2019s recognized, they scramble their code until it\u2019s no longer recognizable by the antivirus programs, then send it out. The best of these programs will subsequently get updated once the antivirus programmers discover the new threat, but this usually occurs at least a few days after the new attacks start to appear in the wild.\n\n", 
-  "overlay-1": "\u2705: A Card containing each of the card components: CardHeader (with avatar), CardMedia (with overlay), CardTitle, CardText & CardActions.\n"
+  "revive-1": "\u2705: Reviving the 1973 Unix Programmer's Manual\n"
 }

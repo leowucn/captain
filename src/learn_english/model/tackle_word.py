@@ -145,9 +145,8 @@ class TackleWords:
             year = t[0]
             month = t[1]
 
-            w = word_definition['word'].split('-')
-            word = w[0]
-            where = int(w[1])
+            wrapped_word = word_definition['word']
+            where = int(wrapped_word[len(wrapped_word) - 1])
 
             if year not in result[where]:
                 result[where][year] = dict()
