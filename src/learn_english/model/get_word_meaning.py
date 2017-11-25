@@ -65,7 +65,9 @@ def get_word_meaning(wrapped_word):
                     phrase_str += r + '     ' + \
                         re.sub('\s*', '', list(phrase.stripped_strings)
                                [i + 1]) + '\n'
-            print(phrase_str)
+            phrase_str = re.sub("\s+,", ",", phrase_str.strip())
+            phrase_str = re.sub("\s+◎", "◎", phrase_str.strip())
+            # print(phrase_str)
             if len(phrase_str) != 0:
                 word_meaning_dict['phrase'] = phrase_str.strip('\n')
 
@@ -224,4 +226,4 @@ def is_start_word_type(src):
     return False
 
 
-get_word_meaning('belly-1')
+# get_word_meaning('belly-1')

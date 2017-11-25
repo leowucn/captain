@@ -35,47 +35,55 @@
              font-size: 101%;
              font-family: Avenir;
         }
+
+        body {
+            background-image: url("/learn_english/static/images/hydrangea-plant-leaf.jpg");
+            background-attachment: fixed;
+            background-repeat: repeat-both;
+            background-repeat: repeat space;
+            background-repeat: repeat repeat;
+            background-repeat: round space;
+            background-size: 100% 100%;
+            background-size: cover;
+        }
+
     </style>
 </head>
 
 <body>
 <form class="ui form" action="http://127.0.0.1:9527/learn_english/" method="post">
     <div class="ui action">
-        <input class="ui compact orange tiny button" type="submit" name='' value="go home page">
+        <input class="ui grey button" type="submit" name='' value="home">
     </div>
 </form>
     <br>
     <br>
     <div class="row i-am-centered">
         <div class="column">
-            <h1 class="ui header">Words From Kindle</h1>
+            <h1 class="ui header">
+                <font color="#e6e6e6">Words From Kindle</font>
+            </h1>
             <div class="one_line">
                 <div class="ui divider"></div>
                 <form class="ui form" action="http://127.0.0.1:9527/learn_english/words_list" method="post">
                     {% for word_date in words_date_list_from_kindle %}
                     <div class="ui action">
-                        <input class="ui primary mini button" type="submit" name=0*{{ year }}*{{ word_date }} value={{ word_date[5:] }}>
+                        <input class="ui button" type="submit" name=0*{{ year }}*{{ word_date }} value={{ word_date[5:] }}>
                     </div>
                     {% endfor %}
                 </form>
             </div>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+            <br><br><br><br><br><br><br><br><br>
 
             <div class="ui divider"></div>
-            <h1 class="ui header">Words From Computer Clipboard</h1>
+            <h1 class="ui header">
+                <font color="#e6e6e6">Words From Computer Clipboard</font>
+            </h1>
             <div class="one_line">
                 <form class="ui form" action="http://127.0.0.1:9527/learn_english/words_list" method="post">
                     {% for t in words_date_list_from_clipboard %}
                     <div class="ui action">
-                        <input class="ui primary mini button" type="submit" name=1*{{ year }}*{{ t }} value={{ t }}月>
+                        <input class="ui button" type="submit" name=1*{{ year }}*{{ t }} value={{ t }}>
                     </div>
                     {% endfor %}
                 </form>

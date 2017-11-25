@@ -102,7 +102,7 @@ def show_page(cf, y, w1, i):
     come_from = cf
     year = y
     word_date = w1
-    index = i
+    index = int(i)
 
     start_index = int(index) * each_page_words_num
     last_index = (int(index) + 1) * each_page_words_num - 1

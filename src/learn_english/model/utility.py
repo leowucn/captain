@@ -132,7 +132,7 @@ def get_current_seconds():
 
 def log2file(content):
     append_log('---------------------')
-    append_log(content)
+    append_log(str(content))
 
 
 def append_log(content):

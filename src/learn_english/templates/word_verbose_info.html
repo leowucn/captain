@@ -9,20 +9,17 @@
 
     <!-- Site Properties -->
     <title>Captain</title>
-    <link rel="stylesheet" type="text/css" href="/learn_english/static/semantic/semantic.css">
+    <script src="/learn_english/static/jquery/jquery-3.2.1.min.js"></script>
     <script src="/learn_english/static/semantic/semantic.js"></script>
+    <script src="/learn_english/static/semantic/semantic.min.js"></script>
+    <script src="/learn_english/static/semantic/components/shape.js"></script>
+    <script src="/learn_english/static/semantic/components/shape.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/learn_english/static/semantic/semantic.css">
+    <link rel="stylesheet" type="text/css" href="/learn_english/static/semantic/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="/learn_english/static/semantic/components/shape.min.css">
+    <link rel="stylesheet" type="text/css" href="/learn_english/static/semantic/components/shape.css">
 
-    <script>
-        $(document)
-            .ready(function () {
-                $('.ui.selection.dropdown').dropdown();
-                $('.ui.menu .ui.dropdown').dropdown({
-                    on: 'hover'
-                });
-            })
-            ;
-    </script>
-    <style type="text/css">
+        <style type="text/css">
         p {
             white-space: pre-wrap;
         }
@@ -66,39 +63,40 @@
     </style>
 </head>
 
-<body>
-    {% if come_from == '0' %}
-        <span class="ui label">Words From Kindle</span>
-    {% endif %}
-    {% if come_from == '1' %}
-        <span class="ui label">Words From Clipboard</span>
-    {% endif %} &emsp;&emsp;&emsp;&emsp;
-    <span class="ui label">Current Page Index: {{ page_index }}</span>
 
-    <h3>{{motto['motto']}}&emsp;—{{motto['author']}}</h3>
+<body>
+    <!-- <br> -->
+    <!-- <h3>{{motto['motto']}}&emsp;—{{motto['author']}}</h3> -->
     <div class="ui divider"></div>
     <div class="one_line">
-        <form class="ui form" action="http://127.0.0.1:9527/learn_english/" method="post">
-            <div class="ui action">
-                <input class="ui compact orange tiny button" type="submit" name='' value="year list">
-            </div>
-        </form>
-        <form class="ui form" action="http://127.0.0.1:9527/learn_english/word_date_list" method="post">
-            <div class="ui action">
-                <input class="ui compact orange tiny button" type="submit" name={{ y }} value="word date list">
-            </div>
-        </form>
 
-        <form class="ui form" action="http://127.0.0.1:9527/learn_english/quickly_review" method="post">
-            <div class="ui action">
-                <input class="ui compact purple tiny button" type="submit" name={{ come_from }}*{{ y }}*{{ w }}*{{ page_index }} value="quickly review">
-            </div>
-        </form>
-        <form class="ui form" action="http://127.0.0.1:9527/learn_english/stop_quickly_review" method="post">
-            <div class="ui action">
-                <input class="ui compact purple tiny button" type="submit" name={{ come_from }}*{{ y }}*{{ w }}*{{ page_index }} value="stop">
-            </div>
-        </form>
+        <div class="ui tiny buttons">
+            <form class="ui form" action="http://127.0.0.1:9527/learn_english/" method="post">
+                <div class="ui action">
+                    <button class="ui button" type="submit" name=''>home</button>
+                </div>
+            </form>
+            <div class="or"></div>
+            <form class="ui form" action="http://127.0.0.1:9527/learn_english/word_date_list" method="post">
+                <div class="ui action">
+                    <button class="ui button" type="submit" name={{ y }}>dates</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="tiny ui buttons">
+            <form class="ui form" action="http://127.0.0.1:9527/learn_english/quickly_review" method="post">
+                <div class="ui action">
+                    <button class="ui button" type="submit" name={{ come_from }}*{{ y }}*{{ w }}*{{ page_index }}> review</button>
+                </div>
+            </form>
+            <div class="or"></div>
+            <form class="ui form" action="http://127.0.0.1:9527/learn_english/stop_quickly_review" method="post">
+                <div class="ui action">
+                    <button class="ui button" type="submit" name={{ come_from }}*{{ y }}*{{ w }}*{{ page_index }}>stop</button>
+                </div>
+            </form>
+        </div>
         <br>
     </div>
     <div class="ui divider"></div>
@@ -112,15 +110,23 @@
     <div class="ui divider"></div>
 
 
-    <div class="one_line">
+    <div class="ui buttons one_line">
         {% for i in range(button_num) %}
         <form class="ui form" action="http://127.0.0.1:9527/learn_english/specified_page" method="post">
             <div class="ui action">
             {% if come_from == '0' %}
-                <input class="ui compact green tiny button" type="submit" name={{come_from}}*{{y}}*{{w}}*{{i}} value={{w[5:]}}*{{i}}>
+                {% if i == page_index %}
+                    <input class="ui button active" type="submit" name={{come_from}}*{{y}}*{{w}}*{{i}} value={{i}}>
+                {% else %}
+                    <input class="ui button" type="submit" name={{come_from}}*{{y}}*{{w}}*{{i}} value={{i}}>
+                {% endif %}
             {% endif %}
             {% if come_from == '1' %}
-                <input class="ui compact green tiny button" type="submit" name={{come_from}}*{{y}}*{{w}}*{{i}} value={{w}}*{{i}}>
+                {% if i == page_index %}
+                    <input class="ui button active" type="submit" name={{come_from}}*{{y}}*{{w}}*{{i}} value={{i}}>
+                {% else %}
+                    <input class="ui button" type="submit" name={{come_from}}*{{y}}*{{w}}*{{i}} value={{i}}>
+                {% endif %}
             {% endif %}
             </div>
         </form>
@@ -129,157 +135,199 @@
     <br>
     <div class="ui divider"></div>
 
+
     {% for word_definition in result %}
     <div class="i-am-centered">
-        <div class="row">
-            <div class="column">
-                <div class="buttonHolder">
-                    <form class="ui form" action="http://127.0.0.1:9527/learn_english/delete" method="post">
-                        <div class="ui action">
-                            <p class="ui header">
-                                <span class="ui huge label" style="font-family:Avenir; font-size: 35px;">{{ word_definition['word'][:-2] }}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input class="ui compact red mini button" type="submit" name={{ come_from }}*{{ y }}*{{ w }}*{{ page_index }}*{{ word_definition['word'] }} value="delete">
-                            </p>
-                        </div>
-                    </form>
+        <div class="buttonHolder">
+            <form class="ui form" action="http://127.0.0.1:9527/learn_english/delete" method="post">
+                <div class="ui action">
+                    <p class="ui header">
+                        <span class="ui missive label" style="font-family:Avenir; font-size: 40px;">{{ word_definition['word'][:-2] }}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input class="ui compact red mini button" type="submit" name={{ come_from }}*{{ y }}*{{ w }}*{{ page_index }}*{{ word_definition['word'] }} value="del">
+                    </p>
                 </div>
-                <div class="ui two column grid">
-                    <div class="column">
-                        <div id='container' style='width:1000px;'>
-                            <table class="ui table">
-                                <thead>
-                                    <tr>
-                                        <th>Type</th>
-                                        <th>Verbose Info</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    {% if 'basic' in word_definition%}
-                                    <tr>
-                                        <td>{{ 'basic' }}</td>
-                                        <td>
-                                            <p>{{ word_definition['basic'] }}</p>
-                                        </td>
-                                    </tr>
-                                    {% endif %}
+            </form>
+        </div>
+
+        <div class="ui people shape">
+            <div class="sides">
+                <div class="side active">
+                    <div class="ui card" style='width:1000px; height:500dx'>
+                        <div class="content">
+                            <div class="meta">
+                                <a>
                                     {% if 'book' in word_definition%}
-                                    <tr>
-                                        <td>{{ 'book' }}</td>
-                                        <td>
-                                            <p>{{ word_definition['book'] }}</p>
-                                        </td>
-                                    </tr>
+                                        {{ word_definition['book'] }}
                                     {% endif %}
-                                    {% if 'date' in word_definition%}
-                                    <tr>
-                                        <td>{{ 'date' }}</td>
-                                        <td>
-                                            <p>{{ word_definition['date'] }}</p>
-                                        </td>
-                                    </tr>
-                                    {% endif %}
-                                    {% if 'usage' in word_definition%}
-                                    <tr>
-                                        <td>{{ 'usage' }}</td>
-                                        <td>
-                                            <p>{{ word_definition['usage'] }}</p>
-                                        </td>
-                                    </tr>
-                                    {% endif %}
-                                    {% if 'phrase' in word_definition%}
-                                    <tr>
-                                        <td>{{ 'phrase' }}</td>
-                                        <td>
-                                            <p>{{ word_definition['phrase'] }}</p>
-                                        </td>
-                                    </tr>
-                                    {% endif %}
-                                    {% if 'synonyms' in word_definition%}
-                                    <tr>
-                                        <td>{{ 'synonyms' }}</td>
-                                        <td>
-                                            <p>{{ word_definition['synonyms'] }}</p>
-                                        </td>
-                                    </tr>
-                                    {% endif %}
-                                    {% if 'rel_word_tab' in word_definition%}
-                                    <tr>
-                                        <td>{{ 'rel_word_tab' }}</td>
-                                        <td>
-                                            <p>{{ word_definition['rel_word_tab'] }}</p>
-                                        </td>
-                                    </tr>
-                                    {% endif %}
-                                    {% if 'discriminate' in word_definition%}
-                                    <tr>
-                                        <td>{{ 'discriminate' }}</td>
-                                        <td>
-                                            <p>{{ word_definition['discriminate'] }}</p>
-                                        </td>
-                                    </tr>
-                                    {% endif %}
-                                    {% if 'collins' in word_definition%}
-                                    <tr>
-                                        <td>{{ 'collins' }}</td>
-                                        <td>
-                                            <p>{{ word_definition['collins'] }}</p>
-                                        </td>
-                                    </tr>
-                                    {% endif %}
-                                </tbody>
-                            </table>
+                                </a>
+                                <br>
+                                {% if 'date' in word_definition%}
+                                    {{ word_definition['date'] }}
+                                {% endif %}
+                            </div>
+                            <div class="ui divider"></div>
+                            <div class="description">
+                                {% if 'usage' in word_definition%}
+                                    <p>{{ word_definition['usage'] }}</p>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="side">
+                    <div class="ui card" style='width:1020px;'>
+                        <div class="content">
+                            <div class="description">
+                                <div class="ui two column grid">
+                                    <div class="column">
+                                        <div id='container' style='width:1000px;'>
+                                            <table class="ui table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Type</th>
+                                                        <th>Verbose Info</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    {% if 'basic' in word_definition%}
+                                                    <tr>
+                                                        <td>{{ 'basic' }}</td>
+                                                        <td>
+                                                            <p>{{ word_definition['basic'] }}</p>
+                                                        </td>
+                                                    </tr>
+                                                    {% endif %}
+                                                    {% if 'usage' in word_definition%}
+                                                    <tr>
+                                                        <td>{{ 'usage' }}</td>
+                                                        <td>
+                                                            <p>{{ word_definition['usage'] }}</p>
+                                                        </td>
+                                                    </tr>
+                                                    {% endif %}
+                                                    {% if 'phrase' in word_definition%}
+                                                    <tr>
+                                                        <td>{{ 'phrase' }}</td>
+                                                        <td>
+                                                            <p>{{ word_definition['phrase'] }}</p>
+                                                        </td>
+                                                    </tr>
+                                                    {% endif %}
+                                                    {% if 'synonyms' in word_definition%}
+                                                    <tr>
+                                                        <td>{{ 'synonyms' }}</td>
+                                                        <td>
+                                                            <p>{{ word_definition['synonyms'] }}</p>
+                                                        </td>
+                                                    </tr>
+                                                    {% endif %}
+                                                    {% if 'rel_word_tab' in word_definition%}
+                                                    <tr>
+                                                        <td>{{ 'rel_word_tab' }}</td>
+                                                        <td>
+                                                            <p>{{ word_definition['rel_word_tab'] }}</p>
+                                                        </td>
+                                                    </tr>
+                                                    {% endif %}
+                                                    {% if 'discriminate' in word_definition%}
+                                                    <tr>
+                                                        <td>{{ 'discriminate' }}</td>
+                                                        <td>
+                                                            <p>{{ word_definition['discriminate'] }}</p>
+                                                        </td>
+                                                    </tr>
+                                                    {% endif %}
+                                                    {% if 'collins' in word_definition%}
+                                                    <tr>
+                                                        <td>{{ 'collins' }}</td>
+                                                        <td>
+                                                            <p>{{ word_definition['collins'] }}</p>
+                                                        </td>
+                                                    </tr>
+                                                    {% endif %}
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <br>
-        <br>
+        <br><br><br><br><br>
     </div>
     {% endfor %}
 
     <br>
-    <div class="one_line">
+    <div class="ui buttons one_line">
         {% for i in range(button_num) %}
         <form class="ui form" action="http://127.0.0.1:9527/learn_english/specified_page" method="post">
             <div class="ui action">
             {% if come_from == '0' %}
-                <input class="ui compact green tiny button" type="submit" name={{come_from}}*{{y}}*{{w}}*{{i}} value={{w[5:]}}*{{i}}>
+                {% if i == page_index %}
+                    <input class="ui button active" type="submit" name={{come_from}}*{{y}}*{{w}}*{{i}} value={{i}}>
+                {% else %}
+                    <input class="ui button" type="submit" name={{come_from}}*{{y}}*{{w}}*{{i}} value={{i}}>
+                {% endif %}
             {% endif %}
             {% if come_from == '1' %}
-                <input class="ui compact green tiny button" type="submit" name={{come_from}}*{{y}}*{{w}}*{{i}} value={{w}}*{{i}}>
+                {% if i == page_index %}
+                    <input class="ui button active" type="submit" name={{come_from}}*{{y}}*{{w}}*{{i}} value={{i}}>
+                {% else %}
+                    <input class="ui button" type="submit" name={{come_from}}*{{y}}*{{w}}*{{i}} value={{i}}>
+                {% endif %}
             {% endif %}
             </div>
         </form>
         {% endfor %}
-        <br>
-        <br>
-        <br>
     </div>
+    <br>
+    <br>
+    <br>
 
     <div class="ui divider"></div>
     <div class="one_line">
-        <form class="ui form" action="http://127.0.0.1:9527/learn_english/" method="post">
-            <div class="ui action">
-                <input class="ui compact orange tiny button" type="submit" name='' value="year list">
-            </div>
-        </form>
-        <form class="ui form" action="http://127.0.0.1:9527/learn_english/word_date_list" method="post">
-            <div class="ui action">
-                <input class="ui compact orange tiny button" type="submit" name={{ y }} value="word date list">
-            </div>
-        </form>
+        <div class="ui tiny buttons">
+            <form class="ui form" action="http://127.0.0.1:9527/learn_english/" method="post">
+                <div class="ui action">
+                    <button class="ui button" type="submit" name=''>home</button>
+                </div>
+            </form>
+            <div class="or"></div>
+            <form class="ui form" action="http://127.0.0.1:9527/learn_english/word_date_list" method="post">
+                <div class="ui action">
+                    <button class="ui button" type="submit" name={{ y }}>dates</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="tiny ui buttons">
+            <form class="ui form" action="http://127.0.0.1:9527/learn_english/quickly_review" method="post">
+                <div class="ui action">
+                    <button class="ui button" type="submit" name={{ come_from }}*{{ y }}*{{ w }}*{{ page_index }}> review</button>
+                </div>
+            </form>
+            <div class="or"></div>
+            <form class="ui form" action="http://127.0.0.1:9527/learn_english/stop_quickly_review" method="post">
+                <div class="ui action">
+                    <button class="ui button" type="submit" name={{ come_from }}*{{ y }}*{{ w }}*{{ page_index }}>stop</button>
+                </div>
+            </form>
+        </div>
     </div>
-    <br>
-    <br>
     <div class="ui divider"></div>
-    {% if come_from == '0' %}
-    <span class="ui label">Words From Kindle</span>
-    {% endif %}
-    {% if come_from == '1' %}
-    <span class="ui label">Words From Clipboard</span>
-    {% endif %} &emsp;&emsp;&emsp;&emsp;
-    <span class="ui label">Current Page Index: {{ page_index }}</span>
-
 </body>
-
+<script>
+    (function($) {
+        $( "document" ).ready(function() {
+          $('.sides').dblclick(function(e) {
+            let button = $(e.target)
+            res = button.closest(".shape")
+            $(res).shape('flip over')
+          })
+        })
+    })(jQuery)
+</script>
 </html>

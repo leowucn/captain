@@ -5,6 +5,7 @@ do some stuff for tackling word
 import os
 import io
 import re
+import math
 import random
 import time
 import utility
@@ -95,10 +96,7 @@ class TackleWords:
 
     def delete(self, wrapped_word):
         database.delete_word_definition_by_word(wrapped_word)
-        database.delete_clipboard_word_by_word(wrapped_word)
-
         splitted_word = wrapped_word.split('-')
-        # delete from word builder
         if splitted_word[1] == '0':
             for file_name in os.listdir(constants.KINDLE_WORDS_DIR):
                 if file_name.endswith(".txt"):
@@ -129,6 +127,12 @@ class TackleWords:
                             for line in valid_lines_lst:
                                 f.write(line)
                         break
+        else:
+            database.delete_clipboard_word_by_word(wrapped_word)
+            store = utility.load_json_file(constants.CLIP_WORDS_FILE)
+            if wrapped_word in store:
+                del store[wrapped_word]
+            utility.write_json_file(constants.CLIP_WORDS_FILE, store)
         return
 
     def get_classified_lst(self):
@@ -139,8 +143,9 @@ class TackleWords:
         result[0] = dict()
         result[1] = dict()
 
+        i = 0
         words_definitions = database.get_word_definition_all()
-        for word_definition in words_definitions:
+        for index, word_definition in enumerate(words_definitions):
             t = word_definition['date'].split(' ')[0].split('-')
             year = t[0]
             month = t[1]
@@ -151,9 +156,11 @@ class TackleWords:
             if year not in result[where]:
                 result[where][year] = dict()
             if where == 1:
-                if month not in result[where][year]:
-                    result[where][year][month] = []
-                result[where][year][month].append(word_definition)
+                i += 1
+                key = month + '(' + str(int(math.ceil(float(i) / 20))) + ')'
+                if key not in result[where][year]:
+                    result[where][year][key] = []
+                result[where][year][key].append(word_definition)
             else:
                 word_date = word_definition['date']
                 if word_date not in result[where][year]:

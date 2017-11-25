@@ -63,5 +63,5 @@ def grab_motto(specific_motto_type):
     return res_dict
 
 
-res = get_random_motto()
-print(res)
+# res = get_random_motto()
+# print(res)
