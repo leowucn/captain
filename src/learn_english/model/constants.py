@@ -27,11 +27,9 @@ MOTTO_TYPE = ('business', 'family', 'famous', 'funny', 'leadership',
 # the interval seconds between British pronunciation and American pronunciation
 PRONUNCIATION_INTERVAL = 0.7
 PRONUNCIATION_DIR = 'src/learn_english/asset/pronunciation'
-
-
 KINDLE_WORDS_DIR = 'src/learn_english/asset/words_from_kindle'
 CLIP_WORDS_FILE = 'src/learn_english/asset/words_from_clip/words_from_clip.json'
-
+ALL_WORDS_FILE = 'src/learn_english/asset/all_words/words.txt'
 # on macOs
 KINDLE_SQLITE = '/Volumes/Kindle/system/vocabulary/vocab.db'
 KINDLE_SQLITE_BACKUP = '/Volumes/Kindle/system/vocabulary/vocab.db.bak'
@@ -42,6 +40,9 @@ USAGE_PREFIX = '✅: '
 # -------------------------------------
 # vocabulary list part
 VOCABULARY_HOME_URL = 'https://www.vocabulary.com/'
+LONGMAN_HOME_URL = 'https://www.ldoceonline.com/dictionary/'
+YOUDAO_URL_PREFIX = 'http://www.youdao.com/w/eng/'
+
 
 LISTS_FEATURED = 'src/learn_english/asset/vocabulary_lists/featured.json'
 LISTS_TOP_RATED = 'src/learn_english/asset/vocabulary_lists/top_rated.json'

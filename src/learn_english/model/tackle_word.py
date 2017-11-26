@@ -9,7 +9,7 @@ import math
 import random
 import time
 import utility
-from get_word_meaning import get_word_meaning
+from youdao_definition import youdao_definition
 import pronunciation
 import database
 import constants
@@ -50,7 +50,7 @@ class TackleWords:
         if word_definition is not None:
             word_definition['usage'] = usage
         else:
-            word_definition = get_word_meaning(wrapped_word)
+            word_definition = youdao_definition(wrapped_word)
             if word_definition is None:
                 return
             if usage is not None:

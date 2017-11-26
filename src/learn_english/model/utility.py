@@ -86,18 +86,26 @@ def extract_info_from_raw(raw_content, mark):
 
 def get_word_original_form(word):
     word = word.lower()
-    ori_form = REVEAL_ORIGINAL_FORM.lemmatize(word, pos='v')
-    if word != ori_form:
+    ori_form = REVEAL_ORIGINAL_FORM.lemmatize(word, pos='a')
+    if ori_form in ALL_ENGLISH_WORDS and word == ori_form:
         return ori_form
     else:
         ori_form = REVEAL_ORIGINAL_FORM.lemmatize(word, pos='n')
-        if word != ori_form:
+        if ori_form in ALL_ENGLISH_WORDS:
             return ori_form
         else:
-            ori_form = REVEAL_ORIGINAL_FORM.lemmatize(word, pos='a')
-            if word != ori_form:
+            ori_form = REVEAL_ORIGINAL_FORM.lemmatize(word, pos='v')
+            if ori_form in ALL_ENGLISH_WORDS:
                 return ori_form
     return word
+
+
+def get_all_english_words():
+    all_words_dict = dict()
+    with open(constants.ALL_WORDS_FILE) as f:
+        for line in f:
+            all_words_dict[line.strip()] = None
+    return all_words_dict
 
 
 def get_concatinated_usages(dst_usage, new_usage):
@@ -138,3 +146,7 @@ def log2file(content):
 def append_log(content):
     with open('log.txt', 'a') as f:
         f.write(content + '\n')
+
+
+ALL_ENGLISH_WORDS = get_all_english_words()
+# print(ALL_ENGLISH_WORDS)
