@@ -8,3 +8,4 @@ pytz
 lxml
 html5lib==1.0b8
 nltk
+pymongo

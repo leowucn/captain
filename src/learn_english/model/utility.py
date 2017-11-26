@@ -149,4 +149,3 @@ def append_log(content):
 
 
 ALL_ENGLISH_WORDS = get_all_english_words()
-# print(ALL_ENGLISH_WORDS)

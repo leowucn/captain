@@ -26,7 +26,8 @@ def youdao_definition(wrapped_word):
     """
     get word meaning from youdao.com, thanks for their great work.
     """
-    url = constants.YOUDAO_URL_PREFIX + wrapped_word[:-2].strip()
+    word = wrapped_word[:-2].strip()
+    url = constants.YOUDAO_URL_PREFIX + word
     content = utility.get_content_of_url(url)
     soup = bs4.BeautifulSoup(markup=content, features='lxml')
     word_meaning_dict = dict()
