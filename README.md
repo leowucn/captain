@@ -73,27 +73,13 @@ builder, and this is why I created this project originally.
 
 ## Install requirements
 
-##### Install third-party library for python.
-
 ```
-pip install -r requirements.txt
-```
-
-##### Install mpg123 for words pronunciation via third-party packaging tool.
-
-[**Homebrew** ](http://brew.sh/)
-
-```
-brew install mpg123
-```
-
-```
-brew install mongodb
+sh install.sh
 ```
 
 ## Requirements
 
-OS: OSX
+OS: macOS
 
 ## Running the app
 

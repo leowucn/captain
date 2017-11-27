@@ -11,8 +11,8 @@ brew install mongodb
 
 sudo easy_install pip
 
-[ -d /data/db ] || mkdir -p /data/db
-chmod -R 777 /data
+[ -d /data/db ] || sudo mkdir -p /data/db
+sudo chmod -R 777 /data
 
 sudo pip install virtualenv
 virtualenv captain_env

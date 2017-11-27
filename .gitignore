@@ -97,3 +97,4 @@ core/asset/pronunciation
 nohup.out
 ./myenv
 captain_env
+.vscode
