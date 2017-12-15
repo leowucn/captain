@@ -16,15 +16,14 @@ import database
 import constants
 
 
-def show(word):
+def show(word, ithTimes):
     thread_first = Thread(target=show_literal_pronunciation, args=(word,))
-    thread_second = Thread(target=launch_pronunciation, args=(word,))
-
     thread_first.start()
-    thread_second.start()
-
+    if ithTimes < 2:
+        thread_second = Thread(target=launch_pronunciation, args=(word,))
+        thread_second.start()
+        thread_second.join()
     thread_first.join()
-    thread_second.join()
 
 
 def launch_pronunciation(word):

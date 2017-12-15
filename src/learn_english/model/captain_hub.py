@@ -21,8 +21,7 @@ def watcher():
             # p("sentence not valid!")
             sleep(constants.INTERVAL)
             continue
-        # utility.log2file('word = ' + word + ' , i = ' +
-        #                  str(i) + ' ' + ', result = ' + result)
+        # utility.log2file('word = ' + word + ' , i = ' + str(i) + ' ' + ', result = ' + result)
         if word != '' and result.find(word) >= 0:
             if word != '' and len(result) > len(word) and result.find(word) >= 0:
                 sentences = extract.extract(word, result)
@@ -36,8 +35,8 @@ def watcher():
                     i = 0
                     word = ''
                     continue
+                pronunciation.show(ori_form, i)
                 i += 1
-                pronunciation.show(ori_form)
         elif 1 < len(result) <= 20 and result.isalpha():
             word = result
             ori_form = utility.get_word_original_form(word)
