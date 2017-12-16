@@ -26,6 +26,17 @@ def show(word, ithTimes):
     thread_first.join()
 
 
+def showWithoutTimesArg(word):
+    thread_first = Thread(target=show_literal_pronunciation, args=(word,))
+    thread_first.start()
+
+    thread_second = Thread(target=launch_pronunciation, args=(word,))
+    thread_second.start()
+
+    thread_second.join()
+    thread_first.join()
+
+
 def launch_pronunciation(word):
     if not word[0].startswith(tuple(string.ascii_letters)):
         return

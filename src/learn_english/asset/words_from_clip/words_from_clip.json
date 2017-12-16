@@ -1,1 +1,3 @@
-{}
+{
+  "if-1": "\u2705: utility.show_notification(constants.REMINDER_TITLE, constants.REMINDER_REMINDER)\n\u2705: utility.show_notification(constants.REMINDER_TITLE, constants.REMINDER_RECITE)\n"
+}

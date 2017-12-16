@@ -13,6 +13,8 @@ import bs4
 import requests
 from nltk.stem import WordNetLemmatizer
 import constants
+from datetime import date
+import calendar
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
@@ -82,6 +84,11 @@ def extract_info_from_raw(raw_content, mark):
         '<') + point_one_index
     res = raw_content[left_bracket_index + 1:right_bracket_index]
     return res
+
+
+def get_day_of_week():
+    my_date = date.today()
+    return calendar.day_name[my_date.weekday()]
 
 
 def get_word_original_form(word):

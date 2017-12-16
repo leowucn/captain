@@ -7,6 +7,7 @@ import io
 import re
 import math
 import random
+import datetime
 import time
 import utility
 from youdao_definition import youdao_definition
@@ -171,11 +172,11 @@ class TackleWords:
     def emit_random_word(self):
         words_definitions = database.get_word_definition_all()
         random_word = random.choice(words_definitions)[:-2]
-        pronunciation.show(random_word)
+        pronunciation.showWithoutTimesArg(random_word)
         time.sleep(1.5)
-        pronunciation.show(random_word)
+        pronunciation.showWithoutTimesArg(random_word)
         time.sleep(1.5)
-        pronunciation.show(random_word)
+        pronunciation.showWithoutTimesArg(random_word)
         time.sleep(2)
 
     def memorize_words(self):
@@ -187,6 +188,18 @@ class TackleWords:
             self.emit_random_word()
         elif 25 <= now_minute <= 30:
             self.emit_random_word()
+
+    def check_if_has_export_kindle_words(self):
+        today = datetime.date.today()
+        month_day = "%02d-%02d" % (today.month, today.day)
+
+        files = [f for f in os.listdir(constants.KINDLE_WORDS_DIR) if os.path.isfile(
+            os.path.join(constants.KINDLE_WORDS_DIR, f))]
+        for file_name in files:
+            if month_day in file_name:
+                return True
+        return False
+
 
 
 if __name__ == "__main__":
