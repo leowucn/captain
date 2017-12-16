@@ -1,0 +1,100 @@
+1. clad
+usage: Clad in royal purple and ermine, he was seated upon a throne which was at the same time both simple and majestic. 
+book: 小王子 (插图版)
+date: 2017-11-29 07:16:25
+
+2. throne
+usage: Clad in royal purple and ermine, he was seated upon a throne which was at the same time both simple and majestic. 
+book: 小王子 (插图版)
+date: 2017-11-29 07:15:54
+
+3. majestic
+usage: Clad in royal purple and ermine, he was seated upon a throne which was at the same time both simple and majestic. 
+book: 小王子 (插图版)
+date: 2017-11-29 07:16:08
+
+4. ermine
+usage: The little prince looked everywhere to find a place to sit down; but the entire planet was crammed and obstructed by the king's magnificent ermine robe. 
+book: 小王子 (插图版)
+date: 2017-11-30 07:17:36
+
+5. arrest
+usage: He stood there all bewildered, the glass globe held arrested in mid-air. 
+book: 小王子 (插图版)
+date: 2017-11-29 07:10:09
+
+6. consuming
+usage: "Approach, so that I may see you better," said the king, who felt consumingly proud of being at last a king over somebody. 
+book: 小王子 (插图版)
+date: 2017-11-29 18:24:52
+
+7. subject
+usage: Here is a subject," exclaimed the king, when he saw the little prince coming. 
+book: 小王子 (插图版)
+date: 2017-11-29 07:16:51
+
+8. cram
+usage: The little prince looked everywhere to find a place to sit down; but the entire planet was crammed and obstructed by the king's magnificent ermine robe. 
+book: 小王子 (插图版)
+date: 2017-11-29 18:25:49
+
+9. endure
+usage: "But the animals--" "Well, I must endure the presence of two or three caterpillars if I wish to become acquainted with the butterflies. 
+book: 小王子 (插图版)
+date: 2017-11-29 07:11:30
+
+10. reproach
+usage: He was surprised by this absence of reproaches. 
+book: 小王子 (插图版)
+date: 2017-11-29 07:09:48
+
+11. linger
+usage: Then she added: "Don't linger like this. 
+book: 小王子 (插图版)
+date: 2017-11-29 07:12:58
+
+12. realize
+usage: And when he watered the flower for the last time, and prepared to place her under the shelter of her glass globe, he realised that he was very close to tears. 
+book: 小王子 (插图版)
+date: 2017-11-28 20:51:51
+
+13. chute
+usage: The little prince also pulled up, with a certain sense of dejection, the last little shoots of the baobabs. 
+book: 小王子 (插图版)
+date: 2017-11-28 20:50:35
+
+14. asteroid
+usage: [ Chapter 10 ] - the little prince visits the king He found himself in the neighborhood of the asteroids 325, 326, 327, 328, 329, and 330. 
+book: 小王子 (插图版)
+date: 2017-11-29 07:13:53
+
+15. approach
+usage: "Approach, so that I may see you better," said the king, who felt consumingly proud of being at last a king over somebody. 
+book: 小王子 (插图版)
+date: 2017-11-29 07:19:38
+
+16. globe
+usage: And when he watered the flower for the last time, and prepared to place her under the shelter of her glass globe, he realised that he was very close to tears. 
+book: 小王子 (插图版)
+date: 2017-11-28 20:51:37
+
+17. bewildered
+usage: He stood there all bewildered, the glass globe held arrested in mid-air. 
+book: 小王子 (插图版)
+date: 2017-11-29 07:10:00
+
+18. shelter
+usage: And when he watered the flower for the last time, and prepared to place her under the shelter of her glass globe, he realised that he was very close to tears. 
+book: 小王子 (插图版)
+date: 2017-11-28 20:51:25
+
+19. exclaim
+usage: Here is a subject," exclaimed the king, when he saw the little prince coming. 
+book: 小王子 (插图版)
+date: 2017-11-29 07:18:15
+
+20. caterpillar
+usage: "But the animals--" "Well, I must endure the presence of two or three caterpillars if I wish to become acquainted with the butterflies. 
+book: 小王子 (插图版)
+date: 2017-11-29 07:11:42
+

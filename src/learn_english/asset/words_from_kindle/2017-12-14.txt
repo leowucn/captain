@@ -1,0 +1,100 @@
+1. obedience
+usage: I have the right to require obedience because my orders are reasonable." 
+book: 小王子 (插图版)
+date: 2017-12-07 07:00:37
+
+2. vex
+usage: "Then I-- I order you sometimes to yawn and sometimes to--" He sputtered a little, and seemed vexed. 
+book: 小王子 (插图版)
+date: 2017-12-06 20:00:07
+
+3. assure
+usage: "Sire," he said to him, "I beg that you will excuse my asking you a question--" "I order you to ask me a question," the king hastened to assure him. 
+book: 小王子 (插图版)
+date: 2017-12-06 20:02:00
+
+4. tragic
+usage: "If I ordered a general to fly from one flower to another like a butterfly, or to write a tragic drama, or to change himself into a sea bird, and if the general did not carry out the order that he had received, which one of us would be in the wrong?" 
+book: 小王子 (插图版)
+date: 2017-12-06 20:05:28
+
+5. marvel
+usage: Such power was a thing for the little prince to marvel at. 
+book: 小王子 (插图版)
+date: 2017-12-06 20:03:43
+
+6. bulky
+usage: replied the king; and before saying anything else he consulted a bulky almanac. 
+book: 小王子 (插图版)
+date: 2017-12-07 07:03:11
+
+7. hasten
+usage: "Sire," he said to him, "I beg that you will excuse my asking you a question--" "I order you to ask me a question," the king hastened to assure him. 
+book: 小王子 (插图版)
+date: 2017-12-06 20:01:50
+
+8. insubordinate
+usage: I do not permit insubordination." 
+book: 小王子 (插图版)
+date: 2017-12-07 06:59:42
+
+9. inquire
+usage: inquired the little prince. 
+book: 小王子 (插图版)
+date: 2017-12-07 07:02:38
+
+10. rest
+usage: "Accepted authority rests first of all on reason. 
+book: 小王子 (插图版)
+date: 2017-12-07 07:00:17
+
+11. consult
+usage: replied the king; and before saying anything else he consulted a bulky almanac. 
+book: 小王子 (插图版)
+date: 2017-12-07 07:03:03
+
+12. authority
+usage: "Accepted authority rests first of all on reason. 
+book: 小王子 (插图版)
+date: 2017-12-07 07:00:12
+
+13. judge
+usage: "Then you shall judge yourself," the king answered. "that is the most difficult thing of all. 
+book: 小王子 (插图版)
+date: 2017-12-14 06:51:27
+
+14. almanac
+usage: replied the king; and before saying anything else he consulted a bulky almanac. 
+book: 小王子 (插图版)
+date: 2017-12-07 07:03:19
+
+15. favour
+usage: And because he felt a bit sad as he remembered his little planet which he had forsaken, he plucked up his courage to ask the king a favor: "I should like to see a sunset... do me that kindness... 
+book: 小王子 (插图版)
+date: 2017-12-06 20:05:03
+
+16. drama
+usage: "If I ordered a general to fly from one flower to another like a butterfly, or to write a tragic drama, or to change himself into a sea bird, and if the general did not carry out the order that he had received, which one of us would be in the wrong?" 
+book: 小王子 (插图版)
+date: 2017-12-06 20:05:37
+
+17. forsake
+usage: And because he felt a bit sad as he remembered his little planet which he had forsaken, he plucked up his courage to ask the king a favor: "I should like to see a sunset... do me that kindness... 
+book: 小王子 (插图版)
+date: 2017-12-06 20:04:38
+
+18. favourable
+usage: But, according to my science of government, I shall wait until conditions are favorable." 
+book: 小王子 (插图版)
+date: 2017-12-07 07:02:10
+
+19. reasonable
+usage: I have the right to require obedience because my orders are reasonable." 
+book: 小王子 (插图版)
+date: 2017-12-07 07:00:54
+
+20. pluck
+usage: And because he felt a bit sad as he remembered his little planet which he had forsaken, he plucked up his courage to ask the king a favor: "I should like to see a sunset... do me that kindness... 
+book: 小王子 (插图版)
+date: 2017-12-06 20:04:47
+
