@@ -65,6 +65,6 @@ CATEGORY_DICT = {
 }
 # -------------------------------------
 REMINDER_TITLE = '温馨提醒'
-REMINDER_RECITE = '◕‿↼ 今天要认真背单词呀，加油！！！✌✌✌✌'
-REMINDER_REMINDER = 'ʕ•ᴥ•ʔ 今天要导出单词了，继续加油！！！ ☕☕☕'
-REMINDER_FINISH = '(｡◕‿‿◕｡) 太棒了，你导出了所有单词，继续加油！！！♥‿♥'
+REMINDER_RECITE = """◕‿↼ 今天要认真背单词呀，加油！！！✌✌✌✌"""
+REMINDER_REMINDER = """ʕ•ᴥ•ʔ 今天要导出单词了，继续加油！！！ ☕☕☕"""
+REMINDER_FINISH = """(｡◕‿‿◕｡) 太棒了，你导出了所有单词，继续加油！！！♥‿♥"""
