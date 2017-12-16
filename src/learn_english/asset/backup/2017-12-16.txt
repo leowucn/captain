@@ -1,0 +1,100 @@
+1. entertaining
+usage: "This is more entertaining than the visit to the king," the little prince said to himself. 
+book: 小王子 (插图版)
+date: 2017-12-14 07:04:28
+
+2. admirer
+usage: I am about to receive a visit from an admirer!" 
+book: 小王子 (插图版)
+date: 2017-12-14 07:01:06
+
+3. grieve
+usage: But the little prince, having now completed his preparations for departure, had no wish to grieve the old monarch. 
+book: 小王子 (插图版)
+date: 2017-12-14 06:56:37
+
+4. demand
+usage: he demanded of the little prince. 
+book: 小王子 (插图版)
+date: 2017-12-14 07:17:38
+
+5. acclaim
+usage: "It is to raise in salute when people acclaim me. 
+book: 小王子 (插图版)
+date: 2017-12-14 07:02:41
+
+6. afar
+usage: he exclaimed from afar, when he first saw the little prince coming. 
+book: 小王子 (插图版)
+date: 2017-12-14 07:01:21
+
+7. conceited
+usage: [ Chapter 11 ] - the little prince visits the conceited man 　 The second planet was inhabited by a conceited man. 
+book: 小王子 (插图版)
+date: 2017-12-14 07:00:11
+
+8. plunge
+usage: This was a very short visit, but it plunged the little prince into deep dejection. 
+book: 小王子 (插图版)
+date: 2017-12-14 07:20:50
+
+9. hasty
+usage: "I made you my Ambassador," the king called out, hastily. 
+book: 小王子 (插图版)
+date: 2017-12-14 06:59:32
+
+10. dejected
+usage: This was a very short visit, but it plunged the little prince into deep dejection. 
+book: 小王子 (插图版)
+date: 2017-12-14 07:22:29
+
+11. tippler
+usage: [ Chapter 12 ] - the little prince visits the tippler 　 The next planet was inhabited by a tippler. 
+book: 小王子 (插图版)
+date: 2017-12-14 21:41:54
+
+12. visit
+usage: I am about to receive a visit from an admirer!" 
+book: 小王子 (插图版)
+date: 2017-12-14 07:00:41
+
+13. ambassador
+usage: "I made you my Ambassador," the king called out, hastily. 
+book: 小王子 (插图版)
+date: 2017-12-14 06:58:21
+
+14. obey
+usage: "If Your Majesty wishes to be promptly obeyed," he said, "he should be able to give me a reasonable order. 
+book: 小王子 (插图版)
+date: 2017-12-14 06:57:19
+
+15. monarch
+usage: But the little prince, having now completed his preparations for departure, had no wish to grieve the old monarch. 
+book: 小王子 (插图版)
+date: 2017-12-14 06:56:54
+
+16. clap
+usage: "Clap your hands, one against the other," the conceited man now directed him. 
+book: 小王子 (插图版)
+date: 2017-12-14 07:03:39
+
+17. salute
+usage: "It is a hat for salutes," the conceited man replied. 
+book: 小王子 (插图版)
+date: 2017-12-14 07:01:58
+
+18. salute
+usage: The conceited man raised his hat in a modest salute. 
+book: 小王子 (插图版)
+date: 2017-12-14 07:04:09
+
+19. lugubrious
+usage: "I am drinking," replied the tippler, with a lugubrious air. 
+book: 小王子 (插图版)
+date: 2017-12-14 07:23:25
+
+20. monotony
+usage: After five minutes of this exercise the little prince grew tired of the game's monotony. 
+book: 小王子 (插图版)
+date: 2017-12-14 07:15:43
+
