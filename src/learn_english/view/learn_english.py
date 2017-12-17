@@ -199,11 +199,11 @@ def quickly_review():
                 break
             word = word_definition['word'][:-2]
             time.sleep(1.5)
-            pronunciation.show(word)
+            pronunciation.showWithoutTimesArg(word)
             time.sleep(3)
-            pronunciation.show(word)
+            pronunciation.showWithoutTimesArg(word)
             time.sleep(3)
-            pronunciation.show(word)
+            pronunciation.showWithoutTimesArg(word)
         return render_template('word_verbose_info.html',
                                come_from=come_from,
                                y=year,
