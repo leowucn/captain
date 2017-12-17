@@ -1,0 +1,95 @@
+1. pardon
+usage: But you will pardon him on each occasion; for he must be treated thriftily. 
+book: 小王子 (插图版)
+date: 2017-12-14 06:53:42
+
+2. upright
+usage: So he remained standing upright, and, since he was tired, he yawned. 
+book: 小王子 (插图版)
+date: 2017-11-30 07:17:57
+
+3. thrifty
+usage: But you will pardon him on each occasion; for he must be treated thriftily. 
+book: 小王子 (插图版)
+date: 2017-12-14 06:55:11
+
+4. fundamentally
+usage: For what the king fundamentally insisted upon was that his authority should be respected. 
+book: 小王子 (插图版)
+date: 2017-11-30 07:21:15
+
+5. thoroughly
+usage: I can't stop myself," replied the little prince, thoroughly embarrassed. 
+book: 小王子 (插图版)
+date: 2017-11-30 07:19:28
+
+6. abashed
+usage: I cannot, any more..." murmured the little prince, now completely abashed. 
+book: 小王子 (插图版)
+date: 2017-11-30 07:20:01
+
+7. inquiry
+usage: came now a timid inquiry from the little prince. 
+book: 小王子 (插图版)
+date: 2017-11-30 07:23:42
+
+8. sputter
+usage: "Then I-- I order you sometimes to yawn and sometimes to--" He sputtered a little, and seemed vexed. 
+book: 小王子 (插图版)
+date: 2017-12-06 19:59:55
+
+9. timid
+usage: came now a timid inquiry from the little prince. 
+book: 小王子 (插图版)
+date: 2017-11-30 07:23:36
+
+10. general
+usage: "If I ordered a general," he would say, by way of example, "if I ordered a general to change himself into a sea bird, and if the general did not obey me, that would not be the fault of the general. 
+book: 小王子 (插图版)
+date: 2017-11-30 07:23:06
+
+11. obey
+usage: "If I ordered a general," he would say, by way of example, "if I ordered a general to change himself into a sea bird, and if the general did not obey me, that would not be the fault of the general. 
+book: 小王子 (插图版)
+date: 2017-11-30 07:22:53
+
+12. rat
+usage: "I have good reason to believe that somewhere on my planet there is an old rat. 
+book: 小王子 (插图版)
+date: 2017-12-14 06:52:41
+
+13. departure
+usage: But the little prince, having now completed his preparations for departure, had no wish to grieve the old monarch. 
+book: 小王子 (插图版)
+date: 2017-12-14 06:56:13
+
+14. preparation
+usage: But the little prince, having now completed his preparations for departure, had no wish to grieve the old monarch. 
+book: 小王子 (插图版)
+date: 2017-12-14 06:55:58
+
+15. condemn
+usage: From time to time you will condemn him to death. 
+book: 小王子 (插图版)
+date: 2017-12-14 06:53:24
+
+16. contrary
+usage: "It is contrary to etiquette to yawn in the presence of a king," the monarch said to him. 
+book: 小王子 (插图版)
+date: 2017-11-30 07:18:17
+
+17. etiquette
+usage: "It is contrary to etiquette to yawn in the presence of a king," the monarch said to him. 
+book: 小王子 (插图版)
+date: 2017-11-30 07:18:24
+
+18. majestic
+usage: "I order you to do so," the king answered him, and majestically gathered in a fold of his ermine mantle. 
+book: 小王子 (插图版)
+date: 2017-11-30 07:23:55
+
+19. disobedient
+usage: He tolerated no disobedience. 
+book: 小王子 (插图版)
+date: 2017-11-30 07:21:40
+
