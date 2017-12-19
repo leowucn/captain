@@ -4,7 +4,7 @@ extract words list from kindle
 """
 import sqlite3
 import os
-from time import gmtime, strftime
+from time import localtime, strftime
 import datetime
 import re
 import pytz
@@ -86,7 +86,7 @@ def store(words_data):
     """
     key: 'word' 'book_key' 'usage' 'timestamp'
     """
-    file_name = strftime("%Y-%m-%d", gmtime()) + '.txt'
+    file_name = strftime("%Y-%m-%d", localtime()) + '.txt'
     file_path = os.path.join(constants.KINDLE_WORDS_DIR, file_name)
 
     new_index = 1
