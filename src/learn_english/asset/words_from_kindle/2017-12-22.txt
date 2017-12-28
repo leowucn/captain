@@ -1,0 +1,120 @@
+1. ephemeral
+usage: "But what does that mean-- 'ephemeral'?" 
+book: 小王子 (插图版)
+date: 2017-12-20 19:47:47
+
+2. sharpen
+usage: And, having opened his big register, the geographer sharpened his pencil. 
+book: 小王子 (插图版)
+date: 2017-12-20 19:44:23
+
+3. veritable
+usage: To give you an idea of the size of the Earth, I will tell you that before the invention of electricity it was necessary to maintain, over the whole of the six continents, a veritable army of 462,511 lamplighters for the street lamps. 
+book: 小王子 (插图版)
+date: 2017-12-20 19:52:22
+
+4. continent
+usage: To give you an idea of the size of the Earth, I will tell you that before the invention of electricity it was necessary to maintain, over the whole of the six continents, a veritable army of 462,511 lamplighters for the street lamps. 
+book: 小王子 (插图版)
+date: 2017-12-20 19:52:04
+
+5. splendid
+usage: Seen from a slight distance, that would make a splendid spectacle. 
+book: 小王子 (插图版)
+date: 2017-12-20 19:52:57
+
+6. geography
+usage: "Geographies," said the geographer, "are the books which, of all books, are most concerned with matters of consequence. 
+book: 小王子 (插图版)
+date: 2017-12-20 19:46:13
+
+7. Pole
+usage: Only the man who was in charge of the single lamp at the North Pole, and his colleague who was responsible for the single lamp at the South Pole-- only these two would live free from toil and care: they would be busy twice a year. 
+book: 小王子 (插图版)
+date: 2017-12-20 19:55:47
+
+8. recital
+usage: The recitals of explorers are put down first in pencil. 
+book: 小王子 (插图版)
+date: 2017-12-20 19:44:33
+
+9. ballet
+usage: The movements of this army would be regulated like those of the ballet in the opera. 
+book: 小王子 (插图版)
+date: 2017-12-20 19:54:14
+
+10. regulate
+usage: The movements of this army would be regulated like those of the ballet in the opera. 
+book: 小王子 (插图版)
+date: 2017-12-20 19:53:20
+
+11. spectacle
+usage: Seen from a slight distance, that would make a splendid spectacle. 
+book: 小王子 (插图版)
+date: 2017-12-20 19:53:04
+
+12. army
+usage: To give you an idea of the size of the Earth, I will tell you that before the invention of electricity it was necessary to maintain, over the whole of the six continents, a veritable army of 462,511 lamplighters for the street lamps. 
+book: 小王子 (插图版)
+date: 2017-12-20 19:52:40
+
+13. alight
+usage: Having set their lamps alight, these would go off to sleep. 
+book: 小王子 (插图版)
+date: 2017-12-20 19:54:32
+
+14. order
+usage: And if the recollections of any one among them seem interesting to him, the geographer orders an inquiry into that explorer's moral character." 
+book: 小王子 (插图版)
+date: 2017-12-20 19:41:57
+
+15. eternal
+usage: We write of eternal things." 
+book: 小王子 (插图版)
+date: 2017-12-20 19:46:43
+
+16. moral
+usage: And if the recollections of any one among them seem interesting to him, the geographer orders an inquiry into that explorer's moral character." 
+book: 小王子 (插图版)
+date: 2017-12-20 19:42:09
+
+17. reputation
+usage: "It has a good reputation." 
+book: 小王子 (插图版)
+date: 2017-12-20 19:49:27
+
+18. stately
+usage: It was the most magnificent and stately planet that he had ever seen. 
+book: 小王子 (插图版)
+date: 2017-12-20 19:40:00
+
+19. stir
+usage: The geographer was suddenly stirred to excitement. 
+book: 小王子 (插图版)
+date: 2017-12-20 19:43:56
+
+20. furnish
+usage: But one requires the explorer to furnish proofs. 
+book: 小王子 (插图版)
+date: 2017-12-20 19:43:30
+
+21. intoxicated
+usage: "Because intoxicated men see double. 
+book: 小王子 (插图版)
+date: 2017-12-20 19:42:44
+
+22. expectant
+usage: said the geographer expectantly. 
+book: 小王子 (插图版)
+date: 2017-12-20 19:45:08
+
+23. recollection
+usage: And if the recollections of any one among them seem interesting to him, the geographer orders an inquiry into that explorer's moral character." 
+book: 小王子 (插图版)
+date: 2017-12-20 19:41:32
+
+24. loaf
+usage: The geographer is much too important to go loafing about. 
+book: 小王子 (插图版)
+date: 2017-12-20 19:41:09
+

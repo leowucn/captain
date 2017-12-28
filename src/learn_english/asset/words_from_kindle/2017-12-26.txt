@@ -1,0 +1,100 @@
+1. scholar
+usage: "A geographer is a scholar who knows the location of all the seas, rivers, towns, mountains, and deserts." 
+book: 小王子 (插图版)
+date: 2017-12-20 19:38:19
+
+2. scorn
+usage: "That man," said the little prince to himself, as he continued farther on his journey, "that man would be scorned by all the others: by the king, by the conceited man, by the tippler, by the businessman. 
+book: 小王子 (插图版)
+date: 2017-12-20 07:28:21
+
+3. regret
+usage: He breathed a sigh of regret, and said to himself, again: "That man is the only one of them all whom I could have made my friend. 
+book: 小王子 (插图版)
+date: 2017-12-20 07:29:19
+
+4. heaven
+usage: But you cannot pluck the stars from heaven..." 
+book: 小王子 (插图版)
+date: 2017-12-20 07:01:30
+
+5. tragedy
+usage: "That is the tragedy! 
+book: 小王子 (插图版)
+date: 2017-12-20 07:22:15
+
+6. repose
+usage: "Then-- the planet now makes a complete turn every minute, and I no longer have a single second for repose. 
+book: 小王子 (插图版)
+date: 2017-12-20 07:23:20
+
+7. pluck
+usage: If I owned a flower, I could pluck that flower and take it away with me. 
+book: 小王子 (插图版)
+date: 2017-12-20 07:00:23
+
+8. absurd
+usage: But he said to himself, nevertheless: "It may well be that this man is absurd. 
+book: 小王子 (插图版)
+date: 2017-12-20 07:08:53
+
+9. voluminous
+usage: It was inhabited by an old gentleman who wrote voluminous books. 
+book: 小王子 (插图版)
+date: 2017-12-20 19:35:55
+
+10. occupation
+usage: That is a beautiful occupation. 
+book: 小王子 (插图版)
+date: 2017-12-20 07:10:42
+
+11. pant
+usage: The little prince sat down on the table and panted a little. 
+book: 小王子 (插图版)
+date: 2017-12-20 19:37:47
+
+12. mop
+usage: Then he mopped his forehead with a handkerchief decorated with red squares. 
+book: 小王子 (插图版)
+date: 2017-12-20 07:20:30
+
+13. stride
+usage: The little prince went on with his explanation: "Your planet is so small that three strides will take you all the way around it. 
+book: 小王子 (插图版)
+date: 2017-12-20 07:26:30
+
+14. faithful
+usage: As the little prince watched him, he felt that he loved this lamplighter who was so faithful to his orders. 
+book: 小王子 (插图版)
+date: 2017-12-20 07:25:05
+
+15. extraordinary
+usage: "The grown-ups are certainly altogether extraordinary," he said simply, talking to himself as he continued on his journey. 
+book: 小王子 (插图版)
+date: 2017-12-20 07:06:18
+
+16. relaxation
+usage: I had the rest of the day for relaxation and the rest of the night for sleep." 
+book: 小王子 (插图版)
+date: 2017-12-20 07:21:16
+
+17. lamp
+usage: There was just enough room on it for a street lamp and a lamplighter. 
+book: 小王子 (插图版)
+date: 2017-12-20 07:07:34
+
+18. altogether
+usage: "The grown-ups are certainly altogether extraordinary," he said simply, talking to himself as he continued on his journey. 
+book: 小王子 (插图版)
+date: 2017-12-20 07:05:28
+
+19. scarf
+usage: "If I owned a silk scarf," he said, "I could put it around my neck and take it away with me. 
+book: 小王子 (插图版)
+date: 2017-12-20 06:59:59
+
+20. poetic
+usage: "It is rather poetic. 
+book: 小王子 (插图版)
+date: 2017-12-20 07:03:29
+

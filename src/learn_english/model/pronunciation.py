@@ -10,6 +10,7 @@ import os
 import string
 from threading import Thread
 import requests
+import datetime
 import bs4
 import utility
 import database
@@ -171,3 +172,8 @@ def get_text_pronunciation(word):
 
 # launch_pronunciation('agree')
 # show_literal_pronunciation('agree')
+# start_time = time.time()
+# print(get_text_pronunciation('agree'))
+# get_pronunciation('ephemeral', '/tmp')
+# get_pronunciation('royal', '/tmp')
+# print("--- %s seconds ---" % (time.time() - start_time))

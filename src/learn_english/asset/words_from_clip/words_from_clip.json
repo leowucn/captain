@@ -1,3 +1,13 @@
 {
-  "acronym-1": "\u2705: The name \u201cGNU\u201d is a recursive acronym for \u201cGNU's Not Unix.\u201d \u201cGNU\u201d is pronounced g'noo, as one syllable, like saying \u201cgrew\u201d but replacing the r with n."
+  "glob-1": "\u2705: file glob expansion", 
+  "shelve-1": "\u2705: Sometimes, ideas the Chrome team pioneers make their way out to the rest of the browsers and become tools we can all use. Sometimes\u2026 they get shelved because none of the other browsers decide to implement them.\n", 
+  "overarch-1": "\u2705: Rust\u2019s development in 2017 fit into a single overarching theme: increasing productivity, especially for newcomers to Rust. From tooling to libraries to documentation to the core language, we wanted to make it easier to get things done with Rust.\n", 
+  "workaround-1": "\u2705: Are you experiencing a bug with an open-source project? Dig in and don\u2019t stop at your local workaround. Your solution can benefit others and lead you to more open-source contributions.\n", 
+  "opportunistic-1": "\u2705: \u201cI don\u2019t have an idea\u201d is a common complaint by developers who want to contribute to open-source but think they don\u2019t have any good ideas or good projects to share. Well, to that I say: that\u2019s OK. There are opportunistic ways to contribute to open-source. Many projects have started to list good contributions for first-timers via labels or tags.\n", 
+  "locale-1": "\u2705: current  locale  is  C  or  POSIX,  the dollar sign is ignored.  If the", 
+  "hyphen-1": "\u2705: Hyphen removes leading tabs", 
+  "license-1": "\u2705: 11984495 -rw-r--r--   1 xin  staff     1063 Nov  2 10:40 LICENSE", 
+  "subscription-1": "\u2705: Avoid introducing any side-effects or subscriptions in the constructor. For those use cases, use componentDidMount() instead.", 
+  "antidote-1": "\u2705: Hustle is the antidote to fear -", 
+  "headline-1": "\u2705: Over the past few years, I\u2019ve increasingly seen articles with headlines that run something like, \u201cNew Feature Coming To the Web\u201d\u200a\u2014\u200afollowed by content which described how Chrome had implemented an experimental new feature.\n"
 }
