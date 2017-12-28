@@ -80,6 +80,7 @@ sh install.sh
 ## Requirements
 
 OS: macOS
+
 Browser: Chrome should be installed.
 
 ## Running the app
