@@ -80,6 +80,7 @@ sh install.sh
 ## Requirements
 
 OS: macOS
+Browser: Chrome should be installed.
 
 ## Running the app
 
@@ -102,6 +103,8 @@ executed that command, you should issue `sh rerun.sh` instead.
 
 For listening to word pronunciation, copy the word outright. Then the
 pronunciation would continually ring out for four times.
+
+Captain works perfectly with a Chrome plguin which is called "Auto Copy", and the address is "https://chrome.google.com/webstore/detail/bijpdibkloghppkbmhcklkogpjaenfkg"
 
 ## Feedback
 
