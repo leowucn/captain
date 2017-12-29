@@ -85,7 +85,7 @@ Browser: Chrome should be installed.
 
 ## Running the app
 
-    sh rerun.sh
+    sh run.sh
 
 Open your browser, enter the url http://127.0.0.1:9527/learn_english.
 
