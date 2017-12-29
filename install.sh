@@ -21,3 +21,4 @@ source captain_env/bin/activate
 pip install -r requirements.txt
 deactivate
 
+./captain_env/bin/python2.7 ./init_data.py
