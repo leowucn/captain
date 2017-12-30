@@ -3,7 +3,7 @@
 ## What is it?
 
 Captain is a smart clipboard recorder, a dictionary and a vocabulary builder
-which is created for learning English.
+which is created deliberately for learning English.
 
 ## Features
 
@@ -86,8 +86,6 @@ Browser: Chrome should be installed.
 ## Running the app
 
     sh run.sh
-
-Open your browser, enter the url http://127.0.0.1:9527/learn_english.
 
 ## How to use
 
