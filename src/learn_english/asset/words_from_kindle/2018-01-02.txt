@@ -1,0 +1,100 @@
+1. afterthought
+usage: [ Chapter 27 ] - the narrator's afterthoughts 　 And now six years have already gone by... 
+book: 小王子 (插图版)
+date: 2017-12-28 11:59:34
+
+2. resolute
+usage: When I succeeded in catching up with him he was walking along with a quick and resolute step. 
+book: 小王子 (插图版)
+date: 2017-12-28 11:54:32
+
+3. landscape
+usage: This is, to me, the loveliest and saddest landscape in the world. 
+book: 小王子 (插图版)
+date: 2017-12-28 12:04:51
+
+4. companion
+usage: The companions who met me on my return were well content to see me alive. 
+book: 小王子 (插图版)
+date: 2017-12-28 12:00:10
+
+5. revive
+usage: I could see that he was reviving little by little. 
+book: 小王子 (插图版)
+date: 2017-12-28 11:45:06
+
+6. malicious
+usage: Snakes-- they are malicious creatures. 
+book: 小王子 (插图版)
+date: 2017-12-28 11:53:44
+
+7. reassure
+usage: But a thought came to reassure him: "It is true that they have no more poison for a second bite." 
+book: 小王子 (插图版)
+date: 2017-12-28 11:53:57
+
+8. strap
+usage: But there is one extraordinary thing... when I drew the muzzle for the little prince, I forgot to add the leather strap to it. 
+book: 小王子 (插图版)
+date: 2017-12-28 12:01:24
+
+9. soothe
+usage: "And when your sorrow is comforted (time soothes all sorrows) you will be content that you have known me. 
+book: 小王子 (插图版)
+date: 2017-12-28 11:50:44
+
+10. shabby
+usage: It will be a very shabby trick that I shall have played on you..." 
+book: 小王子 (插图版)
+date: 2017-12-28 11:51:32
+
+11. plea
+usage: But he did not answer my plea. 
+book: 小王子 (插图版)
+date: 2017-12-28 11:47:23
+
+12. amusing
+usage: "That will be so amusing! 
+book: 小王子 (插图版)
+date: 2017-12-28 11:56:23
+
+13. absent-minded
+usage: But at another time I say to myself: "At some moment or other one is absent-minded, and that is enough! 
+book: 小王子 (插图版)
+date: 2017-12-28 12:02:55
+
+14. headlong
+usage: I was holding him close in my arms as if he were a little child; and yet it seemed to me that he was rushing headlong toward an abyss from which I could do nothing to restrain him... 
+book: 小王子 (插图版)
+date: 2017-12-28 11:44:03
+
+15. irreparable
+usage: Once again I felt myself frozen by the sense of something irreparable. 
+book: 小王子 (插图版)
+date: 2017-12-28 11:46:02
+
+16. bell
+usage: "It will be as if, in place of the stars, I had given you a great number of little bells that knew how to laugh..." 
+book: 小王子 (插图版)
+date: 2017-12-28 11:52:08
+
+17. restrain
+usage: I was holding him close in my arms as if he were a little child; and yet it seemed to me that he was rushing headlong toward an abyss from which I could do nothing to restrain him... 
+book: 小王子 (插图版)
+date: 2017-12-28 11:44:27
+
+18. motionless
+usage: He remained motionless for an instant. 
+book: 小王子 (插图版)
+date: 2017-12-28 11:57:58
+
+19. abyss
+usage: I was holding him close in my arms as if he were a little child; and yet it seemed to me that he was rushing headlong toward an abyss from which I could do nothing to restrain him... 
+book: 小王子 (插图版)
+date: 2017-12-28 11:44:41
+
+20. spring
+usage: For me, it was like a spring of fresh water in the desert. 
+book: 小王子 (插图版)
+date: 2017-12-28 11:46:39
+

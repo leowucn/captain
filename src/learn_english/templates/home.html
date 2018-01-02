@@ -101,6 +101,7 @@
              font-size: 101%;
              font-family: Avenir;
         }
+
     </style>
 </head>
 
@@ -112,17 +113,15 @@
         <p style="font-size:26px" class="ui huge label">Words Collection From Kindle And Computer Clipboard</p>
     </center>
     <br>
-    <div class="one_line" style="margin: 0 auto; width: 180px; text-align: center;">
+    <div style="text-align: center; ">
         <form class="ui form" action="http://127.0.0.1:9527/learn_english/word_date_list" method="post">
             {% for year in year_lst %}
-            <div class="ui action">
+            <div class="ui action" style="display:inline-block">
                 <input class="ui primary button" type="submit" name={{year}} value={{year}}>
             </div>
             {% endfor %}
         </form>
     </div>
-    <br>
-    <br>
     <div class="ui divider"></div>
 
     <!--Vocabulary Lists-->
